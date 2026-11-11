@@ -1,0 +1,10 @@
+The MIT License in LICENSE applies to the source code (all *.py files) only.
+
+The article texts in gold_texts/ and all data derived from them (data/,
+configs/, outputs/ and the Excel annotation files) are based on articles from
+the German and Alemannic Wikipedia and are licensed under the Creative Commons
+Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0):
+https://creativecommons.org/licenses/by-sa/4.0/
+
+See the section "License and attribution" in README.md for the list of source
+articles.

@@ -355,7 +355,8 @@ The article texts in `gold_texts/` and all data derived from them (`data/`,
 `configs/`, `outputs/` and the Excel annotation files) are based on articles
 from the German Wikipedia (de.wikipedia.org) and the Alemannic Wikipedia
 (als.wikipedia.org). They are licensed under
-[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The authors
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), see
+`LICENSE-DATA`. The authors
 of the original articles are listed in the version history of each article.
 The texts were cleaned and segmented for this project (see
 `prepare_articles.py`).
