@@ -1,0 +1,71 @@
+Wahrscheinlichkeit
+
+== lead_paragraph ==
+
+Die Wahrscheinlichkeit ist ein allgemeines Maß der Erwartung für ein unsicheres Ereignis. Auf der einen Seite sollen Vorhersagen (Prognosen) über den Ausgang zukünftiger Ereignisse gemacht werden. Auf der anderen Seite soll aber auch bei bereits eingetretenen Ereignissen beurteilt werden, wie gewöhnlich oder ungewöhnlich sie sind. In der Mathematik hat sich mit der Wahrscheinlichkeitstheorie ein eigenes Fachgebiet entwickelt. Es hat mit Versuchen bei Glücksspielen begonnen und ist heute in so gut wie allen Lebensbereichen anzutreffen.
+
+Die Wahrscheinlichkeit dafür, dass bei einem Zufallsexperiment ein bestimmtes Ereignis eintritt, ist nach Laplace das Zahlenverhältnis (Quotient) der Anzahl der günstigen Ergebnisse zur Anzahl der überhaupt möglichen Ergebnisse. Hierin unterscheidet sich die sog. klassische Wahrscheinlichkeit von der Chance, die als Quotient aus der Anzahl der günstigen zur Anzahl der ungünstigen Ergebnisse definiert ist.statistik-dresden.de
+
+== lead_paragraph ==
+
+Die verschiedenen Wahrscheinlichkeitsdefinitionen (Auffassungen von Wahrscheinlichkeit) unterscheiden sich darin, wie man den Zahlenwert der Wahrscheinlichkeit erhält.
+
+== Symmetrieprinzip – klassische, laplacesche Auffassung ==
+
+Bei einem idealen, „fairen“ Würfel (das heißt, kein Ergebnis wird durch unsymmetrische Massenverteilung oder Ähnliches bevorzugt) hat wegen der Symmetrie jede der sechs Seiten von vornherein (A-priori-Wahrscheinlichkeit) die gleiche „Chance“, nach dem Wurf oben zu liegen. Daher ist beispielsweise die Wahrscheinlichkeit, eine ungerade Zahl zu werfen, 3/6 = 0,5, denn es gibt drei günstige Ergebnisse (1, 3, 5) bei sechs möglichen Ergebnissen.
+
+Dies ist die sogenannte klassische Definition, wie sie von Christiaan Huygens Der erste Teil der Ars conjectandi ist ein von Bernoulli kommentierter Abdruck von Christaan Huygens' Abhandlung über die bei Glückspielen möglichen Berechnungen "De ratiociniis in ludo aleae". und Jakob I Bernoulli entwickelt und von Laplace formuliert wurde. Sie ist die Grundlage der klassischen Wahrscheinlichkeitstheorie. Die Elementarereignisse besitzen hierbei gleiche A-priori-Eintrittswahrscheinlichkeiten.
+
+== Häufigkeitsprinzip – statistische Wahrscheinlichkeitsauffassung ==
+
+Der Versuch wird viele Male wiederholt, dann werden die relativen Häufigkeiten der jeweiligen Elementarereignisse berechnet. Die Wahrscheinlichkeit eines Ereignisses ist nun der Grenzwert, dem die relative Häufigkeit für unendlich viele Wiederholungen zustrebt. Dies ist die sogenannte „Limes-Definition“ nach von Mises. Das Gesetz der großen Zahlen spielt hier eine zentrale Rolle. Voraussetzung sind die beliebige Wiederholbarkeit des Experiments und dass die einzelnen Durchgänge voneinander unabhängig sind. Ein anderer Name für dieses Konzept ist Frequentistischer Wahrscheinlichkeitsbegriff.
+
+Beispiel: Man würfelt 1000-mal und erhält folgende Verteilung: Die 1 fällt 100-mal (das entspricht einer relativen Häufigkeit von 10 %), die 2 fällt 150-mal (15 %), die 3 ebenfalls 150-mal (15 %), die 4 in 20 %, die 5 in 30 % und die 6 in 10 % der Fälle. Der Verdacht kommt auf, dass der Würfel nicht fair ist. Wenn nach 10.000 Versuchen sich die Zahlen bei den angegebenen Werten stabilisiert haben, dann kann man mit einiger Sicherheit sagen, dass zum Beispiel die Wahrscheinlichkeit, eine 3 zu würfeln, bei 15 % liegt.
+
+== Propensitätstheorie ==
+
+Die Propensitätstheorie interpretiert Wahrscheinlichkeit als Maß für die Neigung eines Prozesses zu einem bestimmten Ergebnis. Dieser Wahrscheinlichkeitsbegriff ist zum Beispiel in der Physik bei der Zerfallswahrscheinlichkeit eines Radionuklids gemeint; die Experimente sind hier die einzelnen, voneinander unabhängigen Zerfälle der Atomkerne. Für jeden einzelnen Atomkern nimmt man eine charakteristische Neigung (propensity) zum Zerfall an, die unabhängig von seinem Alter und der Nachbarkerne ist.
+
+== Quantenmechanische Wahrscheinlichkeitsauffassung ==
+
+In der nichtrelativistischen Quantenmechanik wird die Wellenfunktion eines Teilchens als seine fundamentale Beschreibung verwendet. Das Integral des Betragsquadrates der Wellenfunktion über ein Raumgebiet entspricht dort der Wahrscheinlichkeit, das Teilchen darin anzutreffen.Max Born: Zur Quantenmechanik der Stoßvorgänge, in: Zeitschrift für Physik 37, Nr. 12, 1926, S. 863–867 Es handelt sich also nicht um eine bloß statistische, sondern um eine nicht-determinierte Wahrscheinlichkeit.
+
+== Subjektivistische Wahrscheinlichkeitsauffassung ==
+
+Wahrscheinlichkeiten sind Grade des Vertrauens in eine ungewisse Sache, sie sind beste Schätzungen. Sie erhalten dadurch den Charakter von Hypothesen. Auch bei einmaligen Zufallsereignissen kann man deren Eintretenswahrscheinlichkeit schätzen. Zentrale Gesichtspunkte sind hier Experten­wissen, Erfahrung und Intuition. Manche Hypothesen werden für wahrscheinlicher als andere gehalten, manche müssen aufgrund neuer Informationen geändert, andere ganz verworfen werden. Man spricht von einer subjektivistischen Wahrscheinlichkeitsauffassung, siehe auch Bayesscher Wahrscheinlichkeitsbegriff.
+
+Beispiel: Nachdem jemand verschiedene Autos besessen hat, schätzt er die Wahrscheinlichkeit als hoch ein (zum Beispiel „Ich bin mir zu 80 % sicher“), mit der Marke XY auch beim nächsten Autokauf wieder zufrieden zu sein. Dieser Vorhersagewert kann zum Beispiel durch einen Testbericht nach oben oder unten verändert werden.
+
+Diese intuitive Wahrscheinlichkeitserfassung birgt jedoch eine Vielzahl von „Stolpersteinen“, die z. B. in der subjektiven Wahrnehmung (Risiken, wie etwa wegen erhöhter Geschwindigkeit zu verunfallen, werden tendenziell niedriger und Chancen, wie etwa auf einen Lottogewinn, höher als die tatsächliche Wahrscheinlichkeit des Eintritts eingeschätzt) oder der asymmetrischen Informationen liegen (Die subjektive Beurteilung von Unfallgefahren entspricht eher der Erwähnungshäufigkeit in den Medien als der tatsächlichen Unfallstatistik, klassische Beispiele dafür sind zu hoch eingeschätzte Eintrittswahrscheinlichkeiten eines Haiangriffes oder eines Flugunfalls). Aber solche a-priori-Wahrscheinlichkeiten können bei wiederholten Experimenten unter Anwendung der Bayes-Formel zu a-posteriori-Wahrscheinlichkeiten führen, die bessere Schätzungen ermöglichen. Dies wird mit dem Schlagwort „Lernen aus Erfahrung“ umschrieben.
+
+== Axiomatische Definition der Wahrscheinlichkeit ==
+
+Die axiomatische (auf Axiomen beruhende) Definition der Wahrscheinlichkeit nach Kolmogorow ist die heute für die Mathematik maßgebende Definition, siehe Axiome von Kolmogorow.
+
+== Stochastik ==
+
+Die Stochastik ist die Mathematik des ZufallsUlrich Krengel: Einführung in die Wahrscheinlichkeitstheorie und Statistik. Vieweg Verlag, Braunschweig 1991, ISBN 3-528-27259-7, S. V. oder die Mathematik der Daten und des Zufalls, also ein Teilgebiet der Mathematik und fasst als Oberbegriff die Gebiete Wahrscheinlichkeitstheorie und  Mathematische Statistik zusammen.
+
+Die Wahrscheinlichkeitsrechnung oder Wahrscheinlichkeitstheorie als Teilgebiet der Stochastik stellt die Begriffe zur mathematischen Modellierung von Vorgängen bereit, in denen zufällige Ereignisse auftreten. Auf dieser Grundlage liefert die Mathematische Statistik Verfahren, um aus Beobachtungsdaten Modellparameter zu bestimmen und Aussagen über die Angemessenheit der Modellierung machen zu können.Kurt Nawrotzki: Lehrbuch der Stochastik. Verlag Harri Deutsch, Frankfurt 1994, ISBN 3-8171-1368-4, S. 7.
+
+Wahrscheinlichkeiten sind Zahlen zwischen 0 und 1, wobei null und eins zulässige Werte sind. Einem unmöglichen Ereignis wird die Wahrscheinlichkeit 0 zugewiesen, einem sicheren Ereignis die Wahrscheinlichkeit 1. Die Umkehrung davon gilt jedoch nur, wenn die Anzahl aller Ereignisse höchstens abzählbar unendlich ist. In „überabzählbar unendlichen“ Wahrscheinlichkeitsräumen kann ein Ereignis mit Wahrscheinlichkeit 0 eintreten, es heißt dann fast unmöglich, ein Ereignis mit Wahrscheinlichkeit 1 muss nicht eintreten, es heißt dann fast sicher.Hans Christian Reichel: Wahrscheinlichkeit und Statistik. Verlag Hölder-Pichler-Tempsky, Wien 1987, ISBN 3-209-00736-5, S. 64.
+
+Siehe auch : bedingte Wahrscheinlichkeit, Wahrscheinlichkeitsmaß, Fehler 1. und 2. Art, Eintrittswahrscheinlichkeit.
+
+== Psychologie – Einschätzen von Wahrscheinlichkeiten ==
+
+Es wird oft behauptet, der Mensch besitze ein schlechtes Gefühl für die Wahrscheinlichkeit, man spricht in diesem Zusammenhang auch vom „Wahrscheinlichkeitsidioten“ (siehe auch Zahlenanalphabetismus). Dazu folgende Beispiele:
+
+* Das Geburtstagsparadoxon: Auf einem Fußballspielfeld befinden sich 23 Personen (zweimal elf Spieler und ein Schiedsrichter). Die Wahrscheinlichkeit, dass hierunter mindestens zwei Personen am gleichen Tag Geburtstag haben, ist größer als 50 %. Es ist nur deshalb ein Paradoxon, weil das Ergebnis nicht mit unserem gesunden Menschenverstand übereinstimmt; denn viele Menschen denken spontan, dass man bei 365 Tagen, die ein Jahr hat, eine wesentlich größere Gruppe als nur 23 Personen braucht, damit die Wahrscheinlichkeit einer Koinzidenz größer als 50 % ist.H. Winter: Zur intuitiven Aufklärung probabilistischer Paradoxien. In: Journal für Mathematikdidaktik, 13(1), 1992, S. 23–53
+* Sie haben an einer Vorsorgeuntersuchung teilgenommen und einen positiven Befund erhalten. Sie wissen zusätzlich, dass Sie im Vergleich zur Gesamtbevölkerung keine besonderen Risikofaktoren für die diagnostizierte Krankheit aufweisen: Mit den Rechenmethoden der bedingten Wahrscheinlichkeit kann man das tatsächliche Risiko abschätzen, dass die durch den Test erstellte Diagnose tatsächlich zutrifft. Dabei sind zwei Angaben von besonderer Bedeutung, um das Risiko eines falsch positiven Befundes zu ermitteln: die Zuverlässigkeit (Sensitivität und Spezifität) des Tests und die beobachtete Grundhäufigkeit der betreffenden Krankheit in der Gesamtbevölkerung. Dieses tatsächliche Risiko zu kennen kann dabei helfen, den Sinn weitergehender (unter Umständen folgenreicher) Behandlungen abzuwägen. In solchen Fällen ergibt die Darstellung der absoluten Häufigkeit am vollständigen Entscheidungsbaum und ein darauf aufbauendes Beratungsgespräch mit dem Arzt einen besser fasslichen Eindruck als die bloße Interpretation von Prozentzahlen aufgrund des isoliert betrachteten Testergebnisses.Heinz Böer: AIDS - Welche Aussagekraft hat ein "positives" Testergebnis ? In: Stochastik in der Schule, 1993, S. 6–15
+
+== Philosophie – Verständnisse von Wahrscheinlichkeit ==
+
+Während über den mathematischen Umgang mit Wahrscheinlichkeiten weitgehend Einigkeit herrscht (siehe Wahrscheinlichkeitstheorie), besteht Uneinigkeit darüber, worauf die Rechenregeln der mathematischen Theorie angewendet werden dürfen. Dies führt zur Frage nach der Interpretation des Begriffs „Wahrscheinlichkeit“.
+
+Häufig wird „Wahrscheinlichkeit“ in zwei verschiedenen Zusammenhängen gebraucht:
+# Aleatorische Wahrscheinlichkeit (auch: ontische/objektive/statistische Wahrscheinlichkeit) beschreibt die relative Häufigkeit zukünftiger Ereignisse, die von einem zufälligen physikalischen Prozess bestimmt werden. Genauer unterscheidet man deterministische physikalische Prozesse, die mit ausreichend genauer Information im Prinzip vorhersagbar wären (Würfelwurf, Wettervorhersage), und nichtdeterministische Prozesse, die prinzipiell nicht vorhersagbar sind (radioaktiver Zerfall).
+# Epistemische Wahrscheinlichkeit (auch: subjektive/personelle Wahrscheinlichkeit) beschreibt die Unsicherheit über Aussagen, bei denen kausale Zusammenhänge und Hintergründe nur unvollständig bekannt sind. Diese Aussagen können sich auf vergangene oder zukünftige Ereignisse beziehen. Naturgesetzen werden zum Beispiel gelegentlich epistemische Wahrscheinlichkeiten zugeordnet, ebenso Aussagen in Politik („Die Steuersenkung kommt mit 60 % Wahrscheinlichkeit.“), Wirtschaft oder Rechtsprechung.
+Aleatorische und epistemische Wahrscheinlichkeit sind lose mit dem frequentistischen und dem bayesschen Wahrscheinlichkeitsbegriff assoziiert.
+
+Es ist eine offene Frage, ob sich aleatorische Wahrscheinlichkeit auf epistemische Wahrscheinlichkeit reduzieren lässt (oder umgekehrt): Erscheint uns die Welt zufällig, weil wir nicht genug über sie wissen, oder gibt es fundamental zufällige Prozesse, wie etwa die Kopenhagener Deutung der Quantenmechanik annimmt? Obwohl für beide Standpunkte dieselben mathematischen Regeln zum Umgang mit Wahrscheinlichkeiten gelten, hat die jeweilige Sichtweise wichtige Konsequenzen dafür, welche mathematischen Modelle als gültig angesehen werden.

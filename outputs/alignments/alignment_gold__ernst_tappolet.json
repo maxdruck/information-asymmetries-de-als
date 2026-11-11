@@ -1,0 +1,2775 @@
+{
+  "pair_key": "gold__ernst_tappolet",
+  "cluster": "Gold",
+  "title": "Ernst Tappolet",
+  "als_page_id": "gold_ernst_tappolet_als",
+  "de_page_id": "gold_ernst_tappolet_de",
+  "als_title": "Ernst Tappolet",
+  "de_title": "Ernst Tappolet",
+  "embed_model": "sentence-transformers/LaBSE",
+  "xfactalign_version": "paper_style_density_normalized_distance",
+  "top_k_facts": 2,
+  "paragraph_alignment": "directed_argmax_union",
+  "fact_retrieval_metric": "D(e_i,f_j)=1-cos(e_i,f_j)-hubness(f_j)",
+  "paragraph_adjacency": [
+    {
+      "de_paragraph": 0,
+      "als_paragraph": 0,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 0,
+      "als_paragraph": 6,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 1,
+      "als_paragraph": 2,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 1,
+      "als_paragraph": 7,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 2,
+      "als_paragraph": 3,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 3,
+      "als_paragraph": 0,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 3,
+      "als_paragraph": 15,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 4,
+      "als_paragraph": 5,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 5,
+      "als_paragraph": 4,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 5,
+      "als_paragraph": 12,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 6,
+      "als_paragraph": 7,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 7,
+      "als_paragraph": 8,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 8,
+      "als_paragraph": 9,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 9,
+      "als_paragraph": 1,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 9,
+      "als_paragraph": 10,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 10,
+      "als_paragraph": 13,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 11,
+      "als_paragraph": 8,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 12,
+      "als_paragraph": 3,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 13,
+      "als_paragraph": 4,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 13,
+      "als_paragraph": 11,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 14,
+      "als_paragraph": 12,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 15,
+      "als_paragraph": 13,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 15,
+      "als_paragraph": 14,
+      "weight": 1
+    }
+  ],
+  "de_to_als": [
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 0,
+      "source_fact": "Ernst Emanuel Tappolet wurde am 21. Oktober 1870 in Hittnau geboren.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 0,
+          "target_fact": "Ernst Emanuel Tappolet wurde am 21. Oktober 1870 in Hittnau geboren.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.2971
+        },
+        {
+          "target_fact_index": 1,
+          "target_fact": "Ernst Emanuel Tappolet starb am 2. November 1939 in Basel.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0812
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 1,
+      "source_fact": "Ernst Emanuel Tappolet starb am 2. November 1939 in Basel.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 1,
+          "target_fact": "Ernst Emanuel Tappolet starb am 2. November 1939 in Basel.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.3139
+        },
+        {
+          "target_fact_index": 0,
+          "target_fact": "Ernst Emanuel Tappolet wurde am 21. Oktober 1870 in Hittnau geboren.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0644
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 2,
+      "source_fact": "Ernst Emanuel Tappolet war ein Schweizer Romanist.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 2,
+          "target_fact": "Ernst Emanuel Tappolet war ein Schweizer Romanist.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.2389
+        },
+        {
+          "target_fact_index": 3,
+          "target_fact": "Ernst Emanuel Tappolet schrieb seinen Vornamen in französischen Texten als Ernest.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0278
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 3,
+      "source_fact": "Ernst Emanuel Tappolet wurde in französischsprachigen Publikationen Ernest Tappolet genannt.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 3,
+          "target_fact": "Ernst Emanuel Tappolet schrieb seinen Vornamen in französischen Texten als Ernest.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1571
+        },
+        {
+          "target_fact_index": 2,
+          "target_fact": "Ernst Emanuel Tappolet war ein Schweizer Romanist.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0707
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 4,
+      "source_fact": "Ernst Emanuel Tappolet gründete 1899 das Glossaire des patois de la Suisse romande.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 5,
+          "target_fact": "Ernst Emanuel Tappolet gründete 1899 zusammen mit Louis Gauchat und Jules Jeanjaquet das Glossaire des patois de la Suisse romande.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1418
+        },
+        {
+          "target_fact_index": 7,
+          "target_fact": "Jules Jeanjaquet war an der Gründung des Glossaire des patois de la Suisse romande beteiligt.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0779
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 5,
+      "source_fact": "Louis Gauchat war an der Gründung des Glossaire des patois de la Suisse romande beteiligt.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 6,
+          "target_fact": "Louis Gauchat war an der Gründung des Glossaire des patois de la Suisse romande beteiligt.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.4158
+        },
+        {
+          "target_fact_index": 7,
+          "target_fact": "Jules Jeanjaquet war an der Gründung des Glossaire des patois de la Suisse romande beteiligt.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.2842
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 6,
+      "source_fact": "Jules Jeanjaquet war an der Gründung des Glossaire des patois de la Suisse romande beteiligt.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 7,
+          "target_fact": "Jules Jeanjaquet war an der Gründung des Glossaire des patois de la Suisse romande beteiligt.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.4035
+        },
+        {
+          "target_fact_index": 6,
+          "target_fact": "Louis Gauchat war an der Gründung des Glossaire des patois de la Suisse romande beteiligt.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.2965
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 7,
+      "source_fact": "Ernst Emanuel Tappolet vertrat 1901 die Meinung, dass Zürich die erste Schweizer Stadt sei, in der das Standarddeutsche den Dialekt als Umgangssprache verdränge.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 2,
+          "target_fact": "Ernst Emanuel Tappolet war ein Schweizer Romanist.",
+          "target_paragraph": 0,
+          "density_normalized_distance": 0.0421
+        },
+        {
+          "target_fact_index": 27,
+          "target_fact": "Er war Mitglied der Abstinenzler-Bewegung.",
+          "target_paragraph": 6,
+          "density_normalized_distance": 0.0675
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 8,
+      "source_fact": "Die Meinung von Ernst Emanuel Tappolet aus dem Jahr 1901, dass Zürich die erste Schweizer Stadt sei, in der das Standarddeutsche den Dialekt als Umgangssprache verdränge, wird noch heute gelegentlich zitiert.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 2,
+          "target_fact": "Ernst Emanuel Tappolet war ein Schweizer Romanist.",
+          "target_paragraph": 0,
+          "density_normalized_distance": 0.0714
+        },
+        {
+          "target_fact_index": 3,
+          "target_fact": "Ernst Emanuel Tappolet schrieb seinen Vornamen in französischen Texten als Ernest.",
+          "target_paragraph": 0,
+          "density_normalized_distance": 0.1038
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 9,
+      "source_fact": "Ernst Tappolet stammte aus einer Familie.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 13,
+          "target_fact": "Ernst Tappolet kommt aus einer Familie.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.3211
+        },
+        {
+          "target_fact_index": 31,
+          "target_fact": "Ernst Tappolet war bei den Aufnahmen vom Patois auf Gramofonplatten beteiligt.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.0366
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 10,
+      "source_fact": "Paul Friedrich Tappolez war der Vater von Ernst Tappolet.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 14,
+          "target_fact": "Der Vater von Ernst Tappolet war Pfarrer im Zürcher Oberland.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1365
+        },
+        {
+          "target_fact_index": 13,
+          "target_fact": "Ernst Tappolet kommt aus einer Familie.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0737
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 11,
+      "source_fact": "Paul Friedrich Tappolez war Pfarrer im Zürcher Oberland.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 14,
+          "target_fact": "Der Vater von Ernst Tappolet war Pfarrer im Zürcher Oberland.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1078
+        },
+        {
+          "target_fact_index": 31,
+          "target_fact": "Ernst Tappolet war bei den Aufnahmen vom Patois auf Gramofonplatten beteiligt.",
+          "target_paragraph": 7,
+          "density_normalized_distance": 0.1072
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 12,
+      "source_fact": "Siegfried Tappolet war ein Halbgeschwister von Ernst Tappolet.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 14,
+          "target_fact": "Der Vater von Ernst Tappolet war Pfarrer im Zürcher Oberland.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0757
+        },
+        {
+          "target_fact_index": 13,
+          "target_fact": "Ernst Tappolet kommt aus einer Familie.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.037
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 13,
+      "source_fact": "Siegfried Tappolet war Opernsänger.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 14,
+          "target_fact": "Der Vater von Ernst Tappolet war Pfarrer im Zürcher Oberland.",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.0409
+        },
+        {
+          "target_fact_index": 31,
+          "target_fact": "Ernst Tappolet war bei den Aufnahmen vom Patois auf Gramofonplatten beteiligt.",
+          "target_paragraph": 7,
+          "density_normalized_distance": 0.0597
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 14,
+      "source_fact": "Siegfried Tappolet war Gesangspädagoge.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 14,
+          "target_fact": "Der Vater von Ernst Tappolet war Pfarrer im Zürcher Oberland.",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.0449
+        },
+        {
+          "target_fact_index": 31,
+          "target_fact": "Ernst Tappolet war bei den Aufnahmen vom Patois auf Gramofonplatten beteiligt.",
+          "target_paragraph": 7,
+          "density_normalized_distance": 0.0689
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 15,
+      "source_fact": "Bertha Tappolet war ein Halbgeschwister von Ernst Tappolet.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 13,
+          "target_fact": "Ernst Tappolet kommt aus einer Familie.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0261
+        },
+        {
+          "target_fact_index": 14,
+          "target_fact": "Der Vater von Ernst Tappolet war Pfarrer im Zürcher Oberland.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0211
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 16,
+      "source_fact": "Bertha Tappolet war Künstlerin.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 31,
+          "target_fact": "Ernst Tappolet war bei den Aufnahmen vom Patois auf Gramofonplatten beteiligt.",
+          "target_paragraph": 7,
+          "density_normalized_distance": 0.0906
+        },
+        {
+          "target_fact_index": 13,
+          "target_fact": "Ernst Tappolet kommt aus einer Familie.",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.0917
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 17,
+      "source_fact": "Tappolet studierte in Marburg.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 15,
+          "target_fact": "Ernst hat in Marburg studiert.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.1878
+        },
+        {
+          "target_fact_index": 16,
+          "target_fact": "Ernst war danach in Zürich Gymnasiallehrer.",
+          "target_paragraph": 3,
+          "density_normalized_distance": 0.093
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 18,
+      "source_fact": "Die Habilitation von Tappolet erfolgte 1902 in Zürich.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 16,
+          "target_fact": "Ernst war danach in Zürich Gymnasiallehrer.",
+          "target_paragraph": 3,
+          "density_normalized_distance": 0.0487
+        },
+        {
+          "target_fact_index": 18,
+          "target_fact": "Ernst habilitierte sich 1902 mit der Arbeit Über den Stand der Mundarten in der deutschen und französischen Schweiz.",
+          "target_paragraph": 3,
+          "density_normalized_distance": 0.1018
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 19,
+      "source_fact": "Die Habilitation von Tappolet erfolgte mit der Schrift Über den Stand der Mundarten in der deutschen und französischen Schweiz (Zürich 1901).",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 18,
+          "target_fact": "Ernst habilitierte sich 1902 mit der Arbeit Über den Stand der Mundarten in der deutschen und französischen Schweiz.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.1084
+        },
+        {
+          "target_fact_index": 17,
+          "target_fact": "Ernst schrieb 1901 die Arbeit Über den Stand der Mundarten in der deutschen und französischen Schweiz.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.0363
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 20,
+      "source_fact": "Ernst Emanuel Tappolet war einige Jahre als Französischlehrer an der Zürcher Kantonsschule tätig.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 2,
+          "target_fact": "Ernst Emanuel Tappolet war ein Schweizer Romanist.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.036
+        },
+        {
+          "target_fact_index": 3,
+          "target_fact": "Ernst Emanuel Tappolet schrieb seinen Vornamen in französischen Texten als Ernest.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0001
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 21,
+      "source_fact": "Ernst Emanuel Tappolet wurde 1904 an die Universität Basel berufen.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 4,
+          "target_fact": "Ernst Emanuel Tappolet war Professor an der Universität Basel.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1192
+        },
+        {
+          "target_fact_index": 1,
+          "target_fact": "Ernst Emanuel Tappolet starb am 2. November 1939 in Basel.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0937
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 22,
+      "source_fact": "Ernst Emanuel Tappolet wirkte fortan als Professor für romanische Philologie an der Universität Basel.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 4,
+          "target_fact": "Ernst Emanuel Tappolet war Professor an der Universität Basel.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1355
+        },
+        {
+          "target_fact_index": 2,
+          "target_fact": "Ernst Emanuel Tappolet war ein Schweizer Romanist.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0155
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 23,
+      "source_fact": "Ab 1924 arbeitete Ernst Emanuel Tappolet gleichzeitig als Redaktor am Glossaire des patois de la Suisse romande.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 5,
+          "target_fact": "Ernst Emanuel Tappolet gründete 1899 zusammen mit Louis Gauchat und Jules Jeanjaquet das Glossaire des patois de la Suisse romande.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0297
+        },
+        {
+          "target_fact_index": 2,
+          "target_fact": "Ernst Emanuel Tappolet war ein Schweizer Romanist.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0202
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 24,
+      "source_fact": "Ernst Emanuel Tappolet begründete 1899 das Glossaire des patois de la Suisse romande zusammen mit Louis Gauchat und Jules Jeanjaquet.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 5,
+          "target_fact": "Ernst Emanuel Tappolet gründete 1899 zusammen mit Louis Gauchat und Jules Jeanjaquet das Glossaire des patois de la Suisse romande.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.2674
+        },
+        {
+          "target_fact_index": 7,
+          "target_fact": "Jules Jeanjaquet war an der Gründung des Glossaire des patois de la Suisse romande beteiligt.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1803
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 25,
+      "source_fact": "Louis Gauchat begründete 1899 das Glossaire des patois de la Suisse romande zusammen mit Ernst Emanuel Tappolet und Jules Jeanjaquet.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 5,
+          "target_fact": "Ernst Emanuel Tappolet gründete 1899 zusammen mit Louis Gauchat und Jules Jeanjaquet das Glossaire des patois de la Suisse romande.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.2536
+        },
+        {
+          "target_fact_index": 7,
+          "target_fact": "Jules Jeanjaquet war an der Gründung des Glossaire des patois de la Suisse romande beteiligt.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1997
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 26,
+      "source_fact": "Jules Jeanjaquet begründete 1899 das Glossaire des patois de la Suisse romande zusammen mit Ernst Emanuel Tappolet und Louis Gauchat.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 5,
+          "target_fact": "Ernst Emanuel Tappolet gründete 1899 zusammen mit Louis Gauchat und Jules Jeanjaquet das Glossaire des patois de la Suisse romande.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.2546
+        },
+        {
+          "target_fact_index": 7,
+          "target_fact": "Jules Jeanjaquet war an der Gründung des Glossaire des patois de la Suisse romande beteiligt.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.2213
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 27,
+      "source_fact": "Ernst Emanuel Tappolet wurde 1935 zu seinem 65. Geburtstag mit einer Festschrift geehrt.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 58,
+          "target_fact": "Die Publikation zur Erinnerung an Ernst Tappolet erschien 1940 in Basel.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.0502
+        },
+        {
+          "target_fact_index": 56,
+          "target_fact": "Es gibt eine Publikation zur Erinnerung an Herrn Prof. Ernst Tappolet.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.0485
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 28,
+      "source_fact": "Ernst Tappolet war ab 1897 mit Johanna Elisabeth Schlub verheiratet.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 25,
+          "target_fact": "Ghüraate hat 1897 Johanna Elisabeth Schlub geheiratet.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.2923
+        },
+        {
+          "target_fact_index": 26,
+          "target_fact": "Johanna Elisabeth Schlub lebte von 1866 bis 1941.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.1773
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 29,
+      "source_fact": "Johanna Elisabeth Schlub lebte von 1866 bis 1941.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 26,
+          "target_fact": "Johanna Elisabeth Schlub lebte von 1866 bis 1941.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.3924
+        },
+        {
+          "target_fact_index": 25,
+          "target_fact": "Ghüraate hat 1897 Johanna Elisabeth Schlub geheiratet.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.1809
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 30,
+      "source_fact": "Im Zentrum von Tappolets Lehre stand die Onomasiologie (Wortfeldforschung) der romanischen Sprachen.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 20,
+          "target_fact": "Ernst Emanuel Tappolet gründete die romanistische Dialektologie.",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.0505
+        },
+        {
+          "target_fact_index": 22,
+          "target_fact": "Ernst Emanuel Tappolet setzte sich mit grundsätzlichen Fragen zur Natur der Sprachen auseinander.",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.0596
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 31,
+      "source_fact": "Im Zentrum von Tappolets Lehre stand die romanistische Dialektologie.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 20,
+          "target_fact": "Ernst Emanuel Tappolet gründete die romanistische Dialektologie.",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.0403
+        },
+        {
+          "target_fact_index": 22,
+          "target_fact": "Ernst Emanuel Tappolet setzte sich mit grundsätzlichen Fragen zur Natur der Sprachen auseinander.",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.1536
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 32,
+      "source_fact": "Tappolet vermittelte seinen Schülern ein Wissen, das diese direkt im neusprachlichen Unterricht anwenden konnten.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 21,
+          "target_fact": "Ernst Emanuel Tappolet vermittelte seinen Schülern ein Wissen, das sie direkt im Neuspraachenunterricht nutzen konnten.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.1792
+        },
+        {
+          "target_fact_index": 23,
+          "target_fact": "Ernst Emanuel Tappolet veröffentlichte 1907 das Werk Die Sprache des Kindes.",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.1928
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 33,
+      "source_fact": "Tappolet setzte sich mit grundsätzlichen Fragen zur Natur der Sprachen auseinander.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 22,
+          "target_fact": "Ernst Emanuel Tappolet setzte sich mit grundsätzlichen Fragen zur Natur der Sprachen auseinander.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.1378
+        },
+        {
+          "target_fact_index": 23,
+          "target_fact": "Ernst Emanuel Tappolet veröffentlichte 1907 das Werk Die Sprache des Kindes.",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.103
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 34,
+      "source_fact": "Tappolet veröffentlichte 1907 das Werk Die Sprache des Kindes.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 23,
+          "target_fact": "Ernst Emanuel Tappolet veröffentlichte 1907 das Werk Die Sprache des Kindes.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.1501
+        },
+        {
+          "target_fact_index": 24,
+          "target_fact": "Ernst Emanuel Tappolet veröffentlichte 1913 das Werk Die Ursachen des Wortreichtums bei den Haustiernamen der französischen Schweiz.",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.1374
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 35,
+      "source_fact": "Tappolet veröffentlichte 1913 das Werk Die Ursachen des Wortreichtums bei den Haustiernamen der französischen Schweiz.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 51,
+          "target_fact": "Die Ursachen des Wortreichtums bei den Haustiernamen der französischen Schweiz wurde 1913 veröffentlicht.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.172
+        },
+        {
+          "target_fact_index": 24,
+          "target_fact": "Ernst Emanuel Tappolet veröffentlichte 1913 das Werk Die Ursachen des Wortreichtums bei den Haustiernamen der französischen Schweiz.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.1587
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 36,
+      "source_fact": "Tappolet verfasste unter anderem die Artikel ados für das Glossaire des patois de la Suisse romande.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 28,
+          "target_fact": "Ernst Tappolet war 1899 einer der Gründerväter vom Glossaire des patois de la Suisse romande.",
+          "target_paragraph": 7,
+          "density_normalized_distance": 0.0345
+        },
+        {
+          "target_fact_index": 31,
+          "target_fact": "Ernst Tappolet war bei den Aufnahmen vom Patois auf Gramofonplatten beteiligt.",
+          "target_paragraph": 7,
+          "density_normalized_distance": 0.0759
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 37,
+      "source_fact": "Tappolet stand selbst im Kontakt zu den Gewährsleuten, um Material für das Wörterbuch zu gewinnen.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 30,
+          "target_fact": "Ernst Tappolet hat selbst Quellenmaterial in der Landschaft gesammelt.",
+          "target_paragraph": 7,
+          "density_normalized_distance": 0.0647
+        },
+        {
+          "target_fact_index": 31,
+          "target_fact": "Ernst Tappolet war bei den Aufnahmen vom Patois auf Gramofonplatten beteiligt.",
+          "target_paragraph": 7,
+          "density_normalized_distance": 0.1047
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 38,
+      "source_fact": "Tappolet engagierte sich bei der Aufnahme der Patois auf Grammophonplatten.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 31,
+          "target_fact": "Ernst Tappolet war bei den Aufnahmen vom Patois auf Gramofonplatten beteiligt.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.2202
+        },
+        {
+          "target_fact_index": 29,
+          "target_fact": "Ernst Tappolet übernahm den schwierigen Artikel aller «gaa».",
+          "target_paragraph": 7,
+          "density_normalized_distance": 0.088
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 39,
+      "source_fact": "Eine Frucht der für das Glossaire vorgenommenen Materialsammlungen von Ernst Tappolet war die zweibändige Publikation Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz, Kulturhistorisch-linguistische Untersuchung.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 32,
+          "target_fact": "Ein Ergebnis des Materialsammelns für das Glossaire war das zweibändige Buch Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz, Kulturhistorisch-linguistische Untersuchung.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.2249
+        },
+        {
+          "target_fact_index": 39,
+          "target_fact": "Das Buch von Ernst Tappolet über die alemannischen Lehnwörter im Welschland war das Vorbild für das Buch von Emil Steiner über die welsche Lehnwörter im Alemannischen.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0181
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 40,
+      "source_fact": "Die Publikation Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz, Kulturhistorisch-linguistische Untersuchung erschien 1914 und 1917.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 33,
+          "target_fact": "Das Buch Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz, Kulturhistorisch-linguistische Untersuchung erschien 1914 und 1917.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.1964
+        },
+        {
+          "target_fact_index": 32,
+          "target_fact": "Ein Ergebnis des Materialsammelns für das Glossaire war das zweibändige Buch Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz, Kulturhistorisch-linguistische Untersuchung.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0983
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 41,
+      "source_fact": "In Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz erörterte Ernst Tappolet die kulturellen, sachlichen und affektiven Motive, die zur Übernahme des schweizerdeutschen Wortguts in die Patois führte.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 35,
+          "target_fact": "Ernst Tappolet analysiert in dem Buch die kulturellen, sachlichen und affektiven Motive der Übernahme in die Patois.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.1537
+        },
+        {
+          "target_fact_index": 38,
+          "target_fact": "Ernst Tappolet beschreibt die lautliche Anpassung der alemannischen Wörter an die frankoprovenzalischen und französischen Mundarten ganz exakt.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0264
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 42,
+      "source_fact": "Ernst Tappolet unterschied in seiner Publikation zwischen «Bedürfnislehnwort» und «Luxuslehnwort».",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 36,
+          "target_fact": "Ernst Tappolet unterscheidet zwischen Bedürfnislehnwort und Luxuslehnwort.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.3138
+        },
+        {
+          "target_fact_index": 37,
+          "target_fact": "Ernst Tappolet charakterisiert den jeweiligen Geltungsraum von Bedürfnislehnwort und Luxuslehnwort.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.2527
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 43,
+      "source_fact": "Ernst Tappolet charakterisierte den jeweiligen Geltungsraum von «Bedürfnislehnwort» und «Luxuslehnwort».",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 37,
+          "target_fact": "Ernst Tappolet charakterisiert den jeweiligen Geltungsraum von Bedürfnislehnwort und Luxuslehnwort.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.3922
+        },
+        {
+          "target_fact_index": 36,
+          "target_fact": "Ernst Tappolet unterscheidet zwischen Bedürfnislehnwort und Luxuslehnwort.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.2821
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 44,
+      "source_fact": "Ernst Tappolet beschrieb die lautlichen Anpassungen der alemannischen Wörter an die frankoprovenzalischen und französischen Mundarten exakt.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 38,
+          "target_fact": "Ernst Tappolet beschreibt die lautliche Anpassung der alemannischen Wörter an die frankoprovenzalischen und französischen Mundarten ganz exakt.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.3027
+        },
+        {
+          "target_fact_index": 37,
+          "target_fact": "Ernst Tappolet charakterisiert den jeweiligen Geltungsraum von Bedürfnislehnwort und Luxuslehnwort.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0409
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 45,
+      "source_fact": "Tappolets Buch über die alemannischen Lehnwörter im Westschweizer Patois fand in Emil Steiners Die französischen Lehnwörter in den alemannischen Mundarten der Schweiz. Kulturhistorisch-linguistische Untersuchung mit etymologischem Wörterbuch (1921) sein Gegenüber.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 40,
+          "target_fact": "Das Buch von Emil Steiner trägt den Titel Die französischen Lehnwörter in den alemannischen Mundarten der Schweiz. Kulturhistorisch-linguistische Untersuchung mit etymologischem Wörterbuch.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.1582
+        },
+        {
+          "target_fact_index": 39,
+          "target_fact": "Das Buch von Ernst Tappolet über die alemannischen Lehnwörter im Welschland war das Vorbild für das Buch von Emil Steiner über die welsche Lehnwörter im Alemannischen.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.1397
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 46,
+      "source_fact": "Tappolet plante, sich 1940 emeritieren zu lassen, um seine ganze Kraft dem Glossaire zur Verfügung zu stellen.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 42,
+          "target_fact": "Er wollte sich eigentlich 1940 emeritieren, um all seine Kräfte dem Glossaire zur Verfügung stellen zu können.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.3755
+        },
+        {
+          "target_fact_index": 43,
+          "target_fact": "Er ist ein Jahr zuvor im Alter von 69 Jahren ganz plötzlich gestorben.",
+          "target_paragraph": 9,
+          "density_normalized_distance": 0.0686
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 47,
+      "source_fact": "Tappolet starb im Jahr 1939.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 43,
+          "target_fact": "Er ist ein Jahr zuvor im Alter von 69 Jahren ganz plötzlich gestorben.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.1199
+        },
+        {
+          "target_fact_index": 42,
+          "target_fact": "Er wollte sich eigentlich 1940 emeritieren, um all seine Kräfte dem Glossaire zur Verfügung stellen zu können.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.0191
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 48,
+      "source_fact": "Der Tod von Tappolet im Jahr 1939 setzte seinem Ansinnen, sich 1940 emeritieren zu lassen, ein jähes Ende.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 42,
+          "target_fact": "Er wollte sich eigentlich 1940 emeritieren, um all seine Kräfte dem Glossaire zur Verfügung stellen zu können.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.1654
+        },
+        {
+          "target_fact_index": 43,
+          "target_fact": "Er ist ein Jahr zuvor im Alter von 69 Jahren ganz plötzlich gestorben.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.1064
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 49,
+      "source_fact": "Tappolet vertrat in seiner Überarbeit Über den Stand der Mundarten in der deutschen und französischen Schweiz von 1901 die Meinung, ein Zürcher käme in der Eisenbahn geradezu in Verlegenheit, in welcher Sprache er einen Fremden ansprechen sollte.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 11,
+          "target_fact": "Die Aussage, dass das Schweizerdeutsche um 1900 herum dem Hochdeutschen weichen sollte, wird heute noch gerne zitiert.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.0822
+        },
+        {
+          "target_fact_index": 10,
+          "target_fact": "Auf ihn geht die Aussage zurück, dass das Schweizerdeutsche um 1900 herum kurz davor stand, dem Hochdeutschen zu weichen.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.0593
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 50,
+      "source_fact": "Der Nebelspalter hatte für Tappolets Aussage, ein Zürcher käme in der Eisenbahn geradezu in Verlegenheit, in welcher Sprache er einen Fremden ansprechen sollte, nur Spott übrig.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 45,
+          "target_fact": "Die Aussage des Nebelspalters vom 26. Oktober 1901 lautete, dass die Thesen von Tappolet weit herum diskutiert worden seien.",
+          "target_paragraph": 10,
+          "density_normalized_distance": 0.0334
+        },
+        {
+          "target_fact_index": 11,
+          "target_fact": "Die Aussage, dass das Schweizerdeutsche um 1900 herum dem Hochdeutschen weichen sollte, wird heute noch gerne zitiert.",
+          "target_paragraph": 1,
+          "density_normalized_distance": 0.0883
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 51,
+      "source_fact": "Die Ansicht, die Deutschschweiz beziehungsweise Zürich seien um 1900 vor einem Sprachwechsel gestanden, wird bis heute dann und wann wiedergegeben.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 11,
+          "target_fact": "Die Aussage, dass das Schweizerdeutsche um 1900 herum dem Hochdeutschen weichen sollte, wird heute noch gerne zitiert.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.2994
+        },
+        {
+          "target_fact_index": 10,
+          "target_fact": "Auf ihn geht die Aussage zurück, dass das Schweizerdeutsche um 1900 herum kurz davor stand, dem Hochdeutschen zu weichen.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.1858
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 52,
+      "source_fact": "Bei der Wiedergabe der Ansicht, die Deutschschweiz beziehungsweise Zürich seien um 1900 vor einem Sprachwechsel gestanden, sind zumeist weder der Autor dieser Meinung noch der Widerspruch, den sie hervorrief, bekannt.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 11,
+          "target_fact": "Die Aussage, dass das Schweizerdeutsche um 1900 herum dem Hochdeutschen weichen sollte, wird heute noch gerne zitiert.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.1732
+        },
+        {
+          "target_fact_index": 10,
+          "target_fact": "Auf ihn geht die Aussage zurück, dass das Schweizerdeutsche um 1900 herum kurz davor stand, dem Hochdeutschen zu weichen.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.1534
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 53,
+      "source_fact": "Die romanischen Verwandtschaftsnamen wurde 1895 bei Trübner in Strassburg veröffentlicht.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 54,
+          "target_fact": "Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz wurde 1917 veröffentlicht.",
+          "target_paragraph": 13,
+          "density_normalized_distance": 0.0721
+        },
+        {
+          "target_fact_index": 53,
+          "target_fact": "Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz wurde 1914 veröffentlicht.",
+          "target_paragraph": 13,
+          "density_normalized_distance": 0.0893
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 54,
+      "source_fact": "Wustmann und die Sprachwissenschaft ist ein Werk von Speidel.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 34,
+          "target_fact": "Das Buch enthält nicht nur Wörterlisten.",
+          "target_paragraph": 8,
+          "density_normalized_distance": 0.1455
+        },
+        {
+          "target_fact_index": 41,
+          "target_fact": "Das Buch von Emil Steiner erschien 1921.",
+          "target_paragraph": 8,
+          "density_normalized_distance": 0.1696
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 55,
+      "source_fact": "Wustmann und die Sprachwissenschaft wurde 1898 in Zürich veröffentlicht.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 41,
+          "target_fact": "Das Buch von Emil Steiner erschien 1921.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0623
+        },
+        {
+          "target_fact_index": 34,
+          "target_fact": "Das Buch enthält nicht nur Wörterlisten.",
+          "target_paragraph": 8,
+          "density_normalized_distance": 0.0667
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 56,
+      "source_fact": "Über den Stand der Mundarten in der deutschen und französischen Schweiz ist eine Publikation.",
+      "source_paragraph": 12,
+      "matches": [
+        {
+          "target_fact_index": 18,
+          "target_fact": "Ernst habilitierte sich 1902 mit der Arbeit Über den Stand der Mundarten in der deutschen und französischen Schweiz.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.0779
+        },
+        {
+          "target_fact_index": 17,
+          "target_fact": "Ernst schrieb 1901 die Arbeit Über den Stand der Mundarten in der deutschen und französischen Schweiz.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.027
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 57,
+      "source_fact": "Über den Stand der Mundarten in der deutschen und französischen Schweiz ist als Mitteilungen der Gesellschaft für deutsche Sprache in Zürich, Heft VI bekannt.",
+      "source_paragraph": 12,
+      "matches": [
+        {
+          "target_fact_index": 18,
+          "target_fact": "Ernst habilitierte sich 1902 mit der Arbeit Über den Stand der Mundarten in der deutschen und französischen Schweiz.",
+          "target_paragraph": 3,
+          "density_normalized_distance": 0.016
+        },
+        {
+          "target_fact_index": 17,
+          "target_fact": "Ernst schrieb 1901 die Arbeit Über den Stand der Mundarten in der deutschen und französischen Schweiz.",
+          "target_paragraph": 3,
+          "density_normalized_distance": 0.0728
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 58,
+      "source_fact": "Über den Stand der Mundarten in der deutschen und französischen Schweiz wurde 1901 bei Zürcher & Furrer in Zürich veröffentlicht.",
+      "source_paragraph": 12,
+      "matches": [
+        {
+          "target_fact_index": 18,
+          "target_fact": "Ernst habilitierte sich 1902 mit der Arbeit Über den Stand der Mundarten in der deutschen und französischen Schweiz.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.1039
+        },
+        {
+          "target_fact_index": 17,
+          "target_fact": "Ernst schrieb 1901 die Arbeit Über den Stand der Mundarten in der deutschen und französischen Schweiz.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.0678
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 59,
+      "source_fact": "Die Sprache des Kindes wurde 1907 veröffentlicht.",
+      "source_paragraph": 13,
+      "matches": [
+        {
+          "target_fact_index": 23,
+          "target_fact": "Ernst Emanuel Tappolet veröffentlichte 1907 das Werk Die Sprache des Kindes.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.0138
+        },
+        {
+          "target_fact_index": 49,
+          "target_fact": "Die Gemeinde ist das größte Dorf im Kanton Basel-Landschaft.",
+          "target_paragraph": 11,
+          "density_normalized_distance": 0.0322
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 60,
+      "source_fact": "Die Sprache des Kindes wurde von Walz & Miéville in Basel veröffentlicht.",
+      "source_paragraph": 13,
+      "matches": [
+        {
+          "target_fact_index": 48,
+          "target_fact": "Die Gemeinde ist im Kanton Basel-Landschaft im Bezirk Liestal.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.0856
+        },
+        {
+          "target_fact_index": 49,
+          "target_fact": "Die Gemeinde ist das größte Dorf im Kanton Basel-Landschaft.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.0757
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 61,
+      "source_fact": "Die Sprache des Kindes wurde von Paetel in Berlin veröffentlicht.",
+      "source_paragraph": 13,
+      "matches": [
+        {
+          "target_fact_index": 48,
+          "target_fact": "Die Gemeinde ist im Kanton Basel-Landschaft im Bezirk Liestal.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.0321
+        },
+        {
+          "target_fact_index": 49,
+          "target_fact": "Die Gemeinde ist das größte Dorf im Kanton Basel-Landschaft.",
+          "target_paragraph": 11,
+          "density_normalized_distance": 0.0034
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 62,
+      "source_fact": "Die Ursachen des Wortreichtums bei den Haustiernamen der französischen Schweiz ist ein Werk von Westermann, erschienen 1913 in Braunschweig/Berlin.",
+      "source_paragraph": 14,
+      "matches": [
+        {
+          "target_fact_index": 51,
+          "target_fact": "Die Ursachen des Wortreichtums bei den Haustiernamen der französischen Schweiz wurde 1913 veröffentlicht.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.0956
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 63,
+      "source_fact": "Das Werk Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz besteht aus 2 Teilen.",
+      "source_paragraph": 15,
+      "matches": [
+        {
+          "target_fact_index": 55,
+          "target_fact": "Das Glossaire des patois de la Suisse romande enthält Artikel wie ados, affaire, agreblyé, agron, aise, aisement, aller, alyon, âme, amour, anneau, ansela, anson, apondre, archal, argent, argile, arin, armalyi, arode, aselye, avec, avoir, Bâle, ban, banc, banneret, bas, beau und ber",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.0617
+        },
+        {
+          "target_fact_index": 52,
+          "target_fact": "Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz ist eine kulturhistorisch-linguistische Untersuchung.",
+          "target_paragraph": 13,
+          "density_normalized_distance": 0.0058
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 64,
+      "source_fact": "Das Werk Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz wurde bei Trübner in Strassburg veröffentlicht.",
+      "source_paragraph": 15,
+      "matches": [
+        {
+          "target_fact_index": 53,
+          "target_fact": "Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz wurde 1914 veröffentlicht.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.0275
+        },
+        {
+          "target_fact_index": 54,
+          "target_fact": "Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz wurde 1917 veröffentlicht.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.024
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 65,
+      "source_fact": "Der Teil der Abhandlung von Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz erschien 1914.",
+      "source_paragraph": 15,
+      "matches": [
+        {
+          "target_fact_index": 53,
+          "target_fact": "Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz wurde 1914 veröffentlicht.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.1631
+        },
+        {
+          "target_fact_index": 54,
+          "target_fact": "Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz wurde 1917 veröffentlicht.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.1143
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 66,
+      "source_fact": "Das etymologische Wörterbuch von Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz erschien 1917.",
+      "source_paragraph": 15,
+      "matches": [
+        {
+          "target_fact_index": 54,
+          "target_fact": "Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz wurde 1917 veröffentlicht.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.1902
+        },
+        {
+          "target_fact_index": 53,
+          "target_fact": "Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz wurde 1914 veröffentlicht.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.132
+        }
+      ]
+    }
+  ],
+  "als_to_de": [
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 0,
+      "source_fact": "Ernst Emanuel Tappolet wurde am 21. Oktober 1870 in Hittnau geboren.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 0,
+          "target_fact": "Ernst Emanuel Tappolet wurde am 21. Oktober 1870 in Hittnau geboren.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.3211
+        },
+        {
+          "target_fact_index": 1,
+          "target_fact": "Ernst Emanuel Tappolet starb am 2. November 1939 in Basel.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1353
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 1,
+      "source_fact": "Ernst Emanuel Tappolet starb am 2. November 1939 in Basel.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 1,
+          "target_fact": "Ernst Emanuel Tappolet starb am 2. November 1939 in Basel.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.368
+        },
+        {
+          "target_fact_index": 0,
+          "target_fact": "Ernst Emanuel Tappolet wurde am 21. Oktober 1870 in Hittnau geboren.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0884
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 2,
+      "source_fact": "Ernst Emanuel Tappolet war ein Schweizer Romanist.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 2,
+          "target_fact": "Ernst Emanuel Tappolet war ein Schweizer Romanist.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.2946
+        },
+        {
+          "target_fact_index": 20,
+          "target_fact": "Ernst Emanuel Tappolet war einige Jahre als Französischlehrer an der Zürcher Kantonsschule tätig.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.1476
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 3,
+      "source_fact": "Ernst Emanuel Tappolet schrieb seinen Vornamen in französischen Texten als Ernest.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 3,
+          "target_fact": "Ernst Emanuel Tappolet wurde in französischsprachigen Publikationen Ernest Tappolet genannt.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.2137
+        },
+        {
+          "target_fact_index": 20,
+          "target_fact": "Ernst Emanuel Tappolet war einige Jahre als Französischlehrer an der Zürcher Kantonsschule tätig.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.0993
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 4,
+      "source_fact": "Ernst Emanuel Tappolet war Professor an der Universität Basel.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 22,
+          "target_fact": "Ernst Emanuel Tappolet wirkte fortan als Professor für romanische Philologie an der Universität Basel.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.2474
+        },
+        {
+          "target_fact_index": 21,
+          "target_fact": "Ernst Emanuel Tappolet wurde 1904 an die Universität Basel berufen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.1988
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 5,
+      "source_fact": "Ernst Emanuel Tappolet gründete 1899 zusammen mit Louis Gauchat und Jules Jeanjaquet das Glossaire des patois de la Suisse romande.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 26,
+          "target_fact": "Jules Jeanjaquet begründete 1899 das Glossaire des patois de la Suisse romande zusammen mit Ernst Emanuel Tappolet und Louis Gauchat.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.3776
+        },
+        {
+          "target_fact_index": 25,
+          "target_fact": "Louis Gauchat begründete 1899 das Glossaire des patois de la Suisse romande zusammen mit Ernst Emanuel Tappolet und Jules Jeanjaquet.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.3771
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 6,
+      "source_fact": "Louis Gauchat war an der Gründung des Glossaire des patois de la Suisse romande beteiligt.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 5,
+          "target_fact": "Louis Gauchat war an der Gründung des Glossaire des patois de la Suisse romande beteiligt.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.4414
+        },
+        {
+          "target_fact_index": 6,
+          "target_fact": "Jules Jeanjaquet war an der Gründung des Glossaire des patois de la Suisse romande beteiligt.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.3329
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 7,
+      "source_fact": "Jules Jeanjaquet war an der Gründung des Glossaire des patois de la Suisse romande beteiligt.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 6,
+          "target_fact": "Jules Jeanjaquet war an der Gründung des Glossaire des patois de la Suisse romande beteiligt.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.4523
+        },
+        {
+          "target_fact_index": 5,
+          "target_fact": "Louis Gauchat war an der Gründung des Glossaire des patois de la Suisse romande beteiligt.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.3221
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 8,
+      "source_fact": "Er war auch für das Schweizerdeutsche wichtig.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 52,
+          "target_fact": "Bei der Wiedergabe der Ansicht, die Deutschschweiz beziehungsweise Zürich seien um 1900 vor einem Sprachwechsel gestanden, sind zumeist weder der Autor dieser Meinung noch der Widerspruch, den sie hervorrief, bekannt.",
+          "target_paragraph": 9,
+          "density_normalized_distance": 0.1014
+        },
+        {
+          "target_fact_index": 50,
+          "target_fact": "Der Nebelspalter hatte für Tappolets Aussage, ein Zürcher käme in der Eisenbahn geradezu in Verlegenheit, in welcher Sprache er einen Fremden ansprechen sollte, nur Spott übrig.",
+          "target_paragraph": 9,
+          "density_normalized_distance": 0.1304
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 9,
+      "source_fact": "Er schrieb ein Buch über die alemannischen Lehnwörter in den weltschen Dialekten.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 50,
+          "target_fact": "Der Nebelspalter hatte für Tappolets Aussage, ein Zürcher käme in der Eisenbahn geradezu in Verlegenheit, in welcher Sprache er einen Fremden ansprechen sollte, nur Spott übrig.",
+          "target_paragraph": 9,
+          "density_normalized_distance": 0.1406
+        },
+        {
+          "target_fact_index": 52,
+          "target_fact": "Bei der Wiedergabe der Ansicht, die Deutschschweiz beziehungsweise Zürich seien um 1900 vor einem Sprachwechsel gestanden, sind zumeist weder der Autor dieser Meinung noch der Widerspruch, den sie hervorrief, bekannt.",
+          "target_paragraph": 9,
+          "density_normalized_distance": 0.1727
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 10,
+      "source_fact": "Auf ihn geht die Aussage zurück, dass das Schweizerdeutsche um 1900 herum kurz davor stand, dem Hochdeutschen zu weichen.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 51,
+          "target_fact": "Die Ansicht, die Deutschschweiz beziehungsweise Zürich seien um 1900 vor einem Sprachwechsel gestanden, wird bis heute dann und wann wiedergegeben.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.1151
+        },
+        {
+          "target_fact_index": 52,
+          "target_fact": "Bei der Wiedergabe der Ansicht, die Deutschschweiz beziehungsweise Zürich seien um 1900 vor einem Sprachwechsel gestanden, sind zumeist weder der Autor dieser Meinung noch der Widerspruch, den sie hervorrief, bekannt.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.0866
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 11,
+      "source_fact": "Die Aussage, dass das Schweizerdeutsche um 1900 herum dem Hochdeutschen weichen sollte, wird heute noch gerne zitiert.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 51,
+          "target_fact": "Die Ansicht, die Deutschschweiz beziehungsweise Zürich seien um 1900 vor einem Sprachwechsel gestanden, wird bis heute dann und wann wiedergegeben.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.2243
+        },
+        {
+          "target_fact_index": 52,
+          "target_fact": "Bei der Wiedergabe der Ansicht, die Deutschschweiz beziehungsweise Zürich seien um 1900 vor einem Sprachwechsel gestanden, sind zumeist weder der Autor dieser Meinung noch der Widerspruch, den sie hervorrief, bekannt.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.102
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 12,
+      "source_fact": "Es ist kaum bekannt, wer diese Idee in die Welt gesetzt hat.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 52,
+          "target_fact": "Bei der Wiedergabe der Ansicht, die Deutschschweiz beziehungsweise Zürich seien um 1900 vor einem Sprachwechsel gestanden, sind zumeist weder der Autor dieser Meinung noch der Widerspruch, den sie hervorrief, bekannt.",
+          "target_paragraph": 9,
+          "density_normalized_distance": 0.018
+        },
+        {
+          "target_fact_index": 51,
+          "target_fact": "Die Ansicht, die Deutschschweiz beziehungsweise Zürich seien um 1900 vor einem Sprachwechsel gestanden, wird bis heute dann und wann wiedergegeben.",
+          "target_paragraph": 9,
+          "density_normalized_distance": 0.1338
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 13,
+      "source_fact": "Ernst Tappolet kommt aus einer Familie.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 9,
+          "target_fact": "Ernst Tappolet stammte aus einer Familie.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.2768
+        },
+        {
+          "target_fact_index": 10,
+          "target_fact": "Paul Friedrich Tappolez war der Vater von Ernst Tappolet.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.0133
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 14,
+      "source_fact": "Der Vater von Ernst Tappolet war Pfarrer im Zürcher Oberland.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 11,
+          "target_fact": "Paul Friedrich Tappolez war Pfarrer im Zürcher Oberland.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.2401
+        },
+        {
+          "target_fact_index": 10,
+          "target_fact": "Paul Friedrich Tappolez war der Vater von Ernst Tappolet.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.1014
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 15,
+      "source_fact": "Ernst hat in Marburg studiert.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 17,
+          "target_fact": "Tappolet studierte in Marburg.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1963
+        },
+        {
+          "target_fact_index": 18,
+          "target_fact": "Die Habilitation von Tappolet erfolgte 1902 in Zürich.",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.1671
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 16,
+      "source_fact": "Ernst war danach in Zürich Gymnasiallehrer.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 18,
+          "target_fact": "Die Habilitation von Tappolet erfolgte 1902 in Zürich.",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.0965
+        },
+        {
+          "target_fact_index": 17,
+          "target_fact": "Tappolet studierte in Marburg.",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.1383
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 17,
+      "source_fact": "Ernst schrieb 1901 die Arbeit Über den Stand der Mundarten in der deutschen und französischen Schweiz.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 56,
+          "target_fact": "Über den Stand der Mundarten in der deutschen und französischen Schweiz ist eine Publikation.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.1222
+        },
+        {
+          "target_fact_index": 58,
+          "target_fact": "Über den Stand der Mundarten in der deutschen und französischen Schweiz wurde 1901 bei Zürcher & Furrer in Zürich veröffentlicht.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.1031
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 18,
+      "source_fact": "Ernst habilitierte sich 1902 mit der Arbeit Über den Stand der Mundarten in der deutschen und französischen Schweiz.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 56,
+          "target_fact": "Über den Stand der Mundarten in der deutschen und französischen Schweiz ist eine Publikation.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.1063
+        },
+        {
+          "target_fact_index": 19,
+          "target_fact": "Die Habilitation von Tappolet erfolgte mit der Schrift Über den Stand der Mundarten in der deutschen und französischen Schweiz (Zürich 1901).",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0949
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 19,
+      "source_fact": "Ernst Emanuel Tappolet wurde 1904 als Professor an die Universität Basel geholt.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 32,
+          "target_fact": "Tappolet vermittelte seinen Schülern ein Wissen, das diese direkt im neusprachlichen Unterricht anwenden konnten.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.0214
+        },
+        {
+          "target_fact_index": 33,
+          "target_fact": "Tappolet setzte sich mit grundsätzlichen Fragen zur Natur der Sprachen auseinander.",
+          "target_paragraph": 5,
+          "density_normalized_distance": 0.0315
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 20,
+      "source_fact": "Ernst Emanuel Tappolet gründete die romanistische Dialektologie.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 31,
+          "target_fact": "Im Zentrum von Tappolets Lehre stand die romanistische Dialektologie.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.1145
+        },
+        {
+          "target_fact_index": 30,
+          "target_fact": "Im Zentrum von Tappolets Lehre stand die Onomasiologie (Wortfeldforschung) der romanischen Sprachen.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.0535
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 21,
+      "source_fact": "Ernst Emanuel Tappolet vermittelte seinen Schülern ein Wissen, das sie direkt im Neuspraachenunterricht nutzen konnten.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 32,
+          "target_fact": "Tappolet vermittelte seinen Schülern ein Wissen, das diese direkt im neusprachlichen Unterricht anwenden konnten.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.3393
+        },
+        {
+          "target_fact_index": 33,
+          "target_fact": "Tappolet setzte sich mit grundsätzlichen Fragen zur Natur der Sprachen auseinander.",
+          "target_paragraph": 5,
+          "density_normalized_distance": 0.0564
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 22,
+      "source_fact": "Ernst Emanuel Tappolet setzte sich mit grundsätzlichen Fragen zur Natur der Sprachen auseinander.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 33,
+          "target_fact": "Tappolet setzte sich mit grundsätzlichen Fragen zur Natur der Sprachen auseinander.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.2845
+        },
+        {
+          "target_fact_index": 30,
+          "target_fact": "Im Zentrum von Tappolets Lehre stand die Onomasiologie (Wortfeldforschung) der romanischen Sprachen.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.0107
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 23,
+      "source_fact": "Ernst Emanuel Tappolet veröffentlichte 1907 das Werk Die Sprache des Kindes.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 34,
+          "target_fact": "Tappolet veröffentlichte 1907 das Werk Die Sprache des Kindes.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.2801
+        },
+        {
+          "target_fact_index": 59,
+          "target_fact": "Die Sprache des Kindes wurde 1907 veröffentlicht.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.151
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 24,
+      "source_fact": "Ernst Emanuel Tappolet veröffentlichte 1913 das Werk Die Ursachen des Wortreichtums bei den Haustiernamen der französischen Schweiz.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 35,
+          "target_fact": "Tappolet veröffentlichte 1913 das Werk Die Ursachen des Wortreichtums bei den Haustiernamen der französischen Schweiz.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.217
+        },
+        {
+          "target_fact_index": 34,
+          "target_fact": "Tappolet veröffentlichte 1907 das Werk Die Sprache des Kindes.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.0121
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 25,
+      "source_fact": "Ghüraate hat 1897 Johanna Elisabeth Schlub geheiratet.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 29,
+          "target_fact": "Johanna Elisabeth Schlub lebte von 1866 bis 1941.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.1801
+        },
+        {
+          "target_fact_index": 28,
+          "target_fact": "Ernst Tappolet war ab 1897 mit Johanna Elisabeth Schlub verheiratet.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.1485
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 26,
+      "source_fact": "Johanna Elisabeth Schlub lebte von 1866 bis 1941.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 29,
+          "target_fact": "Johanna Elisabeth Schlub lebte von 1866 bis 1941.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.4286
+        },
+        {
+          "target_fact_index": 28,
+          "target_fact": "Ernst Tappolet war ab 1897 mit Johanna Elisabeth Schlub verheiratet.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.0705
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 27,
+      "source_fact": "Er war Mitglied der Abstinenzler-Bewegung.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 5,
+          "target_fact": "Louis Gauchat war an der Gründung des Glossaire des patois de la Suisse romande beteiligt.",
+          "target_paragraph": 0,
+          "density_normalized_distance": 0.2479
+        },
+        {
+          "target_fact_index": 6,
+          "target_fact": "Jules Jeanjaquet war an der Gründung des Glossaire des patois de la Suisse romande beteiligt.",
+          "target_paragraph": 0,
+          "density_normalized_distance": 0.2644
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 28,
+      "source_fact": "Ernst Tappolet war 1899 einer der Gründerväter vom Glossaire des patois de la Suisse romande.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 36,
+          "target_fact": "Tappolet verfasste unter anderem die Artikel ados für das Glossaire des patois de la Suisse romande.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.0419
+        },
+        {
+          "target_fact_index": 38,
+          "target_fact": "Tappolet engagierte sich bei der Aufnahme der Patois auf Grammophonplatten.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.0203
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 29,
+      "source_fact": "Ernst Tappolet übernahm den schwierigen Artikel aller «gaa».",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 38,
+          "target_fact": "Tappolet engagierte sich bei der Aufnahme der Patois auf Grammophonplatten.",
+          "target_paragraph": 6,
+          "density_normalized_distance": 0.0064
+        },
+        {
+          "target_fact_index": 15,
+          "target_fact": "Bertha Tappolet war ein Halbgeschwister von Ernst Tappolet.",
+          "target_paragraph": 1,
+          "density_normalized_distance": 0.0586
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 30,
+      "source_fact": "Ernst Tappolet hat selbst Quellenmaterial in der Landschaft gesammelt.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 37,
+          "target_fact": "Tappolet stand selbst im Kontakt zu den Gewährsleuten, um Material für das Wörterbuch zu gewinnen.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.0544
+        },
+        {
+          "target_fact_index": 38,
+          "target_fact": "Tappolet engagierte sich bei der Aufnahme der Patois auf Grammophonplatten.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.0035
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 31,
+      "source_fact": "Ernst Tappolet war bei den Aufnahmen vom Patois auf Gramofonplatten beteiligt.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 38,
+          "target_fact": "Tappolet engagierte sich bei der Aufnahme der Patois auf Grammophonplatten.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.332
+        },
+        {
+          "target_fact_index": 13,
+          "target_fact": "Siegfried Tappolet war Opernsänger.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.0191
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 32,
+      "source_fact": "Ein Ergebnis des Materialsammelns für das Glossaire war das zweibändige Buch Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz, Kulturhistorisch-linguistische Untersuchung.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 39,
+          "target_fact": "Eine Frucht der für das Glossaire vorgenommenen Materialsammlungen von Ernst Tappolet war die zweibändige Publikation Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz, Kulturhistorisch-linguistische Untersuchung.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.2097
+        },
+        {
+          "target_fact_index": 41,
+          "target_fact": "In Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz erörterte Ernst Tappolet die kulturellen, sachlichen und affektiven Motive, die zur Übernahme des schweizerdeutschen Wortguts in die Patois führte.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.0105
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 33,
+      "source_fact": "Das Buch Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz, Kulturhistorisch-linguistische Untersuchung erschien 1914 und 1917.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 40,
+          "target_fact": "Die Publikation Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz, Kulturhistorisch-linguistische Untersuchung erschien 1914 und 1917.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.2237
+        },
+        {
+          "target_fact_index": 39,
+          "target_fact": "Eine Frucht der für das Glossaire vorgenommenen Materialsammlungen von Ernst Tappolet war die zweibändige Publikation Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz, Kulturhistorisch-linguistische Untersuchung.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.05
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 34,
+      "source_fact": "Das Buch enthält nicht nur Wörterlisten.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 54,
+          "target_fact": "Wustmann und die Sprachwissenschaft ist ein Werk von Speidel.",
+          "target_paragraph": 11,
+          "density_normalized_distance": 0.1398
+        },
+        {
+          "target_fact_index": 55,
+          "target_fact": "Wustmann und die Sprachwissenschaft wurde 1898 in Zürich veröffentlicht.",
+          "target_paragraph": 11,
+          "density_normalized_distance": 0.2009
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 35,
+      "source_fact": "Ernst Tappolet analysiert in dem Buch die kulturellen, sachlichen und affektiven Motive der Übernahme in die Patois.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 41,
+          "target_fact": "In Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz erörterte Ernst Tappolet die kulturellen, sachlichen und affektiven Motive, die zur Übernahme des schweizerdeutschen Wortguts in die Patois führte.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.1237
+        },
+        {
+          "target_fact_index": 43,
+          "target_fact": "Ernst Tappolet charakterisierte den jeweiligen Geltungsraum von «Bedürfnislehnwort» und «Luxuslehnwort».",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.0095
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 36,
+      "source_fact": "Ernst Tappolet unterscheidet zwischen Bedürfnislehnwort und Luxuslehnwort.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 42,
+          "target_fact": "Ernst Tappolet unterschied in seiner Publikation zwischen «Bedürfnislehnwort» und «Luxuslehnwort».",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.2897
+        },
+        {
+          "target_fact_index": 43,
+          "target_fact": "Ernst Tappolet charakterisierte den jeweiligen Geltungsraum von «Bedürfnislehnwort» und «Luxuslehnwort».",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.2702
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 37,
+      "source_fact": "Ernst Tappolet charakterisiert den jeweiligen Geltungsraum von Bedürfnislehnwort und Luxuslehnwort.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 43,
+          "target_fact": "Ernst Tappolet charakterisierte den jeweiligen Geltungsraum von «Bedürfnislehnwort» und «Luxuslehnwort».",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.3701
+        },
+        {
+          "target_fact_index": 42,
+          "target_fact": "Ernst Tappolet unterschied in seiner Publikation zwischen «Bedürfnislehnwort» und «Luxuslehnwort».",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.2184
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 38,
+      "source_fact": "Ernst Tappolet beschreibt die lautliche Anpassung der alemannischen Wörter an die frankoprovenzalischen und französischen Mundarten ganz exakt.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 44,
+          "target_fact": "Ernst Tappolet beschrieb die lautlichen Anpassungen der alemannischen Wörter an die frankoprovenzalischen und französischen Mundarten exakt.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.3193
+        },
+        {
+          "target_fact_index": 41,
+          "target_fact": "In Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz erörterte Ernst Tappolet die kulturellen, sachlichen und affektiven Motive, die zur Übernahme des schweizerdeutschen Wortguts in die Patois führte.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.0478
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 39,
+      "source_fact": "Das Buch von Ernst Tappolet über die alemannischen Lehnwörter im Welschland war das Vorbild für das Buch von Emil Steiner über die welsche Lehnwörter im Alemannischen.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 45,
+          "target_fact": "Tappolets Buch über die alemannischen Lehnwörter im Westschweizer Patois fand in Emil Steiners Die französischen Lehnwörter in den alemannischen Mundarten der Schweiz. Kulturhistorisch-linguistische Untersuchung mit etymologischem Wörterbuch (1921) sein Gegenüber.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.1234
+        },
+        {
+          "target_fact_index": 39,
+          "target_fact": "Eine Frucht der für das Glossaire vorgenommenen Materialsammlungen von Ernst Tappolet war die zweibändige Publikation Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz, Kulturhistorisch-linguistische Untersuchung.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.0368
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 40,
+      "source_fact": "Das Buch von Emil Steiner trägt den Titel Die französischen Lehnwörter in den alemannischen Mundarten der Schweiz. Kulturhistorisch-linguistische Untersuchung mit etymologischem Wörterbuch.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 45,
+          "target_fact": "Tappolets Buch über die alemannischen Lehnwörter im Westschweizer Patois fand in Emil Steiners Die französischen Lehnwörter in den alemannischen Mundarten der Schweiz. Kulturhistorisch-linguistische Untersuchung mit etymologischem Wörterbuch (1921) sein Gegenüber.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.1482
+        },
+        {
+          "target_fact_index": 39,
+          "target_fact": "Eine Frucht der für das Glossaire vorgenommenen Materialsammlungen von Ernst Tappolet war die zweibändige Publikation Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz, Kulturhistorisch-linguistische Untersuchung.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.0256
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 41,
+      "source_fact": "Das Buch von Emil Steiner erschien 1921.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 55,
+          "target_fact": "Wustmann und die Sprachwissenschaft wurde 1898 in Zürich veröffentlicht.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.0095
+        },
+        {
+          "target_fact_index": 54,
+          "target_fact": "Wustmann und die Sprachwissenschaft ist ein Werk von Speidel.",
+          "target_paragraph": 11,
+          "density_normalized_distance": 0.0825
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 42,
+      "source_fact": "Er wollte sich eigentlich 1940 emeritieren, um all seine Kräfte dem Glossaire zur Verfügung stellen zu können.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 46,
+          "target_fact": "Tappolet plante, sich 1940 emeritieren zu lassen, um seine ganze Kraft dem Glossaire zur Verfügung zu stellen.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.3024
+        },
+        {
+          "target_fact_index": 48,
+          "target_fact": "Der Tod von Tappolet im Jahr 1939 setzte seinem Ansinnen, sich 1940 emeritieren zu lassen, ein jähes Ende.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0716
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 43,
+      "source_fact": "Er ist ein Jahr zuvor im Alter von 69 Jahren ganz plötzlich gestorben.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 48,
+          "target_fact": "Der Tod von Tappolet im Jahr 1939 setzte seinem Ansinnen, sich 1940 emeritieren zu lassen, ein jähes Ende.",
+          "target_paragraph": 8,
+          "density_normalized_distance": 0.0376
+        },
+        {
+          "target_fact_index": 47,
+          "target_fact": "Tappolet starb im Jahr 1939.",
+          "target_paragraph": 8,
+          "density_normalized_distance": 0.0597
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 44,
+      "source_fact": "In seiner Arbeit über den Zustand der Mundarten in der französischen und der deutschen Schweiz von 1901 schreibt Ernst Tappolet, dass der Nebelspalter gespöttelt hat.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 49,
+          "target_fact": "Tappolet vertrat in seiner Überarbeit Über den Stand der Mundarten in der deutschen und französischen Schweiz von 1901 die Meinung, ein Zürcher käme in der Eisenbahn geradezu in Verlegenheit, in welcher Sprache er einen Fremden ansprechen sollte.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.0989
+        },
+        {
+          "target_fact_index": 50,
+          "target_fact": "Der Nebelspalter hatte für Tappolets Aussage, ein Zürcher käme in der Eisenbahn geradezu in Verlegenheit, in welcher Sprache er einen Fremden ansprechen sollte, nur Spott übrig.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.001
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 45,
+      "source_fact": "Die Aussage des Nebelspalters vom 26. Oktober 1901 lautete, dass die Thesen von Tappolet weit herum diskutiert worden seien.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 50,
+          "target_fact": "Der Nebelspalter hatte für Tappolets Aussage, ein Zürcher käme in der Eisenbahn geradezu in Verlegenheit, in welcher Sprache er einen Fremden ansprechen sollte, nur Spott übrig.",
+          "target_paragraph": 9,
+          "density_normalized_distance": 0.0415
+        },
+        {
+          "target_fact_index": 49,
+          "target_fact": "Tappolet vertrat in seiner Überarbeit Über den Stand der Mundarten in der deutschen und französischen Schweiz von 1901 die Meinung, ein Zürcher käme in der Eisenbahn geradezu in Verlegenheit, in welcher Sprache er einen Fremden ansprechen sollte.",
+          "target_paragraph": 9,
+          "density_normalized_distance": 0.1738
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 46,
+      "source_fact": "Die schweizerdeutschen Mundarten sind zwar immer mehr ausgewaschen.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 51,
+          "target_fact": "Die Ansicht, die Deutschschweiz beziehungsweise Zürich seien um 1900 vor einem Sprachwechsel gestanden, wird bis heute dann und wann wiedergegeben.",
+          "target_paragraph": 9,
+          "density_normalized_distance": 0.0847
+        },
+        {
+          "target_fact_index": 52,
+          "target_fact": "Bei der Wiedergabe der Ansicht, die Deutschschweiz beziehungsweise Zürich seien um 1900 vor einem Sprachwechsel gestanden, sind zumeist weder der Autor dieser Meinung noch der Widerspruch, den sie hervorrief, bekannt.",
+          "target_paragraph": 9,
+          "density_normalized_distance": 0.1567
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 47,
+      "source_fact": "Die Lebendigkeit der schweizerdeutschen Mundarten ist nicht ein bisschen kleiner als vor hundert Jahren, sondern im Gegenteil.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 51,
+          "target_fact": "Die Ansicht, die Deutschschweiz beziehungsweise Zürich seien um 1900 vor einem Sprachwechsel gestanden, wird bis heute dann und wann wiedergegeben.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.034
+        },
+        {
+          "target_fact_index": 52,
+          "target_fact": "Bei der Wiedergabe der Ansicht, die Deutschschweiz beziehungsweise Zürich seien um 1900 vor einem Sprachwechsel gestanden, sind zumeist weder der Autor dieser Meinung noch der Widerspruch, den sie hervorrief, bekannt.",
+          "target_paragraph": 9,
+          "density_normalized_distance": 0.03
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 48,
+      "source_fact": "Die Gemeinde ist im Kanton Basel-Landschaft im Bezirk Liestal.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 60,
+          "target_fact": "Die Sprache des Kindes wurde von Walz & Miéville in Basel veröffentlicht.",
+          "target_paragraph": 13,
+          "density_normalized_distance": 0.0295
+        },
+        {
+          "target_fact_index": 61,
+          "target_fact": "Die Sprache des Kindes wurde von Paetel in Berlin veröffentlicht.",
+          "target_paragraph": 13,
+          "density_normalized_distance": 0.061
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 49,
+      "source_fact": "Die Gemeinde ist das größte Dorf im Kanton Basel-Landschaft.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 60,
+          "target_fact": "Die Sprache des Kindes wurde von Walz & Miéville in Basel veröffentlicht.",
+          "target_paragraph": 13,
+          "density_normalized_distance": 0.0664
+        },
+        {
+          "target_fact_index": 61,
+          "target_fact": "Die Sprache des Kindes wurde von Paetel in Berlin veröffentlicht.",
+          "target_paragraph": 13,
+          "density_normalized_distance": 0.1235
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 50,
+      "source_fact": "Diepoldsau ist eine Gemeinde im Kanton St. Gallen im Kreis Werdenberg.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 61,
+          "target_fact": "Die Sprache des Kindes wurde von Paetel in Berlin veröffentlicht.",
+          "target_paragraph": 13,
+          "density_normalized_distance": 0.1701
+        },
+        {
+          "target_fact_index": 60,
+          "target_fact": "Die Sprache des Kindes wurde von Walz & Miéville in Basel veröffentlicht.",
+          "target_paragraph": 13,
+          "density_normalized_distance": 0.2139
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 51,
+      "source_fact": "Die Ursachen des Wortreichtums bei den Haustiernamen der französischen Schweiz wurde 1913 veröffentlicht.",
+      "source_paragraph": 12,
+      "matches": [
+        {
+          "target_fact_index": 35,
+          "target_fact": "Tappolet veröffentlichte 1913 das Werk Die Ursachen des Wortreichtums bei den Haustiernamen der französischen Schweiz.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.215
+        },
+        {
+          "target_fact_index": 62,
+          "target_fact": "Die Ursachen des Wortreichtums bei den Haustiernamen der französischen Schweiz ist ein Werk von Westermann, erschienen 1913 in Braunschweig/Berlin.",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.1688
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 52,
+      "source_fact": "Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz ist eine kulturhistorisch-linguistische Untersuchung.",
+      "source_paragraph": 13,
+      "matches": [
+        {
+          "target_fact_index": 63,
+          "target_fact": "Das Werk Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz besteht aus 2 Teilen.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.1083
+        },
+        {
+          "target_fact_index": 66,
+          "target_fact": "Das etymologische Wörterbuch von Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz erschien 1917.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.0378
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 53,
+      "source_fact": "Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz wurde 1914 veröffentlicht.",
+      "source_paragraph": 13,
+      "matches": [
+        {
+          "target_fact_index": 65,
+          "target_fact": "Der Teil der Abhandlung von Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz erschien 1914.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.2289
+        },
+        {
+          "target_fact_index": 66,
+          "target_fact": "Das etymologische Wörterbuch von Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz erschien 1917.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.1972
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 54,
+      "source_fact": "Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz wurde 1917 veröffentlicht.",
+      "source_paragraph": 13,
+      "matches": [
+        {
+          "target_fact_index": 66,
+          "target_fact": "Das etymologische Wörterbuch von Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz erschien 1917.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.2508
+        },
+        {
+          "target_fact_index": 65,
+          "target_fact": "Der Teil der Abhandlung von Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz erschien 1914.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.1755
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 55,
+      "source_fact": "Das Glossaire des patois de la Suisse romande enthält Artikel wie ados, affaire, agreblyé, agron, aise, aisement, aller, alyon, âme, amour, anneau, ansela, anson, apondre, archal, argent, argile, arin, armalyi, arode, aselye, avec, avoir, Bâle, ban, banc, banneret, bas, beau und ber",
+      "source_paragraph": 14,
+      "matches": [
+        {
+          "target_fact_index": 63,
+          "target_fact": "Das Werk Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz besteht aus 2 Teilen.",
+          "target_paragraph": 15,
+          "density_normalized_distance": 0.226
+        },
+        {
+          "target_fact_index": 64,
+          "target_fact": "Das Werk Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz wurde bei Trübner in Strassburg veröffentlicht.",
+          "target_paragraph": 15,
+          "density_normalized_distance": 0.3307
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 56,
+      "source_fact": "Es gibt eine Publikation zur Erinnerung an Herrn Prof. Ernst Tappolet.",
+      "source_paragraph": 15,
+      "matches": [
+        {
+          "target_fact_index": 27,
+          "target_fact": "Ernst Emanuel Tappolet wurde 1935 zu seinem 65. Geburtstag mit einer Festschrift geehrt.",
+          "target_paragraph": 3,
+          "density_normalized_distance": 0.0259
+        },
+        {
+          "target_fact_index": 22,
+          "target_fact": "Ernst Emanuel Tappolet wirkte fortan als Professor für romanische Philologie an der Universität Basel.",
+          "target_paragraph": 3,
+          "density_normalized_distance": 0.0923
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 57,
+      "source_fact": "Ernst Tappolet lebte von 1870 bis 1939.",
+      "source_paragraph": 15,
+      "matches": [
+        {
+          "target_fact_index": 27,
+          "target_fact": "Ernst Emanuel Tappolet wurde 1935 zu seinem 65. Geburtstag mit einer Festschrift geehrt.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.0013
+        },
+        {
+          "target_fact_index": 21,
+          "target_fact": "Ernst Emanuel Tappolet wurde 1904 an die Universität Basel berufen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": 0.0371
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 58,
+      "source_fact": "Die Publikation zur Erinnerung an Ernst Tappolet erschien 1940 in Basel.",
+      "source_paragraph": 15,
+      "matches": [
+        {
+          "target_fact_index": 27,
+          "target_fact": "Ernst Emanuel Tappolet wurde 1935 zu seinem 65. Geburtstag mit einer Festschrift geehrt.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.0117
+        },
+        {
+          "target_fact_index": 21,
+          "target_fact": "Ernst Emanuel Tappolet wurde 1904 an die Universität Basel berufen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": 0.0205
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+Kalender
+
+== lead_paragraph ==
+
+Èn Kalènder isch è Übbersicht übber diè Dääg, Wuchè un Mönet von èm Johr. È voaalteti Bezeichnung isch Johrwyser.
+
+S Wort „Kalènder“ entschtammt im lateinischè Calendarium (Schuldbuèch). Sell isch è Vozeichnis vo dè Kalendae gsi, dè jewyls èrschtè, uuszruèfendè (calare „uusruèfè“) Dääg vo dè antikè Mönet. A sèllè sin Darlehè uuszallt un Darlehensrüggfüürigè sowiè Zinsforderigè fällig.
+
+S git voschideni Kalèndersischteem, hüt isch wältwit übberwigend dè Gregorianische Kalender im Gebruuch.
+
+Kalender git s in voschidenè – drucktè, bebildertè, elegtronischè – Formè (sh. au Kalendarium).
+
+D Reglè zu dè Uffschtellig vom Kalendern sin vo aschtronomischè Gegèbèheitè (Mondphasè, Sunnèjohr) un entschprèchendè Kalenderberechnungè abgleitet. Diè wǜssèschaftlichi Kalenderkundi isch è Deilgebièt vo dè Aschtronomischè Chronology. Diè vorwǜssenschaftlichi Chunscht, Kalender z erschtellè, nennt mò Hemerology.
+
+== Entschtehig vom Kalènder ==
+
+D Kenntnis vo regèlmäßig stattfindendè Dyrwanderigè isch schu für diè früènè Jägerkulturè wichtig gsi.
+
+È Bewusstsy für johreszitlich un aschtronomisch sich widderholendi Ereignis, für entschprèchendi Zǜklè i sinèrè Umwält, hèt dè Mensch wòrschinli zimli früè ghaa. Dezu! ghörd dè Wechsèl vo Daag un Nacht sowiè d Mondphasè. Johreszitlich bedingti Klimaschwankigè hèn i dè Buèrèrei vo dè meischtè Wältregionè è bedütendi Rollè un hèn vo dè Menschè spôteschtens i dè Altschteizit wòrgnõ wörrè könnè. È Beobachtig vo dè Voänderungè am Nachthimmel sowiè dè Eigèbewegigè vo dè Planetè isch zuè sellèrè Zit ebbèfalls möglich gsi.
+
+Scho dè Rurm vo Jericho uss èm 9. Johrdausend v. Chr. dütet druff hy, daß mò d Summersunnèwendi kènnt hèt un jungschteizitlichi Bautè wiè öppè Stonehenge züged vo dè Bemüèigè vo dè sesshaft worrènè Bevölkerig, diè natürlichi Johreslängi un uusgwäälti zǜklisch widderkeerendi Himmelsereignis wiè Sunnèwendi un Daag-un-Nacht-Glychi bräzys bschtimmè z chönnè. Graad für d Buurè isch es wichtig gsi, è Beschtimmig vo dè Zitpünkt fürs Saiè un Èrntè vornää z chönnè. Mit dè sischtematischè Himmelsbeobachtig sin religiösi Fruchtbòrkeitskult vobundè gsi – drait vo dè Hoffnig uff è günschtigs Zruggchõ vo dè Fruchtbarkeitsbedingigè. Asè sin bschtimmti landwǜrtschaftlichi Termin an Feschter bundè gsi, wo widderum an Himmelsereignis vobundè gsi sin.
+
+Für dè Übbergang vo dè Jägerkulturè zum Ackerbau im Neolithikum (Jungschteizit) isch è Voänderig vo kalendarischè Vorschtelligè vom Mond- zum Sunnèkalènder bassyrt. Selli steizitlichi Kalènder, au neolithischè Kalènder (vo Alexander Thom au megalithischè Kalènder dauft) beiihaltet woll diè älteschtè kalendarischè Vorschtelligè vo dè Menschheit un isch d Grundlaag vo spôterè Kalèndervariantè. Analog zum Begriff vo dè Neolithischè Revolution (Übbergang zum Ackerbau) wörd au vo dè Neolithischè Kalènder-Revolution gschwätzt.
+
+
+Diè älteschtè hüt no bekanntè Kalender stammèd uss dè früènè Hochkulturè Ägyptè un Mesopotamiè. Dõ hèn sich schu zwei grundlegendi Kalenderartè zeigt, wo bis hüt diè meischtè Kalèndersischteem brägèd: dè a dè Mondphasè orièntyrte Mondkalènder un dè aschtronomische Kalènder, wo dè Lauf vo dè Himmelskörper widerschpyglè duèt. 
+
+Spôteschtens vo dè Babilonièr isch dè sibbèdägige Wochèzǜklus entwicklèt woorè, dè hüt fascht wältwit dè Ablauf vom Alldaag reglè duèt. In anderè Kalènder hèt s ähnlichi Zǜklè gää, zwǜschè füüf un zee Dääg.
+
+D Aabassig vo Wochè un Mönètsfolgè a diè feschti Größi vom aschtronomischè Johr isch nit eifach z lösè gsi. S isch zuè dè  Usèbildig vo voschidenè Kalèndersischteem chò.
+
+== Beobachtigskalènder ==
+
+Früèni Kalèndersischteem sin durch Beobachtig gwunnè worrè (aschtronomischi Kalènder). Mit èm Ydritt vo bschtimmtè definyrtè Himmelsereignis (z. B. im Neumond odder im Daag-un-Nacht-Glychi im Früèling) hèt èn neuè Zǜklus aagfangè. Si hèn regèlmäßig nõchgregelt wörrè müèsè. 
+
+Selli Methode hèt èn entscheidendè Nõchdeil ghaa: In großè Hèrrschaftsgebièt hèt è Ereignis a unterschydlichè Ort eventuèll zuè unterschydlichè Zitè wòrgnõ wörrè chönnè, so dass au unterschydlichi Datè zellt worrè sin. Wenn degegè dè Ydritt von èm Ereignis nu an èm bschtimmtè Ort (z. B. dè Hauptschtadt odder èm Haupttempel) maßgeblich gsi isch, denn hèn wit entfèrnt glègeni Gebièt oft èrscht nõch è baar Dääg devò unterrichtet wörrè hèn chönnè. Söttigi Brobleem hèt s byschpillswys im früènèrè jüdischè Kalènder gää, wo dè Hoheprièschter übber diè èrschti Sichtung vo dè Mondsichel bi Neumond entschiddè hèt. Durch diè langè Informationswäg hèt s bassyrè chönnè, dass è religiöses Fescht in abglègènè Gebièt am „falschè“ Daag gfièrèt worrè sin. Auch isch es kurz vor Monètsènd nit möglich gsi, vorhèrzsägè, welles Datum z. B. in sibbè Dääg sy wörd, well dè Neumond nit voruusberechnèt wörrè hèt chönnè, sondern durch dagesaktuèlli Beobachtung ermittlèt worrè isch.
+
+Immer meè Kulturè hèn deshalb iri Kalènder aagfangè z berèchnè. Dè letschti ernschthafti Vosuèch, èn Beobachtigs-Kalènder z etablyrè, isch i dè Französischè Revolution unternõ worrè (Französischè Revolutionskalènder).
+
+== lead_paragraph ==
+
+D Berèchnig vo Kalènder (arithmetischè Kalènder) setzt umfangrychi aschtronomischi un mathematischi Kenntnis voruus. Bi dè Entwicklig vo dè früènè ägyptischè aschtralè Sothiskalènder sin selli Kenntnis vorhandè gsi. D Yfüürig von èm ägǜptischè Vowaltigskalendèr uff 365-Dääg-Basis isch spôteschtens im drittè Johrdausend v. Chr. erfolgt. Sellè hèt abber s Durrèwanderè vo dè Johreszitè nit vohinderè chönnè. Diè ägǜptischè Könnig hèn diè Johreszitèvoschièbig kritisyrt, doch èrscht dè Ptolemaios III. hèt 238 v. Chr. èn Vosuèch zu dè Yfüürig von èm Schaltdaag unternõ. Nõch sim Tod isch nebbè m neuè Schaltdaagskalènder abber widder dè aalte ägǜptische Vowaltigskalènder bruucht worrè. Dè julianische Kalènder, wo 45 v. Chr. vom Julius Cäsar ygfüürt worrè isch, hèt sich glychwool uff d Kalènderform vom Ptolemaios III. gschtützt.
+
+== Schaltdääg ==
+
+Sowoll Mond- als au Sunnèkalènder müèn mit Schaltdääg odder unterschidlichè Monetslängè schaffè, wo nõch ènèrè feschtglaitè mathematischè Reglè i dè normale Kalènderlauf ybaut worrè sin. Èn Sunnèkalènder bruucht normalerwys èn zuèsätzlichè Daag öppè alli vir Johr (im Gregorianischè Kalènder isch sell dè 29. Februar), um diè durchschnittlichi Dageszaal vo dè Längi vom Sunnèjohr aazbassè. Èn Mondkalènder muè d Monetslängi zwǜschè 29 un 30 Dääg variyrè, denn di Zit zwǜschè zwei glychè Mondphasè duèrèt durchschnittlich öppè 29,531 Dääg.
+
+Dè Yschùb von èm zuèsätzlichè Daag, Monet odder Johr in è Kalèndersischteem wörd als Embolismus (altgrychisch ἐμβάλλειν „yschaaltè“) benamst.
+
+== Mondkalènder ==
+
+Lunar- odder Mondkalènder orièntyred sich a dè Mondphasè. S dütsche Wort Monet leitet sich etǜmologisch vom Mond ab. Allerdings hèt dè Monet vom Gregorianischè Kalènder ußer m Nammè nüt mee mit èm Mondzǜklus z duè, well er mit ènèrè durchschnittlichè Längi vo 30,437 Dääg um fascht ein Daag länger duèrèt wiè dè durchschnittliche sǜnodische Monet. 
+
+Dè Nõchdeil vom reinè Lunarkalènder bschtòt dõdruus, dass er nit mit èm Sunnèjohr korreschpondyrè cha, è Eigèschaft, wo in subtropischè un tropischè Breitè öfters nit d Bedütig hèt, wo ym dört zuèchunnt, wo d Kulturè vo dè Johreszitè abhängig sin. Asè duèrèt im bekannteschtè hüt no gebrüüchlichè lunarè Kalènder, im islamischè Kalènder, s Johr mit 12 Monèt durchschnittlich 354,372 Dääg. Diè islamischè Mönèt „wanderèd“ dõdurrè Johr für Johr öppè elf Dääg im Gregorianischè Kalènder fürrèzuès. Au s Oschterdatum folgèt èm Lunarè Kalènder (luèg: Oschterberèchnig)
+
+== Solarkalènder ==
+
+Diè meischtè Kulturè orièntyrèd sich bi irer Zitmessig a dè durch d Sunnè bschtimmtè Johreszitè (Solar- odder Sunnèkalènder). Dèmèntsprèchend hèt dè Grundtǜp vom Solarkalènder diè meischtè Variantè fürrèbrocht. S Solarjohr orièntyrt sich am tropischè Johr, èm Umlauf vo dè Èrdè uff dè Früèlingspunkt bezogè. Sebb isch d Uusgangsbasis für dè allgemeine Johresbegriff.
+
+Dè hüt wältwit vobreitete Gregorianische Kalènder isch èn solarè Kalènder.
+
+== Lunisolarkalènder ==
+
+Dè Lunisolarkalènder stellt dè Vosuèch dar, èn reinè Lunarkalènder a s Sunnèjohr aazbassè. Well d Längi vo dè Mönèt durch d Mondphasè feschtglait isch, chönned keini Schaltdääg wiè bim Sunnèkalènder yègfüègt wörrè. D Lösig lyt im Yschaaltè vo Schaltmönèt. Diè Johreslängi vo dè Lunisolarkalènder schwankèt deshalb zwǜschè öppè 353 un öppè 385 Dääg. Bekannti Lunisolarkalènder sin dè jüdischè, dè traditionèlle chinesischè un dè keltische Kalènder.
+
+== Anderi Sischteem ==
+
+Es sin nu wènnig Kalèndersischteem bekannt, wo sich nit am Mond un nit a dè Sunnè orièntyrèd. Dè aschtronomische ägǜptische Kalènder orièntyrt sich am ganz hellè Stèrn Sirius. D Maya-Kalènder basyrèt uff ènèrè regèlmäßigè Folgi vo 20 Dääg un einèrè 52 Johr duèrndè Kalènderrundi.
+
+== Luèg au ==
+
+* Chilchèjohr
+
+== Literadur ==
+
+* Wolfgang Kosack: Der koptische Heiligenkalender Dütsch – Koptisch – Arabisch nõch dè beschtè Quällè neu umgmodlèt un vollschtändig usègää mit Index Sanctorum vo koptischè Heiligè, Index vo dè Nämmè uff Koptisch, Koptischi Patriarchèlischtè, Geografischi Lischtè. Christoph Brunner, Bèrlin 2012, ISBN 978-3-9524018-4-2.
+* 
+* 
+* 
+* 
+* 
+* 
+*
+
+== Weblinggs ==
+
+*

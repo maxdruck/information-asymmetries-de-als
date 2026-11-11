@@ -1,0 +1,613 @@
+{
+  "page_id": "34355",
+  "page_title": "Wahrscheinlichkeit",
+  "language_variety": "als",
+  "decomposition_model": "gemma-4-31b-it",
+  "num_paragraphs": 18,
+  "num_facts": 97,
+  "num_fallback_paragraphs": 0,
+  "paragraphs": [
+    "D Woorschiinligkäit (Probabilität) isch en Iistuefig vo Urdäil und Ussaage, vor allem Brognoose, noch em Grad vo dr Gwüsshäit, d. h. wie sicher mä cha si, ass es woor isch. In dr Mathematik het sich mit dr Woorschiinligkäitstheorii en äiges Fachgebiet entwicklet, wo Woorschiinligkäite as mathematischi Objekt beschribt, wo die formale Äigeschafte vo ene im dääglige Lääbe und in dr Filosofii au uf Ussaage und Urdäil überdräit wärde.",
+    "Es git verschidnigi Uffassige vo Woorschiinligkäite (Woorschiinligkäitsbegriff).",
+    "D Woorschiinlihkäit vom ene Eräigniss isch s Verheltnis vo de günstige Resultaat zu dr Zaal vo alle Resultaat. So isch zum Bischbil d Woorschiinligkäit, ass mä mit eme Säggserwürfel en ungraadi Zaal wirft 0,5, was ere relative Hüfigkäit vo 50 % entspricht), wil s säggs Ergäbniss git, wo alli drvoo gliich mööglig si und wo drei von ene die gnennti Äigeschaft häi.",
+    "Das isch die so genannti klassischi Definizioon, wie si vom Christiaan Huygens und Jakob I. Bernoulli entwicklet und vom Laplace formuliert worde isch. Si isch d Grundlaag für die klassischi Woorschiinligkäitstheorii. D Elementareräigniss häi alli die gliichi Woorschinligkäit, ass si vorchömme. D Vorussetzig isch en ändligi Zaal vo Resultat und as d A-priori-Woorschiinligkäite bekannt si.",
+    "Bim ene „fääre“ Würfel (das häisst käi Ergäbnis wird dur en unsümmetrischi Masseverdäilig oder Äänligs bevorzugt) überlegt mä sich, ass jedi Zaal die gliichi Schansse het und dorum im ene Säggstel vo alle Versüech vorchunnt. D Woorschiinligkäit ass mä e „graadi Zaal“ würflet, rächnet mä eso us: Es git drei günstigi Ergäbniss (2, 4, 6), aber säggs möögligi Resultaat, dorum isch d Woorschiinligkäit für e graadi Zaal 3/6 = 0,5.",
+    "Äänlig beim e Glicksrad, wo z. B. dh Hälfde blau, ei Viertel gelb und`s andere Viertel grea isch. Dh Chance auf Blau isch 1/2, auf Gelb und Grea je 1/4.",
+    "E Zuefallsexperimänt wird so vilmol wie mööglig widerhoolt, denn wärde die relative Hüfigkäite vo de jewiilige Elementareräigniss berächnet. D Woorschiinligkäit vom ene Eräigniss isch jetz dr Gränzwärt vo sinere relative Hüfigkäit bi (theoretisch) unändlig vile Widerhoolige. Das isch die so genannti ‚Limes-Definizioon‘ noch em von Mises. S Gsetz vo de groosse Zaale spiilt do e zentraali Rolle. D Vorussetzig isch ass mä s Experimänt so vilmol wie mä wil, cha widerhoole, und ass die äinzelne Durchgäng vonenander unabhängig si. En andere Name für das Konzept isch frekwentische Woorschiinligkäitsbegriff. Dä Woorschiinligkäitsbegriff isch zum Bischbil in dr Füsik bi dr Zerfallswoorschiinligkäit vom ene Radionuklid gmäint; d Experimänt si do die äinzelne Zerfäll vo de Atomchärn, wo vonenander unabhängig si.",
+    "Mä würflet 1000-mol und bechunnt die Verdäilig: Dr Äinser fallt 100-mol (das entspricht ere relative Hüfigkäit vo 10 %), dr Zwäier git s 150-mol (15 %), dr Dreier ebefalls 150-mol (15 %), dr Vierer in 20 %, dr Fümfer in 30 % und dr Säggser in 10 % vo de Fäll. Mä bechunnt dr Verdacht, ass dä Würfel nit fäär isch. Noch 10'000 Durchgäng häi sich d Zaale bi de Wärt, wo oobe aagee si, stabilisiert, sodass mä zimlig sicher cha si, ass d Woorschiinligkäit für e Dreier öbbe 15 % isch.",
+    "In dr nitrelativistische Kwantemechanik wird d Wällefunzioon vom ene Däili as sini fundamentali Beschriibig verwändet. S Integral vom Bedraagskwadraat vo dr Wällefunkzioon über eme Ruumgebiet entspricht dört dr Woorschiinligkäit, ass mä s Däili dört din aadrifft. Es handlet sich also nit um e Woorschiinligkäit, wo äifach nume statistisch isch sondern um äini, wo nit-determiniert isch.",
+    "Bi äimoolige Zuefallseräigniss cha mä nume schetze und nid berächne, wie woorschiinlig es isch, ass si bassiere. Zentraali Gsichtspünkt si doo Expärtewüsse, Erfaarig und Intuizioon. Doorum reedet mä von ere subjektivistische Woorschiinligkäitsuffassig.",
+    "Wenn öbber verschidnigi Auti ghaa het, schetzt er d Woorschiinligkäit jee noch siner Erfaarig mit Auti von ere gwüsse Marke as hooch oder niidrig ii, ass er mit eme nöije Auti vo dere Marke wider wurd zfriide si. Soonigi Iischetzige wärde au vo Gschichte, won em Bekannti verzelle, Testreport, won er glääse het, oder vom Gschwätz vom Verchöifer beiiflusst.",
+    "D Definizioon vo dr Woorschiinligkäit noch em Kolmogorow isch hüte für d Mathematik maassgääbend. Me betrachtet e Wahrschinlechkeitsruum (\\mathbb{P}, \\Omega, \\Sigma). Drbi isch \\Omega e Mengi, \\Sigma \\subset 2^\\Omega e Mengi vo Ungermengine vo \\Omega und \\mathbb{P}: \\Sigma \\to \\mathbb{R} e reellwertegi Funktion, wo fougendi Axiom erfüut:",
+    "Es wird vilmol behauptet, ass dr Mensch e schlächts Gfüül für d Woorschiinligkäit häig, mä reedet in däm Zämmehang au vom „Woorschiinligkäitsidiot“.",
+    "S Geburtsdaagsparadox: Uf eme Schuttblatz si 23 Persoone (zwäimol elf Schbiiler und äi Schiidsrichter). D Woorschiinligkäit, ass es mindestens zwäi Persoone het, wo am gliiche Daag Geburtsdaag häi, isch gröösser as 50 %.",
+    "Wäärend mä vo dr Mathematik us sich wiitgehend äinig isch, wie mä mit Woorschiinligkäite umgoot, het s nume weenig Äingkäit, wenn s drum goot, wo mä d Rächeregle vo dr mathematische Theorii dörf aawände. Eso chunnt mä zur Froog, wie dr Begriff „Woorschiinligkäit“ sött interbretiert wärde.",
+    "Mä brucht „Woorschiinligkäit“ vilmol in zwäi verschiidene Zämmehäng:",
+    "Die Aleatorischi und epistemischi Woorschiinligkäit si luggi Woorschiinligkäitsbegriff, wo mit em frequentistische und em bayessche Woorschiinligkäitsbegriff assoziiert si.",
+    "Es isch en offeni Froog, öb mä die aleatorischi Woorschiinligkäit uf die epistemischi cha reduziere oder umkeert die epistemischi uf die aleatorischi: Gseet für uns d Wält zuefellig us, wil mr nit gnueg über sä wüsse, oder git es fundamental zuefelligi Brozäss, wie öbbe die objektivi Dütig vo dr Quantenmechanik aanimmt? Au wenn für bäidi Standpünkt die gliiche mathematische Regle über e Umgang mit Woorschiinligkäite gälte, het die jewiiligi Sichtwiis wichdigi Konsekwänze drfür, weli mathematische Modäll as gültig aagluegt wärde."
+  ],
+  "facts": [
+    {
+      "fact_index": 0,
+      "paragraph_index": 0,
+      "fact": "Woorschiinligkäit (Probabilität) isch en Iistuefig vo Urdäil und Ussaage, vor allem Brognoose.",
+      "fallback": false
+    },
+    {
+      "fact_index": 1,
+      "paragraph_index": 0,
+      "fact": "Die Iistuefig erfolgt noch em Grad vo dr Gwüsshäit, also wie sicher mä cha si, ass es woor isch.",
+      "fallback": false
+    },
+    {
+      "fact_index": 2,
+      "paragraph_index": 0,
+      "fact": "In dr Mathematik git es mit dr Woorschiinligkäitstheorii es äiges Fachgebiet.",
+      "fallback": false
+    },
+    {
+      "fact_index": 3,
+      "paragraph_index": 0,
+      "fact": "Die Woorschiinligkäitstheorii beschribt Woorschiinligkäite as mathematischi Objekt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 4,
+      "paragraph_index": 0,
+      "fact": "Die formale Äigeschafte vo dene mathematische Objekt wärde au uf Ussaage und Urdäil im dääglige Lääbe und in dr Filosofii überdräit.",
+      "fallback": false
+    },
+    {
+      "fact_index": 5,
+      "paragraph_index": 1,
+      "fact": "Es gibt verschiedene Auffassungen von Wahrscheinlichkeiten (Wahrscheinlichkeitsbegriffe).",
+      "fallback": false
+    },
+    {
+      "fact_index": 6,
+      "paragraph_index": 2,
+      "fact": "Die Wahrscheinlichkeit eines Ereignisses ist das Verhältnis der günstigen Resultate zur Gesamtzahl aller Resultate.",
+      "fallback": false
+    },
+    {
+      "fact_index": 7,
+      "paragraph_index": 2,
+      "fact": "Ein Würfel hat sechs mögliche Ergebnisse.",
+      "fallback": false
+    },
+    {
+      "fact_index": 8,
+      "paragraph_index": 2,
+      "fact": "Alle sechs Ergebnisse eines Würfelwurfs sind gleich wahrscheinlich.",
+      "fallback": false
+    },
+    {
+      "fact_index": 9,
+      "paragraph_index": 2,
+      "fact": "Drei der sechs Ergebnisse eines Würfelwurfs sind ungerade Zahlen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 10,
+      "paragraph_index": 2,
+      "fact": "Die Wahrscheinlichkeit, mit einem Würfel eine ungerade Zahl zu werfen, beträgt 0,5.",
+      "fallback": false
+    },
+    {
+      "fact_index": 11,
+      "paragraph_index": 2,
+      "fact": "Eine Wahrscheinlichkeit von 0,5 entspricht einer relativen Häufigkeit von 50 %.",
+      "fallback": false
+    },
+    {
+      "fact_index": 12,
+      "paragraph_index": 3,
+      "fact": "Es gibt eine sogenannte klassische Definition der Wahrscheinlichkeit.",
+      "fallback": false
+    },
+    {
+      "fact_index": 13,
+      "paragraph_index": 3,
+      "fact": "Die klassische Definition wurde von Christiaan Huygens und Jakob I. Bernoulli entwickelt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 14,
+      "paragraph_index": 3,
+      "fact": "Die klassische Definition wurde von Laplace formuliert.",
+      "fallback": false
+    },
+    {
+      "fact_index": 15,
+      "paragraph_index": 3,
+      "fact": "Diese Definition ist die Grundlage für die klassische Wahrscheinlichkeitstheorie.",
+      "fallback": false
+    },
+    {
+      "fact_index": 16,
+      "paragraph_index": 3,
+      "fact": "Bei dieser Definition haben alle Elementarereignisse die gleiche Eintrittswahrscheinlichkeit.",
+      "fallback": false
+    },
+    {
+      "fact_index": 17,
+      "paragraph_index": 3,
+      "fact": "Eine Voraussetzung ist eine endliche Anzahl von Resultaten.",
+      "fallback": false
+    },
+    {
+      "fact_index": 18,
+      "paragraph_index": 3,
+      "fact": "Eine weitere Voraussetzung ist, dass die A-priori-Wahrscheinlichkeiten bekannt sind.",
+      "fallback": false
+    },
+    {
+      "fact_index": 19,
+      "paragraph_index": 4,
+      "fact": "Ein fairer Würfel hat keine bevorzugten Ergebnisse durch unsymmetrische Massenverteilung oder Abnutzung.",
+      "fallback": false
+    },
+    {
+      "fact_index": 20,
+      "paragraph_index": 4,
+      "fact": "Bei einem fairen Würfel hat jede Zahl die gleiche Chance, gewürfelt zu werden.",
+      "fallback": false
+    },
+    {
+      "fact_index": 21,
+      "paragraph_index": 4,
+      "fact": "Jede Zahl kommt bei einem fairen Würfel in einem Sechstel aller Versuche vor.",
+      "fallback": false
+    },
+    {
+      "fact_index": 22,
+      "paragraph_index": 4,
+      "fact": "Die günstigen Ergebnisse für eine gerade Zahl sind 2, 4 und 6.",
+      "fallback": false
+    },
+    {
+      "fact_index": 23,
+      "paragraph_index": 4,
+      "fact": "Es gibt insgesamt sechs mögliche Resultate beim Würfeln.",
+      "fallback": false
+    },
+    {
+      "fact_index": 24,
+      "paragraph_index": 4,
+      "fact": "Die Wahrscheinlichkeit für eine gerade Zahl berechnet sich aus 3 günstigen Ergebnissen geteilt durch 6 mögliche Resultate.",
+      "fallback": false
+    },
+    {
+      "fact_index": 25,
+      "paragraph_index": 4,
+      "fact": "Die Wahrscheinlichkeit für eine gerade Zahl beträgt 0,5.",
+      "fallback": false
+    },
+    {
+      "fact_index": 26,
+      "paragraph_index": 5,
+      "fact": "Es gibt ein Glücksrad.",
+      "fallback": false
+    },
+    {
+      "fact_index": 27,
+      "paragraph_index": 5,
+      "fact": "Die Hälfte des Glücksrads ist blau.",
+      "fallback": false
+    },
+    {
+      "fact_index": 28,
+      "paragraph_index": 5,
+      "fact": "Ein Viertel des Glücksrads ist gelb.",
+      "fallback": false
+    },
+    {
+      "fact_index": 29,
+      "paragraph_index": 5,
+      "fact": "Ein Viertel des Glücksrads ist grün.",
+      "fallback": false
+    },
+    {
+      "fact_index": 30,
+      "paragraph_index": 5,
+      "fact": "Die Chance auf Blau beträgt 1/2.",
+      "fallback": false
+    },
+    {
+      "fact_index": 31,
+      "paragraph_index": 5,
+      "fact": "Die Chance auf Gelb beträgt 1/4.",
+      "fallback": false
+    },
+    {
+      "fact_index": 32,
+      "paragraph_index": 5,
+      "fact": "Die Chance auf Grün beträgt 1/4.",
+      "fallback": false
+    },
+    {
+      "fact_index": 33,
+      "paragraph_index": 6,
+      "fact": "Ein Zufallsexperiment wird so oft wie möglich wiederholt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 34,
+      "paragraph_index": 6,
+      "fact": "Nach der Wiederholung werden die relativen Häufigkeiten der jeweiligen Elementarereignisse berechnet.",
+      "fallback": false
+    },
+    {
+      "fact_index": 35,
+      "paragraph_index": 6,
+      "fact": "Die Wahrscheinlichkeit eines Ereignisses ist der Grenzwert seiner relativen Häufigkeit bei theoretisch unendlich vielen Wiederholungen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 36,
+      "paragraph_index": 6,
+      "fact": "Diese Definition wird als 'Limes-Definition' nach von Mises bezeichnet.",
+      "fallback": false
+    },
+    {
+      "fact_index": 37,
+      "paragraph_index": 6,
+      "fact": "Das Gesetz der großen Zahlen spielt bei dieser Definition eine zentrale Rolle.",
+      "fallback": false
+    },
+    {
+      "fact_index": 38,
+      "paragraph_index": 6,
+      "fact": "Voraussetzung ist, dass das Experiment beliebig oft wiederholt werden kann.",
+      "fallback": false
+    },
+    {
+      "fact_index": 39,
+      "paragraph_index": 6,
+      "fact": "Voraussetzung ist, dass die einzelnen Durchgänge voneinander unabhängig sind.",
+      "fallback": false
+    },
+    {
+      "fact_index": 40,
+      "paragraph_index": 6,
+      "fact": "Ein anderer Name für dieses Konzept ist der frequentistische Wahrscheinlichkeitsbegriff.",
+      "fallback": false
+    },
+    {
+      "fact_index": 41,
+      "paragraph_index": 6,
+      "fact": "Der frequentistische Wahrscheinlichkeitsbegriff wird beispielsweise in der Physik bei der Zerfallswahrscheinlichkeit eines Radionuklids verwendet.",
+      "fallback": false
+    },
+    {
+      "fact_index": 42,
+      "paragraph_index": 6,
+      "fact": "Bei der Zerfallswahrscheinlichkeit von Radionukliden sind die einzelnen Zerfälle der Atomkerne die unabhängigen Experimente.",
+      "fallback": false
+    },
+    {
+      "fact_index": 43,
+      "paragraph_index": 7,
+      "fact": "Es wurde 1000-mal gewürfelt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 44,
+      "paragraph_index": 7,
+      "fact": "Die Zahl Eins fiel 100-mal.",
+      "fallback": false
+    },
+    {
+      "fact_index": 45,
+      "paragraph_index": 7,
+      "fact": "Die relative Häufigkeit der Eins beträgt 10 %.",
+      "fallback": false
+    },
+    {
+      "fact_index": 46,
+      "paragraph_index": 7,
+      "fact": "Die Zahl Zwei fiel 150-mal.",
+      "fallback": false
+    },
+    {
+      "fact_index": 47,
+      "paragraph_index": 7,
+      "fact": "Die relative Häufigkeit der Zwei beträgt 15 %.",
+      "fallback": false
+    },
+    {
+      "fact_index": 48,
+      "paragraph_index": 7,
+      "fact": "Die Zahl Drei fiel 150-mal.",
+      "fallback": false
+    },
+    {
+      "fact_index": 49,
+      "paragraph_index": 7,
+      "fact": "Die relative Häufigkeit der Drei beträgt 15 %.",
+      "fallback": false
+    },
+    {
+      "fact_index": 50,
+      "paragraph_index": 7,
+      "fact": "Die relative Häufigkeit der Vier beträgt 20 %.",
+      "fallback": false
+    },
+    {
+      "fact_index": 51,
+      "paragraph_index": 7,
+      "fact": "Die relative Häufigkeit der Fünf beträgt 30 %.",
+      "fallback": false
+    },
+    {
+      "fact_index": 52,
+      "paragraph_index": 7,
+      "fact": "Die relative Häufigkeit der Sechs beträgt 10 %.",
+      "fallback": false
+    },
+    {
+      "fact_index": 53,
+      "paragraph_index": 7,
+      "fact": "Es besteht der Verdacht, dass der Würfel nicht fair ist.",
+      "fallback": false
+    },
+    {
+      "fact_index": 54,
+      "paragraph_index": 7,
+      "fact": "Nach 10.000 Durchgängen haben sich die Werte stabilisiert.",
+      "fallback": false
+    },
+    {
+      "fact_index": 55,
+      "paragraph_index": 7,
+      "fact": "Die Wahrscheinlichkeit für eine Drei liegt bei etwa 15 %.",
+      "fallback": false
+    },
+    {
+      "fact_index": 56,
+      "paragraph_index": 8,
+      "fact": "In der nicht-relativistischen Quantenmechanik wird die Wellenfunktion eines Teilchens als seine fundamentale Beschreibung verwendet.",
+      "fallback": false
+    },
+    {
+      "fact_index": 57,
+      "paragraph_index": 8,
+      "fact": "Das Integral des Betragsquadrats der Wellenfunktion über einem Raumgebiet entspricht der Wahrscheinlichkeit, das Teilchen dort zu finden.",
+      "fallback": false
+    },
+    {
+      "fact_index": 58,
+      "paragraph_index": 8,
+      "fact": "Die Wahrscheinlichkeit in der nicht-relativistischen Quantenmechanik ist nicht bloß statistischer Natur, sondern nicht-determiniert.",
+      "fallback": false
+    },
+    {
+      "fact_index": 59,
+      "paragraph_index": 9,
+      "fact": "Bei einmaligen Zufallsereignissen kann die Wahrscheinlichkeit ihres Eintretens nur geschätzt und nicht berechnet werden.",
+      "fallback": false
+    },
+    {
+      "fact_index": 60,
+      "paragraph_index": 9,
+      "fact": "Expertenwissen, Erfahrung und Intuition sind zentrale Gesichtspunkte bei dieser Schätzung.",
+      "fallback": false
+    },
+    {
+      "fact_index": 61,
+      "paragraph_index": 9,
+      "fact": "Diese Herangehensweise wird als subjektivistische Wahrscheinlichkeitsauffassung bezeichnet.",
+      "fallback": false
+    },
+    {
+      "fact_index": 62,
+      "paragraph_index": 10,
+      "fact": "Personen, die verschiedene Autos besessen haben, schätzen die Wahrscheinlichkeit ein, mit einem neuen Auto einer bestimmten Marke zufrieden zu sein.",
+      "fallback": false
+    },
+    {
+      "fact_index": 63,
+      "paragraph_index": 10,
+      "fact": "Diese Einschätzung basiert auf den persönlichen Erfahrungen der Person mit Autos einer bestimmten Marke.",
+      "fallback": false
+    },
+    {
+      "fact_index": 64,
+      "paragraph_index": 10,
+      "fact": "Die Einschätzung der Zufriedenheit kann als hoch oder niedrig ausfallen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 65,
+      "paragraph_index": 10,
+      "fact": "Geschichten von Bekannten beeinflussen diese Einschätzungen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 66,
+      "paragraph_index": 10,
+      "fact": "Gelesene Testberichte beeinflussen diese Einschätzungen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 67,
+      "paragraph_index": 10,
+      "fact": "Aussagen des Verkäufers beeinflussen diese Einschätzungen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 68,
+      "paragraph_index": 11,
+      "fact": "Die Definition der Wahrscheinlichkeit nach Kolmogorow ist heute maßgebend für die Mathematik.",
+      "fallback": false
+    },
+    {
+      "fact_index": 69,
+      "paragraph_index": 11,
+      "fact": "Ein Wahrscheinlichkeitsraum wird als Tripel (P, Ω, Σ) betrachtet.",
+      "fallback": false
+    },
+    {
+      "fact_index": 70,
+      "paragraph_index": 11,
+      "fact": "Ω ist eine Menge.",
+      "fallback": false
+    },
+    {
+      "fact_index": 71,
+      "paragraph_index": 11,
+      "fact": "Σ ist eine Menge von Untermengen von Ω (Σ ⊂ 2^Ω).",
+      "fallback": false
+    },
+    {
+      "fact_index": 72,
+      "paragraph_index": 11,
+      "fact": "P ist eine reellwertige Funktion von Σ nach R (P: Σ → R).",
+      "fallback": false
+    },
+    {
+      "fact_index": 73,
+      "paragraph_index": 11,
+      "fact": "Die Funktion P erfüllt bestimmte Axiome.",
+      "fallback": false
+    },
+    {
+      "fact_index": 74,
+      "paragraph_index": 12,
+      "fact": "Es wird oft behauptet, dass der Mensch ein schlechtes Gefühl für Wahrscheinlichkeiten hat.",
+      "fallback": false
+    },
+    {
+      "fact_index": 75,
+      "paragraph_index": 12,
+      "fact": "In diesem Zusammenhang wird auch vom Begriff „Wahrscheinlichkeitsidiot“ gesprochen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 76,
+      "paragraph_index": 13,
+      "fact": "Es geht um das Geburtsdagsparadoxon.",
+      "fallback": false
+    },
+    {
+      "fact_index": 77,
+      "paragraph_index": 13,
+      "fact": "Es befinden sich 23 Personen auf einem Sportplatz.",
+      "fallback": false
+    },
+    {
+      "fact_index": 78,
+      "paragraph_index": 13,
+      "fact": "Die Gruppe besteht aus zwei Mannschaften zu je elf Spielern und einem Schiedsrichter.",
+      "fallback": false
+    },
+    {
+      "fact_index": 79,
+      "paragraph_index": 13,
+      "fact": "Die Wahrscheinlichkeit, dass mindestens zwei Personen am gleichen Tag Geburtstag haben, liegt bei über 50 %.",
+      "fallback": false
+    },
+    {
+      "fact_index": 80,
+      "paragraph_index": 14,
+      "fact": "In der Mathematik besteht weitgehende Einigkeit darüber, wie mit Wahrscheinlichkeiten umzugehen ist.",
+      "fallback": false
+    },
+    {
+      "fact_index": 81,
+      "paragraph_index": 14,
+      "fact": "Es gibt wenig Einigkeit darüber, wo die Rechenregeln der mathematischen Theorie angewendet werden dürfen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 82,
+      "paragraph_index": 14,
+      "fact": "Es stellt sich die Frage, wie der Begriff 'Wahrscheinlichkeit' interpretiert werden sollte.",
+      "fallback": false
+    },
+    {
+      "fact_index": 83,
+      "paragraph_index": 15,
+      "fact": "Der Begriff „Woorschiinligkäit“ wird verwendet.",
+      "fallback": false
+    },
+    {
+      "fact_index": 84,
+      "paragraph_index": 15,
+      "fact": "Der Begriff wird häufig verwendet.",
+      "fallback": false
+    },
+    {
+      "fact_index": 85,
+      "paragraph_index": 15,
+      "fact": "Der Begriff wird in zwei verschiedenen Zusammenhängen verwendet.",
+      "fallback": false
+    },
+    {
+      "fact_index": 86,
+      "paragraph_index": 16,
+      "fact": "Es git e aleatorischi Woorschiinligkäit.",
+      "fallback": false
+    },
+    {
+      "fact_index": 87,
+      "paragraph_index": 16,
+      "fact": "Es git e epistemischi Woorschiinligkäit.",
+      "fallback": false
+    },
+    {
+      "fact_index": 88,
+      "paragraph_index": 16,
+      "fact": "Die aleatorischi und epistemischi Woorschiinligkäit si luggi Woorschiinligkäitsbegriff.",
+      "fallback": false
+    },
+    {
+      "fact_index": 89,
+      "paragraph_index": 16,
+      "fact": "Die aleatorischi Woorschiinligkäit isch mit em frequentistische Woorschiinligkäitsbegriff assoziiert.",
+      "fallback": false
+    },
+    {
+      "fact_index": 90,
+      "paragraph_index": 16,
+      "fact": "Die epistemischi Woorschiinligkäit isch mit em bayessche Woorschiinligkäitsbegriff assoziiert.",
+      "fallback": false
+    },
+    {
+      "fact_index": 91,
+      "paragraph_index": 17,
+      "fact": "Es ist eine offene Frage, ob aleatorische Wahrscheinlichkeit auf epistemische Wahrscheinlichkeit reduziert werden kann oder umgekehrt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 92,
+      "paragraph_index": 17,
+      "fact": "Eine Sichtweise besagt, dass die Welt zufällig erscheint, weil das Wissen über sie unzureichend ist (epistemischer Zufall).",
+      "fallback": false
+    },
+    {
+      "fact_index": 93,
+      "paragraph_index": 17,
+      "fact": "Eine andere Sichtweise besagt, dass es fundamental zufällige Prozesse gibt (aleatorischer Zufall).",
+      "fallback": false
+    },
+    {
+      "fact_index": 94,
+      "paragraph_index": 17,
+      "fact": "Die objektive Deutung der Quantenmechanik nimmt an, dass es fundamental zufällige Prozesse gibt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 95,
+      "paragraph_index": 17,
+      "fact": "Für beide Standpunkte gelten die gleichen mathematischen Regeln im Umgang mit Wahrscheinlichkeiten.",
+      "fallback": false
+    },
+    {
+      "fact_index": 96,
+      "paragraph_index": 17,
+      "fact": "Die jeweilige Sichtweise hat wichtige Konsequenzen dafür, welche mathematischen Modelle als gültig angesehen werden.",
+      "fallback": false
+    }
+  ]
+}

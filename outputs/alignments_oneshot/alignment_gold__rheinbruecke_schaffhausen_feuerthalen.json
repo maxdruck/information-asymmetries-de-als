@@ -1,0 +1,4632 @@
+{
+  "pair_key": "gold__rheinbruecke_schaffhausen_feuerthalen",
+  "cluster": "Gold",
+  "title": "Rheinbrücke Schaffhausen–Feuerthalen",
+  "als_page_id": "gold_rheinbruecke_schaffhausen_feuerthalen_als",
+  "de_page_id": "gold_rheinbruecke_schaffhausen_feuerthalen_de",
+  "als_title": "Rheinbrücke Schaffhausen–Feuerthalen",
+  "de_title": "Rheinbrücke Schaffhausen–Feuerthalen",
+  "embed_model": "sentence-transformers/LaBSE",
+  "xfactalign_version": "paper_style_density_normalized_distance",
+  "top_k_facts": 2,
+  "paragraph_alignment": "directed_argmax_union",
+  "fact_retrieval_metric": "D(e_i,f_j)=1-cos(e_i,f_j)-hubness(f_j)",
+  "paragraph_adjacency": [
+    {
+      "de_paragraph": 0,
+      "als_paragraph": 0,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 1,
+      "als_paragraph": 1,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 2,
+      "als_paragraph": 2,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 3,
+      "als_paragraph": 3,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 4,
+      "als_paragraph": 4,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 5,
+      "als_paragraph": 5,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 6,
+      "als_paragraph": 6,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 7,
+      "als_paragraph": 7,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 8,
+      "als_paragraph": 8,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 9,
+      "als_paragraph": 9,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 10,
+      "als_paragraph": 10,
+      "weight": 2
+    }
+  ],
+  "de_to_als": [
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 0,
+      "source_fact": "Die Rheinbrücke Schaffhausen–Feuerthalen wird im Volksmund auch Feuerthaler Brücke genannt.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 0,
+          "target_fact": "Die Rhybrugg Schaffuusè–Füèrthalè wird im Schaffhauserischen auch Füèrthaler Brugg genannt.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.2966
+        },
+        {
+          "target_fact_index": 3,
+          "target_fact": "Die Brücke verbindet die Stadt Schaffhausen im Kanton Schaffhausen mit der Gemeinde Feuerthalen im Kanton Zürich.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1839
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 1,
+      "source_fact": "Die Rheinbrücke Schaffhausen–Feuerthalen ist eine Strassenbrücke in der Schweiz.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 3,
+          "target_fact": "Die Brücke verbindet die Stadt Schaffhausen im Kanton Schaffhausen mit der Gemeinde Feuerthalen im Kanton Zürich.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.2199
+        },
+        {
+          "target_fact_index": 1,
+          "target_fact": "Die Rhybrugg Schaffuusè–Füèrthalè ist eine Straßenbrücke.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.2034
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 2,
+      "source_fact": "Die Brücke überspannt den Rhein.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 2,
+          "target_fact": "Die Brücke überspannt den Hochrhein in der Schweiz.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.2347
+        },
+        {
+          "target_fact_index": 12,
+          "target_fact": "Die nationale Rhein-Route Nr. 2 (Andermatt – Oberalppass – Chur – Schaffhausen – Basel) des Velolands Schweiz führt unter der Brücke hindurch.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0358
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 3,
+      "source_fact": "Die Brücke verbindet die Stadt Schaffhausen im Kanton Schaffhausen mit der Gemeinde Feuerthalen im Kanton Zürich.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 3,
+          "target_fact": "Die Brücke verbindet die Stadt Schaffhausen im Kanton Schaffhausen mit der Gemeinde Feuerthalen im Kanton Zürich.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.4645
+        },
+        {
+          "target_fact_index": 9,
+          "target_fact": "Der Kanton Schaffhausen ist der Eigentümer der Brücke.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1575
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 4,
+      "source_fact": "Das heutige Bauwerk der Brücke stammt aus dem Jahr 1965.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 4,
+          "target_fact": "Das heutige Bauwerk stammt aus dem Jahr 1965.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.3496
+        },
+        {
+          "target_fact_index": 9,
+          "target_fact": "Der Kanton Schaffhausen ist der Eigentümer der Brücke.",
+          "target_paragraph": 0,
+          "density_normalized_distance": 0.0235
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 5,
+      "source_fact": "Die Brücke verfügt über zwei Fahrstreifen in Richtung Schaffhausen.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 6,
+          "target_fact": "Die Brücke besitzt zwei Fahrstreifen in Richtung Schaffhausen.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.4021
+        },
+        {
+          "target_fact_index": 7,
+          "target_fact": "Die Brücke besitzt einen Fahrstreifen in Richtung Feuerthalen.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1791
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 6,
+      "source_fact": "Die Brücke verfügt über einen Fahrstreifen in Richtung Feuerthalen.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 7,
+          "target_fact": "Die Brücke besitzt einen Fahrstreifen in Richtung Feuerthalen.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.4317
+        },
+        {
+          "target_fact_index": 6,
+          "target_fact": "Die Brücke besitzt zwei Fahrstreifen in Richtung Schaffhausen.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1539
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 7,
+      "source_fact": "Die Brücke besitzt beidseitige Geh- und Radwege.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 8,
+          "target_fact": "Die Brücke verfügt beidseitig über Trottoirs und Velowege.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.3477
+        },
+        {
+          "target_fact_index": 11,
+          "target_fact": "An beiden Enden der Brücke gibt es Unterführungen für Fußgänger und Radfahrer.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.2572
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 8,
+      "source_fact": "Über die Brücke führen die Hauptstrassen 13, 14 und 15.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 5,
+          "target_fact": "Über die Brücke führen die Hauptstraßen 13, 14 und 15.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.4122
+        },
+        {
+          "target_fact_index": 13,
+          "target_fact": "Die nationale Rhein-Route Nr. 2 hat eine Länge von 424 km.",
+          "target_paragraph": 0,
+          "density_normalized_distance": 0.0132
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 9,
+      "source_fact": "Der Kanton Schaffhausen ist der Eigentümer der Brücke.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 9,
+          "target_fact": "Der Kanton Schaffhausen ist der Eigentümer der Brücke.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.4818
+        },
+        {
+          "target_fact_index": 10,
+          "target_fact": "Die Brücke liegt im Hoheitsgebiet des Kantons Schaffhausen, mit Ausnahme des südlichen Widerlagers.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1823
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 10,
+      "source_fact": "Die Brücke liegt auf dem Hoheitsgebiet des Kantons Schaffhausen, mit Ausnahme des südlichen Widerlagers.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 10,
+          "target_fact": "Die Brücke liegt im Hoheitsgebiet des Kantons Schaffhausen, mit Ausnahme des südlichen Widerlagers.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.4642
+        },
+        {
+          "target_fact_index": 9,
+          "target_fact": "Der Kanton Schaffhausen ist der Eigentümer der Brücke.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1867
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 11,
+      "source_fact": "An beiden Enden der Brücke gibt es Unterführungen für Fussgänger und Velofahrer.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 11,
+          "target_fact": "An beiden Enden der Brücke gibt es Unterführungen für Fußgänger und Radfahrer.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.4358
+        },
+        {
+          "target_fact_index": 8,
+          "target_fact": "Die Brücke verfügt beidseitig über Trottoirs und Velowege.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.2522
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 12,
+      "source_fact": "Die nationale Rhein-Route Nr. 2 (Andermatt – Oberalppass – Chur – Schaffhausen – Basel) von Veloland Schweiz führt unter der Brücke durch.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 12,
+          "target_fact": "Die nationale Rhein-Route Nr. 2 (Andermatt – Oberalppass – Chur – Schaffhausen – Basel) des Velolands Schweiz führt unter der Brücke hindurch.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.475
+        },
+        {
+          "target_fact_index": 13,
+          "target_fact": "Die nationale Rhein-Route Nr. 2 hat eine Länge von 424 km.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1232
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 13,
+      "source_fact": "Die nationale Rhein-Route Nr. 2 hat eine Länge von 424 km.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 13,
+          "target_fact": "Die nationale Rhein-Route Nr. 2 hat eine Länge von 424 km.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.4748
+        },
+        {
+          "target_fact_index": 12,
+          "target_fact": "Die nationale Rhein-Route Nr. 2 (Andermatt – Oberalppass – Chur – Schaffhausen – Basel) des Velolands Schweiz führt unter der Brücke hindurch.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1469
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 14,
+      "source_fact": "Bei Schaffhausen gab es bereits zur Zeit der Gallier einen Rheinübergang in Form einer Furt.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 14,
+          "target_fact": "Schaffhausen hatte bereits zur Zeit der Gallier eine Art Furt als Rheinübergang.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.4241
+        },
+        {
+          "target_fact_index": 15,
+          "target_fact": "Eine Rheinbrücke wurde im Jahr 1259 erstmals urkundlich erwähnt.",
+          "target_paragraph": 1,
+          "density_normalized_distance": 0.078
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 15,
+      "source_fact": "Eine Rheinbrücke wurde im Jahr 1259 erstmals urkundlich erwähnt.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 15,
+          "target_fact": "Eine Rheinbrücke wurde im Jahr 1259 erstmals urkundlich erwähnt.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.4619
+        },
+        {
+          "target_fact_index": 18,
+          "target_fact": "Ein hölzernes Nachfolgebauwerk ist von 1489 überliefert.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.1466
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 16,
+      "source_fact": "Der Bau der ersten urkundlich erwähnten Brücke wurde wahrscheinlich vom Abt des Klosters Allerheiligen beauftragt.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 16,
+          "target_fact": "Der Bau der Brücke von 1259 wurde wahrscheinlich vom Abt des Klosters Allerheiligen beauftragt.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.2934
+        },
+        {
+          "target_fact_index": 15,
+          "target_fact": "Eine Rheinbrücke wurde im Jahr 1259 erstmals urkundlich erwähnt.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.0057
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 17,
+      "source_fact": "Die erste Brücke war ein schmaler, gedeckter Holzsteg.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 17,
+          "target_fact": "Ein schmaler, überdachter Holzsteg wurde im Frühsommer 1480 durch ein Hochwasser zerstört.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.1725
+        },
+        {
+          "target_fact_index": 22,
+          "target_fact": "Zwei eingestürzte Bogenöffnungen der Steinbrücke mussten durch eine gedeckte Holzbrücke ersetzt werden.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.0758
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 18,
+      "source_fact": "Der gedeckte Holzsteg wurde im Frühsommer 1480 durch ein Hochwasser zerstört.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 17,
+          "target_fact": "Ein schmaler, überdachter Holzsteg wurde im Frühsommer 1480 durch ein Hochwasser zerstört.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.4354
+        },
+        {
+          "target_fact_index": 18,
+          "target_fact": "Ein hölzernes Nachfolgebauwerk ist von 1489 überliefert.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.0979
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 19,
+      "source_fact": "Ein hölzernes Nachfolgebauwerk ist für das Jahr 1489 dokumentiert.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 18,
+          "target_fact": "Ein hölzernes Nachfolgebauwerk ist von 1489 überliefert.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.4823
+        },
+        {
+          "target_fact_index": 15,
+          "target_fact": "Eine Rheinbrücke wurde im Jahr 1259 erstmals urkundlich erwähnt.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.1224
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 20,
+      "source_fact": "Zwischen 1550 und 1611 wurde das hölzerne Bauwerk durch eine steinerne Bogenbrücke mit acht Öffnungen ersetzt.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 19,
+          "target_fact": "Zwischen 1550 und 1611 wurde das Holzbauwerk durch eine Steinbogenbrücke mit acht Öffnungen ersetzt.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.3849
+        },
+        {
+          "target_fact_index": 22,
+          "target_fact": "Zwei eingestürzte Bogenöffnungen der Steinbrücke mussten durch eine gedeckte Holzbrücke ersetzt werden.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.1764
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 21,
+      "source_fact": "Die Steinbrücke wies aufgrund technischer Mängel häufig Schäden auf.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 20,
+          "target_fact": "Die Steinbrücke wies aufgrund technischer Mängel häufig Schäden auf.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.4964
+        },
+        {
+          "target_fact_index": 21,
+          "target_fact": "Hochwasser beschädigten die Pfeiler der Steinbrücke.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.0713
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 22,
+      "source_fact": "Hochwässer zerstörten Pfeiler der Steinbrücke.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 21,
+          "target_fact": "Hochwasser beschädigten die Pfeiler der Steinbrücke.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.3986
+        },
+        {
+          "target_fact_index": 20,
+          "target_fact": "Die Steinbrücke wies aufgrund technischer Mängel häufig Schäden auf.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.072
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 23,
+      "source_fact": "Zwei eingestürzte Bogenöffnungen der Steinbrücke mussten durch eine gedeckte Holzbrücke ersetzt werden.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 22,
+          "target_fact": "Zwei eingestürzte Bogenöffnungen der Steinbrücke mussten durch eine gedeckte Holzbrücke ersetzt werden.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.4551
+        },
+        {
+          "target_fact_index": 19,
+          "target_fact": "Zwischen 1550 und 1611 wurde das Holzbauwerk durch eine Steinbogenbrücke mit acht Öffnungen ersetzt.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.0964
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 24,
+      "source_fact": "Am 3. Mai 1754 führte ein Hochwasser durch Unterspülung der Pfeiler zum kompletten Einsturz der Brücke.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 23,
+          "target_fact": "Am 3. Mai 1754 führte ein Hochwasser durch Unterspülung der Pfeiler zum kompletten Einsturz des Bauwerks.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.4108
+        },
+        {
+          "target_fact_index": 17,
+          "target_fact": "Ein schmaler, überdachter Holzsteg wurde im Frühsommer 1480 durch ein Hochwasser zerstört.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.104
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 25,
+      "source_fact": "Nach dem Einsturz am 3. Mai 1754 blieb nur ein Pfeiler stehen.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 24,
+          "target_fact": "Nach dem Einsturz von 1754 blieb nur ein einziger Pfeiler stehen.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.3918
+        },
+        {
+          "target_fact_index": 23,
+          "target_fact": "Am 3. Mai 1754 führte ein Hochwasser durch Unterspülung der Pfeiler zum kompletten Einsturz des Bauwerks.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.1576
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 26,
+      "source_fact": "Am 2. Oktober 1755 beauftragte der Schaffhauser Stadtrat den Baumeister Hans Ulrich Grubenmann mit der Errichtung einer Holzbrücke.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 25,
+          "target_fact": "Am 2. Oktober 1755 beauftragte der Schaffhauser Stadtrat den Baumeister Hans Ulrich Gruèbemaa mit dem Bau einer Holzbrücke.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.4342
+        },
+        {
+          "target_fact_index": 26,
+          "target_fact": "Hans Ulrich Gruèbemaa schlug eine Konstruktion mit einer Stützweite von 119 Metern vor.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1169
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 27,
+      "source_fact": "Hans Ulrich Grubenmann schlug eine Konstruktion mit einer Stützweite von 119 Metern vor.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 26,
+          "target_fact": "Hans Ulrich Gruèbemaa schlug eine Konstruktion mit einer Stützweite von 119 Metern vor.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.4395
+        },
+        {
+          "target_fact_index": 25,
+          "target_fact": "Am 2. Oktober 1755 beauftragte der Schaffhauser Stadtrat den Baumeister Hans Ulrich Gruèbemaa mit dem Bau einer Holzbrücke.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1105
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 28,
+      "source_fact": "Der Stadtrat lehnte die vorgeschlagene Konstruktion mit 119 Meter Stützweite ab.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 27,
+          "target_fact": "Der Stadtrat lehnte den Vorschlag von Gruèbemaa ab.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.2968
+        },
+        {
+          "target_fact_index": 26,
+          "target_fact": "Hans Ulrich Gruèbemaa schlug eine Konstruktion mit einer Stützweite von 119 Metern vor.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.2079
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 29,
+      "source_fact": "Der Stadtrat traute der pfeilerlosen Konstruktion nicht.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 28,
+          "target_fact": "Der Stadtrat vertraute der pfeilerlosen Konstruktion nicht.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.4218
+        },
+        {
+          "target_fact_index": 27,
+          "target_fact": "Der Stadtrat lehnte den Vorschlag von Gruèbemaa ab.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1748
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 30,
+      "source_fact": "Die ausgeführte Brücke verwendete den bestehenden Pfeiler im Rhein.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 29,
+          "target_fact": "Es wurde eine Brücke gebaut, bei der bereits vorhandene Pfeiler im Rhein genutzt wurden.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.3025
+        },
+        {
+          "target_fact_index": 38,
+          "target_fact": "Das verwendete Holz wurde im Bregenzerwald geschlagen.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1433
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 31,
+      "source_fact": "Die ausgeführte Brücke hatte Stützweiten von 63 und 56 Metern.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 30,
+          "target_fact": "Die gebaute Brücke hatte Stützweiten von 63 und 56 Metern.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.3675
+        },
+        {
+          "target_fact_index": 26,
+          "target_fact": "Hans Ulrich Gruèbemaa schlug eine Konstruktion mit einer Stützweite von 119 Metern vor.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0423
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 32,
+      "source_fact": "Die Holzbrücke war mit 400.000 Schindeln aus dem Schwarzwald gedeckt.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 32,
+          "target_fact": "Das Dach der Brücke bestand aus 400.000 Schindeln aus dem Schwarzwald.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.3728
+        },
+        {
+          "target_fact_index": 39,
+          "target_fact": "Das Holz wurde vom Bregenzerwald nach Schaffhausen geflößt.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0809
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 33,
+      "source_fact": "Die Brücke wies zwischen der Tragkonstruktion seitlich angeordnete Sprengwerke auf.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 33,
+          "target_fact": "Die Brücke verfügte über ein seitlich angeordnetes Sprèngwärch zwischen der Trägerkonstruktion.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.3085
+        },
+        {
+          "target_fact_index": 32,
+          "target_fact": "Das Dach der Brücke bestand aus 400.000 Schindeln aus dem Schwarzwald.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0077
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 34,
+      "source_fact": "Die lichte Breite der Brücke betrug 4,5 Meter.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 34,
+          "target_fact": "Die Brücke hatte eine lichte Breite von 4,5 Metern.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.3326
+        },
+        {
+          "target_fact_index": 35,
+          "target_fact": "Die Brücke hatte eine freie Höhe von 5 Metern.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.141
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 35,
+      "source_fact": "Die Brücke besass eine freie Höhe von 5 Metern.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 35,
+          "target_fact": "Die Brücke hatte eine freie Höhe von 5 Metern.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.3242
+        },
+        {
+          "target_fact_index": 34,
+          "target_fact": "Die Brücke hatte eine lichte Breite von 4,5 Metern.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.195
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 36,
+      "source_fact": "Für den Bau wurden 20 extra grosse Tannen (Dollbäume) verwendet.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 36,
+          "target_fact": "Für den Bau wurden 20 extra große Tannen (auch Dollbäume genannt) verwendet.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.4271
+        },
+        {
+          "target_fact_index": 37,
+          "target_fact": "Für den Bau wurden 400 normale Tannen verwendet.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.167
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 37,
+      "source_fact": "Für den Bau wurden 400 normale Tannen verwendet.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 37,
+          "target_fact": "Für den Bau wurden 400 normale Tannen verwendet.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.4689
+        },
+        {
+          "target_fact_index": 36,
+          "target_fact": "Für den Bau wurden 20 extra große Tannen (auch Dollbäume genannt) verwendet.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1579
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 38,
+      "source_fact": "Das verwendete Holz wurde im Bregenzerwald geschlagen.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 38,
+          "target_fact": "Das verwendete Holz wurde im Bregenzerwald geschlagen.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.5659
+        },
+        {
+          "target_fact_index": 39,
+          "target_fact": "Das Holz wurde vom Bregenzerwald nach Schaffhausen geflößt.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.2446
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 39,
+      "source_fact": "Das Holz wurde vom Bregenzerwald nach Schaffhausen geflösst.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 39,
+          "target_fact": "Das Holz wurde vom Bregenzerwald nach Schaffhausen geflößt.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.5212
+        },
+        {
+          "target_fact_index": 38,
+          "target_fact": "Das verwendete Holz wurde im Bregenzerwald geschlagen.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.2823
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 40,
+      "source_fact": "Die Eröffnung des Bauwerks war am 2. Oktober 1758.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 40,
+          "target_fact": "Die Brücke wurde am 2. Oktober 1758 eröffnet.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.282
+        },
+        {
+          "target_fact_index": 42,
+          "target_fact": "Die französischen Truppen haben die Schlacht bei Stockach im Zweiten Koalitionskrieg verloren.",
+          "target_paragraph": 3,
+          "density_normalized_distance": 0.0118
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 41,
+      "source_fact": "Am 13. April 1799 zerstörten französische Truppen die dritte Rheinbrücke durch einen gelegten Brand.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 43,
+          "target_fact": "Am 13. April 1799 wurde die dritte Rheinbrücke durch Brandstiftung der französischen Truppen zerstört.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.4561
+        },
+        {
+          "target_fact_index": 41,
+          "target_fact": "Französische Truppen befanden sich am 13. April 1799 auf dem Rückzug von der Schlacht bei Stockach.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.2851
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 42,
+      "source_fact": "Die französischen Truppen befanden sich auf dem Rückzug von der Schlacht bei Stockach.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 41,
+          "target_fact": "Französische Truppen befanden sich am 13. April 1799 auf dem Rückzug von der Schlacht bei Stockach.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.3697
+        },
+        {
+          "target_fact_index": 42,
+          "target_fact": "Die französischen Truppen haben die Schlacht bei Stockach im Zweiten Koalitionskrieg verloren.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.3657
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 43,
+      "source_fact": "Die Schlacht bei Stockach wurde im zweiten Koalitionskrieg verloren.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 42,
+          "target_fact": "Die französischen Truppen haben die Schlacht bei Stockach im Zweiten Koalitionskrieg verloren.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.4406
+        },
+        {
+          "target_fact_index": 41,
+          "target_fact": "Französische Truppen befanden sich am 13. April 1799 auf dem Rückzug von der Schlacht bei Stockach.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.0912
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 44,
+      "source_fact": "Das Originalmodell der Brücke ist im Museum zu Allerheiligen in Schaffhausen zu besichtigen.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 44,
+          "target_fact": "Das Originalmodell der Brücke befindet sich im Museum Allerheiligen in Schaffhausen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.4518
+        },
+        {
+          "target_fact_index": 42,
+          "target_fact": "Die französischen Truppen haben die Schlacht bei Stockach im Zweiten Koalitionskrieg verloren.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.0227
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 45,
+      "source_fact": "Es gibt eine Sage über Grubenmann.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 45,
+          "target_fact": "Die Geschichte erzählt, dass der Grübenmann die Auflagen des Stadtrats bezüglich der Stützpfeiler missachtet hat.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.0368
+        },
+        {
+          "target_fact_index": 48,
+          "target_fact": "Der Grübenmann sagte bei der Eröffnung: 'Da habt ihr eure Pfeiler, aber ich habe meine Brücke.'",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.1632
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 46,
+      "source_fact": "Der Stadtrat hatte Auflagen bezüglich eines Stützpfeilers gemacht.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 45,
+          "target_fact": "Die Geschichte erzählt, dass der Grübenmann die Auflagen des Stadtrats bezüglich der Stützpfeiler missachtet hat.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.178
+        },
+        {
+          "target_fact_index": 46,
+          "target_fact": "Die Brücke war angeblich so konstruiert, dass sie auch ohne Stützpfeiler stabil genug gewesen wäre.",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.1915
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 47,
+      "source_fact": "Grubenmann missachtete laut der Sage diese Auflagen.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 45,
+          "target_fact": "Die Geschichte erzählt, dass der Grübenmann die Auflagen des Stadtrats bezüglich der Stützpfeiler missachtet hat.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.1838
+        },
+        {
+          "target_fact_index": 48,
+          "target_fact": "Der Grübenmann sagte bei der Eröffnung: 'Da habt ihr eure Pfeiler, aber ich habe meine Brücke.'",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.1567
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 48,
+      "source_fact": "Die Brücke war so konstruiert, dass sie auch ohne Stützpfeiler tragfähig war.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 46,
+          "target_fact": "Die Brücke war angeblich so konstruiert, dass sie auch ohne Stützpfeiler stabil genug gewesen wäre.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.3343
+        },
+        {
+          "target_fact_index": 48,
+          "target_fact": "Der Grübenmann sagte bei der Eröffnung: 'Da habt ihr eure Pfeiler, aber ich habe meine Brücke.'",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.0636
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 49,
+      "source_fact": "Grubenmann schlug bei der Eröffnung der Brücke die Keile zwischen Brücke und Pfeiler weg.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 47,
+          "target_fact": "Bei der Eröffnung der Brücke schlug der Grübenmann die Keile zwischen Brücke und Pfeilern weg.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.3774
+        },
+        {
+          "target_fact_index": 48,
+          "target_fact": "Der Grübenmann sagte bei der Eröffnung: 'Da habt ihr eure Pfeiler, aber ich habe meine Brücke.'",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.1041
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 50,
+      "source_fact": "Grubenmann sagte bei der Eröffnung: «Da habt ihr euren Pfeiler, aber ich habe meine Brücke.»",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 48,
+          "target_fact": "Der Grübenmann sagte bei der Eröffnung: 'Da habt ihr eure Pfeiler, aber ich habe meine Brücke.'",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.4914
+        },
+        {
+          "target_fact_index": 47,
+          "target_fact": "Bei der Eröffnung der Brücke schlug der Grübenmann die Keile zwischen Brücke und Pfeilern weg.",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.0014
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 51,
+      "source_fact": "Die Geschichte gehört ins Reich der Legenden.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 49,
+          "target_fact": "Die Geschichte gehört in das Reich der Legenden.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.5921
+        },
+        {
+          "target_fact_index": 55,
+          "target_fact": "Die durchlaufenden Trägerteile sind andererseits darauf zurückzuführen, dass der Gruébemaa rein nach Erfahrungswerten arbeitete.",
+          "target_paragraph": 5,
+          "density_normalized_distance": 0.0964
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 52,
+      "source_fact": "Das ausgeführte Bauwerk hatte einen leichten Knick im Grundriss.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 50,
+          "target_fact": "Das Bauwerk weist einen leichten Knick im Grundriss auf.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.4108
+        },
+        {
+          "target_fact_index": 51,
+          "target_fact": "Der Knick im Grundriss entstand durch die Mitbenutzung alter Pfeiler.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.0009
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 53,
+      "source_fact": "Der Knick im Grundriss entstand durch die Mitbenutzung eines alten Pfeilers.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 51,
+          "target_fact": "Der Knick im Grundriss entstand durch die Mitbenutzung alter Pfeiler.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.4819
+        },
+        {
+          "target_fact_index": 55,
+          "target_fact": "Die durchlaufenden Trägerteile sind andererseits darauf zurückzuführen, dass der Gruébemaa rein nach Erfahrungswerten arbeitete.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.0247
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 54,
+      "source_fact": "Die Brücke hätte ohne diesen Pfeiler den auftretenden Kräften nicht standgehalten.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 52,
+          "target_fact": "Ohne diese Pfeiler hätte die Brücke den auftretenden Kräften nicht standgehalten.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.4111
+        },
+        {
+          "target_fact_index": 56,
+          "target_fact": "Der Gruébemaa kannte zum Zeitpunkt des Baus noch keine Berechnungsmethoden.",
+          "target_paragraph": 5,
+          "density_normalized_distance": 0.0205
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 55,
+      "source_fact": "Die Brücke besaß trotz des Mittelpfeilers durchlaufende Tragwerksteile.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 53,
+          "target_fact": "Die Brücke besaß trotz des Mittelpfeilers durchlaufende Trägerteile.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.3809
+        },
+        {
+          "target_fact_index": 54,
+          "target_fact": "Die durchlaufenden Trägerteile sind einerseits Überbleibsel eines vorherigen Entwurfs ohne Mittelpfeiler.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.1544
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 56,
+      "source_fact": "Die durchlaufenden Tragwerksteile können als Überbleibsel des vorhergehenden Entwurfs ohne Mittelpfeiler gesehen werden.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 54,
+          "target_fact": "Die durchlaufenden Trägerteile sind einerseits Überbleibsel eines vorherigen Entwurfs ohne Mittelpfeiler.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.4
+        },
+        {
+          "target_fact_index": 55,
+          "target_fact": "Die durchlaufenden Trägerteile sind andererseits darauf zurückzuführen, dass der Gruébemaa rein nach Erfahrungswerten arbeitete.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.0657
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 57,
+      "source_fact": "Die durchlaufenden Tragwerksteile sind darauf zurückzuführen, dass Grubenmann rein nach Erfahrungswerten arbeitete.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 55,
+          "target_fact": "Die durchlaufenden Trägerteile sind andererseits darauf zurückzuführen, dass der Gruébemaa rein nach Erfahrungswerten arbeitete.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.5262
+        },
+        {
+          "target_fact_index": 51,
+          "target_fact": "Der Knick im Grundriss entstand durch die Mitbenutzung alter Pfeiler.",
+          "target_paragraph": 5,
+          "density_normalized_distance": 0.0006
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 58,
+      "source_fact": "Grubenmann kannte noch keine Berechnungsmethoden.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 56,
+          "target_fact": "Der Gruébemaa kannte zum Zeitpunkt des Baus noch keine Berechnungsmethoden.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.3306
+        },
+        {
+          "target_fact_index": 55,
+          "target_fact": "Die durchlaufenden Trägerteile sind andererseits darauf zurückzuführen, dass der Gruébemaa rein nach Erfahrungswerten arbeitete.",
+          "target_paragraph": 5,
+          "density_normalized_distance": 0.0901
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 59,
+      "source_fact": "Schaffhausen beauftragte im Jahre 1804 den Werkmeister Andreas Widtmer mit dem Bau der vierten und letzten hölzernen Rheinbrücke.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 57,
+          "target_fact": "Schaffhausen beauftragte im Jahr 1804 den Werkmeister Andreas Widtmer mit dem Bau einer letzten Rheinbrücke aus Holz.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.3636
+        },
+        {
+          "target_fact_index": 62,
+          "target_fact": "Alle 7 bis 20 Jahre mussten größere Instandsetzungsmaßnahmen durchgeführt werden.",
+          "target_paragraph": 6,
+          "density_normalized_distance": 0.075
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 60,
+      "source_fact": "Die Holzbrücke war eine offene Konstruktion.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 58,
+          "target_fact": "Die Holzbrücke war eine offene Konstruktion.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.4177
+        },
+        {
+          "target_fact_index": 61,
+          "target_fact": "Die bogenförmigen Öffnungen ruhten auf Pfeilerjochen.",
+          "target_paragraph": 6,
+          "density_normalized_distance": 0.021
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 61,
+      "source_fact": "Die Breite der Brücke zwischen den Geländern betrug 8 Meter.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 59,
+          "target_fact": "Die Breite der Brücke zwischen den Geländern betrug 8 Meter.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.3056
+        },
+        {
+          "target_fact_index": 60,
+          "target_fact": "Die Brücke überspannte den Rhein mit sieben bogenförmig geschwungenen Öffnungen.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.0104
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 62,
+      "source_fact": "Die Brücke überspannte den Rhein mit sieben bogenförmig geschwungenen Öffnungen.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 60,
+          "target_fact": "Die Brücke überspannte den Rhein mit sieben bogenförmig geschwungenen Öffnungen.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.3895
+        },
+        {
+          "target_fact_index": 61,
+          "target_fact": "Die bogenförmigen Öffnungen ruhten auf Pfeilerjochen.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.1027
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 63,
+      "source_fact": "Die bogenförmigen Öffnungen ruhten auf Pfahljochen.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 61,
+          "target_fact": "Die bogenförmigen Öffnungen ruhten auf Pfeilerjochen.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.4687
+        },
+        {
+          "target_fact_index": 60,
+          "target_fact": "Die Brücke überspannte den Rhein mit sieben bogenförmig geschwungenen Öffnungen.",
+          "target_paragraph": 6,
+          "density_normalized_distance": 0.0847
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 64,
+      "source_fact": "Grössere Instandsetzungsmassnahmen mussten alle 7 bis 20 Jahre durchgeführt werden.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 62,
+          "target_fact": "Alle 7 bis 20 Jahre mussten größere Instandsetzungsmaßnahmen durchgeführt werden.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.3772
+        },
+        {
+          "target_fact_index": 63,
+          "target_fact": "Die Instandsetzungsmaßnahmen wurden bis zum Jahr 1850 durch einen Brückenzoll finanziert.",
+          "target_paragraph": 6,
+          "density_normalized_distance": 0.1103
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 65,
+      "source_fact": "Die Instandsetzungsmassnahmen wurden bis 1850 durch einen Brückenzoll finanziert.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 63,
+          "target_fact": "Die Instandsetzungsmaßnahmen wurden bis zum Jahr 1850 durch einen Brückenzoll finanziert.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.3727
+        },
+        {
+          "target_fact_index": 57,
+          "target_fact": "Schaffhausen beauftragte im Jahr 1804 den Werkmeister Andreas Widtmer mit dem Bau einer letzten Rheinbrücke aus Holz.",
+          "target_paragraph": 6,
+          "density_normalized_distance": 0.089
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 66,
+      "source_fact": "In den 1950er Jahren stieg der Kraftfahrzeugverkehr stetig an.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 64,
+          "target_fact": "In den 1950er Jahren stieg das Kraftfahrzeugaufkommen an.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.4064
+        },
+        {
+          "target_fact_index": 76,
+          "target_fact": "Mit dem Neubau wurde der Verkehrsfluss geändert.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.0488
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 67,
+      "source_fact": "Die alte Holzbrücke war dem steigenden Kraftfahrzeugverkehr in den 1950er Jahren nicht mehr gewachsen.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 65,
+          "target_fact": "Die alte Holzbrücke war für das steigende Verkehrsaufkommen nicht mehr ausreichend.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.3305
+        },
+        {
+          "target_fact_index": 64,
+          "target_fact": "In den 1950er Jahren stieg das Kraftfahrzeugaufkommen an.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.2029
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 68,
+      "source_fact": "Aufgrund der Verkehrssituation wurde mit der Projektierung eines Brückenneubaus begonnen.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 66,
+          "target_fact": "Aufgrund der Situation wurde die Projektierung eines Neubaus begonnen.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.3074
+        },
+        {
+          "target_fact_index": 76,
+          "target_fact": "Mit dem Neubau wurde der Verkehrsfluss geändert.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.1244
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 69,
+      "source_fact": "Gleichzeitig wurde der Neubau des Kraftwerks Schaffhausen geplant.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 67,
+          "target_fact": "Zur gleichen Zeit wurde der Neubau des Kraftwerks Schaffhausen geplant.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.4322
+        },
+        {
+          "target_fact_index": 66,
+          "target_fact": "Aufgrund der Situation wurde die Projektierung eines Neubaus begonnen.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.1402
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 70,
+      "source_fact": "Das neue Kraftwerk Schaffhausen sollte den fast 100-jährigen Moserdamm ersetzen.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 68,
+          "target_fact": "Das neue Kraftwerk sollte den fast 100 Jahre alten Moserdamm ersetzen.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.415
+        },
+        {
+          "target_fact_index": 67,
+          "target_fact": "Zur gleichen Zeit wurde der Neubau des Kraftwerks Schaffhausen geplant.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.1409
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 71,
+      "source_fact": "Die geplante Aufstauung des Rheins machte eine Neugestaltung des gesamten Rheinufers bis Stemmer notwendig.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 69,
+          "target_fact": "Die geplante Aufstauung des Rheins machte eine Neugestaltung des gesamten Rheinufers bis Büsingen notwendig.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.3353
+        },
+        {
+          "target_fact_index": 71,
+          "target_fact": "Durch die neue Rheinregulierung des Kraftwerks hält der Rhein zu jeder Jahreszeit den gleichen Pegel.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.1275
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 72,
+      "source_fact": "Die Rheinuferstrasse im Süden der Altstadt wurde als Zubringer von Neuhausen am Rheinfall erstellt.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 70,
+          "target_fact": "Die Rheinuferstraße im Süden der Altstadt wurde als Zubringer von Neuhausen gebaut.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.4056
+        },
+        {
+          "target_fact_index": 69,
+          "target_fact": "Die geplante Aufstauung des Rheins machte eine Neugestaltung des gesamten Rheinufers bis Büsingen notwendig.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.0756
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 73,
+      "source_fact": "Durch die Rheinregulierung des Kraftwerks hat der Rhein zu jeder Jahreszeit die gleiche Pegelhöhe.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 71,
+          "target_fact": "Durch die neue Rheinregulierung des Kraftwerks hält der Rhein zu jeder Jahreszeit den gleichen Pegel.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.5049
+        },
+        {
+          "target_fact_index": 69,
+          "target_fact": "Die geplante Aufstauung des Rheins machte eine Neugestaltung des gesamten Rheinufers bis Büsingen notwendig.",
+          "target_paragraph": 7,
+          "density_normalized_distance": 0.0309
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 74,
+      "source_fact": "Die konstante Pegelhöhe ermöglichte eine Tieflegung der Brücke.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 72,
+          "target_fact": "Aufgrund des konstanten Pegels konnte die Brücke tiefer gelegt werden.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.2914
+        },
+        {
+          "target_fact_index": 71,
+          "target_fact": "Durch die neue Rheinregulierung des Kraftwerks hält der Rhein zu jeder Jahreszeit den gleichen Pegel.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.0748
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 75,
+      "source_fact": "Die Konstruktion der Brücke musste die Vorgabe berücksichtigen, dass sie bei einer allfälligen Hochrheinschifffahrt angehoben werden kann.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 73,
+          "target_fact": "Die Konstruktion der Brücke wurde so geplant, dass sie bei einer eventuellen Hochrheinschifffahrt angehoben werden kann.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.3361
+        },
+        {
+          "target_fact_index": 74,
+          "target_fact": "Kurz nach der Inbetriebnahme der Brücke wurden die Pläne zur Schiffbarmachung des Hochrheins endgültig aufgegeben.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.052
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 76,
+      "source_fact": "Kurz nach der Brückeneröffnung wurden die Pläne für die Schiffbarmachung des Hochrheins endgültig aufgegeben.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 74,
+          "target_fact": "Kurz nach der Inbetriebnahme der Brücke wurden die Pläne zur Schiffbarmachung des Hochrheins endgültig aufgegeben.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.4603
+        },
+        {
+          "target_fact_index": 66,
+          "target_fact": "Aufgrund der Situation wurde die Projektierung eines Neubaus begonnen.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.0506
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 77,
+      "source_fact": "Alle Vorgängerbrücken mündeten auf den Freien Platz.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 75,
+          "target_fact": "Alle Vorgängerbrücken wurden auf dem Freien Platz zugeführt.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.4368
+        },
+        {
+          "target_fact_index": 65,
+          "target_fact": "Die alte Holzbrücke war für das steigende Verkehrsaufkommen nicht mehr ausreichend.",
+          "target_paragraph": 7,
+          "density_normalized_distance": 0.0581
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 78,
+      "source_fact": "Der Neubau der Brücke wurde genutzt, um den Verkehrsfluss zu ändern.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 76,
+          "target_fact": "Mit dem Neubau wurde der Verkehrsfluss geändert.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.3257
+        },
+        {
+          "target_fact_index": 65,
+          "target_fact": "Die alte Holzbrücke war für das steigende Verkehrsaufkommen nicht mehr ausreichend.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.1412
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 79,
+      "source_fact": "Das Widerlager am Schaffhauser Ufer wurde um 50 Meter flussabwärts verschoben.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 77,
+          "target_fact": "Die Schifffahrtswinkligkeit der Brücke gegenüber der Strömungsrichtung änderte sich durch die Verschiebung des Widerlagers am Schaffhauser Ufer um 50 Meter flussabwärts.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.2927
+        },
+        {
+          "target_fact_index": 68,
+          "target_fact": "Das neue Kraftwerk sollte den fast 100 Jahre alten Moserdamm ersetzen.",
+          "target_paragraph": 7,
+          "density_normalized_distance": 0.0114
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 80,
+      "source_fact": "Die Verschiebung des Widerlagers führte zur Schiefwinkligkeit der Brücke zur Strömungsrichtung.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 77,
+          "target_fact": "Die Schifffahrtswinkligkeit der Brücke gegenüber der Strömungsrichtung änderte sich durch die Verschiebung des Widerlagers am Schaffhauser Ufer um 50 Meter flussabwärts.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.1474
+        },
+        {
+          "target_fact_index": 72,
+          "target_fact": "Aufgrund des konstanten Pegels konnte die Brücke tiefer gelegt werden.",
+          "target_paragraph": 7,
+          "density_normalized_distance": 0.0096
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 81,
+      "source_fact": "Das Bauwerk wurde in den Jahren 1962 bis 1965 errichtet.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 78,
+          "target_fact": "Das Bauwerk wurde in den Jahren 1962 bis 1965 errichtet.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.4244
+        },
+        {
+          "target_fact_index": 66,
+          "target_fact": "Aufgrund der Situation wurde die Projektierung eines Neubaus begonnen.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.0904
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 82,
+      "source_fact": "Die Kosten für das Bauwerk beliefen sich auf 7 Millionen Franken.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 79,
+          "target_fact": "Die Kosten für das Bauwerk beliefen sich auf 7 Millionen Franken.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.411
+        },
+        {
+          "target_fact_index": 66,
+          "target_fact": "Aufgrund der Situation wurde die Projektierung eines Neubaus begonnen.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.0071
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 83,
+      "source_fact": "Die A4-Stadtdurchfahrt und die A4 Schrägseilbrücke wurden im Jahre 1995 eröffnet.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 80,
+          "target_fact": "Die A4-Stadtdurchfahrt und die A4-Schrägseilbrücke wurden im Jahr 1995 eröffnet.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.4541
+        },
+        {
+          "target_fact_index": 81,
+          "target_fact": "Vor der Eröffnung im Jahr 1995 floss ein Großteil des Straßenverkehrs zwischen Stuttgart und Zürich über die neue Brücke.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.1041
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 84,
+      "source_fact": "Vor der Eröffnung der A4-Stadtdurchfahrt und der A4 Schrägseilbrücke führte ein Großteil des Straßenverkehrs zwischen Stuttgart und Zürich über die neue Brücke.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 81,
+          "target_fact": "Vor der Eröffnung im Jahr 1995 floss ein Großteil des Straßenverkehrs zwischen Stuttgart und Zürich über die neue Brücke.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.2984
+        },
+        {
+          "target_fact_index": 80,
+          "target_fact": "Die A4-Stadtdurchfahrt und die A4-Schrägseilbrücke wurden im Jahr 1995 eröffnet.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.1448
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 85,
+      "source_fact": "Nach der Eröffnung im Jahr 1995 nahm der Verkehr auf der neuen Brücke spürbar ab.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 82,
+          "target_fact": "Nach 1995 ging der Transitverkehr über die Rheinbrücke nach Fürthaleen spürbar zurück.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.2575
+        },
+        {
+          "target_fact_index": 81,
+          "target_fact": "Vor der Eröffnung im Jahr 1995 floss ein Großteil des Straßenverkehrs zwischen Stuttgart und Zürich über die neue Brücke.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.1941
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 86,
+      "source_fact": "Im Jahr 2009 passierten die Brücke durchschnittlich 19.000 Fahrzeuge pro Tag.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 83,
+          "target_fact": "Im Jahr 2009 überquerten durchschnittlich 19.000 Fahrzeuge pro Tag die Brücke.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.4666
+        },
+        {
+          "target_fact_index": 81,
+          "target_fact": "Vor der Eröffnung im Jahr 1995 floss ein Großteil des Straßenverkehrs zwischen Stuttgart und Zürich über die neue Brücke.",
+          "target_paragraph": 8,
+          "density_normalized_distance": 0.0144
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 87,
+      "source_fact": "Die Tendenz der Fahrzeugzahlen auf der Brücke ist seit 2009 wieder steigend.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 84,
+          "target_fact": "Die Tendenz der Fahrzeugzahlen ist wieder steigend.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.3483
+        },
+        {
+          "target_fact_index": 83,
+          "target_fact": "Im Jahr 2009 überquerten durchschnittlich 19.000 Fahrzeuge pro Tag die Brücke.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0874
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 88,
+      "source_fact": "Die Rheinbrücke wurde in den Jahren 1986/87 zum ersten Mal saniert.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 85,
+          "target_fact": "Im Zeitraum 1986/87 wurde die Rheinbrücke zum ersten Mal saniert.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.409
+        },
+        {
+          "target_fact_index": 86,
+          "target_fact": "Die Sanierung in den Jahren 1986/87 kostete 1,35 Millionen Franken.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.1293
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 89,
+      "source_fact": "Die Kosten für die erste Sanierung betrugen 1,35 Millionen Franken.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 86,
+          "target_fact": "Die Sanierung in den Jahren 1986/87 kostete 1,35 Millionen Franken.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.2478
+        },
+        {
+          "target_fact_index": 89,
+          "target_fact": "Die Sanierung 2011/12 verursachte Kosten von etwa 5,6 Millionen Franken.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.1708
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 90,
+      "source_fact": "In den Jahren 2011/12 wurde eine Totalsanierung der Rheinbrücke durchgeführt.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 87,
+          "target_fact": "In den Jahren 2011/12 wurde eine Totalsanierung der Brücke durchgeführt.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.334
+        },
+        {
+          "target_fact_index": 88,
+          "target_fact": "Die Totalsanierung 2011/12 schloss die in der Brücke verlegten Leitungen mit ein.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.2857
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 91,
+      "source_fact": "Die Totalsanierung umfasste auch die in der Brücke verlegten Werkleitungen.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 88,
+          "target_fact": "Die Totalsanierung 2011/12 schloss die in der Brücke verlegten Leitungen mit ein.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.2332
+        },
+        {
+          "target_fact_index": 87,
+          "target_fact": "In den Jahren 2011/12 wurde eine Totalsanierung der Brücke durchgeführt.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.0828
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 92,
+      "source_fact": "Der Kostenvoranschlag für die Totalsanierung lag bei 5,66 Millionen Franken.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 89,
+          "target_fact": "Die Sanierung 2011/12 verursachte Kosten von etwa 5,6 Millionen Franken.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.2368
+        },
+        {
+          "target_fact_index": 86,
+          "target_fact": "Die Sanierung in den Jahren 1986/87 kostete 1,35 Millionen Franken.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.1613
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 93,
+      "source_fact": "Der Kostenvoranschlag von 5,66 Millionen Franken wurde nicht überschritten.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 89,
+          "target_fact": "Die Sanierung 2011/12 verursachte Kosten von etwa 5,6 Millionen Franken.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.0792
+        },
+        {
+          "target_fact_index": 86,
+          "target_fact": "Die Sanierung in den Jahren 1986/87 kostete 1,35 Millionen Franken.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.0213
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 94,
+      "source_fact": "Ingenieure gehen nach der Sanierung von einer Restnutzungsdauer der Brücke von 60 Jahren aus.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 90,
+          "target_fact": "Nach der Sanierung berechneten Ingenieure eine Restnutzungsdauer von 60 Jahren.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.3865
+        },
+        {
+          "target_fact_index": 88,
+          "target_fact": "Die Totalsanierung 2011/12 schloss die in der Brücke verlegten Leitungen mit ein.",
+          "target_paragraph": 9,
+          "density_normalized_distance": 0.012
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 95,
+      "source_fact": "Die Brücke ist 102,5 Meter lang.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 91,
+          "target_fact": "Die Brücke ist 102,5 Meter lang.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.3433
+        },
+        {
+          "target_fact_index": 97,
+          "target_fact": "Die Bauhöhe über dem Flusspfeiler beträgt 1,83 Meter.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.0896
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 96,
+      "source_fact": "Die Brücke wurde als vorgespannte Stahlbetonbrücke erstellt.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 92,
+          "target_fact": "Die Brücke ist als vorgespannte Stahlbetonbrücke gebaut.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.3662
+        },
+        {
+          "target_fact_index": 99,
+          "target_fact": "Die Pfeiler stehen auf Betonpfählen.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.0404
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 97,
+      "source_fact": "Die Brücke weist drei Öffnungen auf.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 93,
+          "target_fact": "Die Brücke weist drei Öffnungen auf.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.3717
+        },
+        {
+          "target_fact_index": 95,
+          "target_fact": "In Querrichtung ist ein dreizelliger Hohlkastenquerschnitt vorhanden.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.0356
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 98,
+      "source_fact": "Die Mittelspannweite der Brücke beträgt 61 Meter.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 94,
+          "target_fact": "Die Mittelspannweite beträgt 61 Meter.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.3473
+        },
+        {
+          "target_fact_index": 96,
+          "target_fact": "Die Bauhöhe beträgt in der Brückenmitte 1,28 Meter.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.1281
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 99,
+      "source_fact": "In Querrichtung ist ein dreizelliger Hohlkastenquerschnitt vorhanden.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 95,
+          "target_fact": "In Querrichtung ist ein dreizelliger Hohlkastenquerschnitt vorhanden.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.5361
+        },
+        {
+          "target_fact_index": 98,
+          "target_fact": "Der Überbau liegt auf zwei schmalen, scheibenförmigen Pfeilern.",
+          "target_paragraph": 10,
+          "density_normalized_distance": 0.0017
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 100,
+      "source_fact": "Die Bauhöhe des Querschnitts beträgt in Brückenmitte 1,28 Meter.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 96,
+          "target_fact": "Die Bauhöhe beträgt in der Brückenmitte 1,28 Meter.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.3933
+        },
+        {
+          "target_fact_index": 97,
+          "target_fact": "Die Bauhöhe über dem Flusspfeiler beträgt 1,83 Meter.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.1985
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 101,
+      "source_fact": "Die Bauhöhe des Querschnitts beträgt über den Flusspfeilern 1,83 Meter.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 97,
+          "target_fact": "Die Bauhöhe über dem Flusspfeiler beträgt 1,83 Meter.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.366
+        },
+        {
+          "target_fact_index": 96,
+          "target_fact": "Die Bauhöhe beträgt in der Brückenmitte 1,28 Meter.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.2087
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 102,
+      "source_fact": "Der Überbau ruht auf zwei schmalen, scheibenförmigen Pfeilern.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 98,
+          "target_fact": "Der Überbau liegt auf zwei schmalen, scheibenförmigen Pfeilern.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.4534
+        },
+        {
+          "target_fact_index": 95,
+          "target_fact": "In Querrichtung ist ein dreizelliger Hohlkastenquerschnitt vorhanden.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.0323
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 103,
+      "source_fact": "Die Pfeiler sind auf Betonpfählen gegründet.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 99,
+          "target_fact": "Die Pfeiler stehen auf Betonpfählen.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.4355
+        },
+        {
+          "target_fact_index": 92,
+          "target_fact": "Die Brücke ist als vorgespannte Stahlbetonbrücke gebaut.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.0302
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 104,
+      "source_fact": "Die Betonpfähle reichen bis zu 20 Meter tief im Flussbett.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 100,
+          "target_fact": "Die Betonpfähle ragen bis zu 20 Meter tief ins Flussbett.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.4379
+        },
+        {
+          "target_fact_index": 99,
+          "target_fact": "Die Pfeiler stehen auf Betonpfählen.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.0419
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 105,
+      "source_fact": "Die Widerlager sind großflächig.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 101,
+          "target_fact": "Die Widerlager haben eine Flachgründung.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.3172
+        },
+        {
+          "target_fact_index": 99,
+          "target_fact": "Die Pfeiler stehen auf Betonpfählen.",
+          "target_paragraph": 10,
+          "density_normalized_distance": 0.1714
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 106,
+      "source_fact": "Die Widerlager besitzen eine Flachgründung.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 101,
+          "target_fact": "Die Widerlager haben eine Flachgründung.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.6845
+        },
+        {
+          "target_fact_index": 99,
+          "target_fact": "Die Pfeiler stehen auf Betonpfählen.",
+          "target_paragraph": 10,
+          "density_normalized_distance": 0.1037
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 107,
+      "source_fact": "Die Fahrbahnplatte weist eine Breite von 19 Metern auf.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 102,
+          "target_fact": "Die Fahrbahnplatte hat eine Breite von 19 Metern.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.3551
+        },
+        {
+          "target_fact_index": 103,
+          "target_fact": "Die Fahrbahn teilt sich in drei Fahrstreifen mit einer Gesamtbreite von 13 Metern.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.1089
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 108,
+      "source_fact": "Die Fahrbahnplatte teilt sich in drei Fahrstreifen.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 103,
+          "target_fact": "Die Fahrbahn teilt sich in drei Fahrstreifen mit einer Gesamtbreite von 13 Metern.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.1666
+        },
+        {
+          "target_fact_index": 95,
+          "target_fact": "In Querrichtung ist ein dreizelliger Hohlkastenquerschnitt vorhanden.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.1181
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 109,
+      "source_fact": "Die drei Fahrstreifen haben eine Gesamtbreite von 13 Metern.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 103,
+          "target_fact": "Die Fahrbahn teilt sich in drei Fahrstreifen mit einer Gesamtbreite von 13 Metern.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.3
+        },
+        {
+          "target_fact_index": 104,
+          "target_fact": "Es gibt zwei Trottoirs mit einer Breite von jeweils 3 Metern.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.1618
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 110,
+      "source_fact": "Die Fahrbahnplatte besitzt zwei Gehwege.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 98,
+          "target_fact": "Der Überbau liegt auf zwei schmalen, scheibenförmigen Pfeilern.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.069
+        },
+        {
+          "target_fact_index": 101,
+          "target_fact": "Die Widerlager haben eine Flachgründung.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.0612
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 111,
+      "source_fact": "Die Gehwege haben jeweils eine Breite von 3 Metern.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 104,
+          "target_fact": "Es gibt zwei Trottoirs mit einer Breite von jeweils 3 Metern.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.2619
+        },
+        {
+          "target_fact_index": 103,
+          "target_fact": "Die Fahrbahn teilt sich in drei Fahrstreifen mit einer Gesamtbreite von 13 Metern.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.1821
+        }
+      ]
+    }
+  ],
+  "als_to_de": [
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 0,
+      "source_fact": "Die Rhybrugg Schaffuusè–Füèrthalè wird im Schaffhauserischen auch Füèrthaler Brugg genannt.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 0,
+          "target_fact": "Die Rheinbrücke Schaffhausen–Feuerthalen wird im Volksmund auch Feuerthaler Brücke genannt.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1339
+        },
+        {
+          "target_fact_index": 3,
+          "target_fact": "Die Brücke verbindet die Stadt Schaffhausen im Kanton Schaffhausen mit der Gemeinde Feuerthalen im Kanton Zürich.",
+          "target_paragraph": 0,
+          "density_normalized_distance": 0.1114
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 1,
+      "source_fact": "Die Rhybrugg Schaffuusè–Füèrthalè ist eine Straßenbrücke.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 1,
+          "target_fact": "Die Rheinbrücke Schaffhausen–Feuerthalen ist eine Strassenbrücke in der Schweiz.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1249
+        },
+        {
+          "target_fact_index": 0,
+          "target_fact": "Die Rheinbrücke Schaffhausen–Feuerthalen wird im Volksmund auch Feuerthaler Brücke genannt.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0897
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 2,
+      "source_fact": "Die Brücke überspannt den Hochrhein in der Schweiz.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 2,
+          "target_fact": "Die Brücke überspannt den Rhein.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1936
+        },
+        {
+          "target_fact_index": 12,
+          "target_fact": "Die nationale Rhein-Route Nr. 2 (Andermatt – Oberalppass – Chur – Schaffhausen – Basel) von Veloland Schweiz führt unter der Brücke durch.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1138
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 3,
+      "source_fact": "Die Brücke verbindet die Stadt Schaffhausen im Kanton Schaffhausen mit der Gemeinde Feuerthalen im Kanton Zürich.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 3,
+          "target_fact": "Die Brücke verbindet die Stadt Schaffhausen im Kanton Schaffhausen mit der Gemeinde Feuerthalen im Kanton Zürich.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.4495
+        },
+        {
+          "target_fact_index": 1,
+          "target_fact": "Die Rheinbrücke Schaffhausen–Feuerthalen ist eine Strassenbrücke in der Schweiz.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1699
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 4,
+      "source_fact": "Das heutige Bauwerk stammt aus dem Jahr 1965.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 4,
+          "target_fact": "Das heutige Bauwerk der Brücke stammt aus dem Jahr 1965.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.3267
+        },
+        {
+          "target_fact_index": 9,
+          "target_fact": "Der Kanton Schaffhausen ist der Eigentümer der Brücke.",
+          "target_paragraph": 0,
+          "density_normalized_distance": 0.117
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 5,
+      "source_fact": "Über die Brücke führen die Hauptstraßen 13, 14 und 15.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 8,
+          "target_fact": "Über die Brücke führen die Hauptstrassen 13, 14 und 15.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.4306
+        },
+        {
+          "target_fact_index": 13,
+          "target_fact": "Die nationale Rhein-Route Nr. 2 hat eine Länge von 424 km.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0065
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 6,
+      "source_fact": "Die Brücke besitzt zwei Fahrstreifen in Richtung Schaffhausen.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 5,
+          "target_fact": "Die Brücke verfügt über zwei Fahrstreifen in Richtung Schaffhausen.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.4028
+        },
+        {
+          "target_fact_index": 6,
+          "target_fact": "Die Brücke verfügt über einen Fahrstreifen in Richtung Feuerthalen.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.2031
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 7,
+      "source_fact": "Die Brücke besitzt einen Fahrstreifen in Richtung Feuerthalen.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 6,
+          "target_fact": "Die Brücke verfügt über einen Fahrstreifen in Richtung Feuerthalen.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.4507
+        },
+        {
+          "target_fact_index": 5,
+          "target_fact": "Die Brücke verfügt über zwei Fahrstreifen in Richtung Schaffhausen.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1496
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 8,
+      "source_fact": "Die Brücke verfügt beidseitig über Trottoirs und Velowege.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 7,
+          "target_fact": "Die Brücke besitzt beidseitige Geh- und Radwege.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.3541
+        },
+        {
+          "target_fact_index": 11,
+          "target_fact": "An beiden Enden der Brücke gibt es Unterführungen für Fussgänger und Velofahrer.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.3292
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 9,
+      "source_fact": "Der Kanton Schaffhausen ist der Eigentümer der Brücke.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 9,
+          "target_fact": "Der Kanton Schaffhausen ist der Eigentümer der Brücke.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.4566
+        },
+        {
+          "target_fact_index": 10,
+          "target_fact": "Die Brücke liegt auf dem Hoheitsgebiet des Kantons Schaffhausen, mit Ausnahme des südlichen Widerlagers.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.168
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 10,
+      "source_fact": "Die Brücke liegt im Hoheitsgebiet des Kantons Schaffhausen, mit Ausnahme des südlichen Widerlagers.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 10,
+          "target_fact": "Die Brücke liegt auf dem Hoheitsgebiet des Kantons Schaffhausen, mit Ausnahme des südlichen Widerlagers.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.4594
+        },
+        {
+          "target_fact_index": 9,
+          "target_fact": "Der Kanton Schaffhausen ist der Eigentümer der Brücke.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.171
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 11,
+      "source_fact": "An beiden Enden der Brücke gibt es Unterführungen für Fußgänger und Radfahrer.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 11,
+          "target_fact": "An beiden Enden der Brücke gibt es Unterführungen für Fussgänger und Velofahrer.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.4733
+        },
+        {
+          "target_fact_index": 7,
+          "target_fact": "Die Brücke besitzt beidseitige Geh- und Radwege.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.2242
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 12,
+      "source_fact": "Die nationale Rhein-Route Nr. 2 (Andermatt – Oberalppass – Chur – Schaffhausen – Basel) des Velolands Schweiz führt unter der Brücke hindurch.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 12,
+          "target_fact": "Die nationale Rhein-Route Nr. 2 (Andermatt – Oberalppass – Chur – Schaffhausen – Basel) von Veloland Schweiz führt unter der Brücke durch.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.4872
+        },
+        {
+          "target_fact_index": 13,
+          "target_fact": "Die nationale Rhein-Route Nr. 2 hat eine Länge von 424 km.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1321
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 13,
+      "source_fact": "Die nationale Rhein-Route Nr. 2 hat eine Länge von 424 km.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 13,
+          "target_fact": "Die nationale Rhein-Route Nr. 2 hat eine Länge von 424 km.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.4695
+        },
+        {
+          "target_fact_index": 12,
+          "target_fact": "Die nationale Rhein-Route Nr. 2 (Andermatt – Oberalppass – Chur – Schaffhausen – Basel) von Veloland Schweiz führt unter der Brücke durch.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.145
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 14,
+      "source_fact": "Schaffhausen hatte bereits zur Zeit der Gallier eine Art Furt als Rheinübergang.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 14,
+          "target_fact": "Bei Schaffhausen gab es bereits zur Zeit der Gallier einen Rheinübergang in Form einer Furt.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.3891
+        },
+        {
+          "target_fact_index": 15,
+          "target_fact": "Eine Rheinbrücke wurde im Jahr 1259 erstmals urkundlich erwähnt.",
+          "target_paragraph": 1,
+          "density_normalized_distance": 0.1255
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 15,
+      "source_fact": "Eine Rheinbrücke wurde im Jahr 1259 erstmals urkundlich erwähnt.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 15,
+          "target_fact": "Eine Rheinbrücke wurde im Jahr 1259 erstmals urkundlich erwähnt.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.4322
+        },
+        {
+          "target_fact_index": 19,
+          "target_fact": "Ein hölzernes Nachfolgebauwerk ist für das Jahr 1489 dokumentiert.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.1669
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 16,
+      "source_fact": "Der Bau der Brücke von 1259 wurde wahrscheinlich vom Abt des Klosters Allerheiligen beauftragt.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 16,
+          "target_fact": "Der Bau der ersten urkundlich erwähnten Brücke wurde wahrscheinlich vom Abt des Klosters Allerheiligen beauftragt.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.2989
+        },
+        {
+          "target_fact_index": 19,
+          "target_fact": "Ein hölzernes Nachfolgebauwerk ist für das Jahr 1489 dokumentiert.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.0244
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 17,
+      "source_fact": "Ein schmaler, überdachter Holzsteg wurde im Frühsommer 1480 durch ein Hochwasser zerstört.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 18,
+          "target_fact": "Der gedeckte Holzsteg wurde im Frühsommer 1480 durch ein Hochwasser zerstört.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.4357
+        },
+        {
+          "target_fact_index": 17,
+          "target_fact": "Die erste Brücke war ein schmaler, gedeckter Holzsteg.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.0989
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 18,
+      "source_fact": "Ein hölzernes Nachfolgebauwerk ist von 1489 überliefert.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 19,
+          "target_fact": "Ein hölzernes Nachfolgebauwerk ist für das Jahr 1489 dokumentiert.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.4639
+        },
+        {
+          "target_fact_index": 18,
+          "target_fact": "Der gedeckte Holzsteg wurde im Frühsommer 1480 durch ein Hochwasser zerstört.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.0726
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 19,
+      "source_fact": "Zwischen 1550 und 1611 wurde das Holzbauwerk durch eine Steinbogenbrücke mit acht Öffnungen ersetzt.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 20,
+          "target_fact": "Zwischen 1550 und 1611 wurde das hölzerne Bauwerk durch eine steinerne Bogenbrücke mit acht Öffnungen ersetzt.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.4099
+        },
+        {
+          "target_fact_index": 23,
+          "target_fact": "Zwei eingestürzte Bogenöffnungen der Steinbrücke mussten durch eine gedeckte Holzbrücke ersetzt werden.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.1511
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 20,
+      "source_fact": "Die Steinbrücke wies aufgrund technischer Mängel häufig Schäden auf.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 21,
+          "target_fact": "Die Steinbrücke wies aufgrund technischer Mängel häufig Schäden auf.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.4856
+        },
+        {
+          "target_fact_index": 22,
+          "target_fact": "Hochwässer zerstörten Pfeiler der Steinbrücke.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.0367
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 21,
+      "source_fact": "Hochwasser beschädigten die Pfeiler der Steinbrücke.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 22,
+          "target_fact": "Hochwässer zerstörten Pfeiler der Steinbrücke.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.4039
+        },
+        {
+          "target_fact_index": 21,
+          "target_fact": "Die Steinbrücke wies aufgrund technischer Mängel häufig Schäden auf.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.1011
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 22,
+      "source_fact": "Zwei eingestürzte Bogenöffnungen der Steinbrücke mussten durch eine gedeckte Holzbrücke ersetzt werden.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 23,
+          "target_fact": "Zwei eingestürzte Bogenöffnungen der Steinbrücke mussten durch eine gedeckte Holzbrücke ersetzt werden.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.454
+        },
+        {
+          "target_fact_index": 20,
+          "target_fact": "Zwischen 1550 und 1611 wurde das hölzerne Bauwerk durch eine steinerne Bogenbrücke mit acht Öffnungen ersetzt.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.1456
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 23,
+      "source_fact": "Am 3. Mai 1754 führte ein Hochwasser durch Unterspülung der Pfeiler zum kompletten Einsturz des Bauwerks.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 24,
+          "target_fact": "Am 3. Mai 1754 führte ein Hochwasser durch Unterspülung der Pfeiler zum kompletten Einsturz der Brücke.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.4204
+        },
+        {
+          "target_fact_index": 25,
+          "target_fact": "Nach dem Einsturz am 3. Mai 1754 blieb nur ein Pfeiler stehen.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.2232
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 24,
+      "source_fact": "Nach dem Einsturz von 1754 blieb nur ein einziger Pfeiler stehen.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 25,
+          "target_fact": "Nach dem Einsturz am 3. Mai 1754 blieb nur ein Pfeiler stehen.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.3937
+        },
+        {
+          "target_fact_index": 24,
+          "target_fact": "Am 3. Mai 1754 führte ein Hochwasser durch Unterspülung der Pfeiler zum kompletten Einsturz der Brücke.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.0487
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 25,
+      "source_fact": "Am 2. Oktober 1755 beauftragte der Schaffhauser Stadtrat den Baumeister Hans Ulrich Gruèbemaa mit dem Bau einer Holzbrücke.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 26,
+          "target_fact": "Am 2. Oktober 1755 beauftragte der Schaffhauser Stadtrat den Baumeister Hans Ulrich Grubenmann mit der Errichtung einer Holzbrücke.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.3731
+        },
+        {
+          "target_fact_index": 27,
+          "target_fact": "Hans Ulrich Grubenmann schlug eine Konstruktion mit einer Stützweite von 119 Metern vor.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.128
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 26,
+      "source_fact": "Hans Ulrich Gruèbemaa schlug eine Konstruktion mit einer Stützweite von 119 Metern vor.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 27,
+          "target_fact": "Hans Ulrich Grubenmann schlug eine Konstruktion mit einer Stützweite von 119 Metern vor.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.4043
+        },
+        {
+          "target_fact_index": 28,
+          "target_fact": "Der Stadtrat lehnte die vorgeschlagene Konstruktion mit 119 Meter Stützweite ab.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.17
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 27,
+      "source_fact": "Der Stadtrat lehnte den Vorschlag von Gruèbemaa ab.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 28,
+          "target_fact": "Der Stadtrat lehnte die vorgeschlagene Konstruktion mit 119 Meter Stützweite ab.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1948
+        },
+        {
+          "target_fact_index": 29,
+          "target_fact": "Der Stadtrat traute der pfeilerlosen Konstruktion nicht.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0998
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 28,
+      "source_fact": "Der Stadtrat vertraute der pfeilerlosen Konstruktion nicht.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 29,
+          "target_fact": "Der Stadtrat traute der pfeilerlosen Konstruktion nicht.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.4294
+        },
+        {
+          "target_fact_index": 28,
+          "target_fact": "Der Stadtrat lehnte die vorgeschlagene Konstruktion mit 119 Meter Stützweite ab.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0633
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 29,
+      "source_fact": "Es wurde eine Brücke gebaut, bei der bereits vorhandene Pfeiler im Rhein genutzt wurden.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 30,
+          "target_fact": "Die ausgeführte Brücke verwendete den bestehenden Pfeiler im Rhein.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.2838
+        },
+        {
+          "target_fact_index": 38,
+          "target_fact": "Das verwendete Holz wurde im Bregenzerwald geschlagen.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0519
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 30,
+      "source_fact": "Die gebaute Brücke hatte Stützweiten von 63 und 56 Metern.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 31,
+          "target_fact": "Die ausgeführte Brücke hatte Stützweiten von 63 und 56 Metern.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.3824
+        },
+        {
+          "target_fact_index": 35,
+          "target_fact": "Die Brücke besass eine freie Höhe von 5 Metern.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0242
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 31,
+      "source_fact": "Die Holzbrücke war überdacht.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 38,
+          "target_fact": "Das verwendete Holz wurde im Bregenzerwald geschlagen.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0663
+        },
+        {
+          "target_fact_index": 32,
+          "target_fact": "Die Holzbrücke war mit 400.000 Schindeln aus dem Schwarzwald gedeckt.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0269
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 32,
+      "source_fact": "Das Dach der Brücke bestand aus 400.000 Schindeln aus dem Schwarzwald.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 32,
+          "target_fact": "Die Holzbrücke war mit 400.000 Schindeln aus dem Schwarzwald gedeckt.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.3753
+        },
+        {
+          "target_fact_index": 37,
+          "target_fact": "Für den Bau wurden 400 normale Tannen verwendet.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0885
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 33,
+      "source_fact": "Die Brücke verfügte über ein seitlich angeordnetes Sprèngwärch zwischen der Trägerkonstruktion.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 33,
+          "target_fact": "Die Brücke wies zwischen der Tragkonstruktion seitlich angeordnete Sprengwerke auf.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.2669
+        },
+        {
+          "target_fact_index": 30,
+          "target_fact": "Die ausgeführte Brücke verwendete den bestehenden Pfeiler im Rhein.",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.0321
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 34,
+      "source_fact": "Die Brücke hatte eine lichte Breite von 4,5 Metern.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 34,
+          "target_fact": "Die lichte Breite der Brücke betrug 4,5 Meter.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.313
+        },
+        {
+          "target_fact_index": 35,
+          "target_fact": "Die Brücke besass eine freie Höhe von 5 Metern.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1853
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 35,
+      "source_fact": "Die Brücke hatte eine freie Höhe von 5 Metern.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 35,
+          "target_fact": "Die Brücke besass eine freie Höhe von 5 Metern.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.342
+        },
+        {
+          "target_fact_index": 34,
+          "target_fact": "Die lichte Breite der Brücke betrug 4,5 Meter.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1489
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 36,
+      "source_fact": "Für den Bau wurden 20 extra große Tannen (auch Dollbäume genannt) verwendet.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 36,
+          "target_fact": "Für den Bau wurden 20 extra grosse Tannen (Dollbäume) verwendet.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.4547
+        },
+        {
+          "target_fact_index": 37,
+          "target_fact": "Für den Bau wurden 400 normale Tannen verwendet.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1605
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 37,
+      "source_fact": "Für den Bau wurden 400 normale Tannen verwendet.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 37,
+          "target_fact": "Für den Bau wurden 400 normale Tannen verwendet.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.4678
+        },
+        {
+          "target_fact_index": 36,
+          "target_fact": "Für den Bau wurden 20 extra grosse Tannen (Dollbäume) verwendet.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.191
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 38,
+      "source_fact": "Das verwendete Holz wurde im Bregenzerwald geschlagen.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 38,
+          "target_fact": "Das verwendete Holz wurde im Bregenzerwald geschlagen.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.5692
+        },
+        {
+          "target_fact_index": 39,
+          "target_fact": "Das Holz wurde vom Bregenzerwald nach Schaffhausen geflösst.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1901
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 39,
+      "source_fact": "Das Holz wurde vom Bregenzerwald nach Schaffhausen geflößt.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 39,
+          "target_fact": "Das Holz wurde vom Bregenzerwald nach Schaffhausen geflösst.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.4708
+        },
+        {
+          "target_fact_index": 38,
+          "target_fact": "Das verwendete Holz wurde im Bregenzerwald geschlagen.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.2897
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 40,
+      "source_fact": "Die Brücke wurde am 2. Oktober 1758 eröffnet.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 40,
+          "target_fact": "Die Eröffnung des Bauwerks war am 2. Oktober 1758.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.329
+        },
+        {
+          "target_fact_index": 43,
+          "target_fact": "Die Schlacht bei Stockach wurde im zweiten Koalitionskrieg verloren.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.0417
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 41,
+      "source_fact": "Französische Truppen befanden sich am 13. April 1799 auf dem Rückzug von der Schlacht bei Stockach.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 42,
+          "target_fact": "Die französischen Truppen befanden sich auf dem Rückzug von der Schlacht bei Stockach.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.3735
+        },
+        {
+          "target_fact_index": 41,
+          "target_fact": "Am 13. April 1799 zerstörten französische Truppen die dritte Rheinbrücke durch einen gelegten Brand.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.2339
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 42,
+      "source_fact": "Die französischen Truppen haben die Schlacht bei Stockach im Zweiten Koalitionskrieg verloren.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 43,
+          "target_fact": "Die Schlacht bei Stockach wurde im zweiten Koalitionskrieg verloren.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.4144
+        },
+        {
+          "target_fact_index": 42,
+          "target_fact": "Die französischen Truppen befanden sich auf dem Rückzug von der Schlacht bei Stockach.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.3277
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 43,
+      "source_fact": "Am 13. April 1799 wurde die dritte Rheinbrücke durch Brandstiftung der französischen Truppen zerstört.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 41,
+          "target_fact": "Am 13. April 1799 zerstörten französische Truppen die dritte Rheinbrücke durch einen gelegten Brand.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.4586
+        },
+        {
+          "target_fact_index": 43,
+          "target_fact": "Die Schlacht bei Stockach wurde im zweiten Koalitionskrieg verloren.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.0459
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 44,
+      "source_fact": "Das Originalmodell der Brücke befindet sich im Museum Allerheiligen in Schaffhausen.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 44,
+          "target_fact": "Das Originalmodell der Brücke ist im Museum zu Allerheiligen in Schaffhausen zu besichtigen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.4073
+        },
+        {
+          "target_fact_index": 42,
+          "target_fact": "Die französischen Truppen befanden sich auf dem Rückzug von der Schlacht bei Stockach.",
+          "target_paragraph": 3,
+          "density_normalized_distance": 0.0119
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 45,
+      "source_fact": "Die Geschichte erzählt, dass der Grübenmann die Auflagen des Stadtrats bezüglich der Stützpfeiler missachtet hat.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 47,
+          "target_fact": "Grubenmann missachtete laut der Sage diese Auflagen.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.1602
+        },
+        {
+          "target_fact_index": 46,
+          "target_fact": "Der Stadtrat hatte Auflagen bezüglich eines Stützpfeilers gemacht.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.1119
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 46,
+      "source_fact": "Die Brücke war angeblich so konstruiert, dass sie auch ohne Stützpfeiler stabil genug gewesen wäre.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 48,
+          "target_fact": "Die Brücke war so konstruiert, dass sie auch ohne Stützpfeiler tragfähig war.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.2765
+        },
+        {
+          "target_fact_index": 50,
+          "target_fact": "Grubenmann sagte bei der Eröffnung: «Da habt ihr euren Pfeiler, aber ich habe meine Brücke.»",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.0801
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 47,
+      "source_fact": "Bei der Eröffnung der Brücke schlug der Grübenmann die Keile zwischen Brücke und Pfeilern weg.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 49,
+          "target_fact": "Grubenmann schlug bei der Eröffnung der Brücke die Keile zwischen Brücke und Pfeiler weg.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.3488
+        },
+        {
+          "target_fact_index": 50,
+          "target_fact": "Grubenmann sagte bei der Eröffnung: «Da habt ihr euren Pfeiler, aber ich habe meine Brücke.»",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.0611
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 48,
+      "source_fact": "Der Grübenmann sagte bei der Eröffnung: 'Da habt ihr eure Pfeiler, aber ich habe meine Brücke.'",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 50,
+          "target_fact": "Grubenmann sagte bei der Eröffnung: «Da habt ihr euren Pfeiler, aber ich habe meine Brücke.»",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.4578
+        },
+        {
+          "target_fact_index": 49,
+          "target_fact": "Grubenmann schlug bei der Eröffnung der Brücke die Keile zwischen Brücke und Pfeiler weg.",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.0205
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 49,
+      "source_fact": "Die Geschichte gehört in das Reich der Legenden.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 51,
+          "target_fact": "Die Geschichte gehört ins Reich der Legenden.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.5973
+        },
+        {
+          "target_fact_index": 57,
+          "target_fact": "Die durchlaufenden Tragwerksteile sind darauf zurückzuführen, dass Grubenmann rein nach Erfahrungswerten arbeitete.",
+          "target_paragraph": 5,
+          "density_normalized_distance": 0.1945
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 50,
+      "source_fact": "Das Bauwerk weist einen leichten Knick im Grundriss auf.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 52,
+          "target_fact": "Das ausgeführte Bauwerk hatte einen leichten Knick im Grundriss.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.4078
+        },
+        {
+          "target_fact_index": 53,
+          "target_fact": "Der Knick im Grundriss entstand durch die Mitbenutzung eines alten Pfeilers.",
+          "target_paragraph": 5,
+          "density_normalized_distance": 0.0452
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 51,
+      "source_fact": "Der Knick im Grundriss entstand durch die Mitbenutzung alter Pfeiler.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 53,
+          "target_fact": "Der Knick im Grundriss entstand durch die Mitbenutzung eines alten Pfeilers.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.4672
+        },
+        {
+          "target_fact_index": 57,
+          "target_fact": "Die durchlaufenden Tragwerksteile sind darauf zurückzuführen, dass Grubenmann rein nach Erfahrungswerten arbeitete.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.0052
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 52,
+      "source_fact": "Ohne diese Pfeiler hätte die Brücke den auftretenden Kräften nicht standgehalten.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 54,
+          "target_fact": "Die Brücke hätte ohne diesen Pfeiler den auftretenden Kräften nicht standgehalten.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.4532
+        },
+        {
+          "target_fact_index": 56,
+          "target_fact": "Die durchlaufenden Tragwerksteile können als Überbleibsel des vorhergehenden Entwurfs ohne Mittelpfeiler gesehen werden.",
+          "target_paragraph": 5,
+          "density_normalized_distance": 0.014
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 53,
+      "source_fact": "Die Brücke besaß trotz des Mittelpfeilers durchlaufende Trägerteile.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 55,
+          "target_fact": "Die Brücke besaß trotz des Mittelpfeilers durchlaufende Tragwerksteile.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.4259
+        },
+        {
+          "target_fact_index": 56,
+          "target_fact": "Die durchlaufenden Tragwerksteile können als Überbleibsel des vorhergehenden Entwurfs ohne Mittelpfeiler gesehen werden.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.1208
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 54,
+      "source_fact": "Die durchlaufenden Trägerteile sind einerseits Überbleibsel eines vorherigen Entwurfs ohne Mittelpfeiler.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 56,
+          "target_fact": "Die durchlaufenden Tragwerksteile können als Überbleibsel des vorhergehenden Entwurfs ohne Mittelpfeiler gesehen werden.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.371
+        },
+        {
+          "target_fact_index": 55,
+          "target_fact": "Die Brücke besaß trotz des Mittelpfeilers durchlaufende Tragwerksteile.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.0541
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 55,
+      "source_fact": "Die durchlaufenden Trägerteile sind andererseits darauf zurückzuführen, dass der Gruébemaa rein nach Erfahrungswerten arbeitete.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 57,
+          "target_fact": "Die durchlaufenden Tragwerksteile sind darauf zurückzuführen, dass Grubenmann rein nach Erfahrungswerten arbeitete.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.3965
+        },
+        {
+          "target_fact_index": 56,
+          "target_fact": "Die durchlaufenden Tragwerksteile können als Überbleibsel des vorhergehenden Entwurfs ohne Mittelpfeiler gesehen werden.",
+          "target_paragraph": 5,
+          "density_normalized_distance": 0.0864
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 56,
+      "source_fact": "Der Gruébemaa kannte zum Zeitpunkt des Baus noch keine Berechnungsmethoden.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 58,
+          "target_fact": "Grubenmann kannte noch keine Berechnungsmethoden.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.3479
+        },
+        {
+          "target_fact_index": 54,
+          "target_fact": "Die Brücke hätte ohne diesen Pfeiler den auftretenden Kräften nicht standgehalten.",
+          "target_paragraph": 5,
+          "density_normalized_distance": 0.0748
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 57,
+      "source_fact": "Schaffhausen beauftragte im Jahr 1804 den Werkmeister Andreas Widtmer mit dem Bau einer letzten Rheinbrücke aus Holz.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 59,
+          "target_fact": "Schaffhausen beauftragte im Jahre 1804 den Werkmeister Andreas Widtmer mit dem Bau der vierten und letzten hölzernen Rheinbrücke.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.3793
+        },
+        {
+          "target_fact_index": 64,
+          "target_fact": "Grössere Instandsetzungsmassnahmen mussten alle 7 bis 20 Jahre durchgeführt werden.",
+          "target_paragraph": 6,
+          "density_normalized_distance": 0.0451
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 58,
+      "source_fact": "Die Holzbrücke war eine offene Konstruktion.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 60,
+          "target_fact": "Die Holzbrücke war eine offene Konstruktion.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.3965
+        },
+        {
+          "target_fact_index": 63,
+          "target_fact": "Die bogenförmigen Öffnungen ruhten auf Pfahljochen.",
+          "target_paragraph": 6,
+          "density_normalized_distance": 0.0029
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 59,
+      "source_fact": "Die Breite der Brücke zwischen den Geländern betrug 8 Meter.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 61,
+          "target_fact": "Die Breite der Brücke zwischen den Geländern betrug 8 Meter.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.3074
+        },
+        {
+          "target_fact_index": 62,
+          "target_fact": "Die Brücke überspannte den Rhein mit sieben bogenförmig geschwungenen Öffnungen.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.0114
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 60,
+      "source_fact": "Die Brücke überspannte den Rhein mit sieben bogenförmig geschwungenen Öffnungen.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 62,
+          "target_fact": "Die Brücke überspannte den Rhein mit sieben bogenförmig geschwungenen Öffnungen.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.3906
+        },
+        {
+          "target_fact_index": 63,
+          "target_fact": "Die bogenförmigen Öffnungen ruhten auf Pfahljochen.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.0919
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 61,
+      "source_fact": "Die bogenförmigen Öffnungen ruhten auf Pfeilerjochen.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 63,
+          "target_fact": "Die bogenförmigen Öffnungen ruhten auf Pfahljochen.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.5086
+        },
+        {
+          "target_fact_index": 62,
+          "target_fact": "Die Brücke überspannte den Rhein mit sieben bogenförmig geschwungenen Öffnungen.",
+          "target_paragraph": 6,
+          "density_normalized_distance": 0.0328
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 62,
+      "source_fact": "Alle 7 bis 20 Jahre mussten größere Instandsetzungsmaßnahmen durchgeführt werden.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 64,
+          "target_fact": "Grössere Instandsetzungsmassnahmen mussten alle 7 bis 20 Jahre durchgeführt werden.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.4402
+        },
+        {
+          "target_fact_index": 59,
+          "target_fact": "Schaffhausen beauftragte im Jahre 1804 den Werkmeister Andreas Widtmer mit dem Bau der vierten und letzten hölzernen Rheinbrücke.",
+          "target_paragraph": 6,
+          "density_normalized_distance": 0.0757
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 63,
+      "source_fact": "Die Instandsetzungsmaßnahmen wurden bis zum Jahr 1850 durch einen Brückenzoll finanziert.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 65,
+          "target_fact": "Die Instandsetzungsmassnahmen wurden bis 1850 durch einen Brückenzoll finanziert.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.4266
+        },
+        {
+          "target_fact_index": 64,
+          "target_fact": "Grössere Instandsetzungsmassnahmen mussten alle 7 bis 20 Jahre durchgeführt werden.",
+          "target_paragraph": 6,
+          "density_normalized_distance": 0.0163
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 64,
+      "source_fact": "In den 1950er Jahren stieg das Kraftfahrzeugaufkommen an.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 66,
+          "target_fact": "In den 1950er Jahren stieg der Kraftfahrzeugverkehr stetig an.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.3649
+        },
+        {
+          "target_fact_index": 67,
+          "target_fact": "Die alte Holzbrücke war dem steigenden Kraftfahrzeugverkehr in den 1950er Jahren nicht mehr gewachsen.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.1638
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 65,
+      "source_fact": "Die alte Holzbrücke war für das steigende Verkehrsaufkommen nicht mehr ausreichend.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 67,
+          "target_fact": "Die alte Holzbrücke war dem steigenden Kraftfahrzeugverkehr in den 1950er Jahren nicht mehr gewachsen.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.291
+        },
+        {
+          "target_fact_index": 78,
+          "target_fact": "Der Neubau der Brücke wurde genutzt, um den Verkehrsfluss zu ändern.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.0395
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 66,
+      "source_fact": "Aufgrund der Situation wurde die Projektierung eines Neubaus begonnen.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 68,
+          "target_fact": "Aufgrund der Verkehrssituation wurde mit der Projektierung eines Brückenneubaus begonnen.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.2666
+        },
+        {
+          "target_fact_index": 69,
+          "target_fact": "Gleichzeitig wurde der Neubau des Kraftwerks Schaffhausen geplant.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.0782
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 67,
+      "source_fact": "Zur gleichen Zeit wurde der Neubau des Kraftwerks Schaffhausen geplant.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 69,
+          "target_fact": "Gleichzeitig wurde der Neubau des Kraftwerks Schaffhausen geplant.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.4369
+        },
+        {
+          "target_fact_index": 70,
+          "target_fact": "Das neue Kraftwerk Schaffhausen sollte den fast 100-jährigen Moserdamm ersetzen.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.1841
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 68,
+      "source_fact": "Das neue Kraftwerk sollte den fast 100 Jahre alten Moserdamm ersetzen.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 70,
+          "target_fact": "Das neue Kraftwerk Schaffhausen sollte den fast 100-jährigen Moserdamm ersetzen.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.3926
+        },
+        {
+          "target_fact_index": 69,
+          "target_fact": "Gleichzeitig wurde der Neubau des Kraftwerks Schaffhausen geplant.",
+          "target_paragraph": 7,
+          "density_normalized_distance": 0.0145
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 69,
+      "source_fact": "Die geplante Aufstauung des Rheins machte eine Neugestaltung des gesamten Rheinufers bis Büsingen notwendig.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 71,
+          "target_fact": "Die geplante Aufstauung des Rheins machte eine Neugestaltung des gesamten Rheinufers bis Stemmer notwendig.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.3299
+        },
+        {
+          "target_fact_index": 73,
+          "target_fact": "Durch die Rheinregulierung des Kraftwerks hat der Rhein zu jeder Jahreszeit die gleiche Pegelhöhe.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.0938
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 70,
+      "source_fact": "Die Rheinuferstraße im Süden der Altstadt wurde als Zubringer von Neuhausen gebaut.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 72,
+          "target_fact": "Die Rheinuferstrasse im Süden der Altstadt wurde als Zubringer von Neuhausen am Rheinfall erstellt.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.394
+        },
+        {
+          "target_fact_index": 71,
+          "target_fact": "Die geplante Aufstauung des Rheins machte eine Neugestaltung des gesamten Rheinufers bis Stemmer notwendig.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.0323
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 71,
+      "source_fact": "Durch die neue Rheinregulierung des Kraftwerks hält der Rhein zu jeder Jahreszeit den gleichen Pegel.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 73,
+          "target_fact": "Durch die Rheinregulierung des Kraftwerks hat der Rhein zu jeder Jahreszeit die gleiche Pegelhöhe.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.512
+        },
+        {
+          "target_fact_index": 71,
+          "target_fact": "Die geplante Aufstauung des Rheins machte eine Neugestaltung des gesamten Rheinufers bis Stemmer notwendig.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.0045
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 72,
+      "source_fact": "Aufgrund des konstanten Pegels konnte die Brücke tiefer gelegt werden.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 74,
+          "target_fact": "Die konstante Pegelhöhe ermöglichte eine Tieflegung der Brücke.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.2906
+        },
+        {
+          "target_fact_index": 73,
+          "target_fact": "Durch die Rheinregulierung des Kraftwerks hat der Rhein zu jeder Jahreszeit die gleiche Pegelhöhe.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.0844
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 73,
+      "source_fact": "Die Konstruktion der Brücke wurde so geplant, dass sie bei einer eventuellen Hochrheinschifffahrt angehoben werden kann.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 75,
+          "target_fact": "Die Konstruktion der Brücke musste die Vorgabe berücksichtigen, dass sie bei einer allfälligen Hochrheinschifffahrt angehoben werden kann.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.3267
+        },
+        {
+          "target_fact_index": 68,
+          "target_fact": "Aufgrund der Verkehrssituation wurde mit der Projektierung eines Brückenneubaus begonnen.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.0768
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 74,
+      "source_fact": "Kurz nach der Inbetriebnahme der Brücke wurden die Pläne zur Schiffbarmachung des Hochrheins endgültig aufgegeben.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 76,
+          "target_fact": "Kurz nach der Brückeneröffnung wurden die Pläne für die Schiffbarmachung des Hochrheins endgültig aufgegeben.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.4672
+        },
+        {
+          "target_fact_index": 68,
+          "target_fact": "Aufgrund der Verkehrssituation wurde mit der Projektierung eines Brückenneubaus begonnen.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.0923
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 75,
+      "source_fact": "Alle Vorgängerbrücken wurden auf dem Freien Platz zugeführt.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 77,
+          "target_fact": "Alle Vorgängerbrücken mündeten auf den Freien Platz.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.4193
+        },
+        {
+          "target_fact_index": 76,
+          "target_fact": "Kurz nach der Brückeneröffnung wurden die Pläne für die Schiffbarmachung des Hochrheins endgültig aufgegeben.",
+          "target_paragraph": 7,
+          "density_normalized_distance": 0.0547
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 76,
+      "source_fact": "Mit dem Neubau wurde der Verkehrsfluss geändert.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 78,
+          "target_fact": "Der Neubau der Brücke wurde genutzt, um den Verkehrsfluss zu ändern.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.2359
+        },
+        {
+          "target_fact_index": 68,
+          "target_fact": "Aufgrund der Verkehrssituation wurde mit der Projektierung eines Brückenneubaus begonnen.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.1074
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 77,
+      "source_fact": "Die Schifffahrtswinkligkeit der Brücke gegenüber der Strömungsrichtung änderte sich durch die Verschiebung des Widerlagers am Schaffhauser Ufer um 50 Meter flussabwärts.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 79,
+          "target_fact": "Das Widerlager am Schaffhauser Ufer wurde um 50 Meter flussabwärts verschoben.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.3269
+        },
+        {
+          "target_fact_index": 80,
+          "target_fact": "Die Verschiebung des Widerlagers führte zur Schiefwinkligkeit der Brücke zur Strömungsrichtung.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.1802
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 78,
+      "source_fact": "Das Bauwerk wurde in den Jahren 1962 bis 1965 errichtet.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 81,
+          "target_fact": "Das Bauwerk wurde in den Jahren 1962 bis 1965 errichtet.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.4056
+        },
+        {
+          "target_fact_index": 66,
+          "target_fact": "In den 1950er Jahren stieg der Kraftfahrzeugverkehr stetig an.",
+          "target_paragraph": 7,
+          "density_normalized_distance": 0.0303
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 79,
+      "source_fact": "Die Kosten für das Bauwerk beliefen sich auf 7 Millionen Franken.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 82,
+          "target_fact": "Die Kosten für das Bauwerk beliefen sich auf 7 Millionen Franken.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.4336
+        },
+        {
+          "target_fact_index": 69,
+          "target_fact": "Gleichzeitig wurde der Neubau des Kraftwerks Schaffhausen geplant.",
+          "target_paragraph": 7,
+          "density_normalized_distance": 0.0458
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 80,
+      "source_fact": "Die A4-Stadtdurchfahrt und die A4-Schrägseilbrücke wurden im Jahr 1995 eröffnet.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 83,
+          "target_fact": "Die A4-Stadtdurchfahrt und die A4 Schrägseilbrücke wurden im Jahre 1995 eröffnet.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.4346
+        },
+        {
+          "target_fact_index": 84,
+          "target_fact": "Vor der Eröffnung der A4-Stadtdurchfahrt und der A4 Schrägseilbrücke führte ein Großteil des Straßenverkehrs zwischen Stuttgart und Zürich über die neue Brücke.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.1415
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 81,
+      "source_fact": "Vor der Eröffnung im Jahr 1995 floss ein Großteil des Straßenverkehrs zwischen Stuttgart und Zürich über die neue Brücke.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 84,
+          "target_fact": "Vor der Eröffnung der A4-Stadtdurchfahrt und der A4 Schrägseilbrücke führte ein Großteil des Straßenverkehrs zwischen Stuttgart und Zürich über die neue Brücke.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.322
+        },
+        {
+          "target_fact_index": 85,
+          "target_fact": "Nach der Eröffnung im Jahr 1995 nahm der Verkehr auf der neuen Brücke spürbar ab.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.1473
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 82,
+      "source_fact": "Nach 1995 ging der Transitverkehr über die Rheinbrücke nach Fürthaleen spürbar zurück.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 85,
+          "target_fact": "Nach der Eröffnung im Jahr 1995 nahm der Verkehr auf der neuen Brücke spürbar ab.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.1931
+        },
+        {
+          "target_fact_index": 87,
+          "target_fact": "Die Tendenz der Fahrzeugzahlen auf der Brücke ist seit 2009 wieder steigend.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0823
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 83,
+      "source_fact": "Im Jahr 2009 überquerten durchschnittlich 19.000 Fahrzeuge pro Tag die Brücke.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 86,
+          "target_fact": "Im Jahr 2009 passierten die Brücke durchschnittlich 19.000 Fahrzeuge pro Tag.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.4342
+        },
+        {
+          "target_fact_index": 87,
+          "target_fact": "Die Tendenz der Fahrzeugzahlen auf der Brücke ist seit 2009 wieder steigend.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0709
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 84,
+      "source_fact": "Die Tendenz der Fahrzeugzahlen ist wieder steigend.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 87,
+          "target_fact": "Die Tendenz der Fahrzeugzahlen auf der Brücke ist seit 2009 wieder steigend.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.2148
+        },
+        {
+          "target_fact_index": 85,
+          "target_fact": "Nach der Eröffnung im Jahr 1995 nahm der Verkehr auf der neuen Brücke spürbar ab.",
+          "target_paragraph": 8,
+          "density_normalized_distance": 0.1534
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 85,
+      "source_fact": "Im Zeitraum 1986/87 wurde die Rheinbrücke zum ersten Mal saniert.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 88,
+          "target_fact": "Die Rheinbrücke wurde in den Jahren 1986/87 zum ersten Mal saniert.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.3934
+        },
+        {
+          "target_fact_index": 90,
+          "target_fact": "In den Jahren 2011/12 wurde eine Totalsanierung der Rheinbrücke durchgeführt.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.1749
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 86,
+      "source_fact": "Die Sanierung in den Jahren 1986/87 kostete 1,35 Millionen Franken.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 89,
+          "target_fact": "Die Kosten für die erste Sanierung betrugen 1,35 Millionen Franken.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.231
+        },
+        {
+          "target_fact_index": 92,
+          "target_fact": "Der Kostenvoranschlag für die Totalsanierung lag bei 5,66 Millionen Franken.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.1448
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 87,
+      "source_fact": "In den Jahren 2011/12 wurde eine Totalsanierung der Brücke durchgeführt.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 90,
+          "target_fact": "In den Jahren 2011/12 wurde eine Totalsanierung der Rheinbrücke durchgeführt.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.3663
+        },
+        {
+          "target_fact_index": 91,
+          "target_fact": "Die Totalsanierung umfasste auch die in der Brücke verlegten Werkleitungen.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.1204
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 88,
+      "source_fact": "Die Totalsanierung 2011/12 schloss die in der Brücke verlegten Leitungen mit ein.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 90,
+          "target_fact": "In den Jahren 2011/12 wurde eine Totalsanierung der Rheinbrücke durchgeführt.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.2743
+        },
+        {
+          "target_fact_index": 91,
+          "target_fact": "Die Totalsanierung umfasste auch die in der Brücke verlegten Werkleitungen.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.2271
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 89,
+      "source_fact": "Die Sanierung 2011/12 verursachte Kosten von etwa 5,6 Millionen Franken.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 92,
+          "target_fact": "Der Kostenvoranschlag für die Totalsanierung lag bei 5,66 Millionen Franken.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.2271
+        },
+        {
+          "target_fact_index": 89,
+          "target_fact": "Die Kosten für die erste Sanierung betrugen 1,35 Millionen Franken.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.1607
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 90,
+      "source_fact": "Nach der Sanierung berechneten Ingenieure eine Restnutzungsdauer von 60 Jahren.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 94,
+          "target_fact": "Ingenieure gehen nach der Sanierung von einer Restnutzungsdauer der Brücke von 60 Jahren aus.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.379
+        },
+        {
+          "target_fact_index": 92,
+          "target_fact": "Der Kostenvoranschlag für die Totalsanierung lag bei 5,66 Millionen Franken.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.0033
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 91,
+      "source_fact": "Die Brücke ist 102,5 Meter lang.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 95,
+          "target_fact": "Die Brücke ist 102,5 Meter lang.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.3919
+        },
+        {
+          "target_fact_index": 98,
+          "target_fact": "Die Mittelspannweite der Brücke beträgt 61 Meter.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.1028
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 92,
+      "source_fact": "Die Brücke ist als vorgespannte Stahlbetonbrücke gebaut.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 96,
+          "target_fact": "Die Brücke wurde als vorgespannte Stahlbetonbrücke erstellt.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.3099
+        },
+        {
+          "target_fact_index": 103,
+          "target_fact": "Die Pfeiler sind auf Betonpfählen gegründet.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.1351
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 93,
+      "source_fact": "Die Brücke weist drei Öffnungen auf.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 97,
+          "target_fact": "Die Brücke weist drei Öffnungen auf.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.4
+        },
+        {
+          "target_fact_index": 108,
+          "target_fact": "Die Fahrbahnplatte teilt sich in drei Fahrstreifen.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.114
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 94,
+      "source_fact": "Die Mittelspannweite beträgt 61 Meter.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 98,
+          "target_fact": "Die Mittelspannweite der Brücke beträgt 61 Meter.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.3019
+        },
+        {
+          "target_fact_index": 100,
+          "target_fact": "Die Bauhöhe des Querschnitts beträgt in Brückenmitte 1,28 Meter.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.0897
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 95,
+      "source_fact": "In Querrichtung ist ein dreizelliger Hohlkastenquerschnitt vorhanden.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 99,
+          "target_fact": "In Querrichtung ist ein dreizelliger Hohlkastenquerschnitt vorhanden.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.5564
+        },
+        {
+          "target_fact_index": 108,
+          "target_fact": "Die Fahrbahnplatte teilt sich in drei Fahrstreifen.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.0742
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 96,
+      "source_fact": "Die Bauhöhe beträgt in der Brückenmitte 1,28 Meter.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 100,
+          "target_fact": "Die Bauhöhe des Querschnitts beträgt in Brückenmitte 1,28 Meter.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.4428
+        },
+        {
+          "target_fact_index": 101,
+          "target_fact": "Die Bauhöhe des Querschnitts beträgt über den Flusspfeilern 1,83 Meter.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.2252
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 97,
+      "source_fact": "Die Bauhöhe über dem Flusspfeiler beträgt 1,83 Meter.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 101,
+          "target_fact": "Die Bauhöhe des Querschnitts beträgt über den Flusspfeilern 1,83 Meter.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.4036
+        },
+        {
+          "target_fact_index": 100,
+          "target_fact": "Die Bauhöhe des Querschnitts beträgt in Brückenmitte 1,28 Meter.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.2692
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 98,
+      "source_fact": "Der Überbau liegt auf zwei schmalen, scheibenförmigen Pfeilern.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 102,
+          "target_fact": "Der Überbau ruht auf zwei schmalen, scheibenförmigen Pfeilern.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.4359
+        },
+        {
+          "target_fact_index": 99,
+          "target_fact": "In Querrichtung ist ein dreizelliger Hohlkastenquerschnitt vorhanden.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.0846
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 99,
+      "source_fact": "Die Pfeiler stehen auf Betonpfählen.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 103,
+          "target_fact": "Die Pfeiler sind auf Betonpfählen gegründet.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.3946
+        },
+        {
+          "target_fact_index": 106,
+          "target_fact": "Die Widerlager besitzen eine Flachgründung.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.0406
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 100,
+      "source_fact": "Die Betonpfähle ragen bis zu 20 Meter tief ins Flussbett.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 104,
+          "target_fact": "Die Betonpfähle reichen bis zu 20 Meter tief im Flussbett.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.4649
+        },
+        {
+          "target_fact_index": 100,
+          "target_fact": "Die Bauhöhe des Querschnitts beträgt in Brückenmitte 1,28 Meter.",
+          "target_paragraph": 10,
+          "density_normalized_distance": 0.0052
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 101,
+      "source_fact": "Die Widerlager haben eine Flachgründung.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 106,
+          "target_fact": "Die Widerlager besitzen eine Flachgründung.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.6667
+        },
+        {
+          "target_fact_index": 105,
+          "target_fact": "Die Widerlager sind großflächig.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.3496
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 102,
+      "source_fact": "Die Fahrbahnplatte hat eine Breite von 19 Metern.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 107,
+          "target_fact": "Die Fahrbahnplatte weist eine Breite von 19 Metern auf.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.3867
+        },
+        {
+          "target_fact_index": 109,
+          "target_fact": "Die drei Fahrstreifen haben eine Gesamtbreite von 13 Metern.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.1683
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 103,
+      "source_fact": "Die Fahrbahn teilt sich in drei Fahrstreifen mit einer Gesamtbreite von 13 Metern.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 109,
+          "target_fact": "Die drei Fahrstreifen haben eine Gesamtbreite von 13 Metern.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.3126
+        },
+        {
+          "target_fact_index": 108,
+          "target_fact": "Die Fahrbahnplatte teilt sich in drei Fahrstreifen.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.2561
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 104,
+      "source_fact": "Es gibt zwei Trottoirs mit einer Breite von jeweils 3 Metern.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 111,
+          "target_fact": "Die Gehwege haben jeweils eine Breite von 3 Metern.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.2761
+        },
+        {
+          "target_fact_index": 109,
+          "target_fact": "Die drei Fahrstreifen haben eine Gesamtbreite von 13 Metern.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.1997
+        }
+      ]
+    }
+  ]
+}

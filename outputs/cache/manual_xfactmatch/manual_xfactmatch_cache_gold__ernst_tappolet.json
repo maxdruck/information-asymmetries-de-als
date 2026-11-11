@@ -1,0 +1,602 @@
+{
+  "{\"candidate_indices\": [0, 1], \"context_size\": 3, \"direction\": \"de_to_als\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet hieß vollständig Ernst Emanuel Tappolet.\"], \"source_fact_index\": 0, \"target_contexts\": [[\"Ernst Tappolet hieß vollständig Ernst Emanuel Tappolet.\"], [\"Ernst Tappolet hieß vollständig Ernst Emanuel Tappolet.\", \"Ernst Tappolet schrieb seinen Vornamen in französischen Texten Ernest.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 246,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [1, 0], \"context_size\": 3, \"direction\": \"de_to_als\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet hieß vollständig Ernst Emanuel Tappolet.\", \"Ernst Tappolet wurde in französischsprachigen Publikationen Ernest Tappolet genannt.\"], \"source_fact_index\": 1, \"target_contexts\": [[\"Ernst Tappolet hieß vollständig Ernst Emanuel Tappolet.\", \"Ernst Tappolet schrieb seinen Vornamen in französischen Texten Ernest.\"], [\"Ernst Tappolet hieß vollständig Ernst Emanuel Tappolet.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 266,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [2, 3], \"context_size\": 3, \"direction\": \"de_to_als\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet hieß vollständig Ernst Emanuel Tappolet.\", \"Ernst Tappolet wurde in französischsprachigen Publikationen Ernest Tappolet genannt.\", \"Ernst Tappolet wurde am 21. Oktober 1870 in Hittnau geboren.\"], \"source_fact_index\": 2, \"target_contexts\": [[\"Ernst Tappolet hieß vollständig Ernst Emanuel Tappolet.\", \"Ernst Tappolet schrieb seinen Vornamen in französischen Texten Ernest.\", \"Ernst Tappolet wurde am 21. Oktober 1870 in Hittnau geboren.\"], [\"Ernst Tappolet schrieb seinen Vornamen in französischen Texten Ernest.\", \"Ernst Tappolet wurde am 21. Oktober 1870 in Hittnau geboren.\", \"Ernst Tappolet starb am 2. November 1939 in Basel.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 357,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [3, 2], \"context_size\": 3, \"direction\": \"de_to_als\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet wurde in französischsprachigen Publikationen Ernest Tappolet genannt.\", \"Ernst Tappolet wurde am 21. Oktober 1870 in Hittnau geboren.\", \"Ernst Tappolet starb am 2. November 1939 in Basel.\"], \"source_fact_index\": 3, \"target_contexts\": [[\"Ernst Tappolet schrieb seinen Vornamen in französischen Texten Ernest.\", \"Ernst Tappolet wurde am 21. Oktober 1870 in Hittnau geboren.\", \"Ernst Tappolet starb am 2. November 1939 in Basel.\"], [\"Ernst Tappolet hieß vollständig Ernst Emanuel Tappolet.\", \"Ernst Tappolet schrieb seinen Vornamen in französischen Texten Ernest.\", \"Ernst Tappolet wurde am 21. Oktober 1870 in Hittnau geboren.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 362,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [4, 0], \"context_size\": 3, \"direction\": \"de_to_als\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet wurde am 21. Oktober 1870 in Hittnau geboren.\", \"Ernst Tappolet starb am 2. November 1939 in Basel.\", \"Ernst Tappolet war ein Schweizer Romanist.\"], \"source_fact_index\": 4, \"target_contexts\": [[\"Ernst Tappolet wurde am 21. Oktober 1870 in Hittnau geboren.\", \"Ernst Tappolet starb am 2. November 1939 in Basel.\", \"Ernst Tappolet war ein Schweizer Romanist.\"], [\"Ernst Tappolet hieß vollständig Ernst Emanuel Tappolet.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 309,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [6, 7], \"context_size\": 3, \"direction\": \"de_to_als\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet starb am 2. November 1939 in Basel.\", \"Ernst Tappolet war ein Schweizer Romanist.\", \"Ernst Tappolet gründete 1899 das Glossaire des patois de la Suisse romande zusammen mit Louis Gauchat.\"], \"source_fact_index\": 5, \"target_contexts\": [[\"Ernst Tappolet war ein Schweizer Romanist.\", \"Ernst Tappolet war Professor an der Universität Basel.\", \"Ernst Tappolet gründete 1899 das Glossaire des patois de la Suisse romande zusammen mit Louis Gauchat.\"], [\"Ernst Tappolet war Professor an der Universität Basel.\", \"Ernst Tappolet gründete 1899 das Glossaire des patois de la Suisse romande zusammen mit Louis Gauchat.\", \"Ernst Tappolet gründete 1899 das Glossaire des patois de la Suisse romande zusammen mit Jules Jeanjaquet.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 375,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [7, 6], \"context_size\": 3, \"direction\": \"de_to_als\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet war ein Schweizer Romanist.\", \"Ernst Tappolet gründete 1899 das Glossaire des patois de la Suisse romande zusammen mit Louis Gauchat.\", \"Ernst Tappolet gründete 1899 das Glossaire des patois de la Suisse romande zusammen mit Jules Jeanjaquet.\"], \"source_fact_index\": 6, \"target_contexts\": [[\"Ernst Tappolet war Professor an der Universität Basel.\", \"Ernst Tappolet gründete 1899 das Glossaire des patois de la Suisse romande zusammen mit Louis Gauchat.\", \"Ernst Tappolet gründete 1899 das Glossaire des patois de la Suisse romande zusammen mit Jules Jeanjaquet.\"], [\"Ernst Tappolet war ein Schweizer Romanist.\", \"Ernst Tappolet war Professor an der Universität Basel.\", \"Ernst Tappolet gründete 1899 das Glossaire des patois de la Suisse romande zusammen mit Louis Gauchat.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 386,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [4, 1], \"context_size\": 3, \"direction\": \"de_to_als\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet gründete 1899 das Glossaire des patois de la Suisse romande zusammen mit Louis Gauchat.\", \"Ernst Tappolet gründete 1899 das Glossaire des patois de la Suisse romande zusammen mit Jules Jeanjaquet.\", \"Ernst Tappolet vertrat 1901 die Meinung, dass Zürich die erste Schweizer Stadt sei, in der das Standarddeutsche den Dialekt als Umgangssprache verdränge.\"], \"source_fact_index\": 7, \"target_contexts\": [[\"Ernst Tappolet wurde am 21. Oktober 1870 in Hittnau geboren.\", \"Ernst Tappolet starb am 2. November 1939 in Basel.\", \"Ernst Tappolet war ein Schweizer Romanist.\"], [\"Ernst Tappolet hieß vollständig Ernst Emanuel Tappolet.\", \"Ernst Tappolet schrieb seinen Vornamen in französischen Texten Ernest.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 372,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [2, 1], \"context_size\": 3, \"direction\": \"de_to_als\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet gründete 1899 das Glossaire des patois de la Suisse romande zusammen mit Jules Jeanjaquet.\", \"Ernst Tappolet vertrat 1901 die Meinung, dass Zürich die erste Schweizer Stadt sei, in der das Standarddeutsche den Dialekt als Umgangssprache verdränge.\", \"Die Meinung von Ernst Tappolet aus dem Jahr 1901 wird noch heute gelegentlich zitiert.\"], \"source_fact_index\": 8, \"target_contexts\": [[\"Ernst Tappolet hieß vollständig Ernst Emanuel Tappolet.\", \"Ernst Tappolet schrieb seinen Vornamen in französischen Texten Ernest.\", \"Ernst Tappolet wurde am 21. Oktober 1870 in Hittnau geboren.\"], [\"Ernst Tappolet hieß vollständig Ernst Emanuel Tappolet.\", \"Ernst Tappolet schrieb seinen Vornamen in französischen Texten Ernest.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 366,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [13, 14], \"context_size\": 3, \"direction\": \"de_to_als\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet vertrat 1901 die Meinung, dass Zürich die erste Schweizer Stadt sei, in der das Standarddeutsche den Dialekt als Umgangssprache verdränge.\", \"Die Meinung von Ernst Tappolet aus dem Jahr 1901 wird noch heute gelegentlich zitiert.\", \"Ernst Tappolet stammte aus einer Familie, die um 1800 von Essertines-sur-Yverdon im Kanton Waadt nach Küsnacht ausgewandert war.\"], \"source_fact_index\": 9, \"target_contexts\": [[\"Die Aussage, dass das Schweizerdeutsche um 1900 herum davor gestanden habe, dem Hochdeutschen zu weichen, wird heute noch gern zitiert.\", \"Kaum jemand weiß heute noch, dass Ernst Tappolet die Idee in die Welt gesetzt hat.\", \"Ernst Tappolet stammte aus einer Familie, die um 1800 von Essertines-sur-Yverdon im Kanton Waadt nach Küsnacht ausgewandert war.\"], [\"Kaum jemand weiß heute noch, dass Ernst Tappolet die Idee in die Welt gesetzt hat.\", \"Ernst Tappolet stammte aus einer Familie, die um 1800 von Essertines-sur-Yverdon im Kanton Waadt nach Küsnacht ausgewandert war.\", \"Ernst Tappolets Familie erwarb 1826 das Stadtzürcher Bürgerrecht.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 479,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [14, 13], \"context_size\": 3, \"direction\": \"de_to_als\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Meinung von Ernst Tappolet aus dem Jahr 1901 wird noch heute gelegentlich zitiert.\", \"Ernst Tappolet stammte aus einer Familie, die um 1800 von Essertines-sur-Yverdon im Kanton Waadt nach Küsnacht ausgewandert war.\", \"Ernst Tappolets Familie erwarb 1826 das Stadtzürcher Bürgerrecht.\"], \"source_fact_index\": 10, \"target_contexts\": [[\"Kaum jemand weiß heute noch, dass Ernst Tappolet die Idee in die Welt gesetzt hat.\", \"Ernst Tappolet stammte aus einer Familie, die um 1800 von Essertines-sur-Yverdon im Kanton Waadt nach Küsnacht ausgewandert war.\", \"Ernst Tappolets Familie erwarb 1826 das Stadtzürcher Bürgerrecht.\"], [\"Die Aussage, dass das Schweizerdeutsche um 1900 herum davor gestanden habe, dem Hochdeutschen zu weichen, wird heute noch gern zitiert.\", \"Kaum jemand weiß heute noch, dass Ernst Tappolet die Idee in die Welt gesetzt hat.\", \"Ernst Tappolet stammte aus einer Familie, die um 1800 von Essertines-sur-Yverdon im Kanton Waadt nach Küsnacht ausgewandert war.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 463,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [15, 14], \"context_size\": 3, \"direction\": \"de_to_als\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet stammte aus einer Familie, die um 1800 von Essertines-sur-Yverdon im Kanton Waadt nach Küsnacht ausgewandert war.\", \"Ernst Tappolets Familie erwarb 1826 das Stadtzürcher Bürgerrecht.\", \"Paul Friedrich Tappolez war der Vater von Ernst Tappolet.\"], \"source_fact_index\": 11, \"target_contexts\": [[\"Ernst Tappolet stammte aus einer Familie, die um 1800 von Essertines-sur-Yverdon im Kanton Waadt nach Küsnacht ausgewandert war.\", \"Ernst Tappolets Familie erwarb 1826 das Stadtzürcher Bürgerrecht.\", \"Ernst Tappolets Vater war Pfarrer im Zürcher Oberland.\"], [\"Kaum jemand weiß heute noch, dass Ernst Tappolet die Idee in die Welt gesetzt hat.\", \"Ernst Tappolet stammte aus einer Familie, die um 1800 von Essertines-sur-Yverdon im Kanton Waadt nach Küsnacht ausgewandert war.\", \"Ernst Tappolets Familie erwarb 1826 das Stadtzürcher Bürgerrecht.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 440,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [15, 41], \"context_size\": 3, \"direction\": \"de_to_als\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolets Familie erwarb 1826 das Stadtzürcher Bürgerrecht.\", \"Paul Friedrich Tappolez war der Vater von Ernst Tappolet.\", \"Paul Friedrich Tappolez war Pfarrer im Zürcher Oberland.\"], \"source_fact_index\": 12, \"target_contexts\": [[\"Ernst Tappolet stammte aus einer Familie, die um 1800 von Essertines-sur-Yverdon im Kanton Waadt nach Küsnacht ausgewandert war.\", \"Ernst Tappolets Familie erwarb 1826 das Stadtzürcher Bürgerrecht.\", \"Ernst Tappolets Vater war Pfarrer im Zürcher Oberland.\"], [\"Johanna Elisabeth Schlub hatte die Lebensdaten 1866–1941.\", \"Ernst Tappolet war Mitglied der Abstinenzler-Bewegung.\", \"Ernst Tappolets Mitgliedschaft in der Abstinenzler-Bewegung war vielleicht typisch für einen damaligen Pfarrerssohn.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 396,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [41, 40], \"context_size\": 3, \"direction\": \"de_to_als\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Paul Friedrich Tappolez war der Vater von Ernst Tappolet.\", \"Paul Friedrich Tappolez war Pfarrer im Zürcher Oberland.\", \"Siegfried Tappolet gehörte zu Ernst Tappolets Halbgeschwistern.\"], \"source_fact_index\": 13, \"target_contexts\": [[\"Johanna Elisabeth Schlub hatte die Lebensdaten 1866–1941.\", \"Ernst Tappolet war Mitglied der Abstinenzler-Bewegung.\", \"Ernst Tappolets Mitgliedschaft in der Abstinenzler-Bewegung war vielleicht typisch für einen damaligen Pfarrerssohn.\"], [\"Ernst Tappolet heiratete 1897 Johanna Elisabeth Schlub.\", \"Johanna Elisabeth Schlub hatte die Lebensdaten 1866–1941.\", \"Ernst Tappolet war Mitglied der Abstinenzler-Bewegung.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 364,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [15, 40], \"context_size\": 3, \"direction\": \"de_to_als\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Paul Friedrich Tappolez war Pfarrer im Zürcher Oberland.\", \"Siegfried Tappolet gehörte zu Ernst Tappolets Halbgeschwistern.\", \"Siegfried Tappolet war Opernsänger.\"], \"source_fact_index\": 14, \"target_contexts\": [[\"Ernst Tappolet stammte aus einer Familie, die um 1800 von Essertines-sur-Yverdon im Kanton Waadt nach Küsnacht ausgewandert war.\", \"Ernst Tappolets Familie erwarb 1826 das Stadtzürcher Bürgerrecht.\", \"Ernst Tappolets Vater war Pfarrer im Zürcher Oberland.\"], [\"Ernst Tappolet heiratete 1897 Johanna Elisabeth Schlub.\", \"Johanna Elisabeth Schlub hatte die Lebensdaten 1866–1941.\", \"Ernst Tappolet war Mitglied der Abstinenzler-Bewegung.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 375,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [15, 40], \"context_size\": 3, \"direction\": \"de_to_als\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Siegfried Tappolet gehörte zu Ernst Tappolets Halbgeschwistern.\", \"Siegfried Tappolet war Opernsänger.\", \"Siegfried Tappolet war Gesangspädagoge.\"], \"source_fact_index\": 15, \"target_contexts\": [[\"Ernst Tappolet stammte aus einer Familie, die um 1800 von Essertines-sur-Yverdon im Kanton Waadt nach Küsnacht ausgewandert war.\", \"Ernst Tappolets Familie erwarb 1826 das Stadtzürcher Bürgerrecht.\", \"Ernst Tappolets Vater war Pfarrer im Zürcher Oberland.\"], [\"Ernst Tappolet heiratete 1897 Johanna Elisabeth Schlub.\", \"Johanna Elisabeth Schlub hatte die Lebensdaten 1866–1941.\", \"Ernst Tappolet war Mitglied der Abstinenzler-Bewegung.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 373,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [41, 40], \"context_size\": 3, \"direction\": \"de_to_als\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Siegfried Tappolet war Opernsänger.\", \"Siegfried Tappolet war Gesangspädagoge.\", \"Bertha Tappolet gehörte zu Ernst Tappolets Halbgeschwistern.\"], \"source_fact_index\": 16, \"target_contexts\": [[\"Johanna Elisabeth Schlub hatte die Lebensdaten 1866–1941.\", \"Ernst Tappolet war Mitglied der Abstinenzler-Bewegung.\", \"Ernst Tappolets Mitgliedschaft in der Abstinenzler-Bewegung war vielleicht typisch für einen damaligen Pfarrerssohn.\"], [\"Ernst Tappolet heiratete 1897 Johanna Elisabeth Schlub.\", \"Johanna Elisabeth Schlub hatte die Lebensdaten 1866–1941.\", \"Ernst Tappolet war Mitglied der Abstinenzler-Bewegung.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 357,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [40, 41], \"context_size\": 3, \"direction\": \"de_to_als\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Siegfried Tappolet war Gesangspädagoge.\", \"Bertha Tappolet gehörte zu Ernst Tappolets Halbgeschwistern.\", \"Bertha Tappolet war Künstlerin.\"], \"source_fact_index\": 17, \"target_contexts\": [[\"Ernst Tappolet heiratete 1897 Johanna Elisabeth Schlub.\", \"Johanna Elisabeth Schlub hatte die Lebensdaten 1866–1941.\", \"Ernst Tappolet war Mitglied der Abstinenzler-Bewegung.\"], [\"Johanna Elisabeth Schlub hatte die Lebensdaten 1866–1941.\", \"Ernst Tappolet war Mitglied der Abstinenzler-Bewegung.\", \"Ernst Tappolets Mitgliedschaft in der Abstinenzler-Bewegung war vielleicht typisch für einen damaligen Pfarrerssohn.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 355,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [16, 17], \"context_size\": 3, \"direction\": \"de_to_als\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Bertha Tappolet gehörte zu Ernst Tappolets Halbgeschwistern.\", \"Bertha Tappolet war Künstlerin.\", \"Ernst Tappolet studierte in Marburg.\"], \"source_fact_index\": 18, \"target_contexts\": [[\"Ernst Tappolets Familie erwarb 1826 das Stadtzürcher Bürgerrecht.\", \"Ernst Tappolets Vater war Pfarrer im Zürcher Oberland.\", \"Ernst Tappolet studierte in Marburg.\"], [\"Ernst Tappolets Vater war Pfarrer im Zürcher Oberland.\", \"Ernst Tappolet studierte in Marburg.\", \"Ernst Tappolet studierte in Paris.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 315,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [17, 18], \"context_size\": 3, \"direction\": \"de_to_als\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Bertha Tappolet war Künstlerin.\", \"Ernst Tappolet studierte in Marburg.\", \"Ernst Tappolet studierte in Paris.\"], \"source_fact_index\": 19, \"target_contexts\": [[\"Ernst Tappolets Vater war Pfarrer im Zürcher Oberland.\", \"Ernst Tappolet studierte in Marburg.\", \"Ernst Tappolet studierte in Paris.\"], [\"Ernst Tappolet studierte in Marburg.\", \"Ernst Tappolet studierte in Paris.\", \"Ernst Tappolet studierte in Florenz.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 286,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [18, 17], \"context_size\": 3, \"direction\": \"de_to_als\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet studierte in Marburg.\", \"Ernst Tappolet studierte in Paris.\", \"Ernst Tappolet studierte in Florenz.\"], \"source_fact_index\": 20, \"target_contexts\": [[\"Ernst Tappolet studierte in Marburg.\", \"Ernst Tappolet studierte in Paris.\", \"Ernst Tappolet studierte in Florenz.\"], [\"Ernst Tappolets Vater war Pfarrer im Zürcher Oberland.\", \"Ernst Tappolet studierte in Marburg.\", \"Ernst Tappolet studierte in Paris.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 287,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [19, 17], \"context_size\": 3, \"direction\": \"de_to_als\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet studierte in Paris.\", \"Ernst Tappolet studierte in Florenz.\", \"Ernst Tappolet studierte in Zürich.\"], \"source_fact_index\": 21, \"target_contexts\": [[\"Ernst Tappolet studierte in Paris.\", \"Ernst Tappolet studierte in Florenz.\", \"Ernst Tappolet promovierte in Zürich.\"], [\"Ernst Tappolets Vater war Pfarrer im Zürcher Oberland.\", \"Ernst Tappolet studierte in Marburg.\", \"Ernst Tappolet studierte in Paris.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 286,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [19, 25], \"context_size\": 3, \"direction\": \"de_to_als\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet studierte in Florenz.\", \"Ernst Tappolet studierte in Zürich.\", \"Ernst Tappolet promovierte an der Universität Zürich.\"], \"source_fact_index\": 22, \"target_contexts\": [[\"Ernst Tappolet studierte in Paris.\", \"Ernst Tappolet studierte in Florenz.\", \"Ernst Tappolet promovierte in Zürich.\"], [\"Die romanischen Verwandtschaftsnamen eröffnete der onomasiologischen Forschung in der Romanistik einen neuen Weg.\", \"Die romanischen Verwandtschaftsnamen steht am Anfang einer ganzen Reihe von Büchern über den Wortschatz der romanischen Sprachen.\", \"Ernst Tappolet war danach Gymnasiallehrer in Zürich.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 319,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [20, 19], \"context_size\": 3, \"direction\": \"de_to_als\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet studierte in Zürich.\", \"Ernst Tappolet promovierte an der Universität Zürich.\", \"Ernst Tappolet promovierte bei Heinrich Morf.\"], \"source_fact_index\": 23, \"target_contexts\": [[\"Ernst Tappolet studierte in Florenz.\", \"Ernst Tappolet promovierte in Zürich.\", \"Ernst Tappolet promovierte bei Heinrich Morf.\"], [\"Ernst Tappolet studierte in Paris.\", \"Ernst Tappolet studierte in Florenz.\", \"Ernst Tappolet promovierte in Zürich.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 287,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [21, 24], \"context_size\": 3, \"direction\": \"de_to_als\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet promovierte an der Universität Zürich.\", \"Ernst Tappolet promovierte bei Heinrich Morf.\", \"Das Thema von Ernst Tappolets Promotion war Die romanischen Verwandtschaftsnamen, mit besonderer Berücksichtigung der französischen und italienischen Mundarten; ein Beitrag zur vergleichenden Lexikologie.\"], \"source_fact_index\": 24, \"target_contexts\": [[\"Ernst Tappolet promovierte in Zürich.\", \"Ernst Tappolet promovierte bei Heinrich Morf.\", \"Ernst Tappolet promovierte über die romanischen Verwandtschaftsnamen.\"], [\"Die romanischen Verwandtschaftsnamen erschien 1895.\", \"Die romanischen Verwandtschaftsnamen eröffnete der onomasiologischen Forschung in der Romanistik einen neuen Weg.\", \"Die romanischen Verwandtschaftsnamen steht am Anfang einer ganzen Reihe von Büchern über den Wortschatz der romanischen Sprachen.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 366,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [22, 24], \"context_size\": 3, \"direction\": \"de_to_als\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet promovierte bei Heinrich Morf.\", \"Das Thema von Ernst Tappolets Promotion war Die romanischen Verwandtschaftsnamen, mit besonderer Berücksichtigung der französischen und italienischen Mundarten; ein Beitrag zur vergleichenden Lexikologie.\", \"Die romanischen Verwandtschaftsnamen, mit besonderer Berücksichtigung der französischen und italienischen Mundarten; ein Beitrag zur vergleichenden Lexikologie erschien 1895 in Strassburg.\"], \"source_fact_index\": 25, \"target_contexts\": [[\"Ernst Tappolet promovierte bei Heinrich Morf.\", \"Ernst Tappolet promovierte über die romanischen Verwandtschaftsnamen.\", \"Die romanischen Verwandtschaftsnamen erschien 1895.\"], [\"Die romanischen Verwandtschaftsnamen erschien 1895.\", \"Die romanischen Verwandtschaftsnamen eröffnete der onomasiologischen Forschung in der Romanistik einen neuen Weg.\", \"Die romanischen Verwandtschaftsnamen steht am Anfang einer ganzen Reihe von Büchern über den Wortschatz der romanischen Sprachen.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 403,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [23, 24], \"context_size\": 3, \"direction\": \"de_to_als\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Das Thema von Ernst Tappolets Promotion war Die romanischen Verwandtschaftsnamen, mit besonderer Berücksichtigung der französischen und italienischen Mundarten; ein Beitrag zur vergleichenden Lexikologie.\", \"Die romanischen Verwandtschaftsnamen, mit besonderer Berücksichtigung der französischen und italienischen Mundarten; ein Beitrag zur vergleichenden Lexikologie erschien 1895 in Strassburg.\", \"Das Werk Die romanischen Verwandtschaftsnamen, mit besonderer Berücksichtigung der französischen und italienischen Mundarten; ein Beitrag zur vergleichenden Lexikologie war bahnbrechend für die romanistische onomasiologische Forschung.\"], \"source_fact_index\": 26, \"target_contexts\": [[\"Ernst Tappolet promovierte über die romanischen Verwandtschaftsnamen.\", \"Die romanischen Verwandtschaftsnamen erschien 1895.\", \"Die romanischen Verwandtschaftsnamen eröffnete der onomasiologischen Forschung in der Romanistik einen neuen Weg.\"], [\"Die romanischen Verwandtschaftsnamen erschien 1895.\", \"Die romanischen Verwandtschaftsnamen eröffnete der onomasiologischen Forschung in der Romanistik einen neuen Weg.\", \"Die romanischen Verwandtschaftsnamen steht am Anfang einer ganzen Reihe von Büchern über den Wortschatz der romanischen Sprachen.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 453,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [24, 23], \"context_size\": 3, \"direction\": \"de_to_als\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die romanischen Verwandtschaftsnamen, mit besonderer Berücksichtigung der französischen und italienischen Mundarten; ein Beitrag zur vergleichenden Lexikologie erschien 1895 in Strassburg.\", \"Das Werk Die romanischen Verwandtschaftsnamen, mit besonderer Berücksichtigung der französischen und italienischen Mundarten; ein Beitrag zur vergleichenden Lexikologie war bahnbrechend für die romanistische onomasiologische Forschung.\", \"Das Werk Die romanischen Verwandtschaftsnamen, mit besonderer Berücksichtigung der französischen und italienischen Mundarten; ein Beitrag zur vergleichenden Lexikologie stand am Anfang einer großen Zahl von Untersuchungen über den Wortschatz der romanischen Sprachen.\"], \"source_fact_index\": 27, \"target_contexts\": [[\"Die romanischen Verwandtschaftsnamen erschien 1895.\", \"Die romanischen Verwandtschaftsnamen eröffnete der onomasiologischen Forschung in der Romanistik einen neuen Weg.\", \"Die romanischen Verwandtschaftsnamen steht am Anfang einer ganzen Reihe von Büchern über den Wortschatz der romanischen Sprachen.\"], [\"Ernst Tappolet promovierte über die romanischen Verwandtschaftsnamen.\", \"Die romanischen Verwandtschaftsnamen erschien 1895.\", \"Die romanischen Verwandtschaftsnamen eröffnete der onomasiologischen Forschung in der Romanistik einen neuen Weg.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 462,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [19, 25], \"context_size\": 3, \"direction\": \"de_to_als\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Das Werk Die romanischen Verwandtschaftsnamen, mit besonderer Berücksichtigung der französischen und italienischen Mundarten; ein Beitrag zur vergleichenden Lexikologie war bahnbrechend für die romanistische onomasiologische Forschung.\", \"Das Werk Die romanischen Verwandtschaftsnamen, mit besonderer Berücksichtigung der französischen und italienischen Mundarten; ein Beitrag zur vergleichenden Lexikologie stand am Anfang einer großen Zahl von Untersuchungen über den Wortschatz der romanischen Sprachen.\", \"Ernst Tappolets Habilitation erfolgte 1902 in Zürich.\"], \"source_fact_index\": 28, \"target_contexts\": [[\"Ernst Tappolet studierte in Paris.\", \"Ernst Tappolet studierte in Florenz.\", \"Ernst Tappolet promovierte in Zürich.\"], [\"Die romanischen Verwandtschaftsnamen eröffnete der onomasiologischen Forschung in der Romanistik einen neuen Weg.\", \"Die romanischen Verwandtschaftsnamen steht am Anfang einer ganzen Reihe von Büchern über den Wortschatz der romanischen Sprachen.\", \"Ernst Tappolet war danach Gymnasiallehrer in Zürich.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 409,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [27, 26], \"context_size\": 3, \"direction\": \"de_to_als\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Das Werk Die romanischen Verwandtschaftsnamen, mit besonderer Berücksichtigung der französischen und italienischen Mundarten; ein Beitrag zur vergleichenden Lexikologie stand am Anfang einer großen Zahl von Untersuchungen über den Wortschatz der romanischen Sprachen.\", \"Ernst Tappolets Habilitation erfolgte 1902 in Zürich.\", \"Ernst Tappolets Habilitation erfolgte mit der Schrift Über den Stand der Mundarten in der deutschen und französischen Schweiz.\"], \"source_fact_index\": 29, \"target_contexts\": [[\"Ernst Tappolet war danach Gymnasiallehrer in Zürich.\", \"Ernst Tappolet schrieb 1901 die Arbeit Über den Stand der Mundarten in der deutschen und französischen Schweiz.\", \"Ernst Tappolet habilitierte sich 1902 mit Über den Stand der Mundarten in der deutschen und französischen Schweiz.\"], [\"Die romanischen Verwandtschaftsnamen steht am Anfang einer ganzen Reihe von Büchern über den Wortschatz der romanischen Sprachen.\", \"Ernst Tappolet war danach Gymnasiallehrer in Zürich.\", \"Ernst Tappolet schrieb 1901 die Arbeit Über den Stand der Mundarten in der deutschen und französischen Schweiz.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 426,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [22, 27], \"context_size\": 3, \"direction\": \"de_to_als\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolets Habilitation erfolgte 1902 in Zürich.\", \"Ernst Tappolets Habilitation erfolgte mit der Schrift Über den Stand der Mundarten in der deutschen und französischen Schweiz.\", \"Über den Stand der Mundarten in der deutschen und französischen Schweiz erschien 1901 in Zürich.\"], \"source_fact_index\": 30, \"target_contexts\": [[\"Ernst Tappolet promovierte bei Heinrich Morf.\", \"Ernst Tappolet promovierte über die romanischen Verwandtschaftsnamen.\", \"Die romanischen Verwandtschaftsnamen erschien 1895.\"], [\"Ernst Tappolet war danach Gymnasiallehrer in Zürich.\", \"Ernst Tappolet schrieb 1901 die Arbeit Über den Stand der Mundarten in der deutschen und französischen Schweiz.\", \"Ernst Tappolet habilitierte sich 1902 mit Über den Stand der Mundarten in der deutschen und französischen Schweiz.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 370,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [4, 1], \"context_size\": 3, \"direction\": \"de_to_als\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolets Habilitation erfolgte mit der Schrift Über den Stand der Mundarten in der deutschen und französischen Schweiz.\", \"Über den Stand der Mundarten in der deutschen und französischen Schweiz erschien 1901 in Zürich.\", \"Ernst Tappolet war einige Jahre als Französischlehrer an der Zürcher Kantonsschule tätig.\"], \"source_fact_index\": 31, \"target_contexts\": [[\"Ernst Tappolet wurde am 21. Oktober 1870 in Hittnau geboren.\", \"Ernst Tappolet starb am 2. November 1939 in Basel.\", \"Ernst Tappolet war ein Schweizer Romanist.\"], [\"Ernst Tappolet hieß vollständig Ernst Emanuel Tappolet.\", \"Ernst Tappolet schrieb seinen Vornamen in französischen Texten Ernest.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 345,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [5, 3], \"context_size\": 3, \"direction\": \"de_to_als\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Über den Stand der Mundarten in der deutschen und französischen Schweiz erschien 1901 in Zürich.\", \"Ernst Tappolet war einige Jahre als Französischlehrer an der Zürcher Kantonsschule tätig.\", \"Ernst Tappolet wurde 1904 an die Universität Basel berufen.\"], \"source_fact_index\": 32, \"target_contexts\": [[\"Ernst Tappolet starb am 2. November 1939 in Basel.\", \"Ernst Tappolet war ein Schweizer Romanist.\", \"Ernst Tappolet war Professor an der Universität Basel.\"], [\"Ernst Tappolet schrieb seinen Vornamen in französischen Texten Ernest.\", \"Ernst Tappolet wurde am 21. Oktober 1870 in Hittnau geboren.\", \"Ernst Tappolet starb am 2. November 1939 in Basel.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 355,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [5, 4], \"context_size\": 3, \"direction\": \"de_to_als\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet war einige Jahre als Französischlehrer an der Zürcher Kantonsschule tätig.\", \"Ernst Tappolet wurde 1904 an die Universität Basel berufen.\", \"Ernst Tappolet wirkte an der Universität Basel als Professor für romanische Philologie.\"], \"source_fact_index\": 33, \"target_contexts\": [[\"Ernst Tappolet starb am 2. November 1939 in Basel.\", \"Ernst Tappolet war ein Schweizer Romanist.\", \"Ernst Tappolet war Professor an der Universität Basel.\"], [\"Ernst Tappolet wurde am 21. Oktober 1870 in Hittnau geboren.\", \"Ernst Tappolet starb am 2. November 1939 in Basel.\", \"Ernst Tappolet war ein Schweizer Romanist.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 348,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [4, 6], \"context_size\": 3, \"direction\": \"de_to_als\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet wurde 1904 an die Universität Basel berufen.\", \"Ernst Tappolet wirkte an der Universität Basel als Professor für romanische Philologie.\", \"Ernst Tappolet arbeitete ab 1924 als Redaktor am Glossaire des patois de la Suisse romande.\"], \"source_fact_index\": 34, \"target_contexts\": [[\"Ernst Tappolet wurde am 21. Oktober 1870 in Hittnau geboren.\", \"Ernst Tappolet starb am 2. November 1939 in Basel.\", \"Ernst Tappolet war ein Schweizer Romanist.\"], [\"Ernst Tappolet war ein Schweizer Romanist.\", \"Ernst Tappolet war Professor an der Universität Basel.\", \"Ernst Tappolet gründete 1899 das Glossaire des patois de la Suisse romande zusammen mit Louis Gauchat.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 361,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [7, 6], \"context_size\": 3, \"direction\": \"de_to_als\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet wirkte an der Universität Basel als Professor für romanische Philologie.\", \"Ernst Tappolet arbeitete ab 1924 als Redaktor am Glossaire des patois de la Suisse romande.\", \"Ernst Tappolet begründete 1899 das Glossaire des patois de la Suisse romande.\"], \"source_fact_index\": 35, \"target_contexts\": [[\"Ernst Tappolet war Professor an der Universität Basel.\", \"Ernst Tappolet gründete 1899 das Glossaire des patois de la Suisse romande zusammen mit Louis Gauchat.\", \"Ernst Tappolet gründete 1899 das Glossaire des patois de la Suisse romande zusammen mit Jules Jeanjaquet.\"], [\"Ernst Tappolet war ein Schweizer Romanist.\", \"Ernst Tappolet war Professor an der Universität Basel.\", \"Ernst Tappolet gründete 1899 das Glossaire des patois de la Suisse romande zusammen mit Louis Gauchat.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 387,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [6, 7], \"context_size\": 3, \"direction\": \"de_to_als\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet arbeitete ab 1924 als Redaktor am Glossaire des patois de la Suisse romande.\", \"Ernst Tappolet begründete 1899 das Glossaire des patois de la Suisse romande.\", \"Ernst Tappolet begründete das Glossaire des patois de la Suisse romande zusammen mit Louis Gauchat.\"], \"source_fact_index\": 36, \"target_contexts\": [[\"Ernst Tappolet war ein Schweizer Romanist.\", \"Ernst Tappolet war Professor an der Universität Basel.\", \"Ernst Tappolet gründete 1899 das Glossaire des patois de la Suisse romande zusammen mit Louis Gauchat.\"], [\"Ernst Tappolet war Professor an der Universität Basel.\", \"Ernst Tappolet gründete 1899 das Glossaire des patois de la Suisse romande zusammen mit Louis Gauchat.\", \"Ernst Tappolet gründete 1899 das Glossaire des patois de la Suisse romande zusammen mit Jules Jeanjaquet.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 393,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [7, 6], \"context_size\": 3, \"direction\": \"de_to_als\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet begründete 1899 das Glossaire des patois de la Suisse romande.\", \"Ernst Tappolet begründete das Glossaire des patois de la Suisse romande zusammen mit Louis Gauchat.\", \"Ernst Tappolet begründete das Glossaire des patois de la Suisse romande zusammen mit Jules Jeanjaquet.\"], \"source_fact_index\": 37, \"target_contexts\": [[\"Ernst Tappolet war Professor an der Universität Basel.\", \"Ernst Tappolet gründete 1899 das Glossaire des patois de la Suisse romande zusammen mit Louis Gauchat.\", \"Ernst Tappolet gründete 1899 das Glossaire des patois de la Suisse romande zusammen mit Jules Jeanjaquet.\"], [\"Ernst Tappolet war ein Schweizer Romanist.\", \"Ernst Tappolet war Professor an der Universität Basel.\", \"Ernst Tappolet gründete 1899 das Glossaire des patois de la Suisse romande zusammen mit Louis Gauchat.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 392,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [2, 3], \"context_size\": 3, \"direction\": \"de_to_als\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet begründete das Glossaire des patois de la Suisse romande zusammen mit Louis Gauchat.\", \"Ernst Tappolet begründete das Glossaire des patois de la Suisse romande zusammen mit Jules Jeanjaquet.\", \"Ernst Tappolet wurde 1935 zu seinem 65. Geburtstag mit einer Festschrift geehrt.\"], \"source_fact_index\": 38, \"target_contexts\": [[\"Ernst Tappolet hieß vollständig Ernst Emanuel Tappolet.\", \"Ernst Tappolet schrieb seinen Vornamen in französischen Texten Ernest.\", \"Ernst Tappolet wurde am 21. Oktober 1870 in Hittnau geboren.\"], [\"Ernst Tappolet schrieb seinen Vornamen in französischen Texten Ernest.\", \"Ernst Tappolet wurde am 21. Oktober 1870 in Hittnau geboren.\", \"Ernst Tappolet starb am 2. November 1939 in Basel.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 378,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [38, 39], \"context_size\": 3, \"direction\": \"de_to_als\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet begründete das Glossaire des patois de la Suisse romande zusammen mit Jules Jeanjaquet.\", \"Ernst Tappolet wurde 1935 zu seinem 65. Geburtstag mit einer Festschrift geehrt.\", \"Ernst Tappolet war ab 1897 mit Johanna Elisabeth Schlub verheiratet.\"], \"source_fact_index\": 39, \"target_contexts\": [[\"Ernst Tappolets Auseinandersetzung mit grundsätzlichen Fragen zur Natur der Sprachen führte zur Publikation Die Ursachen des Wortreichtums bei den Haustiernamen der französischen Schweiz.\", \"Die Ursachen des Wortreichtums bei den Haustiernamen der französischen Schweiz erschien 1913.\", \"Ernst Tappolet heiratete 1897 Johanna Elisabeth Schlub.\"], [\"Die Ursachen des Wortreichtums bei den Haustiernamen der französischen Schweiz erschien 1913.\", \"Ernst Tappolet heiratete 1897 Johanna Elisabeth Schlub.\", \"Johanna Elisabeth Schlub hatte die Lebensdaten 1866–1941.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 412,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [39, 38], \"context_size\": 3, \"direction\": \"de_to_als\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet wurde 1935 zu seinem 65. Geburtstag mit einer Festschrift geehrt.\", \"Ernst Tappolet war ab 1897 mit Johanna Elisabeth Schlub verheiratet.\", \"Johanna Elisabeth Schlub hatte die Lebensdaten 1866–1941.\"], \"source_fact_index\": 40, \"target_contexts\": [[\"Die Ursachen des Wortreichtums bei den Haustiernamen der französischen Schweiz erschien 1913.\", \"Ernst Tappolet heiratete 1897 Johanna Elisabeth Schlub.\", \"Johanna Elisabeth Schlub hatte die Lebensdaten 1866–1941.\"], [\"Ernst Tappolets Auseinandersetzung mit grundsätzlichen Fragen zur Natur der Sprachen führte zur Publikation Die Ursachen des Wortreichtums bei den Haustiernamen der französischen Schweiz.\", \"Die Ursachen des Wortreichtums bei den Haustiernamen der französischen Schweiz erschien 1913.\", \"Ernst Tappolet heiratete 1897 Johanna Elisabeth Schlub.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 406,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [29, 31], \"context_size\": 3, \"direction\": \"de_to_als\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet war ab 1897 mit Johanna Elisabeth Schlub verheiratet.\", \"Johanna Elisabeth Schlub hatte die Lebensdaten 1866–1941.\", \"Die Onomasiologie der romanischen Sprachen stand im Zentrum von Ernst Tappolets Lehre.\"], \"source_fact_index\": 41, \"target_contexts\": [[\"Ernst Tappolet habilitierte sich 1902 mit Über den Stand der Mundarten in der deutschen und französischen Schweiz.\", \"Ernst Tappolet wurde 1904 als Professor an die Universität Basel berufen.\", \"Die romanistische Onomasiologie stand im Zentrum von Ernst Tappolets Lehre.\"], [\"Die romanistische Onomasiologie stand im Zentrum von Ernst Tappolets Lehre.\", \"Onomasiologie bedeutet Wortfeldforschung.\", \"Die romanistische Dialektologie stand im Zentrum von Ernst Tappolets Lehre.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 369,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [30, 29], \"context_size\": 3, \"direction\": \"de_to_als\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Johanna Elisabeth Schlub hatte die Lebensdaten 1866–1941.\", \"Die Onomasiologie der romanischen Sprachen stand im Zentrum von Ernst Tappolets Lehre.\", \"Onomasiologie bedeutet Wortfeldforschung.\"], \"source_fact_index\": 42, \"target_contexts\": [[\"Ernst Tappolet wurde 1904 als Professor an die Universität Basel berufen.\", \"Die romanistische Onomasiologie stand im Zentrum von Ernst Tappolets Lehre.\", \"Onomasiologie bedeutet Wortfeldforschung.\"], [\"Ernst Tappolet habilitierte sich 1902 mit Über den Stand der Mundarten in der deutschen und französischen Schweiz.\", \"Ernst Tappolet wurde 1904 als Professor an die Universität Basel berufen.\", \"Die romanistische Onomasiologie stand im Zentrum von Ernst Tappolets Lehre.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 359,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [31, 29], \"context_size\": 3, \"direction\": \"de_to_als\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Onomasiologie der romanischen Sprachen stand im Zentrum von Ernst Tappolets Lehre.\", \"Onomasiologie bedeutet Wortfeldforschung.\", \"Die romanistische Dialektologie stand im Zentrum von Ernst Tappolets Lehre.\"], \"source_fact_index\": 43, \"target_contexts\": [[\"Die romanistische Onomasiologie stand im Zentrum von Ernst Tappolets Lehre.\", \"Onomasiologie bedeutet Wortfeldforschung.\", \"Die romanistische Dialektologie stand im Zentrum von Ernst Tappolets Lehre.\"], [\"Ernst Tappolet habilitierte sich 1902 mit Über den Stand der Mundarten in der deutschen und französischen Schweiz.\", \"Ernst Tappolet wurde 1904 als Professor an die Universität Basel berufen.\", \"Die romanistische Onomasiologie stand im Zentrum von Ernst Tappolets Lehre.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 355,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [32, 34], \"context_size\": 3, \"direction\": \"de_to_als\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Onomasiologie bedeutet Wortfeldforschung.\", \"Die romanistische Dialektologie stand im Zentrum von Ernst Tappolets Lehre.\", \"Ernst Tappolet vermittelte seinen Schülern ein Wissen, das sie direkt im neusprachlichen Unterricht anwenden konnten.\"], \"source_fact_index\": 44, \"target_contexts\": [[\"Onomasiologie bedeutet Wortfeldforschung.\", \"Die romanistische Dialektologie stand im Zentrum von Ernst Tappolets Lehre.\", \"Ernst Tappolet vermittelte seinen Schülern Wissen, das sie direkt im neusprachlichen Unterricht verwenden konnten.\"], [\"Ernst Tappolet vermittelte seinen Schülern Wissen, das sie direkt im neusprachlichen Unterricht verwenden konnten.\", \"Ernst Tappolet setzte sich mit grundsätzlichen Fragen zur Natur der Sprachen auseinander.\", \"Ernst Tappolets Auseinandersetzung mit grundsätzlichen Fragen zur Natur der Sprachen führte zur Publikation Die Sprache des Kindes.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 378,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [33, 34], \"context_size\": 3, \"direction\": \"de_to_als\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die romanistische Dialektologie stand im Zentrum von Ernst Tappolets Lehre.\", \"Ernst Tappolet vermittelte seinen Schülern ein Wissen, das sie direkt im neusprachlichen Unterricht anwenden konnten.\", \"Ernst Tappolet setzte sich mit grundsätzlichen Fragen zur Natur der Sprachen auseinander.\"], \"source_fact_index\": 45, \"target_contexts\": [[\"Die romanistische Dialektologie stand im Zentrum von Ernst Tappolets Lehre.\", \"Ernst Tappolet vermittelte seinen Schülern Wissen, das sie direkt im neusprachlichen Unterricht verwenden konnten.\", \"Ernst Tappolet setzte sich mit grundsätzlichen Fragen zur Natur der Sprachen auseinander.\"], [\"Ernst Tappolet vermittelte seinen Schülern Wissen, das sie direkt im neusprachlichen Unterricht verwenden konnten.\", \"Ernst Tappolet setzte sich mit grundsätzlichen Fragen zur Natur der Sprachen auseinander.\", \"Ernst Tappolets Auseinandersetzung mit grundsätzlichen Fragen zur Natur der Sprachen führte zur Publikation Die Sprache des Kindes.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 396,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [34, 36], \"context_size\": 3, \"direction\": \"de_to_als\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet vermittelte seinen Schülern ein Wissen, das sie direkt im neusprachlichen Unterricht anwenden konnten.\", \"Ernst Tappolet setzte sich mit grundsätzlichen Fragen zur Natur der Sprachen auseinander.\", \"Ernst Tappolets Auseinandersetzung mit grundsätzlichen Fragen zur Natur der Sprachen führte zur Publikation Die Sprache des Kindes.\"], \"source_fact_index\": 46, \"target_contexts\": [[\"Ernst Tappolet vermittelte seinen Schülern Wissen, das sie direkt im neusprachlichen Unterricht verwenden konnten.\", \"Ernst Tappolet setzte sich mit grundsätzlichen Fragen zur Natur der Sprachen auseinander.\", \"Ernst Tappolets Auseinandersetzung mit grundsätzlichen Fragen zur Natur der Sprachen führte zur Publikation Die Sprache des Kindes.\"], [\"Ernst Tappolets Auseinandersetzung mit grundsätzlichen Fragen zur Natur der Sprachen führte zur Publikation Die Sprache des Kindes.\", \"Die Sprache des Kindes erschien 1907.\", \"Ernst Tappolets Auseinandersetzung mit grundsätzlichen Fragen zur Natur der Sprachen führte zur Publikation Die Ursachen des Wortreichtums bei den Haustiernamen der französischen Schweiz.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 429,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [35, 37], \"context_size\": 3, \"direction\": \"de_to_als\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet setzte sich mit grundsätzlichen Fragen zur Natur der Sprachen auseinander.\", \"Ernst Tappolets Auseinandersetzung mit grundsätzlichen Fragen zur Natur der Sprachen führte zur Publikation Die Sprache des Kindes.\", \"Die Sprache des Kindes erschien 1907.\"], \"source_fact_index\": 47, \"target_contexts\": [[\"Ernst Tappolet setzte sich mit grundsätzlichen Fragen zur Natur der Sprachen auseinander.\", \"Ernst Tappolets Auseinandersetzung mit grundsätzlichen Fragen zur Natur der Sprachen führte zur Publikation Die Sprache des Kindes.\", \"Die Sprache des Kindes erschien 1907.\"], [\"Die Sprache des Kindes erschien 1907.\", \"Ernst Tappolets Auseinandersetzung mit grundsätzlichen Fragen zur Natur der Sprachen führte zur Publikation Die Ursachen des Wortreichtums bei den Haustiernamen der französischen Schweiz.\", \"Die Ursachen des Wortreichtums bei den Haustiernamen der französischen Schweiz erschien 1913.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 393,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [37, 35], \"context_size\": 3, \"direction\": \"de_to_als\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolets Auseinandersetzung mit grundsätzlichen Fragen zur Natur der Sprachen führte zur Publikation Die Sprache des Kindes.\", \"Die Sprache des Kindes erschien 1907.\", \"Die Ursachen des Wortreichtums bei den Haustiernamen der französischen Schweiz erschien 1913.\"], \"source_fact_index\": 48, \"target_contexts\": [[\"Die Sprache des Kindes erschien 1907.\", \"Ernst Tappolets Auseinandersetzung mit grundsätzlichen Fragen zur Natur der Sprachen führte zur Publikation Die Ursachen des Wortreichtums bei den Haustiernamen der französischen Schweiz.\", \"Die Ursachen des Wortreichtums bei den Haustiernamen der französischen Schweiz erschien 1913.\"], [\"Ernst Tappolet setzte sich mit grundsätzlichen Fragen zur Natur der Sprachen auseinander.\", \"Ernst Tappolets Auseinandersetzung mit grundsätzlichen Fragen zur Natur der Sprachen führte zur Publikation Die Sprache des Kindes.\", \"Die Sprache des Kindes erschien 1907.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 398,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [45, 47], \"context_size\": 3, \"direction\": \"de_to_als\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Sprache des Kindes erschien 1907.\", \"Die Ursachen des Wortreichtums bei den Haustiernamen der französischen Schweiz erschien 1913.\", \"Ernst Tappolet verfasste für das Glossaire des patois de la Suisse romande unter anderem den Artikel ados.\"], \"source_fact_index\": 49, \"target_contexts\": [[\"Ernst Tappolet war zusammen mit Louis Gauchat einer der Gründungsväter des Glossaire des patois de la Suisse romande.\", \"Ernst Tappolet war zusammen mit Jules Jeanjaquet einer der Gründungsväter des Glossaire des patois de la Suisse romande.\", \"Ernst Tappolet schrieb neben seiner Tätigkeit als Professor Artikel für das Glossaire des patois de la Suisse romande.\"], [\"Ernst Tappolet schrieb neben seiner Tätigkeit als Professor Artikel für das Glossaire des patois de la Suisse romande.\", \"Louis Gauchat schrieb neben seiner Tätigkeit als Professor Artikel für das Glossaire des patois de la Suisse romande.\", \"Jules Jeanjaquet schrieb neben seiner Tätigkeit als Professor Artikel für das Glossaire des patois de la Suisse romande.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 411,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [0, 1], \"context_size\": 3, \"direction\": \"als_to_de\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet hieß vollständig Ernst Emanuel Tappolet.\"], \"source_fact_index\": 0, \"target_contexts\": [[\"Ernst Tappolet hieß vollständig Ernst Emanuel Tappolet.\"], [\"Ernst Tappolet hieß vollständig Ernst Emanuel Tappolet.\", \"Ernst Tappolet wurde in französischsprachigen Publikationen Ernest Tappolet genannt.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 249,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [1, 0], \"context_size\": 3, \"direction\": \"als_to_de\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet hieß vollständig Ernst Emanuel Tappolet.\", \"Ernst Tappolet schrieb seinen Vornamen in französischen Texten Ernest.\"], \"source_fact_index\": 1, \"target_contexts\": [[\"Ernst Tappolet hieß vollständig Ernst Emanuel Tappolet.\", \"Ernst Tappolet wurde in französischsprachigen Publikationen Ernest Tappolet genannt.\"], [\"Ernst Tappolet hieß vollständig Ernst Emanuel Tappolet.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 266,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [2, 3], \"context_size\": 3, \"direction\": \"als_to_de\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet hieß vollständig Ernst Emanuel Tappolet.\", \"Ernst Tappolet schrieb seinen Vornamen in französischen Texten Ernest.\", \"Ernst Tappolet wurde am 21. Oktober 1870 in Hittnau geboren.\"], \"source_fact_index\": 2, \"target_contexts\": [[\"Ernst Tappolet hieß vollständig Ernst Emanuel Tappolet.\", \"Ernst Tappolet wurde in französischsprachigen Publikationen Ernest Tappolet genannt.\", \"Ernst Tappolet wurde am 21. Oktober 1870 in Hittnau geboren.\"], [\"Ernst Tappolet wurde in französischsprachigen Publikationen Ernest Tappolet genannt.\", \"Ernst Tappolet wurde am 21. Oktober 1870 in Hittnau geboren.\", \"Ernst Tappolet starb am 2. November 1939 in Basel.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 360,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [3, 2], \"context_size\": 3, \"direction\": \"als_to_de\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet schrieb seinen Vornamen in französischen Texten Ernest.\", \"Ernst Tappolet wurde am 21. Oktober 1870 in Hittnau geboren.\", \"Ernst Tappolet starb am 2. November 1939 in Basel.\"], \"source_fact_index\": 3, \"target_contexts\": [[\"Ernst Tappolet wurde in französischsprachigen Publikationen Ernest Tappolet genannt.\", \"Ernst Tappolet wurde am 21. Oktober 1870 in Hittnau geboren.\", \"Ernst Tappolet starb am 2. November 1939 in Basel.\"], [\"Ernst Tappolet hieß vollständig Ernst Emanuel Tappolet.\", \"Ernst Tappolet wurde in französischsprachigen Publikationen Ernest Tappolet genannt.\", \"Ernst Tappolet wurde am 21. Oktober 1870 in Hittnau geboren.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 365,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [4, 1], \"context_size\": 3, \"direction\": \"als_to_de\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet wurde am 21. Oktober 1870 in Hittnau geboren.\", \"Ernst Tappolet starb am 2. November 1939 in Basel.\", \"Ernst Tappolet war ein Schweizer Romanist.\"], \"source_fact_index\": 4, \"target_contexts\": [[\"Ernst Tappolet wurde am 21. Oktober 1870 in Hittnau geboren.\", \"Ernst Tappolet starb am 2. November 1939 in Basel.\", \"Ernst Tappolet war ein Schweizer Romanist.\"], [\"Ernst Tappolet hieß vollständig Ernst Emanuel Tappolet.\", \"Ernst Tappolet wurde in französischsprachigen Publikationen Ernest Tappolet genannt.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 329,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [33, 32], \"context_size\": 3, \"direction\": \"als_to_de\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet starb am 2. November 1939 in Basel.\", \"Ernst Tappolet war ein Schweizer Romanist.\", \"Ernst Tappolet war Professor an der Universität Basel.\"], \"source_fact_index\": 5, \"target_contexts\": [[\"Ernst Tappolet war einige Jahre als Französischlehrer an der Zürcher Kantonsschule tätig.\", \"Ernst Tappolet wurde 1904 an die Universität Basel berufen.\", \"Ernst Tappolet wirkte an der Universität Basel als Professor für romanische Philologie.\"], [\"Über den Stand der Mundarten in der deutschen und französischen Schweiz erschien 1901 in Zürich.\", \"Ernst Tappolet war einige Jahre als Französischlehrer an der Zürcher Kantonsschule tätig.\", \"Ernst Tappolet wurde 1904 an die Universität Basel berufen.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 359,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [5, 6], \"context_size\": 3, \"direction\": \"als_to_de\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet war ein Schweizer Romanist.\", \"Ernst Tappolet war Professor an der Universität Basel.\", \"Ernst Tappolet gründete 1899 das Glossaire des patois de la Suisse romande zusammen mit Louis Gauchat.\"], \"source_fact_index\": 6, \"target_contexts\": [[\"Ernst Tappolet starb am 2. November 1939 in Basel.\", \"Ernst Tappolet war ein Schweizer Romanist.\", \"Ernst Tappolet gründete 1899 das Glossaire des patois de la Suisse romande zusammen mit Louis Gauchat.\"], [\"Ernst Tappolet war ein Schweizer Romanist.\", \"Ernst Tappolet gründete 1899 das Glossaire des patois de la Suisse romande zusammen mit Louis Gauchat.\", \"Ernst Tappolet gründete 1899 das Glossaire des patois de la Suisse romande zusammen mit Jules Jeanjaquet.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 374,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [6, 5], \"context_size\": 3, \"direction\": \"als_to_de\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet war Professor an der Universität Basel.\", \"Ernst Tappolet gründete 1899 das Glossaire des patois de la Suisse romande zusammen mit Louis Gauchat.\", \"Ernst Tappolet gründete 1899 das Glossaire des patois de la Suisse romande zusammen mit Jules Jeanjaquet.\"], \"source_fact_index\": 7, \"target_contexts\": [[\"Ernst Tappolet war ein Schweizer Romanist.\", \"Ernst Tappolet gründete 1899 das Glossaire des patois de la Suisse romande zusammen mit Louis Gauchat.\", \"Ernst Tappolet gründete 1899 das Glossaire des patois de la Suisse romande zusammen mit Jules Jeanjaquet.\"], [\"Ernst Tappolet starb am 2. November 1939 in Basel.\", \"Ernst Tappolet war ein Schweizer Romanist.\", \"Ernst Tappolet gründete 1899 das Glossaire des patois de la Suisse romande zusammen mit Louis Gauchat.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 393,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [95, 94], \"context_size\": 3, \"direction\": \"als_to_de\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet gründete 1899 das Glossaire des patois de la Suisse romande zusammen mit Louis Gauchat.\", \"Ernst Tappolet gründete 1899 das Glossaire des patois de la Suisse romande zusammen mit Jules Jeanjaquet.\", \"Ernst Tappolet war auch für das Schweizerdeutsche wichtig.\"], \"source_fact_index\": 8, \"target_contexts\": [[\"Ernst Tappolet vertrat die Meinung, dass Zürich die erste Stadt wäre, die den Dialekt als Umgangssprache zugunsten der Hochsprache aufgeben würde.\", \"Otto von Greyerz war überzeugt, dass eine schweizerdeutsch-hochdeutsche Zweisprachigkeit möglich sei.\", \"Otto von Greyerz war überzeugt, dass eine schweizerdeutsch-hochdeutsche Zweisprachigkeit nötig sei, um die Mundart zu erhalten.\"], [\"Ernst Tappolet vertrat in Über den Stand der Mundarten in der deutschen und französischen Schweiz von 1901 die Meinung, dass die deutschsprachige Schweiz innerhalb von fünfzig Jahren den Dialekt als Umgangssprache zugunsten der Hochsprache aufgeben würde.\", \"Ernst Tappolet vertrat die Meinung, dass Zürich die erste Stadt wäre, die den Dialekt als Umgangssprache zugunsten der Hochsprache aufgeben würde.\", \"Otto von Greyerz war überzeugt, dass eine schweizerdeutsch-hochdeutsche Zweisprachigkeit möglich sei.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 471,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [104, 92], \"context_size\": 3, \"direction\": \"als_to_de\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet gründete 1899 das Glossaire des patois de la Suisse romande zusammen mit Jules Jeanjaquet.\", \"Ernst Tappolet war auch für das Schweizerdeutsche wichtig.\", \"Ernst Tappolet schrieb ein Buch über die alemannischen Lehnwörter in den welschen Dialekten.\"], \"source_fact_index\": 9, \"target_contexts\": [[\"Ein Rezensent in der Allgemeinen Schweizer Zeitung meinte, die Publikation mache deutlich, dass die Schweizer mehr für ihre eigene Sprache eintreten sollten.\", \"Ein Rezensent in der Allgemeinen Schweizer Zeitung meinte, die Publikation mache deutlich, dass die Schweizer ihre Mundarten pflegen sollten.\", \"Ernst Tappolet sagte, ein Zürcher käme in der Eisenbahn geradezu in Verlegenheit, in welcher Sprache er einen Fremden ansprechen sollte.\"], [\"Ernst Tappolets überraschender Tod im Jahr vor der geplanten Emeritierung setzte seinem Ansinnen ein jähes Ende.\", \"Ernst Tappolet vertrat in Über den Stand der Mundarten in der deutschen und französischen Schweiz von 1901 die Meinung, dass die deutschsprachige Schweiz der Entwicklung in der Suisse romande und in Deutschland folgen würde.\", \"Ernst Tappolet vertrat in Über den Stand der Mundarten in der deutschen und französischen Schweiz von 1901 die Meinung, dass die deutschsprachige Schweiz innerhalb von fünfzig Jahren den Dialekt als Umgangssprache zugunsten der Hochsprache aufgeben würde.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 488,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [109, 106], \"context_size\": 3, \"direction\": \"als_to_de\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet war auch für das Schweizerdeutsche wichtig.\", \"Ernst Tappolet schrieb ein Buch über die alemannischen Lehnwörter in den welschen Dialekten.\", \"Die Aussage, dass das Schweizerdeutsche um 1900 herum davor gestanden habe, dem Hochdeutschen zu weichen, geht auf Ernst Tappolet zurück.\"], \"source_fact_index\": 10, \"target_contexts\": [[\"Die Ansicht, Zürich habe um 1900 vor einem Sprachwechsel gestanden, wird bis heute gelegentlich wiedergegeben.\", \"Der Autor dieser Ansicht, dass die Deutschschweiz beziehungsweise Zürich um 1900 vor einem Sprachwechsel gestanden habe, ist zumeist nicht bekannt.\", \"Der Widerspruch gegen die Ansicht, dass die Deutschschweiz beziehungsweise Zürich um 1900 vor einem Sprachwechsel gestanden habe, ist zumeist nicht bekannt.\"], [\"Ernst Tappolet sagte, ein Zürcher käme in der Eisenbahn geradezu in Verlegenheit, in welcher Sprache er einen Fremden ansprechen sollte.\", \"Der Nebelspalter hatte für Ernst Tappolets Aussage über einen Zürcher in der Eisenbahn nur Spott übrig.\", \"Die Ansicht, dass die Deutschschweiz um 1900 vor einem Sprachwechsel gestanden habe, wird bis heute dann und wann wiedergegeben.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 464,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [106, 107], \"context_size\": 3, \"direction\": \"als_to_de\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet schrieb ein Buch über die alemannischen Lehnwörter in den welschen Dialekten.\", \"Die Aussage, dass das Schweizerdeutsche um 1900 herum davor gestanden habe, dem Hochdeutschen zu weichen, geht auf Ernst Tappolet zurück.\", \"Die Aussage, dass das Schweizerdeutsche um 1900 herum davor gestanden habe, dem Hochdeutschen zu weichen, wird heute noch gern zitiert.\"], \"source_fact_index\": 11, \"target_contexts\": [[\"Ernst Tappolet sagte, ein Zürcher käme in der Eisenbahn geradezu in Verlegenheit, in welcher Sprache er einen Fremden ansprechen sollte.\", \"Der Nebelspalter hatte für Ernst Tappolets Aussage über einen Zürcher in der Eisenbahn nur Spott übrig.\", \"Die Ansicht, dass die Deutschschweiz um 1900 vor einem Sprachwechsel gestanden habe, wird bis heute dann und wann wiedergegeben.\"], [\"Der Nebelspalter hatte für Ernst Tappolets Aussage über einen Zürcher in der Eisenbahn nur Spott übrig.\", \"Die Ansicht, dass die Deutschschweiz um 1900 vor einem Sprachwechsel gestanden habe, wird bis heute dann und wann wiedergegeben.\", \"Die Ansicht, Zürich habe um 1900 vor einem Sprachwechsel gestanden, wird bis heute gelegentlich wiedergegeben.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 470,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [97, 108], \"context_size\": 3, \"direction\": \"als_to_de\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Aussage, dass das Schweizerdeutsche um 1900 herum davor gestanden habe, dem Hochdeutschen zu weichen, geht auf Ernst Tappolet zurück.\", \"Die Aussage, dass das Schweizerdeutsche um 1900 herum davor gestanden habe, dem Hochdeutschen zu weichen, wird heute noch gern zitiert.\", \"Kaum jemand weiß heute noch, dass Ernst Tappolet die Idee in die Welt gesetzt hat.\"], \"source_fact_index\": 12, \"target_contexts\": [[\"Otto von Greyerz war überzeugt, dass eine schweizerdeutsch-hochdeutsche Zweisprachigkeit nötig sei, um die Mundart zu erhalten.\", \"Schweizerdeutsch-hochdeutsche Zweisprachigkeit wird als Diglossie bezeichnet.\", \"Ernst Tappolet teilte Otto von Greyerz’ Überzeugung ausdrücklich nicht.\"], [\"Die Ansicht, dass die Deutschschweiz um 1900 vor einem Sprachwechsel gestanden habe, wird bis heute dann und wann wiedergegeben.\", \"Die Ansicht, Zürich habe um 1900 vor einem Sprachwechsel gestanden, wird bis heute gelegentlich wiedergegeben.\", \"Der Autor dieser Ansicht, dass die Deutschschweiz beziehungsweise Zürich um 1900 vor einem Sprachwechsel gestanden habe, ist zumeist nicht bekannt.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 447,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [9, 10], \"context_size\": 3, \"direction\": \"als_to_de\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Aussage, dass das Schweizerdeutsche um 1900 herum davor gestanden habe, dem Hochdeutschen zu weichen, wird heute noch gern zitiert.\", \"Kaum jemand weiß heute noch, dass Ernst Tappolet die Idee in die Welt gesetzt hat.\", \"Ernst Tappolet stammte aus einer Familie, die um 1800 von Essertines-sur-Yverdon im Kanton Waadt nach Küsnacht ausgewandert war.\"], \"source_fact_index\": 13, \"target_contexts\": [[\"Ernst Tappolet vertrat 1901 die Meinung, dass Zürich die erste Schweizer Stadt sei, in der das Standarddeutsche den Dialekt als Umgangssprache verdränge.\", \"Die Meinung von Ernst Tappolet aus dem Jahr 1901 wird noch heute gelegentlich zitiert.\", \"Ernst Tappolet stammte aus einer Familie, die um 1800 von Essertines-sur-Yverdon im Kanton Waadt nach Küsnacht ausgewandert war.\"], [\"Die Meinung von Ernst Tappolet aus dem Jahr 1901 wird noch heute gelegentlich zitiert.\", \"Ernst Tappolet stammte aus einer Familie, die um 1800 von Essertines-sur-Yverdon im Kanton Waadt nach Küsnacht ausgewandert war.\", \"Ernst Tappolets Familie erwarb 1826 das Stadtzürcher Bürgerrecht.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 482,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [10, 9], \"context_size\": 3, \"direction\": \"als_to_de\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Kaum jemand weiß heute noch, dass Ernst Tappolet die Idee in die Welt gesetzt hat.\", \"Ernst Tappolet stammte aus einer Familie, die um 1800 von Essertines-sur-Yverdon im Kanton Waadt nach Küsnacht ausgewandert war.\", \"Ernst Tappolets Familie erwarb 1826 das Stadtzürcher Bürgerrecht.\"], \"source_fact_index\": 14, \"target_contexts\": [[\"Die Meinung von Ernst Tappolet aus dem Jahr 1901 wird noch heute gelegentlich zitiert.\", \"Ernst Tappolet stammte aus einer Familie, die um 1800 von Essertines-sur-Yverdon im Kanton Waadt nach Küsnacht ausgewandert war.\", \"Ernst Tappolets Familie erwarb 1826 das Stadtzürcher Bürgerrecht.\"], [\"Ernst Tappolet vertrat 1901 die Meinung, dass Zürich die erste Schweizer Stadt sei, in der das Standarddeutsche den Dialekt als Umgangssprache verdränge.\", \"Die Meinung von Ernst Tappolet aus dem Jahr 1901 wird noch heute gelegentlich zitiert.\", \"Ernst Tappolet stammte aus einer Familie, die um 1800 von Essertines-sur-Yverdon im Kanton Waadt nach Küsnacht ausgewandert war.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 470,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [18, 19], \"context_size\": 3, \"direction\": \"als_to_de\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolets Familie erwarb 1826 das Stadtzürcher Bürgerrecht.\", \"Ernst Tappolets Vater war Pfarrer im Zürcher Oberland.\", \"Ernst Tappolet studierte in Marburg.\"], \"source_fact_index\": 16, \"target_contexts\": [[\"Bertha Tappolet gehörte zu Ernst Tappolets Halbgeschwistern.\", \"Bertha Tappolet war Künstlerin.\", \"Ernst Tappolet studierte in Marburg.\"], [\"Bertha Tappolet war Künstlerin.\", \"Ernst Tappolet studierte in Marburg.\", \"Ernst Tappolet studierte in Paris.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 307,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [19, 20], \"context_size\": 3, \"direction\": \"als_to_de\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolets Vater war Pfarrer im Zürcher Oberland.\", \"Ernst Tappolet studierte in Marburg.\", \"Ernst Tappolet studierte in Paris.\"], \"source_fact_index\": 17, \"target_contexts\": [[\"Bertha Tappolet war Künstlerin.\", \"Ernst Tappolet studierte in Marburg.\", \"Ernst Tappolet studierte in Paris.\"], [\"Ernst Tappolet studierte in Marburg.\", \"Ernst Tappolet studierte in Paris.\", \"Ernst Tappolet studierte in Florenz.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 286,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [20, 19], \"context_size\": 3, \"direction\": \"als_to_de\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet studierte in Marburg.\", \"Ernst Tappolet studierte in Paris.\", \"Ernst Tappolet studierte in Florenz.\"], \"source_fact_index\": 18, \"target_contexts\": [[\"Ernst Tappolet studierte in Marburg.\", \"Ernst Tappolet studierte in Paris.\", \"Ernst Tappolet studierte in Florenz.\"], [\"Bertha Tappolet war Künstlerin.\", \"Ernst Tappolet studierte in Marburg.\", \"Ernst Tappolet studierte in Paris.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 279,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [22, 21], \"context_size\": 3, \"direction\": \"als_to_de\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet studierte in Paris.\", \"Ernst Tappolet studierte in Florenz.\", \"Ernst Tappolet promovierte in Zürich.\"], \"source_fact_index\": 19, \"target_contexts\": [[\"Ernst Tappolet studierte in Florenz.\", \"Ernst Tappolet studierte in Zürich.\", \"Ernst Tappolet promovierte an der Universität Zürich.\"], [\"Ernst Tappolet studierte in Paris.\", \"Ernst Tappolet studierte in Florenz.\", \"Ernst Tappolet studierte in Zürich.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 281,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [23, 18], \"context_size\": 3, \"direction\": \"als_to_de\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet studierte in Florenz.\", \"Ernst Tappolet promovierte in Zürich.\", \"Ernst Tappolet promovierte bei Heinrich Morf.\"], \"source_fact_index\": 20, \"target_contexts\": [[\"Ernst Tappolet studierte in Zürich.\", \"Ernst Tappolet promovierte an der Universität Zürich.\", \"Ernst Tappolet promovierte bei Heinrich Morf.\"], [\"Bertha Tappolet gehörte zu Ernst Tappolets Halbgeschwistern.\", \"Bertha Tappolet war Künstlerin.\", \"Ernst Tappolet studierte in Marburg.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 294,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [23, 24], \"context_size\": 3, \"direction\": \"als_to_de\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet promovierte in Zürich.\", \"Ernst Tappolet promovierte bei Heinrich Morf.\", \"Ernst Tappolet promovierte über die romanischen Verwandtschaftsnamen.\"], \"source_fact_index\": 21, \"target_contexts\": [[\"Ernst Tappolet studierte in Zürich.\", \"Ernst Tappolet promovierte an der Universität Zürich.\", \"Ernst Tappolet promovierte bei Heinrich Morf.\"], [\"Ernst Tappolet promovierte an der Universität Zürich.\", \"Ernst Tappolet promovierte bei Heinrich Morf.\", \"Das Thema von Ernst Tappolets Promotion war Die romanischen Verwandtschaftsnamen, mit besonderer Berücksichtigung der französischen und italienischen Mundarten; ein Beitrag zur vergleichenden Lexikologie.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 333,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [25, 26], \"context_size\": 3, \"direction\": \"als_to_de\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet promovierte bei Heinrich Morf.\", \"Ernst Tappolet promovierte über die romanischen Verwandtschaftsnamen.\", \"Die romanischen Verwandtschaftsnamen erschien 1895.\"], \"source_fact_index\": 22, \"target_contexts\": [[\"Ernst Tappolet promovierte bei Heinrich Morf.\", \"Das Thema von Ernst Tappolets Promotion war Die romanischen Verwandtschaftsnamen, mit besonderer Berücksichtigung der französischen und italienischen Mundarten; ein Beitrag zur vergleichenden Lexikologie.\", \"Die romanischen Verwandtschaftsnamen, mit besonderer Berücksichtigung der französischen und italienischen Mundarten; ein Beitrag zur vergleichenden Lexikologie erschien 1895 in Strassburg.\"], [\"Das Thema von Ernst Tappolets Promotion war Die romanischen Verwandtschaftsnamen, mit besonderer Berücksichtigung der französischen und italienischen Mundarten; ein Beitrag zur vergleichenden Lexikologie.\", \"Die romanischen Verwandtschaftsnamen, mit besonderer Berücksichtigung der französischen und italienischen Mundarten; ein Beitrag zur vergleichenden Lexikologie erschien 1895 in Strassburg.\", \"Das Werk Die romanischen Verwandtschaftsnamen, mit besonderer Berücksichtigung der französischen und italienischen Mundarten; ein Beitrag zur vergleichenden Lexikologie war bahnbrechend für die romanistische onomasiologische Forschung.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 475,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [26, 27], \"context_size\": 3, \"direction\": \"als_to_de\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet promovierte über die romanischen Verwandtschaftsnamen.\", \"Die romanischen Verwandtschaftsnamen erschien 1895.\", \"Die romanischen Verwandtschaftsnamen eröffnete der onomasiologischen Forschung in der Romanistik einen neuen Weg.\"], \"source_fact_index\": 23, \"target_contexts\": [[\"Das Thema von Ernst Tappolets Promotion war Die romanischen Verwandtschaftsnamen, mit besonderer Berücksichtigung der französischen und italienischen Mundarten; ein Beitrag zur vergleichenden Lexikologie.\", \"Die romanischen Verwandtschaftsnamen, mit besonderer Berücksichtigung der französischen und italienischen Mundarten; ein Beitrag zur vergleichenden Lexikologie erschien 1895 in Strassburg.\", \"Das Werk Die romanischen Verwandtschaftsnamen, mit besonderer Berücksichtigung der französischen und italienischen Mundarten; ein Beitrag zur vergleichenden Lexikologie war bahnbrechend für die romanistische onomasiologische Forschung.\"], [\"Die romanischen Verwandtschaftsnamen, mit besonderer Berücksichtigung der französischen und italienischen Mundarten; ein Beitrag zur vergleichenden Lexikologie erschien 1895 in Strassburg.\", \"Das Werk Die romanischen Verwandtschaftsnamen, mit besonderer Berücksichtigung der französischen und italienischen Mundarten; ein Beitrag zur vergleichenden Lexikologie war bahnbrechend für die romanistische onomasiologische Forschung.\", \"Das Werk Die romanischen Verwandtschaftsnamen, mit besonderer Berücksichtigung der französischen und italienischen Mundarten; ein Beitrag zur vergleichenden Lexikologie stand am Anfang einer großen Zahl von Untersuchungen über den Wortschatz der romanischen Sprachen.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 534,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [27, 26], \"context_size\": 3, \"direction\": \"als_to_de\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die romanischen Verwandtschaftsnamen erschien 1895.\", \"Die romanischen Verwandtschaftsnamen eröffnete der onomasiologischen Forschung in der Romanistik einen neuen Weg.\", \"Die romanischen Verwandtschaftsnamen steht am Anfang einer ganzen Reihe von Büchern über den Wortschatz der romanischen Sprachen.\"], \"source_fact_index\": 24, \"target_contexts\": [[\"Die romanischen Verwandtschaftsnamen, mit besonderer Berücksichtigung der französischen und italienischen Mundarten; ein Beitrag zur vergleichenden Lexikologie erschien 1895 in Strassburg.\", \"Das Werk Die romanischen Verwandtschaftsnamen, mit besonderer Berücksichtigung der französischen und italienischen Mundarten; ein Beitrag zur vergleichenden Lexikologie war bahnbrechend für die romanistische onomasiologische Forschung.\", \"Das Werk Die romanischen Verwandtschaftsnamen, mit besonderer Berücksichtigung der französischen und italienischen Mundarten; ein Beitrag zur vergleichenden Lexikologie stand am Anfang einer großen Zahl von Untersuchungen über den Wortschatz der romanischen Sprachen.\"], [\"Das Thema von Ernst Tappolets Promotion war Die romanischen Verwandtschaftsnamen, mit besonderer Berücksichtigung der französischen und italienischen Mundarten; ein Beitrag zur vergleichenden Lexikologie.\", \"Die romanischen Verwandtschaftsnamen, mit besonderer Berücksichtigung der französischen und italienischen Mundarten; ein Beitrag zur vergleichenden Lexikologie erschien 1895 in Strassburg.\", \"Das Werk Die romanischen Verwandtschaftsnamen, mit besonderer Berücksichtigung der französischen und italienischen Mundarten; ein Beitrag zur vergleichenden Lexikologie war bahnbrechend für die romanistische onomasiologische Forschung.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 544,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [21, 22], \"context_size\": 3, \"direction\": \"als_to_de\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die romanischen Verwandtschaftsnamen eröffnete der onomasiologischen Forschung in der Romanistik einen neuen Weg.\", \"Die romanischen Verwandtschaftsnamen steht am Anfang einer ganzen Reihe von Büchern über den Wortschatz der romanischen Sprachen.\", \"Ernst Tappolet war danach Gymnasiallehrer in Zürich.\"], \"source_fact_index\": 25, \"target_contexts\": [[\"Ernst Tappolet studierte in Paris.\", \"Ernst Tappolet studierte in Florenz.\", \"Ernst Tappolet studierte in Zürich.\"], [\"Ernst Tappolet studierte in Florenz.\", \"Ernst Tappolet studierte in Zürich.\", \"Ernst Tappolet promovierte an der Universität Zürich.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 318,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [29, 30], \"context_size\": 3, \"direction\": \"als_to_de\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die romanischen Verwandtschaftsnamen steht am Anfang einer ganzen Reihe von Büchern über den Wortschatz der romanischen Sprachen.\", \"Ernst Tappolet war danach Gymnasiallehrer in Zürich.\", \"Ernst Tappolet schrieb 1901 die Arbeit Über den Stand der Mundarten in der deutschen und französischen Schweiz.\"], \"source_fact_index\": 26, \"target_contexts\": [[\"Das Werk Die romanischen Verwandtschaftsnamen, mit besonderer Berücksichtigung der französischen und italienischen Mundarten; ein Beitrag zur vergleichenden Lexikologie stand am Anfang einer großen Zahl von Untersuchungen über den Wortschatz der romanischen Sprachen.\", \"Ernst Tappolets Habilitation erfolgte 1902 in Zürich.\", \"Ernst Tappolets Habilitation erfolgte mit der Schrift Über den Stand der Mundarten in der deutschen und französischen Schweiz.\"], [\"Ernst Tappolets Habilitation erfolgte 1902 in Zürich.\", \"Ernst Tappolets Habilitation erfolgte mit der Schrift Über den Stand der Mundarten in der deutschen und französischen Schweiz.\", \"Über den Stand der Mundarten in der deutschen und französischen Schweiz erschien 1901 in Zürich.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 423,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [29, 30], \"context_size\": 3, \"direction\": \"als_to_de\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet war danach Gymnasiallehrer in Zürich.\", \"Ernst Tappolet schrieb 1901 die Arbeit Über den Stand der Mundarten in der deutschen und französischen Schweiz.\", \"Ernst Tappolet habilitierte sich 1902 mit Über den Stand der Mundarten in der deutschen und französischen Schweiz.\"], \"source_fact_index\": 27, \"target_contexts\": [[\"Das Werk Die romanischen Verwandtschaftsnamen, mit besonderer Berücksichtigung der französischen und italienischen Mundarten; ein Beitrag zur vergleichenden Lexikologie stand am Anfang einer großen Zahl von Untersuchungen über den Wortschatz der romanischen Sprachen.\", \"Ernst Tappolets Habilitation erfolgte 1902 in Zürich.\", \"Ernst Tappolets Habilitation erfolgte mit der Schrift Über den Stand der Mundarten in der deutschen und französischen Schweiz.\"], [\"Ernst Tappolets Habilitation erfolgte 1902 in Zürich.\", \"Ernst Tappolets Habilitation erfolgte mit der Schrift Über den Stand der Mundarten in der deutschen und französischen Schweiz.\", \"Über den Stand der Mundarten in der deutschen und französischen Schweiz erschien 1901 in Zürich.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 423,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [44, 45], \"context_size\": 3, \"direction\": \"als_to_de\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet schrieb 1901 die Arbeit Über den Stand der Mundarten in der deutschen und französischen Schweiz.\", \"Ernst Tappolet habilitierte sich 1902 mit Über den Stand der Mundarten in der deutschen und französischen Schweiz.\", \"Ernst Tappolet wurde 1904 als Professor an die Universität Basel berufen.\"], \"source_fact_index\": 28, \"target_contexts\": [[\"Onomasiologie bedeutet Wortfeldforschung.\", \"Die romanistische Dialektologie stand im Zentrum von Ernst Tappolets Lehre.\", \"Ernst Tappolet vermittelte seinen Schülern ein Wissen, das sie direkt im neusprachlichen Unterricht anwenden konnten.\"], [\"Die romanistische Dialektologie stand im Zentrum von Ernst Tappolets Lehre.\", \"Ernst Tappolet vermittelte seinen Schülern ein Wissen, das sie direkt im neusprachlichen Unterricht anwenden konnten.\", \"Ernst Tappolet setzte sich mit grundsätzlichen Fragen zur Natur der Sprachen auseinander.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 387,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [41, 43], \"context_size\": 3, \"direction\": \"als_to_de\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet habilitierte sich 1902 mit Über den Stand der Mundarten in der deutschen und französischen Schweiz.\", \"Ernst Tappolet wurde 1904 als Professor an die Universität Basel berufen.\", \"Die romanistische Onomasiologie stand im Zentrum von Ernst Tappolets Lehre.\"], \"source_fact_index\": 29, \"target_contexts\": [[\"Ernst Tappolet war ab 1897 mit Johanna Elisabeth Schlub verheiratet.\", \"Johanna Elisabeth Schlub hatte die Lebensdaten 1866–1941.\", \"Die Onomasiologie der romanischen Sprachen stand im Zentrum von Ernst Tappolets Lehre.\"], [\"Die Onomasiologie der romanischen Sprachen stand im Zentrum von Ernst Tappolets Lehre.\", \"Onomasiologie bedeutet Wortfeldforschung.\", \"Die romanistische Dialektologie stand im Zentrum von Ernst Tappolets Lehre.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 371,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [42, 47], \"context_size\": 3, \"direction\": \"als_to_de\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet wurde 1904 als Professor an die Universität Basel berufen.\", \"Die romanistische Onomasiologie stand im Zentrum von Ernst Tappolets Lehre.\", \"Onomasiologie bedeutet Wortfeldforschung.\"], \"source_fact_index\": 30, \"target_contexts\": [[\"Johanna Elisabeth Schlub hatte die Lebensdaten 1866–1941.\", \"Die Onomasiologie der romanischen Sprachen stand im Zentrum von Ernst Tappolets Lehre.\", \"Onomasiologie bedeutet Wortfeldforschung.\"], [\"Ernst Tappolet setzte sich mit grundsätzlichen Fragen zur Natur der Sprachen auseinander.\", \"Ernst Tappolets Auseinandersetzung mit grundsätzlichen Fragen zur Natur der Sprachen führte zur Publikation Die Sprache des Kindes.\", \"Die Sprache des Kindes erschien 1907.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 354,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [43, 41], \"context_size\": 3, \"direction\": \"als_to_de\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die romanistische Onomasiologie stand im Zentrum von Ernst Tappolets Lehre.\", \"Onomasiologie bedeutet Wortfeldforschung.\", \"Die romanistische Dialektologie stand im Zentrum von Ernst Tappolets Lehre.\"], \"source_fact_index\": 31, \"target_contexts\": [[\"Die Onomasiologie der romanischen Sprachen stand im Zentrum von Ernst Tappolets Lehre.\", \"Onomasiologie bedeutet Wortfeldforschung.\", \"Die romanistische Dialektologie stand im Zentrum von Ernst Tappolets Lehre.\"], [\"Ernst Tappolet war ab 1897 mit Johanna Elisabeth Schlub verheiratet.\", \"Johanna Elisabeth Schlub hatte die Lebensdaten 1866–1941.\", \"Die Onomasiologie der romanischen Sprachen stand im Zentrum von Ernst Tappolets Lehre.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 352,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [44, 45], \"context_size\": 3, \"direction\": \"als_to_de\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Onomasiologie bedeutet Wortfeldforschung.\", \"Die romanistische Dialektologie stand im Zentrum von Ernst Tappolets Lehre.\", \"Ernst Tappolet vermittelte seinen Schülern Wissen, das sie direkt im neusprachlichen Unterricht verwenden konnten.\"], \"source_fact_index\": 32, \"target_contexts\": [[\"Onomasiologie bedeutet Wortfeldforschung.\", \"Die romanistische Dialektologie stand im Zentrum von Ernst Tappolets Lehre.\", \"Ernst Tappolet vermittelte seinen Schülern ein Wissen, das sie direkt im neusprachlichen Unterricht anwenden konnten.\"], [\"Die romanistische Dialektologie stand im Zentrum von Ernst Tappolets Lehre.\", \"Ernst Tappolet vermittelte seinen Schülern ein Wissen, das sie direkt im neusprachlichen Unterricht anwenden konnten.\", \"Ernst Tappolet setzte sich mit grundsätzlichen Fragen zur Natur der Sprachen auseinander.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 368,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [45, 46], \"context_size\": 3, \"direction\": \"als_to_de\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die romanistische Dialektologie stand im Zentrum von Ernst Tappolets Lehre.\", \"Ernst Tappolet vermittelte seinen Schülern Wissen, das sie direkt im neusprachlichen Unterricht verwenden konnten.\", \"Ernst Tappolet setzte sich mit grundsätzlichen Fragen zur Natur der Sprachen auseinander.\"], \"source_fact_index\": 33, \"target_contexts\": [[\"Die romanistische Dialektologie stand im Zentrum von Ernst Tappolets Lehre.\", \"Ernst Tappolet vermittelte seinen Schülern ein Wissen, das sie direkt im neusprachlichen Unterricht anwenden konnten.\", \"Ernst Tappolet setzte sich mit grundsätzlichen Fragen zur Natur der Sprachen auseinander.\"], [\"Ernst Tappolet vermittelte seinen Schülern ein Wissen, das sie direkt im neusprachlichen Unterricht anwenden konnten.\", \"Ernst Tappolet setzte sich mit grundsätzlichen Fragen zur Natur der Sprachen auseinander.\", \"Ernst Tappolets Auseinandersetzung mit grundsätzlichen Fragen zur Natur der Sprachen führte zur Publikation Die Sprache des Kindes.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 398,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [46, 45], \"context_size\": 3, \"direction\": \"als_to_de\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet vermittelte seinen Schülern Wissen, das sie direkt im neusprachlichen Unterricht verwenden konnten.\", \"Ernst Tappolet setzte sich mit grundsätzlichen Fragen zur Natur der Sprachen auseinander.\", \"Ernst Tappolets Auseinandersetzung mit grundsätzlichen Fragen zur Natur der Sprachen führte zur Publikation Die Sprache des Kindes.\"], \"source_fact_index\": 34, \"target_contexts\": [[\"Ernst Tappolet vermittelte seinen Schülern ein Wissen, das sie direkt im neusprachlichen Unterricht anwenden konnten.\", \"Ernst Tappolet setzte sich mit grundsätzlichen Fragen zur Natur der Sprachen auseinander.\", \"Ernst Tappolets Auseinandersetzung mit grundsätzlichen Fragen zur Natur der Sprachen führte zur Publikation Die Sprache des Kindes.\"], [\"Die romanistische Dialektologie stand im Zentrum von Ernst Tappolets Lehre.\", \"Ernst Tappolet vermittelte seinen Schülern ein Wissen, das sie direkt im neusprachlichen Unterricht anwenden konnten.\", \"Ernst Tappolet setzte sich mit grundsätzlichen Fragen zur Natur der Sprachen auseinander.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 410,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [47, 46], \"context_size\": 3, \"direction\": \"als_to_de\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet setzte sich mit grundsätzlichen Fragen zur Natur der Sprachen auseinander.\", \"Ernst Tappolets Auseinandersetzung mit grundsätzlichen Fragen zur Natur der Sprachen führte zur Publikation Die Sprache des Kindes.\", \"Die Sprache des Kindes erschien 1907.\"], \"source_fact_index\": 35, \"target_contexts\": [[\"Ernst Tappolet setzte sich mit grundsätzlichen Fragen zur Natur der Sprachen auseinander.\", \"Ernst Tappolets Auseinandersetzung mit grundsätzlichen Fragen zur Natur der Sprachen führte zur Publikation Die Sprache des Kindes.\", \"Die Sprache des Kindes erschien 1907.\"], [\"Ernst Tappolet vermittelte seinen Schülern ein Wissen, das sie direkt im neusprachlichen Unterricht anwenden konnten.\", \"Ernst Tappolet setzte sich mit grundsätzlichen Fragen zur Natur der Sprachen auseinander.\", \"Ernst Tappolets Auseinandersetzung mit grundsätzlichen Fragen zur Natur der Sprachen führte zur Publikation Die Sprache des Kindes.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 392,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [46, 45], \"context_size\": 3, \"direction\": \"als_to_de\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolets Auseinandersetzung mit grundsätzlichen Fragen zur Natur der Sprachen führte zur Publikation Die Sprache des Kindes.\", \"Die Sprache des Kindes erschien 1907.\", \"Ernst Tappolets Auseinandersetzung mit grundsätzlichen Fragen zur Natur der Sprachen führte zur Publikation Die Ursachen des Wortreichtums bei den Haustiernamen der französischen Schweiz.\"], \"source_fact_index\": 36, \"target_contexts\": [[\"Ernst Tappolet vermittelte seinen Schülern ein Wissen, das sie direkt im neusprachlichen Unterricht anwenden konnten.\", \"Ernst Tappolet setzte sich mit grundsätzlichen Fragen zur Natur der Sprachen auseinander.\", \"Ernst Tappolets Auseinandersetzung mit grundsätzlichen Fragen zur Natur der Sprachen führte zur Publikation Die Sprache des Kindes.\"], [\"Die romanistische Dialektologie stand im Zentrum von Ernst Tappolets Lehre.\", \"Ernst Tappolet vermittelte seinen Schülern ein Wissen, das sie direkt im neusprachlichen Unterricht anwenden konnten.\", \"Ernst Tappolet setzte sich mit grundsätzlichen Fragen zur Natur der Sprachen auseinander.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 419,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [48, 47], \"context_size\": 3, \"direction\": \"als_to_de\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Sprache des Kindes erschien 1907.\", \"Ernst Tappolets Auseinandersetzung mit grundsätzlichen Fragen zur Natur der Sprachen führte zur Publikation Die Ursachen des Wortreichtums bei den Haustiernamen der französischen Schweiz.\", \"Die Ursachen des Wortreichtums bei den Haustiernamen der französischen Schweiz erschien 1913.\"], \"source_fact_index\": 37, \"target_contexts\": [[\"Ernst Tappolets Auseinandersetzung mit grundsätzlichen Fragen zur Natur der Sprachen führte zur Publikation Die Sprache des Kindes.\", \"Die Sprache des Kindes erschien 1907.\", \"Die Ursachen des Wortreichtums bei den Haustiernamen der französischen Schweiz erschien 1913.\"], [\"Ernst Tappolet setzte sich mit grundsätzlichen Fragen zur Natur der Sprachen auseinander.\", \"Ernst Tappolets Auseinandersetzung mit grundsätzlichen Fragen zur Natur der Sprachen führte zur Publikation Die Sprache des Kindes.\", \"Die Sprache des Kindes erschien 1907.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 398,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [39, 40], \"context_size\": 3, \"direction\": \"als_to_de\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolets Auseinandersetzung mit grundsätzlichen Fragen zur Natur der Sprachen führte zur Publikation Die Ursachen des Wortreichtums bei den Haustiernamen der französischen Schweiz.\", \"Die Ursachen des Wortreichtums bei den Haustiernamen der französischen Schweiz erschien 1913.\", \"Ernst Tappolet heiratete 1897 Johanna Elisabeth Schlub.\"], \"source_fact_index\": 38, \"target_contexts\": [[\"Ernst Tappolet begründete das Glossaire des patois de la Suisse romande zusammen mit Jules Jeanjaquet.\", \"Ernst Tappolet wurde 1935 zu seinem 65. Geburtstag mit einer Festschrift geehrt.\", \"Ernst Tappolet war ab 1897 mit Johanna Elisabeth Schlub verheiratet.\"], [\"Ernst Tappolet wurde 1935 zu seinem 65. Geburtstag mit einer Festschrift geehrt.\", \"Ernst Tappolet war ab 1897 mit Johanna Elisabeth Schlub verheiratet.\", \"Johanna Elisabeth Schlub hatte die Lebensdaten 1866–1941.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 417,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [40, 39], \"context_size\": 3, \"direction\": \"als_to_de\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Ursachen des Wortreichtums bei den Haustiernamen der französischen Schweiz erschien 1913.\", \"Ernst Tappolet heiratete 1897 Johanna Elisabeth Schlub.\", \"Johanna Elisabeth Schlub hatte die Lebensdaten 1866–1941.\"], \"source_fact_index\": 39, \"target_contexts\": [[\"Ernst Tappolet wurde 1935 zu seinem 65. Geburtstag mit einer Festschrift geehrt.\", \"Ernst Tappolet war ab 1897 mit Johanna Elisabeth Schlub verheiratet.\", \"Johanna Elisabeth Schlub hatte die Lebensdaten 1866–1941.\"], [\"Ernst Tappolet begründete das Glossaire des patois de la Suisse romande zusammen mit Jules Jeanjaquet.\", \"Ernst Tappolet wurde 1935 zu seinem 65. Geburtstag mit einer Festschrift geehrt.\", \"Ernst Tappolet war ab 1897 mit Johanna Elisabeth Schlub verheiratet.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 395,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [13, 14], \"context_size\": 3, \"direction\": \"als_to_de\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet heiratete 1897 Johanna Elisabeth Schlub.\", \"Johanna Elisabeth Schlub hatte die Lebensdaten 1866–1941.\", \"Ernst Tappolet war Mitglied der Abstinenzler-Bewegung.\"], \"source_fact_index\": 40, \"target_contexts\": [[\"Paul Friedrich Tappolez war der Vater von Ernst Tappolet.\", \"Paul Friedrich Tappolez war Pfarrer im Zürcher Oberland.\", \"Siegfried Tappolet gehörte zu Ernst Tappolets Halbgeschwistern.\"], [\"Paul Friedrich Tappolez war Pfarrer im Zürcher Oberland.\", \"Siegfried Tappolet gehörte zu Ernst Tappolets Halbgeschwistern.\", \"Siegfried Tappolet war Opernsänger.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 342,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [12, 13], \"context_size\": 3, \"direction\": \"als_to_de\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Johanna Elisabeth Schlub hatte die Lebensdaten 1866–1941.\", \"Ernst Tappolet war Mitglied der Abstinenzler-Bewegung.\", \"Ernst Tappolets Mitgliedschaft in der Abstinenzler-Bewegung war vielleicht typisch für einen damaligen Pfarrerssohn.\"], \"source_fact_index\": 41, \"target_contexts\": [[\"Ernst Tappolets Familie erwarb 1826 das Stadtzürcher Bürgerrecht.\", \"Paul Friedrich Tappolez war der Vater von Ernst Tappolet.\", \"Paul Friedrich Tappolez war Pfarrer im Zürcher Oberland.\"], [\"Paul Friedrich Tappolez war der Vater von Ernst Tappolet.\", \"Paul Friedrich Tappolez war Pfarrer im Zürcher Oberland.\", \"Siegfried Tappolet gehörte zu Ernst Tappolets Halbgeschwistern.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 363,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [73, 74], \"context_size\": 3, \"direction\": \"als_to_de\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet war Mitglied der Abstinenzler-Bewegung.\", \"Ernst Tappolets Mitgliedschaft in der Abstinenzler-Bewegung war vielleicht typisch für einen damaligen Pfarrerssohn.\", \"Ernst Tappolet war 1899 einer der Gründungsväter des Glossaire des patois de la Suisse romande.\"], \"source_fact_index\": 42, \"target_contexts\": [[\"Ernst Tappolet verfasste für das Glossaire des patois de la Suisse romande unter anderem den Artikel avoir.\", \"Ernst Tappolet verfasste für das Glossaire des patois de la Suisse romande unter anderem den Artikel Bâle.\", \"Ernst Tappolet verfasste für das Glossaire des patois de la Suisse romande unter anderem den Artikel ban.\"], [\"Ernst Tappolet verfasste für das Glossaire des patois de la Suisse romande unter anderem den Artikel Bâle.\", \"Ernst Tappolet verfasste für das Glossaire des patois de la Suisse romande unter anderem den Artikel ban.\", \"Ernst Tappolet verfasste für das Glossaire des patois de la Suisse romande unter anderem den Artikel banc.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 428,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [80, 59], \"context_size\": 3, \"direction\": \"als_to_de\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolets Mitgliedschaft in der Abstinenzler-Bewegung war vielleicht typisch für einen damaligen Pfarrerssohn.\", \"Ernst Tappolet war 1899 einer der Gründungsväter des Glossaire des patois de la Suisse romande.\", \"Ernst Tappolet war zusammen mit Louis Gauchat einer der Gründungsväter des Glossaire des patois de la Suisse romande.\"], \"source_fact_index\": 43, \"target_contexts\": [[\"Ernst Tappolet verfasste für das Glossaire des patois de la Suisse romande unter anderem den Artikel ber.\", \"Ernst Tappolet hatte eine besondere Vorliebe für Artikel, in denen volkskundliche Aspekte eine wichtige Rolle spielten.\", \"Ernst Tappolet stand selbst im Kontakt zu den Gewährsleuten, um Material für das Glossaire des patois de la Suisse romande zu gewinnen.\"], [\"Ernst Tappolet verfasste für das Glossaire des patois de la Suisse romande unter anderem den Artikel âme.\", \"Ernst Tappolet verfasste für das Glossaire des patois de la Suisse romande unter anderem den Artikel amour.\", \"Ernst Tappolet verfasste für das Glossaire des patois de la Suisse romande unter anderem den Artikel anneau.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 446,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [80, 59], \"context_size\": 3, \"direction\": \"als_to_de\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet war 1899 einer der Gründungsväter des Glossaire des patois de la Suisse romande.\", \"Ernst Tappolet war zusammen mit Louis Gauchat einer der Gründungsväter des Glossaire des patois de la Suisse romande.\", \"Ernst Tappolet war zusammen mit Jules Jeanjaquet einer der Gründungsväter des Glossaire des patois de la Suisse romande.\"], \"source_fact_index\": 44, \"target_contexts\": [[\"Ernst Tappolet verfasste für das Glossaire des patois de la Suisse romande unter anderem den Artikel ber.\", \"Ernst Tappolet hatte eine besondere Vorliebe für Artikel, in denen volkskundliche Aspekte eine wichtige Rolle spielten.\", \"Ernst Tappolet stand selbst im Kontakt zu den Gewährsleuten, um Material für das Glossaire des patois de la Suisse romande zu gewinnen.\"], [\"Ernst Tappolet verfasste für das Glossaire des patois de la Suisse romande unter anderem den Artikel âme.\", \"Ernst Tappolet verfasste für das Glossaire des patois de la Suisse romande unter anderem den Artikel amour.\", \"Ernst Tappolet verfasste für das Glossaire des patois de la Suisse romande unter anderem den Artikel anneau.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 445,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [59, 73], \"context_size\": 3, \"direction\": \"als_to_de\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet war zusammen mit Louis Gauchat einer der Gründungsväter des Glossaire des patois de la Suisse romande.\", \"Ernst Tappolet war zusammen mit Jules Jeanjaquet einer der Gründungsväter des Glossaire des patois de la Suisse romande.\", \"Ernst Tappolet schrieb neben seiner Tätigkeit als Professor Artikel für das Glossaire des patois de la Suisse romande.\"], \"source_fact_index\": 45, \"target_contexts\": [[\"Ernst Tappolet verfasste für das Glossaire des patois de la Suisse romande unter anderem den Artikel âme.\", \"Ernst Tappolet verfasste für das Glossaire des patois de la Suisse romande unter anderem den Artikel amour.\", \"Ernst Tappolet verfasste für das Glossaire des patois de la Suisse romande unter anderem den Artikel anneau.\"], [\"Ernst Tappolet verfasste für das Glossaire des patois de la Suisse romande unter anderem den Artikel avoir.\", \"Ernst Tappolet verfasste für das Glossaire des patois de la Suisse romande unter anderem den Artikel Bâle.\", \"Ernst Tappolet verfasste für das Glossaire des patois de la Suisse romande unter anderem den Artikel ban.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 435,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [59, 52], \"context_size\": 3, \"direction\": \"als_to_de\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet war zusammen mit Jules Jeanjaquet einer der Gründungsväter des Glossaire des patois de la Suisse romande.\", \"Ernst Tappolet schrieb neben seiner Tätigkeit als Professor Artikel für das Glossaire des patois de la Suisse romande.\", \"Louis Gauchat schrieb neben seiner Tätigkeit als Professor Artikel für das Glossaire des patois de la Suisse romande.\"], \"source_fact_index\": 46, \"target_contexts\": [[\"Ernst Tappolet verfasste für das Glossaire des patois de la Suisse romande unter anderem den Artikel âme.\", \"Ernst Tappolet verfasste für das Glossaire des patois de la Suisse romande unter anderem den Artikel amour.\", \"Ernst Tappolet verfasste für das Glossaire des patois de la Suisse romande unter anderem den Artikel anneau.\"], [\"Ernst Tappolet verfasste für das Glossaire des patois de la Suisse romande unter anderem den Artikel affaire.\", \"Ernst Tappolet verfasste für das Glossaire des patois de la Suisse romande unter anderem den Artikel agreblyé.\", \"Ernst Tappolet verfasste für das Glossaire des patois de la Suisse romande unter anderem den Artikel agron.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 430,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [59, 53], \"context_size\": 3, \"direction\": \"als_to_de\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet schrieb neben seiner Tätigkeit als Professor Artikel für das Glossaire des patois de la Suisse romande.\", \"Louis Gauchat schrieb neben seiner Tätigkeit als Professor Artikel für das Glossaire des patois de la Suisse romande.\", \"Jules Jeanjaquet schrieb neben seiner Tätigkeit als Professor Artikel für das Glossaire des patois de la Suisse romande.\"], \"source_fact_index\": 47, \"target_contexts\": [[\"Ernst Tappolet verfasste für das Glossaire des patois de la Suisse romande unter anderem den Artikel âme.\", \"Ernst Tappolet verfasste für das Glossaire des patois de la Suisse romande unter anderem den Artikel amour.\", \"Ernst Tappolet verfasste für das Glossaire des patois de la Suisse romande unter anderem den Artikel anneau.\"], [\"Ernst Tappolet verfasste für das Glossaire des patois de la Suisse romande unter anderem den Artikel agreblyé.\", \"Ernst Tappolet verfasste für das Glossaire des patois de la Suisse romande unter anderem den Artikel agron.\", \"Ernst Tappolet verfasste für das Glossaire des patois de la Suisse romande unter anderem den Artikel aise.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 426,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [79, 58], \"context_size\": 3, \"direction\": \"als_to_de\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Louis Gauchat schrieb neben seiner Tätigkeit als Professor Artikel für das Glossaire des patois de la Suisse romande.\", \"Jules Jeanjaquet schrieb neben seiner Tätigkeit als Professor Artikel für das Glossaire des patois de la Suisse romande.\", \"Ernst Tappolet verfasste mit besonderer Vorliebe Artikel, in denen die Volkskunde eine wichtige Rolle spielte.\"], \"source_fact_index\": 48, \"target_contexts\": [[\"Ernst Tappolet verfasste für das Glossaire des patois de la Suisse romande unter anderem den Artikel beau.\", \"Ernst Tappolet verfasste für das Glossaire des patois de la Suisse romande unter anderem den Artikel ber.\", \"Ernst Tappolet hatte eine besondere Vorliebe für Artikel, in denen volkskundliche Aspekte eine wichtige Rolle spielten.\"], [\"Ernst Tappolet verfasste für das Glossaire des patois de la Suisse romande unter anderem den Artikel alyon.\", \"Ernst Tappolet verfasste für das Glossaire des patois de la Suisse romande unter anderem den Artikel âme.\", \"Ernst Tappolet verfasste für das Glossaire des patois de la Suisse romande unter anderem den Artikel amour.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 427,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [81, 79], \"context_size\": 3, \"direction\": \"als_to_de\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Jules Jeanjaquet schrieb neben seiner Tätigkeit als Professor Artikel für das Glossaire des patois de la Suisse romande.\", \"Ernst Tappolet verfasste mit besonderer Vorliebe Artikel, in denen die Volkskunde eine wichtige Rolle spielte.\", \"Ernst Tappolet übernahm auch den schwierigen Artikel aller.\"], \"source_fact_index\": 49, \"target_contexts\": [[\"Ernst Tappolet hatte eine besondere Vorliebe für Artikel, in denen volkskundliche Aspekte eine wichtige Rolle spielten.\", \"Ernst Tappolet stand selbst im Kontakt zu den Gewährsleuten, um Material für das Glossaire des patois de la Suisse romande zu gewinnen.\", \"Ernst Tappolet engagierte sich bei der Aufnahme der Patois auf Grammophonplatten.\"], [\"Ernst Tappolet verfasste für das Glossaire des patois de la Suisse romande unter anderem den Artikel beau.\", \"Ernst Tappolet verfasste für das Glossaire des patois de la Suisse romande unter anderem den Artikel ber.\", \"Ernst Tappolet hatte eine besondere Vorliebe für Artikel, in denen volkskundliche Aspekte eine wichtige Rolle spielten.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 418,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [12, 14], \"context_size\": 3, \"direction\": \"als_to_de\", \"fact_source\": \"manual\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet stammte aus einer Familie, die um 1800 von Essertines-sur-Yverdon im Kanton Waadt nach Küsnacht ausgewandert war.\", \"Ernst Tappolets Familie erwarb 1826 das Stadtzürcher Bürgerrecht.\", \"Ernst Tappolets Vater war Pfarrer im Zürcher Oberland.\"], \"source_fact_index\": 15, \"target_contexts\": [[\"Ernst Tappolets Familie erwarb 1826 das Stadtzürcher Bürgerrecht.\", \"Paul Friedrich Tappolez war der Vater von Ernst Tappolet.\", \"Paul Friedrich Tappolez war Pfarrer im Zürcher Oberland.\"], [\"Paul Friedrich Tappolez war Pfarrer im Zürcher Oberland.\", \"Siegfried Tappolet gehörte zu Ernst Tappolets Halbgeschwistern.\", \"Siegfried Tappolet war Opernsänger.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 374,
+    "verification_status": "model_verified"
+  }
+}

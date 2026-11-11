@@ -1,0 +1,799 @@
+{
+  "pair_key": "gold__wahrscheinlichkeit",
+  "cluster": "Gold",
+  "als_page_id": "gold_wahrscheinlichkeit_als",
+  "de_page_id": "gold_wahrscheinlichkeit_de",
+  "pair_title": "Wahrscheinlichkeit",
+  "page_id": "gold_wahrscheinlichkeit_de",
+  "page_title": "Wahrscheinlichkeit",
+  "language_variety": "de",
+  "decomposition_model": "gemma-4-31b-it",
+  "decomposition_prompt_version": "iaa_atomic_balanced_fewshot_v2",
+  "num_paragraphs": 24,
+  "num_facts": 126,
+  "num_fallback_paragraphs": 0,
+  "paragraphs": [
+    "Die Wahrscheinlichkeit ist ein allgemeines Maß der Erwartung für ein unsicheres Ereignis. Auf der einen Seite sollen Vorhersagen (Prognosen) über den Ausgang zukünftiger Ereignisse gemacht werden. Auf der anderen Seite soll aber auch bei bereits eingetretenen Ereignissen beurteilt werden, wie gewöhnlich oder ungewöhnlich sie sind. In der Mathematik hat sich mit der Wahrscheinlichkeitstheorie ein eigenes Fachgebiet entwickelt. Es hat mit Versuchen bei Glücksspielen begonnen und ist heute in so gut wie allen Lebensbereichen anzutreffen.",
+    "Die Wahrscheinlichkeit dafür, dass bei einem Zufallsexperiment ein bestimmtes Ereignis eintritt, ist nach Laplace das Zahlenverhältnis (Quotient) der Anzahl der günstigen Ergebnisse zur Anzahl der überhaupt möglichen Ergebnisse. Hierin unterscheidet sich die sog. klassische Wahrscheinlichkeit von der Chance, die als Quotient aus der Anzahl der günstigen zur Anzahl der ungünstigen Ergebnisse definiert ist",
+    "Die verschiedenen Wahrscheinlichkeitsdefinitionen (Auffassungen von Wahrscheinlichkeit) unterscheiden sich darin, wie man den Zahlenwert der Wahrscheinlichkeit erhält.",
+    "Bei einem idealen, „fairen“ Würfel (das heißt, kein Ergebnis wird durch unsymmetrische Massenverteilung oder Ähnliches bevorzugt) hat wegen der Symmetrie jede der sechs Seiten von vornherein (A-priori-Wahrscheinlichkeit) die gleiche „Chance“, nach dem Wurf oben zu liegen. Daher ist beispielsweise die Wahrscheinlichkeit, eine ungerade Zahl zu werfen, 3/6 = 0,5, denn es gibt drei günstige Ergebnisse (1, 3, 5) bei sechs möglichen Ergebnissen.",
+    "Dies ist die sogenannte klassische Definition, wie sie von Christiaan Huygens und Jakob I Bernoulli entwickelt und von Laplace formuliert wurde. Sie ist die Grundlage der klassischen Wahrscheinlichkeitstheorie. Die Elementarereignisse besitzen hierbei gleiche A-priori-Eintrittswahrscheinlichkeiten.",
+    "Der Versuch wird viele Male wiederholt, dann werden die relativen Häufigkeiten der jeweiligen Elementarereignisse berechnet. Die Wahrscheinlichkeit eines Ereignisses ist nun der Grenzwert, dem die relative Häufigkeit für unendlich viele Wiederholungen zustrebt. Dies ist die sogenannte „Limes-Definition“ nach von Mises. Das Gesetz der großen Zahlen spielt hier eine zentrale Rolle. Voraussetzung sind die beliebige Wiederholbarkeit des Experiments und dass die einzelnen Durchgänge voneinander unabhängig sind. Ein anderer Name für dieses Konzept ist Frequentistischer Wahrscheinlichkeitsbegriff.",
+    "Beispiel: Man würfelt 1000-mal und erhält folgende Verteilung: Die 1 fällt 100-mal (das entspricht einer relativen Häufigkeit von 10 %), die 2 fällt 150-mal (15 %), die 3 ebenfalls 150-mal (15 %), die 4 in 20 %, die 5 in 30 % und die 6 in 10 % der Fälle. Der Verdacht kommt auf, dass der Würfel nicht fair ist. Wenn nach 10.000 Versuchen sich die Zahlen bei den angegebenen Werten stabilisiert haben, dann kann man mit einiger Sicherheit sagen, dass zum Beispiel die Wahrscheinlichkeit, eine 3 zu würfeln, bei 15 % liegt.",
+    "Die Propensitätstheorie interpretiert Wahrscheinlichkeit als Maß für die Neigung eines Prozesses zu einem bestimmten Ergebnis. Dieser Wahrscheinlichkeitsbegriff ist zum Beispiel in der Physik bei der Zerfallswahrscheinlichkeit eines Radionuklids gemeint; die Experimente sind hier die einzelnen, voneinander unabhängigen Zerfälle der Atomkerne. Für jeden einzelnen Atomkern nimmt man eine charakteristische Neigung (propensity) zum Zerfall an, die unabhängig von seinem Alter und der Nachbarkerne ist.",
+    "In der nichtrelativistischen Quantenmechanik wird die Wellenfunktion eines Teilchens als seine fundamentale Beschreibung verwendet. Es handelt sich also nicht um eine bloß statistische, sondern um eine nicht-determinierte Wahrscheinlichkeit.",
+    "Wahrscheinlichkeiten sind Grade des Vertrauens in eine ungewisse Sache, sie sind beste Schätzungen. Sie erhalten dadurch den Charakter von Hypothesen. Auch bei einmaligen Zufallsereignissen kann man deren Eintretenswahrscheinlichkeit schätzen. Zentrale Gesichtspunkte sind hier Experten­wissen, Erfahrung und Intuition. Manche Hypothesen werden für wahrscheinlicher als andere gehalten, manche müssen aufgrund neuer Informationen geändert, andere ganz verworfen werden. Man spricht von einer subjektivistischen Wahrscheinlichkeitsauffassung, siehe auch Bayesscher Wahrscheinlichkeitsbegriff.",
+    "Beispiel: Nachdem jemand verschiedene Autos besessen hat, schätzt er die Wahrscheinlichkeit als hoch ein (zum Beispiel „Ich bin mir zu 80 % sicher“), mit der Marke XY auch beim nächsten Autokauf wieder zufrieden zu sein. Dieser Vorhersagewert kann zum Beispiel durch einen Testbericht nach oben oder unten verändert werden.",
+    "Diese intuitive Wahrscheinlichkeitserfassung birgt jedoch eine Vielzahl von „Stolpersteinen“, die z. B. in der subjektiven Wahrnehmung (Risiken, wie etwa wegen erhöhter Geschwindigkeit zu verunfallen, werden tendenziell niedriger und Chancen, wie etwa auf einen Lottogewinn, höher als die tatsächliche Wahrscheinlichkeit des Eintritts eingeschätzt) oder der asymmetrischen Informationen liegen (Die subjektive Beurteilung von Unfallgefahren entspricht eher der Erwähnungshäufigkeit in den Medien als der tatsächlichen Unfallstatistik, klassische Beispiele dafür sind zu hoch eingeschätzte Eintrittswahrscheinlichkeiten eines Haiangriffes oder eines Flugunfalls). Aber solche a-priori-Wahrscheinlichkeiten können bei wiederholten Experimenten unter Anwendung der Bayes-Formel zu a-posteriori-Wahrscheinlichkeiten führen, die bessere Schätzungen ermöglichen. Dies wird mit dem Schlagwort „Lernen aus Erfahrung“ umschrieben.",
+    "Die axiomatische (auf Axiomen beruhende) Definition der Wahrscheinlichkeit nach Kolmogorow ist die heute für die Mathematik maßgebende Definition, siehe Axiome von Kolmogorow.",
+    "Die Stochastik ist d oder die Mathematik der Daten und des Zufalls, also ein Teilgebiet der Mathematik und fasst als Oberbegriff die Gebiete Wahrscheinlichkeitstheorie und Mathematische Statistik zusammen.",
+    "Die Wahrscheinlichkeitsrechnung oder Wahrscheinlichkeitstheorie als Teilgebiet der Stochastik stellt die Begriffe zur mathematischen Modellierung von Vorgängen bereit,",
+    "Wahrscheinlichkeiten sind Zahlen zwischen 0 und 1,",
+    "Es wird oft behauptet, der Mensch besitze ein schlechtes Gefühl für die Wahrscheinlichkeit, man spricht in diesem Zusammenhang auch vom „Wahrscheinlichkeitsidioten“ (siehe auch Zahlenanalphabetismus). Dazu folgende Beispiele:",
+    "Sie haben an einer Vorsorgeuntersuchung teilgenommen und einen positiven Befund erhalten. Sie wissen zusätzlich, dass Sie im Vergleich zur Gesamtbevölkerung keine besonderen Risikofaktoren für die diagnostizierte Krankheit aufweisen: Mit den Rechenmethoden der bedingten Wahrscheinlichkeit kann man das tatsächliche Risiko abschätzen, des Tests und die beobachtete Grundhäufigkeit der betreffenden Krankheit in der Gesamtbevölkerung. Behandlungen abzuwägen.",
+    "Während über den mathematischen Umgang mit Wahrscheinlichkeiten weitgehend Einigkeit herrscht (siehe Wahrscheinlichkeitstheorie), besteht Uneinigkeit darüber, worauf die Rechenregeln der mathematischen Theorie angewendet werden dürfen. Dies führt zur Frage nach der Interpretation des Begriffs „Wahrscheinlichkeit“.",
+    "Häufig wird „Wahrscheinlichkeit“ in zwei verschiedenen Zusammenhängen gebraucht:",
+    "Aleatorische Wahrscheinlichkeit (auch: ontische/objektive/statistische Wahrscheinlichkeit) beschreibt die relative Häufigkeit zukünftiger Ereignisse, die von einem zufälligen physikalischen Prozess bestimmt werden. Genauer unterscheidet man deterministische physikalische Prozesse, die mit ausreichend genauer Information im Prinzip vorhersagbar wären (Würfelwurf, Wettervorhersage), und nichtdeterministische Prozesse, die prinzipiell nicht vorhersagbar sind (radioaktiver Zerfall).",
+    "Epistemische Wahrscheinlichkeit (auch: subjektive/personelle Wahrscheinlichkeit) beschreibt die Unsicherheit über Aussagen, bei denen kausale Zusammenhänge und Hintergründe nur unvollständig bekannt sind. Diese Aussagen können sich auf vergangene oder zukünftige Ereignisse beziehen. Naturgesetzen werden zum Beispiel gelegentlich epistemische Wahrscheinlichkeiten zugeordnet, ebenso Aussagen in Politik („Die Steuersenkung kommt mit 60 % Wahrscheinlichkeit.“), Wirtschaft oder Rechtsprechung.",
+    "Aleatorische und epistemische Wahrscheinlichkeit sind lose mit dem frequentistischen und dem bayesschen Wahrscheinlichkeitsbegriff assoziiert.",
+    "Es ist eine offene Frage, ob sich aleatorische Wahrscheinlichkeit auf epistemische Wahrscheinlichkeit reduzieren lässt (oder umgekehrt): Erscheint uns die Welt zufällig, weil wir nicht genug über sie wissen, oder gibt es fundamental zufällige Prozesse, wie etwa die Kopenhagener Deutung der Quantenmechanik annimmt? Obwohl für beide Standpunkte dieselben mathematischen Regeln zum Umgang mit Wahrscheinlichkeiten gelten, hat die jeweilige Sichtweise wichtige Konsequenzen dafür, welche mathematischen Modelle als gültig angesehen werden."
+  ],
+  "facts": [
+    {
+      "fact_index": 0,
+      "paragraph_index": 0,
+      "fact": "Die Wahrscheinlichkeit ist ein allgemeines Maß der Erwartung für ein unsicheres Ereignis.",
+      "fallback": false
+    },
+    {
+      "fact_index": 1,
+      "paragraph_index": 0,
+      "fact": "Mit der Wahrscheinlichkeit sollen Vorhersagen (Prognosen) über den Ausgang zukünftiger Ereignisse gemacht werden.",
+      "fallback": false
+    },
+    {
+      "fact_index": 2,
+      "paragraph_index": 0,
+      "fact": "Mit der Wahrscheinlichkeit soll bei bereits eingetretenen Ereignissen beurteilt werden, wie gewöhnlich oder ungewöhnlich sie sind.",
+      "fallback": false
+    },
+    {
+      "fact_index": 3,
+      "paragraph_index": 0,
+      "fact": "In der Mathematik hat sich mit der Wahrscheinlichkeitstheorie ein eigenes Fachgebiet entwickelt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 4,
+      "paragraph_index": 0,
+      "fact": "Die Wahrscheinlichkeitstheorie hat mit Versuchen bei Glücksspielen begonnen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 5,
+      "paragraph_index": 0,
+      "fact": "Die Wahrscheinlichkeitstheorie ist heute in so gut wie allen Lebensbereichen anzutreffen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 6,
+      "paragraph_index": 1,
+      "fact": "Die Wahrscheinlichkeit dafür, dass bei einem Zufallsexperiment ein bestimmtes Ereignis eintritt, ist nach Laplace das Zahlenverhältnis (Quotient) der Anzahl der günstigen Ergebnisse zur Anzahl der überhaupt möglichen Ergebnisse.",
+      "fallback": false
+    },
+    {
+      "fact_index": 7,
+      "paragraph_index": 1,
+      "fact": "Die klassische Wahrscheinlichkeit unterscheidet sich von der Chance.",
+      "fallback": false
+    },
+    {
+      "fact_index": 8,
+      "paragraph_index": 1,
+      "fact": "Die Chance ist als Quotient aus der Anzahl der günstigen zur Anzahl der ungünstigen Ergebnisse definiert.",
+      "fallback": false
+    },
+    {
+      "fact_index": 9,
+      "paragraph_index": 2,
+      "fact": "Die verschiedenen Wahrscheinlichkeitsdefinitionen unterscheiden sich darin, wie man den Zahlenwert der Wahrscheinlichkeit erhält.",
+      "fallback": false
+    },
+    {
+      "fact_index": 10,
+      "paragraph_index": 2,
+      "fact": "Wahrscheinlichkeitsdefinitionen sind Auffassungen von Wahrscheinlichkeit.",
+      "fallback": false
+    },
+    {
+      "fact_index": 11,
+      "paragraph_index": 3,
+      "fact": "Bei einem idealen, „fairen“ Würfel wird kein Ergebnis durch unsymmetrische Massenverteilung oder Ähnliches bevorzugt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 12,
+      "paragraph_index": 3,
+      "fact": "Bei einem idealen, „fairen“ Würfel hat wegen der Symmetrie jede der sechs Seiten von vornherein (A-priori-Wahrscheinlichkeit) die gleiche „Chance“, nach dem Wurf oben zu liegen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 13,
+      "paragraph_index": 3,
+      "fact": "Die Wahrscheinlichkeit, mit einem idealen, „fairen“ Würfel eine ungerade Zahl zu werfen, ist 3/6 = 0,5.",
+      "fallback": false
+    },
+    {
+      "fact_index": 14,
+      "paragraph_index": 3,
+      "fact": "Bei dem Wurf einer ungeraden Zahl mit einem idealen, „fairen“ Würfel gibt es drei günstige Ergebnisse (1, 3, 5) bei sechs möglichen Ergebnissen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 15,
+      "paragraph_index": 4,
+      "fact": "Die klassische Definition wurde von Christiaan Huygens entwickelt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 16,
+      "paragraph_index": 4,
+      "fact": "Die klassische Definition wurde von Jakob I Bernoulli entwickelt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 17,
+      "paragraph_index": 4,
+      "fact": "Die klassische Definition wurde von Laplace formuliert.",
+      "fallback": false
+    },
+    {
+      "fact_index": 18,
+      "paragraph_index": 4,
+      "fact": "Die klassische Definition ist die Grundlage der klassischen Wahrscheinlichkeitstheorie.",
+      "fallback": false
+    },
+    {
+      "fact_index": 19,
+      "paragraph_index": 4,
+      "fact": "Die Elementarereignisse besitzen bei der klassischen Definition gleiche A-priori-Eintrittswahrscheinlichkeiten.",
+      "fallback": false
+    },
+    {
+      "fact_index": 20,
+      "paragraph_index": 5,
+      "fact": "Der Versuch wird viele Male wiederholt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 21,
+      "paragraph_index": 5,
+      "fact": "Die relativen Häufigkeiten der jeweiligen Elementarereignisse werden berechnet.",
+      "fallback": false
+    },
+    {
+      "fact_index": 22,
+      "paragraph_index": 5,
+      "fact": "Die Wahrscheinlichkeit eines Ereignisses ist der Grenzwert, dem die relative Häufigkeit für unendlich viele Wiederholungen zustrebt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 23,
+      "paragraph_index": 5,
+      "fact": "Dies ist die sogenannte „Limes-Definition“ nach von Mises.",
+      "fallback": false
+    },
+    {
+      "fact_index": 24,
+      "paragraph_index": 5,
+      "fact": "Das Gesetz der großen Zahlen spielt hier eine zentrale Rolle.",
+      "fallback": false
+    },
+    {
+      "fact_index": 25,
+      "paragraph_index": 5,
+      "fact": "Voraussetzung ist die beliebige Wiederholbarkeit des Experiments.",
+      "fallback": false
+    },
+    {
+      "fact_index": 26,
+      "paragraph_index": 5,
+      "fact": "Voraussetzung ist, dass die einzelnen Durchgänge voneinander unabhängig sind.",
+      "fallback": false
+    },
+    {
+      "fact_index": 27,
+      "paragraph_index": 5,
+      "fact": "Ein anderer Name für dieses Konzept ist Frequentistischer Wahrscheinlichkeitsbegriff.",
+      "fallback": false
+    },
+    {
+      "fact_index": 28,
+      "paragraph_index": 6,
+      "fact": "In einem Beispiel wird 1000-mal gewürfelt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 29,
+      "paragraph_index": 6,
+      "fact": "Bei 1000 Würfen fällt die 1 100-mal.",
+      "fallback": false
+    },
+    {
+      "fact_index": 30,
+      "paragraph_index": 6,
+      "fact": "Die relative Häufigkeit der 1 beträgt 10 %.",
+      "fallback": false
+    },
+    {
+      "fact_index": 31,
+      "paragraph_index": 6,
+      "fact": "Bei 1000 Würfen fällt die 2 150-mal.",
+      "fallback": false
+    },
+    {
+      "fact_index": 32,
+      "paragraph_index": 6,
+      "fact": "Die relative Häufigkeit der 2 beträgt 15 %.",
+      "fallback": false
+    },
+    {
+      "fact_index": 33,
+      "paragraph_index": 6,
+      "fact": "Bei 1000 Würfen fällt die 3 150-mal.",
+      "fallback": false
+    },
+    {
+      "fact_index": 34,
+      "paragraph_index": 6,
+      "fact": "Die relative Häufigkeit der 3 beträgt 15 %.",
+      "fallback": false
+    },
+    {
+      "fact_index": 35,
+      "paragraph_index": 6,
+      "fact": "Bei 1000 Würfen fällt die 4 in 20 % der Fälle.",
+      "fallback": false
+    },
+    {
+      "fact_index": 36,
+      "paragraph_index": 6,
+      "fact": "Bei 1000 Würfen fällt die 5 in 30 % der Fälle.",
+      "fallback": false
+    },
+    {
+      "fact_index": 37,
+      "paragraph_index": 6,
+      "fact": "Bei 1000 Würfen fällt die 6 in 10 % der Fälle.",
+      "fallback": false
+    },
+    {
+      "fact_index": 38,
+      "paragraph_index": 6,
+      "fact": "Es kommt der Verdacht auf, dass der Würfel nicht fair ist.",
+      "fallback": false
+    },
+    {
+      "fact_index": 39,
+      "paragraph_index": 6,
+      "fact": "Wenn sich die Zahlen nach 10.000 Versuchen bei den angegebenen Werten stabilisiert haben, kann man mit einiger Sicherheit sagen, dass zum Beispiel die Wahrscheinlichkeit, eine 3 zu würfeln, bei 15 % liegt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 40,
+      "paragraph_index": 7,
+      "fact": "Die Propensitätstheorie interpretiert Wahrscheinlichkeit als Maß für die Neigung eines Prozesses zu einem bestimmten Ergebnis.",
+      "fallback": false
+    },
+    {
+      "fact_index": 41,
+      "paragraph_index": 7,
+      "fact": "Dieser Wahrscheinlichkeitsbegriff ist zum Beispiel in der Physik bei der Zerfallswahrscheinlichkeit eines Radionuklids gemeint.",
+      "fallback": false
+    },
+    {
+      "fact_index": 42,
+      "paragraph_index": 7,
+      "fact": "Die Experimente sind bei der Zerfallswahrscheinlichkeit eines Radionuklids die einzelnen, voneinander unabhängigen Zerfälle der Atomkerne.",
+      "fallback": false
+    },
+    {
+      "fact_index": 43,
+      "paragraph_index": 7,
+      "fact": "Für jeden einzelnen Atomkern nimmt man eine charakteristische Neigung (propensity) zum Zerfall an.",
+      "fallback": false
+    },
+    {
+      "fact_index": 44,
+      "paragraph_index": 7,
+      "fact": "Die charakteristische Neigung zum Zerfall eines Atomkerns ist unabhängig von seinem Alter.",
+      "fallback": false
+    },
+    {
+      "fact_index": 45,
+      "paragraph_index": 7,
+      "fact": "Die charakteristische Neigung zum Zerfall eines Atomkerns ist unabhängig von den Nachbarkernen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 46,
+      "paragraph_index": 8,
+      "fact": "In der nichtrelativistischen Quantenmechanik wird die Wellenfunktion eines Teilchens als seine fundamentale Beschreibung verwendet.",
+      "fallback": false
+    },
+    {
+      "fact_index": 47,
+      "paragraph_index": 8,
+      "fact": "Die Wellenfunktion eines Teilchens ist in der nichtrelativistischen Quantenmechanik keine bloß statistische Wahrscheinlichkeit.",
+      "fallback": false
+    },
+    {
+      "fact_index": 48,
+      "paragraph_index": 8,
+      "fact": "Die Wellenfunktion eines Teilchens ist in der nichtrelativistischen Quantenmechanik eine nicht-determinierte Wahrscheinlichkeit.",
+      "fallback": false
+    },
+    {
+      "fact_index": 49,
+      "paragraph_index": 9,
+      "fact": "Wahrscheinlichkeiten sind Grade des Vertrauens in eine ungewisse Sache.",
+      "fallback": false
+    },
+    {
+      "fact_index": 50,
+      "paragraph_index": 9,
+      "fact": "Wahrscheinlichkeiten sind beste Schätzungen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 51,
+      "paragraph_index": 9,
+      "fact": "Wahrscheinlichkeiten erhalten dadurch den Charakter von Hypothesen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 52,
+      "paragraph_index": 9,
+      "fact": "Bei einmaligen Zufallsereignissen kann man deren Eintretenswahrscheinlichkeit schätzen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 53,
+      "paragraph_index": 9,
+      "fact": "Expertenwissen ist ein zentraler Gesichtspunkt bei der Schätzung der Eintretenswahrscheinlichkeit einmaliger Zufallsereignisse.",
+      "fallback": false
+    },
+    {
+      "fact_index": 54,
+      "paragraph_index": 9,
+      "fact": "Erfahrung ist ein zentraler Gesichtspunkt bei der Schätzung der Eintretenswahrscheinlichkeit einmaliger Zufallsereignisse.",
+      "fallback": false
+    },
+    {
+      "fact_index": 55,
+      "paragraph_index": 9,
+      "fact": "Intuition ist ein zentraler Gesichtspunkt bei der Schätzung der Eintretenswahrscheinlichkeit einmaliger Zufallsereignisse.",
+      "fallback": false
+    },
+    {
+      "fact_index": 56,
+      "paragraph_index": 9,
+      "fact": "Manche Hypothesen werden für wahrscheinlicher als andere gehalten.",
+      "fallback": false
+    },
+    {
+      "fact_index": 57,
+      "paragraph_index": 9,
+      "fact": "Manche Hypothesen müssen aufgrund neuer Informationen geändert werden.",
+      "fallback": false
+    },
+    {
+      "fact_index": 58,
+      "paragraph_index": 9,
+      "fact": "Manche Hypothesen müssen aufgrund neuer Informationen ganz verworfen werden.",
+      "fallback": false
+    },
+    {
+      "fact_index": 59,
+      "paragraph_index": 9,
+      "fact": "Man spricht von einer subjektivistischen Wahrscheinlichkeitsauffassung.",
+      "fallback": false
+    },
+    {
+      "fact_index": 60,
+      "paragraph_index": 10,
+      "fact": "Nachdem jemand verschiedene Autos besessen hat, schätzt er die Wahrscheinlichkeit als hoch ein, mit der Marke XY auch beim nächsten Autokauf wieder zufrieden zu sein.",
+      "fallback": false
+    },
+    {
+      "fact_index": 61,
+      "paragraph_index": 10,
+      "fact": "Ein Beispiel für diese Einschätzung ist die Aussage „Ich bin mir zu 80 % sicher“.",
+      "fallback": false
+    },
+    {
+      "fact_index": 62,
+      "paragraph_index": 10,
+      "fact": "Dieser Vorhersagewert kann zum Beispiel durch einen Testbericht nach oben oder unten verändert werden.",
+      "fallback": false
+    },
+    {
+      "fact_index": 63,
+      "paragraph_index": 11,
+      "fact": "Diese intuitive Wahrscheinlichkeitserfassung birgt eine Vielzahl von Stolpersteinen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 64,
+      "paragraph_index": 11,
+      "fact": "Stolpersteine der intuitiven Wahrscheinlichkeitserfassung liegen in der subjektiven Wahrnehmung.",
+      "fallback": false
+    },
+    {
+      "fact_index": 65,
+      "paragraph_index": 11,
+      "fact": "In der subjektiven Wahrnehmung werden Risiken, wie etwa wegen erhöhter Geschwindigkeit zu verunfallen, tendenziell niedriger als die tatsächliche Wahrscheinlichkeit des Eintritts eingeschätzt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 66,
+      "paragraph_index": 11,
+      "fact": "In der subjektiven Wahrnehmung werden Chancen, wie etwa auf einen Lottogewinn, tendenziell höher als die tatsächliche Wahrscheinlichkeit des Eintritts eingeschätzt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 67,
+      "paragraph_index": 11,
+      "fact": "Stolpersteine der intuitiven Wahrscheinlichkeitserfassung liegen in asymmetrischen Informationen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 68,
+      "paragraph_index": 11,
+      "fact": "Die subjektive Beurteilung von Unfallgefahren entspricht eher der Erwähnungshäufigkeit in den Medien als der tatsächlichen Unfallstatistik.",
+      "fallback": false
+    },
+    {
+      "fact_index": 69,
+      "paragraph_index": 11,
+      "fact": "Zu hoch eingeschätzte Eintrittswahrscheinlichkeiten eines Haiangriffes sind klassische Beispiele für die subjektive Beurteilung von Unfallgefahren.",
+      "fallback": false
+    },
+    {
+      "fact_index": 70,
+      "paragraph_index": 11,
+      "fact": "Zu hoch eingeschätzte Eintrittswahrscheinlichkeiten eines Flugunfalls sind klassische Beispiele für die subjektive Beurteilung von Unfallgefahren.",
+      "fallback": false
+    },
+    {
+      "fact_index": 71,
+      "paragraph_index": 11,
+      "fact": "A-priori-Wahrscheinlichkeiten können bei wiederholten Experimenten unter Anwendung der Bayes-Formel zu a-posteriori-Wahrscheinlichkeiten führen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 72,
+      "paragraph_index": 11,
+      "fact": "A-posteriori-Wahrscheinlichkeiten ermöglichen bessere Schätzungen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 73,
+      "paragraph_index": 11,
+      "fact": "Dies wird mit dem Schlagwort Lernen aus Erfahrung umschrieben.",
+      "fallback": false
+    },
+    {
+      "fact_index": 74,
+      "paragraph_index": 12,
+      "fact": "Die axiomatische Definition der Wahrscheinlichkeit nach Kolmogorow beruht auf Axiomen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 75,
+      "paragraph_index": 12,
+      "fact": "Die axiomatische Definition der Wahrscheinlichkeit nach Kolmogorow ist die heute für die Mathematik maßgebende Definition.",
+      "fallback": false
+    },
+    {
+      "fact_index": 76,
+      "paragraph_index": 13,
+      "fact": "Die Stochastik ist die Mathematik des Zufalls.",
+      "fallback": false
+    },
+    {
+      "fact_index": 77,
+      "paragraph_index": 13,
+      "fact": "Die Stochastik ist die Mathematik der Daten und des Zufalls.",
+      "fallback": false
+    },
+    {
+      "fact_index": 78,
+      "paragraph_index": 13,
+      "fact": "Die Stochastik ist ein Teilgebiet der Mathematik.",
+      "fallback": false
+    },
+    {
+      "fact_index": 79,
+      "paragraph_index": 13,
+      "fact": "Die Stochastik fasst als Oberbegriff die Gebiete Wahrscheinlichkeitstheorie und Mathematische Statistik zusammen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 80,
+      "paragraph_index": 14,
+      "fact": "Die Wahrscheinlichkeitsrechnung ist ein Teilgebiet der Stochastik.",
+      "fallback": false
+    },
+    {
+      "fact_index": 81,
+      "paragraph_index": 14,
+      "fact": "Die Wahrscheinlichkeitstheorie ist ein Teilgebiet der Stochastik.",
+      "fallback": false
+    },
+    {
+      "fact_index": 82,
+      "paragraph_index": 14,
+      "fact": "Die Wahrscheinlichkeitsrechnung stellt die Begriffe zur mathematischen Modellierung von Vorgängen bereit.",
+      "fallback": false
+    },
+    {
+      "fact_index": 83,
+      "paragraph_index": 14,
+      "fact": "Die Wahrscheinlichkeitstheorie stellt die Begriffe zur mathematischen Modellierung von Vorgängen bereit.",
+      "fallback": false
+    },
+    {
+      "fact_index": 84,
+      "paragraph_index": 15,
+      "fact": "Wahrscheinlichkeiten sind Zahlen zwischen 0 und 1",
+      "fallback": false
+    },
+    {
+      "fact_index": 85,
+      "paragraph_index": 16,
+      "fact": "Es wird oft behauptet, dass der Mensch ein schlechtes Gefühl für die Wahrscheinlichkeit besitze.",
+      "fallback": false
+    },
+    {
+      "fact_index": 86,
+      "paragraph_index": 16,
+      "fact": "In diesem Zusammenhang spricht man auch vom „Wahrscheinlichkeitsidioten“.",
+      "fallback": false
+    },
+    {
+      "fact_index": 87,
+      "paragraph_index": 17,
+      "fact": "Sie haben an einer Vorsorgeuntersuchung teilgenommen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 88,
+      "paragraph_index": 17,
+      "fact": "Sie haben einen positiven Befund erhalten.",
+      "fallback": false
+    },
+    {
+      "fact_index": 89,
+      "paragraph_index": 17,
+      "fact": "Sie weisen im Vergleich zur Gesamtbevölkerung keine besonderen Risikofaktoren für die diagnostizierte Krankheit auf.",
+      "fallback": false
+    },
+    {
+      "fact_index": 90,
+      "paragraph_index": 17,
+      "fact": "Mit den Rechenmethoden der bedingten Wahrscheinlichkeit kann man das tatsächliche Risiko abschätzen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 91,
+      "paragraph_index": 17,
+      "fact": "Für die Abschätzung des tatsächlichen Risikos werden die Rechenmethoden der bedingten Wahrscheinlichkeit genutzt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 92,
+      "paragraph_index": 17,
+      "fact": "Die Abschätzung des tatsächlichen Risikos basiert auf dem Test.",
+      "fallback": false
+    },
+    {
+      "fact_index": 93,
+      "paragraph_index": 17,
+      "fact": "Die Abschätzung des tatsächlichen Risikos basiert auf der beobachteten Grundhäufigkeit der betreffenden Krankheit in der Gesamtbevölkerung.",
+      "fallback": false
+    },
+    {
+      "fact_index": 94,
+      "paragraph_index": 18,
+      "fact": "Über den mathematischen Umgang mit Wahrscheinlichkeiten herrscht weitgehend Einigkeit.",
+      "fallback": false
+    },
+    {
+      "fact_index": 95,
+      "paragraph_index": 18,
+      "fact": "Es besteht Uneinigkeit darüber, worauf die Rechenregeln der mathematischen Theorie angewendet werden dürfen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 96,
+      "paragraph_index": 18,
+      "fact": "Die Uneinigkeit über die Anwendung der Rechenregeln führt zur Frage nach der Interpretation des Begriffs „Wahrscheinlichkeit“.",
+      "fallback": false
+    },
+    {
+      "fact_index": 97,
+      "paragraph_index": 19,
+      "fact": "Der Begriff „Wahrscheinlichkeit“ wird häufig in zwei verschiedenen Zusammenhängen gebraucht.",
+      "fallback": false
+    },
+    {
+      "fact_index": 98,
+      "paragraph_index": 20,
+      "fact": "Aleatorische Wahrscheinlichkeit beschreibt die relative Häufigkeit zukünftiger Ereignisse, die von einem zufälligen physikalischen Prozess bestimmt werden.",
+      "fallback": false
+    },
+    {
+      "fact_index": 99,
+      "paragraph_index": 20,
+      "fact": "Aleatorische Wahrscheinlichkeit wird auch als ontische Wahrscheinlichkeit bezeichnet.",
+      "fallback": false
+    },
+    {
+      "fact_index": 100,
+      "paragraph_index": 20,
+      "fact": "Aleatorische Wahrscheinlichkeit wird auch als objektive Wahrscheinlichkeit bezeichnet.",
+      "fallback": false
+    },
+    {
+      "fact_index": 101,
+      "paragraph_index": 20,
+      "fact": "Aleatorische Wahrscheinlichkeit wird auch als statistische Wahrscheinlichkeit bezeichnet.",
+      "fallback": false
+    },
+    {
+      "fact_index": 102,
+      "paragraph_index": 20,
+      "fact": "Man unterscheidet deterministische physikalische Prozesse, die mit ausreichend genauer Information im Prinzip vorhersagbar wären.",
+      "fallback": false
+    },
+    {
+      "fact_index": 103,
+      "paragraph_index": 20,
+      "fact": "Der Würfelwurf ist ein Beispiel für einen deterministischen physikalischen Prozess.",
+      "fallback": false
+    },
+    {
+      "fact_index": 104,
+      "paragraph_index": 20,
+      "fact": "Die Wettervorhersage ist ein Beispiel für einen deterministischen physikalischen Prozess.",
+      "fallback": false
+    },
+    {
+      "fact_index": 105,
+      "paragraph_index": 20,
+      "fact": "Man unterscheidet nichtdeterministische Prozesse, die prinzipiell nicht vorhersagbar sind.",
+      "fallback": false
+    },
+    {
+      "fact_index": 106,
+      "paragraph_index": 20,
+      "fact": "Der radioaktive Zerfall ist ein Beispiel für einen nichtdeterministischen Prozess.",
+      "fallback": false
+    },
+    {
+      "fact_index": 107,
+      "paragraph_index": 21,
+      "fact": "Epistemische Wahrscheinlichkeit beschreibt die Unsicherheit über Aussagen, bei denen kausale Zusammenhänge und Hintergründe nur unvollständig bekannt sind.",
+      "fallback": false
+    },
+    {
+      "fact_index": 108,
+      "paragraph_index": 21,
+      "fact": "Epistemische Wahrscheinlichkeit wird auch als subjektive Wahrscheinlichkeit bezeichnet.",
+      "fallback": false
+    },
+    {
+      "fact_index": 109,
+      "paragraph_index": 21,
+      "fact": "Epistemische Wahrscheinlichkeit wird auch als personelle Wahrscheinlichkeit bezeichnet.",
+      "fallback": false
+    },
+    {
+      "fact_index": 110,
+      "paragraph_index": 21,
+      "fact": "Die Aussagen der epistemischen Wahrscheinlichkeit können sich auf vergangene Ereignisse beziehen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 111,
+      "paragraph_index": 21,
+      "fact": "Die Aussagen der epistemischen Wahrscheinlichkeit können sich auf zukünftige Ereignisse beziehen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 112,
+      "paragraph_index": 21,
+      "fact": "Naturgesetzen werden gelegentlich epistemische Wahrscheinlichkeiten zugeordnet.",
+      "fallback": false
+    },
+    {
+      "fact_index": 113,
+      "paragraph_index": 21,
+      "fact": "Aussagen in Politik werden gelegentlich epistemische Wahrscheinlichkeiten zugeordnet.",
+      "fallback": false
+    },
+    {
+      "fact_index": 114,
+      "paragraph_index": 21,
+      "fact": "Aussagen in Wirtschaft werden gelegentlich epistemische Wahrscheinlichkeiten zugeordnet.",
+      "fallback": false
+    },
+    {
+      "fact_index": 115,
+      "paragraph_index": 21,
+      "fact": "Aussagen in Rechtsprechung werden gelegentlich epistemische Wahrscheinlichkeiten zugeordnet.",
+      "fallback": false
+    },
+    {
+      "fact_index": 116,
+      "paragraph_index": 22,
+      "fact": "Aleatorische Wahrscheinlichkeit ist lose mit dem frequentistischen Wahrscheinlichkeitsbegriff assoziiert.",
+      "fallback": false
+    },
+    {
+      "fact_index": 117,
+      "paragraph_index": 22,
+      "fact": "Aleatorische Wahrscheinlichkeit ist lose mit dem bayesschen Wahrscheinlichkeitsbegriff assoziiert.",
+      "fallback": false
+    },
+    {
+      "fact_index": 118,
+      "paragraph_index": 22,
+      "fact": "Epistemische Wahrscheinlichkeit ist lose mit dem frequentistischen Wahrscheinlichkeitsbegriff assoziiert.",
+      "fallback": false
+    },
+    {
+      "fact_index": 119,
+      "paragraph_index": 22,
+      "fact": "Epistemische Wahrscheinlichkeit ist lose mit dem bayesschen Wahrscheinlichkeitsbegriff assoziiert.",
+      "fallback": false
+    },
+    {
+      "fact_index": 120,
+      "paragraph_index": 23,
+      "fact": "Es ist eine offene Frage, ob sich aleatorische Wahrscheinlichkeit auf epistemische Wahrscheinlichkeit reduzieren lässt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 121,
+      "paragraph_index": 23,
+      "fact": "Es ist eine offene Frage, ob sich epistemische Wahrscheinlichkeit auf aleatorische Wahrscheinlichkeit reduzieren lässt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 122,
+      "paragraph_index": 23,
+      "fact": "Es stellt sich die Frage, ob die Welt uns erscheint, weil wir nicht genug über sie wissen, zufällig zu sein.",
+      "fallback": false
+    },
+    {
+      "fact_index": 123,
+      "paragraph_index": 23,
+      "fact": "Es stellt sich die Frage, ob es fundamental zufällige Prozesse gibt, wie etwa die Kopenhagener Deutung der Quantenmechanik annimmt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 124,
+      "paragraph_index": 23,
+      "fact": "Für beide Standpunkte gelten dieselben mathematischen Regeln zum Umgang mit Wahrscheinlichkeiten.",
+      "fallback": false
+    },
+    {
+      "fact_index": 125,
+      "paragraph_index": 23,
+      "fact": "Die jeweilige Sichtweise hat wichtige Konsequenzen dafür, welche mathematischen Modelle als gültig angesehen werden.",
+      "fallback": false
+    }
+  ]
+}

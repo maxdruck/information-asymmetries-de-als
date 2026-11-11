@@ -1,0 +1,509 @@
+{
+  "pair_key": "gold__eichener_see",
+  "cluster": "Gold",
+  "als_page_id": "gold_eichener_see_als",
+  "de_page_id": "gold_eichener_see_de",
+  "pair_title": "Eichener See",
+  "page_id": "gold_eichener_see_de",
+  "page_title": "Eichener See",
+  "language_variety": "de",
+  "decomposition_model": "gemma-4-31b-it",
+  "decomposition_prompt_version": "iaa_atomic_balanced_fewshot_v2",
+  "num_paragraphs": 10,
+  "num_facts": 80,
+  "num_fallback_paragraphs": 0,
+  "paragraphs": [
+    "Der Eichener See (im Volksmund, alemannisch Eiemer See genannt) beim Schopfheimer Stadtteil Eichen im baden-württembergischen Landkreis Lörrach ist ein nur zeitweise (astatisch) erscheinender Karstsee. Der Eichener See ist Teil des FFH-Gebietes Dinkelberg und Röttler Wald. Der nur bei hohem Grundwasserstand wasserführende See liegt in einer Mulde, einer Muschelkalk-Karstwanne. Er hat keinen oberirdischen Zufluss, der Abfluss erfolgt teilweise unterirdisch und teilweise durch Verdunstung.",
+    "Der Eichener See liegt im Naturpark Südschwarzwald im nordöstlichen Randgebiet des Gebirgszugs Dinkelberg zwischen dem nahen Schopfheimer Ortsteil Eichen im Westen, der Gemeinde Hasel im Ostnordosten und der Kernstadt von Wehr etwa im Südosten. Er befindet sich 2,5 km westlich der Erdmannshöhle (Hasler Höhle) in einem flachen Tal rund 350 m südlich der Bundesstraße 518.",
+    "Geologisch handelt es sich um eine zeitweise mit Wasser gefüllte Doline, in der besonders nach der Schneeschmelze oder nach längeren Regenphasen Grundwasser zu Tage tritt (Erdfallsee). In trockenen Phasen kann der Flurabstand (Höhenunterschied zwischen Grundwasserspiegel und Erdoberfläche) bis zu 40 m betragen; dabei liegt der tiefste Punkt der das Grundwasser stauenden Wanne etwa 48 m unter der Erdoberfläche. Hintergrund der starken Schwankungen sind die Hohlräume des vorwiegend aus Muschelkalk bestehenden Dinkelbergs, die sich aufgrund eines Grundwasserstaus sehr schnell mit Wasser füllen können, hingegen nur langsam wieder leeren.",
+    "Der Seegrund ist von einer krautreichen Wiesengesellschaft bewachsen. Diese darf bei Trockenheit weder beweidet noch gedüngt werden. Im See lebt der Blattfußkrebs Tanymastix lacunae aus der Ordnung der Kiemenfüßer (Anostraca). Für seinen Lebenszyklus ist ein Austrocknen des Seegrundes unabdingbar. Für Deutschland ist hier der einzig gesicherte Fundort für sein Vorkommen, in ganz Europa sind lediglich sieben weitere sichere Fundorte bekannt.",
+    "Erstmals urkundlich erwähnt wird der See 1771, als fünf Menschen von einem gekenterten Boot in ihm ertranken. Auch 1876 und 1910 kamen Menschen in dem See um.",
+    "Die erste wissenschaftliche Beschreibung ist wohl der Artikel Von einem merkwürdigen See in der oberen Markgrafschaft Baden von Heinrich Sander, erschienen 1782 in der Zeitschrift Der Naturforscher. Der See mit seinen Uferbereichen steht seit 1939 unter besonderem Schutz, seit 1983 ist er mit einer Größe von 3,75 Hektar als flächiges Naturdenkmal ausgewiesen, zudem als Fauna-Flora-Habitat-Gebiet von europäischem Rang. Das Naturdenkmal wird umschlossen von einem 8,0 Hektar großen Landschaftsschutzgebiet (Nr. 3.36.012), das bereits mit Verordnung vom 26. April 1942 ausgewiesen wurde.",
+    "In besonders niederschlagsreichen Jahren kann der (oberirdisch sichtbare) Wasserstand bis zu drei Meter betragen und der See innerhalb von ein bis fünf Wochen eine Ausdehnung von 250 m Länge und 135 m Breite (ca. 2,5 ha) erreichen. Bis das gesamte zu Tage getretene Wasser wieder verschwindet, können acht bis 160 Tage vergehen.",
+    "Oberirdisch sichtbar wurde der Eichener See unter anderem zu folgenden Zeiten:",
+    "Ende Dezember 2023 André Hönig: Schopfheimer Naturphänomen: Der Eichener See ist wieder da. Badische Zeitung 8. Dezember 2023.",
+    "In einem großen unterirdischen Palast sollen Männlein hausen. Ganz in Kristall gestaltet, von strahlender Schönheit und angefüllt mit Gold und Silber, aber auch Edelsteinen, sollen sie ihn eingerichtet haben und niemand weiß, ob damit die uns bekannten hilfreichen Seemännlein oder andere Wichte gemeint sind. Die Sage berichtet, dass einst ein Eichener Bauer in einem über alle Maßen trockenen Sommer seine jüngste Tochter einem von ihnen zur Frau versprochen habe, wenn die Seewichte seine Felder immer ausreichend bewässern würden. Diese hielten sich an die Abmachung und die Felder und Matten des Bauern grünten prächtig, während die seiner Nachbarn zunehmend verdorrten. Das Mädchen hatte wohl etwas leichtfertig zu dem Vertrag ihres Vaters ja gesagt. Denn inzwischen hatte sie einen gutaussehenden Burschen kennen- und lieben gelernt, und sie mochte nicht mehr von ihm lassen. Jetzt bekam sie Angst, ihr ganzes Leben mit solch einem Wicht tief unten im Berg im Kristallschloß verbringen zu müssen. Sie weinte nachts und sann auf Auswege und je näher der vom Vater ausgemachte Tag herannahte umso verzweifelter wurde sie. Sie wusste wohl, hier würde sie den Männlein nicht entrinnen können. Da beschloss sie mit ihrem Liebsten die Heimat zu verlassen, weit fort, wo die Seewichte keine Macht mehr haben konnten. In der letzten Nacht trafen sich die beiden auf der Eichener Höhe und nahmen Abschied von der vertrauten Heimat. Gerade hatte ihr Liebster noch lachend gesagt, die Wichte würden am Morgen sehr dumm dreinschauen, wenn sie ihren Lohn, das Mädchen, abholen wollten, da schlug es auf der Schopfheimer Michaelskirche Mitternacht und ein unheimliches Rauschen begann in der Dunkelheit und von allen Seiten quollen Wassermassen hervor. Unter mächtigem Donnern und grellen Blitzen lief die Mulde voll. Die Unglücklichen klammerten sich eng aneinander und ehe sie fliehen konnten, schlug der See über ihnen zusammen und sie ertranken. Die Felder und Matten des Bauern wurden weggeschwemmt, dass nur noch der nackte Fels übrig blieb und seine Ernte war zerstört. Wenn jetzt von Zeit zu Zeit der See wieder einmal steigt, dann sagen sich die Eichener Bauern scheu: „Das sind die Seewichte, die Unterirdischen. Sie wollen uns wieder mal an den Verrat von damals erinnern.“"
+  ],
+  "facts": [
+    {
+      "fact_index": 0,
+      "paragraph_index": 0,
+      "fact": "Der Eichener See liegt beim Schopfheimer Stadtteil Eichen im baden-württembergischen Landkreis Lörrach.",
+      "fallback": false
+    },
+    {
+      "fact_index": 1,
+      "paragraph_index": 0,
+      "fact": "Der Eichener See wird im Volksmund alemannisch Eiemer See genannt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 2,
+      "paragraph_index": 0,
+      "fact": "Der Eichener See ist ein nur zeitweise (astatisch) erscheinender Karstsee.",
+      "fallback": false
+    },
+    {
+      "fact_index": 3,
+      "paragraph_index": 0,
+      "fact": "Der Eichener See ist Teil des FFH-Gebietes Dinkelberg und Röttler Wald.",
+      "fallback": false
+    },
+    {
+      "fact_index": 4,
+      "paragraph_index": 0,
+      "fact": "Der Eichener See ist nur bei hohem Grundwasserstand wasserführend.",
+      "fallback": false
+    },
+    {
+      "fact_index": 5,
+      "paragraph_index": 0,
+      "fact": "Der Eichener See liegt in einer Mulde, einer Muschelkalk-Karstwanne.",
+      "fallback": false
+    },
+    {
+      "fact_index": 6,
+      "paragraph_index": 0,
+      "fact": "Der Eichener See hat keinen oberirdischen Zufluss.",
+      "fallback": false
+    },
+    {
+      "fact_index": 7,
+      "paragraph_index": 0,
+      "fact": "Der Abfluss des Eichener Sees erfolgt teilweise unterirdisch.",
+      "fallback": false
+    },
+    {
+      "fact_index": 8,
+      "paragraph_index": 0,
+      "fact": "Der Abfluss des Eichener Sees erfolgt teilweise durch Verdunstung.",
+      "fallback": false
+    },
+    {
+      "fact_index": 9,
+      "paragraph_index": 1,
+      "fact": "Der Eichener See liegt im Naturpark Südschwarzwald im nordöstlichen Randgebiet des Gebirgszugs Dinkelberg.",
+      "fallback": false
+    },
+    {
+      "fact_index": 10,
+      "paragraph_index": 1,
+      "fact": "Der Eichener See liegt zwischen dem nahen Schopfheimer Ortsteil Eichen im Westen, der Gemeinde Hasel im Ostnordosten und der Kernstadt von Wehr etwa im Südosten.",
+      "fallback": false
+    },
+    {
+      "fact_index": 11,
+      "paragraph_index": 1,
+      "fact": "Der Eichener See befindet sich 2,5 km westlich der Erdmannshöhle (Hasler Höhle).",
+      "fallback": false
+    },
+    {
+      "fact_index": 12,
+      "paragraph_index": 1,
+      "fact": "Der Eichener See befindet sich in einem flachen Tal rund 350 m südlich der Bundesstraße 518.",
+      "fallback": false
+    },
+    {
+      "fact_index": 13,
+      "paragraph_index": 2,
+      "fact": "Geologisch handelt es sich um eine zeitweise mit Wasser gefüllte Doline.",
+      "fallback": false
+    },
+    {
+      "fact_index": 14,
+      "paragraph_index": 2,
+      "fact": "In der Doline tritt besonders nach der Schneeschmelze oder nach längeren Regenphasen Grundwasser zu Tage.",
+      "fallback": false
+    },
+    {
+      "fact_index": 15,
+      "paragraph_index": 2,
+      "fact": "Die Doline wird als Erdfallsee bezeichnet.",
+      "fallback": false
+    },
+    {
+      "fact_index": 16,
+      "paragraph_index": 2,
+      "fact": "In trockenen Phasen kann der Flurabstand bis zu 40 m betragen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 17,
+      "paragraph_index": 2,
+      "fact": "Der Flurabstand ist der Höhenunterschied zwischen Grundwasserspiegel und Erdoberfläche.",
+      "fallback": false
+    },
+    {
+      "fact_index": 18,
+      "paragraph_index": 2,
+      "fact": "Der tiefste Punkt der das Grundwasser stauenden Wanne liegt etwa 48 m unter der Erdoberfläche.",
+      "fallback": false
+    },
+    {
+      "fact_index": 19,
+      "paragraph_index": 2,
+      "fact": "Hintergrund der starken Schwankungen sind die Hohlräume des Dinkelbergs.",
+      "fallback": false
+    },
+    {
+      "fact_index": 20,
+      "paragraph_index": 2,
+      "fact": "Der Dinkelberg besteht vorwiegend aus Muschelkalk.",
+      "fallback": false
+    },
+    {
+      "fact_index": 21,
+      "paragraph_index": 2,
+      "fact": "Die Hohlräume des Dinkelbergs können sich aufgrund eines Grundwasserstaus sehr schnell mit Wasser füllen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 22,
+      "paragraph_index": 2,
+      "fact": "Die Hohlräume des Dinkelbergs leeren sich hingegen nur langsam wieder.",
+      "fallback": false
+    },
+    {
+      "fact_index": 23,
+      "paragraph_index": 3,
+      "fact": "Der Seegrund ist von einer krautreichen Wiesengesellschaft bewachsen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 24,
+      "paragraph_index": 3,
+      "fact": "Die krautreiche Wiesengesellschaft am Seegrund darf bei Trockenheit weder beweidet noch gedüngt werden.",
+      "fallback": false
+    },
+    {
+      "fact_index": 25,
+      "paragraph_index": 3,
+      "fact": "Im See lebt der Blattfußkrebs Tanymastix lacunae.",
+      "fallback": false
+    },
+    {
+      "fact_index": 26,
+      "paragraph_index": 3,
+      "fact": "Der Blattfußkrebs Tanymastix lacunae gehört zur Ordnung der Kiemenfüßer (Anostraca).",
+      "fallback": false
+    },
+    {
+      "fact_index": 27,
+      "paragraph_index": 3,
+      "fact": "Für den Lebenszyklus von Tanymastix lacunae ist ein Austrocknen des Seegrundes unabdingbar.",
+      "fallback": false
+    },
+    {
+      "fact_index": 28,
+      "paragraph_index": 3,
+      "fact": "Der See ist für Deutschland der einzig gesicherte Fundort für das Vorkommen von Tanymastix lacunae.",
+      "fallback": false
+    },
+    {
+      "fact_index": 29,
+      "paragraph_index": 3,
+      "fact": "In ganz Europa sind lediglich sieben weitere sichere Fundorte für Tanymastix lacunae bekannt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 30,
+      "paragraph_index": 4,
+      "fact": "Der See wird erstmals 1771 urkundlich erwähnt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 31,
+      "paragraph_index": 4,
+      "fact": "Im Jahr 1771 ertranken fünf Menschen in dem See, nachdem ihr Boot gekentert war.",
+      "fallback": false
+    },
+    {
+      "fact_index": 32,
+      "paragraph_index": 4,
+      "fact": "Im Jahr 1876 kamen Menschen in dem See um.",
+      "fallback": false
+    },
+    {
+      "fact_index": 33,
+      "paragraph_index": 4,
+      "fact": "Im Jahr 1910 kamen Menschen in dem See um.",
+      "fallback": false
+    },
+    {
+      "fact_index": 34,
+      "paragraph_index": 5,
+      "fact": "Die erste wissenschaftliche Beschreibung ist wohl der Artikel Von einem merkwürdigen See in der oberen Markgrafschaft Baden von Heinrich Sander.",
+      "fallback": false
+    },
+    {
+      "fact_index": 35,
+      "paragraph_index": 5,
+      "fact": "Der Artikel Von einem merkwürdigen See in der oberen Markgrafschaft Baden von Heinrich Sander erschien 1782 in der Zeitschrift Der Naturforscher.",
+      "fallback": false
+    },
+    {
+      "fact_index": 36,
+      "paragraph_index": 5,
+      "fact": "Der See mit seinen Uferbereichen steht seit 1939 unter besonderem Schutz.",
+      "fallback": false
+    },
+    {
+      "fact_index": 37,
+      "paragraph_index": 5,
+      "fact": "Der See ist seit 1983 mit einer Größe von 3,75 Hektar als flächiges Naturdenkmal ausgewiesen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 38,
+      "paragraph_index": 5,
+      "fact": "Der See ist als Fauna-Flora-Habitat-Gebiet von europäischem Rang ausgewiesen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 39,
+      "paragraph_index": 5,
+      "fact": "Das Naturdenkmal wird umschlossen von einem 8,0 Hektar großen Landschaftsschutzgebiet (Nr. 3.36.012).",
+      "fallback": false
+    },
+    {
+      "fact_index": 40,
+      "paragraph_index": 5,
+      "fact": "Das Landschaftsschutzgebiet (Nr. 3.36.012) wurde bereits mit Verordnung vom 26. April 1942 ausgewiesen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 41,
+      "paragraph_index": 6,
+      "fact": "In besonders niederschlagsreichen Jahren kann der oberirdisch sichtbare Wasserstand bis zu drei Meter betragen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 42,
+      "paragraph_index": 6,
+      "fact": "In besonders niederschlagsreichen Jahren kann der See innerhalb von ein bis fünf Wochen eine Ausdehnung von 250 m Länge und 135 m Breite erreichen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 43,
+      "paragraph_index": 6,
+      "fact": "In besonders niederschlagsreichen Jahren kann der See eine Ausdehnung von ca. 2,5 ha erreichen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 44,
+      "paragraph_index": 6,
+      "fact": "Bis das gesamte zu Tage getretene Wasser wieder verschwindet, können acht bis 160 Tage vergehen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 45,
+      "paragraph_index": 7,
+      "fact": "Der Eichener See wurde zu verschiedenen Zeiten oberirdisch sichtbar.",
+      "fallback": false
+    },
+    {
+      "fact_index": 46,
+      "paragraph_index": 8,
+      "fact": "Ende Dezember 2023 ist der Eichener See wieder da.",
+      "fallback": false
+    },
+    {
+      "fact_index": 47,
+      "paragraph_index": 9,
+      "fact": "In einem großen unterirdischen Palast sollen Männlein hausen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 48,
+      "paragraph_index": 9,
+      "fact": "Die Männlein sollen den Palast ganz in Kristall gestaltet haben.",
+      "fallback": false
+    },
+    {
+      "fact_index": 49,
+      "paragraph_index": 9,
+      "fact": "Der Palast soll von strahlender Schönheit sein.",
+      "fallback": false
+    },
+    {
+      "fact_index": 50,
+      "paragraph_index": 9,
+      "fact": "Der Palast soll angefüllt mit Gold und Silber sowie Edelsteinen sein.",
+      "fallback": false
+    },
+    {
+      "fact_index": 51,
+      "paragraph_index": 9,
+      "fact": "Es ist unbekannt, ob mit den Männlein die bekannten hilfreichen Seemännlein oder andere Wichte gemeint sind.",
+      "fallback": false
+    },
+    {
+      "fact_index": 52,
+      "paragraph_index": 9,
+      "fact": "Die Sage berichtet, dass ein Eichener Bauer in einem über alle Maßen trockenen Sommer seine jüngste Tochter einem der Männlein zur Frau versprochen habe.",
+      "fallback": false
+    },
+    {
+      "fact_index": 53,
+      "paragraph_index": 9,
+      "fact": "Die Bedingung des Versprechens war, dass die Seewichte die Felder des Bauern immer ausreichend bewässern würden.",
+      "fallback": false
+    },
+    {
+      "fact_index": 54,
+      "paragraph_index": 9,
+      "fact": "Die Seewichte hielten sich an die Abmachung.",
+      "fallback": false
+    },
+    {
+      "fact_index": 55,
+      "paragraph_index": 9,
+      "fact": "Die Felder und Matten des Bauern grünten prächtig.",
+      "fallback": false
+    },
+    {
+      "fact_index": 56,
+      "paragraph_index": 9,
+      "fact": "Die Felder und Matten der Nachbarn des Bauern verdorrten zunehmend.",
+      "fallback": false
+    },
+    {
+      "fact_index": 57,
+      "paragraph_index": 9,
+      "fact": "Das Mädchen hatte dem Vertrag ihres Vaters leichtfertig zugestimmt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 58,
+      "paragraph_index": 9,
+      "fact": "Das Mädchen hatte einen gutaussehenden Burschen kennen- und lieben gelernt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 59,
+      "paragraph_index": 9,
+      "fact": "Das Mädchen mochte nicht mehr von dem Burschen lassen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 60,
+      "paragraph_index": 9,
+      "fact": "Das Mädchen bekam Angst, ihr ganzes Leben mit einem Wicht tief unten im Berg im Kristallschloß verbringen zu müssen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 61,
+      "paragraph_index": 9,
+      "fact": "Das Mädchen weinte nachts und sann auf Auswege.",
+      "fallback": false
+    },
+    {
+      "fact_index": 62,
+      "paragraph_index": 9,
+      "fact": "Das Mädchen wurde verzweifelter, je näher der vom Vater ausgemachte Tag herannahte.",
+      "fallback": false
+    },
+    {
+      "fact_index": 63,
+      "paragraph_index": 9,
+      "fact": "Das Mädchen glaubte, dass sie den Männlein hier nicht entrinnen könne.",
+      "fallback": false
+    },
+    {
+      "fact_index": 64,
+      "paragraph_index": 9,
+      "fact": "Das Mädchen beschloss mit ihrem Liebsten die Heimat zu verlassen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 65,
+      "paragraph_index": 9,
+      "fact": "Sie wollten weit fort gehen, wo die Seewichte keine Macht mehr haben konnten.",
+      "fallback": false
+    },
+    {
+      "fact_index": 66,
+      "paragraph_index": 9,
+      "fact": "Die beiden trafen sich in der letzten Nacht auf der Eichener Höhe.",
+      "fallback": false
+    },
+    {
+      "fact_index": 67,
+      "paragraph_index": 9,
+      "fact": "Die beiden nahmen Abschied von der vertrauten Heimat.",
+      "fallback": false
+    },
+    {
+      "fact_index": 68,
+      "paragraph_index": 9,
+      "fact": "Der Liebste sagte lachend, dass die Wichte am Morgen dumm dreinschauen würden, wenn sie das Mädchen abholen wollten.",
+      "fallback": false
+    },
+    {
+      "fact_index": 69,
+      "paragraph_index": 9,
+      "fact": "Auf der Schopfheimer Michaelskirche schlug es Mitternacht.",
+      "fallback": false
+    },
+    {
+      "fact_index": 70,
+      "paragraph_index": 9,
+      "fact": "In der Dunkelheit begann ein unheimliches Rauschen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 71,
+      "paragraph_index": 9,
+      "fact": "Von allen Seiten quollen Wassermassen hervor.",
+      "fallback": false
+    },
+    {
+      "fact_index": 72,
+      "paragraph_index": 9,
+      "fact": "Unter mächtigem Donnern und grellen Blitzen lief die Mulde voll.",
+      "fallback": false
+    },
+    {
+      "fact_index": 73,
+      "paragraph_index": 9,
+      "fact": "Die beiden Unglücklichen klammerten sich eng aneinander.",
+      "fallback": false
+    },
+    {
+      "fact_index": 74,
+      "paragraph_index": 9,
+      "fact": "Der See schlug über den beiden zusammen, bevor sie fliehen konnten.",
+      "fallback": false
+    },
+    {
+      "fact_index": 75,
+      "paragraph_index": 9,
+      "fact": "Die beiden ertranken.",
+      "fallback": false
+    },
+    {
+      "fact_index": 76,
+      "paragraph_index": 9,
+      "fact": "Die Felder und Matten des Bauern wurden weggeschwemmt, sodass nur noch der nackte Fels übrig blieb.",
+      "fallback": false
+    },
+    {
+      "fact_index": 77,
+      "paragraph_index": 9,
+      "fact": "Die Ernte des Bauern war zerstört.",
+      "fallback": false
+    },
+    {
+      "fact_index": 78,
+      "paragraph_index": 9,
+      "fact": "Wenn der See von Zeit zu Zeit wieder steigt, sagen sich die Eichener Bauern, dass dies die Seewichte, die Unterirdischen, seien.",
+      "fallback": false
+    },
+    {
+      "fact_index": 79,
+      "paragraph_index": 9,
+      "fact": "Die Eichener Bauern sagen, dass die Seewichte sie an den Verrat von damals erinnern wollen.",
+      "fallback": false
+    }
+  ]
+}

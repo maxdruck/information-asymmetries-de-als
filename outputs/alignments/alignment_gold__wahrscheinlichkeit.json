@@ -1,0 +1,5090 @@
+{
+  "pair_key": "gold__wahrscheinlichkeit",
+  "cluster": "Gold",
+  "title": "Wahrscheinlichkeit",
+  "als_page_id": "gold_wahrscheinlichkeit_als",
+  "de_page_id": "gold_wahrscheinlichkeit_de",
+  "als_title": "Wahrscheinlichkeit",
+  "de_title": "Wahrscheinlichkeit",
+  "embed_model": "sentence-transformers/LaBSE",
+  "xfactalign_version": "paper_style_density_normalized_distance",
+  "top_k_facts": 2,
+  "paragraph_alignment": "directed_argmax_union",
+  "fact_retrieval_metric": "D(e_i,f_j)=1-cos(e_i,f_j)-hubness(f_j)",
+  "paragraph_adjacency": [
+    {
+      "de_paragraph": 0,
+      "als_paragraph": 0,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 0,
+      "als_paragraph": 13,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 1,
+      "als_paragraph": 2,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 1,
+      "als_paragraph": 14,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 2,
+      "als_paragraph": 0,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 2,
+      "als_paragraph": 1,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 3,
+      "als_paragraph": 2,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 3,
+      "als_paragraph": 4,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 3,
+      "als_paragraph": 5,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 4,
+      "als_paragraph": 3,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 5,
+      "als_paragraph": 6,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 6,
+      "als_paragraph": 7,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 7,
+      "als_paragraph": 6,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 8,
+      "als_paragraph": 8,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 9,
+      "als_paragraph": 9,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 9,
+      "als_paragraph": 21,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 10,
+      "als_paragraph": 10,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 11,
+      "als_paragraph": 21,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 12,
+      "als_paragraph": 11,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 13,
+      "als_paragraph": 0,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 14,
+      "als_paragraph": 0,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 15,
+      "als_paragraph": 4,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 15,
+      "als_paragraph": 12,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 16,
+      "als_paragraph": 15,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 17,
+      "als_paragraph": 9,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 18,
+      "als_paragraph": 17,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 19,
+      "als_paragraph": 16,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 19,
+      "als_paragraph": 18,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 20,
+      "als_paragraph": 19,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 21,
+      "als_paragraph": 20,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 22,
+      "als_paragraph": 21,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 23,
+      "als_paragraph": 11,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 23,
+      "als_paragraph": 22,
+      "weight": 2
+    }
+  ],
+  "de_to_als": [
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 0,
+      "source_fact": "Die Wahrscheinlichkeit ist ein allgemeines Maß der Erwartung für ein unsicheres Ereignis.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 0,
+          "target_fact": "Wahrscheinlichkeit (Probabilität) ist eine Einstufung von Urteilen und Aussagen nach dem Grad der Gewissheit.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1026
+        },
+        {
+          "target_fact_index": 2,
+          "target_fact": "Wahrscheinlichkeit gibt an, wie sicher man sein kann, dass etwas wahr ist.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0809
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 1,
+      "source_fact": "Mit der Wahrscheinlichkeit sollen Vorhersagen (Prognosen) über den Ausgang zukünftiger Ereignisse gemacht werden.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 0,
+          "target_fact": "Wahrscheinlichkeit (Probabilität) ist eine Einstufung von Urteilen und Aussagen nach dem Grad der Gewissheit.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0931
+        },
+        {
+          "target_fact_index": 1,
+          "target_fact": "Wahrscheinlichkeit betrifft vor allem Prognosen.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0777
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 2,
+      "source_fact": "Mit der Wahrscheinlichkeit soll bei bereits eingetretenen Ereignissen beurteilt werden, wie gewöhnlich oder ungewöhnlich sie sind.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 0,
+          "target_fact": "Wahrscheinlichkeit (Probabilität) ist eine Einstufung von Urteilen und Aussagen nach dem Grad der Gewissheit.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.029
+        },
+        {
+          "target_fact_index": 2,
+          "target_fact": "Wahrscheinlichkeit gibt an, wie sicher man sein kann, dass etwas wahr ist.",
+          "target_paragraph": 0,
+          "density_normalized_distance": 0.0279
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 3,
+      "source_fact": "In der Mathematik hat sich mit der Wahrscheinlichkeitstheorie ein eigenes Fachgebiet entwickelt.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 3,
+          "target_fact": "In der Mathematik entwickelte sich mit der Wahrscheinlichkeitstheorie ein eigenes Fachgebiet.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.4111
+        },
+        {
+          "target_fact_index": 4,
+          "target_fact": "Die Wahrscheinlichkeitstheorie beschreibt Wahrscheinlichkeiten als mathematische Objekte.",
+          "target_paragraph": 0,
+          "density_normalized_distance": 0.0073
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 4,
+      "source_fact": "Die Wahrscheinlichkeitstheorie hat mit Versuchen bei Glücksspielen begonnen.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 3,
+          "target_fact": "In der Mathematik entwickelte sich mit der Wahrscheinlichkeitstheorie ein eigenes Fachgebiet.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0672
+        },
+        {
+          "target_fact_index": 4,
+          "target_fact": "Die Wahrscheinlichkeitstheorie beschreibt Wahrscheinlichkeiten als mathematische Objekte.",
+          "target_paragraph": 0,
+          "density_normalized_distance": 0.0157
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 5,
+      "source_fact": "Die Wahrscheinlichkeitstheorie ist heute in so gut wie allen Lebensbereichen anzutreffen.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 5,
+          "target_fact": "Die Wahrscheinlichkeitstheorie überträgt die formalen Eigenschaften von Wahrscheinlichkeiten als mathematische Objekte auf Aussagen und Urteile im täglichen Leben und in der Philosophie.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.002
+        },
+        {
+          "target_fact_index": 2,
+          "target_fact": "Wahrscheinlichkeit gibt an, wie sicher man sein kann, dass etwas wahr ist.",
+          "target_paragraph": 0,
+          "density_normalized_distance": 0.0037
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 6,
+      "source_fact": "Die Wahrscheinlichkeit dafür, dass bei einem Zufallsexperiment ein bestimmtes Ereignis eintritt, ist nach Laplace das Zahlenverhältnis (Quotient) der Anzahl der günstigen Ergebnisse zur Anzahl der überhaupt möglichen Ergebnisse.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 7,
+          "target_fact": "Die Wahrscheinlichkeit von einem Ereignis ist das Verhältnis der günstigen Resultate zur Zahl aller Resultate.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1613
+        },
+        {
+          "target_fact_index": 72,
+          "target_fact": "Für abzählbar viele Ereignisse A_i \\in \\Sigma, i \\in \\mathbb{N}, die paarweise disjunkt sind (d. h. A_i \\cap A_j = \\emptyset \\quad \forall i \neq j), ist die Wahrscheinlichkeit der Vereinigung gleich der Summe der Wahrscheinlichkeiten: \\mathbb{P}\\left(\bigcup_{i \\in \\mathbb{N}}\right) = \\sum_{i \\in \\mathbb{N}} \\mathbb{P}(A_i)",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.0919
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 7,
+      "source_fact": "Die klassische Wahrscheinlichkeit unterscheidet sich von der Chance.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 9,
+          "target_fact": "Eine Wahrscheinlichkeit von 0,5 entspricht einer relativen Häufigkeit von 50 %.",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.0768
+        },
+        {
+          "target_fact_index": 8,
+          "target_fact": "Die Wahrscheinlichkeit, dass man mit einem Sechsseitigen Würfel eine ungerade Zahl wirft, ist 0,5.",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.1113
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 8,
+      "source_fact": "Die Chance ist als Quotient aus der Anzahl der günstigen zur Anzahl der ungünstigen Ergebnisse definiert.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 7,
+          "target_fact": "Die Wahrscheinlichkeit von einem Ereignis ist das Verhältnis der günstigen Resultate zur Zahl aller Resultate.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0711
+        },
+        {
+          "target_fact_index": 11,
+          "target_fact": "Bei einem Sechsseitigen Würfel haben drei der sechs Ergebnisse die Eigenschaft, eine ungerade Zahl zu sein.",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.0372
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 9,
+      "source_fact": "Die verschiedenen Wahrscheinlichkeitsdefinitionen unterscheiden sich darin, wie man den Zahlenwert der Wahrscheinlichkeit erhält.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 6,
+          "target_fact": "Es gibt verschiedene Auffassungen von Wahrscheinlichkeiten (Wahrscheinlichkeitsbegriffe).",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.0564
+        },
+        {
+          "target_fact_index": 2,
+          "target_fact": "Wahrscheinlichkeit gibt an, wie sicher man sein kann, dass etwas wahr ist.",
+          "target_paragraph": 0,
+          "density_normalized_distance": 0.0162
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 10,
+      "source_fact": "Wahrscheinlichkeitsdefinitionen sind Auffassungen von Wahrscheinlichkeit.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 1,
+          "target_fact": "Wahrscheinlichkeit betrifft vor allem Prognosen.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1553
+        },
+        {
+          "target_fact_index": 6,
+          "target_fact": "Es gibt verschiedene Auffassungen von Wahrscheinlichkeiten (Wahrscheinlichkeitsbegriffe).",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.1357
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 11,
+      "source_fact": "Bei einem idealen, „fairen“ Würfel wird kein Ergebnis durch unsymmetrische Massenverteilung oder Ähnliches bevorzugt.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 20,
+          "target_fact": "Bei einem fairen Würfel wird kein Ergebnis durch eine unsymmetrische Massenverteilung oder Ähnliches bevorzugt.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.5201
+        },
+        {
+          "target_fact_index": 21,
+          "target_fact": "Bei einem fairen Würfel hat jede Zahl die gleiche Chance.",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.0044
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 12,
+      "source_fact": "Bei einem idealen, „fairen“ Würfel hat wegen der Symmetrie jede der sechs Seiten von vornherein (A-priori-Wahrscheinlichkeit) die gleiche „Chance“, nach dem Wurf oben zu liegen.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 21,
+          "target_fact": "Bei einem fairen Würfel hat jede Zahl die gleiche Chance.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.1685
+        },
+        {
+          "target_fact_index": 10,
+          "target_fact": "Bei einem Sechsseitigen Würfel gibt es sechs Ergebnisse, die alle gleich möglich sind.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1631
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 13,
+      "source_fact": "Die Wahrscheinlichkeit, mit einem idealen, „fairen“ Würfel eine ungerade Zahl zu werfen, ist 3/6 = 0,5.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 25,
+          "target_fact": "Die Wahrscheinlichkeit für eine gerade Zahl ist 3/6 = 0,5.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.3126
+        },
+        {
+          "target_fact_index": 8,
+          "target_fact": "Die Wahrscheinlichkeit, dass man mit einem Sechsseitigen Würfel eine ungerade Zahl wirft, ist 0,5.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.2603
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 14,
+      "source_fact": "Bei dem Wurf einer ungeraden Zahl mit einem idealen, „fairen“ Würfel gibt es drei günstige Ergebnisse (1, 3, 5) bei sechs möglichen Ergebnissen.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 23,
+          "target_fact": "Die Wahrscheinlichkeit, eine gerade Zahl zu würfeln, wird so berechnet, dass es drei günstige Ergebnisse (2, 4, 6) gibt.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.2647
+        },
+        {
+          "target_fact_index": 24,
+          "target_fact": "Bei einem Würfel gibt es sechs mögliche Resultate.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.1818
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 15,
+      "source_fact": "Die klassische Definition wurde von Christiaan Huygens entwickelt.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 13,
+          "target_fact": "Die klassische Definition wurde von Christiaan Huygens entwickelt.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.4888
+        },
+        {
+          "target_fact_index": 15,
+          "target_fact": "Die klassische Definition wurde von Laplace formuliert.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.1901
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 16,
+      "source_fact": "Die klassische Definition wurde von Jakob I Bernoulli entwickelt.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 14,
+          "target_fact": "Die klassische Definition wurde von Jakob I. Bernoulli entwickelt.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.5187
+        },
+        {
+          "target_fact_index": 15,
+          "target_fact": "Die klassische Definition wurde von Laplace formuliert.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.2246
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 17,
+      "source_fact": "Die klassische Definition wurde von Laplace formuliert.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 15,
+          "target_fact": "Die klassische Definition wurde von Laplace formuliert.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.5208
+        },
+        {
+          "target_fact_index": 14,
+          "target_fact": "Die klassische Definition wurde von Jakob I. Bernoulli entwickelt.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.2262
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 18,
+      "source_fact": "Die klassische Definition ist die Grundlage der klassischen Wahrscheinlichkeitstheorie.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 16,
+          "target_fact": "Die klassische Definition ist die Grundlage für die klassische Wahrscheinlichkeitstheorie.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.3188
+        },
+        {
+          "target_fact_index": 15,
+          "target_fact": "Die klassische Definition wurde von Laplace formuliert.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.1807
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 19,
+      "source_fact": "Die Elementarereignisse besitzen bei der klassischen Definition gleiche A-priori-Eintrittswahrscheinlichkeiten.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 17,
+          "target_fact": "Die Elementarereignisse haben alle die gleiche Wahrscheinlichkeit, dass sie vorkommen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.1424
+        },
+        {
+          "target_fact_index": 15,
+          "target_fact": "Die klassische Definition wurde von Laplace formuliert.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.023
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 20,
+      "source_fact": "Der Versuch wird viele Male wiederholt.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 32,
+          "target_fact": "Ein Zufallsexperiment wird so vielmal wie möglich wiederholt.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.2314
+        },
+        {
+          "target_fact_index": 37,
+          "target_fact": "Die Voraussetzung ist, dass man ein Experiment so oft wie man will wiederholen kann.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.1741
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 21,
+      "source_fact": "Die relativen Häufigkeiten der jeweiligen Elementarereignisse werden berechnet.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 33,
+          "target_fact": "Nach der Wiederholung eines Zufallsexperiments werden die relativen Häufigkeiten der jeweiligen Elementarereignisse berechnet.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.2511
+        },
+        {
+          "target_fact_index": 41,
+          "target_fact": "Bei der Zerfallswahrscheinlichkeit eines Radionuklids sind die Experimente die einzelnen Zerfälle der Atomkerne, welche voneinander unabhängig sind.",
+          "target_paragraph": 6,
+          "density_normalized_distance": 0.0063
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 22,
+      "source_fact": "Die Wahrscheinlichkeit eines Ereignisses ist der Grenzwert, dem die relative Häufigkeit für unendlich viele Wiederholungen zustrebt.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 34,
+          "target_fact": "Die Wahrscheinlichkeit eines Ereignisses ist der Grenzwert seiner relativen Häufigkeit bei (theoretisch) unendlich vielen Wiederholungen.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.2589
+        },
+        {
+          "target_fact_index": 37,
+          "target_fact": "Die Voraussetzung ist, dass man ein Experiment so oft wie man will wiederholen kann.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.1355
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 23,
+      "source_fact": "Dies ist die sogenannte „Limes-Definition“ nach von Mises.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 35,
+          "target_fact": "Die Definition der Wahrscheinlichkeit als Grenzwert der relativen Häufigkeit ist die sogenannte Limes-Definition nach von Mises.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.1598
+        },
+        {
+          "target_fact_index": 36,
+          "target_fact": "Das Gesetz der großen Zahlen spielt bei der Limes-Definition eine zentrale Rolle.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.0136
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 24,
+      "source_fact": "Das Gesetz der großen Zahlen spielt hier eine zentrale Rolle.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 36,
+          "target_fact": "Das Gesetz der großen Zahlen spielt bei der Limes-Definition eine zentrale Rolle.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.3082
+        },
+        {
+          "target_fact_index": 38,
+          "target_fact": "Die Voraussetzung ist, dass die einzelnen Durchgänge voneinander unabhängig sind.",
+          "target_paragraph": 6,
+          "density_normalized_distance": 0.1914
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 25,
+      "source_fact": "Voraussetzung ist die beliebige Wiederholbarkeit des Experiments.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 37,
+          "target_fact": "Die Voraussetzung ist, dass man ein Experiment so oft wie man will wiederholen kann.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.3179
+        },
+        {
+          "target_fact_index": 32,
+          "target_fact": "Ein Zufallsexperiment wird so vielmal wie möglich wiederholt.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.1311
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 26,
+      "source_fact": "Voraussetzung ist, dass die einzelnen Durchgänge voneinander unabhängig sind.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 38,
+          "target_fact": "Die Voraussetzung ist, dass die einzelnen Durchgänge voneinander unabhängig sind.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.5517
+        },
+        {
+          "target_fact_index": 41,
+          "target_fact": "Bei der Zerfallswahrscheinlichkeit eines Radionuklids sind die Experimente die einzelnen Zerfälle der Atomkerne, welche voneinander unabhängig sind.",
+          "target_paragraph": 6,
+          "density_normalized_distance": 0.005
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 27,
+      "source_fact": "Ein anderer Name für dieses Konzept ist Frequentistischer Wahrscheinlichkeitsbegriff.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 39,
+          "target_fact": "Ein anderer Name für dieses Konzept ist frequentistischer Wahrscheinlichkeitsbegriff.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.3172
+        },
+        {
+          "target_fact_index": 40,
+          "target_fact": "Der frequentistische Wahrscheinlichkeitsbegriff ist zum Beispiel in der Physik bei der Zerfallswahrscheinlichkeit eines Radionuklids gemeint.",
+          "target_paragraph": 6,
+          "density_normalized_distance": 0.0054
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 28,
+      "source_fact": "In einem Beispiel wird 1000-mal gewürfelt.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 42,
+          "target_fact": "Bei 1000 Würfen fällt die Eins 100-mal.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.3517
+        },
+        {
+          "target_fact_index": 46,
+          "target_fact": "Bei 1000 Würfen fällt die Drei 150-mal.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.2686
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 29,
+      "source_fact": "Bei 1000 Würfen fällt die 1 100-mal.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 42,
+          "target_fact": "Bei 1000 Würfen fällt die Eins 100-mal.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.562
+        },
+        {
+          "target_fact_index": 46,
+          "target_fact": "Bei 1000 Würfen fällt die Drei 150-mal.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.4707
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 30,
+      "source_fact": "Die relative Häufigkeit der 1 beträgt 10 %.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 43,
+          "target_fact": "Die relative Häufigkeit der Eins bei 1000 Würfen entspricht 10 %.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.3209
+        },
+        {
+          "target_fact_index": 45,
+          "target_fact": "Die relative Häufigkeit der Zwei bei 1000 Würfen entspricht 15 %.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.2153
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 31,
+      "source_fact": "Bei 1000 Würfen fällt die 2 150-mal.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 44,
+          "target_fact": "Bei 1000 Würfen fällt die Zwei 150-mal.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.5656
+        },
+        {
+          "target_fact_index": 46,
+          "target_fact": "Bei 1000 Würfen fällt die Drei 150-mal.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.4995
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 32,
+      "source_fact": "Die relative Häufigkeit der 2 beträgt 15 %.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 45,
+          "target_fact": "Die relative Häufigkeit der Zwei bei 1000 Würfen entspricht 15 %.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.3025
+        },
+        {
+          "target_fact_index": 47,
+          "target_fact": "Die relative Häufigkeit der Drei bei 1000 Würfen entspricht 15 %.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.2586
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 33,
+      "source_fact": "Bei 1000 Würfen fällt die 3 150-mal.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 46,
+          "target_fact": "Bei 1000 Würfen fällt die Drei 150-mal.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.573
+        },
+        {
+          "target_fact_index": 44,
+          "target_fact": "Bei 1000 Würfen fällt die Zwei 150-mal.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.4995
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 34,
+      "source_fact": "Die relative Häufigkeit der 3 beträgt 15 %.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 47,
+          "target_fact": "Die relative Häufigkeit der Drei bei 1000 Würfen entspricht 15 %.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.3164
+        },
+        {
+          "target_fact_index": 45,
+          "target_fact": "Die relative Häufigkeit der Zwei bei 1000 Würfen entspricht 15 %.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.272
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 35,
+      "source_fact": "Bei 1000 Würfen fällt die 4 in 20 % der Fälle.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 48,
+          "target_fact": "Bei 1000 Würfen fällt die Vier in 20 % der Fälle.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.5587
+        },
+        {
+          "target_fact_index": 49,
+          "target_fact": "Bei 1000 Würfen fällt die Fünf in 30 % der Fälle.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.4161
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 36,
+      "source_fact": "Bei 1000 Würfen fällt die 5 in 30 % der Fälle.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 49,
+          "target_fact": "Bei 1000 Würfen fällt die Fünf in 30 % der Fälle.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.5728
+        },
+        {
+          "target_fact_index": 48,
+          "target_fact": "Bei 1000 Würfen fällt die Vier in 20 % der Fälle.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.42
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 37,
+      "source_fact": "Bei 1000 Würfen fällt die 6 in 10 % der Fälle.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 50,
+          "target_fact": "Bei 1000 Würfen fällt die Sechs in 10 % der Fälle.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.5421
+        },
+        {
+          "target_fact_index": 49,
+          "target_fact": "Bei 1000 Würfen fällt die Fünf in 30 % der Fälle.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.4299
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 38,
+      "source_fact": "Es kommt der Verdacht auf, dass der Würfel nicht fair ist.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 51,
+          "target_fact": "Es entsteht der Verdacht, dass dieser Würfel nicht fair ist.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.4871
+        },
+        {
+          "target_fact_index": 46,
+          "target_fact": "Bei 1000 Würfen fällt die Drei 150-mal.",
+          "target_paragraph": 7,
+          "density_normalized_distance": 0.1398
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 39,
+      "source_fact": "Wenn sich die Zahlen nach 10.000 Versuchen bei den angegebenen Werten stabilisiert haben, kann man mit einiger Sicherheit sagen, dass zum Beispiel die Wahrscheinlichkeit, eine 3 zu würfeln, bei 15 % liegt.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 53,
+          "target_fact": "Nach 10.000 Durchgängen kann man ziemlich sicher sein, dass die Wahrscheinlichkeit für eine Drei etwa 15 % ist.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.3128
+        },
+        {
+          "target_fact_index": 52,
+          "target_fact": "Nach 10.000 Durchgängen haben sich die Zahlen bei den oben angegebenen Werten stabilisiert.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.2401
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 40,
+      "source_fact": "Die Propensitätstheorie interpretiert Wahrscheinlichkeit als Maß für die Neigung eines Prozesses zu einem bestimmten Ergebnis.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 34,
+          "target_fact": "Die Wahrscheinlichkeit eines Ereignisses ist der Grenzwert seiner relativen Häufigkeit bei (theoretisch) unendlich vielen Wiederholungen.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.0076
+        },
+        {
+          "target_fact_index": 37,
+          "target_fact": "Die Voraussetzung ist, dass man ein Experiment so oft wie man will wiederholen kann.",
+          "target_paragraph": 6,
+          "density_normalized_distance": 0.0034
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 41,
+      "source_fact": "Dieser Wahrscheinlichkeitsbegriff ist zum Beispiel in der Physik bei der Zerfallswahrscheinlichkeit eines Radionuklids gemeint.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 40,
+          "target_fact": "Der frequentistische Wahrscheinlichkeitsbegriff ist zum Beispiel in der Physik bei der Zerfallswahrscheinlichkeit eines Radionuklids gemeint.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.2646
+        },
+        {
+          "target_fact_index": 41,
+          "target_fact": "Bei der Zerfallswahrscheinlichkeit eines Radionuklids sind die Experimente die einzelnen Zerfälle der Atomkerne, welche voneinander unabhängig sind.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.0789
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 42,
+      "source_fact": "Die Experimente sind bei der Zerfallswahrscheinlichkeit eines Radionuklids die einzelnen, voneinander unabhängigen Zerfälle der Atomkerne.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 41,
+          "target_fact": "Bei der Zerfallswahrscheinlichkeit eines Radionuklids sind die Experimente die einzelnen Zerfälle der Atomkerne, welche voneinander unabhängig sind.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.4669
+        },
+        {
+          "target_fact_index": 38,
+          "target_fact": "Die Voraussetzung ist, dass die einzelnen Durchgänge voneinander unabhängig sind.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.0321
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 43,
+      "source_fact": "Für jeden einzelnen Atomkern nimmt man eine charakteristische Neigung (propensity) zum Zerfall an.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 41,
+          "target_fact": "Bei der Zerfallswahrscheinlichkeit eines Radionuklids sind die Experimente die einzelnen Zerfälle der Atomkerne, welche voneinander unabhängig sind.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.0663
+        },
+        {
+          "target_fact_index": 38,
+          "target_fact": "Die Voraussetzung ist, dass die einzelnen Durchgänge voneinander unabhängig sind.",
+          "target_paragraph": 6,
+          "density_normalized_distance": 0.0987
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 44,
+      "source_fact": "Die charakteristische Neigung zum Zerfall eines Atomkerns ist unabhängig von seinem Alter.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 41,
+          "target_fact": "Bei der Zerfallswahrscheinlichkeit eines Radionuklids sind die Experimente die einzelnen Zerfälle der Atomkerne, welche voneinander unabhängig sind.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.0908
+        },
+        {
+          "target_fact_index": 38,
+          "target_fact": "Die Voraussetzung ist, dass die einzelnen Durchgänge voneinander unabhängig sind.",
+          "target_paragraph": 6,
+          "density_normalized_distance": 0.119
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 45,
+      "source_fact": "Die charakteristische Neigung zum Zerfall eines Atomkerns ist unabhängig von den Nachbarkernen.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 41,
+          "target_fact": "Bei der Zerfallswahrscheinlichkeit eines Radionuklids sind die Experimente die einzelnen Zerfälle der Atomkerne, welche voneinander unabhängig sind.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.1314
+        },
+        {
+          "target_fact_index": 38,
+          "target_fact": "Die Voraussetzung ist, dass die einzelnen Durchgänge voneinander unabhängig sind.",
+          "target_paragraph": 6,
+          "density_normalized_distance": 0.0642
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 46,
+      "source_fact": "In der nichtrelativistischen Quantenmechanik wird die Wellenfunktion eines Teilchens als seine fundamentale Beschreibung verwendet.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 54,
+          "target_fact": "In der nichtrelativistischen Quantenmechanik wird die Wellenfunktion eines Teilchens als seine fundamentale Beschreibung verwendet.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.455
+        },
+        {
+          "target_fact_index": 55,
+          "target_fact": "Das Integral vom Betragskwadrat der Wellenfunktion über einem Raumgebiet entspricht in der nichtrelativistischen Quantenmechanik der Wahrscheinlichkeit, dass man das Teilchen dort darin antrifft.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.1011
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 47,
+      "source_fact": "Die Wellenfunktion eines Teilchens ist in der nichtrelativistischen Quantenmechanik keine bloß statistische Wahrscheinlichkeit.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 54,
+          "target_fact": "In der nichtrelativistischen Quantenmechanik wird die Wellenfunktion eines Teilchens als seine fundamentale Beschreibung verwendet.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.2493
+        },
+        {
+          "target_fact_index": 55,
+          "target_fact": "Das Integral vom Betragskwadrat der Wellenfunktion über einem Raumgebiet entspricht in der nichtrelativistischen Quantenmechanik der Wahrscheinlichkeit, dass man das Teilchen dort darin antrifft.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.2289
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 48,
+      "source_fact": "Die Wellenfunktion eines Teilchens ist in der nichtrelativistischen Quantenmechanik eine nicht-determinierte Wahrscheinlichkeit.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 54,
+          "target_fact": "In der nichtrelativistischen Quantenmechanik wird die Wellenfunktion eines Teilchens als seine fundamentale Beschreibung verwendet.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.2525
+        },
+        {
+          "target_fact_index": 55,
+          "target_fact": "Das Integral vom Betragskwadrat der Wellenfunktion über einem Raumgebiet entspricht in der nichtrelativistischen Quantenmechanik der Wahrscheinlichkeit, dass man das Teilchen dort darin antrifft.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.2416
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 49,
+      "source_fact": "Wahrscheinlichkeiten sind Grade des Vertrauens in eine ungewisse Sache.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 97,
+          "target_fact": "Die aleatorische Wahrscheinlichkeit ist ein subjektiver Wahrscheinlichkeitsbegriff.",
+          "target_paragraph": 21,
+          "density_normalized_distance": 0.0434
+        },
+        {
+          "target_fact_index": 59,
+          "target_fact": "Zentrale Gesichtspunkte sind dabei Expertenwissen, Erfahrung und Intuition.",
+          "target_paragraph": 9,
+          "density_normalized_distance": 0.0482
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 50,
+      "source_fact": "Wahrscheinlichkeiten sind beste Schätzungen.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 59,
+          "target_fact": "Zentrale Gesichtspunkte sind dabei Expertenwissen, Erfahrung und Intuition.",
+          "target_paragraph": 9,
+          "density_normalized_distance": 0.0206
+        },
+        {
+          "target_fact_index": 97,
+          "target_fact": "Die aleatorische Wahrscheinlichkeit ist ein subjektiver Wahrscheinlichkeitsbegriff.",
+          "target_paragraph": 21,
+          "density_normalized_distance": 0.0376
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 51,
+      "source_fact": "Wahrscheinlichkeiten erhalten dadurch den Charakter von Hypothesen.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 60,
+          "target_fact": "Deshalb spricht man von einer subjektivistischen Wahrscheinlichkeitsauffassung.",
+          "target_paragraph": 9,
+          "density_normalized_distance": 0.0303
+        },
+        {
+          "target_fact_index": 59,
+          "target_fact": "Zentrale Gesichtspunkte sind dabei Expertenwissen, Erfahrung und Intuition.",
+          "target_paragraph": 9,
+          "density_normalized_distance": 0.0817
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 52,
+      "source_fact": "Bei einmaligen Zufallsereignissen kann man deren Eintretenswahrscheinlichkeit schätzen.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 58,
+          "target_fact": "Bei einmaligen Zufallsereignissen kann man nur schätzen und nicht berechnen, wie wahrscheinlich es ist, dass sie passieren.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.1768
+        },
+        {
+          "target_fact_index": 97,
+          "target_fact": "Die aleatorische Wahrscheinlichkeit ist ein subjektiver Wahrscheinlichkeitsbegriff.",
+          "target_paragraph": 21,
+          "density_normalized_distance": 0.0428
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 53,
+      "source_fact": "Expertenwissen ist ein zentraler Gesichtspunkt bei der Schätzung der Eintretenswahrscheinlichkeit einmaliger Zufallsereignisse.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 59,
+          "target_fact": "Zentrale Gesichtspunkte sind dabei Expertenwissen, Erfahrung und Intuition.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.121
+        },
+        {
+          "target_fact_index": 58,
+          "target_fact": "Bei einmaligen Zufallsereignissen kann man nur schätzen und nicht berechnen, wie wahrscheinlich es ist, dass sie passieren.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.0336
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 54,
+      "source_fact": "Erfahrung ist ein zentraler Gesichtspunkt bei der Schätzung der Eintretenswahrscheinlichkeit einmaliger Zufallsereignisse.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 59,
+          "target_fact": "Zentrale Gesichtspunkte sind dabei Expertenwissen, Erfahrung und Intuition.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.1023
+        },
+        {
+          "target_fact_index": 58,
+          "target_fact": "Bei einmaligen Zufallsereignissen kann man nur schätzen und nicht berechnen, wie wahrscheinlich es ist, dass sie passieren.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.053
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 55,
+      "source_fact": "Intuition ist ein zentraler Gesichtspunkt bei der Schätzung der Eintretenswahrscheinlichkeit einmaliger Zufallsereignisse.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 59,
+          "target_fact": "Zentrale Gesichtspunkte sind dabei Expertenwissen, Erfahrung und Intuition.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.0697
+        },
+        {
+          "target_fact_index": 58,
+          "target_fact": "Bei einmaligen Zufallsereignissen kann man nur schätzen und nicht berechnen, wie wahrscheinlich es ist, dass sie passieren.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.0591
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 56,
+      "source_fact": "Manche Hypothesen werden für wahrscheinlicher als andere gehalten.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 59,
+          "target_fact": "Zentrale Gesichtspunkte sind dabei Expertenwissen, Erfahrung und Intuition.",
+          "target_paragraph": 9,
+          "density_normalized_distance": 0.0871
+        },
+        {
+          "target_fact_index": 60,
+          "target_fact": "Deshalb spricht man von einer subjektivistischen Wahrscheinlichkeitsauffassung.",
+          "target_paragraph": 9,
+          "density_normalized_distance": 0.0945
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 57,
+      "source_fact": "Manche Hypothesen müssen aufgrund neuer Informationen geändert werden.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 59,
+          "target_fact": "Zentrale Gesichtspunkte sind dabei Expertenwissen, Erfahrung und Intuition.",
+          "target_paragraph": 9,
+          "density_normalized_distance": 0.0247
+        },
+        {
+          "target_fact_index": 60,
+          "target_fact": "Deshalb spricht man von einer subjektivistischen Wahrscheinlichkeitsauffassung.",
+          "target_paragraph": 9,
+          "density_normalized_distance": 0.1852
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 58,
+      "source_fact": "Manche Hypothesen müssen aufgrund neuer Informationen ganz verworfen werden.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 59,
+          "target_fact": "Zentrale Gesichtspunkte sind dabei Expertenwissen, Erfahrung und Intuition.",
+          "target_paragraph": 9,
+          "density_normalized_distance": 0.0302
+        },
+        {
+          "target_fact_index": 60,
+          "target_fact": "Deshalb spricht man von einer subjektivistischen Wahrscheinlichkeitsauffassung.",
+          "target_paragraph": 9,
+          "density_normalized_distance": 0.1921
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 59,
+      "source_fact": "Man spricht von einer subjektivistischen Wahrscheinlichkeitsauffassung.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 60,
+          "target_fact": "Deshalb spricht man von einer subjektivistischen Wahrscheinlichkeitsauffassung.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.315
+        },
+        {
+          "target_fact_index": 97,
+          "target_fact": "Die aleatorische Wahrscheinlichkeit ist ein subjektiver Wahrscheinlichkeitsbegriff.",
+          "target_paragraph": 21,
+          "density_normalized_distance": -0.1335
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 60,
+      "source_fact": "Nachdem jemand verschiedene Autos besessen hat, schätzt er die Wahrscheinlichkeit als hoch ein, mit der Marke XY auch beim nächsten Autokauf wieder zufrieden zu sein.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 61,
+          "target_fact": "Wenn jemand verschiedene Autos hatte, schätzt er die Wahrscheinlichkeit je nach seiner Erfahrung mit Autos einer gewissen Marke als hoch oder niedrig ein, dass er mit einem neuen Auto dieser Marke wieder zufrieden wäre.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.3147
+        },
+        {
+          "target_fact_index": 64,
+          "target_fact": "Solche Einschätzungen werden vom Gerede des Verkäufers beeinflusst.",
+          "target_paragraph": 10,
+          "density_normalized_distance": 0.1186
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 61,
+      "source_fact": "Ein Beispiel für diese Einschätzung ist die Aussage „Ich bin mir zu 80 % sicher“.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 64,
+          "target_fact": "Solche Einschätzungen werden vom Gerede des Verkäufers beeinflusst.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.0861
+        },
+        {
+          "target_fact_index": 63,
+          "target_fact": "Solche Einschätzungen werden von Testreports, die jemand gelesen hat, beeinflusst.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.0207
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 62,
+      "source_fact": "Dieser Vorhersagewert kann zum Beispiel durch einen Testbericht nach oben oder unten verändert werden.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 63,
+          "target_fact": "Solche Einschätzungen werden von Testreports, die jemand gelesen hat, beeinflusst.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.1503
+        },
+        {
+          "target_fact_index": 64,
+          "target_fact": "Solche Einschätzungen werden vom Gerede des Verkäufers beeinflusst.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.108
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 63,
+      "source_fact": "Diese intuitive Wahrscheinlichkeitserfassung birgt eine Vielzahl von Stolpersteinen.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 99,
+          "target_fact": "Die aleatorische Wahrscheinlichkeit ist mit dem frequentistischen Wahrscheinlichkeitsbegriff assoziiert.",
+          "target_paragraph": 21,
+          "density_normalized_distance": 0.0867
+        },
+        {
+          "target_fact_index": 97,
+          "target_fact": "Die aleatorische Wahrscheinlichkeit ist ein subjektiver Wahrscheinlichkeitsbegriff.",
+          "target_paragraph": 21,
+          "density_normalized_distance": 0.1038
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 64,
+      "source_fact": "Stolpersteine der intuitiven Wahrscheinlichkeitserfassung liegen in der subjektiven Wahrnehmung.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 97,
+          "target_fact": "Die aleatorische Wahrscheinlichkeit ist ein subjektiver Wahrscheinlichkeitsbegriff.",
+          "target_paragraph": 21,
+          "density_normalized_distance": -0.0662
+        },
+        {
+          "target_fact_index": 98,
+          "target_fact": "Die epistemische Wahrscheinlichkeit ist ein subjektiver Wahrscheinlichkeitsbegriff.",
+          "target_paragraph": 21,
+          "density_normalized_distance": -0.0604
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 65,
+      "source_fact": "In der subjektiven Wahrnehmung werden Risiken, wie etwa wegen erhöhter Geschwindigkeit zu verunfallen, tendenziell niedriger als die tatsächliche Wahrscheinlichkeit des Eintritts eingeschätzt.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 97,
+          "target_fact": "Die aleatorische Wahrscheinlichkeit ist ein subjektiver Wahrscheinlichkeitsbegriff.",
+          "target_paragraph": 21,
+          "density_normalized_distance": 0.0674
+        },
+        {
+          "target_fact_index": 99,
+          "target_fact": "Die aleatorische Wahrscheinlichkeit ist mit dem frequentistischen Wahrscheinlichkeitsbegriff assoziiert.",
+          "target_paragraph": 21,
+          "density_normalized_distance": 0.0755
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 66,
+      "source_fact": "In der subjektiven Wahrnehmung werden Chancen, wie etwa auf einen Lottogewinn, tendenziell höher als die tatsächliche Wahrscheinlichkeit des Eintritts eingeschätzt.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 97,
+          "target_fact": "Die aleatorische Wahrscheinlichkeit ist ein subjektiver Wahrscheinlichkeitsbegriff.",
+          "target_paragraph": 21,
+          "density_normalized_distance": 0.0308
+        },
+        {
+          "target_fact_index": 99,
+          "target_fact": "Die aleatorische Wahrscheinlichkeit ist mit dem frequentistischen Wahrscheinlichkeitsbegriff assoziiert.",
+          "target_paragraph": 21,
+          "density_normalized_distance": 0.0546
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 67,
+      "source_fact": "Stolpersteine der intuitiven Wahrscheinlichkeitserfassung liegen in asymmetrischen Informationen.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 97,
+          "target_fact": "Die aleatorische Wahrscheinlichkeit ist ein subjektiver Wahrscheinlichkeitsbegriff.",
+          "target_paragraph": 21,
+          "density_normalized_distance": 0.0531
+        },
+        {
+          "target_fact_index": 100,
+          "target_fact": "Die aleatorische Wahrscheinlichkeit ist mit dem bayesschen Wahrscheinlichkeitsbegriff assoziiert.",
+          "target_paragraph": 21,
+          "density_normalized_distance": 0.0627
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 68,
+      "source_fact": "Die subjektive Beurteilung von Unfallgefahren entspricht eher der Erwähnungshäufigkeit in den Medien als der tatsächlichen Unfallstatistik.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 97,
+          "target_fact": "Die aleatorische Wahrscheinlichkeit ist ein subjektiver Wahrscheinlichkeitsbegriff.",
+          "target_paragraph": 21,
+          "density_normalized_distance": 0.1019
+        },
+        {
+          "target_fact_index": 98,
+          "target_fact": "Die epistemische Wahrscheinlichkeit ist ein subjektiver Wahrscheinlichkeitsbegriff.",
+          "target_paragraph": 21,
+          "density_normalized_distance": 0.1255
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 69,
+      "source_fact": "Zu hoch eingeschätzte Eintrittswahrscheinlichkeiten eines Haiangriffes sind klassische Beispiele für die subjektive Beurteilung von Unfallgefahren.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 97,
+          "target_fact": "Die aleatorische Wahrscheinlichkeit ist ein subjektiver Wahrscheinlichkeitsbegriff.",
+          "target_paragraph": 21,
+          "density_normalized_distance": 0.0661
+        },
+        {
+          "target_fact_index": 98,
+          "target_fact": "Die epistemische Wahrscheinlichkeit ist ein subjektiver Wahrscheinlichkeitsbegriff.",
+          "target_paragraph": 21,
+          "density_normalized_distance": 0.1047
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 70,
+      "source_fact": "Zu hoch eingeschätzte Eintrittswahrscheinlichkeiten eines Flugunfalls sind klassische Beispiele für die subjektive Beurteilung von Unfallgefahren.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 97,
+          "target_fact": "Die aleatorische Wahrscheinlichkeit ist ein subjektiver Wahrscheinlichkeitsbegriff.",
+          "target_paragraph": 21,
+          "density_normalized_distance": 0.0301
+        },
+        {
+          "target_fact_index": 98,
+          "target_fact": "Die epistemische Wahrscheinlichkeit ist ein subjektiver Wahrscheinlichkeitsbegriff.",
+          "target_paragraph": 21,
+          "density_normalized_distance": 0.0704
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 71,
+      "source_fact": "A-priori-Wahrscheinlichkeiten können bei wiederholten Experimenten unter Anwendung der Bayes-Formel zu a-posteriori-Wahrscheinlichkeiten führen.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 100,
+          "target_fact": "Die aleatorische Wahrscheinlichkeit ist mit dem bayesschen Wahrscheinlichkeitsbegriff assoziiert.",
+          "target_paragraph": 21,
+          "density_normalized_distance": 0.0379
+        },
+        {
+          "target_fact_index": 102,
+          "target_fact": "Die epistemische Wahrscheinlichkeit ist mit dem bayesschen Wahrscheinlichkeitsbegriff assoziiert.",
+          "target_paragraph": 21,
+          "density_normalized_distance": 0.0639
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 72,
+      "source_fact": "A-posteriori-Wahrscheinlichkeiten ermöglichen bessere Schätzungen.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 97,
+          "target_fact": "Die aleatorische Wahrscheinlichkeit ist ein subjektiver Wahrscheinlichkeitsbegriff.",
+          "target_paragraph": 21,
+          "density_normalized_distance": 0.0501
+        },
+        {
+          "target_fact_index": 98,
+          "target_fact": "Die epistemische Wahrscheinlichkeit ist ein subjektiver Wahrscheinlichkeitsbegriff.",
+          "target_paragraph": 21,
+          "density_normalized_distance": 0.0994
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 73,
+      "source_fact": "Dies wird mit dem Schlagwort Lernen aus Erfahrung umschrieben.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 100,
+          "target_fact": "Die aleatorische Wahrscheinlichkeit ist mit dem bayesschen Wahrscheinlichkeitsbegriff assoziiert.",
+          "target_paragraph": 21,
+          "density_normalized_distance": 0.1621
+        },
+        {
+          "target_fact_index": 99,
+          "target_fact": "Die aleatorische Wahrscheinlichkeit ist mit dem frequentistischen Wahrscheinlichkeitsbegriff assoziiert.",
+          "target_paragraph": 21,
+          "density_normalized_distance": 0.1682
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 74,
+      "source_fact": "Die axiomatische Definition der Wahrscheinlichkeit nach Kolmogorow beruht auf Axiomen.",
+      "source_paragraph": 12,
+      "matches": [
+        {
+          "target_fact_index": 65,
+          "target_fact": "Die Definition der Wahrscheinlichkeit nach Kolmogorow ist heute für die Mathematik maßgebend.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.1692
+        },
+        {
+          "target_fact_index": 68,
+          "target_fact": "\\Sigma ist eine Menge von Untermengen von \\Omega und eine Teilmenge von 2^\\Omega.",
+          "target_paragraph": 11,
+          "density_normalized_distance": 0.0715
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 75,
+      "source_fact": "Die axiomatische Definition der Wahrscheinlichkeit nach Kolmogorow ist die heute für die Mathematik maßgebende Definition.",
+      "source_paragraph": 12,
+      "matches": [
+        {
+          "target_fact_index": 65,
+          "target_fact": "Die Definition der Wahrscheinlichkeit nach Kolmogorow ist heute für die Mathematik maßgebend.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.3444
+        },
+        {
+          "target_fact_index": 69,
+          "target_fact": "\\mathbb{P}: \\Sigma \\to \\mathbb{R} ist eine reellwertige Funktion, die folgende Axiome erfüllt.",
+          "target_paragraph": 11,
+          "density_normalized_distance": 0.0172
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 76,
+      "source_fact": "Die Stochastik ist die Mathematik des Zufalls.",
+      "source_paragraph": 13,
+      "matches": [
+        {
+          "target_fact_index": 4,
+          "target_fact": "Die Wahrscheinlichkeitstheorie beschreibt Wahrscheinlichkeiten als mathematische Objekte.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0422
+        },
+        {
+          "target_fact_index": 3,
+          "target_fact": "In der Mathematik entwickelte sich mit der Wahrscheinlichkeitstheorie ein eigenes Fachgebiet.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.021
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 77,
+      "source_fact": "Die Stochastik ist die Mathematik der Daten und des Zufalls.",
+      "source_paragraph": 13,
+      "matches": [
+        {
+          "target_fact_index": 4,
+          "target_fact": "Die Wahrscheinlichkeitstheorie beschreibt Wahrscheinlichkeiten als mathematische Objekte.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0661
+        },
+        {
+          "target_fact_index": 3,
+          "target_fact": "In der Mathematik entwickelte sich mit der Wahrscheinlichkeitstheorie ein eigenes Fachgebiet.",
+          "target_paragraph": 0,
+          "density_normalized_distance": 0.0078
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 78,
+      "source_fact": "Die Stochastik ist ein Teilgebiet der Mathematik.",
+      "source_paragraph": 13,
+      "matches": [
+        {
+          "target_fact_index": 3,
+          "target_fact": "In der Mathematik entwickelte sich mit der Wahrscheinlichkeitstheorie ein eigenes Fachgebiet.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.062
+        },
+        {
+          "target_fact_index": 4,
+          "target_fact": "Die Wahrscheinlichkeitstheorie beschreibt Wahrscheinlichkeiten als mathematische Objekte.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0112
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 79,
+      "source_fact": "Die Stochastik fasst als Oberbegriff die Gebiete Wahrscheinlichkeitstheorie und Mathematische Statistik zusammen.",
+      "source_paragraph": 13,
+      "matches": [
+        {
+          "target_fact_index": 4,
+          "target_fact": "Die Wahrscheinlichkeitstheorie beschreibt Wahrscheinlichkeiten als mathematische Objekte.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1048
+        },
+        {
+          "target_fact_index": 3,
+          "target_fact": "In der Mathematik entwickelte sich mit der Wahrscheinlichkeitstheorie ein eigenes Fachgebiet.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0451
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 80,
+      "source_fact": "Die Wahrscheinlichkeitsrechnung ist ein Teilgebiet der Stochastik.",
+      "source_paragraph": 14,
+      "matches": [
+        {
+          "target_fact_index": 4,
+          "target_fact": "Die Wahrscheinlichkeitstheorie beschreibt Wahrscheinlichkeiten als mathematische Objekte.",
+          "target_paragraph": 0,
+          "density_normalized_distance": 0.0012
+        },
+        {
+          "target_fact_index": 3,
+          "target_fact": "In der Mathematik entwickelte sich mit der Wahrscheinlichkeitstheorie ein eigenes Fachgebiet.",
+          "target_paragraph": 0,
+          "density_normalized_distance": 0.0033
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 81,
+      "source_fact": "Die Wahrscheinlichkeitstheorie ist ein Teilgebiet der Stochastik.",
+      "source_paragraph": 14,
+      "matches": [
+        {
+          "target_fact_index": 3,
+          "target_fact": "In der Mathematik entwickelte sich mit der Wahrscheinlichkeitstheorie ein eigenes Fachgebiet.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0483
+        },
+        {
+          "target_fact_index": 4,
+          "target_fact": "Die Wahrscheinlichkeitstheorie beschreibt Wahrscheinlichkeiten als mathematische Objekte.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0373
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 82,
+      "source_fact": "Die Wahrscheinlichkeitsrechnung stellt die Begriffe zur mathematischen Modellierung von Vorgängen bereit.",
+      "source_paragraph": 14,
+      "matches": [
+        {
+          "target_fact_index": 4,
+          "target_fact": "Die Wahrscheinlichkeitstheorie beschreibt Wahrscheinlichkeiten als mathematische Objekte.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.116
+        },
+        {
+          "target_fact_index": 5,
+          "target_fact": "Die Wahrscheinlichkeitstheorie überträgt die formalen Eigenschaften von Wahrscheinlichkeiten als mathematische Objekte auf Aussagen und Urteile im täglichen Leben und in der Philosophie.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0612
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 83,
+      "source_fact": "Die Wahrscheinlichkeitstheorie stellt die Begriffe zur mathematischen Modellierung von Vorgängen bereit.",
+      "source_paragraph": 14,
+      "matches": [
+        {
+          "target_fact_index": 4,
+          "target_fact": "Die Wahrscheinlichkeitstheorie beschreibt Wahrscheinlichkeiten als mathematische Objekte.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1383
+        },
+        {
+          "target_fact_index": 5,
+          "target_fact": "Die Wahrscheinlichkeitstheorie überträgt die formalen Eigenschaften von Wahrscheinlichkeiten als mathematische Objekte auf Aussagen und Urteile im täglichen Leben und in der Philosophie.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0868
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 84,
+      "source_fact": "Wahrscheinlichkeiten sind Zahlen zwischen 0 und 1",
+      "source_paragraph": 15,
+      "matches": [
+        {
+          "target_fact_index": 70,
+          "target_fact": "Für jedes Ereignis A \\in \\Sigma ist die Wahrscheinlichkeit von A eine reelle Zahl zwischen 0 und 1: 0 \\leq \\mathbb{P}(A) \\leq 1",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.1169
+        },
+        {
+          "target_fact_index": 25,
+          "target_fact": "Die Wahrscheinlichkeit für eine gerade Zahl ist 3/6 = 0,5.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.0436
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 85,
+      "source_fact": "Es wird oft behauptet, dass der Mensch ein schlechtes Gefühl für die Wahrscheinlichkeit besitze.",
+      "source_paragraph": 16,
+      "matches": [
+        {
+          "target_fact_index": 73,
+          "target_fact": "Es wird oft behauptet, dass der Mensch ein schlechtes Gefühl für die Wahrscheinlichkeit habe.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.4426
+        },
+        {
+          "target_fact_index": 74,
+          "target_fact": "In diesem Zusammenhang wird auch vom „Wahrscheinlichkeitsidioten“ gesprochen.",
+          "target_paragraph": 15,
+          "density_normalized_distance": 0.0338
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 86,
+      "source_fact": "In diesem Zusammenhang spricht man auch vom „Wahrscheinlichkeitsidioten“.",
+      "source_paragraph": 16,
+      "matches": [
+        {
+          "target_fact_index": 74,
+          "target_fact": "In diesem Zusammenhang wird auch vom „Wahrscheinlichkeitsidioten“ gesprochen.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.4378
+        },
+        {
+          "target_fact_index": 73,
+          "target_fact": "Es wird oft behauptet, dass der Mensch ein schlechtes Gefühl für die Wahrscheinlichkeit habe.",
+          "target_paragraph": 15,
+          "density_normalized_distance": 0.0348
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 87,
+      "source_fact": "Sie haben an einer Vorsorgeuntersuchung teilgenommen.",
+      "source_paragraph": 17,
+      "matches": [
+        {
+          "target_fact_index": 59,
+          "target_fact": "Zentrale Gesichtspunkte sind dabei Expertenwissen, Erfahrung und Intuition.",
+          "target_paragraph": 9,
+          "density_normalized_distance": 0.1475
+        },
+        {
+          "target_fact_index": 60,
+          "target_fact": "Deshalb spricht man von einer subjektivistischen Wahrscheinlichkeitsauffassung.",
+          "target_paragraph": 9,
+          "density_normalized_distance": 0.2413
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 88,
+      "source_fact": "Sie haben einen positiven Befund erhalten.",
+      "source_paragraph": 17,
+      "matches": [
+        {
+          "target_fact_index": 59,
+          "target_fact": "Zentrale Gesichtspunkte sind dabei Expertenwissen, Erfahrung und Intuition.",
+          "target_paragraph": 9,
+          "density_normalized_distance": 0.1978
+        },
+        {
+          "target_fact_index": 60,
+          "target_fact": "Deshalb spricht man von einer subjektivistischen Wahrscheinlichkeitsauffassung.",
+          "target_paragraph": 9,
+          "density_normalized_distance": 0.2756
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 89,
+      "source_fact": "Sie weisen im Vergleich zur Gesamtbevölkerung keine besonderen Risikofaktoren für die diagnostizierte Krankheit auf.",
+      "source_paragraph": 17,
+      "matches": [
+        {
+          "target_fact_index": 59,
+          "target_fact": "Zentrale Gesichtspunkte sind dabei Expertenwissen, Erfahrung und Intuition.",
+          "target_paragraph": 9,
+          "density_normalized_distance": 0.1095
+        },
+        {
+          "target_fact_index": 58,
+          "target_fact": "Bei einmaligen Zufallsereignissen kann man nur schätzen und nicht berechnen, wie wahrscheinlich es ist, dass sie passieren.",
+          "target_paragraph": 9,
+          "density_normalized_distance": 0.1289
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 90,
+      "source_fact": "Mit den Rechenmethoden der bedingten Wahrscheinlichkeit kann man das tatsächliche Risiko abschätzen.",
+      "source_paragraph": 17,
+      "matches": [
+        {
+          "target_fact_index": 58,
+          "target_fact": "Bei einmaligen Zufallsereignissen kann man nur schätzen und nicht berechnen, wie wahrscheinlich es ist, dass sie passieren.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.0234
+        },
+        {
+          "target_fact_index": 60,
+          "target_fact": "Deshalb spricht man von einer subjektivistischen Wahrscheinlichkeitsauffassung.",
+          "target_paragraph": 9,
+          "density_normalized_distance": 0.079
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 91,
+      "source_fact": "Für die Abschätzung des tatsächlichen Risikos werden die Rechenmethoden der bedingten Wahrscheinlichkeit genutzt.",
+      "source_paragraph": 17,
+      "matches": [
+        {
+          "target_fact_index": 58,
+          "target_fact": "Bei einmaligen Zufallsereignissen kann man nur schätzen und nicht berechnen, wie wahrscheinlich es ist, dass sie passieren.",
+          "target_paragraph": 9,
+          "density_normalized_distance": 0.0002
+        },
+        {
+          "target_fact_index": 60,
+          "target_fact": "Deshalb spricht man von einer subjektivistischen Wahrscheinlichkeitsauffassung.",
+          "target_paragraph": 9,
+          "density_normalized_distance": 0.0841
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 92,
+      "source_fact": "Die Abschätzung des tatsächlichen Risikos basiert auf dem Test.",
+      "source_paragraph": 17,
+      "matches": [
+        {
+          "target_fact_index": 59,
+          "target_fact": "Zentrale Gesichtspunkte sind dabei Expertenwissen, Erfahrung und Intuition.",
+          "target_paragraph": 9,
+          "density_normalized_distance": 0.0312
+        },
+        {
+          "target_fact_index": 60,
+          "target_fact": "Deshalb spricht man von einer subjektivistischen Wahrscheinlichkeitsauffassung.",
+          "target_paragraph": 9,
+          "density_normalized_distance": 0.0699
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 93,
+      "source_fact": "Die Abschätzung des tatsächlichen Risikos basiert auf der beobachteten Grundhäufigkeit der betreffenden Krankheit in der Gesamtbevölkerung.",
+      "source_paragraph": 17,
+      "matches": [
+        {
+          "target_fact_index": 58,
+          "target_fact": "Bei einmaligen Zufallsereignissen kann man nur schätzen und nicht berechnen, wie wahrscheinlich es ist, dass sie passieren.",
+          "target_paragraph": 9,
+          "density_normalized_distance": 0.0686
+        },
+        {
+          "target_fact_index": 59,
+          "target_fact": "Zentrale Gesichtspunkte sind dabei Expertenwissen, Erfahrung und Intuition.",
+          "target_paragraph": 9,
+          "density_normalized_distance": 0.1091
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 94,
+      "source_fact": "Über den mathematischen Umgang mit Wahrscheinlichkeiten herrscht weitgehend Einigkeit.",
+      "source_paragraph": 18,
+      "matches": [
+        {
+          "target_fact_index": 78,
+          "target_fact": "Aus der Sicht der Mathematik ist man sich weitgehend einig, wie man mit Wahrscheinlichkeiten umgeht.",
+          "target_paragraph": 17,
+          "density_normalized_distance": -0.2502
+        },
+        {
+          "target_fact_index": 79,
+          "target_fact": "Es gibt nur wenig Einigkeit darüber, wo man die Rechenregeln der mathematischen Theorie anwenden darf.",
+          "target_paragraph": 17,
+          "density_normalized_distance": -0.0674
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 95,
+      "source_fact": "Es besteht Uneinigkeit darüber, worauf die Rechenregeln der mathematischen Theorie angewendet werden dürfen.",
+      "source_paragraph": 18,
+      "matches": [
+        {
+          "target_fact_index": 79,
+          "target_fact": "Es gibt nur wenig Einigkeit darüber, wo man die Rechenregeln der mathematischen Theorie anwenden darf.",
+          "target_paragraph": 17,
+          "density_normalized_distance": -0.3508
+        },
+        {
+          "target_fact_index": 80,
+          "target_fact": "Daraus ergibt sich die Frage, wie der Begriff „Wahrscheinlichkeit“ interpretiert werden sollte.",
+          "target_paragraph": 17,
+          "density_normalized_distance": 0.0405
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 96,
+      "source_fact": "Die Uneinigkeit über die Anwendung der Rechenregeln führt zur Frage nach der Interpretation des Begriffs „Wahrscheinlichkeit“.",
+      "source_paragraph": 18,
+      "matches": [
+        {
+          "target_fact_index": 80,
+          "target_fact": "Daraus ergibt sich die Frage, wie der Begriff „Wahrscheinlichkeit“ interpretiert werden sollte.",
+          "target_paragraph": 17,
+          "density_normalized_distance": -0.1582
+        },
+        {
+          "target_fact_index": 79,
+          "target_fact": "Es gibt nur wenig Einigkeit darüber, wo man die Rechenregeln der mathematischen Theorie anwenden darf.",
+          "target_paragraph": 17,
+          "density_normalized_distance": -0.0185
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 97,
+      "source_fact": "Der Begriff „Wahrscheinlichkeit“ wird häufig in zwei verschiedenen Zusammenhängen gebraucht.",
+      "source_paragraph": 19,
+      "matches": [
+        {
+          "target_fact_index": 81,
+          "target_fact": "Der Begriff „Wahrscheinlichkeit“ wird oft in zwei verschiedenen Zusammenhängen gebraucht.",
+          "target_paragraph": 18,
+          "density_normalized_distance": -0.3507
+        },
+        {
+          "target_fact_index": 76,
+          "target_fact": "Die 23 Personen setzen sich aus zweimal elf Spielern und einem Schiedsrichter zusammen.",
+          "target_paragraph": 16,
+          "density_normalized_distance": -0.0316
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 98,
+      "source_fact": "Aleatorische Wahrscheinlichkeit beschreibt die relative Häufigkeit zukünftiger Ereignisse, die von einem zufälligen physikalischen Prozess bestimmt werden.",
+      "source_paragraph": 20,
+      "matches": [
+        {
+          "target_fact_index": 82,
+          "target_fact": "Die aleatorische Wahrscheinlichkeit beschreibt die relative Häufigkeit von zukünftigen Ereignissen, die von einem zufälligen physischen Prozess bestimmt werden.",
+          "target_paragraph": 19,
+          "density_normalized_distance": -0.2854
+        },
+        {
+          "target_fact_index": 86,
+          "target_fact": "Der Würfelwurf und Wetterprognosen sind Beispiele für deterministische physische Prozesse.",
+          "target_paragraph": 19,
+          "density_normalized_distance": -0.1249
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 99,
+      "source_fact": "Aleatorische Wahrscheinlichkeit wird auch als ontische Wahrscheinlichkeit bezeichnet.",
+      "source_paragraph": 20,
+      "matches": [
+        {
+          "target_fact_index": 83,
+          "target_fact": "Aleatorische Wahrscheinlichkeit wird auch ontische, objektive oder statistische Wahrscheinlichkeit genannt.",
+          "target_paragraph": 19,
+          "density_normalized_distance": -0.2074
+        },
+        {
+          "target_fact_index": 88,
+          "target_fact": "Der radioaktive Zerfall ist ein Beispiel für einen nichtdeterministischen Prozess.",
+          "target_paragraph": 19,
+          "density_normalized_distance": 0.0846
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 100,
+      "source_fact": "Aleatorische Wahrscheinlichkeit wird auch als objektive Wahrscheinlichkeit bezeichnet.",
+      "source_paragraph": 20,
+      "matches": [
+        {
+          "target_fact_index": 83,
+          "target_fact": "Aleatorische Wahrscheinlichkeit wird auch ontische, objektive oder statistische Wahrscheinlichkeit genannt.",
+          "target_paragraph": 19,
+          "density_normalized_distance": -0.2245
+        },
+        {
+          "target_fact_index": 87,
+          "target_fact": "Nichtdeterministische Prozesse sind prinzipiell nicht vorussagbar.",
+          "target_paragraph": 19,
+          "density_normalized_distance": 0.0434
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 101,
+      "source_fact": "Aleatorische Wahrscheinlichkeit wird auch als statistische Wahrscheinlichkeit bezeichnet.",
+      "source_paragraph": 20,
+      "matches": [
+        {
+          "target_fact_index": 83,
+          "target_fact": "Aleatorische Wahrscheinlichkeit wird auch ontische, objektive oder statistische Wahrscheinlichkeit genannt.",
+          "target_paragraph": 19,
+          "density_normalized_distance": -0.2385
+        },
+        {
+          "target_fact_index": 88,
+          "target_fact": "Der radioaktive Zerfall ist ein Beispiel für einen nichtdeterministischen Prozess.",
+          "target_paragraph": 19,
+          "density_normalized_distance": 0.0729
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 102,
+      "source_fact": "Man unterscheidet deterministische physikalische Prozesse, die mit ausreichend genauer Information im Prinzip vorhersagbar wären.",
+      "source_paragraph": 20,
+      "matches": [
+        {
+          "target_fact_index": 85,
+          "target_fact": "Deterministische physische Prozesse sind im Prinzip mit genügend Information genau genug vorussagbar.",
+          "target_paragraph": 19,
+          "density_normalized_distance": -0.3459
+        },
+        {
+          "target_fact_index": 84,
+          "target_fact": "Es wird zwischen deterministischen physischen Prozessen und nichtdeterministischen Prozessen unterschieden.",
+          "target_paragraph": 19,
+          "density_normalized_distance": -0.2062
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 103,
+      "source_fact": "Der Würfelwurf ist ein Beispiel für einen deterministischen physikalischen Prozess.",
+      "source_paragraph": 20,
+      "matches": [
+        {
+          "target_fact_index": 86,
+          "target_fact": "Der Würfelwurf und Wetterprognosen sind Beispiele für deterministische physische Prozesse.",
+          "target_paragraph": 19,
+          "density_normalized_distance": -0.3192
+        },
+        {
+          "target_fact_index": 88,
+          "target_fact": "Der radioaktive Zerfall ist ein Beispiel für einen nichtdeterministischen Prozess.",
+          "target_paragraph": 19,
+          "density_normalized_distance": -0.2279
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 104,
+      "source_fact": "Die Wettervorhersage ist ein Beispiel für einen deterministischen physikalischen Prozess.",
+      "source_paragraph": 20,
+      "matches": [
+        {
+          "target_fact_index": 86,
+          "target_fact": "Der Würfelwurf und Wetterprognosen sind Beispiele für deterministische physische Prozesse.",
+          "target_paragraph": 19,
+          "density_normalized_distance": -0.3483
+        },
+        {
+          "target_fact_index": 88,
+          "target_fact": "Der radioaktive Zerfall ist ein Beispiel für einen nichtdeterministischen Prozess.",
+          "target_paragraph": 19,
+          "density_normalized_distance": -0.1997
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 105,
+      "source_fact": "Man unterscheidet nichtdeterministische Prozesse, die prinzipiell nicht vorhersagbar sind.",
+      "source_paragraph": 20,
+      "matches": [
+        {
+          "target_fact_index": 87,
+          "target_fact": "Nichtdeterministische Prozesse sind prinzipiell nicht vorussagbar.",
+          "target_paragraph": 19,
+          "density_normalized_distance": -0.3898
+        },
+        {
+          "target_fact_index": 84,
+          "target_fact": "Es wird zwischen deterministischen physischen Prozessen und nichtdeterministischen Prozessen unterschieden.",
+          "target_paragraph": 19,
+          "density_normalized_distance": -0.2857
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 106,
+      "source_fact": "Der radioaktive Zerfall ist ein Beispiel für einen nichtdeterministischen Prozess.",
+      "source_paragraph": 20,
+      "matches": [
+        {
+          "target_fact_index": 88,
+          "target_fact": "Der radioaktive Zerfall ist ein Beispiel für einen nichtdeterministischen Prozess.",
+          "target_paragraph": 19,
+          "density_normalized_distance": -0.4692
+        },
+        {
+          "target_fact_index": 87,
+          "target_fact": "Nichtdeterministische Prozesse sind prinzipiell nicht vorussagbar.",
+          "target_paragraph": 19,
+          "density_normalized_distance": -0.1419
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 107,
+      "source_fact": "Epistemische Wahrscheinlichkeit beschreibt die Unsicherheit über Aussagen, bei denen kausale Zusammenhänge und Hintergründe nur unvollständig bekannt sind.",
+      "source_paragraph": 21,
+      "matches": [
+        {
+          "target_fact_index": 89,
+          "target_fact": "Die epistemische Wahrscheinlichkeit beschreibt die Unsicherheit über Aussagen, bei denen die kausalen Zusammenhänge und Hintergründe nur unvollständig bekannt sind.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.372
+        },
+        {
+          "target_fact_index": 95,
+          "target_fact": "Aussagen in der Wirtschaft können epistemische Wahrscheinlichkeiten enthalten.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.0496
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 108,
+      "source_fact": "Epistemische Wahrscheinlichkeit wird auch als subjektive Wahrscheinlichkeit bezeichnet.",
+      "source_paragraph": 21,
+      "matches": [
+        {
+          "target_fact_index": 90,
+          "target_fact": "Die epistemische Wahrscheinlichkeit wird auch als subjektive oder personelle Wahrscheinlichkeit bezeichnet.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.1763
+        },
+        {
+          "target_fact_index": 95,
+          "target_fact": "Aussagen in der Wirtschaft können epistemische Wahrscheinlichkeiten enthalten.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.0837
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 109,
+      "source_fact": "Epistemische Wahrscheinlichkeit wird auch als personelle Wahrscheinlichkeit bezeichnet.",
+      "source_paragraph": 21,
+      "matches": [
+        {
+          "target_fact_index": 90,
+          "target_fact": "Die epistemische Wahrscheinlichkeit wird auch als subjektive oder personelle Wahrscheinlichkeit bezeichnet.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.1792
+        },
+        {
+          "target_fact_index": 95,
+          "target_fact": "Aussagen in der Wirtschaft können epistemische Wahrscheinlichkeiten enthalten.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.0724
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 110,
+      "source_fact": "Die Aussagen der epistemischen Wahrscheinlichkeit können sich auf vergangene Ereignisse beziehen.",
+      "source_paragraph": 21,
+      "matches": [
+        {
+          "target_fact_index": 91,
+          "target_fact": "Die Aussagen der epistemischen Wahrscheinlichkeit können sich auf vergangene Ereignisse beziehen.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.3634
+        },
+        {
+          "target_fact_index": 92,
+          "target_fact": "Die Aussagen der epistemischen Wahrscheinlichkeit können sich auf zukünftige Ereignisse beziehen.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.2887
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 111,
+      "source_fact": "Die Aussagen der epistemischen Wahrscheinlichkeit können sich auf zukünftige Ereignisse beziehen.",
+      "source_paragraph": 21,
+      "matches": [
+        {
+          "target_fact_index": 92,
+          "target_fact": "Die Aussagen der epistemischen Wahrscheinlichkeit können sich auf zukünftige Ereignisse beziehen.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.339
+        },
+        {
+          "target_fact_index": 91,
+          "target_fact": "Die Aussagen der epistemischen Wahrscheinlichkeit können sich auf vergangene Ereignisse beziehen.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.3132
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 112,
+      "source_fact": "Naturgesetzen werden gelegentlich epistemische Wahrscheinlichkeiten zugeordnet.",
+      "source_paragraph": 21,
+      "matches": [
+        {
+          "target_fact_index": 93,
+          "target_fact": "Naturgesetzen werden manchmal epistemische Wahrscheinlichkeiten zugeschrieben.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.3675
+        },
+        {
+          "target_fact_index": 96,
+          "target_fact": "Aussagen in der Rechtsprechung können epistemische Wahrscheinlichkeiten enthalten.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.1361
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 113,
+      "source_fact": "Aussagen in Politik werden gelegentlich epistemische Wahrscheinlichkeiten zugeordnet.",
+      "source_paragraph": 21,
+      "matches": [
+        {
+          "target_fact_index": 94,
+          "target_fact": "Aussagen in der Politik können epistemische Wahrscheinlichkeiten enthalten.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.3005
+        },
+        {
+          "target_fact_index": 95,
+          "target_fact": "Aussagen in der Wirtschaft können epistemische Wahrscheinlichkeiten enthalten.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.2253
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 114,
+      "source_fact": "Aussagen in Wirtschaft werden gelegentlich epistemische Wahrscheinlichkeiten zugeordnet.",
+      "source_paragraph": 21,
+      "matches": [
+        {
+          "target_fact_index": 95,
+          "target_fact": "Aussagen in der Wirtschaft können epistemische Wahrscheinlichkeiten enthalten.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.3067
+        },
+        {
+          "target_fact_index": 94,
+          "target_fact": "Aussagen in der Politik können epistemische Wahrscheinlichkeiten enthalten.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.2147
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 115,
+      "source_fact": "Aussagen in Rechtsprechung werden gelegentlich epistemische Wahrscheinlichkeiten zugeordnet.",
+      "source_paragraph": 21,
+      "matches": [
+        {
+          "target_fact_index": 96,
+          "target_fact": "Aussagen in der Rechtsprechung können epistemische Wahrscheinlichkeiten enthalten.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.2757
+        },
+        {
+          "target_fact_index": 93,
+          "target_fact": "Naturgesetzen werden manchmal epistemische Wahrscheinlichkeiten zugeschrieben.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.2405
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 116,
+      "source_fact": "Aleatorische Wahrscheinlichkeit ist lose mit dem frequentistischen Wahrscheinlichkeitsbegriff assoziiert.",
+      "source_paragraph": 22,
+      "matches": [
+        {
+          "target_fact_index": 99,
+          "target_fact": "Die aleatorische Wahrscheinlichkeit ist mit dem frequentistischen Wahrscheinlichkeitsbegriff assoziiert.",
+          "target_paragraph": 21,
+          "density_normalized_distance": -0.282
+        },
+        {
+          "target_fact_index": 100,
+          "target_fact": "Die aleatorische Wahrscheinlichkeit ist mit dem bayesschen Wahrscheinlichkeitsbegriff assoziiert.",
+          "target_paragraph": 21,
+          "density_normalized_distance": -0.2486
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 117,
+      "source_fact": "Aleatorische Wahrscheinlichkeit ist lose mit dem bayesschen Wahrscheinlichkeitsbegriff assoziiert.",
+      "source_paragraph": 22,
+      "matches": [
+        {
+          "target_fact_index": 100,
+          "target_fact": "Die aleatorische Wahrscheinlichkeit ist mit dem bayesschen Wahrscheinlichkeitsbegriff assoziiert.",
+          "target_paragraph": 21,
+          "density_normalized_distance": -0.3256
+        },
+        {
+          "target_fact_index": 102,
+          "target_fact": "Die epistemische Wahrscheinlichkeit ist mit dem bayesschen Wahrscheinlichkeitsbegriff assoziiert.",
+          "target_paragraph": 21,
+          "density_normalized_distance": -0.253
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 118,
+      "source_fact": "Epistemische Wahrscheinlichkeit ist lose mit dem frequentistischen Wahrscheinlichkeitsbegriff assoziiert.",
+      "source_paragraph": 22,
+      "matches": [
+        {
+          "target_fact_index": 101,
+          "target_fact": "Die epistemische Wahrscheinlichkeit ist mit dem frequentistischen Wahrscheinlichkeitsbegriff assoziiert.",
+          "target_paragraph": 21,
+          "density_normalized_distance": -0.3081
+        },
+        {
+          "target_fact_index": 99,
+          "target_fact": "Die aleatorische Wahrscheinlichkeit ist mit dem frequentistischen Wahrscheinlichkeitsbegriff assoziiert.",
+          "target_paragraph": 21,
+          "density_normalized_distance": -0.2527
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 119,
+      "source_fact": "Epistemische Wahrscheinlichkeit ist lose mit dem bayesschen Wahrscheinlichkeitsbegriff assoziiert.",
+      "source_paragraph": 22,
+      "matches": [
+        {
+          "target_fact_index": 102,
+          "target_fact": "Die epistemische Wahrscheinlichkeit ist mit dem bayesschen Wahrscheinlichkeitsbegriff assoziiert.",
+          "target_paragraph": 21,
+          "density_normalized_distance": -0.3359
+        },
+        {
+          "target_fact_index": 100,
+          "target_fact": "Die aleatorische Wahrscheinlichkeit ist mit dem bayesschen Wahrscheinlichkeitsbegriff assoziiert.",
+          "target_paragraph": 21,
+          "density_normalized_distance": -0.302
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 120,
+      "source_fact": "Es ist eine offene Frage, ob sich aleatorische Wahrscheinlichkeit auf epistemische Wahrscheinlichkeit reduzieren lässt.",
+      "source_paragraph": 23,
+      "matches": [
+        {
+          "target_fact_index": 104,
+          "target_fact": "Es ist eine offene Frage, ob man die epistemische Wahrscheinlichkeit auf die aleatorische reduzieren kann.",
+          "target_paragraph": 22,
+          "density_normalized_distance": -0.3306
+        },
+        {
+          "target_fact_index": 103,
+          "target_fact": "Es ist eine offene Frage, ob man die aleatorische Wahrscheinlichkeit auf die epistemische reduzieren kann.",
+          "target_paragraph": 22,
+          "density_normalized_distance": -0.3288
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 121,
+      "source_fact": "Es ist eine offene Frage, ob sich epistemische Wahrscheinlichkeit auf aleatorische Wahrscheinlichkeit reduzieren lässt.",
+      "source_paragraph": 23,
+      "matches": [
+        {
+          "target_fact_index": 104,
+          "target_fact": "Es ist eine offene Frage, ob man die epistemische Wahrscheinlichkeit auf die aleatorische reduzieren kann.",
+          "target_paragraph": 22,
+          "density_normalized_distance": -0.3319
+        },
+        {
+          "target_fact_index": 103,
+          "target_fact": "Es ist eine offene Frage, ob man die aleatorische Wahrscheinlichkeit auf die epistemische reduzieren kann.",
+          "target_paragraph": 22,
+          "density_normalized_distance": -0.3278
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 122,
+      "source_fact": "Es stellt sich die Frage, ob die Welt uns erscheint, weil wir nicht genug über sie wissen, zufällig zu sein.",
+      "source_paragraph": 23,
+      "matches": [
+        {
+          "target_fact_index": 105,
+          "target_fact": "Es stellt sich die Frage, ob die Welt zufällig aussieht, weil man nicht genug über sie weiß.",
+          "target_paragraph": 22,
+          "density_normalized_distance": -0.4305
+        },
+        {
+          "target_fact_index": 106,
+          "target_fact": "Es stellt sich die Frage, ob es fundamental zufällige Prozesse gibt, wie es die objektive Deutung der Quantenmechanik annimmt.",
+          "target_paragraph": 22,
+          "density_normalized_distance": 0.0524
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 123,
+      "source_fact": "Es stellt sich die Frage, ob es fundamental zufällige Prozesse gibt, wie etwa die Kopenhagener Deutung der Quantenmechanik annimmt.",
+      "source_paragraph": 23,
+      "matches": [
+        {
+          "target_fact_index": 106,
+          "target_fact": "Es stellt sich die Frage, ob es fundamental zufällige Prozesse gibt, wie es die objektive Deutung der Quantenmechanik annimmt.",
+          "target_paragraph": 22,
+          "density_normalized_distance": -0.2932
+        },
+        {
+          "target_fact_index": 108,
+          "target_fact": "Die jeweilige Sichtweise hat wichtige Konsequenzen dafür, welche mathematischen Modelle als gültig angesehen werden.",
+          "target_paragraph": 22,
+          "density_normalized_distance": -0.0089
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 124,
+      "source_fact": "Für beide Standpunkte gelten dieselben mathematischen Regeln zum Umgang mit Wahrscheinlichkeiten.",
+      "source_paragraph": 23,
+      "matches": [
+        {
+          "target_fact_index": 107,
+          "target_fact": "Für beide Standpunkte gelten die gleichen mathematischen Regeln über einen Umgang mit Wahrscheinlichkeiten.",
+          "target_paragraph": 22,
+          "density_normalized_distance": -0.4254
+        },
+        {
+          "target_fact_index": 108,
+          "target_fact": "Die jeweilige Sichtweise hat wichtige Konsequenzen dafür, welche mathematischen Modelle als gültig angesehen werden.",
+          "target_paragraph": 22,
+          "density_normalized_distance": -0.1293
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 125,
+      "source_fact": "Die jeweilige Sichtweise hat wichtige Konsequenzen dafür, welche mathematischen Modelle als gültig angesehen werden.",
+      "source_paragraph": 23,
+      "matches": [
+        {
+          "target_fact_index": 108,
+          "target_fact": "Die jeweilige Sichtweise hat wichtige Konsequenzen dafür, welche mathematischen Modelle als gültig angesehen werden.",
+          "target_paragraph": 22,
+          "density_normalized_distance": -0.4932
+        },
+        {
+          "target_fact_index": 107,
+          "target_fact": "Für beide Standpunkte gelten die gleichen mathematischen Regeln über einen Umgang mit Wahrscheinlichkeiten.",
+          "target_paragraph": 22,
+          "density_normalized_distance": -0.0748
+        }
+      ]
+    }
+  ],
+  "als_to_de": [
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 0,
+      "source_fact": "Wahrscheinlichkeit (Probabilität) ist eine Einstufung von Urteilen und Aussagen nach dem Grad der Gewissheit.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 10,
+          "target_fact": "Wahrscheinlichkeitsdefinitionen sind Auffassungen von Wahrscheinlichkeit.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0552
+        },
+        {
+          "target_fact_index": 1,
+          "target_fact": "Mit der Wahrscheinlichkeit sollen Vorhersagen (Prognosen) über den Ausgang zukünftiger Ereignisse gemacht werden.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0543
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 1,
+      "source_fact": "Wahrscheinlichkeit betrifft vor allem Prognosen.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 10,
+          "target_fact": "Wahrscheinlichkeitsdefinitionen sind Auffassungen von Wahrscheinlichkeit.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0435
+        },
+        {
+          "target_fact_index": 1,
+          "target_fact": "Mit der Wahrscheinlichkeit sollen Vorhersagen (Prognosen) über den Ausgang zukünftiger Ereignisse gemacht werden.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0319
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 2,
+      "source_fact": "Wahrscheinlichkeit gibt an, wie sicher man sein kann, dass etwas wahr ist.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 0,
+          "target_fact": "Die Wahrscheinlichkeit ist ein allgemeines Maß der Erwartung für ein unsicheres Ereignis.",
+          "target_paragraph": 0,
+          "density_normalized_distance": 0.0299
+        },
+        {
+          "target_fact_index": 5,
+          "target_fact": "Die Wahrscheinlichkeitstheorie ist heute in so gut wie allen Lebensbereichen anzutreffen.",
+          "target_paragraph": 0,
+          "density_normalized_distance": 0.038
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 3,
+      "source_fact": "In der Mathematik entwickelte sich mit der Wahrscheinlichkeitstheorie ein eigenes Fachgebiet.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 3,
+          "target_fact": "In der Mathematik hat sich mit der Wahrscheinlichkeitstheorie ein eigenes Fachgebiet entwickelt.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.3878
+        },
+        {
+          "target_fact_index": 4,
+          "target_fact": "Die Wahrscheinlichkeitstheorie hat mit Versuchen bei Glücksspielen begonnen.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0831
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 4,
+      "source_fact": "Die Wahrscheinlichkeitstheorie beschreibt Wahrscheinlichkeiten als mathematische Objekte.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 83,
+          "target_fact": "Die Wahrscheinlichkeitstheorie stellt die Begriffe zur mathematischen Modellierung von Vorgängen bereit.",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.1716
+        },
+        {
+          "target_fact_index": 79,
+          "target_fact": "Die Stochastik fasst als Oberbegriff die Gebiete Wahrscheinlichkeitstheorie und Mathematische Statistik zusammen.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.1714
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 5,
+      "source_fact": "Die Wahrscheinlichkeitstheorie überträgt die formalen Eigenschaften von Wahrscheinlichkeiten als mathematische Objekte auf Aussagen und Urteile im täglichen Leben und in der Philosophie.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 83,
+          "target_fact": "Die Wahrscheinlichkeitstheorie stellt die Begriffe zur mathematischen Modellierung von Vorgängen bereit.",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.0608
+        },
+        {
+          "target_fact_index": 82,
+          "target_fact": "Die Wahrscheinlichkeitsrechnung stellt die Begriffe zur mathematischen Modellierung von Vorgängen bereit.",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.056
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 6,
+      "source_fact": "Es gibt verschiedene Auffassungen von Wahrscheinlichkeiten (Wahrscheinlichkeitsbegriffe).",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 10,
+          "target_fact": "Wahrscheinlichkeitsdefinitionen sind Auffassungen von Wahrscheinlichkeit.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1366
+        },
+        {
+          "target_fact_index": 9,
+          "target_fact": "Die verschiedenen Wahrscheinlichkeitsdefinitionen unterscheiden sich darin, wie man den Zahlenwert der Wahrscheinlichkeit erhält.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1158
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 7,
+      "source_fact": "Die Wahrscheinlichkeit von einem Ereignis ist das Verhältnis der günstigen Resultate zur Zahl aller Resultate.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 8,
+          "target_fact": "Die Chance ist als Quotient aus der Anzahl der günstigen zur Anzahl der ungünstigen Ergebnisse definiert.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.1822
+        },
+        {
+          "target_fact_index": 6,
+          "target_fact": "Die Wahrscheinlichkeit dafür, dass bei einem Zufallsexperiment ein bestimmtes Ereignis eintritt, ist nach Laplace das Zahlenverhältnis (Quotient) der Anzahl der günstigen Ergebnisse zur Anzahl der überhaupt möglichen Ergebnisse.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.1693
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 8,
+      "source_fact": "Die Wahrscheinlichkeit, dass man mit einem Sechsseitigen Würfel eine ungerade Zahl wirft, ist 0,5.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 13,
+          "target_fact": "Die Wahrscheinlichkeit, mit einem idealen, „fairen“ Würfel eine ungerade Zahl zu werfen, ist 3/6 = 0,5.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.2515
+        },
+        {
+          "target_fact_index": 14,
+          "target_fact": "Bei dem Wurf einer ungeraden Zahl mit einem idealen, „fairen“ Würfel gibt es drei günstige Ergebnisse (1, 3, 5) bei sechs möglichen Ergebnissen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.1955
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 9,
+      "source_fact": "Eine Wahrscheinlichkeit von 0,5 entspricht einer relativen Häufigkeit von 50 %.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 13,
+          "target_fact": "Die Wahrscheinlichkeit, mit einem idealen, „fairen“ Würfel eine ungerade Zahl zu werfen, ist 3/6 = 0,5.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.0881
+        },
+        {
+          "target_fact_index": 14,
+          "target_fact": "Bei dem Wurf einer ungeraden Zahl mit einem idealen, „fairen“ Würfel gibt es drei günstige Ergebnisse (1, 3, 5) bei sechs möglichen Ergebnissen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.0102
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 10,
+      "source_fact": "Bei einem Sechsseitigen Würfel gibt es sechs Ergebnisse, die alle gleich möglich sind.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 14,
+          "target_fact": "Bei dem Wurf einer ungeraden Zahl mit einem idealen, „fairen“ Würfel gibt es drei günstige Ergebnisse (1, 3, 5) bei sechs möglichen Ergebnissen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.203
+        },
+        {
+          "target_fact_index": 12,
+          "target_fact": "Bei einem idealen, „fairen“ Würfel hat wegen der Symmetrie jede der sechs Seiten von vornherein (A-priori-Wahrscheinlichkeit) die gleiche „Chance“, nach dem Wurf oben zu liegen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.0938
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 11,
+      "source_fact": "Bei einem Sechsseitigen Würfel haben drei der sechs Ergebnisse die Eigenschaft, eine ungerade Zahl zu sein.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 14,
+          "target_fact": "Bei dem Wurf einer ungeraden Zahl mit einem idealen, „fairen“ Würfel gibt es drei günstige Ergebnisse (1, 3, 5) bei sechs möglichen Ergebnissen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.2528
+        },
+        {
+          "target_fact_index": 12,
+          "target_fact": "Bei einem idealen, „fairen“ Würfel hat wegen der Symmetrie jede der sechs Seiten von vornherein (A-priori-Wahrscheinlichkeit) die gleiche „Chance“, nach dem Wurf oben zu liegen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.0611
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 12,
+      "source_fact": "Dies ist die sogenannte klassische Definition.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 17,
+          "target_fact": "Die klassische Definition wurde von Laplace formuliert.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.2318
+        },
+        {
+          "target_fact_index": 16,
+          "target_fact": "Die klassische Definition wurde von Jakob I Bernoulli entwickelt.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.1919
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 13,
+      "source_fact": "Die klassische Definition wurde von Christiaan Huygens entwickelt.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 15,
+          "target_fact": "Die klassische Definition wurde von Christiaan Huygens entwickelt.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.5015
+        },
+        {
+          "target_fact_index": 17,
+          "target_fact": "Die klassische Definition wurde von Laplace formuliert.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.216
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 14,
+      "source_fact": "Die klassische Definition wurde von Jakob I. Bernoulli entwickelt.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 16,
+          "target_fact": "Die klassische Definition wurde von Jakob I Bernoulli entwickelt.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.55
+        },
+        {
+          "target_fact_index": 17,
+          "target_fact": "Die klassische Definition wurde von Laplace formuliert.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.2502
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 15,
+      "source_fact": "Die klassische Definition wurde von Laplace formuliert.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 17,
+          "target_fact": "Die klassische Definition wurde von Laplace formuliert.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.5468
+        },
+        {
+          "target_fact_index": 16,
+          "target_fact": "Die klassische Definition wurde von Jakob I Bernoulli entwickelt.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.2577
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 16,
+      "source_fact": "Die klassische Definition ist die Grundlage für die klassische Wahrscheinlichkeitstheorie.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 18,
+          "target_fact": "Die klassische Definition ist die Grundlage der klassischen Wahrscheinlichkeitstheorie.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.3604
+        },
+        {
+          "target_fact_index": 17,
+          "target_fact": "Die klassische Definition wurde von Laplace formuliert.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.1962
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 17,
+      "source_fact": "Die Elementarereignisse haben alle die gleiche Wahrscheinlichkeit, dass sie vorkommen.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 19,
+          "target_fact": "Die Elementarereignisse besitzen bei der klassischen Definition gleiche A-priori-Eintrittswahrscheinlichkeiten.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.1447
+        },
+        {
+          "target_fact_index": 16,
+          "target_fact": "Die klassische Definition wurde von Jakob I Bernoulli entwickelt.",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.0997
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 18,
+      "source_fact": "Die Voraussetzung ist eine endliche Zahl von Resultaten.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 17,
+          "target_fact": "Die klassische Definition wurde von Laplace formuliert.",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.1524
+        },
+        {
+          "target_fact_index": 16,
+          "target_fact": "Die klassische Definition wurde von Jakob I Bernoulli entwickelt.",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.1752
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 19,
+      "source_fact": "Die Voraussetzung ist, dass die A-priori-Wahrscheinlichkeiten bekannt sind.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 19,
+          "target_fact": "Die Elementarereignisse besitzen bei der klassischen Definition gleiche A-priori-Eintrittswahrscheinlichkeiten.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.0087
+        },
+        {
+          "target_fact_index": 16,
+          "target_fact": "Die klassische Definition wurde von Jakob I Bernoulli entwickelt.",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.0336
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 20,
+      "source_fact": "Bei einem fairen Würfel wird kein Ergebnis durch eine unsymmetrische Massenverteilung oder Ähnliches bevorzugt.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 11,
+          "target_fact": "Bei einem idealen, „fairen“ Würfel wird kein Ergebnis durch unsymmetrische Massenverteilung oder Ähnliches bevorzugt.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.5034
+        },
+        {
+          "target_fact_index": 14,
+          "target_fact": "Bei dem Wurf einer ungeraden Zahl mit einem idealen, „fairen“ Würfel gibt es drei günstige Ergebnisse (1, 3, 5) bei sechs möglichen Ergebnissen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.106
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 21,
+      "source_fact": "Bei einem fairen Würfel hat jede Zahl die gleiche Chance.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 14,
+          "target_fact": "Bei dem Wurf einer ungeraden Zahl mit einem idealen, „fairen“ Würfel gibt es drei günstige Ergebnisse (1, 3, 5) bei sechs möglichen Ergebnissen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.1161
+        },
+        {
+          "target_fact_index": 12,
+          "target_fact": "Bei einem idealen, „fairen“ Würfel hat wegen der Symmetrie jede der sechs Seiten von vornherein (A-priori-Wahrscheinlichkeit) die gleiche „Chance“, nach dem Wurf oben zu liegen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.084
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 22,
+      "source_fact": "Bei einem fairen Würfel kommt jede Zahl in einem Sechstel aller Versuche vor.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 14,
+          "target_fact": "Bei dem Wurf einer ungeraden Zahl mit einem idealen, „fairen“ Würfel gibt es drei günstige Ergebnisse (1, 3, 5) bei sechs möglichen Ergebnissen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.0971
+        },
+        {
+          "target_fact_index": 12,
+          "target_fact": "Bei einem idealen, „fairen“ Würfel hat wegen der Symmetrie jede der sechs Seiten von vornherein (A-priori-Wahrscheinlichkeit) die gleiche „Chance“, nach dem Wurf oben zu liegen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": 0.0061
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 23,
+      "source_fact": "Die Wahrscheinlichkeit, eine gerade Zahl zu würfeln, wird so berechnet, dass es drei günstige Ergebnisse (2, 4, 6) gibt.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 14,
+          "target_fact": "Bei dem Wurf einer ungeraden Zahl mit einem idealen, „fairen“ Würfel gibt es drei günstige Ergebnisse (1, 3, 5) bei sechs möglichen Ergebnissen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.3353
+        },
+        {
+          "target_fact_index": 13,
+          "target_fact": "Die Wahrscheinlichkeit, mit einem idealen, „fairen“ Würfel eine ungerade Zahl zu werfen, ist 3/6 = 0,5.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.1682
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 24,
+      "source_fact": "Bei einem Würfel gibt es sechs mögliche Resultate.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 14,
+          "target_fact": "Bei dem Wurf einer ungeraden Zahl mit einem idealen, „fairen“ Würfel gibt es drei günstige Ergebnisse (1, 3, 5) bei sechs möglichen Ergebnissen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.2057
+        },
+        {
+          "target_fact_index": 12,
+          "target_fact": "Bei einem idealen, „fairen“ Würfel hat wegen der Symmetrie jede der sechs Seiten von vornherein (A-priori-Wahrscheinlichkeit) die gleiche „Chance“, nach dem Wurf oben zu liegen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": 0.0164
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 25,
+      "source_fact": "Die Wahrscheinlichkeit für eine gerade Zahl ist 3/6 = 0,5.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 13,
+          "target_fact": "Die Wahrscheinlichkeit, mit einem idealen, „fairen“ Würfel eine ungerade Zahl zu werfen, ist 3/6 = 0,5.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.3262
+        },
+        {
+          "target_fact_index": 14,
+          "target_fact": "Bei dem Wurf einer ungeraden Zahl mit einem idealen, „fairen“ Würfel gibt es drei günstige Ergebnisse (1, 3, 5) bei sechs möglichen Ergebnissen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.2167
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 26,
+      "source_fact": "Bei einem Glücksrad ist die Hälfte blau.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 14,
+          "target_fact": "Bei dem Wurf einer ungeraden Zahl mit einem idealen, „fairen“ Würfel gibt es drei günstige Ergebnisse (1, 3, 5) bei sechs möglichen Ergebnissen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": 0.0947
+        },
+        {
+          "target_fact_index": 12,
+          "target_fact": "Bei einem idealen, „fairen“ Würfel hat wegen der Symmetrie jede der sechs Seiten von vornherein (A-priori-Wahrscheinlichkeit) die gleiche „Chance“, nach dem Wurf oben zu liegen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": 0.1143
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 27,
+      "source_fact": "Bei einem Glücksrad ist ein Viertel gelb.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 14,
+          "target_fact": "Bei dem Wurf einer ungeraden Zahl mit einem idealen, „fairen“ Würfel gibt es drei günstige Ergebnisse (1, 3, 5) bei sechs möglichen Ergebnissen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": 0.0905
+        },
+        {
+          "target_fact_index": 12,
+          "target_fact": "Bei einem idealen, „fairen“ Würfel hat wegen der Symmetrie jede der sechs Seiten von vornherein (A-priori-Wahrscheinlichkeit) die gleiche „Chance“, nach dem Wurf oben zu liegen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": 0.1167
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 28,
+      "source_fact": "Bei einem Glücksrad ist das andere Viertel grün.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 14,
+          "target_fact": "Bei dem Wurf einer ungeraden Zahl mit einem idealen, „fairen“ Würfel gibt es drei günstige Ergebnisse (1, 3, 5) bei sechs möglichen Ergebnissen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": 0.0884
+        },
+        {
+          "target_fact_index": 12,
+          "target_fact": "Bei einem idealen, „fairen“ Würfel hat wegen der Symmetrie jede der sechs Seiten von vornherein (A-priori-Wahrscheinlichkeit) die gleiche „Chance“, nach dem Wurf oben zu liegen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": 0.0885
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 29,
+      "source_fact": "Die Chance auf Blau ist 1/2.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 13,
+          "target_fact": "Die Wahrscheinlichkeit, mit einem idealen, „fairen“ Würfel eine ungerade Zahl zu werfen, ist 3/6 = 0,5.",
+          "target_paragraph": 3,
+          "density_normalized_distance": 0.0069
+        },
+        {
+          "target_fact_index": 14,
+          "target_fact": "Bei dem Wurf einer ungeraden Zahl mit einem idealen, „fairen“ Würfel gibt es drei günstige Ergebnisse (1, 3, 5) bei sechs möglichen Ergebnissen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": 0.0834
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 30,
+      "source_fact": "Die Chance auf Gelb ist 1/4.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 13,
+          "target_fact": "Die Wahrscheinlichkeit, mit einem idealen, „fairen“ Würfel eine ungerade Zahl zu werfen, ist 3/6 = 0,5.",
+          "target_paragraph": 3,
+          "density_normalized_distance": 0.0318
+        },
+        {
+          "target_fact_index": 14,
+          "target_fact": "Bei dem Wurf einer ungeraden Zahl mit einem idealen, „fairen“ Würfel gibt es drei günstige Ergebnisse (1, 3, 5) bei sechs möglichen Ergebnissen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": 0.0906
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 31,
+      "source_fact": "Die Chance auf Grün ist 1/4.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 13,
+          "target_fact": "Die Wahrscheinlichkeit, mit einem idealen, „fairen“ Würfel eine ungerade Zahl zu werfen, ist 3/6 = 0,5.",
+          "target_paragraph": 3,
+          "density_normalized_distance": 0.0053
+        },
+        {
+          "target_fact_index": 14,
+          "target_fact": "Bei dem Wurf einer ungeraden Zahl mit einem idealen, „fairen“ Würfel gibt es drei günstige Ergebnisse (1, 3, 5) bei sechs möglichen Ergebnissen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": 0.057
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 32,
+      "source_fact": "Ein Zufallsexperiment wird so vielmal wie möglich wiederholt.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 20,
+          "target_fact": "Der Versuch wird viele Male wiederholt.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.282
+        },
+        {
+          "target_fact_index": 25,
+          "target_fact": "Voraussetzung ist die beliebige Wiederholbarkeit des Experiments.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.1607
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 33,
+      "source_fact": "Nach der Wiederholung eines Zufallsexperiments werden die relativen Häufigkeiten der jeweiligen Elementarereignisse berechnet.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 21,
+          "target_fact": "Die relativen Häufigkeiten der jeweiligen Elementarereignisse werden berechnet.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.289
+        },
+        {
+          "target_fact_index": 20,
+          "target_fact": "Der Versuch wird viele Male wiederholt.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.0715
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 34,
+      "source_fact": "Die Wahrscheinlichkeit eines Ereignisses ist der Grenzwert seiner relativen Häufigkeit bei (theoretisch) unendlich vielen Wiederholungen.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 22,
+          "target_fact": "Die Wahrscheinlichkeit eines Ereignisses ist der Grenzwert, dem die relative Häufigkeit für unendlich viele Wiederholungen zustrebt.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.2806
+        },
+        {
+          "target_fact_index": 20,
+          "target_fact": "Der Versuch wird viele Male wiederholt.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.0927
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 35,
+      "source_fact": "Die Definition der Wahrscheinlichkeit als Grenzwert der relativen Häufigkeit ist die sogenannte Limes-Definition nach von Mises.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 23,
+          "target_fact": "Dies ist die sogenannte „Limes-Definition“ nach von Mises.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.3111
+        },
+        {
+          "target_fact_index": 22,
+          "target_fact": "Die Wahrscheinlichkeit eines Ereignisses ist der Grenzwert, dem die relative Häufigkeit für unendlich viele Wiederholungen zustrebt.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.0301
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 36,
+      "source_fact": "Das Gesetz der großen Zahlen spielt bei der Limes-Definition eine zentrale Rolle.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 24,
+          "target_fact": "Das Gesetz der großen Zahlen spielt hier eine zentrale Rolle.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.3278
+        },
+        {
+          "target_fact_index": 23,
+          "target_fact": "Dies ist die sogenannte „Limes-Definition“ nach von Mises.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.0823
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 37,
+      "source_fact": "Die Voraussetzung ist, dass man ein Experiment so oft wie man will wiederholen kann.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 25,
+          "target_fact": "Voraussetzung ist die beliebige Wiederholbarkeit des Experiments.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.3268
+        },
+        {
+          "target_fact_index": 20,
+          "target_fact": "Der Versuch wird viele Male wiederholt.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.2041
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 38,
+      "source_fact": "Die Voraussetzung ist, dass die einzelnen Durchgänge voneinander unabhängig sind.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 26,
+          "target_fact": "Voraussetzung ist, dass die einzelnen Durchgänge voneinander unabhängig sind.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.5839
+        },
+        {
+          "target_fact_index": 42,
+          "target_fact": "Die Experimente sind bei der Zerfallswahrscheinlichkeit eines Radionuklids die einzelnen, voneinander unabhängigen Zerfälle der Atomkerne.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.0292
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 39,
+      "source_fact": "Ein anderer Name für dieses Konzept ist frequentistischer Wahrscheinlichkeitsbegriff.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 27,
+          "target_fact": "Ein anderer Name für dieses Konzept ist Frequentistischer Wahrscheinlichkeitsbegriff.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.3551
+        },
+        {
+          "target_fact_index": 41,
+          "target_fact": "Dieser Wahrscheinlichkeitsbegriff ist zum Beispiel in der Physik bei der Zerfallswahrscheinlichkeit eines Radionuklids gemeint.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.0712
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 40,
+      "source_fact": "Der frequentistische Wahrscheinlichkeitsbegriff ist zum Beispiel in der Physik bei der Zerfallswahrscheinlichkeit eines Radionuklids gemeint.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 41,
+          "target_fact": "Dieser Wahrscheinlichkeitsbegriff ist zum Beispiel in der Physik bei der Zerfallswahrscheinlichkeit eines Radionuklids gemeint.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.3686
+        },
+        {
+          "target_fact_index": 42,
+          "target_fact": "Die Experimente sind bei der Zerfallswahrscheinlichkeit eines Radionuklids die einzelnen, voneinander unabhängigen Zerfälle der Atomkerne.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.1142
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 41,
+      "source_fact": "Bei der Zerfallswahrscheinlichkeit eines Radionuklids sind die Experimente die einzelnen Zerfälle der Atomkerne, welche voneinander unabhängig sind.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 42,
+          "target_fact": "Die Experimente sind bei der Zerfallswahrscheinlichkeit eines Radionuklids die einzelnen, voneinander unabhängigen Zerfälle der Atomkerne.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.5045
+        },
+        {
+          "target_fact_index": 45,
+          "target_fact": "Die charakteristische Neigung zum Zerfall eines Atomkerns ist unabhängig von den Nachbarkernen.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.1835
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 42,
+      "source_fact": "Bei 1000 Würfen fällt die Eins 100-mal.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 29,
+          "target_fact": "Bei 1000 Würfen fällt die 1 100-mal.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.6119
+        },
+        {
+          "target_fact_index": 33,
+          "target_fact": "Bei 1000 Würfen fällt die 3 150-mal.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.47
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 43,
+      "source_fact": "Die relative Häufigkeit der Eins bei 1000 Würfen entspricht 10 %.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 37,
+          "target_fact": "Bei 1000 Würfen fällt die 6 in 10 % der Fälle.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.3657
+        },
+        {
+          "target_fact_index": 29,
+          "target_fact": "Bei 1000 Würfen fällt die 1 100-mal.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.3204
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 44,
+      "source_fact": "Bei 1000 Würfen fällt die Zwei 150-mal.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 31,
+          "target_fact": "Bei 1000 Würfen fällt die 2 150-mal.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.5867
+        },
+        {
+          "target_fact_index": 33,
+          "target_fact": "Bei 1000 Würfen fällt die 3 150-mal.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.5321
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 45,
+      "source_fact": "Die relative Häufigkeit der Zwei bei 1000 Würfen entspricht 15 %.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 31,
+          "target_fact": "Bei 1000 Würfen fällt die 2 150-mal.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.3255
+        },
+        {
+          "target_fact_index": 32,
+          "target_fact": "Die relative Häufigkeit der 2 beträgt 15 %.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.3053
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 46,
+      "source_fact": "Bei 1000 Würfen fällt die Drei 150-mal.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 33,
+          "target_fact": "Bei 1000 Würfen fällt die 3 150-mal.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.5953
+        },
+        {
+          "target_fact_index": 31,
+          "target_fact": "Bei 1000 Würfen fällt die 2 150-mal.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.5103
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 47,
+      "source_fact": "Die relative Häufigkeit der Drei bei 1000 Würfen entspricht 15 %.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 33,
+          "target_fact": "Bei 1000 Würfen fällt die 3 150-mal.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.3503
+        },
+        {
+          "target_fact_index": 34,
+          "target_fact": "Die relative Häufigkeit der 3 beträgt 15 %.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.3182
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 48,
+      "source_fact": "Bei 1000 Würfen fällt die Vier in 20 % der Fälle.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 35,
+          "target_fact": "Bei 1000 Würfen fällt die 4 in 20 % der Fälle.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.5649
+        },
+        {
+          "target_fact_index": 36,
+          "target_fact": "Bei 1000 Würfen fällt die 5 in 30 % der Fälle.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.4344
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 49,
+      "source_fact": "Bei 1000 Würfen fällt die Fünf in 30 % der Fälle.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 36,
+          "target_fact": "Bei 1000 Würfen fällt die 5 in 30 % der Fälle.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.5825
+        },
+        {
+          "target_fact_index": 37,
+          "target_fact": "Bei 1000 Würfen fällt die 6 in 10 % der Fälle.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.4395
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 50,
+      "source_fact": "Bei 1000 Würfen fällt die Sechs in 10 % der Fälle.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 37,
+          "target_fact": "Bei 1000 Würfen fällt die 6 in 10 % der Fälle.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.5757
+        },
+        {
+          "target_fact_index": 36,
+          "target_fact": "Bei 1000 Würfen fällt die 5 in 30 % der Fälle.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.4494
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 51,
+      "source_fact": "Es entsteht der Verdacht, dass dieser Würfel nicht fair ist.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 38,
+          "target_fact": "Es kommt der Verdacht auf, dass der Würfel nicht fair ist.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.5673
+        },
+        {
+          "target_fact_index": 33,
+          "target_fact": "Bei 1000 Würfen fällt die 3 150-mal.",
+          "target_paragraph": 6,
+          "density_normalized_distance": 0.0898
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 52,
+      "source_fact": "Nach 10.000 Durchgängen haben sich die Zahlen bei den oben angegebenen Werten stabilisiert.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 39,
+          "target_fact": "Wenn sich die Zahlen nach 10.000 Versuchen bei den angegebenen Werten stabilisiert haben, kann man mit einiger Sicherheit sagen, dass zum Beispiel die Wahrscheinlichkeit, eine 3 zu würfeln, bei 15 % liegt.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.1731
+        },
+        {
+          "target_fact_index": 29,
+          "target_fact": "Bei 1000 Würfen fällt die 1 100-mal.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.1245
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 53,
+      "source_fact": "Nach 10.000 Durchgängen kann man ziemlich sicher sein, dass die Wahrscheinlichkeit für eine Drei etwa 15 % ist.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 39,
+          "target_fact": "Wenn sich die Zahlen nach 10.000 Versuchen bei den angegebenen Werten stabilisiert haben, kann man mit einiger Sicherheit sagen, dass zum Beispiel die Wahrscheinlichkeit, eine 3 zu würfeln, bei 15 % liegt.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.3223
+        },
+        {
+          "target_fact_index": 33,
+          "target_fact": "Bei 1000 Würfen fällt die 3 150-mal.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.1961
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 54,
+      "source_fact": "In der nichtrelativistischen Quantenmechanik wird die Wellenfunktion eines Teilchens als seine fundamentale Beschreibung verwendet.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 46,
+          "target_fact": "In der nichtrelativistischen Quantenmechanik wird die Wellenfunktion eines Teilchens als seine fundamentale Beschreibung verwendet.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.4917
+        },
+        {
+          "target_fact_index": 48,
+          "target_fact": "Die Wellenfunktion eines Teilchens ist in der nichtrelativistischen Quantenmechanik eine nicht-determinierte Wahrscheinlichkeit.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.1949
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 55,
+      "source_fact": "Das Integral vom Betragskwadrat der Wellenfunktion über einem Raumgebiet entspricht in der nichtrelativistischen Quantenmechanik der Wahrscheinlichkeit, dass man das Teilchen dort darin antrifft.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 48,
+          "target_fact": "Die Wellenfunktion eines Teilchens ist in der nichtrelativistischen Quantenmechanik eine nicht-determinierte Wahrscheinlichkeit.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.1626
+        },
+        {
+          "target_fact_index": 47,
+          "target_fact": "Die Wellenfunktion eines Teilchens ist in der nichtrelativistischen Quantenmechanik keine bloß statistische Wahrscheinlichkeit.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.1436
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 56,
+      "source_fact": "Es handelt sich nicht um eine Wahrscheinlichkeit, die einfach nur statistisch ist.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 47,
+          "target_fact": "Die Wellenfunktion eines Teilchens ist in der nichtrelativistischen Quantenmechanik keine bloß statistische Wahrscheinlichkeit.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0571
+        },
+        {
+          "target_fact_index": 46,
+          "target_fact": "In der nichtrelativistischen Quantenmechanik wird die Wellenfunktion eines Teilchens als seine fundamentale Beschreibung verwendet.",
+          "target_paragraph": 8,
+          "density_normalized_distance": 0.0532
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 57,
+      "source_fact": "Es handelt sich um eine Wahrscheinlichkeit, die nicht-determiniert ist.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 48,
+          "target_fact": "Die Wellenfunktion eines Teilchens ist in der nichtrelativistischen Quantenmechanik eine nicht-determinierte Wahrscheinlichkeit.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0035
+        },
+        {
+          "target_fact_index": 46,
+          "target_fact": "In der nichtrelativistischen Quantenmechanik wird die Wellenfunktion eines Teilchens als seine fundamentale Beschreibung verwendet.",
+          "target_paragraph": 8,
+          "density_normalized_distance": 0.0868
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 58,
+      "source_fact": "Bei einmaligen Zufallsereignissen kann man nur schätzen und nicht berechnen, wie wahrscheinlich es ist, dass sie passieren.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 52,
+          "target_fact": "Bei einmaligen Zufallsereignissen kann man deren Eintretenswahrscheinlichkeit schätzen.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.1782
+        },
+        {
+          "target_fact_index": 90,
+          "target_fact": "Mit den Rechenmethoden der bedingten Wahrscheinlichkeit kann man das tatsächliche Risiko abschätzen.",
+          "target_paragraph": 17,
+          "density_normalized_distance": -0.0509
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 59,
+      "source_fact": "Zentrale Gesichtspunkte sind dabei Expertenwissen, Erfahrung und Intuition.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 87,
+          "target_fact": "Sie haben an einer Vorsorgeuntersuchung teilgenommen.",
+          "target_paragraph": 17,
+          "density_normalized_distance": -0.0015
+        },
+        {
+          "target_fact_index": 58,
+          "target_fact": "Manche Hypothesen müssen aufgrund neuer Informationen ganz verworfen werden.",
+          "target_paragraph": 9,
+          "density_normalized_distance": 0.0145
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 60,
+      "source_fact": "Deshalb spricht man von einer subjektivistischen Wahrscheinlichkeitsauffassung.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 59,
+          "target_fact": "Man spricht von einer subjektivistischen Wahrscheinlichkeitsauffassung.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.2545
+        },
+        {
+          "target_fact_index": 87,
+          "target_fact": "Sie haben an einer Vorsorgeuntersuchung teilgenommen.",
+          "target_paragraph": 17,
+          "density_normalized_distance": -0.0382
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 61,
+      "source_fact": "Wenn jemand verschiedene Autos hatte, schätzt er die Wahrscheinlichkeit je nach seiner Erfahrung mit Autos einer gewissen Marke als hoch oder niedrig ein, dass er mit einem neuen Auto dieser Marke wieder zufrieden wäre.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 60,
+          "target_fact": "Nachdem jemand verschiedene Autos besessen hat, schätzt er die Wahrscheinlichkeit als hoch ein, mit der Marke XY auch beim nächsten Autokauf wieder zufrieden zu sein.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.3686
+        },
+        {
+          "target_fact_index": 62,
+          "target_fact": "Dieser Vorhersagewert kann zum Beispiel durch einen Testbericht nach oben oder unten verändert werden.",
+          "target_paragraph": 10,
+          "density_normalized_distance": 0.047
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 62,
+      "source_fact": "Solche Einschätzungen werden von Geschichten, die Bekannte erzählen, beeinflusst.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 62,
+          "target_fact": "Dieser Vorhersagewert kann zum Beispiel durch einen Testbericht nach oben oder unten verändert werden.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.0656
+        },
+        {
+          "target_fact_index": 61,
+          "target_fact": "Ein Beispiel für diese Einschätzung ist die Aussage „Ich bin mir zu 80 % sicher“.",
+          "target_paragraph": 10,
+          "density_normalized_distance": 0.0031
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 63,
+      "source_fact": "Solche Einschätzungen werden von Testreports, die jemand gelesen hat, beeinflusst.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 62,
+          "target_fact": "Dieser Vorhersagewert kann zum Beispiel durch einen Testbericht nach oben oder unten verändert werden.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.1592
+        },
+        {
+          "target_fact_index": 61,
+          "target_fact": "Ein Beispiel für diese Einschätzung ist die Aussage „Ich bin mir zu 80 % sicher“.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.0112
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 64,
+      "source_fact": "Solche Einschätzungen werden vom Gerede des Verkäufers beeinflusst.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 62,
+          "target_fact": "Dieser Vorhersagewert kann zum Beispiel durch einen Testbericht nach oben oder unten verändert werden.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.0286
+        },
+        {
+          "target_fact_index": 61,
+          "target_fact": "Ein Beispiel für diese Einschätzung ist die Aussage „Ich bin mir zu 80 % sicher“.",
+          "target_paragraph": 10,
+          "density_normalized_distance": 0.0117
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 65,
+      "source_fact": "Die Definition der Wahrscheinlichkeit nach Kolmogorow ist heute für die Mathematik maßgebend.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 75,
+          "target_fact": "Die axiomatische Definition der Wahrscheinlichkeit nach Kolmogorow ist die heute für die Mathematik maßgebende Definition.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.311
+        },
+        {
+          "target_fact_index": 74,
+          "target_fact": "Die axiomatische Definition der Wahrscheinlichkeit nach Kolmogorow beruht auf Axiomen.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.1415
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 66,
+      "source_fact": "Man betrachtet einen Wahrscheinlichkeitsraum (\\mathbb{P}, \\Omega, \\Sigma).",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 122,
+          "target_fact": "Es stellt sich die Frage, ob die Welt uns erscheint, weil wir nicht genug über sie wissen, zufällig zu sein.",
+          "target_paragraph": 23,
+          "density_normalized_distance": 0.1589
+        },
+        {
+          "target_fact_index": 124,
+          "target_fact": "Für beide Standpunkte gelten dieselben mathematischen Regeln zum Umgang mit Wahrscheinlichkeiten.",
+          "target_paragraph": 23,
+          "density_normalized_distance": 0.1618
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 67,
+      "source_fact": "\\Omega ist eine Menge.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 122,
+          "target_fact": "Es stellt sich die Frage, ob die Welt uns erscheint, weil wir nicht genug über sie wissen, zufällig zu sein.",
+          "target_paragraph": 23,
+          "density_normalized_distance": 0.256
+        },
+        {
+          "target_fact_index": 123,
+          "target_fact": "Es stellt sich die Frage, ob es fundamental zufällige Prozesse gibt, wie etwa die Kopenhagener Deutung der Quantenmechanik annimmt.",
+          "target_paragraph": 23,
+          "density_normalized_distance": 0.2989
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 68,
+      "source_fact": "\\Sigma ist eine Menge von Untermengen von \\Omega und eine Teilmenge von 2^\\Omega.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 122,
+          "target_fact": "Es stellt sich die Frage, ob die Welt uns erscheint, weil wir nicht genug über sie wissen, zufällig zu sein.",
+          "target_paragraph": 23,
+          "density_normalized_distance": 0.1907
+        },
+        {
+          "target_fact_index": 74,
+          "target_fact": "Die axiomatische Definition der Wahrscheinlichkeit nach Kolmogorow beruht auf Axiomen.",
+          "target_paragraph": 12,
+          "density_normalized_distance": 0.2247
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 69,
+      "source_fact": "\\mathbb{P}: \\Sigma \\to \\mathbb{R} ist eine reellwertige Funktion, die folgende Axiome erfüllt.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 125,
+          "target_fact": "Die jeweilige Sichtweise hat wichtige Konsequenzen dafür, welche mathematischen Modelle als gültig angesehen werden.",
+          "target_paragraph": 23,
+          "density_normalized_distance": 0.081
+        },
+        {
+          "target_fact_index": 75,
+          "target_fact": "Die axiomatische Definition der Wahrscheinlichkeit nach Kolmogorow ist die heute für die Mathematik maßgebende Definition.",
+          "target_paragraph": 12,
+          "density_normalized_distance": 0.1482
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 70,
+      "source_fact": "Für jedes Ereignis A \\in \\Sigma ist die Wahrscheinlichkeit von A eine reelle Zahl zwischen 0 und 1: 0 \\leq \\mathbb{P}(A) \\leq 1",
+      "source_paragraph": 12,
+      "matches": [
+        {
+          "target_fact_index": 84,
+          "target_fact": "Wahrscheinlichkeiten sind Zahlen zwischen 0 und 1",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.028
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 71,
+      "source_fact": "Das sichere Ereignis \\Omega hat die Wahrscheinlichkeit 1: \\mathbb{P}(\\Omega) = 1",
+      "source_paragraph": 13,
+      "matches": [
+        {
+          "target_fact_index": 0,
+          "target_fact": "Die Wahrscheinlichkeit ist ein allgemeines Maß der Erwartung für ein unsicheres Ereignis.",
+          "target_paragraph": 0,
+          "density_normalized_distance": 0.1465
+        },
+        {
+          "target_fact_index": 1,
+          "target_fact": "Mit der Wahrscheinlichkeit sollen Vorhersagen (Prognosen) über den Ausgang zukünftiger Ereignisse gemacht werden.",
+          "target_paragraph": 0,
+          "density_normalized_distance": 0.1582
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 72,
+      "source_fact": "Für abzählbar viele Ereignisse A_i \\in \\Sigma, i \\in \\mathbb{N}, die paarweise disjunkt sind (d. h. A_i \\cap A_j = \\emptyset \\quad \forall i \neq j), ist die Wahrscheinlichkeit der Vereinigung gleich der Summe der Wahrscheinlichkeiten: \\mathbb{P}\\left(\bigcup_{i \\in \\mathbb{N}}\right) = \\sum_{i \\in \\mathbb{N}} \\mathbb{P}(A_i)",
+      "source_paragraph": 14,
+      "matches": [
+        {
+          "target_fact_index": 6,
+          "target_fact": "Die Wahrscheinlichkeit dafür, dass bei einem Zufallsexperiment ein bestimmtes Ereignis eintritt, ist nach Laplace das Zahlenverhältnis (Quotient) der Anzahl der günstigen Ergebnisse zur Anzahl der überhaupt möglichen Ergebnisse.",
+          "target_paragraph": 1,
+          "density_normalized_distance": 0.0437
+        },
+        {
+          "target_fact_index": 8,
+          "target_fact": "Die Chance ist als Quotient aus der Anzahl der günstigen zur Anzahl der ungünstigen Ergebnisse definiert.",
+          "target_paragraph": 1,
+          "density_normalized_distance": 0.1011
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 73,
+      "source_fact": "Es wird oft behauptet, dass der Mensch ein schlechtes Gefühl für die Wahrscheinlichkeit habe.",
+      "source_paragraph": 15,
+      "matches": [
+        {
+          "target_fact_index": 85,
+          "target_fact": "Es wird oft behauptet, dass der Mensch ein schlechtes Gefühl für die Wahrscheinlichkeit besitze.",
+          "target_paragraph": 16,
+          "density_normalized_distance": -0.4267
+        },
+        {
+          "target_fact_index": 86,
+          "target_fact": "In diesem Zusammenhang spricht man auch vom „Wahrscheinlichkeitsidioten“.",
+          "target_paragraph": 16,
+          "density_normalized_distance": 0.0218
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 74,
+      "source_fact": "In diesem Zusammenhang wird auch vom „Wahrscheinlichkeitsidioten“ gesprochen.",
+      "source_paragraph": 15,
+      "matches": [
+        {
+          "target_fact_index": 86,
+          "target_fact": "In diesem Zusammenhang spricht man auch vom „Wahrscheinlichkeitsidioten“.",
+          "target_paragraph": 16,
+          "density_normalized_distance": -0.4492
+        },
+        {
+          "target_fact_index": 85,
+          "target_fact": "Es wird oft behauptet, dass der Mensch ein schlechtes Gefühl für die Wahrscheinlichkeit besitze.",
+          "target_paragraph": 16,
+          "density_normalized_distance": 0.0513
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 75,
+      "source_fact": "Beim Geburtsdagsparadox sind auf einem Sportplatz 23 Personen",
+      "source_paragraph": 16,
+      "matches": [
+        {
+          "target_fact_index": 97,
+          "target_fact": "Der Begriff „Wahrscheinlichkeit“ wird häufig in zwei verschiedenen Zusammenhängen gebraucht.",
+          "target_paragraph": 19,
+          "density_normalized_distance": 0.2149
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 76,
+      "source_fact": "Die 23 Personen setzen sich aus zweimal elf Spielern und einem Schiedsrichter zusammen.",
+      "source_paragraph": 16,
+      "matches": [
+        {
+          "target_fact_index": 97,
+          "target_fact": "Der Begriff „Wahrscheinlichkeit“ wird häufig in zwei verschiedenen Zusammenhängen gebraucht.",
+          "target_paragraph": 19,
+          "density_normalized_distance": 0.1609
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 77,
+      "source_fact": "Die Wahrscheinlichkeit, dass mindestens zwei Personen am gleichen Tag Geburtstag haben, ist größer als 50 %.",
+      "source_paragraph": 16,
+      "matches": [
+        {
+          "target_fact_index": 97,
+          "target_fact": "Der Begriff „Wahrscheinlichkeit“ wird häufig in zwei verschiedenen Zusammenhängen gebraucht.",
+          "target_paragraph": 19,
+          "density_normalized_distance": 0.0797
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 78,
+      "source_fact": "Aus der Sicht der Mathematik ist man sich weitgehend einig, wie man mit Wahrscheinlichkeiten umgeht.",
+      "source_paragraph": 17,
+      "matches": [
+        {
+          "target_fact_index": 94,
+          "target_fact": "Über den mathematischen Umgang mit Wahrscheinlichkeiten herrscht weitgehend Einigkeit.",
+          "target_paragraph": 18,
+          "density_normalized_distance": -0.2562
+        },
+        {
+          "target_fact_index": 95,
+          "target_fact": "Es besteht Uneinigkeit darüber, worauf die Rechenregeln der mathematischen Theorie angewendet werden dürfen.",
+          "target_paragraph": 18,
+          "density_normalized_distance": -0.0278
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 79,
+      "source_fact": "Es gibt nur wenig Einigkeit darüber, wo man die Rechenregeln der mathematischen Theorie anwenden darf.",
+      "source_paragraph": 17,
+      "matches": [
+        {
+          "target_fact_index": 95,
+          "target_fact": "Es besteht Uneinigkeit darüber, worauf die Rechenregeln der mathematischen Theorie angewendet werden dürfen.",
+          "target_paragraph": 18,
+          "density_normalized_distance": -0.3914
+        },
+        {
+          "target_fact_index": 94,
+          "target_fact": "Über den mathematischen Umgang mit Wahrscheinlichkeiten herrscht weitgehend Einigkeit.",
+          "target_paragraph": 18,
+          "density_normalized_distance": -0.0335
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 80,
+      "source_fact": "Daraus ergibt sich die Frage, wie der Begriff „Wahrscheinlichkeit“ interpretiert werden sollte.",
+      "source_paragraph": 17,
+      "matches": [
+        {
+          "target_fact_index": 96,
+          "target_fact": "Die Uneinigkeit über die Anwendung der Rechenregeln führt zur Frage nach der Interpretation des Begriffs „Wahrscheinlichkeit“.",
+          "target_paragraph": 18,
+          "density_normalized_distance": -0.1375
+        },
+        {
+          "target_fact_index": 95,
+          "target_fact": "Es besteht Uneinigkeit darüber, worauf die Rechenregeln der mathematischen Theorie angewendet werden dürfen.",
+          "target_paragraph": 18,
+          "density_normalized_distance": -0.0092
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 81,
+      "source_fact": "Der Begriff „Wahrscheinlichkeit“ wird oft in zwei verschiedenen Zusammenhängen gebraucht.",
+      "source_paragraph": 18,
+      "matches": [
+        {
+          "target_fact_index": 97,
+          "target_fact": "Der Begriff „Wahrscheinlichkeit“ wird häufig in zwei verschiedenen Zusammenhängen gebraucht.",
+          "target_paragraph": 19,
+          "density_normalized_distance": -0.4187
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 82,
+      "source_fact": "Die aleatorische Wahrscheinlichkeit beschreibt die relative Häufigkeit von zukünftigen Ereignissen, die von einem zufälligen physischen Prozess bestimmt werden.",
+      "source_paragraph": 19,
+      "matches": [
+        {
+          "target_fact_index": 98,
+          "target_fact": "Aleatorische Wahrscheinlichkeit beschreibt die relative Häufigkeit zukünftiger Ereignisse, die von einem zufälligen physikalischen Prozess bestimmt werden.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.2842
+        },
+        {
+          "target_fact_index": 102,
+          "target_fact": "Man unterscheidet deterministische physikalische Prozesse, die mit ausreichend genauer Information im Prinzip vorhersagbar wären.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.0856
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 83,
+      "source_fact": "Aleatorische Wahrscheinlichkeit wird auch ontische, objektive oder statistische Wahrscheinlichkeit genannt.",
+      "source_paragraph": 19,
+      "matches": [
+        {
+          "target_fact_index": 101,
+          "target_fact": "Aleatorische Wahrscheinlichkeit wird auch als statistische Wahrscheinlichkeit bezeichnet.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.2359
+        },
+        {
+          "target_fact_index": 99,
+          "target_fact": "Aleatorische Wahrscheinlichkeit wird auch als ontische Wahrscheinlichkeit bezeichnet.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.2201
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 84,
+      "source_fact": "Es wird zwischen deterministischen physischen Prozessen und nichtdeterministischen Prozessen unterschieden.",
+      "source_paragraph": 19,
+      "matches": [
+        {
+          "target_fact_index": 105,
+          "target_fact": "Man unterscheidet nichtdeterministische Prozesse, die prinzipiell nicht vorhersagbar sind.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.2561
+        },
+        {
+          "target_fact_index": 102,
+          "target_fact": "Man unterscheidet deterministische physikalische Prozesse, die mit ausreichend genauer Information im Prinzip vorhersagbar wären.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.1733
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 85,
+      "source_fact": "Deterministische physische Prozesse sind im Prinzip mit genügend Information genau genug vorussagbar.",
+      "source_paragraph": 19,
+      "matches": [
+        {
+          "target_fact_index": 102,
+          "target_fact": "Man unterscheidet deterministische physikalische Prozesse, die mit ausreichend genauer Information im Prinzip vorhersagbar wären.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.3203
+        },
+        {
+          "target_fact_index": 105,
+          "target_fact": "Man unterscheidet nichtdeterministische Prozesse, die prinzipiell nicht vorhersagbar sind.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.0451
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 86,
+      "source_fact": "Der Würfelwurf und Wetterprognosen sind Beispiele für deterministische physische Prozesse.",
+      "source_paragraph": 19,
+      "matches": [
+        {
+          "target_fact_index": 104,
+          "target_fact": "Die Wettervorhersage ist ein Beispiel für einen deterministischen physikalischen Prozess.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.2472
+        },
+        {
+          "target_fact_index": 103,
+          "target_fact": "Der Würfelwurf ist ein Beispiel für einen deterministischen physikalischen Prozess.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.2447
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 87,
+      "source_fact": "Nichtdeterministische Prozesse sind prinzipiell nicht vorussagbar.",
+      "source_paragraph": 19,
+      "matches": [
+        {
+          "target_fact_index": 105,
+          "target_fact": "Man unterscheidet nichtdeterministische Prozesse, die prinzipiell nicht vorhersagbar sind.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.3604
+        },
+        {
+          "target_fact_index": 106,
+          "target_fact": "Der radioaktive Zerfall ist ein Beispiel für einen nichtdeterministischen Prozess.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.1352
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 88,
+      "source_fact": "Der radioaktive Zerfall ist ein Beispiel für einen nichtdeterministischen Prozess.",
+      "source_paragraph": 19,
+      "matches": [
+        {
+          "target_fact_index": 106,
+          "target_fact": "Der radioaktive Zerfall ist ein Beispiel für einen nichtdeterministischen Prozess.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.489
+        },
+        {
+          "target_fact_index": 103,
+          "target_fact": "Der Würfelwurf ist ein Beispiel für einen deterministischen physikalischen Prozess.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.1748
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 89,
+      "source_fact": "Die epistemische Wahrscheinlichkeit beschreibt die Unsicherheit über Aussagen, bei denen die kausalen Zusammenhänge und Hintergründe nur unvollständig bekannt sind.",
+      "source_paragraph": 20,
+      "matches": [
+        {
+          "target_fact_index": 107,
+          "target_fact": "Epistemische Wahrscheinlichkeit beschreibt die Unsicherheit über Aussagen, bei denen kausale Zusammenhänge und Hintergründe nur unvollständig bekannt sind.",
+          "target_paragraph": 21,
+          "density_normalized_distance": -0.3735
+        },
+        {
+          "target_fact_index": 114,
+          "target_fact": "Aussagen in Wirtschaft werden gelegentlich epistemische Wahrscheinlichkeiten zugeordnet.",
+          "target_paragraph": 21,
+          "density_normalized_distance": -0.0419
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 90,
+      "source_fact": "Die epistemische Wahrscheinlichkeit wird auch als subjektive oder personelle Wahrscheinlichkeit bezeichnet.",
+      "source_paragraph": 20,
+      "matches": [
+        {
+          "target_fact_index": 109,
+          "target_fact": "Epistemische Wahrscheinlichkeit wird auch als personelle Wahrscheinlichkeit bezeichnet.",
+          "target_paragraph": 21,
+          "density_normalized_distance": -0.2798
+        },
+        {
+          "target_fact_index": 108,
+          "target_fact": "Epistemische Wahrscheinlichkeit wird auch als subjektive Wahrscheinlichkeit bezeichnet.",
+          "target_paragraph": 21,
+          "density_normalized_distance": -0.2379
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 91,
+      "source_fact": "Die Aussagen der epistemischen Wahrscheinlichkeit können sich auf vergangene Ereignisse beziehen.",
+      "source_paragraph": 20,
+      "matches": [
+        {
+          "target_fact_index": 110,
+          "target_fact": "Die Aussagen der epistemischen Wahrscheinlichkeit können sich auf vergangene Ereignisse beziehen.",
+          "target_paragraph": 21,
+          "density_normalized_distance": -0.3498
+        },
+        {
+          "target_fact_index": 111,
+          "target_fact": "Die Aussagen der epistemischen Wahrscheinlichkeit können sich auf zukünftige Ereignisse beziehen.",
+          "target_paragraph": 21,
+          "density_normalized_distance": -0.2752
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 92,
+      "source_fact": "Die Aussagen der epistemischen Wahrscheinlichkeit können sich auf zukünftige Ereignisse beziehen.",
+      "source_paragraph": 20,
+      "matches": [
+        {
+          "target_fact_index": 111,
+          "target_fact": "Die Aussagen der epistemischen Wahrscheinlichkeit können sich auf zukünftige Ereignisse beziehen.",
+          "target_paragraph": 21,
+          "density_normalized_distance": -0.3255
+        },
+        {
+          "target_fact_index": 110,
+          "target_fact": "Die Aussagen der epistemischen Wahrscheinlichkeit können sich auf vergangene Ereignisse beziehen.",
+          "target_paragraph": 21,
+          "density_normalized_distance": -0.2996
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 93,
+      "source_fact": "Naturgesetzen werden manchmal epistemische Wahrscheinlichkeiten zugeschrieben.",
+      "source_paragraph": 20,
+      "matches": [
+        {
+          "target_fact_index": 112,
+          "target_fact": "Naturgesetzen werden gelegentlich epistemische Wahrscheinlichkeiten zugeordnet.",
+          "target_paragraph": 21,
+          "density_normalized_distance": -0.3528
+        },
+        {
+          "target_fact_index": 115,
+          "target_fact": "Aussagen in Rechtsprechung werden gelegentlich epistemische Wahrscheinlichkeiten zugeordnet.",
+          "target_paragraph": 21,
+          "density_normalized_distance": -0.2284
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 94,
+      "source_fact": "Aussagen in der Politik können epistemische Wahrscheinlichkeiten enthalten.",
+      "source_paragraph": 20,
+      "matches": [
+        {
+          "target_fact_index": 113,
+          "target_fact": "Aussagen in Politik werden gelegentlich epistemische Wahrscheinlichkeiten zugeordnet.",
+          "target_paragraph": 21,
+          "density_normalized_distance": -0.2591
+        },
+        {
+          "target_fact_index": 114,
+          "target_fact": "Aussagen in Wirtschaft werden gelegentlich epistemische Wahrscheinlichkeiten zugeordnet.",
+          "target_paragraph": 21,
+          "density_normalized_distance": -0.1853
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 95,
+      "source_fact": "Aussagen in der Wirtschaft können epistemische Wahrscheinlichkeiten enthalten.",
+      "source_paragraph": 20,
+      "matches": [
+        {
+          "target_fact_index": 114,
+          "target_fact": "Aussagen in Wirtschaft werden gelegentlich epistemische Wahrscheinlichkeiten zugeordnet.",
+          "target_paragraph": 21,
+          "density_normalized_distance": -0.2614
+        },
+        {
+          "target_fact_index": 113,
+          "target_fact": "Aussagen in Politik werden gelegentlich epistemische Wahrscheinlichkeiten zugeordnet.",
+          "target_paragraph": 21,
+          "density_normalized_distance": -0.1681
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 96,
+      "source_fact": "Aussagen in der Rechtsprechung können epistemische Wahrscheinlichkeiten enthalten.",
+      "source_paragraph": 20,
+      "matches": [
+        {
+          "target_fact_index": 115,
+          "target_fact": "Aussagen in Rechtsprechung werden gelegentlich epistemische Wahrscheinlichkeiten zugeordnet.",
+          "target_paragraph": 21,
+          "density_normalized_distance": -0.2359
+        },
+        {
+          "target_fact_index": 113,
+          "target_fact": "Aussagen in Politik werden gelegentlich epistemische Wahrscheinlichkeiten zugeordnet.",
+          "target_paragraph": 21,
+          "density_normalized_distance": -0.1838
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 97,
+      "source_fact": "Die aleatorische Wahrscheinlichkeit ist ein subjektiver Wahrscheinlichkeitsbegriff.",
+      "source_paragraph": 21,
+      "matches": [
+        {
+          "target_fact_index": 59,
+          "target_fact": "Man spricht von einer subjektivistischen Wahrscheinlichkeitsauffassung.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.1246
+        },
+        {
+          "target_fact_index": 64,
+          "target_fact": "Stolpersteine der intuitiven Wahrscheinlichkeitserfassung liegen in der subjektiven Wahrnehmung.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.1066
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 98,
+      "source_fact": "Die epistemische Wahrscheinlichkeit ist ein subjektiver Wahrscheinlichkeitsbegriff.",
+      "source_paragraph": 21,
+      "matches": [
+        {
+          "target_fact_index": 64,
+          "target_fact": "Stolpersteine der intuitiven Wahrscheinlichkeitserfassung liegen in der subjektiven Wahrnehmung.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.1286
+        },
+        {
+          "target_fact_index": 59,
+          "target_fact": "Man spricht von einer subjektivistischen Wahrscheinlichkeitsauffassung.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.103
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 99,
+      "source_fact": "Die aleatorische Wahrscheinlichkeit ist mit dem frequentistischen Wahrscheinlichkeitsbegriff assoziiert.",
+      "source_paragraph": 21,
+      "matches": [
+        {
+          "target_fact_index": 116,
+          "target_fact": "Aleatorische Wahrscheinlichkeit ist lose mit dem frequentistischen Wahrscheinlichkeitsbegriff assoziiert.",
+          "target_paragraph": 22,
+          "density_normalized_distance": -0.2545
+        },
+        {
+          "target_fact_index": 118,
+          "target_fact": "Epistemische Wahrscheinlichkeit ist lose mit dem frequentistischen Wahrscheinlichkeitsbegriff assoziiert.",
+          "target_paragraph": 22,
+          "density_normalized_distance": -0.1968
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 100,
+      "source_fact": "Die aleatorische Wahrscheinlichkeit ist mit dem bayesschen Wahrscheinlichkeitsbegriff assoziiert.",
+      "source_paragraph": 21,
+      "matches": [
+        {
+          "target_fact_index": 117,
+          "target_fact": "Aleatorische Wahrscheinlichkeit ist lose mit dem bayesschen Wahrscheinlichkeitsbegriff assoziiert.",
+          "target_paragraph": 22,
+          "density_normalized_distance": -0.3147
+        },
+        {
+          "target_fact_index": 119,
+          "target_fact": "Epistemische Wahrscheinlichkeit ist lose mit dem bayesschen Wahrscheinlichkeitsbegriff assoziiert.",
+          "target_paragraph": 22,
+          "density_normalized_distance": -0.2399
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 101,
+      "source_fact": "Die epistemische Wahrscheinlichkeit ist mit dem frequentistischen Wahrscheinlichkeitsbegriff assoziiert.",
+      "source_paragraph": 21,
+      "matches": [
+        {
+          "target_fact_index": 118,
+          "target_fact": "Epistemische Wahrscheinlichkeit ist lose mit dem frequentistischen Wahrscheinlichkeitsbegriff assoziiert.",
+          "target_paragraph": 22,
+          "density_normalized_distance": -0.2629
+        },
+        {
+          "target_fact_index": 116,
+          "target_fact": "Aleatorische Wahrscheinlichkeit ist lose mit dem frequentistischen Wahrscheinlichkeitsbegriff assoziiert.",
+          "target_paragraph": 22,
+          "density_normalized_distance": -0.2142
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 102,
+      "source_fact": "Die epistemische Wahrscheinlichkeit ist mit dem bayesschen Wahrscheinlichkeitsbegriff assoziiert.",
+      "source_paragraph": 21,
+      "matches": [
+        {
+          "target_fact_index": 119,
+          "target_fact": "Epistemische Wahrscheinlichkeit ist lose mit dem bayesschen Wahrscheinlichkeitsbegriff assoziiert.",
+          "target_paragraph": 22,
+          "density_normalized_distance": -0.3044
+        },
+        {
+          "target_fact_index": 117,
+          "target_fact": "Aleatorische Wahrscheinlichkeit ist lose mit dem bayesschen Wahrscheinlichkeitsbegriff assoziiert.",
+          "target_paragraph": 22,
+          "density_normalized_distance": -0.2727
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 103,
+      "source_fact": "Es ist eine offene Frage, ob man die aleatorische Wahrscheinlichkeit auf die epistemische reduzieren kann.",
+      "source_paragraph": 22,
+      "matches": [
+        {
+          "target_fact_index": 120,
+          "target_fact": "Es ist eine offene Frage, ob sich aleatorische Wahrscheinlichkeit auf epistemische Wahrscheinlichkeit reduzieren lässt.",
+          "target_paragraph": 23,
+          "density_normalized_distance": -0.3061
+        },
+        {
+          "target_fact_index": 121,
+          "target_fact": "Es ist eine offene Frage, ob sich epistemische Wahrscheinlichkeit auf aleatorische Wahrscheinlichkeit reduzieren lässt.",
+          "target_paragraph": 23,
+          "density_normalized_distance": -0.3055
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 104,
+      "source_fact": "Es ist eine offene Frage, ob man die epistemische Wahrscheinlichkeit auf die aleatorische reduzieren kann.",
+      "source_paragraph": 22,
+      "matches": [
+        {
+          "target_fact_index": 121,
+          "target_fact": "Es ist eine offene Frage, ob sich epistemische Wahrscheinlichkeit auf aleatorische Wahrscheinlichkeit reduzieren lässt.",
+          "target_paragraph": 23,
+          "density_normalized_distance": -0.3061
+        },
+        {
+          "target_fact_index": 120,
+          "target_fact": "Es ist eine offene Frage, ob sich aleatorische Wahrscheinlichkeit auf epistemische Wahrscheinlichkeit reduzieren lässt.",
+          "target_paragraph": 23,
+          "density_normalized_distance": -0.3044
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 105,
+      "source_fact": "Es stellt sich die Frage, ob die Welt zufällig aussieht, weil man nicht genug über sie weiß.",
+      "source_paragraph": 22,
+      "matches": [
+        {
+          "target_fact_index": 122,
+          "target_fact": "Es stellt sich die Frage, ob die Welt uns erscheint, weil wir nicht genug über sie wissen, zufällig zu sein.",
+          "target_paragraph": 23,
+          "density_normalized_distance": -0.4505
+        },
+        {
+          "target_fact_index": 123,
+          "target_fact": "Es stellt sich die Frage, ob es fundamental zufällige Prozesse gibt, wie etwa die Kopenhagener Deutung der Quantenmechanik annimmt.",
+          "target_paragraph": 23,
+          "density_normalized_distance": 0.0949
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 106,
+      "source_fact": "Es stellt sich die Frage, ob es fundamental zufällige Prozesse gibt, wie es die objektive Deutung der Quantenmechanik annimmt.",
+      "source_paragraph": 22,
+      "matches": [
+        {
+          "target_fact_index": 123,
+          "target_fact": "Es stellt sich die Frage, ob es fundamental zufällige Prozesse gibt, wie etwa die Kopenhagener Deutung der Quantenmechanik annimmt.",
+          "target_paragraph": 23,
+          "density_normalized_distance": -0.2629
+        },
+        {
+          "target_fact_index": 122,
+          "target_fact": "Es stellt sich die Frage, ob die Welt uns erscheint, weil wir nicht genug über sie wissen, zufällig zu sein.",
+          "target_paragraph": 23,
+          "density_normalized_distance": -0.0321
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 107,
+      "source_fact": "Für beide Standpunkte gelten die gleichen mathematischen Regeln über einen Umgang mit Wahrscheinlichkeiten.",
+      "source_paragraph": 22,
+      "matches": [
+        {
+          "target_fact_index": 124,
+          "target_fact": "Für beide Standpunkte gelten dieselben mathematischen Regeln zum Umgang mit Wahrscheinlichkeiten.",
+          "target_paragraph": 23,
+          "density_normalized_distance": -0.3829
+        },
+        {
+          "target_fact_index": 125,
+          "target_fact": "Die jeweilige Sichtweise hat wichtige Konsequenzen dafür, welche mathematischen Modelle als gültig angesehen werden.",
+          "target_paragraph": 23,
+          "density_normalized_distance": -0.0602
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 108,
+      "source_fact": "Die jeweilige Sichtweise hat wichtige Konsequenzen dafür, welche mathematischen Modelle als gültig angesehen werden.",
+      "source_paragraph": 22,
+      "matches": [
+        {
+          "target_fact_index": 125,
+          "target_fact": "Die jeweilige Sichtweise hat wichtige Konsequenzen dafür, welche mathematischen Modelle als gültig angesehen werden.",
+          "target_paragraph": 23,
+          "density_normalized_distance": -0.4197
+        },
+        {
+          "target_fact_index": 124,
+          "target_fact": "Für beide Standpunkte gelten dieselben mathematischen Regeln zum Umgang mit Wahrscheinlichkeiten.",
+          "target_paragraph": 23,
+          "density_normalized_distance": -0.0279
+        }
+      ]
+    }
+  ]
+}

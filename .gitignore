@@ -1,0 +1,16 @@
+# Secrets: copy .env.example to .env locally, never commit it
+.env
+
+# Raw data for pair selection (~1 GB, exceeds GitHub file size limits)
+files_out/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors and operating systems
+.DS_Store
+.vscode/
+.idea/

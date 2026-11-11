@@ -1,0 +1,5694 @@
+{
+  "pair_key": "gold__le_mans",
+  "cluster": "Gold",
+  "title": "Le Mans",
+  "als_page_id": "gold_le_mans_als",
+  "de_page_id": "gold_le_mans_de",
+  "als_title": "Le Mans",
+  "de_title": "Le Mans",
+  "embed_model": "sentence-transformers/LaBSE",
+  "xfactalign_version": "paper_style_density_normalized_distance",
+  "top_k_facts": 2,
+  "paragraph_alignment": "directed_argmax_union",
+  "fact_retrieval_metric": "D(e_i,f_j)=1-cos(e_i,f_j)-hubness(f_j)",
+  "paragraph_adjacency": [
+    {
+      "de_paragraph": 0,
+      "als_paragraph": 0,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 1,
+      "als_paragraph": 1,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 2,
+      "als_paragraph": 2,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 3,
+      "als_paragraph": 3,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 4,
+      "als_paragraph": 4,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 5,
+      "als_paragraph": 4,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 6,
+      "als_paragraph": 5,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 7,
+      "als_paragraph": 6,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 8,
+      "als_paragraph": 7,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 9,
+      "als_paragraph": 8,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 10,
+      "als_paragraph": 9,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 11,
+      "als_paragraph": 10,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 12,
+      "als_paragraph": 11,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 13,
+      "als_paragraph": 12,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 14,
+      "als_paragraph": 13,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 15,
+      "als_paragraph": 14,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 16,
+      "als_paragraph": 15,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 17,
+      "als_paragraph": 16,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 18,
+      "als_paragraph": 17,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 19,
+      "als_paragraph": 18,
+      "weight": 2
+    }
+  ],
+  "de_to_als": [
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 0,
+      "source_fact": "Le Mans ist eine Stadt im Nordwesten Frankreichs.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 0,
+          "target_fact": "Le Mans ist eine Stadt im Nordwesten von Frankreich.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.3026
+        },
+        {
+          "target_fact_index": 4,
+          "target_fact": "Le Mans ist die Hauptstadt des Départements Sarthe.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.107
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 1,
+      "source_fact": "Le Mans liegt am Zusammenfluss von Sarthe und Huisne.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 3,
+          "target_fact": "Le Mans liegt am Zusammenfluss der Flüsse Sarthe und Huisne.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.3541
+        },
+        {
+          "target_fact_index": 4,
+          "target_fact": "Le Mans ist die Hauptstadt des Départements Sarthe.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1342
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 2,
+      "source_fact": "Le Mans ist die Hauptstadt des Départements Sarthe.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 4,
+          "target_fact": "Le Mans ist die Hauptstadt des Départements Sarthe.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.3798
+        },
+        {
+          "target_fact_index": 5,
+          "target_fact": "Le Mans liegt in der Region Loire-Bièt (Centre-Val de Loire).",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1237
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 3,
+      "source_fact": "Das Département Sarthe liegt in der Region Pays de la Loire.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 5,
+          "target_fact": "Le Mans liegt in der Region Loire-Bièt (Centre-Val de Loire).",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1501
+        },
+        {
+          "target_fact_index": 4,
+          "target_fact": "Le Mans ist die Hauptstadt des Départements Sarthe.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.142
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 4,
+      "source_fact": "Die Einwohner von Le Mans werden Manceller genannt.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 1,
+          "target_fact": "Die Einwohner von Le Mans werden Manceller genannt.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.3797
+        },
+        {
+          "target_fact_index": 2,
+          "target_fact": "Le Mans hat 144.244 Einwohner.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1042
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 5,
+      "source_fact": "In der Stadt befindet sich die gotische Kathedrale Saint-Julien du Mans.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 6,
+          "target_fact": "Die Stadt Le Mans besitzt die gotische Kathedrale Saint-Julien du Mans.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.2619
+        },
+        {
+          "target_fact_index": 7,
+          "target_fact": "In Le Mans findet das 24-Stunden-Rennen von Le Mans (24 Heures du Mans) statt.",
+          "target_paragraph": 1,
+          "density_normalized_distance": 0.1073
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 6,
+      "source_fact": "Die Stadt ist Le Mans.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 8,
+          "target_fact": "Die Stadt ist weltweit für das 24-Stunden-Rennen von Le Mans bekannt.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.0156
+        },
+        {
+          "target_fact_index": 7,
+          "target_fact": "In Le Mans findet das 24-Stunden-Rennen von Le Mans (24 Heures du Mans) statt.",
+          "target_paragraph": 1,
+          "density_normalized_distance": 0.0015
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 7,
+      "source_fact": "In Le Mans findet das 24-Stunden-Rennen von Le Mans (24 Heures du Mans) statt.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 7,
+          "target_fact": "In Le Mans findet das 24-Stunden-Rennen von Le Mans (24 Heures du Mans) statt.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.3288
+        },
+        {
+          "target_fact_index": 8,
+          "target_fact": "Die Stadt ist weltweit für das 24-Stunden-Rennen von Le Mans bekannt.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.1216
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 8,
+      "source_fact": "Die Stadt ist vor allem durch das 24-Stunden-Rennen von Le Mans bekannt.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 8,
+          "target_fact": "Die Stadt ist weltweit für das 24-Stunden-Rennen von Le Mans bekannt.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.2506
+        },
+        {
+          "target_fact_index": 7,
+          "target_fact": "In Le Mans findet das 24-Stunden-Rennen von Le Mans (24 Heures du Mans) statt.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.1362
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 9,
+      "source_fact": "Die Gründung der Stadt Le Mans geht auf ein Oppidum der keltischen Cenomani zurück.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 9,
+          "target_fact": "Die Gründung der Stadt Le Mans geht auf ein Oppidum der keltischen Cenomani zurück.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.3813
+        },
+        {
+          "target_fact_index": 14,
+          "target_fact": "In der spätrömischen Zeit wurde das Bistum von Mans gegründet.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0393
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 10,
+      "source_fact": "Die Siedlung wurde 56 v. Chr. von den Römern erobert.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 10,
+          "target_fact": "Die Siedlung wurde 56 v. Chr. von den Römern erobert.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.506
+        },
+        {
+          "target_fact_index": 18,
+          "target_fact": "Im Jahr 486 wurde Mans von den Franken erobert.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1343
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 11,
+      "source_fact": "Die Römer nannten die Siedlung Suindinum.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 11,
+          "target_fact": "Die Römer nannten die Siedlung Suindinum.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.5625
+        },
+        {
+          "target_fact_index": 10,
+          "target_fact": "Die Siedlung wurde 56 v. Chr. von den Römern erobert.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0666
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 12,
+      "source_fact": "Im 3. Jahrhundert wurde eine Stadtmauer errichtet, die zum Teil heute noch erkennbar ist.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 13,
+          "target_fact": "Teile der Stadtmauer aus dem 3. Jahrhundert sind heute noch erkennbar.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.3145
+        },
+        {
+          "target_fact_index": 12,
+          "target_fact": "Im 3. Jahrhundert wurde die Stadtmauer gebaut.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.2149
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 13,
+      "source_fact": "In spätrömischer Zeit entstand das Bistum Le Mans.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 14,
+          "target_fact": "In der spätrömischen Zeit wurde das Bistum von Mans gegründet.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.3604
+        },
+        {
+          "target_fact_index": 16,
+          "target_fact": "Das Bistum von Mans wurde später dem Erzbistum Tours unterstellt.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1202
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 14,
+      "source_fact": "Der Heilige Julianus gilt als erster Bischof von Le Mans.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 15,
+          "target_fact": "Der Heilige Julianus gilt als der erste Bischof von Mans.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.3862
+        },
+        {
+          "target_fact_index": 17,
+          "target_fact": "Mans gehörte zunächst zur Herrschaft des Syvarius.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0749
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 15,
+      "source_fact": "Das Bistum Le Mans wurde später dem Erzbistum Tours unterstellt.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 16,
+          "target_fact": "Das Bistum von Mans wurde später dem Erzbistum Tours unterstellt.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.3792
+        },
+        {
+          "target_fact_index": 30,
+          "target_fact": "Nach der Reformation gehörte Maine zu den hugenottischen Provinzen.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1047
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 16,
+      "source_fact": "Le Mans gehörte zunächst zur Herrschaft des Syagrius.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 17,
+          "target_fact": "Mans gehörte zunächst zur Herrschaft des Syvarius.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.398
+        },
+        {
+          "target_fact_index": 28,
+          "target_fact": "Zwischenzeitlich herrschte in Maine wieder ein eigenes Grafengeschlecht.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0651
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 17,
+      "source_fact": "Le Mans wurde 486 von den Franken erobert.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 18,
+          "target_fact": "Im Jahr 486 wurde Mans von den Franken erobert.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.3755
+        },
+        {
+          "target_fact_index": 10,
+          "target_fact": "Die Siedlung wurde 56 v. Chr. von den Römern erobert.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1763
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 18,
+      "source_fact": "Le Mans wurde Zentrum der Grafschaft Maine.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 19,
+          "target_fact": "Mans war das Zentrum der Grafschaft Maine.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.3123
+        },
+        {
+          "target_fact_index": 30,
+          "target_fact": "Nach der Reformation gehörte Maine zu den hugenottischen Provinzen.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1683
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 19,
+      "source_fact": "Die Grafschaft Maine war vor allem im 11. und frühen 12. Jahrhundert zwischen den Herzögen der Normandie und den Grafen von Anjou umkämpft.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 20,
+          "target_fact": "Im 11. und frühen 12. Jahrhundert war die Grafschaft Maine zwischen den Herzögen der Normandie und den Grafen von Anjou umkämpft.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.3789
+        },
+        {
+          "target_fact_index": 22,
+          "target_fact": "Mit dem Aufstieg der Plantagenets zu den Königen von England im Jahr 1154 wurde das Gebiet Teil des Angevinischen Reiches.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1485
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 20,
+      "source_fact": "Im Jahr 1110 sicherte sich Anjou endgültig die Oberhoheit über das Land.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 21,
+          "target_fact": "Im Jahr 1110 sicherte sich Anjou endgültig die Oberhoheit über das Land.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.5038
+        },
+        {
+          "target_fact_index": 22,
+          "target_fact": "Mit dem Aufstieg der Plantagenets zu den Königen von England im Jahr 1154 wurde das Gebiet Teil des Angevinischen Reiches.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1813
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 21,
+      "source_fact": "Mit dem Aufstieg der Plantagenets zu Königen von England im Jahr 1154 wurde das Land Teil des Angevinischen Reiches.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 22,
+          "target_fact": "Mit dem Aufstieg der Plantagenets zu den Königen von England im Jahr 1154 wurde das Gebiet Teil des Angevinischen Reiches.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.5308
+        },
+        {
+          "target_fact_index": 21,
+          "target_fact": "Im Jahr 1110 sicherte sich Anjou endgültig die Oberhoheit über das Land.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1472
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 22,
+      "source_fact": "Johann Ohneland verlor den Festlandbesitz nördlich der Loire an die französische Krone.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 23,
+          "target_fact": "Johann Ohneland verlor den Festlandbesitz nördlich der Loire an die französische Krone.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.4494
+        },
+        {
+          "target_fact_index": 22,
+          "target_fact": "Mit dem Aufstieg der Plantagenets zu den Königen von England im Jahr 1154 wurde das Gebiet Teil des Angevinischen Reiches.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1176
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 23,
+      "source_fact": "Im Jahr 1204 brachte die französische Krone Le Mans wieder unter ihre Herrschaft.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 24,
+          "target_fact": "Im Jahr 1204 brachte die französische Krone Mans wieder unter ihre Herrschaft.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.3936
+        },
+        {
+          "target_fact_index": 29,
+          "target_fact": "Im Jahr 1480 wurde Maine der französischen Krone zugeschlagen.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1919
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 24,
+      "source_fact": "Im Verlauf des Hundertjährigen Krieges war Maine erneut zwischen Engländern und Franzosen umkämpft.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 25,
+          "target_fact": "Während des Hundertjährigen Krieges war Maine erneut zwischen Engländern und Franzosen umkämpft.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.403
+        },
+        {
+          "target_fact_index": 20,
+          "target_fact": "Im 11. und frühen 12. Jahrhundert war die Grafschaft Maine zwischen den Herzögen der Normandie und den Grafen von Anjou umkämpft.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.167
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 25,
+      "source_fact": "Die Bevölkerung von Le Mans musste sich während des Hundertjährigen Krieges hinter die Stadtmauern zurückziehen und die Vororte aufgeben.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 26,
+          "target_fact": "Die Bevölkerung von Le Mans musste während des Hundertjährigen Krieges in die Stadtmauern flüchten und die Vororte aufgeben.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.3973
+        },
+        {
+          "target_fact_index": 25,
+          "target_fact": "Während des Hundertjährigen Krieges war Maine erneut zwischen Engländern und Franzosen umkämpft.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0752
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 26,
+      "source_fact": "Im Jahr 1443 wurden die Engländer endgültig aus Maine vertrieben.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 27,
+          "target_fact": "Im Jahr 1443 wurden die Engländer endgültig aus Maine vertrieben.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.5028
+        },
+        {
+          "target_fact_index": 32,
+          "target_fact": "Im Jahr 1589 gelang es Heinrich IV., in Maine für einen weitgehend dauerhaften Frieden zu sorgen.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1339
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 27,
+      "source_fact": "Zwischenzeitlich herrschte in Maine wieder ein eigenes Grafengeschlecht.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 28,
+          "target_fact": "Zwischenzeitlich herrschte in Maine wieder ein eigenes Grafengeschlecht.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.5702
+        },
+        {
+          "target_fact_index": 31,
+          "target_fact": "In der Zeit der hugenottischen Provinzen kam es in Maine zu blutigen Auseinandersetzungen.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1346
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 28,
+      "source_fact": "Im Jahr 1480 wurde Maine dem Kronbesitz zugeschlagen.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 29,
+          "target_fact": "Im Jahr 1480 wurde Maine der französischen Krone zugeschlagen.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.3561
+        },
+        {
+          "target_fact_index": 27,
+          "target_fact": "Im Jahr 1443 wurden die Engländer endgültig aus Maine vertrieben.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1753
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 29,
+      "source_fact": "Nach der Reformation zählte Maine zu den hugenottischen Provinzen.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 30,
+          "target_fact": "Nach der Reformation gehörte Maine zu den hugenottischen Provinzen.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.4681
+        },
+        {
+          "target_fact_index": 31,
+          "target_fact": "In der Zeit der hugenottischen Provinzen kam es in Maine zu blutigen Auseinandersetzungen.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.2025
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 30,
+      "source_fact": "In Maine kam es nach der Reformation zu blutigen Auseinandersetzungen.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 31,
+          "target_fact": "In der Zeit der hugenottischen Provinzen kam es in Maine zu blutigen Auseinandersetzungen.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.2458
+        },
+        {
+          "target_fact_index": 30,
+          "target_fact": "Nach der Reformation gehörte Maine zu den hugenottischen Provinzen.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.2249
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 31,
+      "source_fact": "Im Jahr 1589 sorgte Heinrich IV. für einen dauerhaften Frieden in der Region.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 32,
+          "target_fact": "Im Jahr 1589 gelang es Heinrich IV., in Maine für einen weitgehend dauerhaften Frieden zu sorgen.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.3827
+        },
+        {
+          "target_fact_index": 21,
+          "target_fact": "Im Jahr 1110 sicherte sich Anjou endgültig die Oberhoheit über das Land.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1397
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 32,
+      "source_fact": "Im Zeitalter des Absolutismus erlebte das örtliche Handwerk einen Aufschwung.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 33,
+          "target_fact": "Im Zeitalter des Absolutismus erlebte das örtliche Handwerk einen Aufschwung.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.568
+        },
+        {
+          "target_fact_index": 34,
+          "target_fact": "Besonders die Herstellung von Kleidern, Stoffen und Wachs war im Zeitalter des Absolutismus gefragt.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.189
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 33,
+      "source_fact": "Insbesondere die Herstellung von Textilien und Wachs erlebte im Zeitalter des Absolutismus einen Aufschwung.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 34,
+          "target_fact": "Besonders die Herstellung von Kleidern, Stoffen und Wachs war im Zeitalter des Absolutismus gefragt.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.4874
+        },
+        {
+          "target_fact_index": 33,
+          "target_fact": "Im Zeitalter des Absolutismus erlebte das örtliche Handwerk einen Aufschwung.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.2483
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 34,
+      "source_fact": "Im Jahr 1740 gingen zwei Drittel der Textilproduktion der Stadt in den Export.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 35,
+          "target_fact": "Im Jahr 1740 gingen zwei Drittel der Textilproduktion der Stadt in den Export.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.4866
+        },
+        {
+          "target_fact_index": 34,
+          "target_fact": "Besonders die Herstellung von Kleidern, Stoffen und Wachs war im Zeitalter des Absolutismus gefragt.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.0932
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 35,
+      "source_fact": "Die Verbesserung der Verkehrswege förderte den wirtschaftlichen Aufschwung zur Zeit der Industrialisierung zusätzlich.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 36,
+          "target_fact": "Die Verbesserung der Verkehrswege stärkte den wirtschaftlichen Aufschwung zur Zeit der Industrialisierung.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.5276
+        },
+        {
+          "target_fact_index": 33,
+          "target_fact": "Im Zeitalter des Absolutismus erlebte das örtliche Handwerk einen Aufschwung.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.0878
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 36,
+      "source_fact": "Le Mans erhielt 1844 einen Eisenbahnanschluss an der Strecke Paris-Rennes.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 37,
+          "target_fact": "Im Jahr 1844 erhielt Mans einen Eisenbahnanschluss an die Strecke Paris-Rennes.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.3368
+        },
+        {
+          "target_fact_index": 39,
+          "target_fact": "Die Familie Bollée produzierte in den 1840er Jahren zunächst Dampfmaschinen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": 0.0148
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 37,
+      "source_fact": "Die Aktivitäten der Familie Bollée waren von großer Bedeutung für die Stadt.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 38,
+          "target_fact": "Die Familie Bollée war für die Stadt von großer Bedeutung.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.4108
+        },
+        {
+          "target_fact_index": 39,
+          "target_fact": "Die Familie Bollée produzierte in den 1840er Jahren zunächst Dampfmaschinen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.0703
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 38,
+      "source_fact": "Die Familie Bollée produzierte in den 1840er Jahren in Le Mans zunächst Dampfmaschinen.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 39,
+          "target_fact": "Die Familie Bollée produzierte in den 1840er Jahren zunächst Dampfmaschinen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.4272
+        },
+        {
+          "target_fact_index": 40,
+          "target_fact": "Ab 1887 baute die Familie Bollée vor allem Autos.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.19
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 39,
+      "source_fact": "Die Familie Bollée herstellte ab 1887 vor allem Automobile.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 40,
+          "target_fact": "Ab 1887 baute die Familie Bollée vor allem Autos.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.4412
+        },
+        {
+          "target_fact_index": 39,
+          "target_fact": "Die Familie Bollée produzierte in den 1840er Jahren zunächst Dampfmaschinen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.2583
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 40,
+      "source_fact": "Vom 10. bis 12. Januar 1871 fand die Schlacht bei Le Mans statt.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 41,
+          "target_fact": "Vom 10. bis 12. Januar 1871 fand die Schlacht bei Le Mans statt.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.4097
+        },
+        {
+          "target_fact_index": 43,
+          "target_fact": "Die Schlacht bei Le Mans fand während des Deutsch-Französischen Krieges statt.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.1032
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 41,
+      "source_fact": "Die Schlacht bei Le Mans wurde zwischen der französischen Loirearmee und der zweiten Armee des Prinzen Friedrich Karl ausgetragen.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 42,
+          "target_fact": "Die Schlacht bei Le Mans wurde zwischen der französischen Loirearmee und der zweiten Armee von Kronprinz Friedrich ausgetragen.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.3517
+        },
+        {
+          "target_fact_index": 43,
+          "target_fact": "Die Schlacht bei Le Mans fand während des Deutsch-Französischen Krieges statt.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.1896
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 42,
+      "source_fact": "Die Schlacht bei Le Mans fand während des Deutsch-Französischen Krieges statt.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 43,
+          "target_fact": "Die Schlacht bei Le Mans fand während des Deutsch-Französischen Krieges statt.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.37
+        },
+        {
+          "target_fact_index": 44,
+          "target_fact": "Die Schlacht bei Le Mans endete mit einem deutschen Sieg.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.1979
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 43,
+      "source_fact": "Die Schlacht bei Le Mans endete mit einem deutschen Sieg.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 44,
+          "target_fact": "Die Schlacht bei Le Mans endete mit einem deutschen Sieg.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.3982
+        },
+        {
+          "target_fact_index": 43,
+          "target_fact": "Die Schlacht bei Le Mans fand während des Deutsch-Französischen Krieges statt.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.1697
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 44,
+      "source_fact": "Le Mans wurde 1893 an das Telefonnetz angeschlossen.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 45,
+          "target_fact": "Le Mans wurde 1893 an das Telefonnetz angeschlossen.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.3815
+        },
+        {
+          "target_fact_index": 47,
+          "target_fact": "Die Firma Renault siedelte sich 1936 in Le Mans an.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.084
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 45,
+      "source_fact": "Im Jahr 1911 fand ein erster Grand Prix in Le Mans statt, der die Tradition als Automobilrennstadt begründete.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 46,
+          "target_fact": "Die Tradition als Automobilrennstadt begann mit einem ersten Grand Prix im Jahr 1911.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.309
+        },
+        {
+          "target_fact_index": 41,
+          "target_fact": "Vom 10. bis 12. Januar 1871 fand die Schlacht bei Le Mans statt.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.1063
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 46,
+      "source_fact": "Die Firma Renault siedelte sich 1936 in Le Mans an.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 47,
+          "target_fact": "Die Firma Renault siedelte sich 1936 in Le Mans an.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.3772
+        },
+        {
+          "target_fact_index": 48,
+          "target_fact": "Renault ist bis heute der größte Arbeitgeber der Stadt Le Mans.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.1112
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 47,
+      "source_fact": "Renault ist bis heute der größte Arbeitgeber der Stadt Le Mans.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 48,
+          "target_fact": "Renault ist bis heute der größte Arbeitgeber der Stadt Le Mans.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.4035
+        },
+        {
+          "target_fact_index": 49,
+          "target_fact": "Große Versicherungsunternehmen haben Le Mans als Standort gewählt.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.1031
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 48,
+      "source_fact": "Große Versicherungsunternehmen haben Le Mans als Standort gewählt.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 49,
+          "target_fact": "Große Versicherungsunternehmen haben Le Mans als Standort gewählt.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.442
+        },
+        {
+          "target_fact_index": 48,
+          "target_fact": "Renault ist bis heute der größte Arbeitgeber der Stadt Le Mans.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.0647
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 49,
+      "source_fact": "Le Mans war zwischen 1940 und 1944 deutsch besetzt.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 50,
+          "target_fact": "Zwischen 1940 und 1944 war Le Mans von den Deutschen besetzt.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.3347
+        },
+        {
+          "target_fact_index": 43,
+          "target_fact": "Die Schlacht bei Le Mans fand während des Deutsch-Französischen Krieges statt.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.1122
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 50,
+      "source_fact": "Die Zerstörungen durch den Krieg in Le Mans hielten sich in Grenzen.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 51,
+          "target_fact": "Die Zerstörungen durch den Krieg in Le Mans hielten sich in Grenzen.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.4265
+        },
+        {
+          "target_fact_index": 44,
+          "target_fact": "Die Schlacht bei Le Mans endete mit einem deutschen Sieg.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.1274
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 51,
+      "source_fact": "Das höhere Bildungswesen in Le Mans wurde lange Zeit eher vernachlässigt.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 53,
+          "target_fact": "Die erste Hochschule in Le Mans war zunächst von der Universität Caen abhängig.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.0269
+        },
+        {
+          "target_fact_index": 49,
+          "target_fact": "Große Versicherungsunternehmen haben Le Mans als Standort gewählt.",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.0001
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 52,
+      "source_fact": "Im Jahr 1960 wurde in Le Mans eine Universität errichtet.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 52,
+          "target_fact": "Im Jahr 1960 wurde in Le Mans eine Universität gebaut.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.3662
+        },
+        {
+          "target_fact_index": 54,
+          "target_fact": "Im Jahr 1969 wurde die Technische Hochschule von Le Mans gegründet.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.2289
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 53,
+      "source_fact": "Die erste Hochschule in Le Mans war zunächst von der Universität Caen abhängig.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 53,
+          "target_fact": "Die erste Hochschule in Le Mans war zunächst von der Universität Caen abhängig.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.3581
+        },
+        {
+          "target_fact_index": 52,
+          "target_fact": "Im Jahr 1960 wurde in Le Mans eine Universität gebaut.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.1169
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 54,
+      "source_fact": "Im Jahr 1969 wurde die Technische Hochschule in Le Mans gegründet.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 54,
+          "target_fact": "Im Jahr 1969 wurde die Technische Hochschule von Le Mans gegründet.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.3654
+        },
+        {
+          "target_fact_index": 52,
+          "target_fact": "Im Jahr 1960 wurde in Le Mans eine Universität gebaut.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.2333
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 55,
+      "source_fact": "Die Technische Hochschule in Le Mans wurde als bedeutender eingestuft als die erste Hochschule.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 53,
+          "target_fact": "Die erste Hochschule in Le Mans war zunächst von der Universität Caen abhängig.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.1735
+        },
+        {
+          "target_fact_index": 54,
+          "target_fact": "Im Jahr 1969 wurde die Technische Hochschule von Le Mans gegründet.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.129
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 56,
+      "source_fact": "Die École Nationale Supérieure d’Ingénieurs du Mans wurde 1995 gegründet.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 54,
+          "target_fact": "Im Jahr 1969 wurde die Technische Hochschule von Le Mans gegründet.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.1486
+        },
+        {
+          "target_fact_index": 52,
+          "target_fact": "Im Jahr 1960 wurde in Le Mans eine Universität gebaut.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.0553
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 57,
+      "source_fact": "Stéphane Le Foll ist Bürgermeister der Stadt.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 55,
+          "target_fact": "Stéphane Le Foll ist seit 2018 Bürgermeister der Stadt.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.3887
+        },
+        {
+          "target_fact_index": 56,
+          "target_fact": "Stéphane Le Foll gehört der Partei PS an.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.2816
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 58,
+      "source_fact": "Stéphane Le Foll ist Mitglied der Partei PS.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 56,
+          "target_fact": "Stéphane Le Foll gehört der Partei PS an.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.5317
+        },
+        {
+          "target_fact_index": 55,
+          "target_fact": "Stéphane Le Foll ist seit 2018 Bürgermeister der Stadt.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.165
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 59,
+      "source_fact": "Stéphane Le Foll ist seit dem 14. Juni 2018 im Amt des Bürgermeisters.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 55,
+          "target_fact": "Stéphane Le Foll ist seit 2018 Bürgermeister der Stadt.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.3757
+        },
+        {
+          "target_fact_index": 56,
+          "target_fact": "Stéphane Le Foll gehört der Partei PS an.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.2344
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 60,
+      "source_fact": "Die Stadt ist in neun Wahlkreise gegliedert.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 57,
+          "target_fact": "Die Stadt ist in neun Kantone unterteilt.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.3924
+        },
+        {
+          "target_fact_index": 55,
+          "target_fact": "Stéphane Le Foll ist seit 2018 Bürgermeister der Stadt.",
+          "target_paragraph": 5,
+          "density_normalized_distance": 0.0488
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 61,
+      "source_fact": "Die Stadt Le Mans unterhält enge Beziehungen zu Paderborn in Nordrhein-Westfalen.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 58,
+          "target_fact": "Die Stadt Le Mans unterhält Beziehungen zu Paderborn in Westfalen.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.3418
+        },
+        {
+          "target_fact_index": 59,
+          "target_fact": "Die Verbindung zwischen Le Mans und Paderborn besteht aufgrund eines gemeinsamen Patrons, dem Heiligen Liborius.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.1453
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 62,
+      "source_fact": "Le Mans und Paderborn haben den gemeinsamen Patron den Heiligen Liborius.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 59,
+          "target_fact": "Die Verbindung zwischen Le Mans und Paderborn besteht aufgrund eines gemeinsamen Patrons, dem Heiligen Liborius.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.3388
+        },
+        {
+          "target_fact_index": 58,
+          "target_fact": "Die Stadt Le Mans unterhält Beziehungen zu Paderborn in Westfalen.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.0863
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 63,
+      "source_fact": "Die engen Beziehungen zwischen Le Mans und Paderborn bestehen bereits seit 836.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 60,
+          "target_fact": "Die Beziehungen zwischen Le Mans und Paderborn bestehen bereits seit dem Jahr 836.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.3771
+        },
+        {
+          "target_fact_index": 61,
+          "target_fact": "Die offizielle Städtepartnerschaft zwischen Le Mans und Paderborn besteht seit 1967.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.2138
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 64,
+      "source_fact": "Die offizielle Städtepartnerschaft zwischen Le Mans und Paderborn besteht seit 1967.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 61,
+          "target_fact": "Die offizielle Städtepartnerschaft zwischen Le Mans und Paderborn besteht seit 1967.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.3812
+        },
+        {
+          "target_fact_index": 60,
+          "target_fact": "Die Beziehungen zwischen Le Mans und Paderborn bestehen bereits seit dem Jahr 836.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.2523
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 65,
+      "source_fact": "Le Mans hat insgesamt sechs Partnerstädte.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 62,
+          "target_fact": "Le Mans hat sechs Partnerschädte.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.3423
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 66,
+      "source_fact": "Die Landmaschinenindustrie ist einer der wichtigsten Wirtschaftszweige.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 63,
+          "target_fact": "Die Landmaschinenindustrie ist ein wichtiger Wirtschaftszweig.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.4456
+        },
+        {
+          "target_fact_index": 67,
+          "target_fact": "Die Elektroindustrie ist ein wichtiger Wirtschaftszweig.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.3416
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 67,
+      "source_fact": "Die metallverarbeitende Industrie ist einer der wichtigsten Wirtschaftszweige.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 66,
+          "target_fact": "Die metallverarbeitende Industrie ist ein wichtiger Wirtschaftszweig.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.442
+        },
+        {
+          "target_fact_index": 67,
+          "target_fact": "Die Elektroindustrie ist ein wichtiger Wirtschaftszweig.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.3606
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 68,
+      "source_fact": "Die Elektroindustrie ist einer der wichtigsten Wirtschaftszweige.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 67,
+          "target_fact": "Die Elektroindustrie ist ein wichtiger Wirtschaftszweig.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.4601
+        },
+        {
+          "target_fact_index": 66,
+          "target_fact": "Die metallverarbeitende Industrie ist ein wichtiger Wirtschaftszweig.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.3292
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 69,
+      "source_fact": "Der Dienstleistungsbereich ist einer der wichtigsten Wirtschaftszweige.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 68,
+          "target_fact": "Der Dienstleistungsbereich ist ein wichtiger Wirtschaftszweig.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.4638
+        },
+        {
+          "target_fact_index": 67,
+          "target_fact": "Die Elektroindustrie ist ein wichtiger Wirtschaftszweig.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.2917
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 70,
+      "source_fact": "Das Traktorenwerk vertritt die Landmaschinenindustrie.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 64,
+          "target_fact": "Das Unternehmen Claas ist in der Landmaschinenindustrie vertreten.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.2452
+        },
+        {
+          "target_fact_index": 63,
+          "target_fact": "Die Landmaschinenindustrie ist ein wichtiger Wirtschaftszweig.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.1946
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 71,
+      "source_fact": "Das Traktorenwerk ging zwischen 2003 und 2008 sukzessiv von Renault an Claas über.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 64,
+          "target_fact": "Das Unternehmen Claas ist in der Landmaschinenindustrie vertreten.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.1457
+        },
+        {
+          "target_fact_index": 65,
+          "target_fact": "Claas baut in Mans Traktoren.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.1031
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 72,
+      "source_fact": "Versicherungen gehören zum Dienstleistungsbereich.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 69,
+          "target_fact": "Versicherungen gehören zum Dienstleistungsbereich.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.567
+        },
+        {
+          "target_fact_index": 68,
+          "target_fact": "Der Dienstleistungsbereich ist ein wichtiger Wirtschaftszweig.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.234
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 73,
+      "source_fact": "MMA (Mutuelles du Mans Assurances) ist ein Beispiel für eine Versicherung im Dienstleistungsbereich.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 70,
+          "target_fact": "MMA (Mutuelles du Mans Assurances) ist ein Beispiel für ein Versicherungsunternehmen.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.3952
+        },
+        {
+          "target_fact_index": 69,
+          "target_fact": "Versicherungen gehören zum Dienstleistungsbereich.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.2087
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 74,
+      "source_fact": "Die Stadt blieb im Zweiten Weltkrieg weitgehend unzerstört.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 71,
+          "target_fact": "Die Stadt blieb im Zweiten Weltkrieg weitgehend ganz.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.4442
+        },
+        {
+          "target_fact_index": 75,
+          "target_fact": "Die Stadtmauer ist bemerkenswert gut erhalten.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.1848
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 75,
+      "source_fact": "Die historische Altstadt der Stadt hat sich erhalten.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 72,
+          "target_fact": "Die historische Altstadt hat sich erhalten.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.4883
+        },
+        {
+          "target_fact_index": 75,
+          "target_fact": "Die Stadtmauer ist bemerkenswert gut erhalten.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.1813
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 76,
+      "source_fact": "Es gibt eine gallo-römische Stadtmauer.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 74,
+          "target_fact": "Die Stadtmauer ist im gallo-römischen Baustil errichtet.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.2598
+        },
+        {
+          "target_fact_index": 75,
+          "target_fact": "Die Stadtmauer ist bemerkenswert gut erhalten.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.0883
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 77,
+      "source_fact": "Die gallo-römische Stadtmauer wurde gegen Ende des 3. Jahrhunderts gebaut.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 73,
+          "target_fact": "Die Stadtmauer wurde gegen Ende des 3. Jahrhunderts gebaut.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.394
+        },
+        {
+          "target_fact_index": 74,
+          "target_fact": "Die Stadtmauer ist im gallo-römischen Baustil errichtet.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.2907
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 78,
+      "source_fact": "Die gallo-römische Stadtmauer ist bemerkenswert gut erhalten.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 75,
+          "target_fact": "Die Stadtmauer ist bemerkenswert gut erhalten.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.4333
+        },
+        {
+          "target_fact_index": 74,
+          "target_fact": "Die Stadtmauer ist im gallo-römischen Baustil errichtet.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.2669
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 79,
+      "source_fact": "Es gibt eine Kathedrale Saint-Julien.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 76,
+          "target_fact": "Die Kathedrale Saint-Julien ist im romanisch-gotischen Baustil erbaut.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.1893
+        },
+        {
+          "target_fact_index": 80,
+          "target_fact": "Zum historischen Erbe gehört das Hôtel de Clairaulnay.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.0442
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 80,
+      "source_fact": "Die Kathedrale Saint-Julien ist im romanisch-gotischen Baustil errichtet.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 76,
+          "target_fact": "Die Kathedrale Saint-Julien ist im romanisch-gotischen Baustil erbaut.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.4334
+        },
+        {
+          "target_fact_index": 74,
+          "target_fact": "Die Stadtmauer ist im gallo-römischen Baustil errichtet.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.2614
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 81,
+      "source_fact": "Es gibt eine Kirche Notre-Dame de la Couture.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 77,
+          "target_fact": "Die Kirche Eglise de la Couture stammt aus dem 13. und 14. Jahrhundert.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.1228
+        },
+        {
+          "target_fact_index": 79,
+          "target_fact": "Zum historischen Erbe gehört das Maison d'Adam et Ève.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.0128
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 82,
+      "source_fact": "Die Kirche Notre-Dame de la Couture stammt aus dem 13. und 14. Jahrhundert.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 77,
+          "target_fact": "Die Kirche Eglise de la Couture stammt aus dem 13. und 14. Jahrhundert.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.3975
+        },
+        {
+          "target_fact_index": 79,
+          "target_fact": "Zum historischen Erbe gehört das Maison d'Adam et Ève.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.0685
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 83,
+      "source_fact": "Es gibt ein Musée de Tessé.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 78,
+          "target_fact": "Zum historischen Erbe gehört das Musée de Tessé.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.3152
+        },
+        {
+          "target_fact_index": 79,
+          "target_fact": "Zum historischen Erbe gehört das Maison d'Adam et Ève.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.007
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 84,
+      "source_fact": "Es gibt ein Maison d’Adam et Ève.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 79,
+          "target_fact": "Zum historischen Erbe gehört das Maison d'Adam et Ève.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.2918
+        },
+        {
+          "target_fact_index": 81,
+          "target_fact": "Zum historischen Erbe gehört das Hôtel de Vaux.",
+          "target_paragraph": 9,
+          "density_normalized_distance": 0.0587
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 85,
+      "source_fact": "Es gibt ein Hôtel de Clairaulnay.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 80,
+          "target_fact": "Zum historischen Erbe gehört das Hôtel de Clairaulnay.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.232
+        },
+        {
+          "target_fact_index": 81,
+          "target_fact": "Zum historischen Erbe gehört das Hôtel de Vaux.",
+          "target_paragraph": 9,
+          "density_normalized_distance": 0.089
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 86,
+      "source_fact": "Es gibt ein Hôtel de Vaux.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 81,
+          "target_fact": "Zum historischen Erbe gehört das Hôtel de Vaux.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.2648
+        },
+        {
+          "target_fact_index": 79,
+          "target_fact": "Zum historischen Erbe gehört das Maison d'Adam et Ève.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.0072
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 87,
+      "source_fact": "Es gab eine königliche Benediktinerabtei St-Vincent.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 76,
+          "target_fact": "Die Kathedrale Saint-Julien ist im romanisch-gotischen Baustil erbaut.",
+          "target_paragraph": 9,
+          "density_normalized_distance": 0.0044
+        },
+        {
+          "target_fact_index": 72,
+          "target_fact": "Die historische Altstadt hat sich erhalten.",
+          "target_paragraph": 9,
+          "density_normalized_distance": 0.0324
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 88,
+      "source_fact": "Die Benediktinerabtei St-Vincent wurde im Jahr 572 erbaut.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 76,
+          "target_fact": "Die Kathedrale Saint-Julien ist im romanisch-gotischen Baustil erbaut.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.0444
+        },
+        {
+          "target_fact_index": 73,
+          "target_fact": "Die Stadtmauer wurde gegen Ende des 3. Jahrhunderts gebaut.",
+          "target_paragraph": 9,
+          "density_normalized_distance": 0.0008
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 89,
+      "source_fact": "Die Benediktinerabtei St-Vincent wurde in der Revolution zerstört.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 76,
+          "target_fact": "Die Kathedrale Saint-Julien ist im romanisch-gotischen Baustil erbaut.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.0032
+        },
+        {
+          "target_fact_index": 72,
+          "target_fact": "Die historische Altstadt hat sich erhalten.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.0029
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 90,
+      "source_fact": "Reste der Benediktinerabtei St-Vincent werden vom Lycée Bellevue eingenommen.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 81,
+          "target_fact": "Zum historischen Erbe gehört das Hôtel de Vaux.",
+          "target_paragraph": 9,
+          "density_normalized_distance": 0.0173
+        },
+        {
+          "target_fact_index": 72,
+          "target_fact": "Die historische Altstadt hat sich erhalten.",
+          "target_paragraph": 9,
+          "density_normalized_distance": 0.0327
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 91,
+      "source_fact": "Die Strecke des 24-Stunden-Rennens von Le Mans befindet sich in unmittelbarer Nähe.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 82,
+          "target_fact": "Das 24-Stunden-Rennen von Le Mans findet in unmittelbarer Nähe statt.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.2675
+        },
+        {
+          "target_fact_index": 88,
+          "target_fact": "In den Fußgängerzonen von Le Mans befinden sich Hand- und Fußabdrücke erfolgreicher Rennfahrer.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.0072
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 92,
+      "source_fact": "Das Automobilmuseum des Départements Sarthe liegt im Innenbereich der Rennstrecke.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 83,
+          "target_fact": "Im Innenbereich der Rennstrecke befindet sich seit 1991 das Automobilmuseum des Département Sarthe.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.3485
+        },
+        {
+          "target_fact_index": 84,
+          "target_fact": "Im Museum sind mehr als 100 Fahrzeuge ausgestellt.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.0294
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 93,
+      "source_fact": "Das Automobilmuseum des Départements Sarthe existiert dort seit 1991.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 83,
+          "target_fact": "Im Innenbereich der Rennstrecke befindet sich seit 1991 das Automobilmuseum des Département Sarthe.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.4008
+        },
+        {
+          "target_fact_index": 84,
+          "target_fact": "Im Museum sind mehr als 100 Fahrzeuge ausgestellt.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.0708
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 94,
+      "source_fact": "Im Museum sind mehr als 100 Fahrzeuge ausgestellt.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 84,
+          "target_fact": "Im Museum sind mehr als 100 Fahrzeuge ausgestellt.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.4948
+        },
+        {
+          "target_fact_index": 83,
+          "target_fact": "Im Innenbereich der Rennstrecke befindet sich seit 1991 das Automobilmuseum des Département Sarthe.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.0319
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 95,
+      "source_fact": "Unter den Exponaten befinden sich Siegerfahrzeuge des 24-Stunden-Rennens.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 85,
+          "target_fact": "Unter den Exponaten befinden sich Siegerfahrzeuge des 24-Stunden-Rennens.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.4262
+        },
+        {
+          "target_fact_index": 86,
+          "target_fact": "Ein Siegerfahrzeug von 1924 ist ein Bentley.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.035
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 96,
+      "source_fact": "Ein Bentley, der 1924 siegte, ist im Museum zu besichtigen.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 86,
+          "target_fact": "Ein Siegerfahrzeug von 1924 ist ein Bentley.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.3253
+        },
+        {
+          "target_fact_index": 87,
+          "target_fact": "Ein Siegerfahrzeug von 1949 ist ein Ferrari.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.1651
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 97,
+      "source_fact": "Ein Ferrari, der 1949 siegte, ist im Museum zu besichtigen.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 87,
+          "target_fact": "Ein Siegerfahrzeug von 1949 ist ein Ferrari.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.3402
+        },
+        {
+          "target_fact_index": 86,
+          "target_fact": "Ein Siegerfahrzeug von 1924 ist ein Bentley.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.1222
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 98,
+      "source_fact": "In der Fußgängerzone von Le Mans haben erfolgreiche Fahrzeugpiloten Abdrücke hinterlassen.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 88,
+          "target_fact": "In den Fußgängerzonen von Le Mans befinden sich Hand- und Fußabdrücke erfolgreicher Rennfahrer.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.2814
+        },
+        {
+          "target_fact_index": 89,
+          "target_fact": "Diese Abdrücke sind auf Messingplatten im Straßenbelag oder an einem Brunnen angebracht.",
+          "target_paragraph": 10,
+          "density_normalized_distance": 0.0191
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 99,
+      "source_fact": "Die Abdrücke der Piloten befinden sich auf Messingplatten im Straßenbelag.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 89,
+          "target_fact": "Diese Abdrücke sind auf Messingplatten im Straßenbelag oder an einem Brunnen angebracht.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.2849
+        },
+        {
+          "target_fact_index": 88,
+          "target_fact": "In den Fußgängerzonen von Le Mans befinden sich Hand- und Fußabdrücke erfolgreicher Rennfahrer.",
+          "target_paragraph": 10,
+          "density_normalized_distance": 0.0752
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 100,
+      "source_fact": "Die Abdrücke der Piloten befinden sich an einem Brunnen.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 89,
+          "target_fact": "Diese Abdrücke sind auf Messingplatten im Straßenbelag oder an einem Brunnen angebracht.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.0231
+        },
+        {
+          "target_fact_index": 86,
+          "target_fact": "Ein Siegerfahrzeug von 1924 ist ein Bentley.",
+          "target_paragraph": 10,
+          "density_normalized_distance": 0.1038
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 101,
+      "source_fact": "Le Mans ist weltberühmt für seine Motorsportveranstaltungen.",
+      "source_paragraph": 12,
+      "matches": [
+        {
+          "target_fact_index": 90,
+          "target_fact": "Le Mans ist weltberühmt für seine Motorsportveranstaltungen.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.3508
+        },
+        {
+          "target_fact_index": 92,
+          "target_fact": "Im Jahr 1955 ereignete sich beim 24-Stunden-Rennen von Le Mans der weltweit schwerste Unfall.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.0542
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 102,
+      "source_fact": "In Le Mans finden die 24-Stunden-Rennen statt.",
+      "source_paragraph": 12,
+      "matches": [
+        {
+          "target_fact_index": 91,
+          "target_fact": "In Le Mans findet das 24-Stunden-Rennen statt.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.2802
+        },
+        {
+          "target_fact_index": 94,
+          "target_fact": "Die Rennstrecke 'Circuit des 24 Heures' ist 13,5 km lang.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.1128
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 103,
+      "source_fact": "Im Jahr 1955 ereignete sich bei den 24-Stunden-Rennen von Le Mans der weltweit schwerste Unfall.",
+      "source_paragraph": 12,
+      "matches": [
+        {
+          "target_fact_index": 92,
+          "target_fact": "Im Jahr 1955 ereignete sich beim 24-Stunden-Rennen von Le Mans der weltweit schwerste Unfall.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.4142
+        },
+        {
+          "target_fact_index": 96,
+          "target_fact": "Im Jahr 1906 fand in Le Mans das erste Grand-Prix-Rennen der Welt statt.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.1061
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 104,
+      "source_fact": "Die 24-Stunden-Rennen von Le Mans dienen als Vorbild für viele Langstreckenrennen.",
+      "source_paragraph": 12,
+      "matches": [
+        {
+          "target_fact_index": 92,
+          "target_fact": "Im Jahr 1955 ereignete sich beim 24-Stunden-Rennen von Le Mans der weltweit schwerste Unfall.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.0794
+        },
+        {
+          "target_fact_index": 94,
+          "target_fact": "Die Rennstrecke 'Circuit des 24 Heures' ist 13,5 km lang.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.0761
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 105,
+      "source_fact": "Die 24-Stunden-Rennen werden seit 1923 alljährlich ausgetragen.",
+      "source_paragraph": 12,
+      "matches": [
+        {
+          "target_fact_index": 93,
+          "target_fact": "Das Langstreckenrennen wird seit 1923 jährlich Mitte Juni ausgetragen.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.2918
+        },
+        {
+          "target_fact_index": 94,
+          "target_fact": "Die Rennstrecke 'Circuit des 24 Heures' ist 13,5 km lang.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.1408
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 106,
+      "source_fact": "Die Rennen finden jeweils Mitte Juni statt.",
+      "source_paragraph": 12,
+      "matches": [
+        {
+          "target_fact_index": 93,
+          "target_fact": "Das Langstreckenrennen wird seit 1923 jährlich Mitte Juni ausgetragen.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.1953
+        },
+        {
+          "target_fact_index": 94,
+          "target_fact": "Die Rennstrecke 'Circuit des 24 Heures' ist 13,5 km lang.",
+          "target_paragraph": 11,
+          "density_normalized_distance": 0.0609
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 107,
+      "source_fact": "Die Strecke 'Circuit des 24 Heures' ist 13,5 km lang.",
+      "source_paragraph": 12,
+      "matches": [
+        {
+          "target_fact_index": 94,
+          "target_fact": "Die Rennstrecke 'Circuit des 24 Heures' ist 13,5 km lang.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.5307
+        },
+        {
+          "target_fact_index": 93,
+          "target_fact": "Das Langstreckenrennen wird seit 1923 jährlich Mitte Juni ausgetragen.",
+          "target_paragraph": 11,
+          "density_normalized_distance": 0.0299
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 108,
+      "source_fact": "Die Strecke besteht teilweise aus öffentlichen Landstraßen.",
+      "source_paragraph": 12,
+      "matches": [
+        {
+          "target_fact_index": 95,
+          "target_fact": "Die Strecke besteht aus Landstraßen im Süden von Le Mans.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.0343
+        },
+        {
+          "target_fact_index": 94,
+          "target_fact": "Die Rennstrecke 'Circuit des 24 Heures' ist 13,5 km lang.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.0019
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 109,
+      "source_fact": "Die Strecke befindet sich im Süden von Le Mans.",
+      "source_paragraph": 12,
+      "matches": [
+        {
+          "target_fact_index": 95,
+          "target_fact": "Die Strecke besteht aus Landstraßen im Süden von Le Mans.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.2579
+        },
+        {
+          "target_fact_index": 91,
+          "target_fact": "In Le Mans findet das 24-Stunden-Rennen statt.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.0245
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 110,
+      "source_fact": "Im Jahr 1906 fand in Le Mans das erste Grand-Prix-Rennen der Welt statt.",
+      "source_paragraph": 12,
+      "matches": [
+        {
+          "target_fact_index": 96,
+          "target_fact": "Im Jahr 1906 fand in Le Mans das erste Grand-Prix-Rennen der Welt statt.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.3702
+        },
+        {
+          "target_fact_index": 92,
+          "target_fact": "Im Jahr 1955 ereignete sich beim 24-Stunden-Rennen von Le Mans der weltweit schwerste Unfall.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.1546
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 111,
+      "source_fact": "An diesem ersten Grand-Prix-Rennen nahmen 32 Automobile teil.",
+      "source_paragraph": 12,
+      "matches": [
+        {
+          "target_fact_index": 97,
+          "target_fact": "An diesem ersten Grand-Prix-Rennen nahmen 32 Automobile teil.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.4656
+        },
+        {
+          "target_fact_index": 96,
+          "target_fact": "Im Jahr 1906 fand in Le Mans das erste Grand-Prix-Rennen der Welt statt.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.0022
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 112,
+      "source_fact": "Es gibt ein 24-Stunden-Rennen für Motorräder.",
+      "source_paragraph": 13,
+      "matches": [
+        {
+          "target_fact_index": 98,
+          "target_fact": "Es gibt ein 24-Stunden-Rennen für Motorräder.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.4958
+        },
+        {
+          "target_fact_index": 99,
+          "target_fact": "Es finden diverse Motorsportveranstaltungen statt.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.1298
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 113,
+      "source_fact": "Es finden diverse weitere Motorsportveranstaltungen statt.",
+      "source_paragraph": 13,
+      "matches": [
+        {
+          "target_fact_index": 99,
+          "target_fact": "Es finden diverse Motorsportveranstaltungen statt.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.4594
+        },
+        {
+          "target_fact_index": 100,
+          "target_fact": "Der Grand Prix von Frankreich der Motorrad-Weltmeisterschaft findet dort statt.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.0611
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 114,
+      "source_fact": "Der Grand Prix von Frankreich der Motorrad-Weltmeisterschaft ist eine dieser Motorsportveranstaltungen.",
+      "source_paragraph": 13,
+      "matches": [
+        {
+          "target_fact_index": 100,
+          "target_fact": "Der Grand Prix von Frankreich der Motorrad-Weltmeisterschaft findet dort statt.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.3469
+        },
+        {
+          "target_fact_index": 101,
+          "target_fact": "Der Grand Prix von Frankreich wird auf einer kürzeren Variante der Rennstrecke ausgetragen.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.219
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 115,
+      "source_fact": "Diese Veranstaltungen finden auf dem Circuit Bugatti statt.",
+      "source_paragraph": 13,
+      "matches": [
+        {
+          "target_fact_index": 102,
+          "target_fact": "Diese kürzere Variante heißt Circuit Bugatti.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.2816
+        },
+        {
+          "target_fact_index": 99,
+          "target_fact": "Es finden diverse Motorsportveranstaltungen statt.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.1065
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 116,
+      "source_fact": "Der Circuit Bugatti ist die kürzere Variante der Rennstrecke.",
+      "source_paragraph": 13,
+      "matches": [
+        {
+          "target_fact_index": 102,
+          "target_fact": "Diese kürzere Variante heißt Circuit Bugatti.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.4495
+        },
+        {
+          "target_fact_index": 101,
+          "target_fact": "Der Grand Prix von Frankreich wird auf einer kürzeren Variante der Rennstrecke ausgetragen.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.1797
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 117,
+      "source_fact": "Der Fußballclub heißt Le Mans Union Club (M.U.C.) 72.",
+      "source_paragraph": 14,
+      "matches": [
+        {
+          "target_fact_index": 103,
+          "target_fact": "Der Fußballclub heißt Le Mans Union Club (M.U.C.) 72.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.3221
+        },
+        {
+          "target_fact_index": 104,
+          "target_fact": "Der Verein spielte einige Jahre in der zweiten französischen Liga.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.0216
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 118,
+      "source_fact": "Der Club spielte seit einigen Jahren in der zweiten Liga Frankreichs.",
+      "source_paragraph": 14,
+      "matches": [
+        {
+          "target_fact_index": 104,
+          "target_fact": "Der Verein spielte einige Jahre in der zweiten französischen Liga.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.4745
+        },
+        {
+          "target_fact_index": 105,
+          "target_fact": "Der Verein wurde im Oktober 2013 aufgelöst.",
+          "target_paragraph": 13,
+          "density_normalized_distance": 0.0499
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 119,
+      "source_fact": "Der Club wurde im Oktober 2013 aufgelöst.",
+      "source_paragraph": 14,
+      "matches": [
+        {
+          "target_fact_index": 105,
+          "target_fact": "Der Verein wurde im Oktober 2013 aufgelöst.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.4428
+        },
+        {
+          "target_fact_index": 106,
+          "target_fact": "Der Grund für die Auflösung war eine Insolvenz.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.065
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 120,
+      "source_fact": "Der Grund für die Auflösung war eine Insolvenz.",
+      "source_paragraph": 14,
+      "matches": [
+        {
+          "target_fact_index": 106,
+          "target_fact": "Der Grund für die Auflösung war eine Insolvenz.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.5578
+        },
+        {
+          "target_fact_index": 105,
+          "target_fact": "Der Verein wurde im Oktober 2013 aufgelöst.",
+          "target_paragraph": 13,
+          "density_normalized_distance": 0.0022
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 121,
+      "source_fact": "Die Basketballmannschaft Le Mans Sarthe Basket wurde vier Mal französischer Meister.",
+      "source_paragraph": 15,
+      "matches": [
+        {
+          "target_fact_index": 108,
+          "target_fact": "Le Mans Sarthe Basket war viermal französischer Meister.",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.3923
+        },
+        {
+          "target_fact_index": 109,
+          "target_fact": "Der letzte französische Meistertitel von Le Mans Sarthe Basket wurde im Jahr 2006 gewonnen.",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.2386
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 122,
+      "source_fact": "Die Basketballmannschaft Le Mans Sarthe Basket wurde zuletzt im Jahr 2006 französischer Meister.",
+      "source_paragraph": 15,
+      "matches": [
+        {
+          "target_fact_index": 109,
+          "target_fact": "Der letzte französische Meistertitel von Le Mans Sarthe Basket wurde im Jahr 2006 gewonnen.",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.3616
+        },
+        {
+          "target_fact_index": 108,
+          "target_fact": "Le Mans Sarthe Basket war viermal französischer Meister.",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.2715
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 123,
+      "source_fact": "Der Verein heißt MSH 72.",
+      "source_paragraph": 16,
+      "matches": [
+        {
+          "target_fact_index": 110,
+          "target_fact": "Der Verein heißt MSH 72.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.4922
+        },
+        {
+          "target_fact_index": 111,
+          "target_fact": "MSH 72 steht für Le Mans Sarthe Handball 72.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.1622
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 124,
+      "source_fact": "MSH 72 steht für Le Mans Sarthe Handball 72.",
+      "source_paragraph": 16,
+      "matches": [
+        {
+          "target_fact_index": 111,
+          "target_fact": "MSH 72 steht für Le Mans Sarthe Handball 72.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.4705
+        },
+        {
+          "target_fact_index": 110,
+          "target_fact": "Der Verein heißt MSH 72.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.1839
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 125,
+      "source_fact": "Der Verein gilt als Hauptverein der Stadt Le Mans für die Männer.",
+      "source_paragraph": 16,
+      "matches": [
+        {
+          "target_fact_index": 112,
+          "target_fact": "Der Verein gilt als Hauptverein der Stadt Le Mans.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.2621
+        },
+        {
+          "target_fact_index": 113,
+          "target_fact": "Der Verein gilt als Hauptverein des Departements Sarthe.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.1459
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 126,
+      "source_fact": "Der Verein gilt als Hauptverein der Sarthe für die Männer.",
+      "source_paragraph": 16,
+      "matches": [
+        {
+          "target_fact_index": 113,
+          "target_fact": "Der Verein gilt als Hauptverein des Departements Sarthe.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.3439
+        },
+        {
+          "target_fact_index": 114,
+          "target_fact": "Der Verein ist eine Männermannschaft.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.1103
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 127,
+      "source_fact": "Der Verein CSC Le Mans Handball wurde 1957 gegründet.",
+      "source_paragraph": 17,
+      "matches": [
+        {
+          "target_fact_index": 115,
+          "target_fact": "Der Verein CSC Le Mans Handball (Club Sportif des Cheminots du Mans) wurde 1957 gegründet.",
+          "target_paragraph": 16,
+          "density_normalized_distance": -0.2743
+        },
+        {
+          "target_fact_index": 116,
+          "target_fact": "Der Verein wird als „Eisenbahner-Sportverein in Le Mans“ bezeichnet.",
+          "target_paragraph": 16,
+          "density_normalized_distance": 0.0006
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 128,
+      "source_fact": "CSC Le Mans Handball wird auch Club Sportif des Cheminots du Mans genannt.",
+      "source_paragraph": 17,
+      "matches": [
+        {
+          "target_fact_index": 115,
+          "target_fact": "Der Verein CSC Le Mans Handball (Club Sportif des Cheminots du Mans) wurde 1957 gegründet.",
+          "target_paragraph": 16,
+          "density_normalized_distance": -0.143
+        },
+        {
+          "target_fact_index": 116,
+          "target_fact": "Der Verein wird als „Eisenbahner-Sportverein in Le Mans“ bezeichnet.",
+          "target_paragraph": 16,
+          "density_normalized_distance": -0.0862
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 129,
+      "source_fact": "Die Bedeutung von Club Sportif des Cheminots du Mans ist „Sportverein der Eisenbahner in Le Mans“.",
+      "source_paragraph": 17,
+      "matches": [
+        {
+          "target_fact_index": 116,
+          "target_fact": "Der Verein wird als „Eisenbahner-Sportverein in Le Mans“ bezeichnet.",
+          "target_paragraph": 16,
+          "density_normalized_distance": -0.1667
+        },
+        {
+          "target_fact_index": 115,
+          "target_fact": "Der Verein CSC Le Mans Handball (Club Sportif des Cheminots du Mans) wurde 1957 gegründet.",
+          "target_paragraph": 16,
+          "density_normalized_distance": -0.0722
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 130,
+      "source_fact": "Der Verein hat im Augenblick 13 aktive Mannschaften.",
+      "source_paragraph": 17,
+      "matches": [
+        {
+          "target_fact_index": 117,
+          "target_fact": "Der Verein hat aktuell 13 aktive Mannschaften.",
+          "target_paragraph": 16,
+          "density_normalized_distance": -0.4263
+        },
+        {
+          "target_fact_index": 118,
+          "target_fact": "Es gibt Mannschaften im Jugendbereich.",
+          "target_paragraph": 16,
+          "density_normalized_distance": -0.0969
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 131,
+      "source_fact": "Die aktiven Mannschaften des Vereins befinden sich sowohl im Jugend- als auch im Seniorenbereich.",
+      "source_paragraph": 17,
+      "matches": [
+        {
+          "target_fact_index": 119,
+          "target_fact": "Es gibt Mannschaften im Seniorenbereich.",
+          "target_paragraph": 16,
+          "density_normalized_distance": -0.1797
+        },
+        {
+          "target_fact_index": 118,
+          "target_fact": "Es gibt Mannschaften im Jugendbereich.",
+          "target_paragraph": 16,
+          "density_normalized_distance": -0.1713
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 132,
+      "source_fact": "In der Nähe von Le Mans bei Mayet befindet sich ein Sendemast.",
+      "source_paragraph": 18,
+      "matches": [
+        {
+          "target_fact_index": 120,
+          "target_fact": "In der Nähe von Mans bei Mayet gibt es einen Sendemast für UKW und Fernsehen.",
+          "target_paragraph": 17,
+          "density_normalized_distance": -0.3007
+        },
+        {
+          "target_fact_index": 122,
+          "target_fact": "Der Sendemast ist eines der höchsten Bauwerke in Frankreich.",
+          "target_paragraph": 17,
+          "density_normalized_distance": 0.0484
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 133,
+      "source_fact": "Der Sendemast ist 342 Meter hoch.",
+      "source_paragraph": 18,
+      "matches": [
+        {
+          "target_fact_index": 121,
+          "target_fact": "Der Sendemast ist 342 Meter hoch.",
+          "target_paragraph": 17,
+          "density_normalized_distance": -0.6043
+        },
+        {
+          "target_fact_index": 123,
+          "target_fact": "Der Sendemast ist höher als der Eiffelturm.",
+          "target_paragraph": 17,
+          "density_normalized_distance": -0.1355
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 134,
+      "source_fact": "Der Sendemast wird für UKW und Fernsehen genutzt.",
+      "source_paragraph": 18,
+      "matches": [
+        {
+          "target_fact_index": 120,
+          "target_fact": "In der Nähe von Mans bei Mayet gibt es einen Sendemast für UKW und Fernsehen.",
+          "target_paragraph": 17,
+          "density_normalized_distance": -0.1293
+        },
+        {
+          "target_fact_index": 121,
+          "target_fact": "Der Sendemast ist 342 Meter hoch.",
+          "target_paragraph": 17,
+          "density_normalized_distance": 0.0131
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 135,
+      "source_fact": "Der Sendemast ist eines der höchsten Bauwerke in Frankreich.",
+      "source_paragraph": 18,
+      "matches": [
+        {
+          "target_fact_index": 122,
+          "target_fact": "Der Sendemast ist eines der höchsten Bauwerke in Frankreich.",
+          "target_paragraph": 17,
+          "density_normalized_distance": -0.489
+        },
+        {
+          "target_fact_index": 123,
+          "target_fact": "Der Sendemast ist höher als der Eiffelturm.",
+          "target_paragraph": 17,
+          "density_normalized_distance": -0.2152
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 136,
+      "source_fact": "Der Sendemast ist höher als der Eiffelturm.",
+      "source_paragraph": 18,
+      "matches": [
+        {
+          "target_fact_index": 123,
+          "target_fact": "Der Sendemast ist höher als der Eiffelturm.",
+          "target_paragraph": 17,
+          "density_normalized_distance": -0.5905
+        },
+        {
+          "target_fact_index": 121,
+          "target_fact": "Der Sendemast ist 342 Meter hoch.",
+          "target_paragraph": 17,
+          "density_normalized_distance": -0.1493
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 137,
+      "source_fact": "In Le Mans findet die Zwiebelmesse (Foire aux Oignons) statt.",
+      "source_paragraph": 19,
+      "matches": [
+        {
+          "target_fact_index": 124,
+          "target_fact": "Die Zwiblèmessi (Foire aux Oignons) findet in Mans statt.",
+          "target_paragraph": 18,
+          "density_normalized_distance": -0.4782
+        },
+        {
+          "target_fact_index": 125,
+          "target_fact": "Die Zwiblèmessi findet im September statt.",
+          "target_paragraph": 18,
+          "density_normalized_distance": -0.1239
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 138,
+      "source_fact": "Die Zwiebelmesse findet am ersten Freitag im September statt.",
+      "source_paragraph": 19,
+      "matches": [
+        {
+          "target_fact_index": 126,
+          "target_fact": "Die Zwiblèmessi findet am ersten Freitag des Septembers statt.",
+          "target_paragraph": 18,
+          "density_normalized_distance": -0.5221
+        },
+        {
+          "target_fact_index": 125,
+          "target_fact": "Die Zwiblèmessi findet im September statt.",
+          "target_paragraph": 18,
+          "density_normalized_distance": -0.3221
+        }
+      ]
+    }
+  ],
+  "als_to_de": [
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 0,
+      "source_fact": "Le Mans ist eine Stadt im Nordwesten von Frankreich.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 0,
+          "target_fact": "Le Mans ist eine Stadt im Nordwesten Frankreichs.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.2898
+        },
+        {
+          "target_fact_index": 2,
+          "target_fact": "Le Mans ist die Hauptstadt des Départements Sarthe.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0689
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 1,
+      "source_fact": "Die Einwohner von Le Mans werden Manceller genannt.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 4,
+          "target_fact": "Die Einwohner von Le Mans werden Manceller genannt.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.3694
+        },
+        {
+          "target_fact_index": 2,
+          "target_fact": "Le Mans ist die Hauptstadt des Départements Sarthe.",
+          "target_paragraph": 0,
+          "density_normalized_distance": 0.0306
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 2,
+      "source_fact": "Le Mans hat 144.244 Einwohner.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 4,
+          "target_fact": "Die Einwohner von Le Mans werden Manceller genannt.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0712
+        },
+        {
+          "target_fact_index": 0,
+          "target_fact": "Le Mans ist eine Stadt im Nordwesten Frankreichs.",
+          "target_paragraph": 0,
+          "density_normalized_distance": 0.0427
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 3,
+      "source_fact": "Le Mans liegt am Zusammenfluss der Flüsse Sarthe und Huisne.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 1,
+          "target_fact": "Le Mans liegt am Zusammenfluss von Sarthe und Huisne.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.3392
+        },
+        {
+          "target_fact_index": 2,
+          "target_fact": "Le Mans ist die Hauptstadt des Départements Sarthe.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0975
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 4,
+      "source_fact": "Le Mans ist die Hauptstadt des Départements Sarthe.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 2,
+          "target_fact": "Le Mans ist die Hauptstadt des Départements Sarthe.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.3448
+        },
+        {
+          "target_fact_index": 3,
+          "target_fact": "Das Département Sarthe liegt in der Region Pays de la Loire.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.2148
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 5,
+      "source_fact": "Le Mans liegt in der Region Loire-Bièt (Centre-Val de Loire).",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 3,
+          "target_fact": "Das Département Sarthe liegt in der Region Pays de la Loire.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.2051
+        },
+        {
+          "target_fact_index": 2,
+          "target_fact": "Le Mans ist die Hauptstadt des Départements Sarthe.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.071
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 6,
+      "source_fact": "Die Stadt Le Mans besitzt die gotische Kathedrale Saint-Julien du Mans.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 5,
+          "target_fact": "In der Stadt befindet sich die gotische Kathedrale Saint-Julien du Mans.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.3345
+        },
+        {
+          "target_fact_index": 7,
+          "target_fact": "In Le Mans findet das 24-Stunden-Rennen von Le Mans (24 Heures du Mans) statt.",
+          "target_paragraph": 1,
+          "density_normalized_distance": 0.0357
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 7,
+      "source_fact": "In Le Mans findet das 24-Stunden-Rennen von Le Mans (24 Heures du Mans) statt.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 7,
+          "target_fact": "In Le Mans findet das 24-Stunden-Rennen von Le Mans (24 Heures du Mans) statt.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.3138
+        },
+        {
+          "target_fact_index": 8,
+          "target_fact": "Die Stadt ist vor allem durch das 24-Stunden-Rennen von Le Mans bekannt.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.122
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 8,
+      "source_fact": "Die Stadt ist weltweit für das 24-Stunden-Rennen von Le Mans bekannt.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 8,
+          "target_fact": "Die Stadt ist vor allem durch das 24-Stunden-Rennen von Le Mans bekannt.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.2489
+        },
+        {
+          "target_fact_index": 7,
+          "target_fact": "In Le Mans findet das 24-Stunden-Rennen von Le Mans (24 Heures du Mans) statt.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.119
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 9,
+      "source_fact": "Die Gründung der Stadt Le Mans geht auf ein Oppidum der keltischen Cenomani zurück.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 9,
+          "target_fact": "Die Gründung der Stadt Le Mans geht auf ein Oppidum der keltischen Cenomani zurück.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.4031
+        },
+        {
+          "target_fact_index": 13,
+          "target_fact": "In spätrömischer Zeit entstand das Bistum Le Mans.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0587
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 10,
+      "source_fact": "Die Siedlung wurde 56 v. Chr. von den Römern erobert.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 10,
+          "target_fact": "Die Siedlung wurde 56 v. Chr. von den Römern erobert.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.5123
+        },
+        {
+          "target_fact_index": 11,
+          "target_fact": "Die Römer nannten die Siedlung Suindinum.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1498
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 11,
+      "source_fact": "Die Römer nannten die Siedlung Suindinum.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 11,
+          "target_fact": "Die Römer nannten die Siedlung Suindinum.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.5891
+        },
+        {
+          "target_fact_index": 10,
+          "target_fact": "Die Siedlung wurde 56 v. Chr. von den Römern erobert.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0729
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 12,
+      "source_fact": "Im 3. Jahrhundert wurde die Stadtmauer gebaut.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 12,
+          "target_fact": "Im 3. Jahrhundert wurde eine Stadtmauer errichtet, die zum Teil heute noch erkennbar ist.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.2286
+        },
+        {
+          "target_fact_index": 31,
+          "target_fact": "Im Jahr 1589 sorgte Heinrich IV. für einen dauerhaften Frieden in der Region.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0282
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 13,
+      "source_fact": "Teile der Stadtmauer aus dem 3. Jahrhundert sind heute noch erkennbar.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 12,
+          "target_fact": "Im 3. Jahrhundert wurde eine Stadtmauer errichtet, die zum Teil heute noch erkennbar ist.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.2955
+        },
+        {
+          "target_fact_index": 31,
+          "target_fact": "Im Jahr 1589 sorgte Heinrich IV. für einen dauerhaften Frieden in der Region.",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.0043
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 14,
+      "source_fact": "In der spätrömischen Zeit wurde das Bistum von Mans gegründet.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 13,
+          "target_fact": "In spätrömischer Zeit entstand das Bistum Le Mans.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.3025
+        },
+        {
+          "target_fact_index": 27,
+          "target_fact": "Zwischenzeitlich herrschte in Maine wieder ein eigenes Grafengeschlecht.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0756
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 15,
+      "source_fact": "Der Heilige Julianus gilt als der erste Bischof von Mans.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 14,
+          "target_fact": "Der Heilige Julianus gilt als erster Bischof von Le Mans.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.3493
+        },
+        {
+          "target_fact_index": 11,
+          "target_fact": "Die Römer nannten die Siedlung Suindinum.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0016
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 16,
+      "source_fact": "Das Bistum von Mans wurde später dem Erzbistum Tours unterstellt.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 15,
+          "target_fact": "Das Bistum Le Mans wurde später dem Erzbistum Tours unterstellt.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.3297
+        },
+        {
+          "target_fact_index": 29,
+          "target_fact": "Nach der Reformation zählte Maine zu den hugenottischen Provinzen.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0823
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 17,
+      "source_fact": "Mans gehörte zunächst zur Herrschaft des Syvarius.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 16,
+          "target_fact": "Le Mans gehörte zunächst zur Herrschaft des Syagrius.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.2822
+        },
+        {
+          "target_fact_index": 11,
+          "target_fact": "Die Römer nannten die Siedlung Suindinum.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0034
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 18,
+      "source_fact": "Im Jahr 486 wurde Mans von den Franken erobert.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 17,
+          "target_fact": "Le Mans wurde 486 von den Franken erobert.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.2747
+        },
+        {
+          "target_fact_index": 10,
+          "target_fact": "Die Siedlung wurde 56 v. Chr. von den Römern erobert.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.169
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 19,
+      "source_fact": "Mans war das Zentrum der Grafschaft Maine.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 18,
+          "target_fact": "Le Mans wurde Zentrum der Grafschaft Maine.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.2437
+        },
+        {
+          "target_fact_index": 29,
+          "target_fact": "Nach der Reformation zählte Maine zu den hugenottischen Provinzen.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1385
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 20,
+      "source_fact": "Im 11. und frühen 12. Jahrhundert war die Grafschaft Maine zwischen den Herzögen der Normandie und den Grafen von Anjou umkämpft.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 19,
+          "target_fact": "Die Grafschaft Maine war vor allem im 11. und frühen 12. Jahrhundert zwischen den Herzögen der Normandie und den Grafen von Anjou umkämpft.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.3659
+        },
+        {
+          "target_fact_index": 21,
+          "target_fact": "Mit dem Aufstieg der Plantagenets zu Königen von England im Jahr 1154 wurde das Land Teil des Angevinischen Reiches.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1486
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 21,
+      "source_fact": "Im Jahr 1110 sicherte sich Anjou endgültig die Oberhoheit über das Land.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 20,
+          "target_fact": "Im Jahr 1110 sicherte sich Anjou endgültig die Oberhoheit über das Land.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.507
+        },
+        {
+          "target_fact_index": 21,
+          "target_fact": "Mit dem Aufstieg der Plantagenets zu Königen von England im Jahr 1154 wurde das Land Teil des Angevinischen Reiches.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1874
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 22,
+      "source_fact": "Mit dem Aufstieg der Plantagenets zu den Königen von England im Jahr 1154 wurde das Gebiet Teil des Angevinischen Reiches.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 21,
+          "target_fact": "Mit dem Aufstieg der Plantagenets zu Königen von England im Jahr 1154 wurde das Land Teil des Angevinischen Reiches.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.5345
+        },
+        {
+          "target_fact_index": 20,
+          "target_fact": "Im Jahr 1110 sicherte sich Anjou endgültig die Oberhoheit über das Land.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.148
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 23,
+      "source_fact": "Johann Ohneland verlor den Festlandbesitz nördlich der Loire an die französische Krone.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 22,
+          "target_fact": "Johann Ohneland verlor den Festlandbesitz nördlich der Loire an die französische Krone.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.4438
+        },
+        {
+          "target_fact_index": 21,
+          "target_fact": "Mit dem Aufstieg der Plantagenets zu Königen von England im Jahr 1154 wurde das Land Teil des Angevinischen Reiches.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1108
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 24,
+      "source_fact": "Im Jahr 1204 brachte die französische Krone Mans wieder unter ihre Herrschaft.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 23,
+          "target_fact": "Im Jahr 1204 brachte die französische Krone Le Mans wieder unter ihre Herrschaft.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.3372
+        },
+        {
+          "target_fact_index": 20,
+          "target_fact": "Im Jahr 1110 sicherte sich Anjou endgültig die Oberhoheit über das Land.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1513
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 25,
+      "source_fact": "Während des Hundertjährigen Krieges war Maine erneut zwischen Engländern und Franzosen umkämpft.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 24,
+          "target_fact": "Im Verlauf des Hundertjährigen Krieges war Maine erneut zwischen Engländern und Franzosen umkämpft.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.3652
+        },
+        {
+          "target_fact_index": 19,
+          "target_fact": "Die Grafschaft Maine war vor allem im 11. und frühen 12. Jahrhundert zwischen den Herzögen der Normandie und den Grafen von Anjou umkämpft.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1419
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 26,
+      "source_fact": "Die Bevölkerung von Le Mans musste während des Hundertjährigen Krieges in die Stadtmauern flüchten und die Vororte aufgeben.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 25,
+          "target_fact": "Die Bevölkerung von Le Mans musste sich während des Hundertjährigen Krieges hinter die Stadtmauern zurückziehen und die Vororte aufgeben.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.385
+        },
+        {
+          "target_fact_index": 24,
+          "target_fact": "Im Verlauf des Hundertjährigen Krieges war Maine erneut zwischen Engländern und Franzosen umkämpft.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0387
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 27,
+      "source_fact": "Im Jahr 1443 wurden die Engländer endgültig aus Maine vertrieben.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 26,
+          "target_fact": "Im Jahr 1443 wurden die Engländer endgültig aus Maine vertrieben.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.4894
+        },
+        {
+          "target_fact_index": 28,
+          "target_fact": "Im Jahr 1480 wurde Maine dem Kronbesitz zugeschlagen.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.176
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 28,
+      "source_fact": "Zwischenzeitlich herrschte in Maine wieder ein eigenes Grafengeschlecht.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 27,
+          "target_fact": "Zwischenzeitlich herrschte in Maine wieder ein eigenes Grafengeschlecht.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.5578
+        },
+        {
+          "target_fact_index": 28,
+          "target_fact": "Im Jahr 1480 wurde Maine dem Kronbesitz zugeschlagen.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0955
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 29,
+      "source_fact": "Im Jahr 1480 wurde Maine der französischen Krone zugeschlagen.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 28,
+          "target_fact": "Im Jahr 1480 wurde Maine dem Kronbesitz zugeschlagen.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.4088
+        },
+        {
+          "target_fact_index": 26,
+          "target_fact": "Im Jahr 1443 wurden die Engländer endgültig aus Maine vertrieben.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1576
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 30,
+      "source_fact": "Nach der Reformation gehörte Maine zu den hugenottischen Provinzen.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 29,
+          "target_fact": "Nach der Reformation zählte Maine zu den hugenottischen Provinzen.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.4653
+        },
+        {
+          "target_fact_index": 30,
+          "target_fact": "In Maine kam es nach der Reformation zu blutigen Auseinandersetzungen.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1866
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 31,
+      "source_fact": "In der Zeit der hugenottischen Provinzen kam es in Maine zu blutigen Auseinandersetzungen.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 27,
+          "target_fact": "Zwischenzeitlich herrschte in Maine wieder ein eigenes Grafengeschlecht.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.2076
+        },
+        {
+          "target_fact_index": 30,
+          "target_fact": "In Maine kam es nach der Reformation zu blutigen Auseinandersetzungen.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1959
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 32,
+      "source_fact": "Im Jahr 1589 gelang es Heinrich IV., in Maine für einen weitgehend dauerhaften Frieden zu sorgen.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 31,
+          "target_fact": "Im Jahr 1589 sorgte Heinrich IV. für einen dauerhaften Frieden in der Region.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.4222
+        },
+        {
+          "target_fact_index": 20,
+          "target_fact": "Im Jahr 1110 sicherte sich Anjou endgültig die Oberhoheit über das Land.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1531
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 33,
+      "source_fact": "Im Zeitalter des Absolutismus erlebte das örtliche Handwerk einen Aufschwung.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 32,
+          "target_fact": "Im Zeitalter des Absolutismus erlebte das örtliche Handwerk einen Aufschwung.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.5592
+        },
+        {
+          "target_fact_index": 33,
+          "target_fact": "Insbesondere die Herstellung von Textilien und Wachs erlebte im Zeitalter des Absolutismus einen Aufschwung.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.2907
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 34,
+      "source_fact": "Besonders die Herstellung von Kleidern, Stoffen und Wachs war im Zeitalter des Absolutismus gefragt.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 33,
+          "target_fact": "Insbesondere die Herstellung von Textilien und Wachs erlebte im Zeitalter des Absolutismus einen Aufschwung.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.4952
+        },
+        {
+          "target_fact_index": 32,
+          "target_fact": "Im Zeitalter des Absolutismus erlebte das örtliche Handwerk einen Aufschwung.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.1457
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 35,
+      "source_fact": "Im Jahr 1740 gingen zwei Drittel der Textilproduktion der Stadt in den Export.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 34,
+          "target_fact": "Im Jahr 1740 gingen zwei Drittel der Textilproduktion der Stadt in den Export.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.4931
+        },
+        {
+          "target_fact_index": 33,
+          "target_fact": "Insbesondere die Herstellung von Textilien und Wachs erlebte im Zeitalter des Absolutismus einen Aufschwung.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.0841
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 36,
+      "source_fact": "Die Verbesserung der Verkehrswege stärkte den wirtschaftlichen Aufschwung zur Zeit der Industrialisierung.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 35,
+          "target_fact": "Die Verbesserung der Verkehrswege förderte den wirtschaftlichen Aufschwung zur Zeit der Industrialisierung zusätzlich.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.5327
+        },
+        {
+          "target_fact_index": 33,
+          "target_fact": "Insbesondere die Herstellung von Textilien und Wachs erlebte im Zeitalter des Absolutismus einen Aufschwung.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.0974
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 37,
+      "source_fact": "Im Jahr 1844 erhielt Mans einen Eisenbahnanschluss an die Strecke Paris-Rennes.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 36,
+          "target_fact": "Le Mans erhielt 1844 einen Eisenbahnanschluss an der Strecke Paris-Rennes.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.2958
+        },
+        {
+          "target_fact_index": 34,
+          "target_fact": "Im Jahr 1740 gingen zwei Drittel der Textilproduktion der Stadt in den Export.",
+          "target_paragraph": 3,
+          "density_normalized_distance": 0.0054
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 38,
+      "source_fact": "Die Familie Bollée war für die Stadt von großer Bedeutung.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 37,
+          "target_fact": "Die Aktivitäten der Familie Bollée waren von großer Bedeutung für die Stadt.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.4273
+        },
+        {
+          "target_fact_index": 39,
+          "target_fact": "Die Familie Bollée herstellte ab 1887 vor allem Automobile.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.1365
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 39,
+      "source_fact": "Die Familie Bollée produzierte in den 1840er Jahren zunächst Dampfmaschinen.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 38,
+          "target_fact": "Die Familie Bollée produzierte in den 1840er Jahren in Le Mans zunächst Dampfmaschinen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.3244
+        },
+        {
+          "target_fact_index": 39,
+          "target_fact": "Die Familie Bollée herstellte ab 1887 vor allem Automobile.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.2476
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 40,
+      "source_fact": "Ab 1887 baute die Familie Bollée vor allem Autos.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 39,
+          "target_fact": "Die Familie Bollée herstellte ab 1887 vor allem Automobile.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.4516
+        },
+        {
+          "target_fact_index": 38,
+          "target_fact": "Die Familie Bollée produzierte in den 1840er Jahren in Le Mans zunächst Dampfmaschinen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.1083
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 41,
+      "source_fact": "Vom 10. bis 12. Januar 1871 fand die Schlacht bei Le Mans statt.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 40,
+          "target_fact": "Vom 10. bis 12. Januar 1871 fand die Schlacht bei Le Mans statt.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.3895
+        },
+        {
+          "target_fact_index": 42,
+          "target_fact": "Die Schlacht bei Le Mans fand während des Deutsch-Französischen Krieges statt.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.0863
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 42,
+      "source_fact": "Die Schlacht bei Le Mans wurde zwischen der französischen Loirearmee und der zweiten Armee von Kronprinz Friedrich ausgetragen.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 41,
+          "target_fact": "Die Schlacht bei Le Mans wurde zwischen der französischen Loirearmee und der zweiten Armee des Prinzen Friedrich Karl ausgetragen.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.3532
+        },
+        {
+          "target_fact_index": 42,
+          "target_fact": "Die Schlacht bei Le Mans fand während des Deutsch-Französischen Krieges statt.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.179
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 43,
+      "source_fact": "Die Schlacht bei Le Mans fand während des Deutsch-Französischen Krieges statt.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 42,
+          "target_fact": "Die Schlacht bei Le Mans fand während des Deutsch-Französischen Krieges statt.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.3531
+        },
+        {
+          "target_fact_index": 41,
+          "target_fact": "Die Schlacht bei Le Mans wurde zwischen der französischen Loirearmee und der zweiten Armee des Prinzen Friedrich Karl ausgetragen.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.189
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 44,
+      "source_fact": "Die Schlacht bei Le Mans endete mit einem deutschen Sieg.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 43,
+          "target_fact": "Die Schlacht bei Le Mans endete mit einem deutschen Sieg.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.3811
+        },
+        {
+          "target_fact_index": 50,
+          "target_fact": "Die Zerstörungen durch den Krieg in Le Mans hielten sich in Grenzen.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.1743
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 45,
+      "source_fact": "Le Mans wurde 1893 an das Telefonnetz angeschlossen.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 44,
+          "target_fact": "Le Mans wurde 1893 an das Telefonnetz angeschlossen.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.375
+        },
+        {
+          "target_fact_index": 46,
+          "target_fact": "Die Firma Renault siedelte sich 1936 in Le Mans an.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.0611
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 46,
+      "source_fact": "Die Tradition als Automobilrennstadt begann mit einem ersten Grand Prix im Jahr 1911.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 45,
+          "target_fact": "Im Jahr 1911 fand ein erster Grand Prix in Le Mans statt, der die Tradition als Automobilrennstadt begründete.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.2458
+        },
+        {
+          "target_fact_index": 40,
+          "target_fact": "Vom 10. bis 12. Januar 1871 fand die Schlacht bei Le Mans statt.",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.0071
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 47,
+      "source_fact": "Die Firma Renault siedelte sich 1936 in Le Mans an.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 46,
+          "target_fact": "Die Firma Renault siedelte sich 1936 in Le Mans an.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.3543
+        },
+        {
+          "target_fact_index": 52,
+          "target_fact": "Im Jahr 1960 wurde in Le Mans eine Universität errichtet.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.0957
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 48,
+      "source_fact": "Renault ist bis heute der größte Arbeitgeber der Stadt Le Mans.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 47,
+          "target_fact": "Renault ist bis heute der größte Arbeitgeber der Stadt Le Mans.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.3864
+        },
+        {
+          "target_fact_index": 48,
+          "target_fact": "Große Versicherungsunternehmen haben Le Mans als Standort gewählt.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.11
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 49,
+      "source_fact": "Große Versicherungsunternehmen haben Le Mans als Standort gewählt.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 48,
+          "target_fact": "Große Versicherungsunternehmen haben Le Mans als Standort gewählt.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.4489
+        },
+        {
+          "target_fact_index": 47,
+          "target_fact": "Renault ist bis heute der größte Arbeitgeber der Stadt Le Mans.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.0475
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 50,
+      "source_fact": "Zwischen 1940 und 1944 war Le Mans von den Deutschen besetzt.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 49,
+          "target_fact": "Le Mans war zwischen 1940 und 1944 deutsch besetzt.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.3224
+        },
+        {
+          "target_fact_index": 50,
+          "target_fact": "Die Zerstörungen durch den Krieg in Le Mans hielten sich in Grenzen.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.1154
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 51,
+      "source_fact": "Die Zerstörungen durch den Krieg in Le Mans hielten sich in Grenzen.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 50,
+          "target_fact": "Die Zerstörungen durch den Krieg in Le Mans hielten sich in Grenzen.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.4452
+        },
+        {
+          "target_fact_index": 43,
+          "target_fact": "Die Schlacht bei Le Mans endete mit einem deutschen Sieg.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.1103
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 52,
+      "source_fact": "Im Jahr 1960 wurde in Le Mans eine Universität gebaut.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 52,
+          "target_fact": "Im Jahr 1960 wurde in Le Mans eine Universität errichtet.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.388
+        },
+        {
+          "target_fact_index": 54,
+          "target_fact": "Im Jahr 1969 wurde die Technische Hochschule in Le Mans gegründet.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.2247
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 53,
+      "source_fact": "Die erste Hochschule in Le Mans war zunächst von der Universität Caen abhängig.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 53,
+          "target_fact": "Die erste Hochschule in Le Mans war zunächst von der Universität Caen abhängig.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.3641
+        },
+        {
+          "target_fact_index": 55,
+          "target_fact": "Die Technische Hochschule in Le Mans wurde als bedeutender eingestuft als die erste Hochschule.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.2184
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 54,
+      "source_fact": "Im Jahr 1969 wurde die Technische Hochschule von Le Mans gegründet.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 54,
+          "target_fact": "Im Jahr 1969 wurde die Technische Hochschule in Le Mans gegründet.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.3559
+        },
+        {
+          "target_fact_index": 52,
+          "target_fact": "Im Jahr 1960 wurde in Le Mans eine Universität errichtet.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.2498
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 55,
+      "source_fact": "Stéphane Le Foll ist seit 2018 Bürgermeister der Stadt.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 59,
+          "target_fact": "Stéphane Le Foll ist seit dem 14. Juni 2018 im Amt des Bürgermeisters.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.3921
+        },
+        {
+          "target_fact_index": 57,
+          "target_fact": "Stéphane Le Foll ist Bürgermeister der Stadt.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.3717
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 56,
+      "source_fact": "Stéphane Le Foll gehört der Partei PS an.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 58,
+          "target_fact": "Stéphane Le Foll ist Mitglied der Partei PS.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.503
+        },
+        {
+          "target_fact_index": 57,
+          "target_fact": "Stéphane Le Foll ist Bürgermeister der Stadt.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.1908
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 57,
+      "source_fact": "Die Stadt ist in neun Kantone unterteilt.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 60,
+          "target_fact": "Die Stadt ist in neun Wahlkreise gegliedert.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.3928
+        },
+        {
+          "target_fact_index": 57,
+          "target_fact": "Stéphane Le Foll ist Bürgermeister der Stadt.",
+          "target_paragraph": 6,
+          "density_normalized_distance": 0.0299
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 58,
+      "source_fact": "Die Stadt Le Mans unterhält Beziehungen zu Paderborn in Westfalen.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 61,
+          "target_fact": "Die Stadt Le Mans unterhält enge Beziehungen zu Paderborn in Nordrhein-Westfalen.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.3775
+        },
+        {
+          "target_fact_index": 63,
+          "target_fact": "Die engen Beziehungen zwischen Le Mans und Paderborn bestehen bereits seit 836.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.2021
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 59,
+      "source_fact": "Die Verbindung zwischen Le Mans und Paderborn besteht aufgrund eines gemeinsamen Patrons, dem Heiligen Liborius.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 62,
+          "target_fact": "Le Mans und Paderborn haben den gemeinsamen Patron den Heiligen Liborius.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.3281
+        },
+        {
+          "target_fact_index": 63,
+          "target_fact": "Die engen Beziehungen zwischen Le Mans und Paderborn bestehen bereits seit 836.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.1459
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 60,
+      "source_fact": "Die Beziehungen zwischen Le Mans und Paderborn bestehen bereits seit dem Jahr 836.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 63,
+          "target_fact": "Die engen Beziehungen zwischen Le Mans und Paderborn bestehen bereits seit 836.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.4477
+        },
+        {
+          "target_fact_index": 64,
+          "target_fact": "Die offizielle Städtepartnerschaft zwischen Le Mans und Paderborn besteht seit 1967.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.2558
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 61,
+      "source_fact": "Die offizielle Städtepartnerschaft zwischen Le Mans und Paderborn besteht seit 1967.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 64,
+          "target_fact": "Die offizielle Städtepartnerschaft zwischen Le Mans und Paderborn besteht seit 1967.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.4115
+        },
+        {
+          "target_fact_index": 63,
+          "target_fact": "Die engen Beziehungen zwischen Le Mans und Paderborn bestehen bereits seit 836.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.3113
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 62,
+      "source_fact": "Le Mans hat sechs Partnerschädte.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 65,
+          "target_fact": "Le Mans hat insgesamt sechs Partnerstädte.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.2561
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 63,
+      "source_fact": "Die Landmaschinenindustrie ist ein wichtiger Wirtschaftszweig.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 66,
+          "target_fact": "Die Landmaschinenindustrie ist einer der wichtigsten Wirtschaftszweige.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.4403
+        },
+        {
+          "target_fact_index": 68,
+          "target_fact": "Die Elektroindustrie ist einer der wichtigsten Wirtschaftszweige.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.3225
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 64,
+      "source_fact": "Das Unternehmen Claas ist in der Landmaschinenindustrie vertreten.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 70,
+          "target_fact": "Das Traktorenwerk vertritt die Landmaschinenindustrie.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.2563
+        },
+        {
+          "target_fact_index": 66,
+          "target_fact": "Die Landmaschinenindustrie ist einer der wichtigsten Wirtschaftszweige.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.1223
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 65,
+      "source_fact": "Claas baut in Mans Traktoren.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 70,
+          "target_fact": "Das Traktorenwerk vertritt die Landmaschinenindustrie.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.0794
+        },
+        {
+          "target_fact_index": 71,
+          "target_fact": "Das Traktorenwerk ging zwischen 2003 und 2008 sukzessiv von Renault an Claas über.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.0239
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 66,
+      "source_fact": "Die metallverarbeitende Industrie ist ein wichtiger Wirtschaftszweig.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 67,
+          "target_fact": "Die metallverarbeitende Industrie ist einer der wichtigsten Wirtschaftszweige.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.4329
+        },
+        {
+          "target_fact_index": 68,
+          "target_fact": "Die Elektroindustrie ist einer der wichtigsten Wirtschaftszweige.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.3441
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 67,
+      "source_fact": "Die Elektroindustrie ist ein wichtiger Wirtschaftszweig.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 68,
+          "target_fact": "Die Elektroindustrie ist einer der wichtigsten Wirtschaftszweige.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.4493
+        },
+        {
+          "target_fact_index": 67,
+          "target_fact": "Die metallverarbeitende Industrie ist einer der wichtigsten Wirtschaftszweige.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.3258
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 68,
+      "source_fact": "Der Dienstleistungsbereich ist ein wichtiger Wirtschaftszweig.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 69,
+          "target_fact": "Der Dienstleistungsbereich ist einer der wichtigsten Wirtschaftszweige.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.4616
+        },
+        {
+          "target_fact_index": 72,
+          "target_fact": "Versicherungen gehören zum Dienstleistungsbereich.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.3032
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 69,
+      "source_fact": "Versicherungen gehören zum Dienstleistungsbereich.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 72,
+          "target_fact": "Versicherungen gehören zum Dienstleistungsbereich.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.5892
+        },
+        {
+          "target_fact_index": 69,
+          "target_fact": "Der Dienstleistungsbereich ist einer der wichtigsten Wirtschaftszweige.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.223
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 70,
+      "source_fact": "MMA (Mutuelles du Mans Assurances) ist ein Beispiel für ein Versicherungsunternehmen.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 73,
+          "target_fact": "MMA (Mutuelles du Mans Assurances) ist ein Beispiel für eine Versicherung im Dienstleistungsbereich.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.4204
+        },
+        {
+          "target_fact_index": 72,
+          "target_fact": "Versicherungen gehören zum Dienstleistungsbereich.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.1364
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 71,
+      "source_fact": "Die Stadt blieb im Zweiten Weltkrieg weitgehend ganz.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 74,
+          "target_fact": "Die Stadt blieb im Zweiten Weltkrieg weitgehend unzerstört.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.4452
+        },
+        {
+          "target_fact_index": 75,
+          "target_fact": "Die historische Altstadt der Stadt hat sich erhalten.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.1448
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 72,
+      "source_fact": "Die historische Altstadt hat sich erhalten.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 75,
+          "target_fact": "Die historische Altstadt der Stadt hat sich erhalten.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.4713
+        },
+        {
+          "target_fact_index": 78,
+          "target_fact": "Die gallo-römische Stadtmauer ist bemerkenswert gut erhalten.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.1947
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 73,
+      "source_fact": "Die Stadtmauer wurde gegen Ende des 3. Jahrhunderts gebaut.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 77,
+          "target_fact": "Die gallo-römische Stadtmauer wurde gegen Ende des 3. Jahrhunderts gebaut.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.4344
+        },
+        {
+          "target_fact_index": 76,
+          "target_fact": "Es gibt eine gallo-römische Stadtmauer.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.0953
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 74,
+      "source_fact": "Die Stadtmauer ist im gallo-römischen Baustil errichtet.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 76,
+          "target_fact": "Es gibt eine gallo-römische Stadtmauer.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.3687
+        },
+        {
+          "target_fact_index": 77,
+          "target_fact": "Die gallo-römische Stadtmauer wurde gegen Ende des 3. Jahrhunderts gebaut.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.3314
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 75,
+      "source_fact": "Die Stadtmauer ist bemerkenswert gut erhalten.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 78,
+          "target_fact": "Die gallo-römische Stadtmauer ist bemerkenswert gut erhalten.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.4096
+        },
+        {
+          "target_fact_index": 76,
+          "target_fact": "Es gibt eine gallo-römische Stadtmauer.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.1153
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 76,
+      "source_fact": "Die Kathedrale Saint-Julien ist im romanisch-gotischen Baustil erbaut.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 80,
+          "target_fact": "Die Kathedrale Saint-Julien ist im romanisch-gotischen Baustil errichtet.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.4939
+        },
+        {
+          "target_fact_index": 79,
+          "target_fact": "Es gibt eine Kathedrale Saint-Julien.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.2924
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 77,
+      "source_fact": "Die Kirche Eglise de la Couture stammt aus dem 13. und 14. Jahrhundert.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 82,
+          "target_fact": "Die Kirche Notre-Dame de la Couture stammt aus dem 13. und 14. Jahrhundert.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.39
+        },
+        {
+          "target_fact_index": 81,
+          "target_fact": "Es gibt eine Kirche Notre-Dame de la Couture.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.1798
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 78,
+      "source_fact": "Zum historischen Erbe gehört das Musée de Tessé.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 83,
+          "target_fact": "Es gibt ein Musée de Tessé.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.3678
+        },
+        {
+          "target_fact_index": 75,
+          "target_fact": "Die historische Altstadt der Stadt hat sich erhalten.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.0984
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 79,
+      "source_fact": "Zum historischen Erbe gehört das Maison d'Adam et Ève.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 84,
+          "target_fact": "Es gibt ein Maison d’Adam et Ève.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.3485
+        },
+        {
+          "target_fact_index": 86,
+          "target_fact": "Es gibt ein Hôtel de Vaux.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.0755
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 80,
+      "source_fact": "Zum historischen Erbe gehört das Hôtel de Clairaulnay.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 85,
+          "target_fact": "Es gibt ein Hôtel de Clairaulnay.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.3428
+        },
+        {
+          "target_fact_index": 76,
+          "target_fact": "Es gibt eine gallo-römische Stadtmauer.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.1291
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 81,
+      "source_fact": "Zum historischen Erbe gehört das Hôtel de Vaux.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 86,
+          "target_fact": "Es gibt ein Hôtel de Vaux.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.3409
+        },
+        {
+          "target_fact_index": 75,
+          "target_fact": "Die historische Altstadt der Stadt hat sich erhalten.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.1091
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 82,
+      "source_fact": "Das 24-Stunden-Rennen von Le Mans findet in unmittelbarer Nähe statt.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 91,
+          "target_fact": "Die Strecke des 24-Stunden-Rennens von Le Mans befindet sich in unmittelbarer Nähe.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.2906
+        },
+        {
+          "target_fact_index": 95,
+          "target_fact": "Unter den Exponaten befinden sich Siegerfahrzeuge des 24-Stunden-Rennens.",
+          "target_paragraph": 11,
+          "density_normalized_distance": 0.0011
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 83,
+      "source_fact": "Im Innenbereich der Rennstrecke befindet sich seit 1991 das Automobilmuseum des Département Sarthe.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 93,
+          "target_fact": "Das Automobilmuseum des Départements Sarthe existiert dort seit 1991.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.3846
+        },
+        {
+          "target_fact_index": 92,
+          "target_fact": "Das Automobilmuseum des Départements Sarthe liegt im Innenbereich der Rennstrecke.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.3228
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 84,
+      "source_fact": "Im Museum sind mehr als 100 Fahrzeuge ausgestellt.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 94,
+          "target_fact": "Im Museum sind mehr als 100 Fahrzeuge ausgestellt.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.5174
+        },
+        {
+          "target_fact_index": 97,
+          "target_fact": "Ein Ferrari, der 1949 siegte, ist im Museum zu besichtigen.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.0573
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 85,
+      "source_fact": "Unter den Exponaten befinden sich Siegerfahrzeuge des 24-Stunden-Rennens.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 95,
+          "target_fact": "Unter den Exponaten befinden sich Siegerfahrzeuge des 24-Stunden-Rennens.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.4458
+        },
+        {
+          "target_fact_index": 94,
+          "target_fact": "Im Museum sind mehr als 100 Fahrzeuge ausgestellt.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.0556
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 86,
+      "source_fact": "Ein Siegerfahrzeug von 1924 ist ein Bentley.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 96,
+          "target_fact": "Ein Bentley, der 1924 siegte, ist im Museum zu besichtigen.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.336
+        },
+        {
+          "target_fact_index": 97,
+          "target_fact": "Ein Ferrari, der 1949 siegte, ist im Museum zu besichtigen.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.1469
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 87,
+      "source_fact": "Ein Siegerfahrzeug von 1949 ist ein Ferrari.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 97,
+          "target_fact": "Ein Ferrari, der 1949 siegte, ist im Museum zu besichtigen.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.3524
+        },
+        {
+          "target_fact_index": 96,
+          "target_fact": "Ein Bentley, der 1924 siegte, ist im Museum zu besichtigen.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.1633
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 88,
+      "source_fact": "In den Fußgängerzonen von Le Mans befinden sich Hand- und Fußabdrücke erfolgreicher Rennfahrer.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 98,
+          "target_fact": "In der Fußgängerzone von Le Mans haben erfolgreiche Fahrzeugpiloten Abdrücke hinterlassen.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.3275
+        },
+        {
+          "target_fact_index": 99,
+          "target_fact": "Die Abdrücke der Piloten befinden sich auf Messingplatten im Straßenbelag.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.1031
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 89,
+      "source_fact": "Diese Abdrücke sind auf Messingplatten im Straßenbelag oder an einem Brunnen angebracht.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 99,
+          "target_fact": "Die Abdrücke der Piloten befinden sich auf Messingplatten im Straßenbelag.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.3202
+        },
+        {
+          "target_fact_index": 100,
+          "target_fact": "Die Abdrücke der Piloten befinden sich an einem Brunnen.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.1222
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 90,
+      "source_fact": "Le Mans ist weltberühmt für seine Motorsportveranstaltungen.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 101,
+          "target_fact": "Le Mans ist weltberühmt für seine Motorsportveranstaltungen.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.303
+        },
+        {
+          "target_fact_index": 104,
+          "target_fact": "Die 24-Stunden-Rennen von Le Mans dienen als Vorbild für viele Langstreckenrennen.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.0903
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 91,
+      "source_fact": "In Le Mans findet das 24-Stunden-Rennen statt.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 102,
+          "target_fact": "In Le Mans finden die 24-Stunden-Rennen statt.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.3017
+        },
+        {
+          "target_fact_index": 104,
+          "target_fact": "Die 24-Stunden-Rennen von Le Mans dienen als Vorbild für viele Langstreckenrennen.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.1306
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 92,
+      "source_fact": "Im Jahr 1955 ereignete sich beim 24-Stunden-Rennen von Le Mans der weltweit schwerste Unfall.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 103,
+          "target_fact": "Im Jahr 1955 ereignete sich bei den 24-Stunden-Rennen von Le Mans der weltweit schwerste Unfall.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.3982
+        },
+        {
+          "target_fact_index": 110,
+          "target_fact": "Im Jahr 1906 fand in Le Mans das erste Grand-Prix-Rennen der Welt statt.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.0766
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 93,
+      "source_fact": "Das Langstreckenrennen wird seit 1923 jährlich Mitte Juni ausgetragen.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 105,
+          "target_fact": "Die 24-Stunden-Rennen werden seit 1923 alljährlich ausgetragen.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.2521
+        },
+        {
+          "target_fact_index": 106,
+          "target_fact": "Die Rennen finden jeweils Mitte Juni statt.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.2045
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 94,
+      "source_fact": "Die Rennstrecke 'Circuit des 24 Heures' ist 13,5 km lang.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 107,
+          "target_fact": "Die Strecke 'Circuit des 24 Heures' ist 13,5 km lang.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.5455
+        },
+        {
+          "target_fact_index": 105,
+          "target_fact": "Die 24-Stunden-Rennen werden seit 1923 alljährlich ausgetragen.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.0611
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 95,
+      "source_fact": "Die Strecke besteht aus Landstraßen im Süden von Le Mans.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 109,
+          "target_fact": "Die Strecke befindet sich im Süden von Le Mans.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.2426
+        },
+        {
+          "target_fact_index": 108,
+          "target_fact": "Die Strecke besteht teilweise aus öffentlichen Landstraßen.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.2196
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 96,
+      "source_fact": "Im Jahr 1906 fand in Le Mans das erste Grand-Prix-Rennen der Welt statt.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 110,
+          "target_fact": "Im Jahr 1906 fand in Le Mans das erste Grand-Prix-Rennen der Welt statt.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.3376
+        },
+        {
+          "target_fact_index": 103,
+          "target_fact": "Im Jahr 1955 ereignete sich bei den 24-Stunden-Rennen von Le Mans der weltweit schwerste Unfall.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.1354
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 97,
+      "source_fact": "An diesem ersten Grand-Prix-Rennen nahmen 32 Automobile teil.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 111,
+          "target_fact": "An diesem ersten Grand-Prix-Rennen nahmen 32 Automobile teil.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.4369
+        },
+        {
+          "target_fact_index": 108,
+          "target_fact": "Die Strecke besteht teilweise aus öffentlichen Landstraßen.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.0271
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 98,
+      "source_fact": "Es gibt ein 24-Stunden-Rennen für Motorräder.",
+      "source_paragraph": 12,
+      "matches": [
+        {
+          "target_fact_index": 112,
+          "target_fact": "Es gibt ein 24-Stunden-Rennen für Motorräder.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.3624
+        },
+        {
+          "target_fact_index": 113,
+          "target_fact": "Es finden diverse weitere Motorsportveranstaltungen statt.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.0347
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 99,
+      "source_fact": "Es finden diverse Motorsportveranstaltungen statt.",
+      "source_paragraph": 12,
+      "matches": [
+        {
+          "target_fact_index": 113,
+          "target_fact": "Es finden diverse weitere Motorsportveranstaltungen statt.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.4218
+        },
+        {
+          "target_fact_index": 115,
+          "target_fact": "Diese Veranstaltungen finden auf dem Circuit Bugatti statt.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.0646
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 100,
+      "source_fact": "Der Grand Prix von Frankreich der Motorrad-Weltmeisterschaft findet dort statt.",
+      "source_paragraph": 12,
+      "matches": [
+        {
+          "target_fact_index": 114,
+          "target_fact": "Der Grand Prix von Frankreich der Motorrad-Weltmeisterschaft ist eine dieser Motorsportveranstaltungen.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.2683
+        },
+        {
+          "target_fact_index": 113,
+          "target_fact": "Es finden diverse weitere Motorsportveranstaltungen statt.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.0566
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 101,
+      "source_fact": "Der Grand Prix von Frankreich wird auf einer kürzeren Variante der Rennstrecke ausgetragen.",
+      "source_paragraph": 12,
+      "matches": [
+        {
+          "target_fact_index": 116,
+          "target_fact": "Der Circuit Bugatti ist die kürzere Variante der Rennstrecke.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.1699
+        },
+        {
+          "target_fact_index": 114,
+          "target_fact": "Der Grand Prix von Frankreich der Motorrad-Weltmeisterschaft ist eine dieser Motorsportveranstaltungen.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.1167
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 102,
+      "source_fact": "Diese kürzere Variante heißt Circuit Bugatti.",
+      "source_paragraph": 12,
+      "matches": [
+        {
+          "target_fact_index": 116,
+          "target_fact": "Der Circuit Bugatti ist die kürzere Variante der Rennstrecke.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.3829
+        },
+        {
+          "target_fact_index": 115,
+          "target_fact": "Diese Veranstaltungen finden auf dem Circuit Bugatti statt.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.1923
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 103,
+      "source_fact": "Der Fußballclub heißt Le Mans Union Club (M.U.C.) 72.",
+      "source_paragraph": 13,
+      "matches": [
+        {
+          "target_fact_index": 117,
+          "target_fact": "Der Fußballclub heißt Le Mans Union Club (M.U.C.) 72.",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.3026
+        },
+        {
+          "target_fact_index": 119,
+          "target_fact": "Der Club wurde im Oktober 2013 aufgelöst.",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.0382
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 104,
+      "source_fact": "Der Verein spielte einige Jahre in der zweiten französischen Liga.",
+      "source_paragraph": 13,
+      "matches": [
+        {
+          "target_fact_index": 118,
+          "target_fact": "Der Club spielte seit einigen Jahren in der zweiten Liga Frankreichs.",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.4394
+        },
+        {
+          "target_fact_index": 119,
+          "target_fact": "Der Club wurde im Oktober 2013 aufgelöst.",
+          "target_paragraph": 14,
+          "density_normalized_distance": 0.0276
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 105,
+      "source_fact": "Der Verein wurde im Oktober 2013 aufgelöst.",
+      "source_paragraph": 13,
+      "matches": [
+        {
+          "target_fact_index": 119,
+          "target_fact": "Der Club wurde im Oktober 2013 aufgelöst.",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.4703
+        },
+        {
+          "target_fact_index": 120,
+          "target_fact": "Der Grund für die Auflösung war eine Insolvenz.",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.1037
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 106,
+      "source_fact": "Der Grund für die Auflösung war eine Insolvenz.",
+      "source_paragraph": 13,
+      "matches": [
+        {
+          "target_fact_index": 120,
+          "target_fact": "Der Grund für die Auflösung war eine Insolvenz.",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.5849
+        },
+        {
+          "target_fact_index": 119,
+          "target_fact": "Der Club wurde im Oktober 2013 aufgelöst.",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.0137
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 107,
+      "source_fact": "Die Basketballmannschaft heißt Le Mans Sarthe Basket.",
+      "source_paragraph": 14,
+      "matches": [
+        {
+          "target_fact_index": 122,
+          "target_fact": "Die Basketballmannschaft Le Mans Sarthe Basket wurde zuletzt im Jahr 2006 französischer Meister.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.2338
+        },
+        {
+          "target_fact_index": 121,
+          "target_fact": "Die Basketballmannschaft Le Mans Sarthe Basket wurde vier Mal französischer Meister.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.1998
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 108,
+      "source_fact": "Le Mans Sarthe Basket war viermal französischer Meister.",
+      "source_paragraph": 14,
+      "matches": [
+        {
+          "target_fact_index": 121,
+          "target_fact": "Die Basketballmannschaft Le Mans Sarthe Basket wurde vier Mal französischer Meister.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.3769
+        },
+        {
+          "target_fact_index": 122,
+          "target_fact": "Die Basketballmannschaft Le Mans Sarthe Basket wurde zuletzt im Jahr 2006 französischer Meister.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.2781
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 109,
+      "source_fact": "Der letzte französische Meistertitel von Le Mans Sarthe Basket wurde im Jahr 2006 gewonnen.",
+      "source_paragraph": 14,
+      "matches": [
+        {
+          "target_fact_index": 122,
+          "target_fact": "Die Basketballmannschaft Le Mans Sarthe Basket wurde zuletzt im Jahr 2006 französischer Meister.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.3568
+        },
+        {
+          "target_fact_index": 121,
+          "target_fact": "Die Basketballmannschaft Le Mans Sarthe Basket wurde vier Mal französischer Meister.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.2118
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 110,
+      "source_fact": "Der Verein heißt MSH 72.",
+      "source_paragraph": 15,
+      "matches": [
+        {
+          "target_fact_index": 123,
+          "target_fact": "Der Verein heißt MSH 72.",
+          "target_paragraph": 16,
+          "density_normalized_distance": -0.509
+        },
+        {
+          "target_fact_index": 124,
+          "target_fact": "MSH 72 steht für Le Mans Sarthe Handball 72.",
+          "target_paragraph": 16,
+          "density_normalized_distance": -0.1424
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 111,
+      "source_fact": "MSH 72 steht für Le Mans Sarthe Handball 72.",
+      "source_paragraph": 15,
+      "matches": [
+        {
+          "target_fact_index": 124,
+          "target_fact": "MSH 72 steht für Le Mans Sarthe Handball 72.",
+          "target_paragraph": 16,
+          "density_normalized_distance": -0.4507
+        },
+        {
+          "target_fact_index": 123,
+          "target_fact": "Der Verein heißt MSH 72.",
+          "target_paragraph": 16,
+          "density_normalized_distance": -0.2007
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 112,
+      "source_fact": "Der Verein gilt als Hauptverein der Stadt Le Mans.",
+      "source_paragraph": 15,
+      "matches": [
+        {
+          "target_fact_index": 126,
+          "target_fact": "Der Verein gilt als Hauptverein der Sarthe für die Männer.",
+          "target_paragraph": 16,
+          "density_normalized_distance": -0.2421
+        },
+        {
+          "target_fact_index": 125,
+          "target_fact": "Der Verein gilt als Hauptverein der Stadt Le Mans für die Männer.",
+          "target_paragraph": 16,
+          "density_normalized_distance": -0.2357
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 113,
+      "source_fact": "Der Verein gilt als Hauptverein des Departements Sarthe.",
+      "source_paragraph": 15,
+      "matches": [
+        {
+          "target_fact_index": 126,
+          "target_fact": "Der Verein gilt als Hauptverein der Sarthe für die Männer.",
+          "target_paragraph": 16,
+          "density_normalized_distance": -0.3315
+        },
+        {
+          "target_fact_index": 123,
+          "target_fact": "Der Verein heißt MSH 72.",
+          "target_paragraph": 16,
+          "density_normalized_distance": -0.0184
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 114,
+      "source_fact": "Der Verein ist eine Männermannschaft.",
+      "source_paragraph": 15,
+      "matches": [
+        {
+          "target_fact_index": 126,
+          "target_fact": "Der Verein gilt als Hauptverein der Sarthe für die Männer.",
+          "target_paragraph": 16,
+          "density_normalized_distance": -0.1416
+        },
+        {
+          "target_fact_index": 123,
+          "target_fact": "Der Verein heißt MSH 72.",
+          "target_paragraph": 16,
+          "density_normalized_distance": -0.1312
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 115,
+      "source_fact": "Der Verein CSC Le Mans Handball (Club Sportif des Cheminots du Mans) wurde 1957 gegründet.",
+      "source_paragraph": 16,
+      "matches": [
+        {
+          "target_fact_index": 127,
+          "target_fact": "Der Verein CSC Le Mans Handball wurde 1957 gegründet.",
+          "target_paragraph": 17,
+          "density_normalized_distance": -0.307
+        },
+        {
+          "target_fact_index": 128,
+          "target_fact": "CSC Le Mans Handball wird auch Club Sportif des Cheminots du Mans genannt.",
+          "target_paragraph": 17,
+          "density_normalized_distance": -0.2486
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 116,
+      "source_fact": "Der Verein wird als „Eisenbahner-Sportverein in Le Mans“ bezeichnet.",
+      "source_paragraph": 16,
+      "matches": [
+        {
+          "target_fact_index": 129,
+          "target_fact": "Die Bedeutung von Club Sportif des Cheminots du Mans ist „Sportverein der Eisenbahner in Le Mans“.",
+          "target_paragraph": 17,
+          "density_normalized_distance": -0.2485
+        },
+        {
+          "target_fact_index": 128,
+          "target_fact": "CSC Le Mans Handball wird auch Club Sportif des Cheminots du Mans genannt.",
+          "target_paragraph": 17,
+          "density_normalized_distance": -0.1804
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 117,
+      "source_fact": "Der Verein hat aktuell 13 aktive Mannschaften.",
+      "source_paragraph": 16,
+      "matches": [
+        {
+          "target_fact_index": 130,
+          "target_fact": "Der Verein hat im Augenblick 13 aktive Mannschaften.",
+          "target_paragraph": 17,
+          "density_normalized_distance": -0.4987
+        },
+        {
+          "target_fact_index": 131,
+          "target_fact": "Die aktiven Mannschaften des Vereins befinden sich sowohl im Jugend- als auch im Seniorenbereich.",
+          "target_paragraph": 17,
+          "density_normalized_distance": -0.1343
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 118,
+      "source_fact": "Es gibt Mannschaften im Jugendbereich.",
+      "source_paragraph": 16,
+      "matches": [
+        {
+          "target_fact_index": 131,
+          "target_fact": "Die aktiven Mannschaften des Vereins befinden sich sowohl im Jugend- als auch im Seniorenbereich.",
+          "target_paragraph": 17,
+          "density_normalized_distance": -0.1374
+        },
+        {
+          "target_fact_index": 130,
+          "target_fact": "Der Verein hat im Augenblick 13 aktive Mannschaften.",
+          "target_paragraph": 17,
+          "density_normalized_distance": -0.0626
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 119,
+      "source_fact": "Es gibt Mannschaften im Seniorenbereich.",
+      "source_paragraph": 16,
+      "matches": [
+        {
+          "target_fact_index": 131,
+          "target_fact": "Die aktiven Mannschaften des Vereins befinden sich sowohl im Jugend- als auch im Seniorenbereich.",
+          "target_paragraph": 17,
+          "density_normalized_distance": -0.1269
+        },
+        {
+          "target_fact_index": 130,
+          "target_fact": "Der Verein hat im Augenblick 13 aktive Mannschaften.",
+          "target_paragraph": 17,
+          "density_normalized_distance": -0.0111
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 120,
+      "source_fact": "In der Nähe von Mans bei Mayet gibt es einen Sendemast für UKW und Fernsehen.",
+      "source_paragraph": 17,
+      "matches": [
+        {
+          "target_fact_index": 134,
+          "target_fact": "Der Sendemast wird für UKW und Fernsehen genutzt.",
+          "target_paragraph": 18,
+          "density_normalized_distance": -0.2146
+        },
+        {
+          "target_fact_index": 132,
+          "target_fact": "In der Nähe von Le Mans bei Mayet befindet sich ein Sendemast.",
+          "target_paragraph": 18,
+          "density_normalized_distance": -0.1869
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 121,
+      "source_fact": "Der Sendemast ist 342 Meter hoch.",
+      "source_paragraph": 17,
+      "matches": [
+        {
+          "target_fact_index": 133,
+          "target_fact": "Der Sendemast ist 342 Meter hoch.",
+          "target_paragraph": 18,
+          "density_normalized_distance": -0.624
+        },
+        {
+          "target_fact_index": 136,
+          "target_fact": "Der Sendemast ist höher als der Eiffelturm.",
+          "target_paragraph": 18,
+          "density_normalized_distance": -0.1977
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 122,
+      "source_fact": "Der Sendemast ist eines der höchsten Bauwerke in Frankreich.",
+      "source_paragraph": 17,
+      "matches": [
+        {
+          "target_fact_index": 135,
+          "target_fact": "Der Sendemast ist eines der höchsten Bauwerke in Frankreich.",
+          "target_paragraph": 18,
+          "density_normalized_distance": -0.4496
+        },
+        {
+          "target_fact_index": 136,
+          "target_fact": "Der Sendemast ist höher als der Eiffelturm.",
+          "target_paragraph": 18,
+          "density_normalized_distance": -0.2774
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 123,
+      "source_fact": "Der Sendemast ist höher als der Eiffelturm.",
+      "source_paragraph": 17,
+      "matches": [
+        {
+          "target_fact_index": 136,
+          "target_fact": "Der Sendemast ist höher als der Eiffelturm.",
+          "target_paragraph": 18,
+          "density_normalized_distance": -0.6527
+        },
+        {
+          "target_fact_index": 133,
+          "target_fact": "Der Sendemast ist 342 Meter hoch.",
+          "target_paragraph": 18,
+          "density_normalized_distance": -0.169
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 124,
+      "source_fact": "Die Zwiblèmessi (Foire aux Oignons) findet in Mans statt.",
+      "source_paragraph": 18,
+      "matches": [
+        {
+          "target_fact_index": 137,
+          "target_fact": "In Le Mans findet die Zwiebelmesse (Foire aux Oignons) statt.",
+          "target_paragraph": 19,
+          "density_normalized_distance": -0.3098
+        },
+        {
+          "target_fact_index": 138,
+          "target_fact": "Die Zwiebelmesse findet am ersten Freitag im September statt.",
+          "target_paragraph": 19,
+          "density_normalized_distance": -0.1188
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 125,
+      "source_fact": "Die Zwiblèmessi findet im September statt.",
+      "source_paragraph": 18,
+      "matches": [
+        {
+          "target_fact_index": 138,
+          "target_fact": "Die Zwiebelmesse findet am ersten Freitag im September statt.",
+          "target_paragraph": 19,
+          "density_normalized_distance": -0.2968
+        },
+        {
+          "target_fact_index": 137,
+          "target_fact": "In Le Mans findet die Zwiebelmesse (Foire aux Oignons) statt.",
+          "target_paragraph": 19,
+          "density_normalized_distance": 0.0978
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 126,
+      "source_fact": "Die Zwiblèmessi findet am ersten Freitag des Septembers statt.",
+      "source_paragraph": 18,
+      "matches": [
+        {
+          "target_fact_index": 138,
+          "target_fact": "Die Zwiebelmesse findet am ersten Freitag im September statt.",
+          "target_paragraph": 19,
+          "density_normalized_distance": -0.5012
+        },
+        {
+          "target_fact_index": 137,
+          "target_fact": "In Le Mans findet die Zwiebelmesse (Foire aux Oignons) statt.",
+          "target_paragraph": 19,
+          "density_normalized_distance": 0.2126
+        }
+      ]
+    }
+  ]
+}

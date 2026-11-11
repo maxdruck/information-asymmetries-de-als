@@ -1,0 +1,794 @@
+{
+  "page_id": "63185",
+  "page_title": "Le Mans",
+  "language_variety": "als",
+  "decomposition_model": "gemma-4-31b-it",
+  "num_paragraphs": 19,
+  "num_facts": 127,
+  "num_fallback_paragraphs": 0,
+  "paragraphs": [
+    "Le Mans (Ywooner: Manceller) isch è Stadt mit 144.244 Ywooner im Nordweschtè vo Frankrych. Si lyt am Zämmèfluss vo dè Sarthe un dè Huisne un isch d Hauptschtadt vum Département Sarthe i dè Region Loire-Bièt.",
+    "D Stadt mit dè gotischè Kathedralè Saint-July du Mans isch vo allem durch s 24-Stundè-Rènnè vo Mans (24 Heures du Mans) wältwit bekannt worrè.",
+    "D Gründung vo dè Stadt Le Mans isch uff è Oppidum vo dè keltischè Cenomani zruggzfüürè. D Sidlung isch 56 v. Chr. vo dè Römer eroberèt un Suindinum benamst worrè. Im 3. Johrhundert isch d Stadtmuèr baut worrè, wo zum Deil no hüt erkennbar isch. I dè spòtrömischer Zit isch s Bischtum vo Mans gründet worrè (als èrschtè Bischof gildèt dè Heilige Julianus), wo schpôter im Ärzbischtum z Tours unterschtellt worrè isch. Znägscht hèt Mans zuè dè Hèrrschaft vom Sǜarius ghört un isch 486 vo dè Frankè eroberèt worrè. Spôter isch Mans s Zèntrum vo dè Grõfschaft Maine worrè, wo vor allem im 11. un früènè 12. Johrhundert zwǜschè dè Herzög vo dè Normandy un dè Grõfè vo Anjou immer widder umkämpft gsi isch. 1110 hèt sich Anjou endgültig d Obberhoheit übber s Land gsicherèt, wo mit èm Uffschtyg vo dè Plantagenet zuè dè Könnig vo Ängland 1154 Deil vom Angevinischè Reich worrè isch. Johann Ohneland hèt dè Feschtlandbsitz nördlich vo dè Loire allerdings widder a diè französischi Kronè volorè, welli dõdemit 1204 au Mans widder unter iri Hèrrschaft brocht hèn. Im Volauf vom Hundertjöhrigè Chrièg isch Maine denn widder zwǜschè Ängländer un Franzosè umkämpft gsi, einèwäg hèt au d Bvölkerung vo Le Mans dõdrunter z lydè ghaa, wo sich hinter iri Stadtmuèrè zruggziè hèn müèsè un diè mittlerwyl aagsidlètè Vorort uffgää hèn müèsè. 1443 sin d Ängländer denn endgültig uss Maine vodribbè worrè. Nõchdèm dõ zwǜschèzitlich widder è eignes Grõfègschlecht ghèrrscht hèt, isch Maine 1480 dè französischè Kronè zuègschlagè worrè. Nõch dè Reformation hèt Maine zuè dè hugenottischè Provinzè ghört, ergo isch es dõ widder zuè bluètigè Usènandersetzungè chò; èrscht 1589 isch ès im Heinrich IV. au dõ glungè, für Friddè z sorgè, wo sich als rächt duèrhaft erwysè hèt söllè.",
+    "Im Zitaalter vom Absolutismus hèt s örtliche Handwärch èn Uffschwung erläbt, bsunders d Hèrschtellung vo Kleider, Stoff un Wachs. 1740 sin zwei Drittel vo dè Textilbroduktion vo dè Stadt i dè Export gangè. D Vobesserung vo dè Vokeerswäg hèt dè wǜrtschaftliche Uffschwung zu dè Zit vo dè Induschtrialisyrung zuèsätzlich gschtärkt: 1844 hèt Mans èn Ysèbaaaaschluss a d Streggi Paris-Rennes chriègt. Vill für d Stadt bedütet hèn au d Aktivitätè vo dè Familiè Bollée, wo i dè 1840er Johr dõ znägscht Dampfmaschinnè broduzyrt hèn, ab 1887 denn vo allem Autos baut hèn.",
+    "Vom 10. bis 12. Januar 1871 hèt dõ d Schlacht bi Mans zwǜschè dè französischè Loirearmee un dè zweitè Armee vom Kronprinz Fridrich wôrend èm Dütsch-Französischè Chrièg stattgfundè. Sèlli hèt mit èm dütschè Syg uffghört. 1893 isch Le Mans au a s Delefonnetz aaghängt worrè. D Tradition als Automobilrènnschtadt hèt mit ènèm èrschtè Grand Prix im Johr 1911 aagfangè. 1936 hèt sich d Firma Renault z Mans aagsidlèt, wo bis hüt gröschtè Arbètgeber vo dè Stadt isch, abber au großi Vosicherungsunternämmè hèn Le Mans als Standort gwäält. Zwǜschè 1940 un 1944 isch Mans vo dè Dütschè bsetzt gsi, d Zerschtörungè durch dè Chrièg hèn sich dõ abber in Gränzè ghaaltè. S höchere Bildungswesè, wo lang ehnder vonõchlässigt worrè isch, hèt 1960 mit èm Bau von èrè Universidät è vomeerti Förderung chriègt, allerdings isch sèlli èrschti Hochschuèl znägscht vo dè Universidät Caen abhängig gsi. Bedütender isch diè 1969 gründeti Technischi Hochschuèl vo Mans.",
+    "Bürgermeischter vo dè Stadt isch sit 2018 dè Stéphane Le Foll (PS). D Stadt isch in nüü Kantön gliderèt.",
+    "D Stadt Le Mans unterhaaltet, wegè m gmeinsamè Patron, im Heiligè Liborius, schu sit 836 ängi Bezièungè zuè Paderborn z Weschtfalè. Diè offizièll Städtepartnerschaft bschtòt abber èrscht sit 1967.",
+    "Total hèt Le Mans sechs Partnerschtädt:",
+    "Wichtigschti Wǜrtschaftszweig sin näbbè dè Landmaschinnèinduschtry, vodrèttè durch s Unternämmè Claas, wo z Mans Traktorè baut, vo allem diè metallvoschaffendi un d Elegtroinduschtry, sowiè dè Diènschtleischtungsberych (Vosicherungè, öppè MMA, Mutuelles du Mans Assurances).",
+    "Well d Stadt im Zweitè Wältchrièg witgehend ganz blibbè isch, hèt sich au diè historischi Altschtadt erhaaltè. Am bedütendschtè sin d Stadtmuèr im gallo-römischè Bauschtyl, wo gegè Èndi vom 3. Johrhundert baut worrè isch un bemerkenswärt guèt erhaaltè isch, sowiè d Kathedralè Saint-Juliè im romanisch-gotischè Bauschtyl, d Kirchè Eglise de la Couture uss èm 13. un 14. Johrhundert, s Musée de Tessé, s Maison d'Adam et Ève, s Hôtel de Clairaulnay un s Hôtel de Vaux.",
+    "Abber au Aahänger vom Motorschport chömmèd uff iri Koschtè: In uumittelbarer Nôchi wörd s 24-Stundè-Rènnè vo Le Mans uusdrait. Im Innèberych vo dè Rènnschtreggi git s sit 1991 s Automobilmuseum vom Département Sarthe. Unter dè mee wiè 100 uusgschtelltè Fahrzüüg sin au Sygerfaarzüüg vom 24-Stundè-Rènnè z besichtigè, dõdrunter èn Bentley (Syger 1924) un èn Ferrari (Syger 1949). I dè Fuèßgängerzonè vo Mans hän erfolgrychi Faarzüügpilotè iri Hand- bzw. Fuèßabdrügg hinterlõ: Si sin uff Messingblattè im Strõßèbelag bzw. an èm Brunnè aabrocht.",
+    "Wältberüèmt isch Le Mans durch sini Motorschportvoaaschtaltungè, bsunders durch s 24-Stundè-Rènnè vo Mans mit èm wältwit schwerschtè Uufall vo 1955. S Vorbild vo-nèm Huufè Langschtrèggèrènnè wörd sit 1923 alljöhrlich Mitti Juni uff dè 13,5 km langè Streggi Circuit des 24 Heures uff Landschtrõßè im Südè vo Le Mans uusdrait. Schu 1906 hèt z Mans unter Beteiligung vo 32 Automobyl s èrschte Grand-Prix-Rènnè vo dè Wält stattgfundè.",
+    "Witter git s es 24-Stundè-Rènnè für Motorräder sowiè diversi witteri Motorschportvoaastaltungè, unter andrem dè Grand Prix vo Frankrych i dè Motorrad-Wältmeischterschaft, wo uff dè chürzerè Variantè vo dè Rènnschtreggi, im Circuit Bugatti stattfindè.",
+    "Dè Fußballclub Le Mans Union Club (M.U.C.) 72 hèt è baar Johr i dè zweitè französischè Liga gschpillt, bis er im Oktobèr 2013 uff Grund von èrè Insolvenz uffglöst worrè isch.",
+    "D Basketballmannschaft Le Mans Sarthe Basket isch vyr Mòl französischè Meischter worrè, zletscht im Johr 2006.",
+    "Dè Vorein MSH 72 (Le Mans Sarthe Handball 72) gildèt als Hauptvorein vo dè Stadt un dè Sarthe für d Männer.",
+    "Dè 1957 gründete Vorein CSC Le Mans Handball bzw. Club Sportif des Cheminots du Mans „Iisèbahner-Sportvorein in Mans“ hèt im Augèbligg 13 aktivi Mannschaftè, sowoll im Jugend- als auch im Seniorèberych.",
+    "I dè Nöchi vo Mans bi Mayet git s èn 342 Meter hochè Sendemascht für UKW un Fèrnsee. Er isch eins vo dè höchschtè Bauwärch z Frankrych un übberragt sogar dè Eiffelturm.",
+    "Am èrschtè Fritig im Septembèr findet z Mans d Zwiblèmessi (Foire aux Oignons) statt."
+  ],
+  "facts": [
+    {
+      "fact_index": 0,
+      "paragraph_index": 0,
+      "fact": "Le Mans ist eine Stadt im Nordwesten von Frankreich.",
+      "fallback": false
+    },
+    {
+      "fact_index": 1,
+      "paragraph_index": 0,
+      "fact": "Die Einwohner von Le Mans werden Manceller genannt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 2,
+      "paragraph_index": 0,
+      "fact": "Le Mans hat 144.244 Einwohner.",
+      "fallback": false
+    },
+    {
+      "fact_index": 3,
+      "paragraph_index": 0,
+      "fact": "Le Mans liegt am Zusammenfluss der Flüsse Sarthe und Huisne.",
+      "fallback": false
+    },
+    {
+      "fact_index": 4,
+      "paragraph_index": 0,
+      "fact": "Le Mans ist die Hauptstadt des Départements Sarthe.",
+      "fallback": false
+    },
+    {
+      "fact_index": 5,
+      "paragraph_index": 0,
+      "fact": "Le Mans liegt in der Region Loire-Bièt (Centre-Val de Loire).",
+      "fallback": false
+    },
+    {
+      "fact_index": 6,
+      "paragraph_index": 1,
+      "fact": "Die Stadt Le Mans besitzt die gotische Kathedrale Saint-Julien du Mans.",
+      "fallback": false
+    },
+    {
+      "fact_index": 7,
+      "paragraph_index": 1,
+      "fact": "In Le Mans findet das 24-Stunden-Rennen von Le Mans (24 Heures du Mans) statt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 8,
+      "paragraph_index": 1,
+      "fact": "Die Stadt ist weltweit für das 24-Stunden-Rennen von Le Mans bekannt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 9,
+      "paragraph_index": 2,
+      "fact": "Die Gründung der Stadt Le Mans geht auf ein Oppidum der keltischen Cenomani zurück.",
+      "fallback": false
+    },
+    {
+      "fact_index": 10,
+      "paragraph_index": 2,
+      "fact": "Die Siedlung wurde 56 v. Chr. von den Römern erobert.",
+      "fallback": false
+    },
+    {
+      "fact_index": 11,
+      "paragraph_index": 2,
+      "fact": "Die Römer nannten die Siedlung Suindinum.",
+      "fallback": false
+    },
+    {
+      "fact_index": 12,
+      "paragraph_index": 2,
+      "fact": "Im 3. Jahrhundert wurde die Stadtmauer gebaut.",
+      "fallback": false
+    },
+    {
+      "fact_index": 13,
+      "paragraph_index": 2,
+      "fact": "Teile der Stadtmauer aus dem 3. Jahrhundert sind heute noch erkennbar.",
+      "fallback": false
+    },
+    {
+      "fact_index": 14,
+      "paragraph_index": 2,
+      "fact": "In der spätrömischen Zeit wurde das Bistum von Mans gegründet.",
+      "fallback": false
+    },
+    {
+      "fact_index": 15,
+      "paragraph_index": 2,
+      "fact": "Der Heilige Julianus gilt als der erste Bischof von Mans.",
+      "fallback": false
+    },
+    {
+      "fact_index": 16,
+      "paragraph_index": 2,
+      "fact": "Das Bistum von Mans wurde später dem Erzbistum Tours unterstellt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 17,
+      "paragraph_index": 2,
+      "fact": "Mans gehörte zunächst zur Herrschaft des Syvarius.",
+      "fallback": false
+    },
+    {
+      "fact_index": 18,
+      "paragraph_index": 2,
+      "fact": "Im Jahr 486 wurde Mans von den Franken erobert.",
+      "fallback": false
+    },
+    {
+      "fact_index": 19,
+      "paragraph_index": 2,
+      "fact": "Mans war das Zentrum der Grafschaft Maine.",
+      "fallback": false
+    },
+    {
+      "fact_index": 20,
+      "paragraph_index": 2,
+      "fact": "Im 11. und frühen 12. Jahrhundert war die Grafschaft Maine zwischen den Herzögen der Normandie und den Grafen von Anjou umkämpft.",
+      "fallback": false
+    },
+    {
+      "fact_index": 21,
+      "paragraph_index": 2,
+      "fact": "Im Jahr 1110 sicherte sich Anjou endgültig die Oberhoheit über das Land.",
+      "fallback": false
+    },
+    {
+      "fact_index": 22,
+      "paragraph_index": 2,
+      "fact": "Mit dem Aufstieg der Plantagenets zu den Königen von England im Jahr 1154 wurde das Gebiet Teil des Angevinischen Reiches.",
+      "fallback": false
+    },
+    {
+      "fact_index": 23,
+      "paragraph_index": 2,
+      "fact": "Johann Ohneland verlor den Festlandbesitz nördlich der Loire an die französische Krone.",
+      "fallback": false
+    },
+    {
+      "fact_index": 24,
+      "paragraph_index": 2,
+      "fact": "Im Jahr 1204 brachte die französische Krone Mans wieder unter ihre Herrschaft.",
+      "fallback": false
+    },
+    {
+      "fact_index": 25,
+      "paragraph_index": 2,
+      "fact": "Während des Hundertjährigen Krieges war Maine erneut zwischen Engländern und Franzosen umkämpft.",
+      "fallback": false
+    },
+    {
+      "fact_index": 26,
+      "paragraph_index": 2,
+      "fact": "Die Bevölkerung von Le Mans musste während des Hundertjährigen Krieges in die Stadtmauern flüchten und die Vororte aufgeben.",
+      "fallback": false
+    },
+    {
+      "fact_index": 27,
+      "paragraph_index": 2,
+      "fact": "Im Jahr 1443 wurden die Engländer endgültig aus Maine vertrieben.",
+      "fallback": false
+    },
+    {
+      "fact_index": 28,
+      "paragraph_index": 2,
+      "fact": "Zwischenzeitlich herrschte in Maine wieder ein eigenes Grafengeschlecht.",
+      "fallback": false
+    },
+    {
+      "fact_index": 29,
+      "paragraph_index": 2,
+      "fact": "Im Jahr 1480 wurde Maine der französischen Krone zugeschlagen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 30,
+      "paragraph_index": 2,
+      "fact": "Nach der Reformation gehörte Maine zu den hugenottischen Provinzen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 31,
+      "paragraph_index": 2,
+      "fact": "In der Zeit der hugenottischen Provinzen kam es in Maine zu blutigen Auseinandersetzungen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 32,
+      "paragraph_index": 2,
+      "fact": "Im Jahr 1589 gelang es Heinrich IV., in Maine für einen weitgehend dauerhaften Frieden zu sorgen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 33,
+      "paragraph_index": 3,
+      "fact": "Im Zeitalter des Absolutismus erlebte das örtliche Handwerk einen Aufschwung.",
+      "fallback": false
+    },
+    {
+      "fact_index": 34,
+      "paragraph_index": 3,
+      "fact": "Besonders die Herstellung von Kleidern, Stoffen und Wachs war im Zeitalter des Absolutismus gefragt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 35,
+      "paragraph_index": 3,
+      "fact": "Im Jahr 1740 gingen zwei Drittel der Textilproduktion der Stadt in den Export.",
+      "fallback": false
+    },
+    {
+      "fact_index": 36,
+      "paragraph_index": 3,
+      "fact": "Die Verbesserung der Verkehrswege stärkte den wirtschaftlichen Aufschwung zur Zeit der Industrialisierung.",
+      "fallback": false
+    },
+    {
+      "fact_index": 37,
+      "paragraph_index": 3,
+      "fact": "Im Jahr 1844 erhielt Mans einen Eisenbahnanschluss an die Strecke Paris-Rennes.",
+      "fallback": false
+    },
+    {
+      "fact_index": 38,
+      "paragraph_index": 3,
+      "fact": "Die Familie Bollée war für die Stadt von großer Bedeutung.",
+      "fallback": false
+    },
+    {
+      "fact_index": 39,
+      "paragraph_index": 3,
+      "fact": "Die Familie Bollée produzierte in den 1840er Jahren zunächst Dampfmaschinen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 40,
+      "paragraph_index": 3,
+      "fact": "Ab 1887 baute die Familie Bollée vor allem Autos.",
+      "fallback": false
+    },
+    {
+      "fact_index": 41,
+      "paragraph_index": 4,
+      "fact": "Vom 10. bis 12. Januar 1871 fand die Schlacht bei Le Mans statt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 42,
+      "paragraph_index": 4,
+      "fact": "Die Schlacht bei Le Mans wurde zwischen der französischen Loirearmee und der zweiten Armee von Kronprinz Friedrich ausgetragen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 43,
+      "paragraph_index": 4,
+      "fact": "Die Schlacht bei Le Mans fand während des Deutsch-Französischen Krieges statt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 44,
+      "paragraph_index": 4,
+      "fact": "Die Schlacht bei Le Mans endete mit einem deutschen Sieg.",
+      "fallback": false
+    },
+    {
+      "fact_index": 45,
+      "paragraph_index": 4,
+      "fact": "Le Mans wurde 1893 an das Telefonnetz angeschlossen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 46,
+      "paragraph_index": 4,
+      "fact": "Die Tradition als Automobilrennstadt begann mit einem ersten Grand Prix im Jahr 1911.",
+      "fallback": false
+    },
+    {
+      "fact_index": 47,
+      "paragraph_index": 4,
+      "fact": "Die Firma Renault siedelte sich 1936 in Le Mans an.",
+      "fallback": false
+    },
+    {
+      "fact_index": 48,
+      "paragraph_index": 4,
+      "fact": "Renault ist bis heute der größte Arbeitgeber der Stadt Le Mans.",
+      "fallback": false
+    },
+    {
+      "fact_index": 49,
+      "paragraph_index": 4,
+      "fact": "Große Versicherungsunternehmen haben Le Mans als Standort gewählt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 50,
+      "paragraph_index": 4,
+      "fact": "Zwischen 1940 und 1944 war Le Mans von den Deutschen besetzt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 51,
+      "paragraph_index": 4,
+      "fact": "Die Zerstörungen durch den Krieg in Le Mans hielten sich in Grenzen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 52,
+      "paragraph_index": 4,
+      "fact": "Im Jahr 1960 wurde in Le Mans eine Universität gebaut.",
+      "fallback": false
+    },
+    {
+      "fact_index": 53,
+      "paragraph_index": 4,
+      "fact": "Die erste Hochschule in Le Mans war zunächst von der Universität Caen abhängig.",
+      "fallback": false
+    },
+    {
+      "fact_index": 54,
+      "paragraph_index": 4,
+      "fact": "Im Jahr 1969 wurde die Technische Hochschule von Le Mans gegründet.",
+      "fallback": false
+    },
+    {
+      "fact_index": 55,
+      "paragraph_index": 5,
+      "fact": "Stéphane Le Foll ist seit 2018 Bürgermeister der Stadt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 56,
+      "paragraph_index": 5,
+      "fact": "Stéphane Le Foll gehört der Partei PS an.",
+      "fallback": false
+    },
+    {
+      "fact_index": 57,
+      "paragraph_index": 5,
+      "fact": "Die Stadt ist in neun Kantone unterteilt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 58,
+      "paragraph_index": 6,
+      "fact": "Die Stadt Le Mans unterhält Beziehungen zu Paderborn in Westfalen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 59,
+      "paragraph_index": 6,
+      "fact": "Die Verbindung zwischen Le Mans und Paderborn besteht aufgrund eines gemeinsamen Patrons, dem Heiligen Liborius.",
+      "fallback": false
+    },
+    {
+      "fact_index": 60,
+      "paragraph_index": 6,
+      "fact": "Die Beziehungen zwischen Le Mans und Paderborn bestehen bereits seit dem Jahr 836.",
+      "fallback": false
+    },
+    {
+      "fact_index": 61,
+      "paragraph_index": 6,
+      "fact": "Die offizielle Städtepartnerschaft zwischen Le Mans und Paderborn besteht seit 1967.",
+      "fallback": false
+    },
+    {
+      "fact_index": 62,
+      "paragraph_index": 7,
+      "fact": "Le Mans hat sechs Partnerschädte.",
+      "fallback": false
+    },
+    {
+      "fact_index": 63,
+      "paragraph_index": 8,
+      "fact": "Die Landmaschinenindustrie ist ein wichtiger Wirtschaftszweig.",
+      "fallback": false
+    },
+    {
+      "fact_index": 64,
+      "paragraph_index": 8,
+      "fact": "Das Unternehmen Claas ist in der Landmaschinenindustrie vertreten.",
+      "fallback": false
+    },
+    {
+      "fact_index": 65,
+      "paragraph_index": 8,
+      "fact": "Claas baut in Mans Traktoren.",
+      "fallback": false
+    },
+    {
+      "fact_index": 66,
+      "paragraph_index": 8,
+      "fact": "Die metallverarbeitende Industrie ist ein wichtiger Wirtschaftszweig.",
+      "fallback": false
+    },
+    {
+      "fact_index": 67,
+      "paragraph_index": 8,
+      "fact": "Die Elektroindustrie ist ein wichtiger Wirtschaftszweig.",
+      "fallback": false
+    },
+    {
+      "fact_index": 68,
+      "paragraph_index": 8,
+      "fact": "Der Dienstleistungsbereich ist ein wichtiger Wirtschaftszweig.",
+      "fallback": false
+    },
+    {
+      "fact_index": 69,
+      "paragraph_index": 8,
+      "fact": "Versicherungen gehören zum Dienstleistungsbereich.",
+      "fallback": false
+    },
+    {
+      "fact_index": 70,
+      "paragraph_index": 8,
+      "fact": "MMA (Mutuelles du Mans Assurances) ist ein Beispiel für ein Versicherungsunternehmen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 71,
+      "paragraph_index": 9,
+      "fact": "Die Stadt blieb im Zweiten Weltkrieg weitgehend ganz.",
+      "fallback": false
+    },
+    {
+      "fact_index": 72,
+      "paragraph_index": 9,
+      "fact": "Die historische Altstadt hat sich erhalten.",
+      "fallback": false
+    },
+    {
+      "fact_index": 73,
+      "paragraph_index": 9,
+      "fact": "Die Stadtmauer wurde gegen Ende des 3. Jahrhunderts gebaut.",
+      "fallback": false
+    },
+    {
+      "fact_index": 74,
+      "paragraph_index": 9,
+      "fact": "Die Stadtmauer ist im gallo-römischen Baustil errichtet.",
+      "fallback": false
+    },
+    {
+      "fact_index": 75,
+      "paragraph_index": 9,
+      "fact": "Die Stadtmauer ist bemerkenswert gut erhalten.",
+      "fallback": false
+    },
+    {
+      "fact_index": 76,
+      "paragraph_index": 9,
+      "fact": "Die Kathedrale Saint-Julien ist im romanisch-gotischen Baustil erbaut.",
+      "fallback": false
+    },
+    {
+      "fact_index": 77,
+      "paragraph_index": 9,
+      "fact": "Die Kirche Eglise de la Couture stammt aus dem 13. und 14. Jahrhundert.",
+      "fallback": false
+    },
+    {
+      "fact_index": 78,
+      "paragraph_index": 9,
+      "fact": "Zum historischen Erbe gehört das Musée de Tessé.",
+      "fallback": false
+    },
+    {
+      "fact_index": 79,
+      "paragraph_index": 9,
+      "fact": "Zum historischen Erbe gehört das Maison d'Adam et Ève.",
+      "fallback": false
+    },
+    {
+      "fact_index": 80,
+      "paragraph_index": 9,
+      "fact": "Zum historischen Erbe gehört das Hôtel de Clairaulnay.",
+      "fallback": false
+    },
+    {
+      "fact_index": 81,
+      "paragraph_index": 9,
+      "fact": "Zum historischen Erbe gehört das Hôtel de Vaux.",
+      "fallback": false
+    },
+    {
+      "fact_index": 82,
+      "paragraph_index": 10,
+      "fact": "Das 24-Stunden-Rennen von Le Mans findet in unmittelbarer Nähe statt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 83,
+      "paragraph_index": 10,
+      "fact": "Im Innenbereich der Rennstrecke befindet sich seit 1991 das Automobilmuseum des Département Sarthe.",
+      "fallback": false
+    },
+    {
+      "fact_index": 84,
+      "paragraph_index": 10,
+      "fact": "Im Museum sind mehr als 100 Fahrzeuge ausgestellt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 85,
+      "paragraph_index": 10,
+      "fact": "Unter den Exponaten befinden sich Siegerfahrzeuge des 24-Stunden-Rennens.",
+      "fallback": false
+    },
+    {
+      "fact_index": 86,
+      "paragraph_index": 10,
+      "fact": "Ein Siegerfahrzeug von 1924 ist ein Bentley.",
+      "fallback": false
+    },
+    {
+      "fact_index": 87,
+      "paragraph_index": 10,
+      "fact": "Ein Siegerfahrzeug von 1949 ist ein Ferrari.",
+      "fallback": false
+    },
+    {
+      "fact_index": 88,
+      "paragraph_index": 10,
+      "fact": "In den Fußgängerzonen von Le Mans befinden sich Hand- und Fußabdrücke erfolgreicher Rennfahrer.",
+      "fallback": false
+    },
+    {
+      "fact_index": 89,
+      "paragraph_index": 10,
+      "fact": "Diese Abdrücke sind auf Messingplatten im Straßenbelag oder an einem Brunnen angebracht.",
+      "fallback": false
+    },
+    {
+      "fact_index": 90,
+      "paragraph_index": 11,
+      "fact": "Le Mans ist weltberühmt für seine Motorsportveranstaltungen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 91,
+      "paragraph_index": 11,
+      "fact": "In Le Mans findet das 24-Stunden-Rennen statt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 92,
+      "paragraph_index": 11,
+      "fact": "Im Jahr 1955 ereignete sich beim 24-Stunden-Rennen von Le Mans der weltweit schwerste Unfall.",
+      "fallback": false
+    },
+    {
+      "fact_index": 93,
+      "paragraph_index": 11,
+      "fact": "Das Langstreckenrennen wird seit 1923 jährlich Mitte Juni ausgetragen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 94,
+      "paragraph_index": 11,
+      "fact": "Die Rennstrecke 'Circuit des 24 Heures' ist 13,5 km lang.",
+      "fallback": false
+    },
+    {
+      "fact_index": 95,
+      "paragraph_index": 11,
+      "fact": "Die Strecke besteht aus Landstraßen im Süden von Le Mans.",
+      "fallback": false
+    },
+    {
+      "fact_index": 96,
+      "paragraph_index": 11,
+      "fact": "Im Jahr 1906 fand in Le Mans das erste Grand-Prix-Rennen der Welt statt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 97,
+      "paragraph_index": 11,
+      "fact": "An diesem ersten Grand-Prix-Rennen nahmen 32 Automobile teil.",
+      "fallback": false
+    },
+    {
+      "fact_index": 98,
+      "paragraph_index": 12,
+      "fact": "Es gibt ein 24-Stunden-Rennen für Motorräder.",
+      "fallback": false
+    },
+    {
+      "fact_index": 99,
+      "paragraph_index": 12,
+      "fact": "Es finden diverse Motorsportveranstaltungen statt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 100,
+      "paragraph_index": 12,
+      "fact": "Der Grand Prix von Frankreich der Motorrad-Weltmeisterschaft findet dort statt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 101,
+      "paragraph_index": 12,
+      "fact": "Der Grand Prix von Frankreich wird auf einer kürzeren Variante der Rennstrecke ausgetragen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 102,
+      "paragraph_index": 12,
+      "fact": "Diese kürzere Variante heißt Circuit Bugatti.",
+      "fallback": false
+    },
+    {
+      "fact_index": 103,
+      "paragraph_index": 13,
+      "fact": "Der Fußballclub heißt Le Mans Union Club (M.U.C.) 72.",
+      "fallback": false
+    },
+    {
+      "fact_index": 104,
+      "paragraph_index": 13,
+      "fact": "Der Verein spielte einige Jahre in der zweiten französischen Liga.",
+      "fallback": false
+    },
+    {
+      "fact_index": 105,
+      "paragraph_index": 13,
+      "fact": "Der Verein wurde im Oktober 2013 aufgelöst.",
+      "fallback": false
+    },
+    {
+      "fact_index": 106,
+      "paragraph_index": 13,
+      "fact": "Der Grund für die Auflösung war eine Insolvenz.",
+      "fallback": false
+    },
+    {
+      "fact_index": 107,
+      "paragraph_index": 14,
+      "fact": "Die Basketballmannschaft heißt Le Mans Sarthe Basket.",
+      "fallback": false
+    },
+    {
+      "fact_index": 108,
+      "paragraph_index": 14,
+      "fact": "Le Mans Sarthe Basket war viermal französischer Meister.",
+      "fallback": false
+    },
+    {
+      "fact_index": 109,
+      "paragraph_index": 14,
+      "fact": "Der letzte französische Meistertitel von Le Mans Sarthe Basket wurde im Jahr 2006 gewonnen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 110,
+      "paragraph_index": 15,
+      "fact": "Der Verein heißt MSH 72.",
+      "fallback": false
+    },
+    {
+      "fact_index": 111,
+      "paragraph_index": 15,
+      "fact": "MSH 72 steht für Le Mans Sarthe Handball 72.",
+      "fallback": false
+    },
+    {
+      "fact_index": 112,
+      "paragraph_index": 15,
+      "fact": "Der Verein gilt als Hauptverein der Stadt Le Mans.",
+      "fallback": false
+    },
+    {
+      "fact_index": 113,
+      "paragraph_index": 15,
+      "fact": "Der Verein gilt als Hauptverein des Departements Sarthe.",
+      "fallback": false
+    },
+    {
+      "fact_index": 114,
+      "paragraph_index": 15,
+      "fact": "Der Verein ist eine Männermannschaft.",
+      "fallback": false
+    },
+    {
+      "fact_index": 115,
+      "paragraph_index": 16,
+      "fact": "Der Verein CSC Le Mans Handball (Club Sportif des Cheminots du Mans) wurde 1957 gegründet.",
+      "fallback": false
+    },
+    {
+      "fact_index": 116,
+      "paragraph_index": 16,
+      "fact": "Der Verein wird als „Eisenbahner-Sportverein in Le Mans“ bezeichnet.",
+      "fallback": false
+    },
+    {
+      "fact_index": 117,
+      "paragraph_index": 16,
+      "fact": "Der Verein hat aktuell 13 aktive Mannschaften.",
+      "fallback": false
+    },
+    {
+      "fact_index": 118,
+      "paragraph_index": 16,
+      "fact": "Es gibt Mannschaften im Jugendbereich.",
+      "fallback": false
+    },
+    {
+      "fact_index": 119,
+      "paragraph_index": 16,
+      "fact": "Es gibt Mannschaften im Seniorenbereich.",
+      "fallback": false
+    },
+    {
+      "fact_index": 120,
+      "paragraph_index": 17,
+      "fact": "In der Nähe von Mans bei Mayet gibt es einen Sendemast für UKW und Fernsehen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 121,
+      "paragraph_index": 17,
+      "fact": "Der Sendemast ist 342 Meter hoch.",
+      "fallback": false
+    },
+    {
+      "fact_index": 122,
+      "paragraph_index": 17,
+      "fact": "Der Sendemast ist eines der höchsten Bauwerke in Frankreich.",
+      "fallback": false
+    },
+    {
+      "fact_index": 123,
+      "paragraph_index": 17,
+      "fact": "Der Sendemast ist höher als der Eiffelturm.",
+      "fallback": false
+    },
+    {
+      "fact_index": 124,
+      "paragraph_index": 18,
+      "fact": "Die Zwiblèmessi (Foire aux Oignons) findet in Mans statt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 125,
+      "paragraph_index": 18,
+      "fact": "Die Zwiblèmessi findet im September statt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 126,
+      "paragraph_index": 18,
+      "fact": "Die Zwiblèmessi findet am ersten Freitag des Septembers statt.",
+      "fallback": false
+    }
+  ]
+}

@@ -1,0 +1,697 @@
+{
+  "pair_key": "gold__kalender",
+  "cluster": "Gold",
+  "als_page_id": "gold_kalender_als",
+  "de_page_id": "gold_kalender_de",
+  "pair_title": "Kalender",
+  "page_id": "gold_kalender_als",
+  "page_title": "Kalender",
+  "language_variety": "als",
+  "decomposition_model": "gemma-4-31b-it",
+  "decomposition_prompt_version": "iaa_atomic_balanced_fewshot_v2",
+  "num_paragraphs": 24,
+  "num_facts": 109,
+  "num_fallback_paragraphs": 0,
+  "paragraphs": [
+    "Èn Kalènder isch è Übbersicht übber diè Dääg, Wuchè un Mönet von èm Johr. È voaalteti Bezeichnung isch Johrwyser.",
+    "S Wort „Kalènder“ entschtammt im lateinischè Calendarium (Schuldbuèch). Sell isch è Vozeichnis vo dè Kalendae gsi, dè jewyls èrschtè, uuszruèfendè (calare „uusruèfè“) Dääg vo dè antikè Mönet. A sèllè sin Darlehè uuszallt un Darlehensrüggfüürigè sowiè Zinsforderigè fällig.",
+    "S git voschideni Kalèndersischteem, hüt isch wältwit übberwigend dè Gregorianische Kalender im Gebruuch.",
+    "Kalender git s in voschidenè – drucktè, bebildertè, elegtronischè – Formè (sh. au Kalendarium).",
+    "D Reglè zu dè Uffschtellig vom Kalendern sin vo aschtronomischè Gegèbèheitè (Mondphasè, Sunnèjohr) un entschprèchendè Kalenderberechnungè abgleitet. Diè wǜssèschaftlichi Kalenderkundi isch è Deilgebièt vo dè Aschtronomischè Chronology. Diè vorwǜssenschaftlichi Chunscht, Kalender z erschtellè, nennt mò Hemerology.",
+    "D Kenntnis vo regèlmäßig stattfindendè Dyrwanderigè isch schu für diè früènè Jägerkulturè wichtig gsi.",
+    "È Bewusstsy für johreszitlich un aschtronomisch sich widderholendi Ereignis, für entschprèchendi Zǜklè i sinèrè Umwält, hèt dè Mensch wòrschinli zimli früè ghaa. Dezu! ghörd dè Wechsèl vo Daag un Nacht sowiè d Mondphasè. Johreszitlich bedingti Klimaschwankigè hèn i dè Buèrèrei vo dè meischtè Wältregionè è bedütendi Rollè un hèn vo dè Menschè spôteschtens i dè Altschteizit wòrgnõ wörrè könnè. È Beobachtig vo dè Voänderungè am Nachthimmel sowiè dè Eigèbewegigè vo dè Planetè isch zuè sellèrè Zit ebbèfalls möglich gsi.",
+    "Scho dè Rurm vo Jericho uss èm 9. Johrdausend v. Chr. dütet druff hy, daß mò d Summersunnèwendi kènnt hèt un jungschteizitlichi Bautè wiè öppè Stonehenge züged vo dè Bemüèigè vo dè sesshaft worrènè Bevölkerig, diè natürlichi Johreslängi un uusgwäälti zǜklisch widderkeerendi Himmelsereignis wiè Sunnèwendi un Daag-un-Nacht-Glychi bräzys bschtimmè z chönnè. Graad für d Buurè isch es wichtig gsi, è Beschtimmig vo dè Zitpünkt fürs Saiè un Èrntè vornää z chönnè. Mit dè sischtematischè Himmelsbeobachtig sin religiösi Fruchtbòrkeitskult vobundè gsi – drait vo dè Hoffnig uff è günschtigs Zruggchõ vo dè Fruchtbarkeitsbedingigè. Asè sin bschtimmti landwǜrtschaftlichi Termin an Feschter bundè gsi, wo widderum an Himmelsereignis vobundè gsi sin.",
+    "Für dè Übbergang vo dè Jägerkulturè zum Ackerbau im Neolithikum (Jungschteizit) isch è Voänderig vo kalendarischè Vorschtelligè vom Mond- zum Sunnèkalènder bassyrt. Selli steizitlichi Kalènder, au neolithischè Kalènder (vo Alexander Thom au megalithischè Kalènder dauft) beiihaltet woll diè älteschtè kalendarischè Vorschtelligè vo dè Menschheit un isch d Grundlaag vo spôterè Kalèndervariantè. Analog zum Begriff vo dè Neolithischè Revolution (Übbergang zum Ackerbau) wörd au vo dè Neolithischè Kalènder-Revolution gschwätzt.",
+    "Diè älteschtè hüt no bekanntè Kalender stammèd uss dè früènè Hochkulturè Ägyptè un Mesopotamiè. Dõ hèn sich schu zwei grundlegendi Kalenderartè zeigt, wo bis hüt diè meischtè Kalèndersischteem brägèd: dè a dè Mondphasè orièntyrte Mondkalènder un dè aschtronomische Kalènder, wo dè Lauf vo dè Himmelskörper widerschpyglè duèt.",
+    "Spôteschtens vo dè Babilonièr isch dè sibbèdägige Wochèzǜklus entwicklèt woorè, dè hüt fascht wältwit dè Ablauf vom Alldaag reglè duèt. In anderè Kalènder hèt s ähnlichi Zǜklè gää, zwǜschè füüf un zee Dääg.",
+    "D Aabassig vo Wochè un Mönètsfolgè a diè feschti Größi vom aschtronomischè Johr isch nit eifach z lösè gsi. S isch zuè dè Usèbildig vo voschidenè Kalèndersischteem chò.",
+    "Früèni Kalèndersischteem sin durch Beobachtig gwunnè worrè (aschtronomischi Kalènder). Mit èm Ydritt vo bschtimmtè definyrtè Himmelsereignis (z. B. im Neumond odder im Daag-un-Nacht-Glychi im Früèling) hèt èn neuè Zǜklus aagfangè. Si hèn regèlmäßig nõchgregelt wörrè müèsè.",
+    "Selli Methode hèt èn entscheidendè Nõchdeil ghaa: In großè Hèrrschaftsgebièt hèt è Ereignis a unterschydlichè Ort eventuèll zuè unterschydlichè Zitè wòrgnõ wörrè chönnè, so dass au unterschydlichi Datè zellt worrè sin. Wenn degegè dè Ydritt von èm Ereignis nu an èm bschtimmtè Ort (z. B. dè Hauptschtadt odder èm Haupttempel) maßgeblich gsi isch, denn hèn wit entfèrnt glègeni Gebièt oft èrscht nõch è baar Dääg devò unterrichtet wörrè hèn chönnè. Söttigi Brobleem hèt s byschpillswys im früènèrè jüdischè Kalènder gää, wo dè Hoheprièschter übber diè èrschti Sichtung vo dè Mondsichel bi Neumond entschiddè hèt. Durch diè langè Informationswäg hèt s bassyrè chönnè, dass è religiöses Fescht in abglègènè Gebièt am „falschè“ Daag gfièrèt worrè sin. Auch isch es kurz vor Monètsènd nit möglich gsi, vorhèrzsägè, welles Datum z. B. in sibbè Dääg sy wörd, well dè Neumond nit voruusberechnèt wörrè hèt chönnè, sondern durch dagesaktuèlli Beobachtung ermittlèt worrè isch.",
+    "Immer meè Kulturè hèn deshalb iri Kalènder aagfangè z berèchnè. Dè letschti ernschthafti Vosuèch, èn Beobachtigs-Kalènder z etablyrè, isch i dè Französischè Revolution unternõ worrè (Französischè Revolutionskalènder).",
+    "D Berèchnig vo Kalènder (arithmetischè Kalènder) setzt umfangrychi aschtronomischi un mathematischi Kenntnis voruus. Bi dè Entwicklig vo dè früènè ägyptischè aschtralè Sothiskalènder sin selli Kenntnis vorhandè gsi. D Yfüürig von èm ägǜptischè Vowaltigskalendèr uff 365-Dääg-Basis isch spôteschtens im drittè Johrdausend v. Chr. erfolgt. Sellè hèt abber s Durrèwanderè vo dè Johreszitè nit vohinderè chönnè. Diè ägǜptischè Könnig hèn diè Johreszitèvoschièbig kritisyrt, doch èrscht dè Ptolemaios III. hèt 238 v. Chr. èn Vosuèch zu dè Yfüürig von èm Schaltdaag unternõ. Nõch sim Tod isch nebbè m neuè Schaltdaagskalènder abber widder dè aalte ägǜptische Vowaltigskalènder bruucht worrè. Dè julianische Kalènder, wo 45 v. Chr. vom Julius Cäsar ygfüürt worrè isch, hèt sich glychwool uff d Kalènderform vom Ptolemaios III. gschtützt.",
+    "Sowoll Mond- als au Sunnèkalènder müèn mit Schaltdääg odder unterschidlichè Monetslängè schaffè, wo nõch ènèrè feschtglaitè mathematischè Reglè i dè normale Kalènderlauf ybaut worrè sin. Èn Sunnèkalènder bruucht normalerwys èn zuèsätzlichè Daag öppè alli vir Johr (im Gregorianischè Kalènder isch sell dè 29. Februar), um diè durchschnittlichi Dageszaal vo dè Längi vom Sunnèjohr aazbassè. Èn Mondkalènder muè d Monetslängi zwǜschè 29 un 30 Dääg variyrè, denn di Zit zwǜschè zwei glychè Mondphasè duèrèt durchschnittlich öppè 29,531 Dääg.",
+    "Dè Yschùb von èm zuèsätzlichè Daag, Monet odder Johr in è Kalèndersischteem wörd als Embolismus (altgrychisch ἐμβάλλειν „yschaaltè“) benamst.",
+    "Lunar- odder Mondkalènder orièntyred sich a dè Mondphasè. S dütsche Wort Monet leitet sich etǜmologisch vom Mond ab. Allerdings hèt dè Monet vom Gregorianischè Kalènder ußer m Nammè nüt mee mit èm Mondzǜklus z duè, well er mit ènèrè durchschnittlichè Längi vo 30,437 Dääg um fascht ein Daag länger duèrèt wiè dè durchschnittliche sǜnodische Monet.",
+    "Dè Nõchdeil vom reinè Lunarkalènder bschtòt dõdruus, dass er nit mit èm Sunnèjohr korreschpondyrè cha, è Eigèschaft, wo in subtropischè un tropischè Breitè öfters nit d Bedütig hèt, wo ym dört zuèchunnt, wo d Kulturè vo dè Johreszitè abhängig sin. Asè duèrèt im bekannteschtè hüt no gebrüüchlichè lunarè Kalènder, im islamischè Kalènder, s Johr mit 12 Monèt durchschnittlich 354,372 Dääg. Diè islamischè Mönèt „wanderèd“ dõdurrè Johr für Johr öppè elf Dääg im Gregorianischè Kalènder fürrèzuès. Au s Oschterdatum folgèt èm Lunarè Kalènder (luèg: Oschterberèchnig)",
+    "Diè meischtè Kulturè orièntyrèd sich bi irer Zitmessig a dè durch d Sunnè bschtimmtè Johreszitè (Solar- odder Sunnèkalènder). Dèmèntsprèchend hèt dè Grundtǜp vom Solarkalènder diè meischtè Variantè fürrèbrocht. S Solarjohr orièntyrt sich am tropischè Johr, èm Umlauf vo dè Èrdè uff dè Früèlingspunkt bezogè. Sebb isch d Uusgangsbasis für dè allgemeine Johresbegriff.",
+    "Dè hüt wältwit vobreitete Gregorianische Kalènder isch èn solarè Kalènder.",
+    "Dè Lunisolarkalènder stellt dè Vosuèch dar, èn reinè Lunarkalènder a s Sunnèjohr aazbassè. Well d Längi vo dè Mönèt durch d Mondphasè feschtglait isch, chönned keini Schaltdääg wiè bim Sunnèkalènder yègfüègt wörrè. D Lösig lyt im Yschaaltè vo Schaltmönèt. Diè Johreslängi vo dè Lunisolarkalènder schwankèt deshalb zwǜschè öppè 353 un öppè 385 Dääg. Bekannti Lunisolarkalènder sin dè jüdischè, dè traditionèlle chinesischè un dè keltische Kalènder.",
+    "Es sin nu wènnig Kalèndersischteem bekannt, Maya-Kalènder basyrèt uff ènèrè regèlmäßigè Folgi vo 20 Dääg un einèrè 52 Johr duèrndè Kalènderrundi."
+  ],
+  "facts": [
+    {
+      "fact_index": 0,
+      "paragraph_index": 0,
+      "fact": "Ein Kalender ist eine Übersicht über die Tage, Wochen und Monate eines Jahres.",
+      "fallback": false
+    },
+    {
+      "fact_index": 1,
+      "paragraph_index": 0,
+      "fact": "Eine veraltete Bezeichnung für einen Kalender ist Johrwyser.",
+      "fallback": false
+    },
+    {
+      "fact_index": 2,
+      "paragraph_index": 1,
+      "fact": "Das Wort „Kalender“ stammt vom lateinischen Calendarium (Schuldbuch) ab.",
+      "fallback": false
+    },
+    {
+      "fact_index": 3,
+      "paragraph_index": 1,
+      "fact": "Das Calendarium war ein Verzeichnis der Kalendae.",
+      "fallback": false
+    },
+    {
+      "fact_index": 4,
+      "paragraph_index": 1,
+      "fact": "Die Kalendae waren die jeweils ersten, auszurufenden Tage der antiken Monate.",
+      "fallback": false
+    },
+    {
+      "fact_index": 5,
+      "paragraph_index": 1,
+      "fact": "Das Verb calare bedeutet „ausrufen“.",
+      "fallback": false
+    },
+    {
+      "fact_index": 6,
+      "paragraph_index": 1,
+      "fact": "An den Kalendae waren Darlehen auszuzahlen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 7,
+      "paragraph_index": 1,
+      "fact": "An den Kalendae waren Darlehensrückführungen fällig.",
+      "fallback": false
+    },
+    {
+      "fact_index": 8,
+      "paragraph_index": 1,
+      "fact": "An den Kalendae waren Zinsforderungen fällig.",
+      "fallback": false
+    },
+    {
+      "fact_index": 9,
+      "paragraph_index": 2,
+      "fact": "Es gibt verschiedene Kalendersysteme.",
+      "fallback": false
+    },
+    {
+      "fact_index": 10,
+      "paragraph_index": 2,
+      "fact": "Heute ist weltweit überwiegend der Gregorianische Kalender im Gebrauch.",
+      "fallback": false
+    },
+    {
+      "fact_index": 11,
+      "paragraph_index": 3,
+      "fact": "Kalender gibt es in gedruckten Formen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 12,
+      "paragraph_index": 3,
+      "fact": "Kalender gibt es in bebilderten Formen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 13,
+      "paragraph_index": 3,
+      "fact": "Kalender gibt es in elektronischen Formen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 14,
+      "paragraph_index": 4,
+      "fact": "Die Regeln zur Aufstellung von Kalendern sind von astronomischen Gegebenheiten wie Mondphasen und Sonnenjahr abgeleitet.",
+      "fallback": false
+    },
+    {
+      "fact_index": 15,
+      "paragraph_index": 4,
+      "fact": "Die Regeln zur Aufstellung von Kalendern sind von entsprechenden Kalenderberechnungen abgeleitet.",
+      "fallback": false
+    },
+    {
+      "fact_index": 16,
+      "paragraph_index": 4,
+      "fact": "Die wissenschaftliche Kalenderkunde ist ein Teilgebiet der astronomischen Chronologie.",
+      "fallback": false
+    },
+    {
+      "fact_index": 17,
+      "paragraph_index": 4,
+      "fact": "Die vorwissenschaftliche Kunst, Kalender zu erstellen, nennt man Hemerology.",
+      "fallback": false
+    },
+    {
+      "fact_index": 18,
+      "paragraph_index": 5,
+      "fact": "Die Kenntnis von regelmäßig stattfindenden Tierwanderungen war schon für die frühen Jägerkulturen wichtig.",
+      "fallback": false
+    },
+    {
+      "fact_index": 19,
+      "paragraph_index": 6,
+      "fact": "Der Mensch hatte wahrscheinlich ziemlich früh ein Bewusstsein für jahreszeitlich und astronomisch sich wiederholende Ereignisse sowie für entsprechende Zyklen in seiner Umwelt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 20,
+      "paragraph_index": 6,
+      "fact": "Zum Bewusstsein für wiederholende Ereignisse gehört der Wechsel von Tag und Nacht.",
+      "fallback": false
+    },
+    {
+      "fact_index": 21,
+      "paragraph_index": 6,
+      "fact": "Zum Bewusstsein für wiederholende Ereignisse gehören die Mondphasen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 22,
+      "paragraph_index": 6,
+      "fact": "Jahreszeitlich bedingte Klimaschwankungen spielten in der Bauernerei der meisten Weltregionen eine bedeutende Rolle.",
+      "fallback": false
+    },
+    {
+      "fact_index": 23,
+      "paragraph_index": 6,
+      "fact": "Jahreszeitlich bedingte Klimaschwankungen konnten von den Menschen spätestens in der Altschteizit wahrgenommen werden.",
+      "fallback": false
+    },
+    {
+      "fact_index": 24,
+      "paragraph_index": 6,
+      "fact": "Eine Beobachtung der Veränderungen am Nachthimmel war zu dieser Zeit ebenfalls möglich.",
+      "fallback": false
+    },
+    {
+      "fact_index": 25,
+      "paragraph_index": 6,
+      "fact": "Eine Beobachtung der Eigenbewegungen der Planeten war zu dieser Zeit ebenfalls möglich.",
+      "fallback": false
+    },
+    {
+      "fact_index": 26,
+      "paragraph_index": 7,
+      "fact": "Der Rurm von Jericho aus dem 9. Jahrtausend v. Chr. deutet darauf hin, dass man die Sommersonnwendi kannte.",
+      "fallback": false
+    },
+    {
+      "fact_index": 27,
+      "paragraph_index": 7,
+      "fact": "Jungsteinzeitliche Bauten wie Stonehenge zeugen von den Bemühungen der sesshaft gewordenen Bevölkerung, die natürliche Jahreslänge präzise bestimmen zu können.",
+      "fallback": false
+    },
+    {
+      "fact_index": 28,
+      "paragraph_index": 7,
+      "fact": "Jungsteinzeitliche Bauten wie Stonehenge zeugen von den Bemühungen der sesshaft gewordenen Bevölkerung, ausgewählte zyklisch wiederkehrende Himmelsereignisse wie Sonnenwenden und Tag-und-Nacht-Gleichen präzise bestimmen zu können.",
+      "fallback": false
+    },
+    {
+      "fact_index": 29,
+      "paragraph_index": 7,
+      "fact": "Für die Bauern war es wichtig, eine Bestimmung der Zeitpunkte für das Säen und Ernten vornehmen zu können.",
+      "fallback": false
+    },
+    {
+      "fact_index": 30,
+      "paragraph_index": 7,
+      "fact": "Mit der systematischen Himmelsbeobachtung waren religiöse Fruchtbarkeitskulte verbunden.",
+      "fallback": false
+    },
+    {
+      "fact_index": 31,
+      "paragraph_index": 7,
+      "fact": "Die religiösen Fruchtbarkeitskulte waren getragen von der Hoffnung auf eine günstige Rückkehr der Fruchtbarkeitsbedingungen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 32,
+      "paragraph_index": 7,
+      "fact": "Bestimmte landwirtschaftliche Termine waren an Feste gebunden.",
+      "fallback": false
+    },
+    {
+      "fact_index": 33,
+      "paragraph_index": 7,
+      "fact": "Diese Feste waren wiederum an Himmelsereignisse gebunden.",
+      "fallback": false
+    },
+    {
+      "fact_index": 34,
+      "paragraph_index": 8,
+      "fact": "Für den Übergang von den Jägerkulturen zum Ackerbau im Neolithikum (Jungsteinzeit) ist eine Veränderung von kalendarischen Vorstellungen vom Mond- zum Sonnenkalender passiert.",
+      "fallback": false
+    },
+    {
+      "fact_index": 35,
+      "paragraph_index": 8,
+      "fact": "Diese steinzeitlichen Kalender werden auch neolithische Kalender genannt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 36,
+      "paragraph_index": 8,
+      "fact": "Alexander Thom taufte die neolithischen Kalender megalithische Kalender.",
+      "fallback": false
+    },
+    {
+      "fact_index": 37,
+      "paragraph_index": 8,
+      "fact": "Die neolithischen Kalender beinhalten wohl die ältesten kalendarischen Vorstellungen der Menschheit.",
+      "fallback": false
+    },
+    {
+      "fact_index": 38,
+      "paragraph_index": 8,
+      "fact": "Die neolithischen Kalender sind die Grundlage von späteren Kalendervarianten.",
+      "fallback": false
+    },
+    {
+      "fact_index": 39,
+      "paragraph_index": 8,
+      "fact": "Analog zum Begriff der Neolithischen Revolution (Übergang zum Ackerbau) wird auch von der Neolithischen Kalender-Revolution gesprochen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 40,
+      "paragraph_index": 9,
+      "fact": "Die ältesten heute noch bekannten Kalender stammen aus den frühen Hochkulturen Ägypten und Mesopotamien.",
+      "fallback": false
+    },
+    {
+      "fact_index": 41,
+      "paragraph_index": 9,
+      "fact": "In den frühen Hochkulturen Ägypten und Mesopotamien zeigten sich bereits zwei grundlegende Kalenderarten, die bis heute die meisten Kalendersysteme prägen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 42,
+      "paragraph_index": 9,
+      "fact": "Eine grundlegende Kalenderart ist der an den Mondphasen orientierte Mondkalender.",
+      "fallback": false
+    },
+    {
+      "fact_index": 43,
+      "paragraph_index": 9,
+      "fact": "Eine grundlegende Kalenderart ist der astronomische Kalender, welcher den Lauf der Himmelskörper widerspiegelt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 44,
+      "paragraph_index": 10,
+      "fact": "Spätestens von den Babyloniern wurde der siebentägige Wochenzyklus entwickelt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 45,
+      "paragraph_index": 10,
+      "fact": "Der siebentägige Wochenzyklus regelt heute fast weltweit den Ablauf vom Alltag.",
+      "fallback": false
+    },
+    {
+      "fact_index": 46,
+      "paragraph_index": 10,
+      "fact": "In anderen Kalendern gab es ähnliche Zyklen zwischen fünf und zehn Tagen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 47,
+      "paragraph_index": 11,
+      "fact": "Die Anpassung von Wochen- und Monatsfolgen an die feste Größe des astronomischen Jahres war nicht einfach zu lösen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 48,
+      "paragraph_index": 11,
+      "fact": "Dies führte zur Ausbildung von verschiedenen Kalendersystemen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 49,
+      "paragraph_index": 12,
+      "fact": "Frühe Kalendersysteme wurden durch Beobachtung gewonnen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 50,
+      "paragraph_index": 12,
+      "fact": "Frühe Kalendersysteme waren astronomische Kalender.",
+      "fallback": false
+    },
+    {
+      "fact_index": 51,
+      "paragraph_index": 12,
+      "fact": "Ein neuer Zyklus begann mit dem Eintritt von bestimmten definierten Himmelsereignissen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 52,
+      "paragraph_index": 12,
+      "fact": "Beispiele für definierte Himmelsereignisse sind der Neumond oder die Tag-und-Nacht-Gleiche im Frühling.",
+      "fallback": false
+    },
+    {
+      "fact_index": 53,
+      "paragraph_index": 12,
+      "fact": "Frühe Kalendersysteme mussten regelmäßig nachgeregelt werden.",
+      "fallback": false
+    },
+    {
+      "fact_index": 54,
+      "paragraph_index": 13,
+      "fact": "Diese Methode hatte einen entscheidenden Nachteil.",
+      "fallback": false
+    },
+    {
+      "fact_index": 55,
+      "paragraph_index": 13,
+      "fact": "In großen Herrschaftsgebieten konnte ein Ereignis an unterschiedlichen Orten eventuell zu unterschiedlichen Zeiten wahrgenommen werden.",
+      "fallback": false
+    },
+    {
+      "fact_index": 56,
+      "paragraph_index": 13,
+      "fact": "In großen Herrschaftsgebieten konnten daher unterschiedliche Daten gezählt worden sein.",
+      "fallback": false
+    },
+    {
+      "fact_index": 57,
+      "paragraph_index": 13,
+      "fact": "Wenn der Eintritt von einem Ereignis nur an einem bestimmten Ort maßgeblich war, konnten weit entfernt gelegene Gebiete oft erst nach ein paar Tagen davon unterrichtet werden.",
+      "fallback": false
+    },
+    {
+      "fact_index": 58,
+      "paragraph_index": 13,
+      "fact": "Beispiele für einen bestimmten Ort waren die Hauptstadt oder ein Haupttempel.",
+      "fallback": false
+    },
+    {
+      "fact_index": 59,
+      "paragraph_index": 13,
+      "fact": "Solche Probleme gab es beispielsweise im früheren jüdischen Kalender.",
+      "fallback": false
+    },
+    {
+      "fact_index": 60,
+      "paragraph_index": 13,
+      "fact": "Im früheren jüdischen Kalender entschied der Hohepriester über die erste Sichtung der Mondsichel bei Neumond.",
+      "fallback": false
+    },
+    {
+      "fact_index": 61,
+      "paragraph_index": 13,
+      "fact": "Durch die langen Informationswege konnte es passieren, dass ein religiöses Fest in abgelegenen Gebieten am falschen Tag gefeiert wurde.",
+      "fallback": false
+    },
+    {
+      "fact_index": 62,
+      "paragraph_index": 13,
+      "fact": "Kurz vor Monatsende war es nicht möglich vorherzusagen, welches Datum zum Beispiel in sieben Tagen sein würde.",
+      "fallback": false
+    },
+    {
+      "fact_index": 63,
+      "paragraph_index": 13,
+      "fact": "Der Neumond konnte nicht vorausberechnet werden, sondern wurde durch tagesaktuelle Beobachtung ermittelt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 64,
+      "paragraph_index": 14,
+      "fact": "Immer mehr Kulturen haben deshalb ihre Kalender angefangen zu berechnen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 65,
+      "paragraph_index": 14,
+      "fact": "Der letzte ernsthafte Versuch, einen Beobachtungskalender zu etablieren, wurde in der Französischen Revolution unternommen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 66,
+      "paragraph_index": 14,
+      "fact": "Dieser Versuch war der Französische Revolutionskalender.",
+      "fallback": false
+    },
+    {
+      "fact_index": 67,
+      "paragraph_index": 15,
+      "fact": "Die Berechnung von Kalendern (arithmetischen Kalendern) setzt umfangreiche astronomische und mathematische Kenntnisse voraus.",
+      "fallback": false
+    },
+    {
+      "fact_index": 68,
+      "paragraph_index": 15,
+      "fact": "Bei der Entwicklung des frühen ägyptischen astralen Sothiskalenders sind diese Kenntnisse vorhanden gewesen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 69,
+      "paragraph_index": 15,
+      "fact": "Die Einführung eines ägyptischen Verwaltungskalenders auf 365-Tage-Basis erfolgte spätestens im dritten Jahrtausend v. Chr.",
+      "fallback": false
+    },
+    {
+      "fact_index": 70,
+      "paragraph_index": 15,
+      "fact": "Der ägyptische Verwaltungskalender konnte das Durchwandern der Jahreszeiten nicht verhindern.",
+      "fallback": false
+    },
+    {
+      "fact_index": 71,
+      "paragraph_index": 15,
+      "fact": "Die ägyptischen Könige kritisierten die Jahreszeitenverschiebung.",
+      "fallback": false
+    },
+    {
+      "fact_index": 72,
+      "paragraph_index": 15,
+      "fact": "Ptolemaios III. unternahm 238 v. Chr. einen Versuch zur Einführung eines Schalttags.",
+      "fallback": false
+    },
+    {
+      "fact_index": 73,
+      "paragraph_index": 15,
+      "fact": "Nach dem Tod von Ptolemaios III. wurde neben dem neuen Schalttagskalender wieder der alte ägyptische Verwaltungskalender gebraucht.",
+      "fallback": false
+    },
+    {
+      "fact_index": 74,
+      "paragraph_index": 15,
+      "fact": "Der julianische Kalender wurde 45 v. Chr. von Julius Cäsar eingeführt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 75,
+      "paragraph_index": 15,
+      "fact": "Der julianische Kalender stützte sich auf die Kalenderform von Ptolemaios III.",
+      "fallback": false
+    },
+    {
+      "fact_index": 76,
+      "paragraph_index": 16,
+      "fact": "Sowohl Mond- als auch Sonnenkalender müssen mit Schalttagen oder unterschiedlichen Monatslängen arbeiten, die nach einer festgelegten mathematischen Regel in den normalen Kalenderlauf eingebaut wurden.",
+      "fallback": false
+    },
+    {
+      "fact_index": 77,
+      "paragraph_index": 16,
+      "fact": "Ein Sonnenkalender braucht normalerweise etwa alle vier Jahre einen zusätzlichen Tag, um die durchschnittliche Tageszahl der Länge des Sonnenjahres anzupassen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 78,
+      "paragraph_index": 16,
+      "fact": "Im Gregorianischen Kalender ist dieser zusätzliche Tag der 29. Februar.",
+      "fallback": false
+    },
+    {
+      "fact_index": 79,
+      "paragraph_index": 16,
+      "fact": "Ein Mondkalender muss die Monatslänge zwischen 29 und 30 Tagen variieren.",
+      "fallback": false
+    },
+    {
+      "fact_index": 80,
+      "paragraph_index": 16,
+      "fact": "Die Zeit zwischen zwei gleichen Mondphasen dauert durchschnittlich etwa 29,531 Tage.",
+      "fallback": false
+    },
+    {
+      "fact_index": 81,
+      "paragraph_index": 17,
+      "fact": "Der Einschub von einem zusätzlichen Tag, Monat oder Jahr in einem Kalendersystem wird als Embolismus benannt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 82,
+      "paragraph_index": 17,
+      "fact": "Das Wort Embolismus leitet sich vom altgriechischen ἐμβάλλειν für „einschaalten“ ab.",
+      "fallback": false
+    },
+    {
+      "fact_index": 83,
+      "paragraph_index": 18,
+      "fact": "Lunar- oder Mondkalender orientieren sich an den Mondphasen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 84,
+      "paragraph_index": 18,
+      "fact": "Das deutsche Wort Monat leitet sich etymologisch vom Mond ab.",
+      "fallback": false
+    },
+    {
+      "fact_index": 85,
+      "paragraph_index": 18,
+      "fact": "Der Monat vom Gregorianischen Kalender hat außer dem Namen nichts mehr mit einem Mondzyklus zu tun.",
+      "fallback": false
+    },
+    {
+      "fact_index": 86,
+      "paragraph_index": 18,
+      "fact": "Der Monat vom Gregorianischen Kalender dauert mit einer durchschnittlichen Länge von 30,437 Tagen fast einen Tag länger als der durchschnittliche synodische Monat.",
+      "fallback": false
+    },
+    {
+      "fact_index": 87,
+      "paragraph_index": 19,
+      "fact": "Der Nachteil vom reinen Lunarkalender besteht darin, dass er nicht mit einem Sonnenjahr korrespondieren kann.",
+      "fallback": false
+    },
+    {
+      "fact_index": 88,
+      "paragraph_index": 19,
+      "fact": "Die Eigenschaft, dass der Lunarkalender nicht mit dem Sonnenjahr korrespondiert, hat in subtropischen und tropischen Breiten oft nicht die Bedeutung, die ihr dort zukommt, wo die Kulturen von den Jahreszeiten abhängig sind.",
+      "fallback": false
+    },
+    {
+      "fact_index": 89,
+      "paragraph_index": 19,
+      "fact": "Im islamischen Kalender, dem bekanntesten heute noch gebräuchlichen lunaren Kalender, dauert das Jahr mit 12 Monaten durchschnittlich 354,372 Tage.",
+      "fallback": false
+    },
+    {
+      "fact_index": 90,
+      "paragraph_index": 19,
+      "fact": "Die islamischen Monate wandern dadurch Jahr für Jahr etwa elf Tage im Gregorianischen Kalender voraus.",
+      "fallback": false
+    },
+    {
+      "fact_index": 91,
+      "paragraph_index": 19,
+      "fact": "Das Osterdatum folgt dem lunaren Kalender.",
+      "fallback": false
+    },
+    {
+      "fact_index": 92,
+      "paragraph_index": 20,
+      "fact": "Die meisten Kulturen orientieren sich bei ihrer Zeitmessung an den durch die Sonne bestimmten Jahreszeiten.",
+      "fallback": false
+    },
+    {
+      "fact_index": 93,
+      "paragraph_index": 20,
+      "fact": "Die durch die Sonne bestimmten Jahreszeiten werden als Solar- oder Sonnenkalender bezeichnet.",
+      "fallback": false
+    },
+    {
+      "fact_index": 94,
+      "paragraph_index": 20,
+      "fact": "Der Grundtyp vom Solarkalender hat die meisten Varianten hervorgebracht.",
+      "fallback": false
+    },
+    {
+      "fact_index": 95,
+      "paragraph_index": 20,
+      "fact": "Das Solarjahr orientiert sich am tropischen Jahr.",
+      "fallback": false
+    },
+    {
+      "fact_index": 96,
+      "paragraph_index": 20,
+      "fact": "Das tropische Jahr ist der Umlauf der Erde bezogen auf den Frühlingspunkt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 97,
+      "paragraph_index": 20,
+      "fact": "Das tropische Jahr ist die Ausgangsbasis für den allgemeinen Jahresbegriff.",
+      "fallback": false
+    },
+    {
+      "fact_index": 98,
+      "paragraph_index": 21,
+      "fact": "Der heute weltweit verbreitete Gregorianische Kalender ist ein solarer Kalender.",
+      "fallback": false
+    },
+    {
+      "fact_index": 99,
+      "paragraph_index": 22,
+      "fact": "Der Lunisolarkalender stellt den Versuch dar, einen reinen Lunarkalender an das Sonnenjahr anzupassen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 100,
+      "paragraph_index": 22,
+      "fact": "In einem Lunisolarkalender können keine Schalttage wie beim Sonnenkalender eingefügt werden, weil die Länge der Monate durch die Mondphasen festgelegt ist.",
+      "fallback": false
+    },
+    {
+      "fact_index": 101,
+      "paragraph_index": 22,
+      "fact": "Die Lösung im Lunisolarkalender liegt im Einschalten von Schaltmonaten.",
+      "fallback": false
+    },
+    {
+      "fact_index": 102,
+      "paragraph_index": 22,
+      "fact": "Die Jahreslänge der Lunisolarkalender schwankt deshalb zwischen etwa 353 und etwa 385 Tagen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 103,
+      "paragraph_index": 22,
+      "fact": "Der jüdische Kalender ist ein bekannter Lunisolarkalender.",
+      "fallback": false
+    },
+    {
+      "fact_index": 104,
+      "paragraph_index": 22,
+      "fact": "Der traditionelle chinesische Kalender ist ein bekannter Lunisolarkalender.",
+      "fallback": false
+    },
+    {
+      "fact_index": 105,
+      "paragraph_index": 22,
+      "fact": "Der keltische Kalender ist ein bekannter Lunisolarkalender.",
+      "fallback": false
+    },
+    {
+      "fact_index": 106,
+      "paragraph_index": 23,
+      "fact": "Es sind nur wenige Kalendersysteme bekannt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 107,
+      "paragraph_index": 23,
+      "fact": "Maya-Kalender basieren auf einer regelmäßigen Folge von 20 Tagen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 108,
+      "paragraph_index": 23,
+      "fact": "Maya-Kalender basieren auf einer 52 Jahre dauernden Kalenderrunde.",
+      "fallback": false
+    }
+  ]
+}

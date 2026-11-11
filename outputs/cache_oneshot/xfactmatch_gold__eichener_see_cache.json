@@ -1,0 +1,998 @@
+{
+  "{\"candidate_indices\": [1, 76], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Eichener See befindet sich beim Schopfheimer Stadtteil Eichen im baden-württembergischen Landkreis Lörrach.\"], \"source_fact_index\": 0, \"target_contexts\": [[\"Der Eiemer See (deutsch: Eichener See) ist ein Karstsee.\", \"Der See befindet sich auf dem Dinkelberg bei Schopfe in Baden-Württemberg.\"], [\"Die Teilfläche des FFH-Gebiets um den Eiemer See umfasst 11,5 ha.\", \"Die Teilfläche deckt sich ungefähr mit dem Landschaftsschutzgebiet (LSG) und dem Naturdenkmal (FND).\", \"Das FFH-Gebiet 'Dinkelbärg un Röttler Wald' erstreckt sich über die Landkreise Lörrach und Waldshut.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 338,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [0, 77], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Eichener See befindet sich beim Schopfheimer Stadtteil Eichen im baden-württembergischen Landkreis Lörrach.\", \"Der Eichener See wird im Volksmund alemannisch Eiemer See genannt.\"], \"source_fact_index\": 1, \"target_contexts\": [[\"Der Eiemer See (deutsch: Eichener See) ist ein Karstsee.\"], [\"Die Teilfläche deckt sich ungefähr mit dem Landschaftsschutzgebiet (LSG) und dem Naturdenkmal (FND).\", \"Das FFH-Gebiet 'Dinkelbärg un Röttler Wald' erstreckt sich über die Landkreise Lörrach und Waldshut.\", \"Der Eiemer See wird in der Kurzbeschreibung des Gebiets ausdrücklich genannt.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 334,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [0, 78], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Eichener See befindet sich beim Schopfheimer Stadtteil Eichen im baden-württembergischen Landkreis Lörrach.\", \"Der Eichener See wird im Volksmund alemannisch Eiemer See genannt.\", \"Der Eichener See ist ein zeitweise (astatisch) erscheinender Karstsee.\"], \"source_fact_index\": 2, \"target_contexts\": [[\"Der Eiemer See (deutsch: Eichener See) ist ein Karstsee.\"], [\"Das FFH-Gebiet 'Dinkelbärg un Röttler Wald' erstreckt sich über die Landkreise Lörrach und Waldshut.\", \"Der Eiemer See wird in der Kurzbeschreibung des Gebiets ausdrücklich genannt.\", \"Das Gebiet wird als Kulturlandschaft mit naturnahen Buchenwäldern, Hecken, Kalkmagerrasen, Glatthaferwiesen, Höhlen und einem temporären Karstsee beschrieben.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 371,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [76, 72], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Eichener See wird im Volksmund alemannisch Eiemer See genannt.\", \"Der Eichener See ist ein zeitweise (astatisch) erscheinender Karstsee.\", \"Der Eichener See ist Teil des FFH-Gebietes Dinkelberg und Röttler Wald.\"], \"source_fact_index\": 3, \"target_contexts\": [[\"Die Teilfläche des FFH-Gebiets um den Eiemer See umfasst 11,5 ha.\", \"Die Teilfläche deckt sich ungefähr mit dem Landschaftsschutzgebiet (LSG) und dem Naturdenkmal (FND).\", \"Das FFH-Gebiet 'Dinkelbärg un Röttler Wald' erstreckt sich über die Landkreise Lörrach und Waldshut.\"], [\"Die Fläche des flächenhaften Naturdenkmals am Eiemer See beträgt 3,5 Hektar.\", \"Das flächenhafte Naturdenkmal bildet den Kern des Eiemer Sees.\", \"Der Eiemer See gehört seit dem 31. Mai 2015 zum FFH-Gebiet 'Dinkelbärg un Röttler Wald'.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 414,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [4, 5], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Eichener See ist ein zeitweise (astatisch) erscheinender Karstsee.\", \"Der Eichener See ist Teil des FFH-Gebietes Dinkelberg und Röttler Wald.\", \"Der See ist nur bei hohem Grundwasserstand wasserführend.\"], \"source_fact_index\": 4, \"target_contexts\": [[\"Der See ist nur alle paar Jahre sichtbar.\", \"Es gibt keinen Bach, der in den See fließt oder aus ihm herausführt.\", \"Der See wird unterirdisch durch Grundwasser gefüllt.\"], [\"Es gibt keinen Bach, der in den See fließt oder aus ihm herausführt.\", \"Der See wird unterirdisch durch Grundwasser gefüllt.\", \"Der See ist nur sichtbar, wenn es zuvor lange Zeit stark geregnet hat.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 334,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [1, 78], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Eichener See ist Teil des FFH-Gebietes Dinkelberg und Röttler Wald.\", \"Der See ist nur bei hohem Grundwasserstand wasserführend.\", \"Der See liegt in einer Mulde, einer Muschelkalk-Karstwanne.\"], \"source_fact_index\": 5, \"target_contexts\": [[\"Der Eiemer See (deutsch: Eichener See) ist ein Karstsee.\", \"Der See befindet sich auf dem Dinkelberg bei Schopfe in Baden-Württemberg.\"], [\"Das FFH-Gebiet 'Dinkelbärg un Röttler Wald' erstreckt sich über die Landkreise Lörrach und Waldshut.\", \"Der Eiemer See wird in der Kurzbeschreibung des Gebiets ausdrücklich genannt.\", \"Das Gebiet wird als Kulturlandschaft mit naturnahen Buchenwäldern, Hecken, Kalkmagerrasen, Glatthaferwiesen, Höhlen und einem temporären Karstsee beschrieben.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 380,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [3, 0], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der See ist nur bei hohem Grundwasserstand wasserführend.\", \"Der See liegt in einer Mulde, einer Muschelkalk-Karstwanne.\", \"Der Eichener See hat keinen oberirdischen Zufluss.\"], \"source_fact_index\": 6, \"target_contexts\": [[\"Der See befindet sich auf dem Dinkelberg bei Schopfe in Baden-Württemberg.\", \"Der See ist nur alle paar Jahre sichtbar.\", \"Es gibt keinen Bach, der in den See fließt oder aus ihm herausführt.\"], [\"Der Eiemer See (deutsch: Eichener See) ist ein Karstsee.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 300,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [4, 3], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der See liegt in einer Mulde, einer Muschelkalk-Karstwanne.\", \"Der Eichener See hat keinen oberirdischen Zufluss.\", \"Der Abfluss des Sees erfolgt teilweise unterirdisch.\"], \"source_fact_index\": 7, \"target_contexts\": [[\"Der See ist nur alle paar Jahre sichtbar.\", \"Es gibt keinen Bach, der in den See fließt oder aus ihm herausführt.\", \"Der See wird unterirdisch durch Grundwasser gefüllt.\"], [\"Der See befindet sich auf dem Dinkelberg bei Schopfe in Baden-Württemberg.\", \"Der See ist nur alle paar Jahre sichtbar.\", \"Es gibt keinen Bach, der in den See fließt oder aus ihm herausführt.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 318,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [4, 3], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Eichener See hat keinen oberirdischen Zufluss.\", \"Der Abfluss des Sees erfolgt teilweise unterirdisch.\", \"Der Abfluss des Sees erfolgt teilweise durch Verdunstung.\"], \"source_fact_index\": 8, \"target_contexts\": [[\"Der See ist nur alle paar Jahre sichtbar.\", \"Es gibt keinen Bach, der in den See fließt oder aus ihm herausführt.\", \"Der See wird unterirdisch durch Grundwasser gefüllt.\"], [\"Der See befindet sich auf dem Dinkelberg bei Schopfe in Baden-Württemberg.\", \"Der See ist nur alle paar Jahre sichtbar.\", \"Es gibt keinen Bach, der in den See fließt oder aus ihm herausführt.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 311,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [1, 0], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Abfluss des Sees erfolgt teilweise unterirdisch.\", \"Der Abfluss des Sees erfolgt teilweise durch Verdunstung.\", \"Der Eichener See liegt im Naturpark Südschwarzwald.\"], \"source_fact_index\": 9, \"target_contexts\": [[\"Der Eiemer See (deutsch: Eichener See) ist ein Karstsee.\", \"Der See befindet sich auf dem Dinkelberg bei Schopfe in Baden-Württemberg.\"], [\"Der Eiemer See (deutsch: Eichener See) ist ein Karstsee.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 285,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [1, 0], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Abfluss des Sees erfolgt teilweise durch Verdunstung.\", \"Der Eichener See liegt im Naturpark Südschwarzwald.\", \"Der Eichener See liegt im nordöstlichen Randgebiet des Gebirgszugs Dinkelberg.\"], \"source_fact_index\": 10, \"target_contexts\": [[\"Der Eiemer See (deutsch: Eichener See) ist ein Karstsee.\", \"Der See befindet sich auf dem Dinkelberg bei Schopfe in Baden-Württemberg.\"], [\"Der Eiemer See (deutsch: Eichener See) ist ein Karstsee.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 295,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [1, 0], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Eichener See liegt im Naturpark Südschwarzwald.\", \"Der Eichener See liegt im nordöstlichen Randgebiet des Gebirgszugs Dinkelberg.\", \"Der Schopfheimer Ortsteil Eichen liegt westlich des Eichener Sees.\"], \"source_fact_index\": 11, \"target_contexts\": [[\"Der Eiemer See (deutsch: Eichener See) ist ein Karstsee.\", \"Der See befindet sich auf dem Dinkelberg bei Schopfe in Baden-Württemberg.\"], [\"Der Eiemer See (deutsch: Eichener See) ist ein Karstsee.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 300,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [1, 0], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Eichener See liegt im nordöstlichen Randgebiet des Gebirgszugs Dinkelberg.\", \"Der Schopfheimer Ortsteil Eichen liegt westlich des Eichener Sees.\", \"Die Gemeinde Hasel liegt ostnordöstlich des Eichener Sees.\"], \"source_fact_index\": 12, \"target_contexts\": [[\"Der Eiemer See (deutsch: Eichener See) ist ein Karstsee.\", \"Der See befindet sich auf dem Dinkelberg bei Schopfe in Baden-Württemberg.\"], [\"Der Eiemer See (deutsch: Eichener See) ist ein Karstsee.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 299,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [0, 1], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Schopfheimer Ortsteil Eichen liegt westlich des Eichener Sees.\", \"Die Gemeinde Hasel liegt ostnordöstlich des Eichener Sees.\", \"Die Kernstadt von Wehr liegt etwa südöstlich des Eichener Sees.\"], \"source_fact_index\": 13, \"target_contexts\": [[\"Der Eiemer See (deutsch: Eichener See) ist ein Karstsee.\"], [\"Der Eiemer See (deutsch: Eichener See) ist ein Karstsee.\", \"Der See befindet sich auf dem Dinkelberg bei Schopfe in Baden-Württemberg.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 294,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [0, 1], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Gemeinde Hasel liegt ostnordöstlich des Eichener Sees.\", \"Die Kernstadt von Wehr liegt etwa südöstlich des Eichener Sees.\", \"Der Eichener See befindet sich 2,5 km westlich der Erdmannshöhle (Hasler Höhle).\"], \"source_fact_index\": 14, \"target_contexts\": [[\"Der Eiemer See (deutsch: Eichener See) ist ein Karstsee.\"], [\"Der Eiemer See (deutsch: Eichener See) ist ein Karstsee.\", \"Der See befindet sich auf dem Dinkelberg bei Schopfe in Baden-Württemberg.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 303,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [0, 1], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Kernstadt von Wehr liegt etwa südöstlich des Eichener Sees.\", \"Der Eichener See befindet sich 2,5 km westlich der Erdmannshöhle (Hasler Höhle).\", \"Der Eichener See liegt in einem flachen Tal.\"], \"source_fact_index\": 15, \"target_contexts\": [[\"Der Eiemer See (deutsch: Eichener See) ist ein Karstsee.\"], [\"Der Eiemer See (deutsch: Eichener See) ist ein Karstsee.\", \"Der See befindet sich auf dem Dinkelberg bei Schopfe in Baden-Württemberg.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 301,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [8, 10], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Eichener See liegt in einem flachen Tal.\", \"Der Eichener See liegt rund 350 m südlich der Bundesstraße 518.\", \"Geologisch handelt es sich um eine zeitweise mit Wasser gefüllte Doline.\"], \"source_fact_index\": 17, \"target_contexts\": [[\"Der Dinkelberg ist eine Karstgegend.\", \"Im Dinkelberg gibt es überall Höhlen, Löcher und Einbrüche.\", \"Bei Regen sammelt sich Wasser in diesen Hohlräumen.\"], [\"Bei Regen sammelt sich Wasser in diesen Hohlräumen.\", \"Bei längerem Regen und zusätzlicher Schneeschmelze kann nicht alles Wasser ablaufen und staut sich in den Hohlräumen.\", \"Das gestaute Wasser sammelt sich in Senken, sogenannten Dolinen.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 342,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [9, 10], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Eichener See liegt rund 350 m südlich der Bundesstraße 518.\", \"Geologisch handelt es sich um eine zeitweise mit Wasser gefüllte Doline.\", \"Grundwasser tritt besonders nach der Schneeschmelze oder nach längeren Regenphasen zu Tage.\"], \"source_fact_index\": 18, \"target_contexts\": [[\"Im Dinkelberg gibt es überall Höhlen, Löcher und Einbrüche.\", \"Bei Regen sammelt sich Wasser in diesen Hohlräumen.\", \"Bei längerem Regen und zusätzlicher Schneeschmelze kann nicht alles Wasser ablaufen und staut sich in den Hohlräumen.\"], [\"Bei Regen sammelt sich Wasser in diesen Hohlräumen.\", \"Bei längerem Regen und zusätzlicher Schneeschmelze kann nicht alles Wasser ablaufen und staut sich in den Hohlräumen.\", \"Das gestaute Wasser sammelt sich in Senken, sogenannten Dolinen.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 367,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [10, 6], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Geologisch handelt es sich um eine zeitweise mit Wasser gefüllte Doline.\", \"Grundwasser tritt besonders nach der Schneeschmelze oder nach längeren Regenphasen zu Tage.\", \"Die Formation wird als Erdfallsee bezeichnet.\"], \"source_fact_index\": 19, \"target_contexts\": [[\"Bei Regen sammelt sich Wasser in diesen Hohlräumen.\", \"Bei längerem Regen und zusätzlicher Schneeschmelze kann nicht alles Wasser ablaufen und staut sich in den Hohlräumen.\", \"Das gestaute Wasser sammelt sich in Senken, sogenannten Dolinen.\"], [\"Der See wird unterirdisch durch Grundwasser gefüllt.\", \"Der See ist nur sichtbar, wenn es zuvor lange Zeit stark geregnet hat.\", \"Der Dinkelberg ist eine Karstgegend.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 336,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [9, 8], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Grundwasser tritt besonders nach der Schneeschmelze oder nach längeren Regenphasen zu Tage.\", \"Die Formation wird als Erdfallsee bezeichnet.\", \"In trockenen Phasen kann der Flurabstand bis zu 40 m betragen.\"], \"source_fact_index\": 20, \"target_contexts\": [[\"Im Dinkelberg gibt es überall Höhlen, Löcher und Einbrüche.\", \"Bei Regen sammelt sich Wasser in diesen Hohlräumen.\", \"Bei längerem Regen und zusätzlicher Schneeschmelze kann nicht alles Wasser ablaufen und staut sich in den Hohlräumen.\"], [\"Der Dinkelberg ist eine Karstgegend.\", \"Im Dinkelberg gibt es überall Höhlen, Löcher und Einbrüche.\", \"Bei Regen sammelt sich Wasser in diesen Hohlräumen.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 342,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [13, 11], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Formation wird als Erdfallsee bezeichnet.\", \"In trockenen Phasen kann der Flurabstand bis zu 40 m betragen.\", \"Der Flurabstand ist der Höhenunterschied zwischen Grundwasserspiegel und Erdoberfläche.\"], \"source_fact_index\": 21, \"target_contexts\": [[\"Man kann beobachten, wie Wasser aus dem Boden sprudelt.\", \"Versuche mit Farbe haben nachgewiesen, dass Wasser aus dem See beim Ablaufen unter anderem in der Hasler Höhle in Hasel erscheint.\", \"Es gibt eine unterirdische Verbindung zwischen dem See und der Hasler Höhle.\"], [\"Bei längerem Regen und zusätzlicher Schneeschmelze kann nicht alles Wasser ablaufen und staut sich in den Hohlräumen.\", \"Das gestaute Wasser sammelt sich in Senken, sogenannten Dolinen.\", \"Man kann beobachten, wie Wasser aus dem Boden sprudelt.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 361,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [11, 10], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"In trockenen Phasen kann der Flurabstand bis zu 40 m betragen.\", \"Der Flurabstand ist der Höhenunterschied zwischen Grundwasserspiegel und Erdoberfläche.\", \"Der tiefste Punkt der das Grundwasser stauenden Wanne liegt etwa 48 m unter der Erdoberfläche.\"], \"source_fact_index\": 22, \"target_contexts\": [[\"Bei längerem Regen und zusätzlicher Schneeschmelze kann nicht alles Wasser ablaufen und staut sich in den Hohlräumen.\", \"Das gestaute Wasser sammelt sich in Senken, sogenannten Dolinen.\", \"Man kann beobachten, wie Wasser aus dem Boden sprudelt.\"], [\"Bei Regen sammelt sich Wasser in diesen Hohlräumen.\", \"Bei längerem Regen und zusätzlicher Schneeschmelze kann nicht alles Wasser ablaufen und staut sich in den Hohlräumen.\", \"Das gestaute Wasser sammelt sich in Senken, sogenannten Dolinen.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 374,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [6, 7], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Flurabstand ist der Höhenunterschied zwischen Grundwasserspiegel und Erdoberfläche.\", \"Der tiefste Punkt der das Grundwasser stauenden Wanne liegt etwa 48 m unter der Erdoberfläche.\", \"Der Dinkelberg besteht vorwiegend aus Muschelkalk.\"], \"source_fact_index\": 23, \"target_contexts\": [[\"Der See wird unterirdisch durch Grundwasser gefüllt.\", \"Der See ist nur sichtbar, wenn es zuvor lange Zeit stark geregnet hat.\", \"Der Dinkelberg ist eine Karstgegend.\"], [\"Der See ist nur sichtbar, wenn es zuvor lange Zeit stark geregnet hat.\", \"Der Dinkelberg ist eine Karstgegend.\", \"Im Dinkelberg gibt es überall Höhlen, Löcher und Einbrüche.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 337,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [6, 7], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der tiefste Punkt der das Grundwasser stauenden Wanne liegt etwa 48 m unter der Erdoberfläche.\", \"Der Dinkelberg besteht vorwiegend aus Muschelkalk.\", \"Im Dinkelberg befinden sich Hohlräume.\"], \"source_fact_index\": 24, \"target_contexts\": [[\"Der See wird unterirdisch durch Grundwasser gefüllt.\", \"Der See ist nur sichtbar, wenn es zuvor lange Zeit stark geregnet hat.\", \"Der Dinkelberg ist eine Karstgegend.\"], [\"Der See ist nur sichtbar, wenn es zuvor lange Zeit stark geregnet hat.\", \"Der Dinkelberg ist eine Karstgegend.\", \"Im Dinkelberg gibt es überall Höhlen, Löcher und Einbrüche.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 326,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [8, 11], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Dinkelberg besteht vorwiegend aus Muschelkalk.\", \"Im Dinkelberg befinden sich Hohlräume.\", \"Die Hohlräume können sich aufgrund eines Grundwasserstaus sehr schnell mit Wasser füllen.\"], \"source_fact_index\": 25, \"target_contexts\": [[\"Der Dinkelberg ist eine Karstgegend.\", \"Im Dinkelberg gibt es überall Höhlen, Löcher und Einbrüche.\", \"Bei Regen sammelt sich Wasser in diesen Hohlräumen.\"], [\"Bei längerem Regen und zusätzlicher Schneeschmelze kann nicht alles Wasser ablaufen und staut sich in den Hohlräumen.\", \"Das gestaute Wasser sammelt sich in Senken, sogenannten Dolinen.\", \"Man kann beobachten, wie Wasser aus dem Boden sprudelt.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 334,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [8, 10], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Im Dinkelberg befinden sich Hohlräume.\", \"Die Hohlräume können sich aufgrund eines Grundwasserstaus sehr schnell mit Wasser füllen.\", \"Die Hohlräume leeren sich hingegen nur langsam wieder.\"], \"source_fact_index\": 26, \"target_contexts\": [[\"Der Dinkelberg ist eine Karstgegend.\", \"Im Dinkelberg gibt es überall Höhlen, Löcher und Einbrüche.\", \"Bei Regen sammelt sich Wasser in diesen Hohlräumen.\"], [\"Bei Regen sammelt sich Wasser in diesen Hohlräumen.\", \"Bei längerem Regen und zusätzlicher Schneeschmelze kann nicht alles Wasser ablaufen und staut sich in den Hohlräumen.\", \"Das gestaute Wasser sammelt sich in Senken, sogenannten Dolinen.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 332,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [80, 83], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Hohlräume können sich aufgrund eines Grundwasserstaus sehr schnell mit Wasser füllen.\", \"Die Hohlräume leeren sich hingegen nur langsam wieder.\", \"Der Seegrund ist von einer krautreichen Wiesengesellschaft bewachsen.\"], \"source_fact_index\": 27, \"target_contexts\": [[\"Das Gebiet wird als Kulturlandschaft mit naturnahen Buchenwäldern, Hecken, Kalkmagerrasen, Glatthaferwiesen, Höhlen und einem temporären Karstsee beschrieben.\", \"Das Gebiet ist ein hervorragender Lebensraum für zahlreiche FFH-Arten, insbesondere für Fledermausarten.\", \"Im Eiemer See lebt eine urzeitliche Krebsart.\"], [\"Diese Krebsart kommt sonst nur an wenigen Orten in Deutschland und im restlichen Europa vor.\", \"Der wissenschaftliche Name des Tieres ist Tanymastix lacunae.\", \"Er gehört zu den Kiemenfußkrebsen.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 365,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [90, 82], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Hohlräume leeren sich hingegen nur langsam wieder.\", \"Der Seegrund ist von einer krautreichen Wiesengesellschaft bewachsen.\", \"Die Wiesengesellschaft am Seegrund darf bei Trockenheit nicht beweidet werden.\"], \"source_fact_index\": 28, \"target_contexts\": [[\"Die Art wurde bereits 1758 von Linné beschrieben.\", \"Der Zoologe Eduard Graeter hat die Art 1909 erstmals im Eiemer See gefunden.\", \"Eduard Graeter befasste sich im Zusammenhang mit seiner Dissertation an der Universität Basel auch mit Ruderfußkrebsen in unterirdischen Gewässern.\"], [\"Im Eiemer See lebt eine urzeitliche Krebsart.\", \"Diese Krebsart kommt sonst nur an wenigen Orten in Deutschland und im restlichen Europa vor.\", \"Der wissenschaftliche Name des Tieres ist Tanymastix lacunae.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 354,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [82, 90], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Seegrund ist von einer krautreichen Wiesengesellschaft bewachsen.\", \"Die Wiesengesellschaft am Seegrund darf bei Trockenheit nicht beweidet werden.\", \"Die Wiesengesellschaft am Seegrund darf bei Trockenheit nicht gedüngt werden.\"], \"source_fact_index\": 29, \"target_contexts\": [[\"Im Eiemer See lebt eine urzeitliche Krebsart.\", \"Diese Krebsart kommt sonst nur an wenigen Orten in Deutschland und im restlichen Europa vor.\", \"Der wissenschaftliche Name des Tieres ist Tanymastix lacunae.\"], [\"Die Art wurde bereits 1758 von Linné beschrieben.\", \"Der Zoologe Eduard Graeter hat die Art 1909 erstmals im Eiemer See gefunden.\", \"Eduard Graeter befasste sich im Zusammenhang mit seiner Dissertation an der Universität Basel auch mit Ruderfußkrebsen in unterirdischen Gewässern.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 360,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [82, 83], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Wiesengesellschaft am Seegrund darf bei Trockenheit nicht beweidet werden.\", \"Die Wiesengesellschaft am Seegrund darf bei Trockenheit nicht gedüngt werden.\", \"Im See lebt der Blattfußkrebs Tanymastix lacunae.\"], \"source_fact_index\": 30, \"target_contexts\": [[\"Im Eiemer See lebt eine urzeitliche Krebsart.\", \"Diese Krebsart kommt sonst nur an wenigen Orten in Deutschland und im restlichen Europa vor.\", \"Der wissenschaftliche Name des Tieres ist Tanymastix lacunae.\"], [\"Diese Krebsart kommt sonst nur an wenigen Orten in Deutschland und im restlichen Europa vor.\", \"Der wissenschaftliche Name des Tieres ist Tanymastix lacunae.\", \"Er gehört zu den Kiemenfußkrebsen.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 340,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [82, 83], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Im See lebt der Blattfußkrebs Tanymastix lacunae.\", \"Tanymastix lacunae gehört zur Ordnung der Kiemenfüßer (Anostraca).\", \"Ein Austrocknen des Seegrundes ist für den Lebenszyklus von Tanymastix lacunae unabdingbar.\"], \"source_fact_index\": 32, \"target_contexts\": [[\"Im Eiemer See lebt eine urzeitliche Krebsart.\", \"Diese Krebsart kommt sonst nur an wenigen Orten in Deutschland und im restlichen Europa vor.\", \"Der wissenschaftliche Name des Tieres ist Tanymastix lacunae.\"], [\"Diese Krebsart kommt sonst nur an wenigen Orten in Deutschland und im restlichen Europa vor.\", \"Der wissenschaftliche Name des Tieres ist Tanymastix lacunae.\", \"Er gehört zu den Kiemenfußkrebsen.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 354,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [82, 81], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Tanymastix lacunae gehört zur Ordnung der Kiemenfüßer (Anostraca).\", \"Ein Austrocknen des Seegrundes ist für den Lebenszyklus von Tanymastix lacunae unabdingbar.\", \"Der See ist der einzig gesicherte Fundort von Tanymastix lacunae in Deutschland.\"], \"source_fact_index\": 33, \"target_contexts\": [[\"Im Eiemer See lebt eine urzeitliche Krebsart.\", \"Diese Krebsart kommt sonst nur an wenigen Orten in Deutschland und im restlichen Europa vor.\", \"Der wissenschaftliche Name des Tieres ist Tanymastix lacunae.\"], [\"Das Gebiet ist ein hervorragender Lebensraum für zahlreiche FFH-Arten, insbesondere für Fledermausarten.\", \"Im Eiemer See lebt eine urzeitliche Krebsart.\", \"Diese Krebsart kommt sonst nur an wenigen Orten in Deutschland und im restlichen Europa vor.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 367,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [81, 82], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ein Austrocknen des Seegrundes ist für den Lebenszyklus von Tanymastix lacunae unabdingbar.\", \"Der See ist der einzig gesicherte Fundort von Tanymastix lacunae in Deutschland.\", \"In ganz Europa sind lediglich sieben weitere sichere Fundorte von Tanymastix lacunae bekannt.\"], \"source_fact_index\": 34, \"target_contexts\": [[\"Das Gebiet ist ein hervorragender Lebensraum für zahlreiche FFH-Arten, insbesondere für Fledermausarten.\", \"Im Eiemer See lebt eine urzeitliche Krebsart.\", \"Diese Krebsart kommt sonst nur an wenigen Orten in Deutschland und im restlichen Europa vor.\"], [\"Im Eiemer See lebt eine urzeitliche Krebsart.\", \"Diese Krebsart kommt sonst nur an wenigen Orten in Deutschland und im restlichen Europa vor.\", \"Der wissenschaftliche Name des Tieres ist Tanymastix lacunae.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 366,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [45, 50], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der See ist der einzig gesicherte Fundort von Tanymastix lacunae in Deutschland.\", \"In ganz Europa sind lediglich sieben weitere sichere Fundorte von Tanymastix lacunae bekannt.\", \"Der See wurde erstmals 1771 urkundlich erwähnt.\"], \"source_fact_index\": 35, \"target_contexts\": [[\"Das Wasser bleibt meistens zwischen drei Wochen und zwei Monaten im See.\", \"Der See war bereits so stark zugefroren, dass man darauf Schlittschuhlaufen konnte.\", \"Das erste datierte Auftreten des See ist im Jahr 1772.\"], [\"Alle bisher bekannten Daten zum Auftreten sind in der 'Liste zum Auftreten vom Eiemer See' zusammengefasst.\", \"Der Eichener See tauchte im Dezember 2017 auf.\", \"Die Badische Zeitung veröffentlichte dazu einen Artikel am 18. Dezember 2017.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 363,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [27, 29], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"In ganz Europa sind lediglich sieben weitere sichere Fundorte von Tanymastix lacunae bekannt.\", \"Der See wurde erstmals 1771 urkundlich erwähnt.\", \"Im Jahr 1771 ertranken fünf Menschen in dem See, nachdem ihr Boot gekentert war.\"], \"source_fact_index\": 36, \"target_contexts\": [[\"Das Ereignis fand an einem Sonntagmorgen im Mai statt.\", \"Junge Mädchen und Jungen wollten mit einem Boot auf dem See spazieren fahren.\", \"Es sind anscheinend zu viele Personen in das Boot eingestiegen.\"], [\"Es sind anscheinend zu viele Personen in das Boot eingestiegen.\", \"Das Boot ist gesunken.\", \"Vier der jungen Leute sind ertrunken.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 328,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [30, 27], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der See wurde erstmals 1771 urkundlich erwähnt.\", \"Im Jahr 1771 ertranken fünf Menschen in dem See, nachdem ihr Boot gekentert war.\", \"Im Jahr 1876 kamen Menschen in dem See um.\"], \"source_fact_index\": 37, \"target_contexts\": [[\"Das Boot ist gesunken.\", \"Vier der jungen Leute sind ertrunken.\", \"Die Personen wurden mit Stangen aus dem See gezogen.\"], [\"Das Ereignis fand an einem Sonntagmorgen im Mai statt.\", \"Junge Mädchen und Jungen wollten mit einem Boot auf dem See spazieren fahren.\", \"Es sind anscheinend zu viele Personen in das Boot eingestiegen.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 317,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [27, 30], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Im Jahr 1771 ertranken fünf Menschen in dem See, nachdem ihr Boot gekentert war.\", \"Im Jahr 1876 kamen Menschen in dem See um.\", \"Im Jahr 1910 kamen Menschen in dem See um.\"], \"source_fact_index\": 38, \"target_contexts\": [[\"Das Ereignis fand an einem Sonntagmorgen im Mai statt.\", \"Junge Mädchen und Jungen wollten mit einem Boot auf dem See spazieren fahren.\", \"Es sind anscheinend zu viele Personen in das Boot eingestiegen.\"], [\"Das Boot ist gesunken.\", \"Vier der jungen Leute sind ertrunken.\", \"Die Personen wurden mit Stangen aus dem See gezogen.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 317,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [61, 15], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Im Jahr 1876 kamen Menschen in dem See um.\", \"Im Jahr 1910 kamen Menschen in dem See um.\", \"Die erste wissenschaftliche Beschreibung des Sees erfolgte vermutlich in dem Artikel 'Von einem merkwürdigen See in der oberen Markgrafschaft Baden'.\"], \"source_fact_index\": 39, \"target_contexts\": [[\"Der Eiemer See wurde am 29. April 1942 zum Landschaftsschutzgebiet (LSG) ausgewiesen.\", \"Das Landschaftsschutzgebiet hat die Nummer 3.36.012.\", \"Der Verordnungstext wurde am 8. Mai 1942 im 'Alemanne' abgedruckt.\"], [\"Es gibt eine unterirdische Verbindung zwischen dem See und der Hasler Höhle.\", \"Die Hasler Höhle ist etwa 2 Kilometer vom See entfernt.\", \"Der erste Bericht über den Eiemer See stammt aus dem Jahr 1784.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 371,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [16, 17], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Im Jahr 1910 kamen Menschen in dem See um.\", \"Die erste wissenschaftliche Beschreibung des Sees erfolgte vermutlich in dem Artikel 'Von einem merkwürdigen See in der oberen Markgrafschaft Baden'.\", \"Der Artikel wurde von Heinrich Sander verfasst.\"], \"source_fact_index\": 40, \"target_contexts\": [[\"Die Hasler Höhle ist etwa 2 Kilometer vom See entfernt.\", \"Der erste Bericht über den Eiemer See stammt aus dem Jahr 1784.\", \"Die Informationen stammen aus den veröffentlichten Nachlassschriften von Heinrich Sander.\"], [\"Der erste Bericht über den Eiemer See stammt aus dem Jahr 1784.\", \"Die Informationen stammen aus den veröffentlichten Nachlassschriften von Heinrich Sander.\", \"Heinrich Sander war Professor am Gymnasium illustre in Karlsruhe.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 341,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [61, 16], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die erste wissenschaftliche Beschreibung des Sees erfolgte vermutlich in dem Artikel 'Von einem merkwürdigen See in der oberen Markgrafschaft Baden'.\", \"Der Artikel wurde von Heinrich Sander verfasst.\", \"Der Artikel erschien im Jahr 1782 in der Zeitschrift 'Der Naturforscher'.\"], \"source_fact_index\": 41, \"target_contexts\": [[\"Der Eiemer See wurde am 29. April 1942 zum Landschaftsschutzgebiet (LSG) ausgewiesen.\", \"Das Landschaftsschutzgebiet hat die Nummer 3.36.012.\", \"Der Verordnungstext wurde am 8. Mai 1942 im 'Alemanne' abgedruckt.\"], [\"Die Hasler Höhle ist etwa 2 Kilometer vom See entfernt.\", \"Der erste Bericht über den Eiemer See stammt aus dem Jahr 1784.\", \"Die Informationen stammen aus den veröffentlichten Nachlassschriften von Heinrich Sander.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 371,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [65, 64], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Artikel wurde von Heinrich Sander verfasst.\", \"Der Artikel erschien im Jahr 1782 in der Zeitschrift 'Der Naturforscher'.\", \"Der See und seine Uferbereiche stehen seit 1939 unter besonderem Schutz.\"], \"source_fact_index\": 42, \"target_contexts\": [[\"Das Landschaftsschutzgebiet erstreckt sich wie ein Kranz im Norden, Westen und Süden um den See herum.\", \"Der See selbst gehört nicht zum Landschaftsschutzgebiet.\", \"Der See und seine nähere Umgebung wurden am 11. Februar 1983 als flächenhaftes Naturdenkmal ausgewiesen.\"], [\"Das Landschaftsschutzgebiet hat eine Größe von 8 ha.\", \"Das Landschaftsschutzgebiet erstreckt sich wie ein Kranz im Norden, Westen und Süden um den See herum.\", \"Der See selbst gehört nicht zum Landschaftsschutzgebiet.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 351,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [65, 64], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Artikel erschien im Jahr 1782 in der Zeitschrift 'Der Naturforscher'.\", \"Der See und seine Uferbereiche stehen seit 1939 unter besonderem Schutz.\", \"Seit 1983 ist der See als flächiges Naturdenkmal ausgewiesen.\"], \"source_fact_index\": 43, \"target_contexts\": [[\"Das Landschaftsschutzgebiet erstreckt sich wie ein Kranz im Norden, Westen und Süden um den See herum.\", \"Der See selbst gehört nicht zum Landschaftsschutzgebiet.\", \"Der See und seine nähere Umgebung wurden am 11. Februar 1983 als flächenhaftes Naturdenkmal ausgewiesen.\"], [\"Das Landschaftsschutzgebiet hat eine Größe von 8 ha.\", \"Das Landschaftsschutzgebiet erstreckt sich wie ein Kranz im Norden, Westen und Süden um den See herum.\", \"Der See selbst gehört nicht zum Landschaftsschutzgebiet.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 362,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [62, 70], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der See und seine Uferbereiche stehen seit 1939 unter besonderem Schutz.\", \"Seit 1983 ist der See als flächiges Naturdenkmal ausgewiesen.\", \"Die Größe des Naturdenkmals beträgt 3,75 Hektar.\"], \"source_fact_index\": 44, \"target_contexts\": [[\"Das Landschaftsschutzgebiet hat die Nummer 3.36.012.\", \"Der Verordnungstext wurde am 8. Mai 1942 im 'Alemanne' abgedruckt.\", \"Das Landschaftsschutzgebiet hat eine Größe von 8 ha.\"], [\"Flächenhafte Naturdenkmale werden vom Landratsamt verordnet.\", \"Flächenhafte Naturdenkmale haben eine Fläche von weniger als 5 Hektar.\", \"Die Fläche des flächenhaften Naturdenkmals am Eiemer See beträgt 3,5 Hektar.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 362,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [64, 65], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Seit 1983 ist der See als flächiges Naturdenkmal ausgewiesen.\", \"Die Größe des Naturdenkmals beträgt 3,75 Hektar.\", \"Der See ist als Fauna-Flora-Habitat-Gebiet von europäischem Rang eingestuft.\"], \"source_fact_index\": 45, \"target_contexts\": [[\"Das Landschaftsschutzgebiet hat eine Größe von 8 ha.\", \"Das Landschaftsschutzgebiet erstreckt sich wie ein Kranz im Norden, Westen und Süden um den See herum.\", \"Der See selbst gehört nicht zum Landschaftsschutzgebiet.\"], [\"Das Landschaftsschutzgebiet erstreckt sich wie ein Kranz im Norden, Westen und Süden um den See herum.\", \"Der See selbst gehört nicht zum Landschaftsschutzgebiet.\", \"Der See und seine nähere Umgebung wurden am 11. Februar 1983 als flächenhaftes Naturdenkmal ausgewiesen.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 360,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [68, 62], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Größe des Naturdenkmals beträgt 3,75 Hektar.\", \"Der See ist als Fauna-Flora-Habitat-Gebiet von europäischem Rang eingestuft.\", \"Das Naturdenkmal wird von einem Landschaftsschutzgebiet umschlossen.\"], \"source_fact_index\": 46, \"target_contexts\": [[\"Die Nummer des flächenhaften Naturdenkmals ist 8336081001.\", \"Flächenhafte Naturdenkmale (FND) sind ähnlich geschützt wie Naturschutzgebiete (NSG).\", \"Flächenhafte Naturdenkmale werden vom Landratsamt verordnet.\"], [\"Das Landschaftsschutzgebiet hat die Nummer 3.36.012.\", \"Der Verordnungstext wurde am 8. Mai 1942 im 'Alemanne' abgedruckt.\", \"Das Landschaftsschutzgebiet hat eine Größe von 8 ha.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 363,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [60, 66], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der See ist als Fauna-Flora-Habitat-Gebiet von europäischem Rang eingestuft.\", \"Das Naturdenkmal wird von einem Landschaftsschutzgebiet umschlossen.\", \"Das Landschaftsschutzgebiet hat die Nummer 3.36.012.\"], \"source_fact_index\": 47, \"target_contexts\": [[\"Die Badische Zeitung veröffentlichte am 18. Februar 2016 einen Artikel mit dem Titel 'Eichener See: Geheimnisse eines Gewässers, das kommt und geht'.\", \"Der Eiemer See wurde am 29. April 1942 zum Landschaftsschutzgebiet (LSG) ausgewiesen.\", \"Das Landschaftsschutzgebiet hat die Nummer 3.36.012.\"], [\"Der See selbst gehört nicht zum Landschaftsschutzgebiet.\", \"Der See und seine nähere Umgebung wurden am 11. Februar 1983 als flächenhaftes Naturdenkmal ausgewiesen.\", \"Die Nummer des flächenhaften Naturdenkmals ist 8336081001.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 396,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [62, 69], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Das Naturdenkmal wird von einem Landschaftsschutzgebiet umschlossen.\", \"Das Landschaftsschutzgebiet hat die Nummer 3.36.012.\", \"Die Größe des Landschaftsschutzgebiets beträgt 8,0 Hektar.\"], \"source_fact_index\": 48, \"target_contexts\": [[\"Das Landschaftsschutzgebiet hat die Nummer 3.36.012.\", \"Der Verordnungstext wurde am 8. Mai 1942 im 'Alemanne' abgedruckt.\", \"Das Landschaftsschutzgebiet hat eine Größe von 8 ha.\"], [\"Flächenhafte Naturdenkmale (FND) sind ähnlich geschützt wie Naturschutzgebiete (NSG).\", \"Flächenhafte Naturdenkmale werden vom Landratsamt verordnet.\", \"Flächenhafte Naturdenkmale haben eine Fläche von weniger als 5 Hektar.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 354,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [61, 59], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Das Landschaftsschutzgebiet hat die Nummer 3.36.012.\", \"Die Größe des Landschaftsschutzgebiets beträgt 8,0 Hektar.\", \"Das Landschaftsschutzgebiet wurde per Verordnung vom 26. April 1942 ausgewiesen.\"], \"source_fact_index\": 49, \"target_contexts\": [[\"Der Eiemer See wurde am 29. April 1942 zum Landschaftsschutzgebiet (LSG) ausgewiesen.\", \"Das Landschaftsschutzgebiet hat die Nummer 3.36.012.\", \"Der Verordnungstext wurde am 8. Mai 1942 im 'Alemanne' abgedruckt.\"], [\"Der Pegel des Sees wird regelmäßig gemessen.\", \"Die Badische Zeitung veröffentlichte am 18. Februar 2016 einen Artikel mit dem Titel 'Eichener See: Geheimnisse eines Gewässers, das kommt und geht'.\", \"Der Eiemer See wurde am 29. April 1942 zum Landschaftsschutzgebiet (LSG) ausgewiesen.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 399,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [38, 43], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Größe des Landschaftsschutzgebiets beträgt 8,0 Hektar.\", \"Das Landschaftsschutzgebiet wurde per Verordnung vom 26. April 1942 ausgewiesen.\", \"In besonders niederschlagsreichen Jahren kann der oberirdisch sichtbare Wasserstand bis zu drei Meter betragen.\"], \"source_fact_index\": 50, \"target_contexts\": [[\"Diese Anpflanzungen lieferten gute Ernten.\", \"Die Ernten waren gefährdet bzw. wurden vernichtet, wenn das Wasser kam und die Flächen überschwemmte.\", \"Der Eiemer See hat bei maximalem Füllstand eine Tiefe von etwa 3,20 Metern.\"], [\"Das Fassungsvermögen des Eiemer Sees beträgt etwa 33.000 Kubikmeter Wasser.\", \"Im schnellsten Fall ist der See innerhalb einer Woche gefüllt.\", \"Das Wasser bleibt meistens zwischen drei Wochen und zwei Monaten im See.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 368,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [43, 42], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Das Landschaftsschutzgebiet wurde per Verordnung vom 26. April 1942 ausgewiesen.\", \"In besonders niederschlagsreichen Jahren kann der oberirdisch sichtbare Wasserstand bis zu drei Meter betragen.\", \"Der See kann innerhalb von ein bis fünf Wochen eine Ausdehnung von 250 m Länge und 135 m Breite erreichen.\"], \"source_fact_index\": 51, \"target_contexts\": [[\"Das Fassungsvermögen des Eiemer Sees beträgt etwa 33.000 Kubikmeter Wasser.\", \"Im schnellsten Fall ist der See innerhalb einer Woche gefüllt.\", \"Das Wasser bleibt meistens zwischen drei Wochen und zwei Monaten im See.\"], [\"Der Eiemer See ist 135 Meter breit.\", \"Das Fassungsvermögen des Eiemer Sees beträgt etwa 33.000 Kubikmeter Wasser.\", \"Im schnellsten Fall ist der See innerhalb einer Woche gefüllt.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 369,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [38, 42], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"In besonders niederschlagsreichen Jahren kann der oberirdisch sichtbare Wasserstand bis zu drei Meter betragen.\", \"Der See kann innerhalb von ein bis fünf Wochen eine Ausdehnung von 250 m Länge und 135 m Breite erreichen.\", \"Die maximale Ausdehnung des Sees beträgt circa 2,5 ha.\"], \"source_fact_index\": 52, \"target_contexts\": [[\"Diese Anpflanzungen lieferten gute Ernten.\", \"Die Ernten waren gefährdet bzw. wurden vernichtet, wenn das Wasser kam und die Flächen überschwemmte.\", \"Der Eiemer See hat bei maximalem Füllstand eine Tiefe von etwa 3,20 Metern.\"], [\"Der Eiemer See ist 135 Meter breit.\", \"Das Fassungsvermögen des Eiemer Sees beträgt etwa 33.000 Kubikmeter Wasser.\", \"Im schnellsten Fall ist der See innerhalb einer Woche gefüllt.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 372,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [42, 43], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der See kann innerhalb von ein bis fünf Wochen eine Ausdehnung von 250 m Länge und 135 m Breite erreichen.\", \"Die maximale Ausdehnung des Sees beträgt circa 2,5 ha.\", \"Es kann acht bis 160 Tage dauern, bis das gesamte zu Tage getretene Wasser wieder verschwindet.\"], \"source_fact_index\": 53, \"target_contexts\": [[\"Der Eiemer See ist 135 Meter breit.\", \"Das Fassungsvermögen des Eiemer Sees beträgt etwa 33.000 Kubikmeter Wasser.\", \"Im schnellsten Fall ist der See innerhalb einer Woche gefüllt.\"], [\"Das Fassungsvermögen des Eiemer Sees beträgt etwa 33.000 Kubikmeter Wasser.\", \"Im schnellsten Fall ist der See innerhalb einer Woche gefüllt.\", \"Das Wasser bleibt meistens zwischen drei Wochen und zwei Monaten im See.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 364,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [94, 95], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die maximale Ausdehnung des Sees beträgt circa 2,5 ha.\", \"Es kann acht bis 160 Tage dauern, bis das gesamte zu Tage getretene Wasser wieder verschwindet.\", \"Es gibt eine Sage über Männlein, die in einem großen unterirdischen Palast hausen.\"], \"source_fact_index\": 54, \"target_contexts\": [[\"Das Eierspringen findet am Oschdermendig statt.\", \"Das Eierspringen ist ein Brauch.\", \"Der Brauch des Eierspringens hat keltische Ursprünge.\"], [\"Das Eierspringen ist ein Brauch.\", \"Der Brauch des Eierspringens hat keltische Ursprünge.\", \"Der Brauch soll die Fruchtbarkeit im Eiemer Dorf erhalten.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 335,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [52, 94], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Es kann acht bis 160 Tage dauern, bis das gesamte zu Tage getretene Wasser wieder verschwindet.\", \"Es gibt eine Sage über Männlein, die in einem großen unterirdischen Palast hausen.\", \"Der Palast ist aus Kristall gestaltet und mit Gold, Silber und Edelsteinen eingerichtet.\"], \"source_fact_index\": 55, \"target_contexts\": [[\"Die Badische Zeitung veröffentlichte dazu einen Artikel am 18. Dezember 2017.\", \"Vor dem Auftreten 2017 kam der See zwischen Februar und März 2016 an die Oberfläche.\", \"Im Dezember 2015 befand sich der See auf einem historischen Tiefstand.\"], [\"Das Eierspringen findet am Oschdermendig statt.\", \"Das Eierspringen ist ein Brauch.\", \"Der Brauch des Eierspringens hat keltische Ursprünge.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 361,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [36, 34], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Es gibt eine Sage über Männlein, die in einem großen unterirdischen Palast hausen.\", \"Der Palast ist aus Kristall gestaltet und mit Gold, Silber und Edelsteinen eingerichtet.\", \"Es ist ungeklärt, ob es sich bei diesen Wesen um hilfreiche Seemännlein oder andere Wichte handelt.\"], \"source_fact_index\": 56, \"target_contexts\": [[\"Die Qualität des Futters war gut.\", \"Es wurden verschiedene Kulturen angepflanzt, darunter Roggen (Korn), Dinkel, Hafer (Haber), Gerste (Gärschd) und Kartoffeln (Herdepfel).\", \"Diese Anpflanzungen lieferten gute Ernten.\"], [\"Die Seebodenfläche wurde genutzt, sobald das Wasser zurückgegangen war.\", \"Auf dem Seeboden wurde Madde (Wiesengras/Heu) gemäht.\", \"Die Qualität des Futters war gut.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 367,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [95, 93], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Palast ist aus Kristall gestaltet und mit Gold, Silber und Edelsteinen eingerichtet.\", \"Es ist ungeklärt, ob es sich bei diesen Wesen um hilfreiche Seemännlein oder andere Wichte handelt.\", \"Ein Bauer aus Eichen versprach seine jüngste Tochter einem dieser Wichte zur Frau.\"], \"source_fact_index\": 57, \"target_contexts\": [[\"Das Eierspringen ist ein Brauch.\", \"Der Brauch des Eierspringens hat keltische Ursprünge.\", \"Der Brauch soll die Fruchtbarkeit im Eiemer Dorf erhalten.\"], [\"Das Eierspringen findet am Eiemer See statt.\", \"Das Eierspringen findet am Oschdermendig statt.\", \"Das Eierspringen ist ein Brauch.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 332,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [95, 36], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Es ist ungeklärt, ob es sich bei diesen Wesen um hilfreiche Seemännlein oder andere Wichte handelt.\", \"Ein Bauer aus Eichen versprach seine jüngste Tochter einem dieser Wichte zur Frau.\", \"Die Bedingung des Versprechens war, dass die Seewichte die Felder des Bauern ausreichend bewässern.\"], \"source_fact_index\": 58, \"target_contexts\": [[\"Das Eierspringen ist ein Brauch.\", \"Der Brauch des Eierspringens hat keltische Ursprünge.\", \"Der Brauch soll die Fruchtbarkeit im Eiemer Dorf erhalten.\"], [\"Die Qualität des Futters war gut.\", \"Es wurden verschiedene Kulturen angepflanzt, darunter Roggen (Korn), Dinkel, Hafer (Haber), Gerste (Gärschd) und Kartoffeln (Herdepfel).\", \"Diese Anpflanzungen lieferten gute Ernten.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 365,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [37, 95], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ein Bauer aus Eichen versprach seine jüngste Tochter einem dieser Wichte zur Frau.\", \"Die Bedingung des Versprechens war, dass die Seewichte die Felder des Bauern ausreichend bewässern.\", \"Die Seewichte hielten die Abmachung ein, sodass die Felder des Bauern grünten, während die der Nachbarn verdorrten.\"], \"source_fact_index\": 59, \"target_contexts\": [[\"Es wurden verschiedene Kulturen angepflanzt, darunter Roggen (Korn), Dinkel, Hafer (Haber), Gerste (Gärschd) und Kartoffeln (Herdepfel).\", \"Diese Anpflanzungen lieferten gute Ernten.\", \"Die Ernten waren gefährdet bzw. wurden vernichtet, wenn das Wasser kam und die Flächen überschwemmte.\"], [\"Das Eierspringen ist ein Brauch.\", \"Der Brauch des Eierspringens hat keltische Ursprünge.\", \"Der Brauch soll die Fruchtbarkeit im Eiemer Dorf erhalten.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 385,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [94, 34], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Bedingung des Versprechens war, dass die Seewichte die Felder des Bauern ausreichend bewässern.\", \"Die Seewichte hielten die Abmachung ein, sodass die Felder des Bauern grünten, während die der Nachbarn verdorrten.\", \"Die Tochter stimmte dem Vertrag ihres Vaters zunächst zu.\"], \"source_fact_index\": 60, \"target_contexts\": [[\"Das Eierspringen findet am Oschdermendig statt.\", \"Das Eierspringen ist ein Brauch.\", \"Der Brauch des Eierspringens hat keltische Ursprünge.\"], [\"Die Seebodenfläche wurde genutzt, sobald das Wasser zurückgegangen war.\", \"Auf dem Seeboden wurde Madde (Wiesengras/Heu) gemäht.\", \"Die Qualität des Futters war gut.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 342,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [95, 52], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Seewichte hielten die Abmachung ein, sodass die Felder des Bauern grünten, während die der Nachbarn verdorrten.\", \"Die Tochter stimmte dem Vertrag ihres Vaters zunächst zu.\", \"Später verliebte sich die Tochter in einen gutaussehenden Burschen.\"], \"source_fact_index\": 61, \"target_contexts\": [[\"Das Eierspringen ist ein Brauch.\", \"Der Brauch des Eierspringens hat keltische Ursprünge.\", \"Der Brauch soll die Fruchtbarkeit im Eiemer Dorf erhalten.\"], [\"Die Badische Zeitung veröffentlichte dazu einen Artikel am 18. Dezember 2017.\", \"Vor dem Auftreten 2017 kam der See zwischen Februar und März 2016 an die Oberfläche.\", \"Im Dezember 2015 befand sich der See auf einem historischen Tiefstand.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 357,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [95, 94], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Tochter stimmte dem Vertrag ihres Vaters zunächst zu.\", \"Später verliebte sich die Tochter in einen gutaussehenden Burschen.\", \"Das Mädchen fürchtete sich davor, ihr Leben mit einem Wicht im Kristallschloss im Berg zu verbringen.\"], \"source_fact_index\": 62, \"target_contexts\": [[\"Das Eierspringen ist ein Brauch.\", \"Der Brauch des Eierspringens hat keltische Ursprünge.\", \"Der Brauch soll die Fruchtbarkeit im Eiemer Dorf erhalten.\"], [\"Das Eierspringen findet am Oschdermendig statt.\", \"Das Eierspringen ist ein Brauch.\", \"Der Brauch des Eierspringens hat keltische Ursprünge.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 328,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [95, 52], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Später verliebte sich die Tochter in einen gutaussehenden Burschen.\", \"Das Mädchen fürchtete sich davor, ihr Leben mit einem Wicht im Kristallschloss im Berg zu verbringen.\", \"Aus Verzweiflung beschloss die Tochter, mit ihrem Liebsten die Heimat zu verlassen, um der Macht der Seewichte zu entkommen.\"], \"source_fact_index\": 63, \"target_contexts\": [[\"Das Eierspringen ist ein Brauch.\", \"Der Brauch des Eierspringens hat keltische Ursprünge.\", \"Der Brauch soll die Fruchtbarkeit im Eiemer Dorf erhalten.\"], [\"Die Badische Zeitung veröffentlichte dazu einen Artikel am 18. Dezember 2017.\", \"Vor dem Auftreten 2017 kam der See zwischen Februar und März 2016 an die Oberfläche.\", \"Im Dezember 2015 befand sich der See auf einem historischen Tiefstand.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 370,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [49, 34], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Das Mädchen fürchtete sich davor, ihr Leben mit einem Wicht im Kristallschloss im Berg zu verbringen.\", \"Aus Verzweiflung beschloss die Tochter, mit ihrem Liebsten die Heimat zu verlassen, um der Macht der Seewichte zu entkommen.\", \"Die beiden trafen sich in der letzten Nacht auf der Eichener Höhe.\"], \"source_fact_index\": 64, \"target_contexts\": [[\"Gustav Albiez zeigt in seiner Arbeit alle Jahre, in denen der See bis 1930 aufgetreten ist.\", \"Alle bisher bekannten Daten zum Auftreten sind in der 'Liste zum Auftreten vom Eiemer See' zusammengefasst.\", \"Der Eichener See tauchte im Dezember 2017 auf.\"], [\"Die Seebodenfläche wurde genutzt, sobald das Wasser zurückgegangen war.\", \"Auf dem Seeboden wurde Madde (Wiesengras/Heu) gemäht.\", \"Die Qualität des Futters war gut.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 377,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [53, 34], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Aus Verzweiflung beschloss die Tochter, mit ihrem Liebsten die Heimat zu verlassen, um der Macht der Seewichte zu entkommen.\", \"Die beiden trafen sich in der letzten Nacht auf der Eichener Höhe.\", \"Um Mitternacht, als die Glocke der Schopfheimer Michaelskirche schlug, begann ein unheimliches Rauschen.\"], \"source_fact_index\": 65, \"target_contexts\": [[\"Vor dem Auftreten 2017 kam der See zwischen Februar und März 2016 an die Oberfläche.\", \"Im Dezember 2015 befand sich der See auf einem historischen Tiefstand.\", \"Durch Niederschläge zu Beginn des Jahres 2016 stieg der Grundwasserspiegel schnell an.\"], [\"Die Seebodenfläche wurde genutzt, sobald das Wasser zurückgegangen war.\", \"Auf dem Seeboden wurde Madde (Wiesengras/Heu) gemäht.\", \"Die Qualität des Futters war gut.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 376,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [37, 53], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die beiden trafen sich in der letzten Nacht auf der Eichener Höhe.\", \"Um Mitternacht, als die Glocke der Schopfheimer Michaelskirche schlug, begann ein unheimliches Rauschen.\", \"Wassermassen quollen hervor und füllten die Mulde unter Donner und Blitzen.\"], \"source_fact_index\": 66, \"target_contexts\": [[\"Es wurden verschiedene Kulturen angepflanzt, darunter Roggen (Korn), Dinkel, Hafer (Haber), Gerste (Gärschd) und Kartoffeln (Herdepfel).\", \"Diese Anpflanzungen lieferten gute Ernten.\", \"Die Ernten waren gefährdet bzw. wurden vernichtet, wenn das Wasser kam und die Flächen überschwemmte.\"], [\"Vor dem Auftreten 2017 kam der See zwischen Februar und März 2016 an die Oberfläche.\", \"Im Dezember 2015 befand sich der See auf einem historischen Tiefstand.\", \"Durch Niederschläge zu Beginn des Jahres 2016 stieg der Grundwasserspiegel schnell an.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 402,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [37, 56], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Um Mitternacht, als die Glocke der Schopfheimer Michaelskirche schlug, begann ein unheimliches Rauschen.\", \"Wassermassen quollen hervor und füllten die Mulde unter Donner und Blitzen.\", \"Das Paar ertrank, als der See über ihnen zusammenschlug.\"], \"source_fact_index\": 67, \"target_contexts\": [[\"Es wurden verschiedene Kulturen angepflanzt, darunter Roggen (Korn), Dinkel, Hafer (Haber), Gerste (Gärschd) und Kartoffeln (Herdepfel).\", \"Diese Anpflanzungen lieferten gute Ernten.\", \"Die Ernten waren gefährdet bzw. wurden vernichtet, wenn das Wasser kam und die Flächen überschwemmte.\"], [\"Der Grundwasserspiegel stieg innerhalb weniger Tage im Januar von 6 auf 37 Meter.\", \"Trotz des Anstiegs im Januar lag der See noch zwei Meter unter der Oberfläche.\", \"Weitere Niederschläge im Februar führten dazu, dass der See austrat.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 390,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [37, 33], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Wassermassen quollen hervor und füllten die Mulde unter Donner und Blitzen.\", \"Das Paar ertrank, als der See über ihnen zusammenschlug.\", \"Die Felder und Matten des Bauern wurden weggeschwemmt, bis nur noch nackter Fels übrig blieb und die Ernte zerstört war.\"], \"source_fact_index\": 68, \"target_contexts\": [[\"Es wurden verschiedene Kulturen angepflanzt, darunter Roggen (Korn), Dinkel, Hafer (Haber), Gerste (Gärschd) und Kartoffeln (Herdepfel).\", \"Diese Anpflanzungen lieferten gute Ernten.\", \"Die Ernten waren gefährdet bzw. wurden vernichtet, wenn das Wasser kam und die Flächen überschwemmte.\"], [\"Laut dem Text hätten die Personen wiederbelebt werden können, wenn die Polizei schneller gerufen worden wäre.\", \"Die Seebodenfläche wurde genutzt, sobald das Wasser zurückgegangen war.\", \"Auf dem Seeboden wurde Madde (Wiesengras/Heu) gemäht.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 397,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [94, 95], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Das Paar ertrank, als der See über ihnen zusammenschlug.\", \"Die Felder und Matten des Bauern wurden weggeschwemmt, bis nur noch nackter Fels übrig blieb und die Ernte zerstört war.\", \"Die Eichener Bauern glauben heute, dass ein steigender Seespiegel eine Erinnerung der Seewichte an den damaligen Verrat ist.\"], \"source_fact_index\": 69, \"target_contexts\": [[\"Das Eierspringen findet am Oschdermendig statt.\", \"Das Eierspringen ist ein Brauch.\", \"Der Brauch des Eierspringens hat keltische Ursprünge.\"], [\"Das Eierspringen ist ein Brauch.\", \"Der Brauch des Eierspringens hat keltische Ursprünge.\", \"Der Brauch soll die Fruchtbarkeit im Eiemer Dorf erhalten.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 348,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [1, 2], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Eiemer See (deutsch: Eichener See) ist ein Karstsee.\"], \"source_fact_index\": 0, \"target_contexts\": [[\"Der Eichener See befindet sich beim Schopfheimer Stadtteil Eichen im baden-württembergischen Landkreis Lörrach.\", \"Der Eichener See wird im Volksmund alemannisch Eiemer See genannt.\"], [\"Der Eichener See befindet sich beim Schopfheimer Stadtteil Eichen im baden-württembergischen Landkreis Lörrach.\", \"Der Eichener See wird im Volksmund alemannisch Eiemer See genannt.\", \"Der Eichener See ist ein zeitweise (astatisch) erscheinender Karstsee.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 320,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [0, 10], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Eiemer See (deutsch: Eichener See) ist ein Karstsee.\", \"Der See befindet sich auf dem Dinkelberg bei Schopfe in Baden-Württemberg.\"], \"source_fact_index\": 1, \"target_contexts\": [[\"Der Eichener See befindet sich beim Schopfheimer Stadtteil Eichen im baden-württembergischen Landkreis Lörrach.\"], [\"Der Abfluss des Sees erfolgt teilweise durch Verdunstung.\", \"Der Eichener See liegt im Naturpark Südschwarzwald.\", \"Der Eichener See liegt im nordöstlichen Randgebiet des Gebirgszugs Dinkelberg.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 303,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [4, 2], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Eiemer See (deutsch: Eichener See) ist ein Karstsee.\", \"Der See befindet sich auf dem Dinkelberg bei Schopfe in Baden-Württemberg.\", \"Der See ist nur alle paar Jahre sichtbar.\"], \"source_fact_index\": 2, \"target_contexts\": [[\"Der Eichener See ist ein zeitweise (astatisch) erscheinender Karstsee.\", \"Der Eichener See ist Teil des FFH-Gebietes Dinkelberg und Röttler Wald.\", \"Der See ist nur bei hohem Grundwasserstand wasserführend.\"], [\"Der Eichener See befindet sich beim Schopfheimer Stadtteil Eichen im baden-württembergischen Landkreis Lörrach.\", \"Der Eichener See wird im Volksmund alemannisch Eiemer See genannt.\", \"Der Eichener See ist ein zeitweise (astatisch) erscheinender Karstsee.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 363,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [4, 2], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Es gibt keinen Bach, der in den See fließt oder aus ihm herausführt.\", \"Der See wird unterirdisch durch Grundwasser gefüllt.\", \"Der See ist nur sichtbar, wenn es zuvor lange Zeit stark geregnet hat.\"], \"source_fact_index\": 5, \"target_contexts\": [[\"Der Eichener See ist ein zeitweise (astatisch) erscheinender Karstsee.\", \"Der Eichener See ist Teil des FFH-Gebietes Dinkelberg und Röttler Wald.\", \"Der See ist nur bei hohem Grundwasserstand wasserführend.\"], [\"Der Eichener See befindet sich beim Schopfheimer Stadtteil Eichen im baden-württembergischen Landkreis Lörrach.\", \"Der Eichener See wird im Volksmund alemannisch Eiemer See genannt.\", \"Der Eichener See ist ein zeitweise (astatisch) erscheinender Karstsee.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 362,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [24, 23], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der See wird unterirdisch durch Grundwasser gefüllt.\", \"Der See ist nur sichtbar, wenn es zuvor lange Zeit stark geregnet hat.\", \"Der Dinkelberg ist eine Karstgegend.\"], \"source_fact_index\": 6, \"target_contexts\": [[\"Der tiefste Punkt der das Grundwasser stauenden Wanne liegt etwa 48 m unter der Erdoberfläche.\", \"Der Dinkelberg besteht vorwiegend aus Muschelkalk.\", \"Im Dinkelberg befinden sich Hohlräume.\"], [\"Der Flurabstand ist der Höhenunterschied zwischen Grundwasserspiegel und Erdoberfläche.\", \"Der tiefste Punkt der das Grundwasser stauenden Wanne liegt etwa 48 m unter der Erdoberfläche.\", \"Der Dinkelberg besteht vorwiegend aus Muschelkalk.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 343,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [24, 23], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der See ist nur sichtbar, wenn es zuvor lange Zeit stark geregnet hat.\", \"Der Dinkelberg ist eine Karstgegend.\", \"Im Dinkelberg gibt es überall Höhlen, Löcher und Einbrüche.\"], \"source_fact_index\": 7, \"target_contexts\": [[\"Der tiefste Punkt der das Grundwasser stauenden Wanne liegt etwa 48 m unter der Erdoberfläche.\", \"Der Dinkelberg besteht vorwiegend aus Muschelkalk.\", \"Im Dinkelberg befinden sich Hohlräume.\"], [\"Der Flurabstand ist der Höhenunterschied zwischen Grundwasserspiegel und Erdoberfläche.\", \"Der tiefste Punkt der das Grundwasser stauenden Wanne liegt etwa 48 m unter der Erdoberfläche.\", \"Der Dinkelberg besteht vorwiegend aus Muschelkalk.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 348,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [25, 18], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Dinkelberg ist eine Karstgegend.\", \"Im Dinkelberg gibt es überall Höhlen, Löcher und Einbrüche.\", \"Bei Regen sammelt sich Wasser in diesen Hohlräumen.\"], \"source_fact_index\": 8, \"target_contexts\": [[\"Der Dinkelberg besteht vorwiegend aus Muschelkalk.\", \"Im Dinkelberg befinden sich Hohlräume.\", \"Die Hohlräume können sich aufgrund eines Grundwasserstaus sehr schnell mit Wasser füllen.\"], [\"Der Eichener See liegt rund 350 m südlich der Bundesstraße 518.\", \"Geologisch handelt es sich um eine zeitweise mit Wasser gefüllte Doline.\", \"Grundwasser tritt besonders nach der Schneeschmelze oder nach längeren Regenphasen zu Tage.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 336,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [18, 25], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Im Dinkelberg gibt es überall Höhlen, Löcher und Einbrüche.\", \"Bei Regen sammelt sich Wasser in diesen Hohlräumen.\", \"Bei längerem Regen und zusätzlicher Schneeschmelze kann nicht alles Wasser ablaufen und staut sich in den Hohlräumen.\"], \"source_fact_index\": 9, \"target_contexts\": [[\"Der Eichener See liegt rund 350 m südlich der Bundesstraße 518.\", \"Geologisch handelt es sich um eine zeitweise mit Wasser gefüllte Doline.\", \"Grundwasser tritt besonders nach der Schneeschmelze oder nach längeren Regenphasen zu Tage.\"], [\"Der Dinkelberg besteht vorwiegend aus Muschelkalk.\", \"Im Dinkelberg befinden sich Hohlräume.\", \"Die Hohlräume können sich aufgrund eines Grundwasserstaus sehr schnell mit Wasser füllen.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 353,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [25, 21], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Das gestaute Wasser sammelt sich in Senken, sogenannten Dolinen.\", \"Man kann beobachten, wie Wasser aus dem Boden sprudelt.\", \"Versuche mit Farbe haben nachgewiesen, dass Wasser aus dem See beim Ablaufen unter anderem in der Hasler Höhle in Hasel erscheint.\"], \"source_fact_index\": 12, \"target_contexts\": [[\"Der Dinkelberg besteht vorwiegend aus Muschelkalk.\", \"Im Dinkelberg befinden sich Hohlräume.\", \"Die Hohlräume können sich aufgrund eines Grundwasserstaus sehr schnell mit Wasser füllen.\"], [\"Die Formation wird als Erdfallsee bezeichnet.\", \"In trockenen Phasen kann der Flurabstand bis zu 40 m betragen.\", \"Der Flurabstand ist der Höhenunterschied zwischen Grundwasserspiegel und Erdoberfläche.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 346,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [41, 39], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Es gibt eine unterirdische Verbindung zwischen dem See und der Hasler Höhle.\", \"Die Hasler Höhle ist etwa 2 Kilometer vom See entfernt.\", \"Der erste Bericht über den Eiemer See stammt aus dem Jahr 1784.\"], \"source_fact_index\": 15, \"target_contexts\": [[\"Die erste wissenschaftliche Beschreibung des Sees erfolgte vermutlich in dem Artikel 'Von einem merkwürdigen See in der oberen Markgrafschaft Baden'.\", \"Der Artikel wurde von Heinrich Sander verfasst.\", \"Der Artikel erschien im Jahr 1782 in der Zeitschrift 'Der Naturforscher'.\"], [\"Im Jahr 1876 kamen Menschen in dem See um.\", \"Im Jahr 1910 kamen Menschen in dem See um.\", \"Die erste wissenschaftliche Beschreibung des Sees erfolgte vermutlich in dem Artikel 'Von einem merkwürdigen See in der oberen Markgrafschaft Baden'.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 358,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [40, 41], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Hasler Höhle ist etwa 2 Kilometer vom See entfernt.\", \"Der erste Bericht über den Eiemer See stammt aus dem Jahr 1784.\", \"Die Informationen stammen aus den veröffentlichten Nachlassschriften von Heinrich Sander.\"], \"source_fact_index\": 16, \"target_contexts\": [[\"Im Jahr 1910 kamen Menschen in dem See um.\", \"Die erste wissenschaftliche Beschreibung des Sees erfolgte vermutlich in dem Artikel 'Von einem merkwürdigen See in der oberen Markgrafschaft Baden'.\", \"Der Artikel wurde von Heinrich Sander verfasst.\"], [\"Die erste wissenschaftliche Beschreibung des Sees erfolgte vermutlich in dem Artikel 'Von einem merkwürdigen See in der oberen Markgrafschaft Baden'.\", \"Der Artikel wurde von Heinrich Sander verfasst.\", \"Der Artikel erschien im Jahr 1782 in der Zeitschrift 'Der Naturforscher'.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 353,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [49, 39], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Heinrich Sander war unter anderem Lehrer von Johann Peter Hebel.\", \"Heinrich Sander beschrieb die Größe des Sees als 'ungleich und verschieden'.\", \"Die Breite des Sees wurde mit einem 'Bichseschiss' (Büchsenschuss) berechnet.\"], \"source_fact_index\": 20, \"target_contexts\": [[\"Das Landschaftsschutzgebiet hat die Nummer 3.36.012.\", \"Die Größe des Landschaftsschutzgebiets beträgt 8,0 Hektar.\", \"Das Landschaftsschutzgebiet wurde per Verordnung vom 26. April 1942 ausgewiesen.\"], [\"Im Jahr 1876 kamen Menschen in dem See um.\", \"Im Jahr 1910 kamen Menschen in dem See um.\", \"Die erste wissenschaftliche Beschreibung des Sees erfolgte vermutlich in dem Artikel 'Von einem merkwürdigen See in der oberen Markgrafschaft Baden'.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 359,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [39, 49], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Heinrich Sander beschrieb die Größe des Sees als 'ungleich und verschieden'.\", \"Die Breite des Sees wurde mit einem 'Bichseschiss' (Büchsenschuss) berechnet.\", \"Die Länge des Sees wurde mit zwei 'Bichseschiss' (Büchsenschüssen) berechnet.\"], \"source_fact_index\": 21, \"target_contexts\": [[\"Im Jahr 1876 kamen Menschen in dem See um.\", \"Im Jahr 1910 kamen Menschen in dem See um.\", \"Die erste wissenschaftliche Beschreibung des Sees erfolgte vermutlich in dem Artikel 'Von einem merkwürdigen See in der oberen Markgrafschaft Baden'.\"], [\"Das Landschaftsschutzgebiet hat die Nummer 3.36.012.\", \"Die Größe des Landschaftsschutzgebiets beträgt 8,0 Hektar.\", \"Das Landschaftsschutzgebiet wurde per Verordnung vom 26. April 1942 ausgewiesen.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 373,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [49, 44], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Breite des Sees wurde mit einem 'Bichseschiss' (Büchsenschuss) berechnet.\", \"Die Länge des Sees wurde mit zwei 'Bichseschiss' (Büchsenschüssen) berechnet.\", \"Es wurde berichtet, dass bei der Entstehung des Sees fast alle Pflanzen zerstört wurden.\"], \"source_fact_index\": 22, \"target_contexts\": [[\"Das Landschaftsschutzgebiet hat die Nummer 3.36.012.\", \"Die Größe des Landschaftsschutzgebiets beträgt 8,0 Hektar.\", \"Das Landschaftsschutzgebiet wurde per Verordnung vom 26. April 1942 ausgewiesen.\"], [\"Der See und seine Uferbereiche stehen seit 1939 unter besonderem Schutz.\", \"Seit 1983 ist der See als flächiges Naturdenkmal ausgewiesen.\", \"Die Größe des Naturdenkmals beträgt 3,75 Hektar.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 374,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [42, 49], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Länge des Sees wurde mit zwei 'Bichseschiss' (Büchsenschüssen) berechnet.\", \"Es wurde berichtet, dass bei der Entstehung des Sees fast alle Pflanzen zerstört wurden.\", \"Einige Birnbäume überlebten die Entstehung des Sees ohne Schaden.\"], \"source_fact_index\": 23, \"target_contexts\": [[\"Der Artikel wurde von Heinrich Sander verfasst.\", \"Der Artikel erschien im Jahr 1782 in der Zeitschrift 'Der Naturforscher'.\", \"Der See und seine Uferbereiche stehen seit 1939 unter besonderem Schutz.\"], [\"Das Landschaftsschutzgebiet hat die Nummer 3.36.012.\", \"Die Größe des Landschaftsschutzgebiets beträgt 8,0 Hektar.\", \"Das Landschaftsschutzgebiet wurde per Verordnung vom 26. April 1942 ausgewiesen.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 357,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [38, 37], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Es wurde berichtet, dass bei der Entstehung des Sees fast alle Pflanzen zerstört wurden.\", \"Einige Birnbäume überlebten die Entstehung des Sees ohne Schaden.\", \"De Sander schreibt über ein Unglück im See.\"], \"source_fact_index\": 24, \"target_contexts\": [[\"Im Jahr 1771 ertranken fünf Menschen in dem See, nachdem ihr Boot gekentert war.\", \"Im Jahr 1876 kamen Menschen in dem See um.\", \"Im Jahr 1910 kamen Menschen in dem See um.\"], [\"Der See wurde erstmals 1771 urkundlich erwähnt.\", \"Im Jahr 1771 ertranken fünf Menschen in dem See, nachdem ihr Boot gekentert war.\", \"Im Jahr 1876 kamen Menschen in dem See um.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 341,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [37, 38], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Einige Birnbäume überlebten die Entstehung des Sees ohne Schaden.\", \"De Sander schreibt über ein Unglück im See.\", \"Das Ereignis fand an einem Sonntagmorgen im Mai statt.\"], \"source_fact_index\": 25, \"target_contexts\": [[\"Der See wurde erstmals 1771 urkundlich erwähnt.\", \"Im Jahr 1771 ertranken fünf Menschen in dem See, nachdem ihr Boot gekentert war.\", \"Im Jahr 1876 kamen Menschen in dem See um.\"], [\"Im Jahr 1771 ertranken fünf Menschen in dem See, nachdem ihr Boot gekentert war.\", \"Im Jahr 1876 kamen Menschen in dem See um.\", \"Im Jahr 1910 kamen Menschen in dem See um.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 338,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [38, 37], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"De Sander schreibt über ein Unglück im See.\", \"Das Ereignis fand an einem Sonntagmorgen im Mai statt.\", \"Junge Mädchen und Jungen wollten mit einem Boot auf dem See spazieren fahren.\"], \"source_fact_index\": 26, \"target_contexts\": [[\"Im Jahr 1771 ertranken fünf Menschen in dem See, nachdem ihr Boot gekentert war.\", \"Im Jahr 1876 kamen Menschen in dem See um.\", \"Im Jahr 1910 kamen Menschen in dem See um.\"], [\"Der See wurde erstmals 1771 urkundlich erwähnt.\", \"Im Jahr 1771 ertranken fünf Menschen in dem See, nachdem ihr Boot gekentert war.\", \"Im Jahr 1876 kamen Menschen in dem See um.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 339,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [38, 37], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Das Ereignis fand an einem Sonntagmorgen im Mai statt.\", \"Junge Mädchen und Jungen wollten mit einem Boot auf dem See spazieren fahren.\", \"Es sind anscheinend zu viele Personen in das Boot eingestiegen.\"], \"source_fact_index\": 27, \"target_contexts\": [[\"Im Jahr 1771 ertranken fünf Menschen in dem See, nachdem ihr Boot gekentert war.\", \"Im Jahr 1876 kamen Menschen in dem See um.\", \"Im Jahr 1910 kamen Menschen in dem See um.\"], [\"Der See wurde erstmals 1771 urkundlich erwähnt.\", \"Im Jahr 1771 ertranken fünf Menschen in dem See, nachdem ihr Boot gekentert war.\", \"Im Jahr 1876 kamen Menschen in dem See um.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 343,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [36, 37], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Es sind anscheinend zu viele Personen in das Boot eingestiegen.\", \"Das Boot ist gesunken.\", \"Vier der jungen Leute sind ertrunken.\"], \"source_fact_index\": 29, \"target_contexts\": [[\"In ganz Europa sind lediglich sieben weitere sichere Fundorte von Tanymastix lacunae bekannt.\", \"Der See wurde erstmals 1771 urkundlich erwähnt.\", \"Im Jahr 1771 ertranken fünf Menschen in dem See, nachdem ihr Boot gekentert war.\"], [\"Der See wurde erstmals 1771 urkundlich erwähnt.\", \"Im Jahr 1771 ertranken fünf Menschen in dem See, nachdem ihr Boot gekentert war.\", \"Im Jahr 1876 kamen Menschen in dem See um.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 334,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [38, 37], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Das Boot ist gesunken.\", \"Vier der jungen Leute sind ertrunken.\", \"Die Personen wurden mit Stangen aus dem See gezogen.\"], \"source_fact_index\": 30, \"target_contexts\": [[\"Im Jahr 1771 ertranken fünf Menschen in dem See, nachdem ihr Boot gekentert war.\", \"Im Jahr 1876 kamen Menschen in dem See um.\", \"Im Jahr 1910 kamen Menschen in dem See um.\"], [\"Der See wurde erstmals 1771 urkundlich erwähnt.\", \"Im Jahr 1771 ertranken fünf Menschen in dem See, nachdem ihr Boot gekentert war.\", \"Im Jahr 1876 kamen Menschen in dem See um.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 323,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [38, 37], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Vier der jungen Leute sind ertrunken.\", \"Die Personen wurden mit Stangen aus dem See gezogen.\", \"Laut dem Text hätten die Personen wiederbelebt werden können, wenn die Polizei schneller gerufen worden wäre.\"], \"source_fact_index\": 31, \"target_contexts\": [[\"Im Jahr 1771 ertranken fünf Menschen in dem See, nachdem ihr Boot gekentert war.\", \"Im Jahr 1876 kamen Menschen in dem See um.\", \"Im Jahr 1910 kamen Menschen in dem See um.\"], [\"Der See wurde erstmals 1771 urkundlich erwähnt.\", \"Im Jahr 1771 ertranken fünf Menschen in dem See, nachdem ihr Boot gekentert war.\", \"Im Jahr 1876 kamen Menschen in dem See um.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 338,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [57, 60], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Auf dem Seeboden wurde Madde (Wiesengras/Heu) gemäht.\", \"Die Qualität des Futters war gut.\", \"Es wurden verschiedene Kulturen angepflanzt, darunter Roggen (Korn), Dinkel, Hafer (Haber), Gerste (Gärschd) und Kartoffeln (Herdepfel).\"], \"source_fact_index\": 35, \"target_contexts\": [[\"Der Palast ist aus Kristall gestaltet und mit Gold, Silber und Edelsteinen eingerichtet.\", \"Es ist ungeklärt, ob es sich bei diesen Wesen um hilfreiche Seemännlein oder andere Wichte handelt.\", \"Ein Bauer aus Eichen versprach seine jüngste Tochter einem dieser Wichte zur Frau.\"], [\"Die Bedingung des Versprechens war, dass die Seewichte die Felder des Bauern ausreichend bewässern.\", \"Die Seewichte hielten die Abmachung ein, sodass die Felder des Bauern grünten, während die der Nachbarn verdorrten.\", \"Die Tochter stimmte dem Vertrag ihres Vaters zunächst zu.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 392,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [58, 59], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Qualität des Futters war gut.\", \"Es wurden verschiedene Kulturen angepflanzt, darunter Roggen (Korn), Dinkel, Hafer (Haber), Gerste (Gärschd) und Kartoffeln (Herdepfel).\", \"Diese Anpflanzungen lieferten gute Ernten.\"], \"source_fact_index\": 36, \"target_contexts\": [[\"Es ist ungeklärt, ob es sich bei diesen Wesen um hilfreiche Seemännlein oder andere Wichte handelt.\", \"Ein Bauer aus Eichen versprach seine jüngste Tochter einem dieser Wichte zur Frau.\", \"Die Bedingung des Versprechens war, dass die Seewichte die Felder des Bauern ausreichend bewässern.\"], [\"Ein Bauer aus Eichen versprach seine jüngste Tochter einem dieser Wichte zur Frau.\", \"Die Bedingung des Versprechens war, dass die Seewichte die Felder des Bauern ausreichend bewässern.\", \"Die Seewichte hielten die Abmachung ein, sodass die Felder des Bauern grünten, während die der Nachbarn verdorrten.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 394,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [52, 50], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Diese Anpflanzungen lieferten gute Ernten.\", \"Die Ernten waren gefährdet bzw. wurden vernichtet, wenn das Wasser kam und die Flächen überschwemmte.\", \"Der Eiemer See hat bei maximalem Füllstand eine Tiefe von etwa 3,20 Metern.\"], \"source_fact_index\": 38, \"target_contexts\": [[\"In besonders niederschlagsreichen Jahren kann der oberirdisch sichtbare Wasserstand bis zu drei Meter betragen.\", \"Der See kann innerhalb von ein bis fünf Wochen eine Ausdehnung von 250 m Länge und 135 m Breite erreichen.\", \"Die maximale Ausdehnung des Sees beträgt circa 2,5 ha.\"], [\"Die Größe des Landschaftsschutzgebiets beträgt 8,0 Hektar.\", \"Das Landschaftsschutzgebiet wurde per Verordnung vom 26. April 1942 ausgewiesen.\", \"In besonders niederschlagsreichen Jahren kann der oberirdisch sichtbare Wasserstand bis zu drei Meter betragen.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 385,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [52, 51], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Eiemer See ist 250 Meter lang.\", \"Der Eiemer See ist 135 Meter breit.\", \"Das Fassungsvermögen des Eiemer Sees beträgt etwa 33.000 Kubikmeter Wasser.\"], \"source_fact_index\": 41, \"target_contexts\": [[\"In besonders niederschlagsreichen Jahren kann der oberirdisch sichtbare Wasserstand bis zu drei Meter betragen.\", \"Der See kann innerhalb von ein bis fünf Wochen eine Ausdehnung von 250 m Länge und 135 m Breite erreichen.\", \"Die maximale Ausdehnung des Sees beträgt circa 2,5 ha.\"], [\"Das Landschaftsschutzgebiet wurde per Verordnung vom 26. April 1942 ausgewiesen.\", \"In besonders niederschlagsreichen Jahren kann der oberirdisch sichtbare Wasserstand bis zu drei Meter betragen.\", \"Der See kann innerhalb von ein bis fünf Wochen eine Ausdehnung von 250 m Länge und 135 m Breite erreichen.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 386,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [51, 53], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Eiemer See ist 135 Meter breit.\", \"Das Fassungsvermögen des Eiemer Sees beträgt etwa 33.000 Kubikmeter Wasser.\", \"Im schnellsten Fall ist der See innerhalb einer Woche gefüllt.\"], \"source_fact_index\": 42, \"target_contexts\": [[\"Das Landschaftsschutzgebiet wurde per Verordnung vom 26. April 1942 ausgewiesen.\", \"In besonders niederschlagsreichen Jahren kann der oberirdisch sichtbare Wasserstand bis zu drei Meter betragen.\", \"Der See kann innerhalb von ein bis fünf Wochen eine Ausdehnung von 250 m Länge und 135 m Breite erreichen.\"], [\"Der See kann innerhalb von ein bis fünf Wochen eine Ausdehnung von 250 m Länge und 135 m Breite erreichen.\", \"Die maximale Ausdehnung des Sees beträgt circa 2,5 ha.\", \"Es kann acht bis 160 Tage dauern, bis das gesamte zu Tage getretene Wasser wieder verschwindet.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 388,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [38, 37], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der See war bereits so stark zugefroren, dass man darauf Schlittschuhlaufen konnte.\", \"Das erste datierte Auftreten des See ist im Jahr 1772.\", \"Gustav Albiez hat in seiner Dissertation von 1931 auf Seite 53 eine Zusammenstellung erstellt.\"], \"source_fact_index\": 46, \"target_contexts\": [[\"Im Jahr 1771 ertranken fünf Menschen in dem See, nachdem ihr Boot gekentert war.\", \"Im Jahr 1876 kamen Menschen in dem See um.\", \"Im Jahr 1910 kamen Menschen in dem See um.\"], [\"Der See wurde erstmals 1771 urkundlich erwähnt.\", \"Im Jahr 1771 ertranken fünf Menschen in dem See, nachdem ihr Boot gekentert war.\", \"Im Jahr 1876 kamen Menschen in dem See um.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 360,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [38, 37], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Das erste datierte Auftreten des See ist im Jahr 1772.\", \"Gustav Albiez hat in seiner Dissertation von 1931 auf Seite 53 eine Zusammenstellung erstellt.\", \"Gustav Albiez zeigt in seiner Arbeit alle Jahre, in denen der See bis 1930 aufgetreten ist.\"], \"source_fact_index\": 47, \"target_contexts\": [[\"Im Jahr 1771 ertranken fünf Menschen in dem See, nachdem ihr Boot gekentert war.\", \"Im Jahr 1876 kamen Menschen in dem See um.\", \"Im Jahr 1910 kamen Menschen in dem See um.\"], [\"Der See wurde erstmals 1771 urkundlich erwähnt.\", \"Im Jahr 1771 ertranken fünf Menschen in dem See, nachdem ihr Boot gekentert war.\", \"Im Jahr 1876 kamen Menschen in dem See um.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 366,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [38, 37], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Gustav Albiez hat in seiner Dissertation von 1931 auf Seite 53 eine Zusammenstellung erstellt.\", \"Gustav Albiez zeigt in seiner Arbeit alle Jahre, in denen der See bis 1930 aufgetreten ist.\", \"Alle bisher bekannten Daten zum Auftreten sind in der 'Liste zum Auftreten vom Eiemer See' zusammengefasst.\"], \"source_fact_index\": 48, \"target_contexts\": [[\"Im Jahr 1771 ertranken fünf Menschen in dem See, nachdem ihr Boot gekentert war.\", \"Im Jahr 1876 kamen Menschen in dem See um.\", \"Im Jahr 1910 kamen Menschen in dem See um.\"], [\"Der See wurde erstmals 1771 urkundlich erwähnt.\", \"Im Jahr 1771 ertranken fünf Menschen in dem See, nachdem ihr Boot gekentert war.\", \"Im Jahr 1876 kamen Menschen in dem See um.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 373,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [37, 62], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Alle bisher bekannten Daten zum Auftreten sind in der 'Liste zum Auftreten vom Eiemer See' zusammengefasst.\", \"Der Eichener See tauchte im Dezember 2017 auf.\", \"Die Badische Zeitung veröffentlichte dazu einen Artikel am 18. Dezember 2017.\"], \"source_fact_index\": 50, \"target_contexts\": [[\"Der See wurde erstmals 1771 urkundlich erwähnt.\", \"Im Jahr 1771 ertranken fünf Menschen in dem See, nachdem ihr Boot gekentert war.\", \"Im Jahr 1876 kamen Menschen in dem See um.\"], [\"Die Tochter stimmte dem Vertrag ihres Vaters zunächst zu.\", \"Später verliebte sich die Tochter in einen gutaussehenden Burschen.\", \"Das Mädchen fürchtete sich davor, ihr Leben mit einem Wicht im Kristallschloss im Berg zu verbringen.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 362,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [67, 37], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Eichener See tauchte im Dezember 2017 auf.\", \"Die Badische Zeitung veröffentlichte dazu einen Artikel am 18. Dezember 2017.\", \"Vor dem Auftreten 2017 kam der See zwischen Februar und März 2016 an die Oberfläche.\"], \"source_fact_index\": 51, \"target_contexts\": [[\"Um Mitternacht, als die Glocke der Schopfheimer Michaelskirche schlug, begann ein unheimliches Rauschen.\", \"Wassermassen quollen hervor und füllten die Mulde unter Donner und Blitzen.\", \"Das Paar ertrank, als der See über ihnen zusammenschlug.\"], [\"Der See wurde erstmals 1771 urkundlich erwähnt.\", \"Im Jahr 1771 ertranken fünf Menschen in dem See, nachdem ihr Boot gekentert war.\", \"Im Jahr 1876 kamen Menschen in dem See um.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 367,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [38, 63], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Badische Zeitung veröffentlichte dazu einen Artikel am 18. Dezember 2017.\", \"Vor dem Auftreten 2017 kam der See zwischen Februar und März 2016 an die Oberfläche.\", \"Im Dezember 2015 befand sich der See auf einem historischen Tiefstand.\"], \"source_fact_index\": 52, \"target_contexts\": [[\"Im Jahr 1771 ertranken fünf Menschen in dem See, nachdem ihr Boot gekentert war.\", \"Im Jahr 1876 kamen Menschen in dem See um.\", \"Im Jahr 1910 kamen Menschen in dem See um.\"], [\"Später verliebte sich die Tochter in einen gutaussehenden Burschen.\", \"Das Mädchen fürchtete sich davor, ihr Leben mit einem Wicht im Kristallschloss im Berg zu verbringen.\", \"Aus Verzweiflung beschloss die Tochter, mit ihrem Liebsten die Heimat zu verlassen, um der Macht der Seewichte zu entkommen.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 381,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [37, 38], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Vor dem Auftreten 2017 kam der See zwischen Februar und März 2016 an die Oberfläche.\", \"Im Dezember 2015 befand sich der See auf einem historischen Tiefstand.\", \"Durch Niederschläge zu Beginn des Jahres 2016 stieg der Grundwasserspiegel schnell an.\"], \"source_fact_index\": 53, \"target_contexts\": [[\"Der See wurde erstmals 1771 urkundlich erwähnt.\", \"Im Jahr 1771 ertranken fünf Menschen in dem See, nachdem ihr Boot gekentert war.\", \"Im Jahr 1876 kamen Menschen in dem See um.\"], [\"Im Jahr 1771 ertranken fünf Menschen in dem See, nachdem ihr Boot gekentert war.\", \"Im Jahr 1876 kamen Menschen in dem See um.\", \"Im Jahr 1910 kamen Menschen in dem See um.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 363,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [67, 68], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Durch Niederschläge zu Beginn des Jahres 2016 stieg der Grundwasserspiegel schnell an.\", \"Der Grundwasserspiegel stieg innerhalb weniger Tage im Januar von 6 auf 37 Meter.\", \"Trotz des Anstiegs im Januar lag der See noch zwei Meter unter der Oberfläche.\"], \"source_fact_index\": 55, \"target_contexts\": [[\"Um Mitternacht, als die Glocke der Schopfheimer Michaelskirche schlug, begann ein unheimliches Rauschen.\", \"Wassermassen quollen hervor und füllten die Mulde unter Donner und Blitzen.\", \"Das Paar ertrank, als der See über ihnen zusammenschlug.\"], [\"Wassermassen quollen hervor und füllten die Mulde unter Donner und Blitzen.\", \"Das Paar ertrank, als der See über ihnen zusammenschlug.\", \"Die Felder und Matten des Bauern wurden weggeschwemmt, bis nur noch nackter Fels übrig blieb und die Ernte zerstört war.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 381,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [69, 58], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Trotz des Anstiegs im Januar lag der See noch zwei Meter unter der Oberfläche.\", \"Weitere Niederschläge im Februar führten dazu, dass der See austrat.\", \"Der Pegel des Sees wird regelmäßig gemessen.\"], \"source_fact_index\": 57, \"target_contexts\": [[\"Das Paar ertrank, als der See über ihnen zusammenschlug.\", \"Die Felder und Matten des Bauern wurden weggeschwemmt, bis nur noch nackter Fels übrig blieb und die Ernte zerstört war.\", \"Die Eichener Bauern glauben heute, dass ein steigender Seespiegel eine Erinnerung der Seewichte an den damaligen Verrat ist.\"], [\"Es ist ungeklärt, ob es sich bei diesen Wesen um hilfreiche Seemännlein oder andere Wichte handelt.\", \"Ein Bauer aus Eichen versprach seine jüngste Tochter einem dieser Wichte zur Frau.\", \"Die Bedingung des Versprechens war, dass die Seewichte die Felder des Bauern ausreichend bewässern.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 380,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [49, 43], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Pegel des Sees wird regelmäßig gemessen.\", \"Die Badische Zeitung veröffentlichte am 18. Februar 2016 einen Artikel mit dem Titel 'Eichener See: Geheimnisse eines Gewässers, das kommt und geht'.\", \"Der Eiemer See wurde am 29. April 1942 zum Landschaftsschutzgebiet (LSG) ausgewiesen.\"], \"source_fact_index\": 59, \"target_contexts\": [[\"Das Landschaftsschutzgebiet hat die Nummer 3.36.012.\", \"Die Größe des Landschaftsschutzgebiets beträgt 8,0 Hektar.\", \"Das Landschaftsschutzgebiet wurde per Verordnung vom 26. April 1942 ausgewiesen.\"], [\"Der Artikel erschien im Jahr 1782 in der Zeitschrift 'Der Naturforscher'.\", \"Der See und seine Uferbereiche stehen seit 1939 unter besonderem Schutz.\", \"Seit 1983 ist der See als flächiges Naturdenkmal ausgewiesen.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 388,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [47, 49], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Badische Zeitung veröffentlichte am 18. Februar 2016 einen Artikel mit dem Titel 'Eichener See: Geheimnisse eines Gewässers, das kommt und geht'.\", \"Der Eiemer See wurde am 29. April 1942 zum Landschaftsschutzgebiet (LSG) ausgewiesen.\", \"Das Landschaftsschutzgebiet hat die Nummer 3.36.012.\"], \"source_fact_index\": 60, \"target_contexts\": [[\"Der See ist als Fauna-Flora-Habitat-Gebiet von europäischem Rang eingestuft.\", \"Das Naturdenkmal wird von einem Landschaftsschutzgebiet umschlossen.\", \"Das Landschaftsschutzgebiet hat die Nummer 3.36.012.\"], [\"Das Landschaftsschutzgebiet hat die Nummer 3.36.012.\", \"Die Größe des Landschaftsschutzgebiets beträgt 8,0 Hektar.\", \"Das Landschaftsschutzgebiet wurde per Verordnung vom 26. April 1942 ausgewiesen.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 388,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [49, 41], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Eiemer See wurde am 29. April 1942 zum Landschaftsschutzgebiet (LSG) ausgewiesen.\", \"Das Landschaftsschutzgebiet hat die Nummer 3.36.012.\", \"Der Verordnungstext wurde am 8. Mai 1942 im 'Alemanne' abgedruckt.\"], \"source_fact_index\": 61, \"target_contexts\": [[\"Das Landschaftsschutzgebiet hat die Nummer 3.36.012.\", \"Die Größe des Landschaftsschutzgebiets beträgt 8,0 Hektar.\", \"Das Landschaftsschutzgebiet wurde per Verordnung vom 26. April 1942 ausgewiesen.\"], [\"Die erste wissenschaftliche Beschreibung des Sees erfolgte vermutlich in dem Artikel 'Von einem merkwürdigen See in der oberen Markgrafschaft Baden'.\", \"Der Artikel wurde von Heinrich Sander verfasst.\", \"Der Artikel erschien im Jahr 1782 in der Zeitschrift 'Der Naturforscher'.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 378,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [46, 49], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Verordnungstext wurde am 8. Mai 1942 im 'Alemanne' abgedruckt.\", \"Das Landschaftsschutzgebiet hat eine Größe von 8 ha.\", \"Das Landschaftsschutzgebiet erstreckt sich wie ein Kranz im Norden, Westen und Süden um den See herum.\"], \"source_fact_index\": 63, \"target_contexts\": [[\"Die Größe des Naturdenkmals beträgt 3,75 Hektar.\", \"Der See ist als Fauna-Flora-Habitat-Gebiet von europäischem Rang eingestuft.\", \"Das Naturdenkmal wird von einem Landschaftsschutzgebiet umschlossen.\"], [\"Das Landschaftsschutzgebiet hat die Nummer 3.36.012.\", \"Die Größe des Landschaftsschutzgebiets beträgt 8,0 Hektar.\", \"Das Landschaftsschutzgebiet wurde per Verordnung vom 26. April 1942 ausgewiesen.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 364,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [46, 47], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Das Landschaftsschutzgebiet hat eine Größe von 8 ha.\", \"Das Landschaftsschutzgebiet erstreckt sich wie ein Kranz im Norden, Westen und Süden um den See herum.\", \"Der See selbst gehört nicht zum Landschaftsschutzgebiet.\"], \"source_fact_index\": 64, \"target_contexts\": [[\"Die Größe des Naturdenkmals beträgt 3,75 Hektar.\", \"Der See ist als Fauna-Flora-Habitat-Gebiet von europäischem Rang eingestuft.\", \"Das Naturdenkmal wird von einem Landschaftsschutzgebiet umschlossen.\"], [\"Der See ist als Fauna-Flora-Habitat-Gebiet von europäischem Rang eingestuft.\", \"Das Naturdenkmal wird von einem Landschaftsschutzgebiet umschlossen.\", \"Das Landschaftsschutzgebiet hat die Nummer 3.36.012.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 344,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [43, 42], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Das Landschaftsschutzgebiet erstreckt sich wie ein Kranz im Norden, Westen und Süden um den See herum.\", \"Der See selbst gehört nicht zum Landschaftsschutzgebiet.\", \"Der See und seine nähere Umgebung wurden am 11. Februar 1983 als flächenhaftes Naturdenkmal ausgewiesen.\"], \"source_fact_index\": 65, \"target_contexts\": [[\"Der Artikel erschien im Jahr 1782 in der Zeitschrift 'Der Naturforscher'.\", \"Der See und seine Uferbereiche stehen seit 1939 unter besonderem Schutz.\", \"Seit 1983 ist der See als flächiges Naturdenkmal ausgewiesen.\"], [\"Der Artikel wurde von Heinrich Sander verfasst.\", \"Der Artikel erschien im Jahr 1782 in der Zeitschrift 'Der Naturforscher'.\", \"Der See und seine Uferbereiche stehen seit 1939 unter besonderem Schutz.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 366,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [46, 49], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der See und seine nähere Umgebung wurden am 11. Februar 1983 als flächenhaftes Naturdenkmal ausgewiesen.\", \"Die Nummer des flächenhaften Naturdenkmals ist 8336081001.\", \"Flächenhafte Naturdenkmale (FND) sind ähnlich geschützt wie Naturschutzgebiete (NSG).\"], \"source_fact_index\": 67, \"target_contexts\": [[\"Die Größe des Naturdenkmals beträgt 3,75 Hektar.\", \"Der See ist als Fauna-Flora-Habitat-Gebiet von europäischem Rang eingestuft.\", \"Das Naturdenkmal wird von einem Landschaftsschutzgebiet umschlossen.\"], [\"Das Landschaftsschutzgebiet hat die Nummer 3.36.012.\", \"Die Größe des Landschaftsschutzgebiets beträgt 8,0 Hektar.\", \"Das Landschaftsschutzgebiet wurde per Verordnung vom 26. April 1942 ausgewiesen.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 379,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [46, 49], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Nummer des flächenhaften Naturdenkmals ist 8336081001.\", \"Flächenhafte Naturdenkmale (FND) sind ähnlich geschützt wie Naturschutzgebiete (NSG).\", \"Flächenhafte Naturdenkmale werden vom Landratsamt verordnet.\"], \"source_fact_index\": 68, \"target_contexts\": [[\"Die Größe des Naturdenkmals beträgt 3,75 Hektar.\", \"Der See ist als Fauna-Flora-Habitat-Gebiet von europäischem Rang eingestuft.\", \"Das Naturdenkmal wird von einem Landschaftsschutzgebiet umschlossen.\"], [\"Das Landschaftsschutzgebiet hat die Nummer 3.36.012.\", \"Die Größe des Landschaftsschutzgebiets beträgt 8,0 Hektar.\", \"Das Landschaftsschutzgebiet wurde per Verordnung vom 26. April 1942 ausgewiesen.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 363,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [44, 48], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Flächenhafte Naturdenkmale (FND) sind ähnlich geschützt wie Naturschutzgebiete (NSG).\", \"Flächenhafte Naturdenkmale werden vom Landratsamt verordnet.\", \"Flächenhafte Naturdenkmale haben eine Fläche von weniger als 5 Hektar.\"], \"source_fact_index\": 69, \"target_contexts\": [[\"Der See und seine Uferbereiche stehen seit 1939 unter besonderem Schutz.\", \"Seit 1983 ist der See als flächiges Naturdenkmal ausgewiesen.\", \"Die Größe des Naturdenkmals beträgt 3,75 Hektar.\"], [\"Das Naturdenkmal wird von einem Landschaftsschutzgebiet umschlossen.\", \"Das Landschaftsschutzgebiet hat die Nummer 3.36.012.\", \"Die Größe des Landschaftsschutzgebiets beträgt 8,0 Hektar.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 355,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [44, 48], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Flächenhafte Naturdenkmale werden vom Landratsamt verordnet.\", \"Flächenhafte Naturdenkmale haben eine Fläche von weniger als 5 Hektar.\", \"Die Fläche des flächenhaften Naturdenkmals am Eiemer See beträgt 3,5 Hektar.\"], \"source_fact_index\": 70, \"target_contexts\": [[\"Der See und seine Uferbereiche stehen seit 1939 unter besonderem Schutz.\", \"Seit 1983 ist der See als flächiges Naturdenkmal ausgewiesen.\", \"Die Größe des Naturdenkmals beträgt 3,75 Hektar.\"], [\"Das Naturdenkmal wird von einem Landschaftsschutzgebiet umschlossen.\", \"Das Landschaftsschutzgebiet hat die Nummer 3.36.012.\", \"Die Größe des Landschaftsschutzgebiets beträgt 8,0 Hektar.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 355,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [46, 45], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Flächenhafte Naturdenkmale haben eine Fläche von weniger als 5 Hektar.\", \"Die Fläche des flächenhaften Naturdenkmals am Eiemer See beträgt 3,5 Hektar.\", \"Das flächenhafte Naturdenkmal bildet den Kern des Eiemer Sees.\"], \"source_fact_index\": 71, \"target_contexts\": [[\"Die Größe des Naturdenkmals beträgt 3,75 Hektar.\", \"Der See ist als Fauna-Flora-Habitat-Gebiet von europäischem Rang eingestuft.\", \"Das Naturdenkmal wird von einem Landschaftsschutzgebiet umschlossen.\"], [\"Seit 1983 ist der See als flächiges Naturdenkmal ausgewiesen.\", \"Die Größe des Naturdenkmals beträgt 3,75 Hektar.\", \"Der See ist als Fauna-Flora-Habitat-Gebiet von europäischem Rang eingestuft.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 363,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [3, 1], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Fläche des flächenhaften Naturdenkmals am Eiemer See beträgt 3,5 Hektar.\", \"Das flächenhafte Naturdenkmal bildet den Kern des Eiemer Sees.\", \"Der Eiemer See gehört seit dem 31. Mai 2015 zum FFH-Gebiet 'Dinkelbärg un Röttler Wald'.\"], \"source_fact_index\": 72, \"target_contexts\": [[\"Der Eichener See wird im Volksmund alemannisch Eiemer See genannt.\", \"Der Eichener See ist ein zeitweise (astatisch) erscheinender Karstsee.\", \"Der Eichener See ist Teil des FFH-Gebietes Dinkelberg und Röttler Wald.\"], [\"Der Eichener See befindet sich beim Schopfheimer Stadtteil Eichen im baden-württembergischen Landkreis Lörrach.\", \"Der Eichener See wird im Volksmund alemannisch Eiemer See genannt.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 375,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [3, 1], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Das flächenhafte Naturdenkmal bildet den Kern des Eiemer Sees.\", \"Der Eiemer See gehört seit dem 31. Mai 2015 zum FFH-Gebiet 'Dinkelbärg un Röttler Wald'.\", \"Das FFH-Gebiet 'Dinkelbärg un Röttler Wald' hat die Nummer 8312311.\"], \"source_fact_index\": 73, \"target_contexts\": [[\"Der Eichener See wird im Volksmund alemannisch Eiemer See genannt.\", \"Der Eichener See ist ein zeitweise (astatisch) erscheinender Karstsee.\", \"Der Eichener See ist Teil des FFH-Gebietes Dinkelberg und Röttler Wald.\"], [\"Der Eichener See befindet sich beim Schopfheimer Stadtteil Eichen im baden-württembergischen Landkreis Lörrach.\", \"Der Eichener See wird im Volksmund alemannisch Eiemer See genannt.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 380,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [3, 0], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Teilfläche des FFH-Gebiets um den Eiemer See umfasst 11,5 ha.\", \"Die Teilfläche deckt sich ungefähr mit dem Landschaftsschutzgebiet (LSG) und dem Naturdenkmal (FND).\", \"Das FFH-Gebiet 'Dinkelbärg un Röttler Wald' erstreckt sich über die Landkreise Lörrach und Waldshut.\"], \"source_fact_index\": 76, \"target_contexts\": [[\"Der Eichener See wird im Volksmund alemannisch Eiemer See genannt.\", \"Der Eichener See ist ein zeitweise (astatisch) erscheinender Karstsee.\", \"Der Eichener See ist Teil des FFH-Gebietes Dinkelberg und Röttler Wald.\"], [\"Der Eichener See befindet sich beim Schopfheimer Stadtteil Eichen im baden-württembergischen Landkreis Lörrach.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 363,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [1, 8], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Teilfläche deckt sich ungefähr mit dem Landschaftsschutzgebiet (LSG) und dem Naturdenkmal (FND).\", \"Das FFH-Gebiet 'Dinkelbärg un Röttler Wald' erstreckt sich über die Landkreise Lörrach und Waldshut.\", \"Der Eiemer See wird in der Kurzbeschreibung des Gebiets ausdrücklich genannt.\"], \"source_fact_index\": 77, \"target_contexts\": [[\"Der Eichener See befindet sich beim Schopfheimer Stadtteil Eichen im baden-württembergischen Landkreis Lörrach.\", \"Der Eichener See wird im Volksmund alemannisch Eiemer See genannt.\"], [\"Der Eichener See hat keinen oberirdischen Zufluss.\", \"Der Abfluss des Sees erfolgt teilweise unterirdisch.\", \"Der Abfluss des Sees erfolgt teilweise durch Verdunstung.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 353,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [2, 5], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Das FFH-Gebiet 'Dinkelbärg un Röttler Wald' erstreckt sich über die Landkreise Lörrach und Waldshut.\", \"Der Eiemer See wird in der Kurzbeschreibung des Gebiets ausdrücklich genannt.\", \"Das Gebiet wird als Kulturlandschaft mit naturnahen Buchenwäldern, Hecken, Kalkmagerrasen, Glatthaferwiesen, Höhlen und einem temporären Karstsee beschrieben.\"], \"source_fact_index\": 78, \"target_contexts\": [[\"Der Eichener See befindet sich beim Schopfheimer Stadtteil Eichen im baden-württembergischen Landkreis Lörrach.\", \"Der Eichener See wird im Volksmund alemannisch Eiemer See genannt.\", \"Der Eichener See ist ein zeitweise (astatisch) erscheinender Karstsee.\"], [\"Der Eichener See ist Teil des FFH-Gebietes Dinkelberg und Röttler Wald.\", \"Der See ist nur bei hohem Grundwasserstand wasserführend.\", \"Der See liegt in einer Mulde, einer Muschelkalk-Karstwanne.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 410,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [4, 3], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Eiemer See wird in der Kurzbeschreibung des Gebiets ausdrücklich genannt.\", \"Das Gebiet wird als Kulturlandschaft mit naturnahen Buchenwäldern, Hecken, Kalkmagerrasen, Glatthaferwiesen, Höhlen und einem temporären Karstsee beschrieben.\", \"Das Gebiet ist ein hervorragender Lebensraum für zahlreiche FFH-Arten, insbesondere für Fledermausarten.\"], \"source_fact_index\": 79, \"target_contexts\": [[\"Der Eichener See ist ein zeitweise (astatisch) erscheinender Karstsee.\", \"Der Eichener See ist Teil des FFH-Gebietes Dinkelberg und Röttler Wald.\", \"Der See ist nur bei hohem Grundwasserstand wasserführend.\"], [\"Der Eichener See wird im Volksmund alemannisch Eiemer See genannt.\", \"Der Eichener See ist ein zeitweise (astatisch) erscheinender Karstsee.\", \"Der Eichener See ist Teil des FFH-Gebietes Dinkelberg und Röttler Wald.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 399,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [30, 45], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Das Gebiet wird als Kulturlandschaft mit naturnahen Buchenwäldern, Hecken, Kalkmagerrasen, Glatthaferwiesen, Höhlen und einem temporären Karstsee beschrieben.\", \"Das Gebiet ist ein hervorragender Lebensraum für zahlreiche FFH-Arten, insbesondere für Fledermausarten.\", \"Im Eiemer See lebt eine urzeitliche Krebsart.\"], \"source_fact_index\": 80, \"target_contexts\": [[\"Die Wiesengesellschaft am Seegrund darf bei Trockenheit nicht beweidet werden.\", \"Die Wiesengesellschaft am Seegrund darf bei Trockenheit nicht gedüngt werden.\", \"Im See lebt der Blattfußkrebs Tanymastix lacunae.\"], [\"Seit 1983 ist der See als flächiges Naturdenkmal ausgewiesen.\", \"Die Größe des Naturdenkmals beträgt 3,75 Hektar.\", \"Der See ist als Fauna-Flora-Habitat-Gebiet von europäischem Rang eingestuft.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 382,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [34, 33], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Das Gebiet ist ein hervorragender Lebensraum für zahlreiche FFH-Arten, insbesondere für Fledermausarten.\", \"Im Eiemer See lebt eine urzeitliche Krebsart.\", \"Diese Krebsart kommt sonst nur an wenigen Orten in Deutschland und im restlichen Europa vor.\"], \"source_fact_index\": 81, \"target_contexts\": [[\"Ein Austrocknen des Seegrundes ist für den Lebenszyklus von Tanymastix lacunae unabdingbar.\", \"Der See ist der einzig gesicherte Fundort von Tanymastix lacunae in Deutschland.\", \"In ganz Europa sind lediglich sieben weitere sichere Fundorte von Tanymastix lacunae bekannt.\"], [\"Tanymastix lacunae gehört zur Ordnung der Kiemenfüßer (Anostraca).\", \"Ein Austrocknen des Seegrundes ist für den Lebenszyklus von Tanymastix lacunae unabdingbar.\", \"Der See ist der einzig gesicherte Fundort von Tanymastix lacunae in Deutschland.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 388,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [31, 30], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Im Eiemer See lebt eine urzeitliche Krebsart.\", \"Diese Krebsart kommt sonst nur an wenigen Orten in Deutschland und im restlichen Europa vor.\", \"Der wissenschaftliche Name des Tieres ist Tanymastix lacunae.\"], \"source_fact_index\": 82, \"target_contexts\": [[\"Die Wiesengesellschaft am Seegrund darf bei Trockenheit nicht gedüngt werden.\", \"Im See lebt der Blattfußkrebs Tanymastix lacunae.\", \"Tanymastix lacunae gehört zur Ordnung der Kiemenfüßer (Anostraca).\"], [\"Die Wiesengesellschaft am Seegrund darf bei Trockenheit nicht beweidet werden.\", \"Die Wiesengesellschaft am Seegrund darf bei Trockenheit nicht gedüngt werden.\", \"Im See lebt der Blattfußkrebs Tanymastix lacunae.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 349,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [31, 30], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Diese Krebsart kommt sonst nur an wenigen Orten in Deutschland und im restlichen Europa vor.\", \"Der wissenschaftliche Name des Tieres ist Tanymastix lacunae.\", \"Er gehört zu den Kiemenfußkrebsen.\"], \"source_fact_index\": 83, \"target_contexts\": [[\"Die Wiesengesellschaft am Seegrund darf bei Trockenheit nicht gedüngt werden.\", \"Im See lebt der Blattfußkrebs Tanymastix lacunae.\", \"Tanymastix lacunae gehört zur Ordnung der Kiemenfüßer (Anostraca).\"], [\"Die Wiesengesellschaft am Seegrund darf bei Trockenheit nicht beweidet werden.\", \"Die Wiesengesellschaft am Seegrund darf bei Trockenheit nicht gedüngt werden.\", \"Im See lebt der Blattfußkrebs Tanymastix lacunae.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 348,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [30, 34], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der wissenschaftliche Name des Tieres ist Tanymastix lacunae.\", \"Er gehört zu den Kiemenfußkrebsen.\", \"Kiemenfußkrebse haben ihre Kiemen an den Füßen oder Beinen.\"], \"source_fact_index\": 84, \"target_contexts\": [[\"Die Wiesengesellschaft am Seegrund darf bei Trockenheit nicht beweidet werden.\", \"Die Wiesengesellschaft am Seegrund darf bei Trockenheit nicht gedüngt werden.\", \"Im See lebt der Blattfußkrebs Tanymastix lacunae.\"], [\"Ein Austrocknen des Seegrundes ist für den Lebenszyklus von Tanymastix lacunae unabdingbar.\", \"Der See ist der einzig gesicherte Fundort von Tanymastix lacunae in Deutschland.\", \"In ganz Europa sind lediglich sieben weitere sichere Fundorte von Tanymastix lacunae bekannt.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 363,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [34, 44], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Er gehört zu den Kiemenfußkrebsen.\", \"Kiemenfußkrebse haben ihre Kiemen an den Füßen oder Beinen.\", \"Ausgewachsene Exemplare werden etwa zwei Zentimeter lang.\"], \"source_fact_index\": 85, \"target_contexts\": [[\"Ein Austrocknen des Seegrundes ist für den Lebenszyklus von Tanymastix lacunae unabdingbar.\", \"Der See ist der einzig gesicherte Fundort von Tanymastix lacunae in Deutschland.\", \"In ganz Europa sind lediglich sieben weitere sichere Fundorte von Tanymastix lacunae bekannt.\"], [\"Der See und seine Uferbereiche stehen seit 1939 unter besonderem Schutz.\", \"Seit 1983 ist der See als flächiges Naturdenkmal ausgewiesen.\", \"Die Größe des Naturdenkmals beträgt 3,75 Hektar.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 365,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [40, 34], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Kiemenfußkrebse haben ihre Kiemen an den Füßen oder Beinen.\", \"Ausgewachsene Exemplare werden etwa zwei Zentimeter lang.\", \"Die Weibchen können bis zu 14.000 Eier legen.\"], \"source_fact_index\": 86, \"target_contexts\": [[\"Im Jahr 1910 kamen Menschen in dem See um.\", \"Die erste wissenschaftliche Beschreibung des Sees erfolgte vermutlich in dem Artikel 'Von einem merkwürdigen See in der oberen Markgrafschaft Baden'.\", \"Der Artikel wurde von Heinrich Sander verfasst.\"], [\"Ein Austrocknen des Seegrundes ist für den Lebenszyklus von Tanymastix lacunae unabdingbar.\", \"Der See ist der einzig gesicherte Fundort von Tanymastix lacunae in Deutschland.\", \"In ganz Europa sind lediglich sieben weitere sichere Fundorte von Tanymastix lacunae bekannt.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 366,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [34, 32], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ausgewachsene Exemplare werden etwa zwei Zentimeter lang.\", \"Die Weibchen können bis zu 14.000 Eier legen.\", \"Die Eier sind sehr robust und können mehrere Jahre im trockenen Boden überleben, bis der See wieder ansteigt.\"], \"source_fact_index\": 87, \"target_contexts\": [[\"Ein Austrocknen des Seegrundes ist für den Lebenszyklus von Tanymastix lacunae unabdingbar.\", \"Der See ist der einzig gesicherte Fundort von Tanymastix lacunae in Deutschland.\", \"In ganz Europa sind lediglich sieben weitere sichere Fundorte von Tanymastix lacunae bekannt.\"], [\"Im See lebt der Blattfußkrebs Tanymastix lacunae.\", \"Tanymastix lacunae gehört zur Ordnung der Kiemenfüßer (Anostraca).\", \"Ein Austrocknen des Seegrundes ist für den Lebenszyklus von Tanymastix lacunae unabdingbar.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 383,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [41, 40], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Weibchen können bis zu 14.000 Eier legen.\", \"Die Eier sind sehr robust und können mehrere Jahre im trockenen Boden überleben, bis der See wieder ansteigt.\", \"Die Art wurde bereits 1758 von Linné beschrieben.\"], \"source_fact_index\": 88, \"target_contexts\": [[\"Die erste wissenschaftliche Beschreibung des Sees erfolgte vermutlich in dem Artikel 'Von einem merkwürdigen See in der oberen Markgrafschaft Baden'.\", \"Der Artikel wurde von Heinrich Sander verfasst.\", \"Der Artikel erschien im Jahr 1782 in der Zeitschrift 'Der Naturforscher'.\"], [\"Im Jahr 1910 kamen Menschen in dem See um.\", \"Die erste wissenschaftliche Beschreibung des Sees erfolgte vermutlich in dem Artikel 'Von einem merkwürdigen See in der oberen Markgrafschaft Baden'.\", \"Der Artikel wurde von Heinrich Sander verfasst.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 360,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [41, 40], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Art wurde bereits 1758 von Linné beschrieben.\", \"Der Zoologe Eduard Graeter hat die Art 1909 erstmals im Eiemer See gefunden.\", \"Eduard Graeter befasste sich im Zusammenhang mit seiner Dissertation an der Universität Basel auch mit Ruderfußkrebsen in unterirdischen Gewässern.\"], \"source_fact_index\": 90, \"target_contexts\": [[\"Die erste wissenschaftliche Beschreibung des Sees erfolgte vermutlich in dem Artikel 'Von einem merkwürdigen See in der oberen Markgrafschaft Baden'.\", \"Der Artikel wurde von Heinrich Sander verfasst.\", \"Der Artikel erschien im Jahr 1782 in der Zeitschrift 'Der Naturforscher'.\"], [\"Im Jahr 1910 kamen Menschen in dem See um.\", \"Die erste wissenschaftliche Beschreibung des Sees erfolgte vermutlich in dem Artikel 'Von einem merkwürdigen See in der oberen Markgrafschaft Baden'.\", \"Der Artikel wurde von Heinrich Sander verfasst.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 373,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [54, 62], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Zoologe Eduard Graeter hat die Art 1909 erstmals im Eiemer See gefunden.\", \"Eduard Graeter befasste sich im Zusammenhang mit seiner Dissertation an der Universität Basel auch mit Ruderfußkrebsen in unterirdischen Gewässern.\", \"Das Eierspringen findet am Eiemer See statt.\"], \"source_fact_index\": 91, \"target_contexts\": [[\"Die maximale Ausdehnung des Sees beträgt circa 2,5 ha.\", \"Es kann acht bis 160 Tage dauern, bis das gesamte zu Tage getretene Wasser wieder verschwindet.\", \"Es gibt eine Sage über Männlein, die in einem großen unterirdischen Palast hausen.\"], [\"Die Tochter stimmte dem Vertrag ihres Vaters zunächst zu.\", \"Später verliebte sich die Tochter in einen gutaussehenden Burschen.\", \"Das Mädchen fürchtete sich davor, ihr Leben mit einem Wicht im Kristallschloss im Berg zu verbringen.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 378,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [57, 63], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Das Eierspringen findet am Eiemer See statt.\", \"Das Eierspringen findet am Oschdermendig statt.\", \"Das Eierspringen ist ein Brauch.\"], \"source_fact_index\": 93, \"target_contexts\": [[\"Der Palast ist aus Kristall gestaltet und mit Gold, Silber und Edelsteinen eingerichtet.\", \"Es ist ungeklärt, ob es sich bei diesen Wesen um hilfreiche Seemännlein oder andere Wichte handelt.\", \"Ein Bauer aus Eichen versprach seine jüngste Tochter einem dieser Wichte zur Frau.\"], [\"Später verliebte sich die Tochter in einen gutaussehenden Burschen.\", \"Das Mädchen fürchtete sich davor, ihr Leben mit einem Wicht im Kristallschloss im Berg zu verbringen.\", \"Aus Verzweiflung beschloss die Tochter, mit ihrem Liebsten die Heimat zu verlassen, um der Macht der Seewichte zu entkommen.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 363,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [60, 54], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Das Eierspringen findet am Oschdermendig statt.\", \"Das Eierspringen ist ein Brauch.\", \"Der Brauch des Eierspringens hat keltische Ursprünge.\"], \"source_fact_index\": 94, \"target_contexts\": [[\"Die Bedingung des Versprechens war, dass die Seewichte die Felder des Bauern ausreichend bewässern.\", \"Die Seewichte hielten die Abmachung ein, sodass die Felder des Bauern grünten, während die der Nachbarn verdorrten.\", \"Die Tochter stimmte dem Vertrag ihres Vaters zunächst zu.\"], [\"Die maximale Ausdehnung des Sees beträgt circa 2,5 ha.\", \"Es kann acht bis 160 Tage dauern, bis das gesamte zu Tage getretene Wasser wieder verschwindet.\", \"Es gibt eine Sage über Männlein, die in einem großen unterirdischen Palast hausen.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 359,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [57, 62], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Das Eierspringen ist ein Brauch.\", \"Der Brauch des Eierspringens hat keltische Ursprünge.\", \"Der Brauch soll die Fruchtbarkeit im Eiemer Dorf erhalten.\"], \"source_fact_index\": 95, \"target_contexts\": [[\"Der Palast ist aus Kristall gestaltet und mit Gold, Silber und Edelsteinen eingerichtet.\", \"Es ist ungeklärt, ob es sich bei diesen Wesen um hilfreiche Seemännlein oder andere Wichte handelt.\", \"Ein Bauer aus Eichen versprach seine jüngste Tochter einem dieser Wichte zur Frau.\"], [\"Die Tochter stimmte dem Vertrag ihres Vaters zunächst zu.\", \"Später verliebte sich die Tochter in einen gutaussehenden Burschen.\", \"Das Mädchen fürchtete sich davor, ihr Leben mit einem Wicht im Kristallschloss im Berg zu verbringen.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 351,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [1, 0], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Eichener See befindet sich 2,5 km westlich der Erdmannshöhle (Hasler Höhle).\", \"Der Eichener See liegt in einem flachen Tal.\", \"Der Eichener See liegt rund 350 m südlich der Bundesstraße 518.\"], \"source_fact_index\": 16, \"target_contexts\": [[\"Der Eiemer See (deutsch: Eichener See) ist ein Karstsee.\", \"Der See befindet sich auf dem Dinkelberg bei Schopfe in Baden-Württemberg.\"], [\"Der Eiemer See (deutsch: Eichener See) ist ein Karstsee.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 307,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [82, 83], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Wiesengesellschaft am Seegrund darf bei Trockenheit nicht gedüngt werden.\", \"Im See lebt der Blattfußkrebs Tanymastix lacunae.\", \"Tanymastix lacunae gehört zur Ordnung der Kiemenfüßer (Anostraca).\"], \"source_fact_index\": 31, \"target_contexts\": [[\"Im Eiemer See lebt eine urzeitliche Krebsart.\", \"Diese Krebsart kommt sonst nur an wenigen Orten in Deutschland und im restlichen Europa vor.\", \"Der wissenschaftliche Name des Tieres ist Tanymastix lacunae.\"], [\"Diese Krebsart kommt sonst nur an wenigen Orten in Deutschland und im restlichen Europa vor.\", \"Der wissenschaftliche Name des Tieres ist Tanymastix lacunae.\", \"Er gehört zu den Kiemenfußkrebsen.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 344,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [6, 8], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der See befindet sich auf dem Dinkelberg bei Schopfe in Baden-Württemberg.\", \"Der See ist nur alle paar Jahre sichtbar.\", \"Es gibt keinen Bach, der in den See fließt oder aus ihm herausführt.\"], \"source_fact_index\": 3, \"target_contexts\": [[\"Der See ist nur bei hohem Grundwasserstand wasserführend.\", \"Der See liegt in einer Mulde, einer Muschelkalk-Karstwanne.\", \"Der Eichener See hat keinen oberirdischen Zufluss.\"], [\"Der Eichener See hat keinen oberirdischen Zufluss.\", \"Der Abfluss des Sees erfolgt teilweise unterirdisch.\", \"Der Abfluss des Sees erfolgt teilweise durch Verdunstung.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 319,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [7, 4], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der See ist nur alle paar Jahre sichtbar.\", \"Es gibt keinen Bach, der in den See fließt oder aus ihm herausführt.\", \"Der See wird unterirdisch durch Grundwasser gefüllt.\"], \"source_fact_index\": 4, \"target_contexts\": [[\"Der See liegt in einer Mulde, einer Muschelkalk-Karstwanne.\", \"Der Eichener See hat keinen oberirdischen Zufluss.\", \"Der Abfluss des Sees erfolgt teilweise unterirdisch.\"], [\"Der Eichener See ist ein zeitweise (astatisch) erscheinender Karstsee.\", \"Der Eichener See ist Teil des FFH-Gebietes Dinkelberg und Röttler Wald.\", \"Der See ist nur bei hohem Grundwasserstand wasserführend.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 332,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [19, 18], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Bei Regen sammelt sich Wasser in diesen Hohlräumen.\", \"Bei längerem Regen und zusätzlicher Schneeschmelze kann nicht alles Wasser ablaufen und staut sich in den Hohlräumen.\", \"Das gestaute Wasser sammelt sich in Senken, sogenannten Dolinen.\"], \"source_fact_index\": 10, \"target_contexts\": [[\"Geologisch handelt es sich um eine zeitweise mit Wasser gefüllte Doline.\", \"Grundwasser tritt besonders nach der Schneeschmelze oder nach längeren Regenphasen zu Tage.\", \"Die Formation wird als Erdfallsee bezeichnet.\"], [\"Der Eichener See liegt rund 350 m südlich der Bundesstraße 518.\", \"Geologisch handelt es sich um eine zeitweise mit Wasser gefüllte Doline.\", \"Grundwasser tritt besonders nach der Schneeschmelze oder nach längeren Regenphasen zu Tage.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 356,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [25, 21], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Bei längerem Regen und zusätzlicher Schneeschmelze kann nicht alles Wasser ablaufen und staut sich in den Hohlräumen.\", \"Das gestaute Wasser sammelt sich in Senken, sogenannten Dolinen.\", \"Man kann beobachten, wie Wasser aus dem Boden sprudelt.\"], \"source_fact_index\": 11, \"target_contexts\": [[\"Der Dinkelberg besteht vorwiegend aus Muschelkalk.\", \"Im Dinkelberg befinden sich Hohlräume.\", \"Die Hohlräume können sich aufgrund eines Grundwasserstaus sehr schnell mit Wasser füllen.\"], [\"Die Formation wird als Erdfallsee bezeichnet.\", \"In trockenen Phasen kann der Flurabstand bis zu 40 m betragen.\", \"Der Flurabstand ist der Höhenunterschied zwischen Grundwasserspiegel und Erdoberfläche.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 344,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [21, 22], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Man kann beobachten, wie Wasser aus dem Boden sprudelt.\", \"Versuche mit Farbe haben nachgewiesen, dass Wasser aus dem See beim Ablaufen unter anderem in der Hasler Höhle in Hasel erscheint.\", \"Es gibt eine unterirdische Verbindung zwischen dem See und der Hasler Höhle.\"], \"source_fact_index\": 13, \"target_contexts\": [[\"Die Formation wird als Erdfallsee bezeichnet.\", \"In trockenen Phasen kann der Flurabstand bis zu 40 m betragen.\", \"Der Flurabstand ist der Höhenunterschied zwischen Grundwasserspiegel und Erdoberfläche.\"], [\"In trockenen Phasen kann der Flurabstand bis zu 40 m betragen.\", \"Der Flurabstand ist der Höhenunterschied zwischen Grundwasserspiegel und Erdoberfläche.\", \"Der tiefste Punkt der das Grundwasser stauenden Wanne liegt etwa 48 m unter der Erdoberfläche.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 371,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [22, 21], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Versuche mit Farbe haben nachgewiesen, dass Wasser aus dem See beim Ablaufen unter anderem in der Hasler Höhle in Hasel erscheint.\", \"Es gibt eine unterirdische Verbindung zwischen dem See und der Hasler Höhle.\", \"Die Hasler Höhle ist etwa 2 Kilometer vom See entfernt.\"], \"source_fact_index\": 14, \"target_contexts\": [[\"In trockenen Phasen kann der Flurabstand bis zu 40 m betragen.\", \"Der Flurabstand ist der Höhenunterschied zwischen Grundwasserspiegel und Erdoberfläche.\", \"Der tiefste Punkt der das Grundwasser stauenden Wanne liegt etwa 48 m unter der Erdoberfläche.\"], [\"Die Formation wird als Erdfallsee bezeichnet.\", \"In trockenen Phasen kann der Flurabstand bis zu 40 m betragen.\", \"Der Flurabstand ist der Höhenunterschied zwischen Grundwasserspiegel und Erdoberfläche.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 372,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [40, 49], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der erste Bericht über den Eiemer See stammt aus dem Jahr 1784.\", \"Die Informationen stammen aus den veröffentlichten Nachlassschriften von Heinrich Sander.\", \"Heinrich Sander war Professor am Gymnasium illustre in Karlsruhe.\"], \"source_fact_index\": 17, \"target_contexts\": [[\"Im Jahr 1910 kamen Menschen in dem See um.\", \"Die erste wissenschaftliche Beschreibung des Sees erfolgte vermutlich in dem Artikel 'Von einem merkwürdigen See in der oberen Markgrafschaft Baden'.\", \"Der Artikel wurde von Heinrich Sander verfasst.\"], [\"Das Landschaftsschutzgebiet hat die Nummer 3.36.012.\", \"Die Größe des Landschaftsschutzgebiets beträgt 8,0 Hektar.\", \"Das Landschaftsschutzgebiet wurde per Verordnung vom 26. April 1942 ausgewiesen.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 348,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [40, 49], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Informationen stammen aus den veröffentlichten Nachlassschriften von Heinrich Sander.\", \"Heinrich Sander war Professor am Gymnasium illustre in Karlsruhe.\", \"Heinrich Sander war unter anderem Lehrer von Johann Peter Hebel.\"], \"source_fact_index\": 18, \"target_contexts\": [[\"Im Jahr 1910 kamen Menschen in dem See um.\", \"Die erste wissenschaftliche Beschreibung des Sees erfolgte vermutlich in dem Artikel 'Von einem merkwürdigen See in der oberen Markgrafschaft Baden'.\", \"Der Artikel wurde von Heinrich Sander verfasst.\"], [\"Das Landschaftsschutzgebiet hat die Nummer 3.36.012.\", \"Die Größe des Landschaftsschutzgebiets beträgt 8,0 Hektar.\", \"Das Landschaftsschutzgebiet wurde per Verordnung vom 26. April 1942 ausgewiesen.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 341,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [40, 49], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Heinrich Sander war Professor am Gymnasium illustre in Karlsruhe.\", \"Heinrich Sander war unter anderem Lehrer von Johann Peter Hebel.\", \"Heinrich Sander beschrieb die Größe des Sees als 'ungleich und verschieden'.\"], \"source_fact_index\": 19, \"target_contexts\": [[\"Im Jahr 1910 kamen Menschen in dem See um.\", \"Die erste wissenschaftliche Beschreibung des Sees erfolgte vermutlich in dem Artikel 'Von einem merkwürdigen See in der oberen Markgrafschaft Baden'.\", \"Der Artikel wurde von Heinrich Sander verfasst.\"], [\"Das Landschaftsschutzgebiet hat die Nummer 3.36.012.\", \"Die Größe des Landschaftsschutzgebiets beträgt 8,0 Hektar.\", \"Das Landschaftsschutzgebiet wurde per Verordnung vom 26. April 1942 ausgewiesen.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 341,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [36, 38], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Junge Mädchen und Jungen wollten mit einem Boot auf dem See spazieren fahren.\", \"Es sind anscheinend zu viele Personen in das Boot eingestiegen.\", \"Das Boot ist gesunken.\"], \"source_fact_index\": 28, \"target_contexts\": [[\"In ganz Europa sind lediglich sieben weitere sichere Fundorte von Tanymastix lacunae bekannt.\", \"Der See wurde erstmals 1771 urkundlich erwähnt.\", \"Im Jahr 1771 ertranken fünf Menschen in dem See, nachdem ihr Boot gekentert war.\"], [\"Im Jahr 1771 ertranken fünf Menschen in dem See, nachdem ihr Boot gekentert war.\", \"Im Jahr 1876 kamen Menschen in dem See um.\", \"Im Jahr 1910 kamen Menschen in dem See um.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 342,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [59, 68], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Personen wurden mit Stangen aus dem See gezogen.\", \"Laut dem Text hätten die Personen wiederbelebt werden können, wenn die Polizei schneller gerufen worden wäre.\", \"Die Seebodenfläche wurde genutzt, sobald das Wasser zurückgegangen war.\"], \"source_fact_index\": 32, \"target_contexts\": [[\"Ein Bauer aus Eichen versprach seine jüngste Tochter einem dieser Wichte zur Frau.\", \"Die Bedingung des Versprechens war, dass die Seewichte die Felder des Bauern ausreichend bewässern.\", \"Die Seewichte hielten die Abmachung ein, sodass die Felder des Bauern grünten, während die der Nachbarn verdorrten.\"], [\"Wassermassen quollen hervor und füllten die Mulde unter Donner und Blitzen.\", \"Das Paar ertrank, als der See über ihnen zusammenschlug.\", \"Die Felder und Matten des Bauern wurden weggeschwemmt, bis nur noch nackter Fels übrig blieb und die Ernte zerstört war.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 376,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [68, 59], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Laut dem Text hätten die Personen wiederbelebt werden können, wenn die Polizei schneller gerufen worden wäre.\", \"Die Seebodenfläche wurde genutzt, sobald das Wasser zurückgegangen war.\", \"Auf dem Seeboden wurde Madde (Wiesengras/Heu) gemäht.\"], \"source_fact_index\": 33, \"target_contexts\": [[\"Wassermassen quollen hervor und füllten die Mulde unter Donner und Blitzen.\", \"Das Paar ertrank, als der See über ihnen zusammenschlug.\", \"Die Felder und Matten des Bauern wurden weggeschwemmt, bis nur noch nackter Fels übrig blieb und die Ernte zerstört war.\"], [\"Ein Bauer aus Eichen versprach seine jüngste Tochter einem dieser Wichte zur Frau.\", \"Die Bedingung des Versprechens war, dass die Seewichte die Felder des Bauern ausreichend bewässern.\", \"Die Seewichte hielten die Abmachung ein, sodass die Felder des Bauern grünten, während die der Nachbarn verdorrten.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 386,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [58, 60], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Seebodenfläche wurde genutzt, sobald das Wasser zurückgegangen war.\", \"Auf dem Seeboden wurde Madde (Wiesengras/Heu) gemäht.\", \"Die Qualität des Futters war gut.\"], \"source_fact_index\": 34, \"target_contexts\": [[\"Es ist ungeklärt, ob es sich bei diesen Wesen um hilfreiche Seemännlein oder andere Wichte handelt.\", \"Ein Bauer aus Eichen versprach seine jüngste Tochter einem dieser Wichte zur Frau.\", \"Die Bedingung des Versprechens war, dass die Seewichte die Felder des Bauern ausreichend bewässern.\"], [\"Die Bedingung des Versprechens war, dass die Seewichte die Felder des Bauern ausreichend bewässern.\", \"Die Seewichte hielten die Abmachung ein, sodass die Felder des Bauern grünten, während die der Nachbarn verdorrten.\", \"Die Tochter stimmte dem Vertrag ihres Vaters zunächst zu.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 370,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [59, 68], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Es wurden verschiedene Kulturen angepflanzt, darunter Roggen (Korn), Dinkel, Hafer (Haber), Gerste (Gärschd) und Kartoffeln (Herdepfel).\", \"Diese Anpflanzungen lieferten gute Ernten.\", \"Die Ernten waren gefährdet bzw. wurden vernichtet, wenn das Wasser kam und die Flächen überschwemmte.\"], \"source_fact_index\": 37, \"target_contexts\": [[\"Ein Bauer aus Eichen versprach seine jüngste Tochter einem dieser Wichte zur Frau.\", \"Die Bedingung des Versprechens war, dass die Seewichte die Felder des Bauern ausreichend bewässern.\", \"Die Seewichte hielten die Abmachung ein, sodass die Felder des Bauern grünten, während die der Nachbarn verdorrten.\"], [\"Wassermassen quollen hervor und füllten die Mulde unter Donner und Blitzen.\", \"Das Paar ertrank, als der See über ihnen zusammenschlug.\", \"Die Felder und Matten des Bauern wurden weggeschwemmt, bis nur noch nackter Fels übrig blieb und die Ernte zerstört war.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 409,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [51, 52], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Ernten waren gefährdet bzw. wurden vernichtet, wenn das Wasser kam und die Flächen überschwemmte.\", \"Der Eiemer See hat bei maximalem Füllstand eine Tiefe von etwa 3,20 Metern.\", \"Der Eiemer See ist 250 Meter lang.\"], \"source_fact_index\": 39, \"target_contexts\": [[\"Das Landschaftsschutzgebiet wurde per Verordnung vom 26. April 1942 ausgewiesen.\", \"In besonders niederschlagsreichen Jahren kann der oberirdisch sichtbare Wasserstand bis zu drei Meter betragen.\", \"Der See kann innerhalb von ein bis fünf Wochen eine Ausdehnung von 250 m Länge und 135 m Breite erreichen.\"], [\"In besonders niederschlagsreichen Jahren kann der oberirdisch sichtbare Wasserstand bis zu drei Meter betragen.\", \"Der See kann innerhalb von ein bis fünf Wochen eine Ausdehnung von 250 m Länge und 135 m Breite erreichen.\", \"Die maximale Ausdehnung des Sees beträgt circa 2,5 ha.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 398,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [51, 52], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Eiemer See hat bei maximalem Füllstand eine Tiefe von etwa 3,20 Metern.\", \"Der Eiemer See ist 250 Meter lang.\", \"Der Eiemer See ist 135 Meter breit.\"], \"source_fact_index\": 40, \"target_contexts\": [[\"Das Landschaftsschutzgebiet wurde per Verordnung vom 26. April 1942 ausgewiesen.\", \"In besonders niederschlagsreichen Jahren kann der oberirdisch sichtbare Wasserstand bis zu drei Meter betragen.\", \"Der See kann innerhalb von ein bis fünf Wochen eine Ausdehnung von 250 m Länge und 135 m Breite erreichen.\"], [\"In besonders niederschlagsreichen Jahren kann der oberirdisch sichtbare Wasserstand bis zu drei Meter betragen.\", \"Der See kann innerhalb von ein bis fünf Wochen eine Ausdehnung von 250 m Länge und 135 m Breite erreichen.\", \"Die maximale Ausdehnung des Sees beträgt circa 2,5 ha.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 386,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [51, 53], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Das Fassungsvermögen des Eiemer Sees beträgt etwa 33.000 Kubikmeter Wasser.\", \"Im schnellsten Fall ist der See innerhalb einer Woche gefüllt.\", \"Das Wasser bleibt meistens zwischen drei Wochen und zwei Monaten im See.\"], \"source_fact_index\": 43, \"target_contexts\": [[\"Das Landschaftsschutzgebiet wurde per Verordnung vom 26. April 1942 ausgewiesen.\", \"In besonders niederschlagsreichen Jahren kann der oberirdisch sichtbare Wasserstand bis zu drei Meter betragen.\", \"Der See kann innerhalb von ein bis fünf Wochen eine Ausdehnung von 250 m Länge und 135 m Breite erreichen.\"], [\"Der See kann innerhalb von ein bis fünf Wochen eine Ausdehnung von 250 m Länge und 135 m Breite erreichen.\", \"Die maximale Ausdehnung des Sees beträgt circa 2,5 ha.\", \"Es kann acht bis 160 Tage dauern, bis das gesamte zu Tage getretene Wasser wieder verschwindet.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 389,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [53, 51], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Im schnellsten Fall ist der See innerhalb einer Woche gefüllt.\", \"Das Wasser bleibt meistens zwischen drei Wochen und zwei Monaten im See.\", \"Der See war bereits so stark zugefroren, dass man darauf Schlittschuhlaufen konnte.\"], \"source_fact_index\": 44, \"target_contexts\": [[\"Der See kann innerhalb von ein bis fünf Wochen eine Ausdehnung von 250 m Länge und 135 m Breite erreichen.\", \"Die maximale Ausdehnung des Sees beträgt circa 2,5 ha.\", \"Es kann acht bis 160 Tage dauern, bis das gesamte zu Tage getretene Wasser wieder verschwindet.\"], [\"Das Landschaftsschutzgebiet wurde per Verordnung vom 26. April 1942 ausgewiesen.\", \"In besonders niederschlagsreichen Jahren kann der oberirdisch sichtbare Wasserstand bis zu drei Meter betragen.\", \"Der See kann innerhalb von ein bis fünf Wochen eine Ausdehnung von 250 m Länge und 135 m Breite erreichen.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 386,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [35, 37], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Das Wasser bleibt meistens zwischen drei Wochen und zwei Monaten im See.\", \"Der See war bereits so stark zugefroren, dass man darauf Schlittschuhlaufen konnte.\", \"Das erste datierte Auftreten des See ist im Jahr 1772.\"], \"source_fact_index\": 45, \"target_contexts\": [[\"Der See ist der einzig gesicherte Fundort von Tanymastix lacunae in Deutschland.\", \"In ganz Europa sind lediglich sieben weitere sichere Fundorte von Tanymastix lacunae bekannt.\", \"Der See wurde erstmals 1771 urkundlich erwähnt.\"], [\"Der See wurde erstmals 1771 urkundlich erwähnt.\", \"Im Jahr 1771 ertranken fünf Menschen in dem See, nachdem ihr Boot gekentert war.\", \"Im Jahr 1876 kamen Menschen in dem See um.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 353,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [37, 64], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Gustav Albiez zeigt in seiner Arbeit alle Jahre, in denen der See bis 1930 aufgetreten ist.\", \"Alle bisher bekannten Daten zum Auftreten sind in der 'Liste zum Auftreten vom Eiemer See' zusammengefasst.\", \"Der Eichener See tauchte im Dezember 2017 auf.\"], \"source_fact_index\": 49, \"target_contexts\": [[\"Der See wurde erstmals 1771 urkundlich erwähnt.\", \"Im Jahr 1771 ertranken fünf Menschen in dem See, nachdem ihr Boot gekentert war.\", \"Im Jahr 1876 kamen Menschen in dem See um.\"], [\"Das Mädchen fürchtete sich davor, ihr Leben mit einem Wicht im Kristallschloss im Berg zu verbringen.\", \"Aus Verzweiflung beschloss die Tochter, mit ihrem Liebsten die Heimat zu verlassen, um der Macht der Seewichte zu entkommen.\", \"Die beiden trafen sich in der letzten Nacht auf der Eichener Höhe.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 384,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [37, 63], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Im Dezember 2015 befand sich der See auf einem historischen Tiefstand.\", \"Durch Niederschläge zu Beginn des Jahres 2016 stieg der Grundwasserspiegel schnell an.\", \"Der Grundwasserspiegel stieg innerhalb weniger Tage im Januar von 6 auf 37 Meter.\"], \"source_fact_index\": 54, \"target_contexts\": [[\"Der See wurde erstmals 1771 urkundlich erwähnt.\", \"Im Jahr 1771 ertranken fünf Menschen in dem See, nachdem ihr Boot gekentert war.\", \"Im Jahr 1876 kamen Menschen in dem See um.\"], [\"Später verliebte sich die Tochter in einen gutaussehenden Burschen.\", \"Das Mädchen fürchtete sich davor, ihr Leben mit einem Wicht im Kristallschloss im Berg zu verbringen.\", \"Aus Verzweiflung beschloss die Tochter, mit ihrem Liebsten die Heimat zu verlassen, um der Macht der Seewichte zu entkommen.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 379,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [67, 59], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Grundwasserspiegel stieg innerhalb weniger Tage im Januar von 6 auf 37 Meter.\", \"Trotz des Anstiegs im Januar lag der See noch zwei Meter unter der Oberfläche.\", \"Weitere Niederschläge im Februar führten dazu, dass der See austrat.\"], \"source_fact_index\": 56, \"target_contexts\": [[\"Um Mitternacht, als die Glocke der Schopfheimer Michaelskirche schlug, begann ein unheimliches Rauschen.\", \"Wassermassen quollen hervor und füllten die Mulde unter Donner und Blitzen.\", \"Das Paar ertrank, als der See über ihnen zusammenschlug.\"], [\"Ein Bauer aus Eichen versprach seine jüngste Tochter einem dieser Wichte zur Frau.\", \"Die Bedingung des Versprechens war, dass die Seewichte die Felder des Bauern ausreichend bewässern.\", \"Die Seewichte hielten die Abmachung ein, sodass die Felder des Bauern grünten, während die der Nachbarn verdorrten.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 379,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [37, 63], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Weitere Niederschläge im Februar führten dazu, dass der See austrat.\", \"Der Pegel des Sees wird regelmäßig gemessen.\", \"Die Badische Zeitung veröffentlichte am 18. Februar 2016 einen Artikel mit dem Titel 'Eichener See: Geheimnisse eines Gewässers, das kommt und geht'.\"], \"source_fact_index\": 58, \"target_contexts\": [[\"Der See wurde erstmals 1771 urkundlich erwähnt.\", \"Im Jahr 1771 ertranken fünf Menschen in dem See, nachdem ihr Boot gekentert war.\", \"Im Jahr 1876 kamen Menschen in dem See um.\"], [\"Später verliebte sich die Tochter in einen gutaussehenden Burschen.\", \"Das Mädchen fürchtete sich davor, ihr Leben mit einem Wicht im Kristallschloss im Berg zu verbringen.\", \"Aus Verzweiflung beschloss die Tochter, mit ihrem Liebsten die Heimat zu verlassen, um der Macht der Seewichte zu entkommen.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 383,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [48, 46], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Das Landschaftsschutzgebiet hat die Nummer 3.36.012.\", \"Der Verordnungstext wurde am 8. Mai 1942 im 'Alemanne' abgedruckt.\", \"Das Landschaftsschutzgebiet hat eine Größe von 8 ha.\"], \"source_fact_index\": 62, \"target_contexts\": [[\"Das Naturdenkmal wird von einem Landschaftsschutzgebiet umschlossen.\", \"Das Landschaftsschutzgebiet hat die Nummer 3.36.012.\", \"Die Größe des Landschaftsschutzgebiets beträgt 8,0 Hektar.\"], [\"Die Größe des Naturdenkmals beträgt 3,75 Hektar.\", \"Der See ist als Fauna-Flora-Habitat-Gebiet von europäischem Rang eingestuft.\", \"Das Naturdenkmal wird von einem Landschaftsschutzgebiet umschlossen.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 351,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [47, 44], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der See selbst gehört nicht zum Landschaftsschutzgebiet.\", \"Der See und seine nähere Umgebung wurden am 11. Februar 1983 als flächenhaftes Naturdenkmal ausgewiesen.\", \"Die Nummer des flächenhaften Naturdenkmals ist 8336081001.\"], \"source_fact_index\": 66, \"target_contexts\": [[\"Der See ist als Fauna-Flora-Habitat-Gebiet von europäischem Rang eingestuft.\", \"Das Naturdenkmal wird von einem Landschaftsschutzgebiet umschlossen.\", \"Das Landschaftsschutzgebiet hat die Nummer 3.36.012.\"], [\"Der See und seine Uferbereiche stehen seit 1939 unter besonderem Schutz.\", \"Seit 1983 ist der See als flächiges Naturdenkmal ausgewiesen.\", \"Die Größe des Naturdenkmals beträgt 3,75 Hektar.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 367,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [3, 7], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Eiemer See gehört seit dem 31. Mai 2015 zum FFH-Gebiet 'Dinkelbärg un Röttler Wald'.\", \"Das FFH-Gebiet 'Dinkelbärg un Röttler Wald' hat die Nummer 8312311.\", \"Die Teilfläche des FFH-Gebiets um den Eiemer See umfasst 11,5 ha.\"], \"source_fact_index\": 74, \"target_contexts\": [[\"Der Eichener See wird im Volksmund alemannisch Eiemer See genannt.\", \"Der Eichener See ist ein zeitweise (astatisch) erscheinender Karstsee.\", \"Der Eichener See ist Teil des FFH-Gebietes Dinkelberg und Röttler Wald.\"], [\"Der See liegt in einer Mulde, einer Muschelkalk-Karstwanne.\", \"Der Eichener See hat keinen oberirdischen Zufluss.\", \"Der Abfluss des Sees erfolgt teilweise unterirdisch.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 387,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [3, 8], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Das FFH-Gebiet 'Dinkelbärg un Röttler Wald' hat die Nummer 8312311.\", \"Die Teilfläche des FFH-Gebiets um den Eiemer See umfasst 11,5 ha.\", \"Die Teilfläche deckt sich ungefähr mit dem Landschaftsschutzgebiet (LSG) und dem Naturdenkmal (FND).\"], \"source_fact_index\": 75, \"target_contexts\": [[\"Der Eichener See wird im Volksmund alemannisch Eiemer See genannt.\", \"Der Eichener See ist ein zeitweise (astatisch) erscheinender Karstsee.\", \"Der Eichener See ist Teil des FFH-Gebietes Dinkelberg und Röttler Wald.\"], [\"Der Eichener See hat keinen oberirdischen Zufluss.\", \"Der Abfluss des Sees erfolgt teilweise unterirdisch.\", \"Der Abfluss des Sees erfolgt teilweise durch Verdunstung.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 370,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [41, 43], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Eier sind sehr robust und können mehrere Jahre im trockenen Boden überleben, bis der See wieder ansteigt.\", \"Die Art wurde bereits 1758 von Linné beschrieben.\", \"Der Zoologe Eduard Graeter hat die Art 1909 erstmals im Eiemer See gefunden.\"], \"source_fact_index\": 89, \"target_contexts\": [[\"Die erste wissenschaftliche Beschreibung des Sees erfolgte vermutlich in dem Artikel 'Von einem merkwürdigen See in der oberen Markgrafschaft Baden'.\", \"Der Artikel wurde von Heinrich Sander verfasst.\", \"Der Artikel erschien im Jahr 1782 in der Zeitschrift 'Der Naturforscher'.\"], [\"Der Artikel erschien im Jahr 1782 in der Zeitschrift 'Der Naturforscher'.\", \"Der See und seine Uferbereiche stehen seit 1939 unter besonderem Schutz.\", \"Seit 1983 ist der See als flächiges Naturdenkmal ausgewiesen.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 372,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [54, 64], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Eduard Graeter befasste sich im Zusammenhang mit seiner Dissertation an der Universität Basel auch mit Ruderfußkrebsen in unterirdischen Gewässern.\", \"Das Eierspringen findet am Eiemer See statt.\", \"Das Eierspringen findet am Oschdermendig statt.\"], \"source_fact_index\": 92, \"target_contexts\": [[\"Die maximale Ausdehnung des Sees beträgt circa 2,5 ha.\", \"Es kann acht bis 160 Tage dauern, bis das gesamte zu Tage getretene Wasser wieder verschwindet.\", \"Es gibt eine Sage über Männlein, die in einem großen unterirdischen Palast hausen.\"], [\"Das Mädchen fürchtete sich davor, ihr Leben mit einem Wicht im Kristallschloss im Berg zu verbringen.\", \"Aus Verzweiflung beschloss die Tochter, mit ihrem Liebsten die Heimat zu verlassen, um der Macht der Seewichte zu entkommen.\", \"Die beiden trafen sich in der letzten Nacht auf der Eichener Höhe.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 385,
+    "verification_status": "model_verified"
+  }
+}

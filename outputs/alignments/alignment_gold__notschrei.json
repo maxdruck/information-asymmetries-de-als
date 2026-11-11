@@ -1,0 +1,4616 @@
+{
+  "pair_key": "gold__notschrei",
+  "cluster": "Gold",
+  "title": "Notschrei",
+  "als_page_id": "gold_notschrei_als",
+  "de_page_id": "gold_notschrei_de",
+  "als_title": "Notschrei",
+  "de_title": "Notschrei",
+  "embed_model": "sentence-transformers/LaBSE",
+  "xfactalign_version": "paper_style_density_normalized_distance",
+  "top_k_facts": 2,
+  "paragraph_alignment": "directed_argmax_union",
+  "fact_retrieval_metric": "D(e_i,f_j)=1-cos(e_i,f_j)-hubness(f_j)",
+  "paragraph_adjacency": [
+    {
+      "de_paragraph": 0,
+      "als_paragraph": 0,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 1,
+      "als_paragraph": 12,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 2,
+      "als_paragraph": 1,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 3,
+      "als_paragraph": 2,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 4,
+      "als_paragraph": 3,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 5,
+      "als_paragraph": 2,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 6,
+      "als_paragraph": 4,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 7,
+      "als_paragraph": 5,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 8,
+      "als_paragraph": 6,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 8,
+      "als_paragraph": 19,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 8,
+      "als_paragraph": 20,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 9,
+      "als_paragraph": 7,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 10,
+      "als_paragraph": 8,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 11,
+      "als_paragraph": 9,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 12,
+      "als_paragraph": 10,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 12,
+      "als_paragraph": 11,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 13,
+      "als_paragraph": 12,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 13,
+      "als_paragraph": 14,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 14,
+      "als_paragraph": 13,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 15,
+      "als_paragraph": 14,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 16,
+      "als_paragraph": 15,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 17,
+      "als_paragraph": 16,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 18,
+      "als_paragraph": 17,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 19,
+      "als_paragraph": 18,
+      "weight": 2
+    }
+  ],
+  "de_to_als": [
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 0,
+      "source_fact": "Der Notschrei ist ein Gebirgspass im Südschwarzwald.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 0,
+          "target_fact": "Der Notschrei ist ein Gebirgspass im Südschwarzwald zwischen dem Dreisamtal im Raum Freiburg im Norden und dem oberen Wiesental im Süden.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.149
+        },
+        {
+          "target_fact_index": 3,
+          "target_fact": "Die Landessstraße 124 führt Richtung Nordwesten über die Halde am Schauinsland nach Freiburg.",
+          "target_paragraph": 0,
+          "density_normalized_distance": 0.0678
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 1,
+      "source_fact": "Der Notschrei liegt zwischen dem Dreisamtal im Raum Freiburg im Norden und dem oberen Wiesental im Süden.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 0,
+          "target_fact": "Der Notschrei ist ein Gebirgspass im Südschwarzwald zwischen dem Dreisamtal im Raum Freiburg im Norden und dem oberen Wiesental im Süden.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.3453
+        },
+        {
+          "target_fact_index": 3,
+          "target_fact": "Die Landessstraße 124 führt Richtung Nordwesten über die Halde am Schauinsland nach Freiburg.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0444
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 2,
+      "source_fact": "Der Notschrei verbindet über die Landesstraße L 126 die Talorte Oberried im Norden und Todtnau im Süden.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 1,
+          "target_fact": "Der Notschrei verbindet über die Landessstraße 126 die Ortsteile Oberried im Norden und Todtnau im Süden.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.3826
+        },
+        {
+          "target_fact_index": 2,
+          "target_fact": "Die Landessstraße 124 zweigt am Notschrei von der Landessstraße 126 ab.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.2464
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 3,
+      "source_fact": "Die Landesstraße 124 zweigt am Notschrei von der Landesstraße 126 ab.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 2,
+          "target_fact": "Die Landessstraße 124 zweigt am Notschrei von der Landessstraße 126 ab.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.5328
+        },
+        {
+          "target_fact_index": 3,
+          "target_fact": "Die Landessstraße 124 führt Richtung Nordwesten über die Halde am Schauinsland nach Freiburg.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1693
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 4,
+      "source_fact": "Die Landesstraße 124 führt Richtung Nordwesten über die Halde am Schauinsland nach Freiburg.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 3,
+          "target_fact": "Die Landessstraße 124 führt Richtung Nordwesten über die Halde am Schauinsland nach Freiburg.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.4841
+        },
+        {
+          "target_fact_index": 2,
+          "target_fact": "Die Landessstraße 124 zweigt am Notschrei von der Landessstraße 126 ab.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.2345
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 5,
+      "source_fact": "Der Name der Straße geht darauf zurück, dass sie über den Pass auf einen Notschrei der Bevölkerung hin gebaut wurde.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 68,
+          "target_fact": "Der Notschrei erhielt im Pass über die Schwendle seinen Namen Notschrei.",
+          "target_paragraph": 12,
+          "density_normalized_distance": 0.0036
+        },
+        {
+          "target_fact_index": 67,
+          "target_fact": "Der Notschrei war eine dringende Petition.",
+          "target_paragraph": 12,
+          "density_normalized_distance": 0.0345
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 6,
+      "source_fact": "Der Notschrei der Bevölkerung war eine dringende Petition.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 67,
+          "target_fact": "Der Notschrei war eine dringende Petition.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.4132
+        },
+        {
+          "target_fact_index": 66,
+          "target_fact": "Die Karlsruher Regierung musste auf den Notschrei der Wiesentäler reagieren.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.0875
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 7,
+      "source_fact": "Die Passhöhe liegt fünf Kilometer westlich des Feldbergs in der Gemarkung Todtnau.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 4,
+          "target_fact": "Die Passhöhe liegt 5 km westlich vom Feldberg auf der Todtnauer Gemarkung.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.4275
+        },
+        {
+          "target_fact_index": 8,
+          "target_fact": "Auf der Südseite liegen zwischen der Passhöhe und Todtnau die Ortschaften Muggebrunn und Aftersteeg.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.1103
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 8,
+      "source_fact": "Die Passhöhe ist nach der Hohtannhöhe der zweithöchste Pass im Landkreis Lörrach.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 6,
+          "target_fact": "Das St. Willelmer Tal gehört zu Oberried.",
+          "target_paragraph": 1,
+          "density_normalized_distance": 0.0085
+        },
+        {
+          "target_fact_index": 4,
+          "target_fact": "Die Passhöhe liegt 5 km westlich vom Feldberg auf der Todtnauer Gemarkung.",
+          "target_paragraph": 1,
+          "density_normalized_distance": 0.0315
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 9,
+      "source_fact": "Vor dem Nordanstieg der Landesstraße 126 südlich von Oberried führt eine Stichstraße nach Osten in das zu Oberried gehörende St. Wilhelmer Tal.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 5,
+          "target_fact": "Vor dem Nordanstieg der Landessstraße 126 südlich von Oberried führt eine Stichstraße nach Osten in das St. Willelmer Tal.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.3665
+        },
+        {
+          "target_fact_index": 6,
+          "target_fact": "Das St. Willelmer Tal gehört zu Oberried.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.1768
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 10,
+      "source_fact": "Auf halber Höhe zweigt beim Steinwasen-Park die Kreisstraße 4996 nach Hofsgrund und zur Landesstraße 124 auf der Halde beim Schauinsland ab.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 7,
+          "target_fact": "Auf halber Höhe zweigt beim Steiwasen-Park die Kreisstraße 4996 nach Hofsgrund und zur Landessstraße 124 auf der Halde beim Schauinsland ab.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.4641
+        },
+        {
+          "target_fact_index": 5,
+          "target_fact": "Vor dem Nordanstieg der Landessstraße 126 südlich von Oberried führt eine Stichstraße nach Osten in das St. Willelmer Tal.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.0473
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 11,
+      "source_fact": "Auf der Südseite liegen zwischen der Passhöhe und Todtnau die Ortschaften Muggenbrunn und Aftersteg.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 8,
+          "target_fact": "Auf der Südseite liegen zwischen der Passhöhe und Todtnau die Ortschaften Muggebrunn und Aftersteeg.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.4204
+        },
+        {
+          "target_fact_index": 9,
+          "target_fact": "Zwischen Muggebrunn und Aftersteeg führt eine Stichstraße zum östlich gelegenen Gemeindeteil Todtnauberg.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.2079
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 12,
+      "source_fact": "Zwischen Muggenbrunn und Aftersteg führt eine Stichstraße zum östlich gelegenen Gemeindeteil Todtnauberg.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 9,
+          "target_fact": "Zwischen Muggebrunn und Aftersteeg führt eine Stichstraße zum östlich gelegenen Gemeindeteil Todtnauberg.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.3807
+        },
+        {
+          "target_fact_index": 8,
+          "target_fact": "Auf der Südseite liegen zwischen der Passhöhe und Todtnau die Ortschaften Muggebrunn und Aftersteeg.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.2541
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 13,
+      "source_fact": "Nahe der Passhöhe entstand 1854 im Zuge des Straßenausbaus ein Gasthof mit dem Namen Notschrei.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 10,
+          "target_fact": "Im Jahr 1854 entstand in der Nähe der Passhöhe im Zuge des Straßenausbaus ein Gasthof mit dem Namen Notschrei.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.4464
+        },
+        {
+          "target_fact_index": 11,
+          "target_fact": "Der Gasthof Notschrei wurde inzwischen zum Vier-Sterne-Waldhotel am Notschreipass ausgebaut.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1166
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 14,
+      "source_fact": "Der Gasthof Notschrei wurde inzwischen zum Vier-Sterne-Waldhotel am Notschreipass ausgebaut.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 11,
+          "target_fact": "Der Gasthof Notschrei wurde inzwischen zum Vier-Sterne-Waldhotel am Notschreipass ausgebaut.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.5414
+        },
+        {
+          "target_fact_index": 10,
+          "target_fact": "Im Jahr 1854 entstand in der Nähe der Passhöhe im Zuge des Straßenausbaus ein Gasthof mit dem Namen Notschrei.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0242
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 15,
+      "source_fact": "Der Notschrei ist touristisch stark erschlossen.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 12,
+          "target_fact": "Der Notschrei ist touristisch stark erschlossen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.5977
+        },
+        {
+          "target_fact_index": 21,
+          "target_fact": "In der Nähe vom Pass liegen einige Hotels.",
+          "target_paragraph": 3,
+          "density_normalized_distance": 0.0237
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 16,
+      "source_fact": "Der Notschrei ist im Sommer Ausgangspunkt für Wanderungen Richtung Wiedener Eck.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 13,
+          "target_fact": "Der Notschrei ist im Sommer Ausgangspunkt für Wanderungen zum Wyydener Egg.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.4317
+        },
+        {
+          "target_fact_index": 15,
+          "target_fact": "Der Notschrei ist im Sommer Ausgangspunkt für Wanderungen zum Fèldbärg.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.4202
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 17,
+      "source_fact": "Der Notschrei ist im Sommer Ausgangspunkt für Wanderungen Richtung Schauinsland.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 14,
+          "target_fact": "Der Notschrei ist im Sommer Ausgangspunkt für Wanderungen zum Schauinsland.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.5223
+        },
+        {
+          "target_fact_index": 15,
+          "target_fact": "Der Notschrei ist im Sommer Ausgangspunkt für Wanderungen zum Fèldbärg.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.3953
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 18,
+      "source_fact": "Der Notschrei ist im Sommer Ausgangspunkt für Wanderungen Richtung Feldberg.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 15,
+          "target_fact": "Der Notschrei ist im Sommer Ausgangspunkt für Wanderungen zum Fèldbärg.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.489
+        },
+        {
+          "target_fact_index": 14,
+          "target_fact": "Der Notschrei ist im Sommer Ausgangspunkt für Wanderungen zum Schauinsland.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.3925
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 19,
+      "source_fact": "Der Notschrei ist im Winter Start der Notschrei-Loipen Richtung Schauinsland.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 16,
+          "target_fact": "Der Notschrei ist im Winter Start der Notschrei-Loipè Richtung Schauinsland.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.4738
+        },
+        {
+          "target_fact_index": 18,
+          "target_fact": "Der Notschrei ist im Winter Start der Notschrei-Loipè Richtung Stüèbèwasè.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.391
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 20,
+      "source_fact": "Der Notschrei ist im Winter Start der Notschrei-Loipen Richtung Wiedener Eck.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 17,
+          "target_fact": "Der Notschrei ist im Winter Start der Notschrei-Loipè Richtung Wyydener Egg.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.3906
+        },
+        {
+          "target_fact_index": 19,
+          "target_fact": "Der Notschrei ist im Winter Start der Notschrei-Loipè Richtung Fèldbärg.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.3844
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 21,
+      "source_fact": "Der Notschrei ist im Winter Start der Notschrei-Loipen Richtung Stübenwasen.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 18,
+          "target_fact": "Der Notschrei ist im Winter Start der Notschrei-Loipè Richtung Stüèbèwasè.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.4675
+        },
+        {
+          "target_fact_index": 16,
+          "target_fact": "Der Notschrei ist im Winter Start der Notschrei-Loipè Richtung Schauinsland.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.3985
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 22,
+      "source_fact": "Der Notschrei ist im Winter Start der Notschrei-Loipen Richtung Feldberg.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 19,
+          "target_fact": "Der Notschrei ist im Winter Start der Notschrei-Loipè Richtung Fèldbärg.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.4466
+        },
+        {
+          "target_fact_index": 18,
+          "target_fact": "Der Notschrei ist im Winter Start der Notschrei-Loipè Richtung Stüèbèwasè.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.354
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 23,
+      "source_fact": "In der Nähe des Passes liegen mehrere Skilifte.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 20,
+          "target_fact": "In der Nähe vom Pass liegen einige Schilifte.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.4999
+        },
+        {
+          "target_fact_index": 21,
+          "target_fact": "In der Nähe vom Pass liegen einige Hotels.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.3938
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 24,
+      "source_fact": "In der Nähe des Passes liegen mehrere Hotels.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 21,
+          "target_fact": "In der Nähe vom Pass liegen einige Hotels.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.6109
+        },
+        {
+          "target_fact_index": 20,
+          "target_fact": "In der Nähe vom Pass liegen einige Schilifte.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.4662
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 25,
+      "source_fact": "Das Waldhotel am Notschreipass wurde 1900 in einem ersten Bauabschnitt errichtet.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 11,
+          "target_fact": "Der Gasthof Notschrei wurde inzwischen zum Vier-Sterne-Waldhotel am Notschreipass ausgebaut.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0583
+        },
+        {
+          "target_fact_index": 10,
+          "target_fact": "Im Jahr 1854 entstand in der Nähe der Passhöhe im Zuge des Straßenausbaus ein Gasthof mit dem Namen Notschrei.",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.0065
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 26,
+      "source_fact": "Das Waldhotel am Notschreipass wurde 1906 in einem zweiten Bauabschnitt errichtet.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 11,
+          "target_fact": "Der Gasthof Notschrei wurde inzwischen zum Vier-Sterne-Waldhotel am Notschreipass ausgebaut.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.075
+        },
+        {
+          "target_fact_index": 10,
+          "target_fact": "Im Jahr 1854 entstand in der Nähe der Passhöhe im Zuge des Straßenausbaus ein Gasthof mit dem Namen Notschrei.",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.0037
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 27,
+      "source_fact": "Das Waldhotel am Notschreipass wurde Kurhaus Waldheim benannt.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 11,
+          "target_fact": "Der Gasthof Notschrei wurde inzwischen zum Vier-Sterne-Waldhotel am Notschreipass ausgebaut.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1664
+        },
+        {
+          "target_fact_index": 10,
+          "target_fact": "Im Jahr 1854 entstand in der Nähe der Passhöhe im Zuge des Straßenausbaus ein Gasthof mit dem Namen Notschrei.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0115
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 28,
+      "source_fact": "Das Waldhotel am Notschreipass war Haltestelle der Pferdepostlinie.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 11,
+          "target_fact": "Der Gasthof Notschrei wurde inzwischen zum Vier-Sterne-Waldhotel am Notschreipass ausgebaut.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1277
+        },
+        {
+          "target_fact_index": 10,
+          "target_fact": "Im Jahr 1854 entstand in der Nähe der Passhöhe im Zuge des Straßenausbaus ein Gasthof mit dem Namen Notschrei.",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.0416
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 29,
+      "source_fact": "Die westliche Variante des Schwarzwälder Weitwanderwegs ist der Westweg.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 22,
+          "target_fact": "Die westliche Variante vom Westweg verläuft zwischen Feldberg und Belchen über den Notschreier.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.0801
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 30,
+      "source_fact": "Der Westweg verläuft zwischen Feldberg und Belchen.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 22,
+          "target_fact": "Die westliche Variante vom Westweg verläuft zwischen Feldberg und Belchen über den Notschreier.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.2946
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 31,
+      "source_fact": "Der Westweg verläuft über den Notschrei.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 22,
+          "target_fact": "Die westliche Variante vom Westweg verläuft zwischen Feldberg und Belchen über den Notschreier.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.0166
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 32,
+      "source_fact": "Der Notschrei wurde bei der Tour de France 1971 am 27. Juni befahren.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 23,
+          "target_fact": "Der Notschrei wurde bei der Tour de France 1971 vom Tross passiert.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.4265
+        },
+        {
+          "target_fact_index": 25,
+          "target_fact": "Der Notschrei wurde als Berg der 2. Kategorie evaluiert.",
+          "target_paragraph": 5,
+          "density_normalized_distance": 0.0139
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 33,
+      "source_fact": "Der Notschrei war Teil der Etappe von Basel nach Freiburg.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 24,
+          "target_fact": "Der Notschrei war Teil der Etappe von Basel nach Freiburg.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.4456
+        },
+        {
+          "target_fact_index": 23,
+          "target_fact": "Der Notschrei wurde bei der Tour de France 1971 vom Tross passiert.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.1277
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 34,
+      "source_fact": "Der Notschrei wurde als Berg der 2. Kategorie gewertet.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 25,
+          "target_fact": "Der Notschrei wurde als Berg der 2. Kategorie evaluiert.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.574
+        },
+        {
+          "target_fact_index": 23,
+          "target_fact": "Der Notschrei wurde bei der Tour de France 1971 vom Tross passiert.",
+          "target_paragraph": 5,
+          "density_normalized_distance": 0.0081
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 35,
+      "source_fact": "Die Straße führt vom Oberrieder Tal zur Passhöhe am sog. Schwendle.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 26,
+          "target_fact": "Die Straße führt vom Oberrieder Tal zur Passhöhe am sogenannten Schwendle.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.4023
+        },
+        {
+          "target_fact_index": 27,
+          "target_fact": "Am Schwendle liegt die Wasserscheide zwischen Dreisam- und Wiesental.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.0474
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 36,
+      "source_fact": "Das Schwendle ist die Wasserscheide zwischen Dreisam- und Wiesental.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 27,
+          "target_fact": "Am Schwendle liegt die Wasserscheide zwischen Dreisam- und Wiesental.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.4198
+        },
+        {
+          "target_fact_index": 104,
+          "target_fact": "Es handelt sich um einen Text in der Badischen Zeitung",
+          "target_paragraph": 19,
+          "density_normalized_distance": 0.0223
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 37,
+      "source_fact": "Die Stelle am Schwendle trägt seit ihrer Fertigstellung 1848 den Namen „Notschrei“.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 28,
+          "target_fact": "Die Stelle am Schwendle trägt seit ihrer Fertigstellung 1848 den Namen „Notschrei“.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.4788
+        },
+        {
+          "target_fact_index": 107,
+          "target_fact": "Der Wegkreuzungspunkt 'Notschrei' hat eine Namensgeschichte.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.1874
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 38,
+      "source_fact": "Der geographische Begriff „Notschrei“ bezieht sich auf einen historischen Vorgang.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 30,
+          "target_fact": "Bei „Notschrei“ handelt es sich um einen historischen Vorgang.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.3915
+        },
+        {
+          "target_fact_index": 29,
+          "target_fact": "Bei „Notschrei“ handelt es sich um einen geographischen Begriff.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.3773
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 39,
+      "source_fact": "1780 wurde der Bau einer Passstraße von Todtnau nach Oberried über den 1119 m hohen Schwendle geplant.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 31,
+          "target_fact": "Im Jahr 1780 wurde der Bau einer Passstraße von Todtnau nach Oberried über den 1119 m hohen Schwendle geplant.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.3309
+        },
+        {
+          "target_fact_index": 33,
+          "target_fact": "Die Passstraße sollte helfen, das Albtal mit der Stadt St. Blasien und das Hochrheintal besser an das Breisgau anzubinden.",
+          "target_paragraph": 7,
+          "density_normalized_distance": 0.0426
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 40,
+      "source_fact": "Die Planung des Baus der Passstraße von Todtnau nach Oberried erfolgte noch unter der Regierung Vorderösterreichs.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 32,
+          "target_fact": "Zum Zeitpunkt der Planung wurde der Südscharzwald noch von den Vorderösterreichern regiert.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.2068
+        },
+        {
+          "target_fact_index": 31,
+          "target_fact": "Im Jahr 1780 wurde der Bau einer Passstraße von Todtnau nach Oberried über den 1119 m hohen Schwendle geplant.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.0396
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 41,
+      "source_fact": "Der Bau der Passstraße von Todtnau nach Oberried sollte das Gebiet um Sankt Blasien und Waldshut besser an den Breisgau anbinden.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 33,
+          "target_fact": "Die Passstraße sollte helfen, das Albtal mit der Stadt St. Blasien und das Hochrheintal besser an das Breisgau anzubinden.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.2561
+        },
+        {
+          "target_fact_index": 31,
+          "target_fact": "Im Jahr 1780 wurde der Bau einer Passstraße von Todtnau nach Oberried über den 1119 m hohen Schwendle geplant.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.0037
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 42,
+      "source_fact": "Als Todtnau unter Napoleon badisch wurde, brauchte der Ort neue Impulse.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 34,
+          "target_fact": "26 Jahre später war Todtnau unter französischer Herrschaft badisch.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.061
+        },
+        {
+          "target_fact_index": 35,
+          "target_fact": "Der Ort im Oberen Wiesental brauchte danach neue Impulse, weil der Bergbau im Südschwarzwald am Ende war.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0105
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 43,
+      "source_fact": "Der Bergbau in Todtnau war am Ende.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 43,
+          "target_fact": "Es erwies sich als problematisch, die Produkte abzusetzen.",
+          "target_paragraph": 8,
+          "density_normalized_distance": 0.0192
+        },
+        {
+          "target_fact_index": 34,
+          "target_fact": "26 Jahre später war Todtnau unter französischer Herrschaft badisch.",
+          "target_paragraph": 8,
+          "density_normalized_distance": 0.0407
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 44,
+      "source_fact": "Strukturwandel war in Todtnau dringend notwendig.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 36,
+          "target_fact": "Strukturwandel war dringend notwendig, damit die ersten industriellen Entwicklungen unter dem Einfluss von Schweizer Kapital im Wiesental zustande kamen.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0998
+        },
+        {
+          "target_fact_index": 43,
+          "target_fact": "Es erwies sich als problematisch, die Produkte abzusetzen.",
+          "target_paragraph": 8,
+          "density_normalized_distance": 0.0125
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 45,
+      "source_fact": "Erste industrielle Entwicklungen in Todtnau kamen durch Zuzug Schweizer Kapitals zustande.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 36,
+          "target_fact": "Strukturwandel war dringend notwendig, damit die ersten industriellen Entwicklungen unter dem Einfluss von Schweizer Kapital im Wiesental zustande kamen.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.2816
+        },
+        {
+          "target_fact_index": 38,
+          "target_fact": "Die ersten Bürstenfabriken entstanden 1765.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0069
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 46,
+      "source_fact": "In Todtnau gab es bald zahlreiche Manufakturen.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 37,
+          "target_fact": "Es gab bald eine Vielzahl an Manufakturen wie Bürstenfabriken.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.311
+        },
+        {
+          "target_fact_index": 41,
+          "target_fact": "Es gab eine Papierfabrik.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0712
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 47,
+      "source_fact": "In Todtnau gab es Bürstenfabriken, wobei die erste 1765 entstand.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 38,
+          "target_fact": "Die ersten Bürstenfabriken entstanden 1765.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.3058
+        },
+        {
+          "target_fact_index": 40,
+          "target_fact": "Die erste Zuckerfabrik entstand 1826.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.1749
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 48,
+      "source_fact": "In Todtnau gab es eine Zuckerfabrik, wobei die erste 1826 entstand.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 40,
+          "target_fact": "Die erste Zuckerfabrik entstand 1826.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.3575
+        },
+        {
+          "target_fact_index": 39,
+          "target_fact": "Es gab eine Zuckerfabrik.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.2388
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 49,
+      "source_fact": "In Todtnau gab es eine Papierfabrik.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 41,
+          "target_fact": "Es gab eine Papierfabrik.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.331
+        },
+        {
+          "target_fact_index": 39,
+          "target_fact": "Es gab eine Zuckerfabrik.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.1985
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 50,
+      "source_fact": "In Todtnau gab es Spinnereien.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 42,
+          "target_fact": "Es gab Spinnereien.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.3374
+        },
+        {
+          "target_fact_index": 41,
+          "target_fact": "Es gab eine Papierfabrik.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.1185
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 51,
+      "source_fact": "Es erwies sich als problematisch, die Produkte abzusetzen.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 43,
+          "target_fact": "Es erwies sich als problematisch, die Produkte abzusetzen.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.6029
+        },
+        {
+          "target_fact_index": 44,
+          "target_fact": "Die abgelegene Lage des Tals und seiner Gemeinden führte zu hohen Transportkosten.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0086
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 52,
+      "source_fact": "Die abgelegene Lage des Tales und seiner Gemeinden führte zu hohen Transportkosten.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 44,
+          "target_fact": "Die abgelegene Lage des Tals und seiner Gemeinden führte zu hohen Transportkosten.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.5388
+        },
+        {
+          "target_fact_index": 43,
+          "target_fact": "Es erwies sich als problematisch, die Produkte abzusetzen.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0345
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 53,
+      "source_fact": "Freiburg war damals bereits eine florierende Stadt im Breisgau.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 45,
+          "target_fact": "Die prosperierende Stadt Freiburg war zu jener Zeit auf direktem Weg mit dem Fuhrwerk nicht zu erreichen.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.2681
+        },
+        {
+          "target_fact_index": 37,
+          "target_fact": "Es gab bald eine Vielzahl an Manufakturen wie Bürstenfabriken.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0499
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 54,
+      "source_fact": "Freiburg war auf direktem Wege mit dem Fuhrwerk von Todtnau aus nicht einmal erreichbar.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 45,
+          "target_fact": "Die prosperierende Stadt Freiburg war zu jener Zeit auf direktem Weg mit dem Fuhrwerk nicht zu erreichen.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.2528
+        },
+        {
+          "target_fact_index": 34,
+          "target_fact": "26 Jahre später war Todtnau unter französischer Herrschaft badisch.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0108
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 55,
+      "source_fact": "Es gab nur einen steilen Weg, der über Aftersteg, Muggenbrunn, die Halde und Horben nach Günterstal führte.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 46,
+          "target_fact": "Es gab nur einen mühsamen Weg, der über Aftersteeg, Muggebrunn, die Halde und Horb nach Güntersdal führte.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.3739
+        },
+        {
+          "target_fact_index": 49,
+          "target_fact": "Dieser Weg war überhaupt nur mit Saumrossen und zweirädrigen Handkarren brauchbar.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0938
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 56,
+      "source_fact": "Dieser Weg war im Winter oft unbenutzbar.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 47,
+          "target_fact": "Dieser Weg war im Winter geschlossen.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.3392
+        },
+        {
+          "target_fact_index": 49,
+          "target_fact": "Dieser Weg war überhaupt nur mit Saumrossen und zweirädrigen Handkarren brauchbar.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.1303
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 57,
+      "source_fact": "Zwischen Todtnau und Halde mussten zunächst 500 Höhenmeter Aufstieg und anschließend wieder hinab ins Tal bewältigt werden.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 48,
+          "target_fact": "Zwischen Todtnau und Halde ging es zunächst 500 Höhenmeter hinauf und anschließend wieder hinunter.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.4165
+        },
+        {
+          "target_fact_index": 44,
+          "target_fact": "Die abgelegene Lage des Tals und seiner Gemeinden führte zu hohen Transportkosten.",
+          "target_paragraph": 8,
+          "density_normalized_distance": 0.0047
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 58,
+      "source_fact": "Dieser Weg war überhaupt nur mit Saumpferden und zweirädrigen Handkarren zu benutzen.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 49,
+          "target_fact": "Dieser Weg war überhaupt nur mit Saumrossen und zweirädrigen Handkarren brauchbar.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.5218
+        },
+        {
+          "target_fact_index": 47,
+          "target_fact": "Dieser Weg war im Winter geschlossen.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.017
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 59,
+      "source_fact": "Das Großherzogtum Baden hatte andere Interessen als den Straßenbau.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 50,
+          "target_fact": "Das Großherzogtum Baden hatte bis 1848 andere Interessen als den Straßenbau innerhalb des 1806 neu gegründeten Landes Baden.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.296
+        },
+        {
+          "target_fact_index": 54,
+          "target_fact": "Schönau hatte damals als frischbadianisches Amtstädtchen in Karlsruhe mehr politisches Gewicht als Todtnau.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.0088
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 60,
+      "source_fact": "Todtnau und Schönau rivalisierten vor allem um das Straßenprojekt.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 53,
+          "target_fact": "Vor allem Todtnau und Schönau rivalisierten um dieses Straßenprojekt.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.4327
+        },
+        {
+          "target_fact_index": 54,
+          "target_fact": "Schönau hatte damals als frischbadianisches Amtstädtchen in Karlsruhe mehr politisches Gewicht als Todtnau.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.07
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 61,
+      "source_fact": "Schönau war damals seit Kurzem ein badisches Amtsstädtchen.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 54,
+          "target_fact": "Schönau hatte damals als frischbadianisches Amtstädtchen in Karlsruhe mehr politisches Gewicht als Todtnau.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.2198
+        },
+        {
+          "target_fact_index": 50,
+          "target_fact": "Das Großherzogtum Baden hatte bis 1848 andere Interessen als den Straßenbau innerhalb des 1806 neu gegründeten Landes Baden.",
+          "target_paragraph": 9,
+          "density_normalized_distance": 0.0169
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 62,
+      "source_fact": "Schönau hatte in Karlsruhe mehr politisches Gewicht als Todtnau.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 54,
+          "target_fact": "Schönau hatte damals als frischbadianisches Amtstädtchen in Karlsruhe mehr politisches Gewicht als Todtnau.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.4679
+        },
+        {
+          "target_fact_index": 53,
+          "target_fact": "Vor allem Todtnau und Schönau rivalisierten um dieses Straßenprojekt.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.0417
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 63,
+      "source_fact": "Schönau fand Unterstützung in der Forderung nach einer Straße übers Wiedener Eck nach Staufen.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 55,
+          "target_fact": "Schönau hatte Unterstützung in der Forderung nach einer Straße über den Wydener Eck nach Staufen im Oberherrytal.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.3513
+        },
+        {
+          "target_fact_index": 53,
+          "target_fact": "Vor allem Todtnau und Schönau rivalisierten um dieses Straßenprojekt.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.0782
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 64,
+      "source_fact": "Die Gemeinden des oberen Wiesentals brachten 1819 im ersten Landtag in Karlsruhe eine Petition vor.",
+      "source_paragraph": 12,
+      "matches": [
+        {
+          "target_fact_index": 56,
+          "target_fact": "Im Jahr 1819 brachten die Gemeinden vom oberen Wiesental im ersten Landtag zu Karlsruhe eine Petition vor.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.4335
+        },
+        {
+          "target_fact_index": 57,
+          "target_fact": "In dieser Petition forderten die Gemeinden vom oberen Wiesental eine Fahrstraße von Todtnau über Muggebrunn und St. Wilhelm nach Oberried.",
+          "target_paragraph": 10,
+          "density_normalized_distance": 0.0503
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 65,
+      "source_fact": "In der Petition forderten die Gemeinden des oberen Wiesentals eine Fahrstraße von Todtnau über Muggenbrunn und St. Wilhelm nach Oberried.",
+      "source_paragraph": 12,
+      "matches": [
+        {
+          "target_fact_index": 57,
+          "target_fact": "In dieser Petition forderten die Gemeinden vom oberen Wiesental eine Fahrstraße von Todtnau über Muggebrunn und St. Wilhelm nach Oberried.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.3505
+        },
+        {
+          "target_fact_index": 56,
+          "target_fact": "Im Jahr 1819 brachten die Gemeinden vom oberen Wiesental im ersten Landtag zu Karlsruhe eine Petition vor.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.0818
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 66,
+      "source_fact": "Die geforderte Fahrstraße sollte als Anschluss an die bereits bestehende Verbindung zwischen Kirchzarten und Freiburg dienen.",
+      "source_paragraph": 12,
+      "matches": [
+        {
+          "target_fact_index": 58,
+          "target_fact": "Die geforderte Fahrstraße sollte als Anschluss an die schon existierende Verbindung zwischen Kirchzarten und Freiburg durch das Dreisamtal dienen.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.3891
+        },
+        {
+          "target_fact_index": 57,
+          "target_fact": "In dieser Petition forderten die Gemeinden vom oberen Wiesental eine Fahrstraße von Todtnau über Muggebrunn und St. Wilhelm nach Oberried.",
+          "target_paragraph": 10,
+          "density_normalized_distance": 0.1344
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 67,
+      "source_fact": "1844 fiel eine Entscheidung für die Straße von Utzenfeld übers Wiedener Eck durchs Münstertal nach Staufen.",
+      "source_paragraph": 12,
+      "matches": [
+        {
+          "target_fact_index": 59,
+          "target_fact": "Im Jahr 1844 gab es eine Entscheidung für eine Straße zwischen Utzenfeld über den Weidener Egg durch das Münstertal nach Staufen.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.3039
+        },
+        {
+          "target_fact_index": 57,
+          "target_fact": "In dieser Petition forderten die Gemeinden vom oberen Wiesental eine Fahrstraße von Todtnau über Muggebrunn und St. Wilhelm nach Oberried.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.0167
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 68,
+      "source_fact": "Im Jahr 1847 machten sich Hunger und Arbeitslosigkeit im Wiesental breit.",
+      "source_paragraph": 13,
+      "matches": [
+        {
+          "target_fact_index": 60,
+          "target_fact": "Im Jahr 1847 haben sich Hunger und Arbeitslosigkeit im Wiesental breit gemacht.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.475
+        },
+        {
+          "target_fact_index": 61,
+          "target_fact": "Hunger und Arbeitslosigkeit im Wiesental führten zu einer neuen Forderung.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.2418
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 69,
+      "source_fact": "Der Hunger und die Arbeitslosigkeit im Wiesental führten im Jahr 1847 zu einer Erneuerung der Forderung.",
+      "source_paragraph": 13,
+      "matches": [
+        {
+          "target_fact_index": 61,
+          "target_fact": "Hunger und Arbeitslosigkeit im Wiesental führten zu einer neuen Forderung.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.3456
+        },
+        {
+          "target_fact_index": 60,
+          "target_fact": "Im Jahr 1847 haben sich Hunger und Arbeitslosigkeit im Wiesental breit gemacht.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.3445
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 70,
+      "source_fact": "Die Bevölkerung fühlte sich von der Regierung in Karlsruhe im Stich gelassen.",
+      "source_paragraph": 13,
+      "matches": [
+        {
+          "target_fact_index": 62,
+          "target_fact": "Die Bevölkerung im Oberen Wiesental fühlte sich von der Regierung in Karlsruhe im Stich gelassen.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.3696
+        },
+        {
+          "target_fact_index": 66,
+          "target_fact": "Die Karlsruher Regierung musste auf den Notschrei der Wiesentäler reagieren.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.2025
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 71,
+      "source_fact": "Viele Todtnauer bekundeten sich bereits offen zu den Zielen der Badischen Revolution.",
+      "source_paragraph": 13,
+      "matches": [
+        {
+          "target_fact_index": 63,
+          "target_fact": "Viele Todtnauer und Zeller sympathisierten bereits offen mit den Zielen der Badischen Revolution und deren Vertretern.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.3367
+        },
+        {
+          "target_fact_index": 64,
+          "target_fact": "Hecker und Struve waren Vertreter der Badischen Revolution.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.1035
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 72,
+      "source_fact": "Viele Todtnauer bekundeten sich bereits offen zu den Vertretern der Badischen Revolution, Hecker und Struve.",
+      "source_paragraph": 13,
+      "matches": [
+        {
+          "target_fact_index": 64,
+          "target_fact": "Hecker und Struve waren Vertreter der Badischen Revolution.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.3113
+        },
+        {
+          "target_fact_index": 63,
+          "target_fact": "Viele Todtnauer und Zeller sympathisierten bereits offen mit den Zielen der Badischen Revolution und deren Vertretern.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.2835
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 73,
+      "source_fact": "Viele Zeller bekundeten sich bereits offen zu den Zielen der Badischen Revolution.",
+      "source_paragraph": 13,
+      "matches": [
+        {
+          "target_fact_index": 63,
+          "target_fact": "Viele Todtnauer und Zeller sympathisierten bereits offen mit den Zielen der Badischen Revolution und deren Vertretern.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.3393
+        },
+        {
+          "target_fact_index": 64,
+          "target_fact": "Hecker und Struve waren Vertreter der Badischen Revolution.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.1211
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 74,
+      "source_fact": "Viele Zeller bekundeten sich bereits offen zu den Vertretern der Badischen Revolution, Hecker und Struve.",
+      "source_paragraph": 13,
+      "matches": [
+        {
+          "target_fact_index": 64,
+          "target_fact": "Hecker und Struve waren Vertreter der Badischen Revolution.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.3175
+        },
+        {
+          "target_fact_index": 63,
+          "target_fact": "Viele Todtnauer und Zeller sympathisierten bereits offen mit den Zielen der Badischen Revolution und deren Vertretern.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.2814
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 75,
+      "source_fact": "Die Karlsruher Regierung musste handeln, um ein Aufbegehren der Bevölkerung zu verhindern.",
+      "source_paragraph": 13,
+      "matches": [
+        {
+          "target_fact_index": 65,
+          "target_fact": "Die Karlsruher Regierung musste rasch handeln, um einen Aufruhr im Wiesental zu verhindern.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.3843
+        },
+        {
+          "target_fact_index": 66,
+          "target_fact": "Die Karlsruher Regierung musste auf den Notschrei der Wiesentäler reagieren.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.369
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 76,
+      "source_fact": "Die Karlsruher Regierung musste auf den Notschrei, die dringende Petition, reagieren.",
+      "source_paragraph": 13,
+      "matches": [
+        {
+          "target_fact_index": 66,
+          "target_fact": "Die Karlsruher Regierung musste auf den Notschrei der Wiesentäler reagieren.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.4702
+        },
+        {
+          "target_fact_index": 65,
+          "target_fact": "Die Karlsruher Regierung musste rasch handeln, um einen Aufruhr im Wiesental zu verhindern.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.2779
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 77,
+      "source_fact": "Zahlreiche Personen des öffentlichen Lebens machten sich für die Forderung Todtnaus nach der Straßenanbindung stark.",
+      "source_paragraph": 14,
+      "matches": [
+        {
+          "target_fact_index": 69,
+          "target_fact": "Eine Vielzahl von Personen des öffentlichen Lebens haben sich stark für die Forderung der Todtnauer für eine Straßenanbindung gemacht.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.4821
+        },
+        {
+          "target_fact_index": 73,
+          "target_fact": "Johann Faller unterstützte zusammen mit dem Schopfemer Abgeordneten Gottschalk die Todtnauer Petition.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.0559
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 78,
+      "source_fact": "Johann Faller unterstützte zusammen mit Ernst Friedrich Gottschalk die Todtnauer Petition.",
+      "source_paragraph": 14,
+      "matches": [
+        {
+          "target_fact_index": 73,
+          "target_fact": "Johann Faller unterstützte zusammen mit dem Schopfemer Abgeordneten Gottschalk die Todtnauer Petition.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.4395
+        },
+        {
+          "target_fact_index": 71,
+          "target_fact": "Johann Faller war ein gebürtiger Todtnauer.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.213
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 79,
+      "source_fact": "Johann Faller war ein Zeller Kaufmann.",
+      "source_paragraph": 14,
+      "matches": [
+        {
+          "target_fact_index": 71,
+          "target_fact": "Johann Faller war ein gebürtiger Todtnauer.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.4618
+        },
+        {
+          "target_fact_index": 70,
+          "target_fact": "Johann Faller war ein Zeller Kaufmann und Textilingenieur.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.4423
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 80,
+      "source_fact": "Johann Faller war Textilingenieur.",
+      "source_paragraph": 14,
+      "matches": [
+        {
+          "target_fact_index": 70,
+          "target_fact": "Johann Faller war ein Zeller Kaufmann und Textilingenieur.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.4602
+        },
+        {
+          "target_fact_index": 71,
+          "target_fact": "Johann Faller war ein gebürtiger Todtnauer.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.4078
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 81,
+      "source_fact": "Johann Faller war gebürtiger Todtnauer.",
+      "source_paragraph": 14,
+      "matches": [
+        {
+          "target_fact_index": 71,
+          "target_fact": "Johann Faller war ein gebürtiger Todtnauer.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.5756
+        },
+        {
+          "target_fact_index": 70,
+          "target_fact": "Johann Faller war ein Zeller Kaufmann und Textilingenieur.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.3445
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 82,
+      "source_fact": "Johann Faller war Mitglied der Zweiten Kammer in Karlsruhe.",
+      "source_paragraph": 14,
+      "matches": [
+        {
+          "target_fact_index": 72,
+          "target_fact": "Johann Faller war Mitglied in der Zweiten Kammer zu Karlsruhe.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.5301
+        },
+        {
+          "target_fact_index": 71,
+          "target_fact": "Johann Faller war ein gebürtiger Todtnauer.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.2955
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 83,
+      "source_fact": "Ernst Friedrich Gottschalk war ein Schopfheimer Abgeordneter.",
+      "source_paragraph": 14,
+      "matches": [
+        {
+          "target_fact_index": 74,
+          "target_fact": "Gottschalk war Abgeordneter aus Schopfheim und unterstützte die Todtnauer Petition.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.216
+        },
+        {
+          "target_fact_index": 76,
+          "target_fact": "Robert Gerwig war der Cousin von Friedrich Julius Gerwig.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.1503
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 84,
+      "source_fact": "Die Intervention des Bezirksförsters Friedrich Julius Gerwig aus Kirchzarten war mitausschlaggebend.",
+      "source_paragraph": 14,
+      "matches": [
+        {
+          "target_fact_index": 75,
+          "target_fact": "Die Intervention vom Bezirksförster Friedrich Julius Gerwig aus Kirchzarten war mitentscheidend.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.5141
+        },
+        {
+          "target_fact_index": 76,
+          "target_fact": "Robert Gerwig war der Cousin von Friedrich Julius Gerwig.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.1756
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 85,
+      "source_fact": "Robert Gerwig war der Vetter von Friedrich Julius Gerwig.",
+      "source_paragraph": 14,
+      "matches": [
+        {
+          "target_fact_index": 76,
+          "target_fact": "Robert Gerwig war der Cousin von Friedrich Julius Gerwig.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.4897
+        },
+        {
+          "target_fact_index": 77,
+          "target_fact": "Robert Gerwig hat unter anderem die Schwarzwaldbahn gebaut.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.23
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 86,
+      "source_fact": "Robert Gerwig hatte unter anderem die Schwarzwaldbahn gebaut.",
+      "source_paragraph": 14,
+      "matches": [
+        {
+          "target_fact_index": 77,
+          "target_fact": "Robert Gerwig hat unter anderem die Schwarzwaldbahn gebaut.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.5402
+        },
+        {
+          "target_fact_index": 76,
+          "target_fact": "Robert Gerwig war der Cousin von Friedrich Julius Gerwig.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.2224
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 87,
+      "source_fact": "Friedrich Julius Gerwig vertrat gegenüber der staatlichen Forstbehörde den Standpunkt, dass die 1200 Morgen staatlicher Waldungen am Notschrei und die daraus resultierende Verwertung des Holzes durch einen Holzabfuhrweg erheblich erleichtert werde.",
+      "source_paragraph": 14,
+      "matches": [
+        {
+          "target_fact_index": 78,
+          "target_fact": "Friedrich Julius Gerwig vertrat gegenüber den staatlichen Forstbehörden den Standpunkt, dass die 1200 Morgen vom staatlichen Wald am Notschrei und die daraus resultierende Bewirtschaftung des Holzes durch einen Holzabfuhrweg mächtig erleichtert worden wäre.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.5337
+        },
+        {
+          "target_fact_index": 76,
+          "target_fact": "Robert Gerwig war der Cousin von Friedrich Julius Gerwig.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.1152
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 88,
+      "source_fact": "Am 13. fiel 30 Jahre nach der ersten Forderung eine Entscheidung, die vergessen wurde.",
+      "source_paragraph": 15,
+      "matches": [
+        {
+          "target_fact_index": 80,
+          "target_fact": "Die Entscheidung für den Bau der Straße über den heutigen Notschreipass erfolgte 30 Jahre nach der ersten Forderung.",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.181
+        },
+        {
+          "target_fact_index": 79,
+          "target_fact": "Am 13. November 1847 gab es im großherzoglichen Landtag die Entscheidung für den Bau der Straße über den heutigen Notschreipass.",
+          "target_paragraph": 14,
+          "density_normalized_distance": 0.016
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 89,
+      "source_fact": "Ludwig I. hatte sich mit dem Projekt befasst.",
+      "source_paragraph": 16,
+      "matches": [
+        {
+          "target_fact_index": 89,
+          "target_fact": "Ludwig I. hat sich mit dem Projekt beschäftigt.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.5694
+        },
+        {
+          "target_fact_index": 91,
+          "target_fact": "Friedrich I. hat sich mit dem Projekt beschäftigt.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.3383
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 90,
+      "source_fact": "Leopold hatte sich mit dem Projekt befasst.",
+      "source_paragraph": 16,
+      "matches": [
+        {
+          "target_fact_index": 90,
+          "target_fact": "Leopold hat sich mit dem Projekt beschäftigt.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.5282
+        },
+        {
+          "target_fact_index": 89,
+          "target_fact": "Ludwig I. hat sich mit dem Projekt beschäftigt.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.3561
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 91,
+      "source_fact": "Friedrich I. hatte sich mit dem Projekt befasst.",
+      "source_paragraph": 16,
+      "matches": [
+        {
+          "target_fact_index": 91,
+          "target_fact": "Friedrich I. hat sich mit dem Projekt beschäftigt.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.5473
+        },
+        {
+          "target_fact_index": 89,
+          "target_fact": "Ludwig I. hat sich mit dem Projekt beschäftigt.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.3624
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 92,
+      "source_fact": "1848/49 wurden die ersten 7 km zwischen Notschrei und Oberried für 36 000 Gulden gebaut.",
+      "source_paragraph": 17,
+      "matches": [
+        {
+          "target_fact_index": 92,
+          "target_fact": "Im Jahr 1848/49 wurden die ersten 7 km zwischen Notschrei und Oberried für 36 000 Gulden gebaut.",
+          "target_paragraph": 16,
+          "density_normalized_distance": -0.4405
+        },
+        {
+          "target_fact_index": 93,
+          "target_fact": "Die ersten 7 km zwischen Notschrei und Oberried wurden am 13. November 1848 eingeweiht.",
+          "target_paragraph": 16,
+          "density_normalized_distance": -0.2724
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 93,
+      "source_fact": "Die ersten 7 km zwischen Notschrei und Oberried wurden am 13. November 1848 eingeweiht.",
+      "source_paragraph": 17,
+      "matches": [
+        {
+          "target_fact_index": 93,
+          "target_fact": "Die ersten 7 km zwischen Notschrei und Oberried wurden am 13. November 1848 eingeweiht.",
+          "target_paragraph": 16,
+          "density_normalized_distance": -0.4448
+        },
+        {
+          "target_fact_index": 92,
+          "target_fact": "Im Jahr 1848/49 wurden die ersten 7 km zwischen Notschrei und Oberried für 36 000 Gulden gebaut.",
+          "target_paragraph": 16,
+          "density_normalized_distance": -0.2687
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 94,
+      "source_fact": "Die Straße war rund 6 m breit.",
+      "source_paragraph": 17,
+      "matches": [
+        {
+          "target_fact_index": 94,
+          "target_fact": "Die Straße ist etwa 6 m breit.",
+          "target_paragraph": 16,
+          "density_normalized_distance": -0.4324
+        },
+        {
+          "target_fact_index": 95,
+          "target_fact": "Die Straße hat eine Steigung von 5–11 %.",
+          "target_paragraph": 16,
+          "density_normalized_distance": -0.1091
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 95,
+      "source_fact": "Die Straße hatte eine Steigung von 5–11 %.",
+      "source_paragraph": 17,
+      "matches": [
+        {
+          "target_fact_index": 95,
+          "target_fact": "Die Straße hat eine Steigung von 5–11 %.",
+          "target_paragraph": 16,
+          "density_normalized_distance": -0.4756
+        },
+        {
+          "target_fact_index": 94,
+          "target_fact": "Die Straße ist etwa 6 m breit.",
+          "target_paragraph": 16,
+          "density_normalized_distance": -0.0768
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 96,
+      "source_fact": "Das Festprogramm zur Einweihung der Straße fiel den Schneemassen zum Opfer.",
+      "source_paragraph": 17,
+      "matches": [
+        {
+          "target_fact_index": 96,
+          "target_fact": "Das Festprogramm zur Einweihung der Straße wurde vom Schnee verweht.",
+          "target_paragraph": 16,
+          "density_normalized_distance": -0.509
+        },
+        {
+          "target_fact_index": 95,
+          "target_fact": "Die Straße hat eine Steigung von 5–11 %.",
+          "target_paragraph": 16,
+          "density_normalized_distance": 0.1255
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 97,
+      "source_fact": "Der Bürgermeister Kelle aus Todtnau bezeichnete die Verbindung nach Freiburg als „notwendige Lebensader“.",
+      "source_paragraph": 17,
+      "matches": [
+        {
+          "target_fact_index": 97,
+          "target_fact": "Der Todtnauer Bürgermeister Kelle nannte die Verbindung nach Freiburg damals als „notwendige Lebensader“.",
+          "target_paragraph": 16,
+          "density_normalized_distance": -0.4315
+        },
+        {
+          "target_fact_index": 92,
+          "target_fact": "Im Jahr 1848/49 wurden die ersten 7 km zwischen Notschrei und Oberried für 36 000 Gulden gebaut.",
+          "target_paragraph": 16,
+          "density_normalized_distance": 0.0891
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 98,
+      "source_fact": "1855 wurde der Streckenabschnitt zwischen Todtnau und Notschrei für 37 000 Gulden vollendet.",
+      "source_paragraph": 18,
+      "matches": [
+        {
+          "target_fact_index": 98,
+          "target_fact": "Im Jahr 1855 wurde der Streckenabschnitt zwischen Todtnau und Notschrei für 37 000 Gulden fertig gebaut.",
+          "target_paragraph": 17,
+          "density_normalized_distance": -0.3838
+        },
+        {
+          "target_fact_index": 100,
+          "target_fact": "Die Transportkosten sanken von 36–40 Kreuzer pro Zentner auf etwa 18 Kreuzer pro Zentner.",
+          "target_paragraph": 17,
+          "density_normalized_distance": -0.0736
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 99,
+      "source_fact": "Der Verkehr war danach auf 17 160 Zentner Transportgüter angewachsen.",
+      "source_paragraph": 18,
+      "matches": [
+        {
+          "target_fact_index": 99,
+          "target_fact": "Der Verkehr stieg daraufhin auf 17 160 Zentner an Transportgütern an.",
+          "target_paragraph": 17,
+          "density_normalized_distance": -0.5293
+        },
+        {
+          "target_fact_index": 100,
+          "target_fact": "Die Transportkosten sanken von 36–40 Kreuzer pro Zentner auf etwa 18 Kreuzer pro Zentner.",
+          "target_paragraph": 17,
+          "density_normalized_distance": -0.11
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 100,
+      "source_fact": "Die Transportkosten hatten sich von 36–40 Kreuzer pro Zentner auf rund 18 Kreuzer/Zentner verringert.",
+      "source_paragraph": 18,
+      "matches": [
+        {
+          "target_fact_index": 100,
+          "target_fact": "Die Transportkosten sanken von 36–40 Kreuzer pro Zentner auf etwa 18 Kreuzer pro Zentner.",
+          "target_paragraph": 17,
+          "density_normalized_distance": -0.5324
+        },
+        {
+          "target_fact_index": 99,
+          "target_fact": "Der Verkehr stieg daraufhin auf 17 160 Zentner an Transportgütern an.",
+          "target_paragraph": 17,
+          "density_normalized_distance": -0.1311
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 101,
+      "source_fact": "Um 1991 wurde erwogen, die durch Pendler, Anwohner und Touristen stark beanspruchte Passstraße durch eine Eisenbahn über den Notschrei zu entlasten.",
+      "source_paragraph": 19,
+      "matches": [
+        {
+          "target_fact_index": 101,
+          "target_fact": "Um 1991 war geplant, die stark beanspruchte Passstraße durch eine Eisenbahn über den Notschrei oder einen Tunnel durch den Schauinsland zu entlasten.",
+          "target_paragraph": 18,
+          "density_normalized_distance": -0.2537
+        },
+        {
+          "target_fact_index": 102,
+          "target_fact": "Die Passstraße wurde von Pendlern, Einheimischen und Touristen frequentiert.",
+          "target_paragraph": 18,
+          "density_normalized_distance": -0.1973
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 102,
+      "source_fact": "Um 1991 wurde erwogen, die durch Pendler, Anwohner und Touristen stark beanspruchte Passstraße durch einen Tunnel durch den Schauinsland zu entlasten.",
+      "source_paragraph": 19,
+      "matches": [
+        {
+          "target_fact_index": 101,
+          "target_fact": "Um 1991 war geplant, die stark beanspruchte Passstraße durch eine Eisenbahn über den Notschrei oder einen Tunnel durch den Schauinsland zu entlasten.",
+          "target_paragraph": 18,
+          "density_normalized_distance": -0.2543
+        },
+        {
+          "target_fact_index": 102,
+          "target_fact": "Die Passstraße wurde von Pendlern, Einheimischen und Touristen frequentiert.",
+          "target_paragraph": 18,
+          "density_normalized_distance": -0.1985
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 103,
+      "source_fact": "Die Pläne zur Entlastung der Passstraße werden trotz unverändert starker Verkehrsbelastung derzeit nicht weiter verfolgt.",
+      "source_paragraph": 19,
+      "matches": [
+        {
+          "target_fact_index": 103,
+          "target_fact": "Die Pläne zur Entlastung der Passstraße wurden trotz der gleichbleibend großen Verkehrsbelastung nicht weiter verfolgt.",
+          "target_paragraph": 18,
+          "density_normalized_distance": -0.4716
+        },
+        {
+          "target_fact_index": 101,
+          "target_fact": "Um 1991 war geplant, die stark beanspruchte Passstraße durch eine Eisenbahn über den Notschrei oder einen Tunnel durch den Schauinsland zu entlasten.",
+          "target_paragraph": 18,
+          "density_normalized_distance": 0.0126
+        }
+      ]
+    }
+  ],
+  "als_to_de": [
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 0,
+      "source_fact": "Der Notschrei ist ein Gebirgspass im Südschwarzwald zwischen dem Dreisamtal im Raum Freiburg im Norden und dem oberen Wiesental im Süden.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 1,
+          "target_fact": "Der Notschrei liegt zwischen dem Dreisamtal im Raum Freiburg im Norden und dem oberen Wiesental im Süden.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.3657
+        },
+        {
+          "target_fact_index": 0,
+          "target_fact": "Der Notschrei ist ein Gebirgspass im Südschwarzwald.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1114
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 1,
+      "source_fact": "Der Notschrei verbindet über die Landessstraße 126 die Ortsteile Oberried im Norden und Todtnau im Süden.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 2,
+          "target_fact": "Der Notschrei verbindet über die Landesstraße L 126 die Talorte Oberried im Norden und Todtnau im Süden.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.3376
+        },
+        {
+          "target_fact_index": 3,
+          "target_fact": "Die Landesstraße 124 zweigt am Notschrei von der Landesstraße 126 ab.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1495
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 2,
+      "source_fact": "Die Landessstraße 124 zweigt am Notschrei von der Landessstraße 126 ab.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 3,
+          "target_fact": "Die Landesstraße 124 zweigt am Notschrei von der Landesstraße 126 ab.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.4462
+        },
+        {
+          "target_fact_index": 2,
+          "target_fact": "Der Notschrei verbindet über die Landesstraße L 126 die Talorte Oberried im Norden und Todtnau im Süden.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1037
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 3,
+      "source_fact": "Die Landessstraße 124 führt Richtung Nordwesten über die Halde am Schauinsland nach Freiburg.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 4,
+          "target_fact": "Die Landesstraße 124 führt Richtung Nordwesten über die Halde am Schauinsland nach Freiburg.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.3516
+        },
+        {
+          "target_fact_index": 3,
+          "target_fact": "Die Landesstraße 124 zweigt am Notschrei von der Landesstraße 126 ab.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1371
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 4,
+      "source_fact": "Die Passhöhe liegt 5 km westlich vom Feldberg auf der Todtnauer Gemarkung.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 7,
+          "target_fact": "Die Passhöhe liegt fünf Kilometer westlich des Feldbergs in der Gemarkung Todtnau.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.3907
+        },
+        {
+          "target_fact_index": 11,
+          "target_fact": "Auf der Südseite liegen zwischen der Passhöhe und Todtnau die Ortschaften Muggenbrunn und Aftersteg.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0947
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 5,
+      "source_fact": "Vor dem Nordanstieg der Landessstraße 126 südlich von Oberried führt eine Stichstraße nach Osten in das St. Willelmer Tal.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 9,
+          "target_fact": "Vor dem Nordanstieg der Landesstraße 126 südlich von Oberried führt eine Stichstraße nach Osten in das zu Oberried gehörende St. Wilhelmer Tal.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.3917
+        },
+        {
+          "target_fact_index": 10,
+          "target_fact": "Auf halber Höhe zweigt beim Steinwasen-Park die Kreisstraße 4996 nach Hofsgrund und zur Landesstraße 124 auf der Halde beim Schauinsland ab.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1448
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 6,
+      "source_fact": "Das St. Willelmer Tal gehört zu Oberried.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 9,
+          "target_fact": "Vor dem Nordanstieg der Landesstraße 126 südlich von Oberried führt eine Stichstraße nach Osten in das zu Oberried gehörende St. Wilhelmer Tal.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0545
+        },
+        {
+          "target_fact_index": 8,
+          "target_fact": "Die Passhöhe ist nach der Hohtannhöhe der zweithöchste Pass im Landkreis Lörrach.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0229
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 7,
+      "source_fact": "Auf halber Höhe zweigt beim Steiwasen-Park die Kreisstraße 4996 nach Hofsgrund und zur Landessstraße 124 auf der Halde beim Schauinsland ab.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 10,
+          "target_fact": "Auf halber Höhe zweigt beim Steinwasen-Park die Kreisstraße 4996 nach Hofsgrund und zur Landesstraße 124 auf der Halde beim Schauinsland ab.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.484
+        },
+        {
+          "target_fact_index": 9,
+          "target_fact": "Vor dem Nordanstieg der Landesstraße 126 südlich von Oberried führt eine Stichstraße nach Osten in das zu Oberried gehörende St. Wilhelmer Tal.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.065
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 8,
+      "source_fact": "Auf der Südseite liegen zwischen der Passhöhe und Todtnau die Ortschaften Muggebrunn und Aftersteeg.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 11,
+          "target_fact": "Auf der Südseite liegen zwischen der Passhöhe und Todtnau die Ortschaften Muggenbrunn und Aftersteg.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.422
+        },
+        {
+          "target_fact_index": 12,
+          "target_fact": "Zwischen Muggenbrunn und Aftersteg führt eine Stichstraße zum östlich gelegenen Gemeindeteil Todtnauberg.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.2299
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 9,
+      "source_fact": "Zwischen Muggebrunn und Aftersteeg führt eine Stichstraße zum östlich gelegenen Gemeindeteil Todtnauberg.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 12,
+          "target_fact": "Zwischen Muggenbrunn und Aftersteg führt eine Stichstraße zum östlich gelegenen Gemeindeteil Todtnauberg.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.397
+        },
+        {
+          "target_fact_index": 11,
+          "target_fact": "Auf der Südseite liegen zwischen der Passhöhe und Todtnau die Ortschaften Muggenbrunn und Aftersteg.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.25
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 10,
+      "source_fact": "Im Jahr 1854 entstand in der Nähe der Passhöhe im Zuge des Straßenausbaus ein Gasthof mit dem Namen Notschrei.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 13,
+          "target_fact": "Nahe der Passhöhe entstand 1854 im Zuge des Straßenausbaus ein Gasthof mit dem Namen Notschrei.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.4766
+        },
+        {
+          "target_fact_index": 14,
+          "target_fact": "Der Gasthof Notschrei wurde inzwischen zum Vier-Sterne-Waldhotel am Notschreipass ausgebaut.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.1218
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 11,
+      "source_fact": "Der Gasthof Notschrei wurde inzwischen zum Vier-Sterne-Waldhotel am Notschreipass ausgebaut.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 14,
+          "target_fact": "Der Gasthof Notschrei wurde inzwischen zum Vier-Sterne-Waldhotel am Notschreipass ausgebaut.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.556
+        },
+        {
+          "target_fact_index": 27,
+          "target_fact": "Das Waldhotel am Notschreipass wurde Kurhaus Waldheim benannt.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.1738
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 12,
+      "source_fact": "Der Notschrei ist touristisch stark erschlossen.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 15,
+          "target_fact": "Der Notschrei ist touristisch stark erschlossen.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.6422
+        },
+        {
+          "target_fact_index": 24,
+          "target_fact": "In der Nähe des Passes liegen mehrere Hotels.",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.0241
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 13,
+      "source_fact": "Der Notschrei ist im Sommer Ausgangspunkt für Wanderungen zum Wyydener Egg.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 16,
+          "target_fact": "Der Notschrei ist im Sommer Ausgangspunkt für Wanderungen Richtung Wiedener Eck.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.4154
+        },
+        {
+          "target_fact_index": 18,
+          "target_fact": "Der Notschrei ist im Sommer Ausgangspunkt für Wanderungen Richtung Feldberg.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.3041
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 14,
+      "source_fact": "Der Notschrei ist im Sommer Ausgangspunkt für Wanderungen zum Schauinsland.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 17,
+          "target_fact": "Der Notschrei ist im Sommer Ausgangspunkt für Wanderungen Richtung Schauinsland.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.4847
+        },
+        {
+          "target_fact_index": 16,
+          "target_fact": "Der Notschrei ist im Sommer Ausgangspunkt für Wanderungen Richtung Wiedener Eck.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.375
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 15,
+      "source_fact": "Der Notschrei ist im Sommer Ausgangspunkt für Wanderungen zum Fèldbärg.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 18,
+          "target_fact": "Der Notschrei ist im Sommer Ausgangspunkt für Wanderungen Richtung Feldberg.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.4586
+        },
+        {
+          "target_fact_index": 16,
+          "target_fact": "Der Notschrei ist im Sommer Ausgangspunkt für Wanderungen Richtung Wiedener Eck.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.4004
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 16,
+      "source_fact": "Der Notschrei ist im Winter Start der Notschrei-Loipè Richtung Schauinsland.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 19,
+          "target_fact": "Der Notschrei ist im Winter Start der Notschrei-Loipen Richtung Schauinsland.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.4709
+        },
+        {
+          "target_fact_index": 21,
+          "target_fact": "Der Notschrei ist im Winter Start der Notschrei-Loipen Richtung Stübenwasen.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.4218
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 17,
+      "source_fact": "Der Notschrei ist im Winter Start der Notschrei-Loipè Richtung Wyydener Egg.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 20,
+          "target_fact": "Der Notschrei ist im Winter Start der Notschrei-Loipen Richtung Wiedener Eck.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.3871
+        },
+        {
+          "target_fact_index": 21,
+          "target_fact": "Der Notschrei ist im Winter Start der Notschrei-Loipen Richtung Stübenwasen.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.3161
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 18,
+      "source_fact": "Der Notschrei ist im Winter Start der Notschrei-Loipè Richtung Stüèbèwasè.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 21,
+          "target_fact": "Der Notschrei ist im Winter Start der Notschrei-Loipen Richtung Stübenwasen.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.4637
+        },
+        {
+          "target_fact_index": 19,
+          "target_fact": "Der Notschrei ist im Winter Start der Notschrei-Loipen Richtung Schauinsland.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.361
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 19,
+      "source_fact": "Der Notschrei ist im Winter Start der Notschrei-Loipè Richtung Fèldbärg.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 22,
+          "target_fact": "Der Notschrei ist im Winter Start der Notschrei-Loipen Richtung Feldberg.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.4329
+        },
+        {
+          "target_fact_index": 21,
+          "target_fact": "Der Notschrei ist im Winter Start der Notschrei-Loipen Richtung Stübenwasen.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.3866
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 20,
+      "source_fact": "In der Nähe vom Pass liegen einige Schilifte.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 24,
+          "target_fact": "In der Nähe des Passes liegen mehrere Hotels.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.4667
+        },
+        {
+          "target_fact_index": 23,
+          "target_fact": "In der Nähe des Passes liegen mehrere Skilifte.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.4484
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 21,
+      "source_fact": "In der Nähe vom Pass liegen einige Hotels.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 24,
+          "target_fact": "In der Nähe des Passes liegen mehrere Hotels.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.6041
+        },
+        {
+          "target_fact_index": 23,
+          "target_fact": "In der Nähe des Passes liegen mehrere Skilifte.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.3351
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 22,
+      "source_fact": "Die westliche Variante vom Westweg verläuft zwischen Feldberg und Belchen über den Notschreier.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 30,
+          "target_fact": "Der Westweg verläuft zwischen Feldberg und Belchen.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.274
+        },
+        {
+          "target_fact_index": 29,
+          "target_fact": "Die westliche Variante des Schwarzwälder Weitwanderwegs ist der Westweg.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.1165
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 23,
+      "source_fact": "Der Notschrei wurde bei der Tour de France 1971 vom Tross passiert.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 32,
+          "target_fact": "Der Notschrei wurde bei der Tour de France 1971 am 27. Juni befahren.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.4139
+        },
+        {
+          "target_fact_index": 33,
+          "target_fact": "Der Notschrei war Teil der Etappe von Basel nach Freiburg.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.0355
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 24,
+      "source_fact": "Der Notschrei war Teil der Etappe von Basel nach Freiburg.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 33,
+          "target_fact": "Der Notschrei war Teil der Etappe von Basel nach Freiburg.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.4891
+        },
+        {
+          "target_fact_index": 32,
+          "target_fact": "Der Notschrei wurde bei der Tour de France 1971 am 27. Juni befahren.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.0971
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 25,
+      "source_fact": "Der Notschrei wurde als Berg der 2. Kategorie evaluiert.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 34,
+          "target_fact": "Der Notschrei wurde als Berg der 2. Kategorie gewertet.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.5175
+        },
+        {
+          "target_fact_index": 32,
+          "target_fact": "Der Notschrei wurde bei der Tour de France 1971 am 27. Juni befahren.",
+          "target_paragraph": 7,
+          "density_normalized_distance": 0.0277
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 26,
+      "source_fact": "Die Straße führt vom Oberrieder Tal zur Passhöhe am sogenannten Schwendle.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 35,
+          "target_fact": "Die Straße führt vom Oberrieder Tal zur Passhöhe am sog. Schwendle.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.4368
+        },
+        {
+          "target_fact_index": 36,
+          "target_fact": "Das Schwendle ist die Wasserscheide zwischen Dreisam- und Wiesental.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0376
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 27,
+      "source_fact": "Am Schwendle liegt die Wasserscheide zwischen Dreisam- und Wiesental.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 36,
+          "target_fact": "Das Schwendle ist die Wasserscheide zwischen Dreisam- und Wiesental.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.4298
+        },
+        {
+          "target_fact_index": 35,
+          "target_fact": "Die Straße führt vom Oberrieder Tal zur Passhöhe am sog. Schwendle.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0264
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 28,
+      "source_fact": "Die Stelle am Schwendle trägt seit ihrer Fertigstellung 1848 den Namen „Notschrei“.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 37,
+          "target_fact": "Die Stelle am Schwendle trägt seit ihrer Fertigstellung 1848 den Namen „Notschrei“.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.4691
+        },
+        {
+          "target_fact_index": 38,
+          "target_fact": "Der geographische Begriff „Notschrei“ bezieht sich auf einen historischen Vorgang.",
+          "target_paragraph": 8,
+          "density_normalized_distance": 0.0244
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 29,
+      "source_fact": "Bei „Notschrei“ handelt es sich um einen geographischen Begriff.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 38,
+          "target_fact": "Der geographische Begriff „Notschrei“ bezieht sich auf einen historischen Vorgang.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.345
+        },
+        {
+          "target_fact_index": 37,
+          "target_fact": "Die Stelle am Schwendle trägt seit ihrer Fertigstellung 1848 den Namen „Notschrei“.",
+          "target_paragraph": 8,
+          "density_normalized_distance": 0.0734
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 30,
+      "source_fact": "Bei „Notschrei“ handelt es sich um einen historischen Vorgang.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 38,
+          "target_fact": "Der geographische Begriff „Notschrei“ bezieht sich auf einen historischen Vorgang.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.3376
+        },
+        {
+          "target_fact_index": 37,
+          "target_fact": "Die Stelle am Schwendle trägt seit ihrer Fertigstellung 1848 den Namen „Notschrei“.",
+          "target_paragraph": 8,
+          "density_normalized_distance": 0.0824
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 31,
+      "source_fact": "Im Jahr 1780 wurde der Bau einer Passstraße von Todtnau nach Oberried über den 1119 m hohen Schwendle geplant.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 39,
+          "target_fact": "1780 wurde der Bau einer Passstraße von Todtnau nach Oberried über den 1119 m hohen Schwendle geplant.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.3748
+        },
+        {
+          "target_fact_index": 40,
+          "target_fact": "Die Planung des Baus der Passstraße von Todtnau nach Oberried erfolgte noch unter der Regierung Vorderösterreichs.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.1433
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 32,
+      "source_fact": "Zum Zeitpunkt der Planung wurde der Südscharzwald noch von den Vorderösterreichern regiert.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 40,
+          "target_fact": "Die Planung des Baus der Passstraße von Todtnau nach Oberried erfolgte noch unter der Regierung Vorderösterreichs.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.1364
+        },
+        {
+          "target_fact_index": 41,
+          "target_fact": "Der Bau der Passstraße von Todtnau nach Oberried sollte das Gebiet um Sankt Blasien und Waldshut besser an den Breisgau anbinden.",
+          "target_paragraph": 9,
+          "density_normalized_distance": 0.1584
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 33,
+      "source_fact": "Die Passstraße sollte helfen, das Albtal mit der Stadt St. Blasien und das Hochrheintal besser an das Breisgau anzubinden.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 41,
+          "target_fact": "Der Bau der Passstraße von Todtnau nach Oberried sollte das Gebiet um Sankt Blasien und Waldshut besser an den Breisgau anbinden.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.1738
+        },
+        {
+          "target_fact_index": 40,
+          "target_fact": "Die Planung des Baus der Passstraße von Todtnau nach Oberried erfolgte noch unter der Regierung Vorderösterreichs.",
+          "target_paragraph": 9,
+          "density_normalized_distance": 0.115
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 34,
+      "source_fact": "26 Jahre später war Todtnau unter französischer Herrschaft badisch.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 46,
+          "target_fact": "In Todtnau gab es bald zahlreiche Manufakturen.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.0795
+        },
+        {
+          "target_fact_index": 42,
+          "target_fact": "Als Todtnau unter Napoleon badisch wurde, brauchte der Ort neue Impulse.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.0784
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 35,
+      "source_fact": "Der Ort im Oberen Wiesental brauchte danach neue Impulse, weil der Bergbau im Südschwarzwald am Ende war.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 42,
+          "target_fact": "Als Todtnau unter Napoleon badisch wurde, brauchte der Ort neue Impulse.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.1203
+        },
+        {
+          "target_fact_index": 45,
+          "target_fact": "Erste industrielle Entwicklungen in Todtnau kamen durch Zuzug Schweizer Kapitals zustande.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.0284
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 36,
+      "source_fact": "Strukturwandel war dringend notwendig, damit die ersten industriellen Entwicklungen unter dem Einfluss von Schweizer Kapital im Wiesental zustande kamen.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 45,
+          "target_fact": "Erste industrielle Entwicklungen in Todtnau kamen durch Zuzug Schweizer Kapitals zustande.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.3333
+        },
+        {
+          "target_fact_index": 44,
+          "target_fact": "Strukturwandel war in Todtnau dringend notwendig.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.1022
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 37,
+      "source_fact": "Es gab bald eine Vielzahl an Manufakturen wie Bürstenfabriken.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 46,
+          "target_fact": "In Todtnau gab es bald zahlreiche Manufakturen.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.3291
+        },
+        {
+          "target_fact_index": 50,
+          "target_fact": "In Todtnau gab es Spinnereien.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.1449
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 38,
+      "source_fact": "Die ersten Bürstenfabriken entstanden 1765.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 47,
+          "target_fact": "In Todtnau gab es Bürstenfabriken, wobei die erste 1765 entstand.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.3285
+        },
+        {
+          "target_fact_index": 48,
+          "target_fact": "In Todtnau gab es eine Zuckerfabrik, wobei die erste 1826 entstand.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.1638
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 39,
+      "source_fact": "Es gab eine Zuckerfabrik.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 48,
+          "target_fact": "In Todtnau gab es eine Zuckerfabrik, wobei die erste 1826 entstand.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.2087
+        },
+        {
+          "target_fact_index": 49,
+          "target_fact": "In Todtnau gab es eine Papierfabrik.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.204
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 40,
+      "source_fact": "Die erste Zuckerfabrik entstand 1826.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 48,
+          "target_fact": "In Todtnau gab es eine Zuckerfabrik, wobei die erste 1826 entstand.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.3753
+        },
+        {
+          "target_fact_index": 47,
+          "target_fact": "In Todtnau gab es Bürstenfabriken, wobei die erste 1765 entstand.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.184
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 41,
+      "source_fact": "Es gab eine Papierfabrik.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 49,
+          "target_fact": "In Todtnau gab es eine Papierfabrik.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.3447
+        },
+        {
+          "target_fact_index": 50,
+          "target_fact": "In Todtnau gab es Spinnereien.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.1894
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 42,
+      "source_fact": "Es gab Spinnereien.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 50,
+          "target_fact": "In Todtnau gab es Spinnereien.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.3239
+        },
+        {
+          "target_fact_index": 49,
+          "target_fact": "In Todtnau gab es eine Papierfabrik.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.0651
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 43,
+      "source_fact": "Es erwies sich als problematisch, die Produkte abzusetzen.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 51,
+          "target_fact": "Es erwies sich als problematisch, die Produkte abzusetzen.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.5974
+        },
+        {
+          "target_fact_index": 52,
+          "target_fact": "Die abgelegene Lage des Tales und seiner Gemeinden führte zu hohen Transportkosten.",
+          "target_paragraph": 10,
+          "density_normalized_distance": 0.0048
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 44,
+      "source_fact": "Die abgelegene Lage des Tals und seiner Gemeinden führte zu hohen Transportkosten.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 52,
+          "target_fact": "Die abgelegene Lage des Tales und seiner Gemeinden führte zu hohen Transportkosten.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.5449
+        },
+        {
+          "target_fact_index": 51,
+          "target_fact": "Es erwies sich als problematisch, die Produkte abzusetzen.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.0485
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 45,
+      "source_fact": "Die prosperierende Stadt Freiburg war zu jener Zeit auf direktem Weg mit dem Fuhrwerk nicht zu erreichen.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 54,
+          "target_fact": "Freiburg war auf direktem Wege mit dem Fuhrwerk von Todtnau aus nicht einmal erreichbar.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.2473
+        },
+        {
+          "target_fact_index": 53,
+          "target_fact": "Freiburg war damals bereits eine florierende Stadt im Breisgau.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.2319
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 46,
+      "source_fact": "Es gab nur einen mühsamen Weg, der über Aftersteeg, Muggebrunn, die Halde und Horb nach Güntersdal führte.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 55,
+          "target_fact": "Es gab nur einen steilen Weg, der über Aftersteg, Muggenbrunn, die Halde und Horben nach Günterstal führte.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.4079
+        },
+        {
+          "target_fact_index": 58,
+          "target_fact": "Dieser Weg war überhaupt nur mit Saumpferden und zweirädrigen Handkarren zu benutzen.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.099
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 47,
+      "source_fact": "Dieser Weg war im Winter geschlossen.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 56,
+          "target_fact": "Dieser Weg war im Winter oft unbenutzbar.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.3268
+        },
+        {
+          "target_fact_index": 58,
+          "target_fact": "Dieser Weg war überhaupt nur mit Saumpferden und zweirädrigen Handkarren zu benutzen.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.0795
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 48,
+      "source_fact": "Zwischen Todtnau und Halde ging es zunächst 500 Höhenmeter hinauf und anschließend wieder hinunter.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 57,
+          "target_fact": "Zwischen Todtnau und Halde mussten zunächst 500 Höhenmeter Aufstieg und anschließend wieder hinab ins Tal bewältigt werden.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.3773
+        },
+        {
+          "target_fact_index": 48,
+          "target_fact": "In Todtnau gab es eine Zuckerfabrik, wobei die erste 1826 entstand.",
+          "target_paragraph": 10,
+          "density_normalized_distance": 0.0061
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 49,
+      "source_fact": "Dieser Weg war überhaupt nur mit Saumrossen und zweirädrigen Handkarren brauchbar.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 58,
+          "target_fact": "Dieser Weg war überhaupt nur mit Saumpferden und zweirädrigen Handkarren zu benutzen.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.5192
+        },
+        {
+          "target_fact_index": 56,
+          "target_fact": "Dieser Weg war im Winter oft unbenutzbar.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.0528
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 50,
+      "source_fact": "Das Großherzogtum Baden hatte bis 1848 andere Interessen als den Straßenbau innerhalb des 1806 neu gegründeten Landes Baden.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 59,
+          "target_fact": "Das Großherzogtum Baden hatte andere Interessen als den Straßenbau.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.3134
+        },
+        {
+          "target_fact_index": 61,
+          "target_fact": "Schönau war damals seit Kurzem ein badisches Amtsstädtchen.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.0522
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 51,
+      "source_fact": "Neben Todtnau äußerten auch andere Gemeinden in den tief eingeschnittenen Tälern vom Südschwarzwald Interesse an einer Straße in den Breisgau.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 59,
+          "target_fact": "Das Großherzogtum Baden hatte andere Interessen als den Straßenbau.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.07
+        },
+        {
+          "target_fact_index": 63,
+          "target_fact": "Schönau fand Unterstützung in der Forderung nach einer Straße übers Wiedener Eck nach Staufen.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.0371
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 52,
+      "source_fact": "Der Dreisamabt forderte aus Rücksicht auf seine Wälder eine Straße über Hofsgrund.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 63,
+          "target_fact": "Schönau fand Unterstützung in der Forderung nach einer Straße übers Wiedener Eck nach Staufen.",
+          "target_paragraph": 11,
+          "density_normalized_distance": 0.0508
+        },
+        {
+          "target_fact_index": 59,
+          "target_fact": "Das Großherzogtum Baden hatte andere Interessen als den Straßenbau.",
+          "target_paragraph": 11,
+          "density_normalized_distance": 0.0562
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 53,
+      "source_fact": "Vor allem Todtnau und Schönau rivalisierten um dieses Straßenprojekt.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 60,
+          "target_fact": "Todtnau und Schönau rivalisierten vor allem um das Straßenprojekt.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.4228
+        },
+        {
+          "target_fact_index": 62,
+          "target_fact": "Schönau hatte in Karlsruhe mehr politisches Gewicht als Todtnau.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.1164
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 54,
+      "source_fact": "Schönau hatte damals als frischbadianisches Amtstädtchen in Karlsruhe mehr politisches Gewicht als Todtnau.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 62,
+          "target_fact": "Schönau hatte in Karlsruhe mehr politisches Gewicht als Todtnau.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.4709
+        },
+        {
+          "target_fact_index": 61,
+          "target_fact": "Schönau war damals seit Kurzem ein badisches Amtsstädtchen.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.2379
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 55,
+      "source_fact": "Schönau hatte Unterstützung in der Forderung nach einer Straße über den Wydener Eck nach Staufen im Oberherrytal.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 63,
+          "target_fact": "Schönau fand Unterstützung in der Forderung nach einer Straße übers Wiedener Eck nach Staufen.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.431
+        },
+        {
+          "target_fact_index": 60,
+          "target_fact": "Todtnau und Schönau rivalisierten vor allem um das Straßenprojekt.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.098
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 56,
+      "source_fact": "Im Jahr 1819 brachten die Gemeinden vom oberen Wiesental im ersten Landtag zu Karlsruhe eine Petition vor.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 64,
+          "target_fact": "Die Gemeinden des oberen Wiesentals brachten 1819 im ersten Landtag in Karlsruhe eine Petition vor.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.4677
+        },
+        {
+          "target_fact_index": 65,
+          "target_fact": "In der Petition forderten die Gemeinden des oberen Wiesentals eine Fahrstraße von Todtnau über Muggenbrunn und St. Wilhelm nach Oberried.",
+          "target_paragraph": 12,
+          "density_normalized_distance": 0.0152
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 57,
+      "source_fact": "In dieser Petition forderten die Gemeinden vom oberen Wiesental eine Fahrstraße von Todtnau über Muggebrunn und St. Wilhelm nach Oberried.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 65,
+          "target_fact": "In der Petition forderten die Gemeinden des oberen Wiesentals eine Fahrstraße von Todtnau über Muggenbrunn und St. Wilhelm nach Oberried.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.3417
+        },
+        {
+          "target_fact_index": 64,
+          "target_fact": "Die Gemeinden des oberen Wiesentals brachten 1819 im ersten Landtag in Karlsruhe eine Petition vor.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.0721
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 58,
+      "source_fact": "Die geforderte Fahrstraße sollte als Anschluss an die schon existierende Verbindung zwischen Kirchzarten und Freiburg durch das Dreisamtal dienen.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 66,
+          "target_fact": "Die geforderte Fahrstraße sollte als Anschluss an die bereits bestehende Verbindung zwischen Kirchzarten und Freiburg dienen.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.4025
+        },
+        {
+          "target_fact_index": 65,
+          "target_fact": "In der Petition forderten die Gemeinden des oberen Wiesentals eine Fahrstraße von Todtnau über Muggenbrunn und St. Wilhelm nach Oberried.",
+          "target_paragraph": 12,
+          "density_normalized_distance": 0.1086
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 59,
+      "source_fact": "Im Jahr 1844 gab es eine Entscheidung für eine Straße zwischen Utzenfeld über den Weidener Egg durch das Münstertal nach Staufen.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 67,
+          "target_fact": "1844 fiel eine Entscheidung für die Straße von Utzenfeld übers Wiedener Eck durchs Münstertal nach Staufen.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.3641
+        },
+        {
+          "target_fact_index": 65,
+          "target_fact": "In der Petition forderten die Gemeinden des oberen Wiesentals eine Fahrstraße von Todtnau über Muggenbrunn und St. Wilhelm nach Oberried.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.0294
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 60,
+      "source_fact": "Im Jahr 1847 haben sich Hunger und Arbeitslosigkeit im Wiesental breit gemacht.",
+      "source_paragraph": 12,
+      "matches": [
+        {
+          "target_fact_index": 68,
+          "target_fact": "Im Jahr 1847 machten sich Hunger und Arbeitslosigkeit im Wiesental breit.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.5042
+        },
+        {
+          "target_fact_index": 69,
+          "target_fact": "Der Hunger und die Arbeitslosigkeit im Wiesental führten im Jahr 1847 zu einer Erneuerung der Forderung.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.3886
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 61,
+      "source_fact": "Hunger und Arbeitslosigkeit im Wiesental führten zu einer neuen Forderung.",
+      "source_paragraph": 12,
+      "matches": [
+        {
+          "target_fact_index": 69,
+          "target_fact": "Der Hunger und die Arbeitslosigkeit im Wiesental führten im Jahr 1847 zu einer Erneuerung der Forderung.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.3492
+        },
+        {
+          "target_fact_index": 68,
+          "target_fact": "Im Jahr 1847 machten sich Hunger und Arbeitslosigkeit im Wiesental breit.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.2306
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 62,
+      "source_fact": "Die Bevölkerung im Oberen Wiesental fühlte sich von der Regierung in Karlsruhe im Stich gelassen.",
+      "source_paragraph": 12,
+      "matches": [
+        {
+          "target_fact_index": 70,
+          "target_fact": "Die Bevölkerung fühlte sich von der Regierung in Karlsruhe im Stich gelassen.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.4215
+        },
+        {
+          "target_fact_index": 75,
+          "target_fact": "Die Karlsruher Regierung musste handeln, um ein Aufbegehren der Bevölkerung zu verhindern.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.171
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 63,
+      "source_fact": "Viele Todtnauer und Zeller sympathisierten bereits offen mit den Zielen der Badischen Revolution und deren Vertretern.",
+      "source_paragraph": 12,
+      "matches": [
+        {
+          "target_fact_index": 73,
+          "target_fact": "Viele Zeller bekundeten sich bereits offen zu den Zielen der Badischen Revolution.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.4226
+        },
+        {
+          "target_fact_index": 71,
+          "target_fact": "Viele Todtnauer bekundeten sich bereits offen zu den Zielen der Badischen Revolution.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.3926
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 64,
+      "source_fact": "Hecker und Struve waren Vertreter der Badischen Revolution.",
+      "source_paragraph": 12,
+      "matches": [
+        {
+          "target_fact_index": 74,
+          "target_fact": "Viele Zeller bekundeten sich bereits offen zu den Vertretern der Badischen Revolution, Hecker und Struve.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.3185
+        },
+        {
+          "target_fact_index": 72,
+          "target_fact": "Viele Todtnauer bekundeten sich bereits offen zu den Vertretern der Badischen Revolution, Hecker und Struve.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.289
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 65,
+      "source_fact": "Die Karlsruher Regierung musste rasch handeln, um einen Aufruhr im Wiesental zu verhindern.",
+      "source_paragraph": 12,
+      "matches": [
+        {
+          "target_fact_index": 75,
+          "target_fact": "Die Karlsruher Regierung musste handeln, um ein Aufbegehren der Bevölkerung zu verhindern.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.3945
+        },
+        {
+          "target_fact_index": 76,
+          "target_fact": "Die Karlsruher Regierung musste auf den Notschrei, die dringende Petition, reagieren.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.2772
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 66,
+      "source_fact": "Die Karlsruher Regierung musste auf den Notschrei der Wiesentäler reagieren.",
+      "source_paragraph": 12,
+      "matches": [
+        {
+          "target_fact_index": 76,
+          "target_fact": "Die Karlsruher Regierung musste auf den Notschrei, die dringende Petition, reagieren.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.4119
+        },
+        {
+          "target_fact_index": 75,
+          "target_fact": "Die Karlsruher Regierung musste handeln, um ein Aufbegehren der Bevölkerung zu verhindern.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.3215
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 67,
+      "source_fact": "Der Notschrei war eine dringende Petition.",
+      "source_paragraph": 12,
+      "matches": [
+        {
+          "target_fact_index": 6,
+          "target_fact": "Der Notschrei der Bevölkerung war eine dringende Petition.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.3964
+        },
+        {
+          "target_fact_index": 76,
+          "target_fact": "Die Karlsruher Regierung musste auf den Notschrei, die dringende Petition, reagieren.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.1418
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 68,
+      "source_fact": "Der Notschrei erhielt im Pass über die Schwendle seinen Namen Notschrei.",
+      "source_paragraph": 12,
+      "matches": [
+        {
+          "target_fact_index": 5,
+          "target_fact": "Der Name der Straße geht darauf zurück, dass sie über den Pass auf einen Notschrei der Bevölkerung hin gebaut wurde.",
+          "target_paragraph": 1,
+          "density_normalized_distance": 0.0271
+        },
+        {
+          "target_fact_index": 76,
+          "target_fact": "Die Karlsruher Regierung musste auf den Notschrei, die dringende Petition, reagieren.",
+          "target_paragraph": 13,
+          "density_normalized_distance": 0.1006
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 69,
+      "source_fact": "Eine Vielzahl von Personen des öffentlichen Lebens haben sich stark für die Forderung der Todtnauer für eine Straßenanbindung gemacht.",
+      "source_paragraph": 13,
+      "matches": [
+        {
+          "target_fact_index": 77,
+          "target_fact": "Zahlreiche Personen des öffentlichen Lebens machten sich für die Forderung Todtnaus nach der Straßenanbindung stark.",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.4098
+        },
+        {
+          "target_fact_index": 78,
+          "target_fact": "Johann Faller unterstützte zusammen mit Ernst Friedrich Gottschalk die Todtnauer Petition.",
+          "target_paragraph": 14,
+          "density_normalized_distance": 0.0314
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 70,
+      "source_fact": "Johann Faller war ein Zeller Kaufmann und Textilingenieur.",
+      "source_paragraph": 13,
+      "matches": [
+        {
+          "target_fact_index": 79,
+          "target_fact": "Johann Faller war ein Zeller Kaufmann.",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.4262
+        },
+        {
+          "target_fact_index": 80,
+          "target_fact": "Johann Faller war Textilingenieur.",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.4183
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 71,
+      "source_fact": "Johann Faller war ein gebürtiger Todtnauer.",
+      "source_paragraph": 13,
+      "matches": [
+        {
+          "target_fact_index": 81,
+          "target_fact": "Johann Faller war gebürtiger Todtnauer.",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.5601
+        },
+        {
+          "target_fact_index": 79,
+          "target_fact": "Johann Faller war ein Zeller Kaufmann.",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.4064
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 72,
+      "source_fact": "Johann Faller war Mitglied in der Zweiten Kammer zu Karlsruhe.",
+      "source_paragraph": 13,
+      "matches": [
+        {
+          "target_fact_index": 82,
+          "target_fact": "Johann Faller war Mitglied der Zweiten Kammer in Karlsruhe.",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.5076
+        },
+        {
+          "target_fact_index": 81,
+          "target_fact": "Johann Faller war gebürtiger Todtnauer.",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.2755
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 73,
+      "source_fact": "Johann Faller unterstützte zusammen mit dem Schopfemer Abgeordneten Gottschalk die Todtnauer Petition.",
+      "source_paragraph": 13,
+      "matches": [
+        {
+          "target_fact_index": 78,
+          "target_fact": "Johann Faller unterstützte zusammen mit Ernst Friedrich Gottschalk die Todtnauer Petition.",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.4217
+        },
+        {
+          "target_fact_index": 81,
+          "target_fact": "Johann Faller war gebürtiger Todtnauer.",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.2202
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 74,
+      "source_fact": "Gottschalk war Abgeordneter aus Schopfheim und unterstützte die Todtnauer Petition.",
+      "source_paragraph": 13,
+      "matches": [
+        {
+          "target_fact_index": 83,
+          "target_fact": "Ernst Friedrich Gottschalk war ein Schopfheimer Abgeordneter.",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.2551
+        },
+        {
+          "target_fact_index": 78,
+          "target_fact": "Johann Faller unterstützte zusammen mit Ernst Friedrich Gottschalk die Todtnauer Petition.",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.2249
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 75,
+      "source_fact": "Die Intervention vom Bezirksförster Friedrich Julius Gerwig aus Kirchzarten war mitentscheidend.",
+      "source_paragraph": 13,
+      "matches": [
+        {
+          "target_fact_index": 84,
+          "target_fact": "Die Intervention des Bezirksförsters Friedrich Julius Gerwig aus Kirchzarten war mitausschlaggebend.",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.5085
+        },
+        {
+          "target_fact_index": 85,
+          "target_fact": "Robert Gerwig war der Vetter von Friedrich Julius Gerwig.",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.1699
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 76,
+      "source_fact": "Robert Gerwig war der Cousin von Friedrich Julius Gerwig.",
+      "source_paragraph": 13,
+      "matches": [
+        {
+          "target_fact_index": 85,
+          "target_fact": "Robert Gerwig war der Vetter von Friedrich Julius Gerwig.",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.483
+        },
+        {
+          "target_fact_index": 86,
+          "target_fact": "Robert Gerwig hatte unter anderem die Schwarzwaldbahn gebaut.",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.1981
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 77,
+      "source_fact": "Robert Gerwig hat unter anderem die Schwarzwaldbahn gebaut.",
+      "source_paragraph": 13,
+      "matches": [
+        {
+          "target_fact_index": 86,
+          "target_fact": "Robert Gerwig hatte unter anderem die Schwarzwaldbahn gebaut.",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.4937
+        },
+        {
+          "target_fact_index": 85,
+          "target_fact": "Robert Gerwig war der Vetter von Friedrich Julius Gerwig.",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.201
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 78,
+      "source_fact": "Friedrich Julius Gerwig vertrat gegenüber den staatlichen Forstbehörden den Standpunkt, dass die 1200 Morgen vom staatlichen Wald am Notschrei und die daraus resultierende Bewirtschaftung des Holzes durch einen Holzabfuhrweg mächtig erleichtert worden wäre.",
+      "source_paragraph": 13,
+      "matches": [
+        {
+          "target_fact_index": 87,
+          "target_fact": "Friedrich Julius Gerwig vertrat gegenüber der staatlichen Forstbehörde den Standpunkt, dass die 1200 Morgen staatlicher Waldungen am Notschrei und die daraus resultierende Verwertung des Holzes durch einen Holzabfuhrweg erheblich erleichtert werde.",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.5193
+        },
+        {
+          "target_fact_index": 85,
+          "target_fact": "Robert Gerwig war der Vetter von Friedrich Julius Gerwig.",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.1185
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 79,
+      "source_fact": "Am 13. November 1847 gab es im großherzoglichen Landtag die Entscheidung für den Bau der Straße über den heutigen Notschreipass.",
+      "source_paragraph": 14,
+      "matches": [
+        {
+          "target_fact_index": 88,
+          "target_fact": "Am 13. fiel 30 Jahre nach der ersten Forderung eine Entscheidung, die vergessen wurde.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.0372
+        },
+        {
+          "target_fact_index": 75,
+          "target_fact": "Die Karlsruher Regierung musste handeln, um ein Aufbegehren der Bevölkerung zu verhindern.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.0109
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 80,
+      "source_fact": "Die Entscheidung für den Bau der Straße über den heutigen Notschreipass erfolgte 30 Jahre nach der ersten Forderung.",
+      "source_paragraph": 14,
+      "matches": [
+        {
+          "target_fact_index": 88,
+          "target_fact": "Am 13. fiel 30 Jahre nach der ersten Forderung eine Entscheidung, die vergessen wurde.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.2355
+        },
+        {
+          "target_fact_index": 76,
+          "target_fact": "Die Karlsruher Regierung musste auf den Notschrei, die dringende Petition, reagieren.",
+          "target_paragraph": 13,
+          "density_normalized_distance": 0.0125
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 81,
+      "source_fact": "Der Straßenbau ging auf die Rechnung vom Forstdomänenfiskus.",
+      "source_paragraph": 14,
+      "matches": [
+        {
+          "target_fact_index": 70,
+          "target_fact": "Die Bevölkerung fühlte sich von der Regierung in Karlsruhe im Stich gelassen.",
+          "target_paragraph": 13,
+          "density_normalized_distance": 0.1715
+        },
+        {
+          "target_fact_index": 71,
+          "target_fact": "Viele Todtnauer bekundeten sich bereits offen zu den Zielen der Badischen Revolution.",
+          "target_paragraph": 13,
+          "density_normalized_distance": 0.1782
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 82,
+      "source_fact": "Die Wiesentaler Gemeinden mussten nur das nötige Gelände kostenlos stellen.",
+      "source_paragraph": 14,
+      "matches": [
+        {
+          "target_fact_index": 73,
+          "target_fact": "Viele Zeller bekundeten sich bereits offen zu den Zielen der Badischen Revolution.",
+          "target_paragraph": 13,
+          "density_normalized_distance": 0.0288
+        },
+        {
+          "target_fact_index": 68,
+          "target_fact": "Im Jahr 1847 machten sich Hunger und Arbeitslosigkeit im Wiesental breit.",
+          "target_paragraph": 13,
+          "density_normalized_distance": 0.0384
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 83,
+      "source_fact": "Die Bevölkerung war hochzufrieden.",
+      "source_paragraph": 14,
+      "matches": [
+        {
+          "target_fact_index": 70,
+          "target_fact": "Die Bevölkerung fühlte sich von der Regierung in Karlsruhe im Stich gelassen.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.1107
+        },
+        {
+          "target_fact_index": 75,
+          "target_fact": "Die Karlsruher Regierung musste handeln, um ein Aufbegehren der Bevölkerung zu verhindern.",
+          "target_paragraph": 13,
+          "density_normalized_distance": 0.0148
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 84,
+      "source_fact": "Die bereits ansässigen Fabrikanten waren hochzufrieden.",
+      "source_paragraph": 14,
+      "matches": [
+        {
+          "target_fact_index": 73,
+          "target_fact": "Viele Zeller bekundeten sich bereits offen zu den Zielen der Badischen Revolution.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.053
+        },
+        {
+          "target_fact_index": 74,
+          "target_fact": "Viele Zeller bekundeten sich bereits offen zu den Vertretern der Badischen Revolution, Hecker und Struve.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.0133
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 85,
+      "source_fact": "Die Bevölkerung und die ansässigen Fabrikanten haben sich mit der Herrschaft wieder versöhnt.",
+      "source_paragraph": 14,
+      "matches": [
+        {
+          "target_fact_index": 70,
+          "target_fact": "Die Bevölkerung fühlte sich von der Regierung in Karlsruhe im Stich gelassen.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.1556
+        },
+        {
+          "target_fact_index": 75,
+          "target_fact": "Die Karlsruher Regierung musste handeln, um ein Aufbegehren der Bevölkerung zu verhindern.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.0112
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 86,
+      "source_fact": "Im Südschwarzwald weiter östlich fand definitiv eine Revolution statt.",
+      "source_paragraph": 14,
+      "matches": [
+        {
+          "target_fact_index": 73,
+          "target_fact": "Viele Zeller bekundeten sich bereits offen zu den Zielen der Badischen Revolution.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.0351
+        },
+        {
+          "target_fact_index": 71,
+          "target_fact": "Viele Todtnauer bekundeten sich bereits offen zu den Zielen der Badischen Revolution.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.0169
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 87,
+      "source_fact": "Der Hecker-Zug vom Hochrhein bis zum Schluchsee war Teil der Revolution im Südschwarzwald.",
+      "source_paragraph": 14,
+      "matches": [
+        {
+          "target_fact_index": 74,
+          "target_fact": "Viele Zeller bekundeten sich bereits offen zu den Vertretern der Badischen Revolution, Hecker und Struve.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.0507
+        },
+        {
+          "target_fact_index": 72,
+          "target_fact": "Viele Todtnauer bekundeten sich bereits offen zu den Vertretern der Badischen Revolution, Hecker und Struve.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.0113
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 88,
+      "source_fact": "Im Wiesental wurde die Revolution wieder vergessen.",
+      "source_paragraph": 14,
+      "matches": [
+        {
+          "target_fact_index": 73,
+          "target_fact": "Viele Zeller bekundeten sich bereits offen zu den Zielen der Badischen Revolution.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.0536
+        },
+        {
+          "target_fact_index": 69,
+          "target_fact": "Der Hunger und die Arbeitslosigkeit im Wiesental führten im Jahr 1847 zu einer Erneuerung der Forderung.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.0445
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 89,
+      "source_fact": "Ludwig I. hat sich mit dem Projekt beschäftigt.",
+      "source_paragraph": 15,
+      "matches": [
+        {
+          "target_fact_index": 89,
+          "target_fact": "Ludwig I. hatte sich mit dem Projekt befasst.",
+          "target_paragraph": 16,
+          "density_normalized_distance": -0.5543
+        },
+        {
+          "target_fact_index": 90,
+          "target_fact": "Leopold hatte sich mit dem Projekt befasst.",
+          "target_paragraph": 16,
+          "density_normalized_distance": -0.3158
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 90,
+      "source_fact": "Leopold hat sich mit dem Projekt beschäftigt.",
+      "source_paragraph": 15,
+      "matches": [
+        {
+          "target_fact_index": 90,
+          "target_fact": "Leopold hatte sich mit dem Projekt befasst.",
+          "target_paragraph": 16,
+          "density_normalized_distance": -0.5252
+        },
+        {
+          "target_fact_index": 89,
+          "target_fact": "Ludwig I. hatte sich mit dem Projekt befasst.",
+          "target_paragraph": 16,
+          "density_normalized_distance": -0.3279
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 91,
+      "source_fact": "Friedrich I. hat sich mit dem Projekt beschäftigt.",
+      "source_paragraph": 15,
+      "matches": [
+        {
+          "target_fact_index": 91,
+          "target_fact": "Friedrich I. hatte sich mit dem Projekt befasst.",
+          "target_paragraph": 16,
+          "density_normalized_distance": -0.4979
+        },
+        {
+          "target_fact_index": 89,
+          "target_fact": "Ludwig I. hatte sich mit dem Projekt befasst.",
+          "target_paragraph": 16,
+          "density_normalized_distance": -0.3445
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 92,
+      "source_fact": "Im Jahr 1848/49 wurden die ersten 7 km zwischen Notschrei und Oberried für 36 000 Gulden gebaut.",
+      "source_paragraph": 16,
+      "matches": [
+        {
+          "target_fact_index": 92,
+          "target_fact": "1848/49 wurden die ersten 7 km zwischen Notschrei und Oberried für 36 000 Gulden gebaut.",
+          "target_paragraph": 17,
+          "density_normalized_distance": -0.4842
+        },
+        {
+          "target_fact_index": 93,
+          "target_fact": "Die ersten 7 km zwischen Notschrei und Oberried wurden am 13. November 1848 eingeweiht.",
+          "target_paragraph": 17,
+          "density_normalized_distance": -0.343
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 93,
+      "source_fact": "Die ersten 7 km zwischen Notschrei und Oberried wurden am 13. November 1848 eingeweiht.",
+      "source_paragraph": 16,
+      "matches": [
+        {
+          "target_fact_index": 93,
+          "target_fact": "Die ersten 7 km zwischen Notschrei und Oberried wurden am 13. November 1848 eingeweiht.",
+          "target_paragraph": 17,
+          "density_normalized_distance": -0.5209
+        },
+        {
+          "target_fact_index": 92,
+          "target_fact": "1848/49 wurden die ersten 7 km zwischen Notschrei und Oberried für 36 000 Gulden gebaut.",
+          "target_paragraph": 17,
+          "density_normalized_distance": -0.3178
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 94,
+      "source_fact": "Die Straße ist etwa 6 m breit.",
+      "source_paragraph": 16,
+      "matches": [
+        {
+          "target_fact_index": 94,
+          "target_fact": "Die Straße war rund 6 m breit.",
+          "target_paragraph": 17,
+          "density_normalized_distance": -0.4194
+        },
+        {
+          "target_fact_index": 95,
+          "target_fact": "Die Straße hatte eine Steigung von 5–11 %.",
+          "target_paragraph": 17,
+          "density_normalized_distance": -0.0656
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 95,
+      "source_fact": "Die Straße hat eine Steigung von 5–11 %.",
+      "source_paragraph": 16,
+      "matches": [
+        {
+          "target_fact_index": 95,
+          "target_fact": "Die Straße hatte eine Steigung von 5–11 %.",
+          "target_paragraph": 17,
+          "density_normalized_distance": -0.4318
+        },
+        {
+          "target_fact_index": 94,
+          "target_fact": "Die Straße war rund 6 m breit.",
+          "target_paragraph": 17,
+          "density_normalized_distance": -0.0634
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 96,
+      "source_fact": "Das Festprogramm zur Einweihung der Straße wurde vom Schnee verweht.",
+      "source_paragraph": 16,
+      "matches": [
+        {
+          "target_fact_index": 96,
+          "target_fact": "Das Festprogramm zur Einweihung der Straße fiel den Schneemassen zum Opfer.",
+          "target_paragraph": 17,
+          "density_normalized_distance": -0.5137
+        },
+        {
+          "target_fact_index": 95,
+          "target_fact": "Die Straße hatte eine Steigung von 5–11 %.",
+          "target_paragraph": 17,
+          "density_normalized_distance": 0.0989
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 97,
+      "source_fact": "Der Todtnauer Bürgermeister Kelle nannte die Verbindung nach Freiburg damals als „notwendige Lebensader“.",
+      "source_paragraph": 16,
+      "matches": [
+        {
+          "target_fact_index": 97,
+          "target_fact": "Der Bürgermeister Kelle aus Todtnau bezeichnete die Verbindung nach Freiburg als „notwendige Lebensader“.",
+          "target_paragraph": 17,
+          "density_normalized_distance": -0.4269
+        },
+        {
+          "target_fact_index": 92,
+          "target_fact": "1848/49 wurden die ersten 7 km zwischen Notschrei und Oberried für 36 000 Gulden gebaut.",
+          "target_paragraph": 17,
+          "density_normalized_distance": 0.0445
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 98,
+      "source_fact": "Im Jahr 1855 wurde der Streckenabschnitt zwischen Todtnau und Notschrei für 37 000 Gulden fertig gebaut.",
+      "source_paragraph": 17,
+      "matches": [
+        {
+          "target_fact_index": 98,
+          "target_fact": "1855 wurde der Streckenabschnitt zwischen Todtnau und Notschrei für 37 000 Gulden vollendet.",
+          "target_paragraph": 18,
+          "density_normalized_distance": -0.3681
+        },
+        {
+          "target_fact_index": 100,
+          "target_fact": "Die Transportkosten hatten sich von 36–40 Kreuzer pro Zentner auf rund 18 Kreuzer/Zentner verringert.",
+          "target_paragraph": 18,
+          "density_normalized_distance": -0.0467
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 99,
+      "source_fact": "Der Verkehr stieg daraufhin auf 17 160 Zentner an Transportgütern an.",
+      "source_paragraph": 17,
+      "matches": [
+        {
+          "target_fact_index": 99,
+          "target_fact": "Der Verkehr war danach auf 17 160 Zentner Transportgüter angewachsen.",
+          "target_paragraph": 18,
+          "density_normalized_distance": -0.5161
+        },
+        {
+          "target_fact_index": 100,
+          "target_fact": "Die Transportkosten hatten sich von 36–40 Kreuzer pro Zentner auf rund 18 Kreuzer/Zentner verringert.",
+          "target_paragraph": 18,
+          "density_normalized_distance": -0.0912
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 100,
+      "source_fact": "Die Transportkosten sanken von 36–40 Kreuzer pro Zentner auf etwa 18 Kreuzer pro Zentner.",
+      "source_paragraph": 17,
+      "matches": [
+        {
+          "target_fact_index": 100,
+          "target_fact": "Die Transportkosten hatten sich von 36–40 Kreuzer pro Zentner auf rund 18 Kreuzer/Zentner verringert.",
+          "target_paragraph": 18,
+          "density_normalized_distance": -0.4941
+        },
+        {
+          "target_fact_index": 99,
+          "target_fact": "Der Verkehr war danach auf 17 160 Zentner Transportgüter angewachsen.",
+          "target_paragraph": 18,
+          "density_normalized_distance": -0.0985
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 101,
+      "source_fact": "Um 1991 war geplant, die stark beanspruchte Passstraße durch eine Eisenbahn über den Notschrei oder einen Tunnel durch den Schauinsland zu entlasten.",
+      "source_paragraph": 18,
+      "matches": [
+        {
+          "target_fact_index": 101,
+          "target_fact": "Um 1991 wurde erwogen, die durch Pendler, Anwohner und Touristen stark beanspruchte Passstraße durch eine Eisenbahn über den Notschrei zu entlasten.",
+          "target_paragraph": 19,
+          "density_normalized_distance": -0.2965
+        },
+        {
+          "target_fact_index": 102,
+          "target_fact": "Um 1991 wurde erwogen, die durch Pendler, Anwohner und Touristen stark beanspruchte Passstraße durch einen Tunnel durch den Schauinsland zu entlasten.",
+          "target_paragraph": 19,
+          "density_normalized_distance": -0.2877
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 102,
+      "source_fact": "Die Passstraße wurde von Pendlern, Einheimischen und Touristen frequentiert.",
+      "source_paragraph": 18,
+      "matches": [
+        {
+          "target_fact_index": 101,
+          "target_fact": "Um 1991 wurde erwogen, die durch Pendler, Anwohner und Touristen stark beanspruchte Passstraße durch eine Eisenbahn über den Notschrei zu entlasten.",
+          "target_paragraph": 19,
+          "density_normalized_distance": -0.1796
+        },
+        {
+          "target_fact_index": 102,
+          "target_fact": "Um 1991 wurde erwogen, die durch Pendler, Anwohner und Touristen stark beanspruchte Passstraße durch einen Tunnel durch den Schauinsland zu entlasten.",
+          "target_paragraph": 19,
+          "density_normalized_distance": -0.1714
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 103,
+      "source_fact": "Die Pläne zur Entlastung der Passstraße wurden trotz der gleichbleibend großen Verkehrsbelastung nicht weiter verfolgt.",
+      "source_paragraph": 18,
+      "matches": [
+        {
+          "target_fact_index": 103,
+          "target_fact": "Die Pläne zur Entlastung der Passstraße werden trotz unverändert starker Verkehrsbelastung derzeit nicht weiter verfolgt.",
+          "target_paragraph": 19,
+          "density_normalized_distance": -0.4987
+        },
+        {
+          "target_fact_index": 101,
+          "target_fact": "Um 1991 wurde erwogen, die durch Pendler, Anwohner und Touristen stark beanspruchte Passstraße durch eine Eisenbahn über den Notschrei zu entlasten.",
+          "target_paragraph": 19,
+          "density_normalized_distance": -0.0129
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 104,
+      "source_fact": "Es handelt sich um einen Text in der Badischen Zeitung",
+      "source_paragraph": 19,
+      "matches": [
+        {
+          "target_fact_index": 38,
+          "target_fact": "Der geographische Begriff „Notschrei“ bezieht sich auf einen historischen Vorgang.",
+          "target_paragraph": 8,
+          "density_normalized_distance": 0.1041
+        },
+        {
+          "target_fact_index": 36,
+          "target_fact": "Das Schwendle ist die Wasserscheide zwischen Dreisam- und Wiesental.",
+          "target_paragraph": 8,
+          "density_normalized_distance": 0.1883
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 105,
+      "source_fact": "Der Text stammt von Hubert Döbele",
+      "source_paragraph": 19,
+      "matches": [
+        {
+          "target_fact_index": 35,
+          "target_fact": "Die Straße führt vom Oberrieder Tal zur Passhöhe am sog. Schwendle.",
+          "target_paragraph": 8,
+          "density_normalized_distance": 0.2044
+        },
+        {
+          "target_fact_index": 38,
+          "target_fact": "Der geographische Begriff „Notschrei“ bezieht sich auf einen historischen Vorgang.",
+          "target_paragraph": 8,
+          "density_normalized_distance": 0.2432
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 106,
+      "source_fact": "Der Zeitungsausschnitt enthält keine Angabe zum Datum",
+      "source_paragraph": 19,
+      "matches": [
+        {
+          "target_fact_index": 38,
+          "target_fact": "Der geographische Begriff „Notschrei“ bezieht sich auf einen historischen Vorgang.",
+          "target_paragraph": 8,
+          "density_normalized_distance": 0.0183
+        },
+        {
+          "target_fact_index": 37,
+          "target_fact": "Die Stelle am Schwendle trägt seit ihrer Fertigstellung 1848 den Namen „Notschrei“.",
+          "target_paragraph": 8,
+          "density_normalized_distance": 0.2408
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 107,
+      "source_fact": "Der Wegkreuzungspunkt 'Notschrei' hat eine Namensgeschichte.",
+      "source_paragraph": 20,
+      "matches": [
+        {
+          "target_fact_index": 38,
+          "target_fact": "Der geographische Begriff „Notschrei“ bezieht sich auf einen historischen Vorgang.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0856
+        },
+        {
+          "target_fact_index": 37,
+          "target_fact": "Die Stelle am Schwendle trägt seit ihrer Fertigstellung 1848 den Namen „Notschrei“.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0511
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 108,
+      "source_fact": "Die Namensgeschichte des Wegkreuzungspunkts 'Notschrei' wird als ein Stück Heimatgeschichte bezeichnet.",
+      "source_paragraph": 20,
+      "matches": [
+        {
+          "target_fact_index": 38,
+          "target_fact": "Der geographische Begriff „Notschrei“ bezieht sich auf einen historischen Vorgang.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.1719
+        },
+        {
+          "target_fact_index": 37,
+          "target_fact": "Die Stelle am Schwendle trägt seit ihrer Fertigstellung 1848 den Namen „Notschrei“.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.043
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 109,
+      "source_fact": "Die Namensgeschichte des Wegkreuzungspunkts 'Notschrei' wird als ein trauriges Kapitel bezeichnet.",
+      "source_paragraph": 20,
+      "matches": [
+        {
+          "target_fact_index": 38,
+          "target_fact": "Der geographische Begriff „Notschrei“ bezieht sich auf einen historischen Vorgang.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.1309
+        },
+        {
+          "target_fact_index": 37,
+          "target_fact": "Die Stelle am Schwendle trägt seit ihrer Fertigstellung 1848 den Namen „Notschrei“.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0519
+        }
+      ]
+    }
+  ]
+}

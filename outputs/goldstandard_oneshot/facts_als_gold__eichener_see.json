@@ -1,0 +1,602 @@
+{
+  "page_id": "2271",
+  "page_title": "Eichener See",
+  "language_variety": "als",
+  "decomposition_model": "gemma-4-31b-it",
+  "num_paragraphs": 13,
+  "num_facts": 96,
+  "num_fallback_paragraphs": 0,
+  "paragraphs": [
+    "De Eiemer See (dt. Eichener See) isch ä Karschtsee uf em Dinkelberg bi Schopfe in Bade-Württeberg. S Bsundere isch, dass er nur alli paar Johr mol züm seh isch. S git kei Bach, wo s Wasser ine oder devo laufe chönnt, sundern er würd unterirdisch vom Grundwasser gfüllt. Drum isch er nur dusse, wenns vorher arg lang grägnet het.",
+    "De Dinkelberg isch ä Karschdgegend, un es het überall Höhlene, Löcher un Ibrüch. Wänns rägnet, sammlet sich in dene s Wasser, un wänns über ä längeri Zit rägnet un grad no d Schneeschmelzi dezü chunnt, no cha nit alles Wasser ablaufe un staut sich langsam in dene Hohlräum uf, bis es sich inere Senke, ä Doline, sammlet. Me cha grad züelüege, wie s Wasser uss em Bode usesprudelt. In Versüch mit Farb het mer nochgwiese, dass des Wasser, wo im See isch, bim ablaufe unter anderem in de Hasler Höhli z Hasel züm Vorschin chunt, es also ä Verbindig zwüsche em See un de Höhli git, wo unterirdisch verlauft. D Hasler Höhli isch aber öbe 2 Kilometer vom See furt.",
+    "En erschde Bricht vum Eiemer See schdammd vu 1784, wu diä nooglossene Schrifde vum Heinrich Sander vereffendlicht worre sinn. De Heinrich Sander war Profässer am Gymnasium illuschdre in Karlsrueh, wuner under andrem Lährer vom Johann Peter Hebel gsi isch. Er schribt, aß d Greßi vum See \"ungleich und verschieden\" gsi sey un mr d Breidi uff ein un d Lengi uf zwee Bichseschiss berächnet het. Sinnerzit het mr verzellt, aß alli Pflanze kabütt gange seye, wänn de See kumme isch, üsser ne paar Biirebaim, diä hewe iwwerläbt - ohni Schade!",
+    "De Sander schribt aü vumme Unglick im See. Amme scheene Sunndigmorge im Mai hänn jungi Maidli un Kärli uffem See welle schbazierefahre middeme Boot. Schiints sinn z viel iigschdiege un s Boot isch gsunke und vier vu dänne jungen Litt sinn versoffe. Er schribt, aß mr si mit Schdange üssem See zoge het un mar si widder hätt kenne \"erwecke\", wämmer d Bolizei schnäll gruefe hätt.",
+    "De drucke Seebode hett mr, wänns Wasser widder wägg gsi isch, als Madde gmeiht un s Fuedder sey gued gsi. Mänchi hänn aü Korn (Rogge), Dinkel, Haber, Gärschd odder Herdepfel apflanzt, was aü e guedi Ärn gä heb, wänn nit grad s Wasser kumme un alles iwwerschwämmt worre isch.",
+    "Wenn de Eiemer See ganz gfüllt isch, isch er öbe 3 Meter 20 tief, 250 Meter lang un 135 Meter breit. Dodemit gön öbe 33 Duusig Kubikmeter Wasser dri. Wenns arg schnell goht, isch er innerhalb vo nere Wuche gfüllt. Dusebliebe düt er meischdens zwüsche drei Wuche un 2 Monet, s hets au scho geh, daß er zügfrohre isch un mer het chönne Schlittschühlaufe.",
+    "S erscht dadiert Uffdrädde vum See isch anne 1772 gsi. E Zämmeschdellig git de Gustav Albiez in sinner Dissertation vu 1931 (S. 53). Är zeigt alli Johr, wunner bis 1930 ufträte isch. Alli bis jetz bekannde Dade zuem Uffdrädde sinn in däre Lischde zämmegschdelld: Lischde zuem Uffdrädde vum Eiemer See",
+    "S letscht Mool isch de See im Dezämber 2017 ufftauchtDer Eichener See ist wieder da, Artikel in de Badische Zittig vom 18. Dezämber 2017., s vorletscht Mol isch er zwüsche Februar und März 2016 an d Oberflächi choo, und des noochdem er im Dezember no uf eme historische Diäfstand gsii isch. Durch d Niiderschläg Afang Johr isch de Grundwasserspiägel dann schnell agstiige, vo 6 im Dezember uf 37 Meter im Jänner innerhalb vo wenige Däg. Do demit isch de See aber immer no zwei Meter under de Oberflächi gsii, erst durch neui Niiderschläg im Februar isch er usträtte. De Pegel wird regelmäßig gmesse.Eichener See: Geheimnisse eines Gewässers, das kommt und geht, Artikel in de Badische Zittig vom 18. Februar 2016.",
+    "De Eiemer See isch am 29. Abril 1942 zuem Landschaftsschutzgebiet (LSG) mid de Nummere 3.36.012 üssgwiese worre, de Verordnungstext isch am 8. Mai 1942 im \"Alemanne\" abdruckt gsi. Des Landschaftsschutzgebiet het e Greßi vu 8 ha un zieht si wiä ne Kranz im Norde, Weschde un Süde um de See rum. De See sälwer ghärt nid dezue.Beschriebung vum LSG",
+    "Am 11. Febber 1983 het mr dann de See un sinni änger Umgebig als Flächehafts Nadürdenkmol (Nr.8336081001) üssgwiese. Flächehafdi Nadürdenkmol (FND) sinn ähnlich gschitzd wiä Nadürschutzgebiet (NSG), wärre abber vum Landratsamt verordnet un hänn weniger as 5 ha Flächi. Im Fall vum Eiemer See sinns 3,5 ha. Es FND bildet de Kern vum Eiemer See.Beschriebung vum FND",
+    "Zuedäm ghärt de Eiemer See siddem 31. Mai 2015 zuem FFH-Gebied \"Dinkelbärg un Röttler Wald\" (Nr. 8312311). Diä Deilflächi um de Eiemer See het um 11,5 ha un deckt si ungfähr middeem LSG un em FND zämme. In de Kurzbeschriebung vu dämm große Gebiet, wu si iwwer d Landkreis Lörrach un Waldshuet erschdreckt, wird aü de Eiemer See üssdricklig gnännt: \"Kulturlandschaft mit naturnahen Buchenwäldern, Hecken, Kalkmagerrasen, Glatthaferwiesen, Höhlen und temporärem Karstsee, hervorragender Lebensraum für zahlreiche FFH-Arten, insbesondere Fledermausarten.\"FFH-Beschriebung",
+    "Im Eiemer See läbt ä urzytliche Chräbsart, wos suscht nur an wenige Ord in Ditschland un im iwrige Europa gitVerbreidung vum Eiemer Chiemefueß. Wisseschaftlich heißt er Tanymastix lacunae un ghört zü de Chiemefieschräbs (also ä Chräbs, wo d Chieme an de Fies oder an de Bei het). Er würd öbe zwei Zäntimeter lang, wenn er usgwagse isch, un d Wiebly chönne bis zü vierzähduusig Eier lege. Sälli Eier sin arg robuscht un chönne mehreri Johr im trochene Bode überläbe, bis de See wieder emol use chunnt. Des Chräbsli isch vum Linné schu anne 1758 beschriewe worre. 1909 hedden dann de Zoolog Eduard Graeter, wu si im Zämmehang midnere Dissertation an de Universidet Basel aü mit Ruederfueßchräbs in underirdische Gewässer bschäfdigt het, erschdmols aü im Eiemer See gfunde.",
+    "Am Eiemer See findet immer am Oschdermendig s Eierspringe statt, ä Bruuch, wo keltischi Ursprüng het un d Fruchtbarkeit im Eiemer Dorf erhalte soll."
+  ],
+  "facts": [
+    {
+      "fact_index": 0,
+      "paragraph_index": 0,
+      "fact": "Der Eiemer See (deutsch: Eichener See) ist ein Karstsee.",
+      "fallback": false
+    },
+    {
+      "fact_index": 1,
+      "paragraph_index": 0,
+      "fact": "Der See befindet sich auf dem Dinkelberg bei Schopfe in Baden-Württemberg.",
+      "fallback": false
+    },
+    {
+      "fact_index": 2,
+      "paragraph_index": 0,
+      "fact": "Der See ist nur alle paar Jahre sichtbar.",
+      "fallback": false
+    },
+    {
+      "fact_index": 3,
+      "paragraph_index": 0,
+      "fact": "Es gibt keinen Bach, der in den See fließt oder aus ihm herausführt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 4,
+      "paragraph_index": 0,
+      "fact": "Der See wird unterirdisch durch Grundwasser gefüllt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 5,
+      "paragraph_index": 0,
+      "fact": "Der See ist nur sichtbar, wenn es zuvor lange Zeit stark geregnet hat.",
+      "fallback": false
+    },
+    {
+      "fact_index": 6,
+      "paragraph_index": 1,
+      "fact": "Der Dinkelberg ist eine Karstgegend.",
+      "fallback": false
+    },
+    {
+      "fact_index": 7,
+      "paragraph_index": 1,
+      "fact": "Im Dinkelberg gibt es überall Höhlen, Löcher und Einbrüche.",
+      "fallback": false
+    },
+    {
+      "fact_index": 8,
+      "paragraph_index": 1,
+      "fact": "Bei Regen sammelt sich Wasser in diesen Hohlräumen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 9,
+      "paragraph_index": 1,
+      "fact": "Bei längerem Regen und zusätzlicher Schneeschmelze kann nicht alles Wasser ablaufen und staut sich in den Hohlräumen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 10,
+      "paragraph_index": 1,
+      "fact": "Das gestaute Wasser sammelt sich in Senken, sogenannten Dolinen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 11,
+      "paragraph_index": 1,
+      "fact": "Man kann beobachten, wie Wasser aus dem Boden sprudelt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 12,
+      "paragraph_index": 1,
+      "fact": "Versuche mit Farbe haben nachgewiesen, dass Wasser aus dem See beim Ablaufen unter anderem in der Hasler Höhle in Hasel erscheint.",
+      "fallback": false
+    },
+    {
+      "fact_index": 13,
+      "paragraph_index": 1,
+      "fact": "Es gibt eine unterirdische Verbindung zwischen dem See und der Hasler Höhle.",
+      "fallback": false
+    },
+    {
+      "fact_index": 14,
+      "paragraph_index": 1,
+      "fact": "Die Hasler Höhle ist etwa 2 Kilometer vom See entfernt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 15,
+      "paragraph_index": 2,
+      "fact": "Der erste Bericht über den Eiemer See stammt aus dem Jahr 1784.",
+      "fallback": false
+    },
+    {
+      "fact_index": 16,
+      "paragraph_index": 2,
+      "fact": "Die Informationen stammen aus den veröffentlichten Nachlassschriften von Heinrich Sander.",
+      "fallback": false
+    },
+    {
+      "fact_index": 17,
+      "paragraph_index": 2,
+      "fact": "Heinrich Sander war Professor am Gymnasium illustre in Karlsruhe.",
+      "fallback": false
+    },
+    {
+      "fact_index": 18,
+      "paragraph_index": 2,
+      "fact": "Heinrich Sander war unter anderem Lehrer von Johann Peter Hebel.",
+      "fallback": false
+    },
+    {
+      "fact_index": 19,
+      "paragraph_index": 2,
+      "fact": "Heinrich Sander beschrieb die Größe des Sees als 'ungleich und verschieden'.",
+      "fallback": false
+    },
+    {
+      "fact_index": 20,
+      "paragraph_index": 2,
+      "fact": "Die Breite des Sees wurde mit einem 'Bichseschiss' (Büchsenschuss) berechnet.",
+      "fallback": false
+    },
+    {
+      "fact_index": 21,
+      "paragraph_index": 2,
+      "fact": "Die Länge des Sees wurde mit zwei 'Bichseschiss' (Büchsenschüssen) berechnet.",
+      "fallback": false
+    },
+    {
+      "fact_index": 22,
+      "paragraph_index": 2,
+      "fact": "Es wurde berichtet, dass bei der Entstehung des Sees fast alle Pflanzen zerstört wurden.",
+      "fallback": false
+    },
+    {
+      "fact_index": 23,
+      "paragraph_index": 2,
+      "fact": "Einige Birnbäume überlebten die Entstehung des Sees ohne Schaden.",
+      "fallback": false
+    },
+    {
+      "fact_index": 24,
+      "paragraph_index": 3,
+      "fact": "De Sander schreibt über ein Unglück im See.",
+      "fallback": false
+    },
+    {
+      "fact_index": 25,
+      "paragraph_index": 3,
+      "fact": "Das Ereignis fand an einem Sonntagmorgen im Mai statt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 26,
+      "paragraph_index": 3,
+      "fact": "Junge Mädchen und Jungen wollten mit einem Boot auf dem See spazieren fahren.",
+      "fallback": false
+    },
+    {
+      "fact_index": 27,
+      "paragraph_index": 3,
+      "fact": "Es sind anscheinend zu viele Personen in das Boot eingestiegen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 28,
+      "paragraph_index": 3,
+      "fact": "Das Boot ist gesunken.",
+      "fallback": false
+    },
+    {
+      "fact_index": 29,
+      "paragraph_index": 3,
+      "fact": "Vier der jungen Leute sind ertrunken.",
+      "fallback": false
+    },
+    {
+      "fact_index": 30,
+      "paragraph_index": 3,
+      "fact": "Die Personen wurden mit Stangen aus dem See gezogen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 31,
+      "paragraph_index": 3,
+      "fact": "Laut dem Text hätten die Personen wiederbelebt werden können, wenn die Polizei schneller gerufen worden wäre.",
+      "fallback": false
+    },
+    {
+      "fact_index": 32,
+      "paragraph_index": 4,
+      "fact": "Die Seebodenfläche wurde genutzt, sobald das Wasser zurückgegangen war.",
+      "fallback": false
+    },
+    {
+      "fact_index": 33,
+      "paragraph_index": 4,
+      "fact": "Auf dem Seeboden wurde Madde (Wiesengras/Heu) gemäht.",
+      "fallback": false
+    },
+    {
+      "fact_index": 34,
+      "paragraph_index": 4,
+      "fact": "Die Qualität des Futters war gut.",
+      "fallback": false
+    },
+    {
+      "fact_index": 35,
+      "paragraph_index": 4,
+      "fact": "Es wurden verschiedene Kulturen angepflanzt, darunter Roggen (Korn), Dinkel, Hafer (Haber), Gerste (Gärschd) und Kartoffeln (Herdepfel).",
+      "fallback": false
+    },
+    {
+      "fact_index": 36,
+      "paragraph_index": 4,
+      "fact": "Diese Anpflanzungen lieferten gute Ernten.",
+      "fallback": false
+    },
+    {
+      "fact_index": 37,
+      "paragraph_index": 4,
+      "fact": "Die Ernten waren gefährdet bzw. wurden vernichtet, wenn das Wasser kam und die Flächen überschwemmte.",
+      "fallback": false
+    },
+    {
+      "fact_index": 38,
+      "paragraph_index": 5,
+      "fact": "Der Eiemer See hat bei maximalem Füllstand eine Tiefe von etwa 3,20 Metern.",
+      "fallback": false
+    },
+    {
+      "fact_index": 39,
+      "paragraph_index": 5,
+      "fact": "Der Eiemer See ist 250 Meter lang.",
+      "fallback": false
+    },
+    {
+      "fact_index": 40,
+      "paragraph_index": 5,
+      "fact": "Der Eiemer See ist 135 Meter breit.",
+      "fallback": false
+    },
+    {
+      "fact_index": 41,
+      "paragraph_index": 5,
+      "fact": "Das Fassungsvermögen des Eiemer Sees beträgt etwa 33.000 Kubikmeter Wasser.",
+      "fallback": false
+    },
+    {
+      "fact_index": 42,
+      "paragraph_index": 5,
+      "fact": "Im schnellsten Fall ist der See innerhalb einer Woche gefüllt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 43,
+      "paragraph_index": 5,
+      "fact": "Das Wasser bleibt meistens zwischen drei Wochen und zwei Monaten im See.",
+      "fallback": false
+    },
+    {
+      "fact_index": 44,
+      "paragraph_index": 5,
+      "fact": "Der See war bereits so stark zugefroren, dass man darauf Schlittschuhlaufen konnte.",
+      "fallback": false
+    },
+    {
+      "fact_index": 45,
+      "paragraph_index": 6,
+      "fact": "Das erste datierte Auftreten des See ist im Jahr 1772.",
+      "fallback": false
+    },
+    {
+      "fact_index": 46,
+      "paragraph_index": 6,
+      "fact": "Gustav Albiez hat in seiner Dissertation von 1931 auf Seite 53 eine Zusammenstellung erstellt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 47,
+      "paragraph_index": 6,
+      "fact": "Gustav Albiez zeigt in seiner Arbeit alle Jahre, in denen der See bis 1930 aufgetreten ist.",
+      "fallback": false
+    },
+    {
+      "fact_index": 48,
+      "paragraph_index": 6,
+      "fact": "Alle bisher bekannten Daten zum Auftreten sind in der 'Liste zum Auftreten vom Eiemer See' zusammengefasst.",
+      "fallback": false
+    },
+    {
+      "fact_index": 49,
+      "paragraph_index": 7,
+      "fact": "Der Eichener See tauchte im Dezember 2017 auf.",
+      "fallback": false
+    },
+    {
+      "fact_index": 50,
+      "paragraph_index": 7,
+      "fact": "Die Badische Zeitung veröffentlichte dazu einen Artikel am 18. Dezember 2017.",
+      "fallback": false
+    },
+    {
+      "fact_index": 51,
+      "paragraph_index": 7,
+      "fact": "Vor dem Auftreten 2017 kam der See zwischen Februar und März 2016 an die Oberfläche.",
+      "fallback": false
+    },
+    {
+      "fact_index": 52,
+      "paragraph_index": 7,
+      "fact": "Im Dezember 2015 befand sich der See auf einem historischen Tiefstand.",
+      "fallback": false
+    },
+    {
+      "fact_index": 53,
+      "paragraph_index": 7,
+      "fact": "Durch Niederschläge zu Beginn des Jahres 2016 stieg der Grundwasserspiegel schnell an.",
+      "fallback": false
+    },
+    {
+      "fact_index": 54,
+      "paragraph_index": 7,
+      "fact": "Der Grundwasserspiegel stieg innerhalb weniger Tage im Januar von 6 auf 37 Meter.",
+      "fallback": false
+    },
+    {
+      "fact_index": 55,
+      "paragraph_index": 7,
+      "fact": "Trotz des Anstiegs im Januar lag der See noch zwei Meter unter der Oberfläche.",
+      "fallback": false
+    },
+    {
+      "fact_index": 56,
+      "paragraph_index": 7,
+      "fact": "Weitere Niederschläge im Februar führten dazu, dass der See austrat.",
+      "fallback": false
+    },
+    {
+      "fact_index": 57,
+      "paragraph_index": 7,
+      "fact": "Der Pegel des Sees wird regelmäßig gemessen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 58,
+      "paragraph_index": 7,
+      "fact": "Die Badische Zeitung veröffentlichte am 18. Februar 2016 einen Artikel mit dem Titel 'Eichener See: Geheimnisse eines Gewässers, das kommt und geht'.",
+      "fallback": false
+    },
+    {
+      "fact_index": 59,
+      "paragraph_index": 8,
+      "fact": "Der Eiemer See wurde am 29. April 1942 zum Landschaftsschutzgebiet (LSG) ausgewiesen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 60,
+      "paragraph_index": 8,
+      "fact": "Das Landschaftsschutzgebiet hat die Nummer 3.36.012.",
+      "fallback": false
+    },
+    {
+      "fact_index": 61,
+      "paragraph_index": 8,
+      "fact": "Der Verordnungstext wurde am 8. Mai 1942 im 'Alemanne' abgedruckt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 62,
+      "paragraph_index": 8,
+      "fact": "Das Landschaftsschutzgebiet hat eine Größe von 8 ha.",
+      "fallback": false
+    },
+    {
+      "fact_index": 63,
+      "paragraph_index": 8,
+      "fact": "Das Landschaftsschutzgebiet erstreckt sich wie ein Kranz im Norden, Westen und Süden um den See herum.",
+      "fallback": false
+    },
+    {
+      "fact_index": 64,
+      "paragraph_index": 8,
+      "fact": "Der See selbst gehört nicht zum Landschaftsschutzgebiet.",
+      "fallback": false
+    },
+    {
+      "fact_index": 65,
+      "paragraph_index": 9,
+      "fact": "Der See und seine nähere Umgebung wurden am 11. Februar 1983 als flächenhaftes Naturdenkmal ausgewiesen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 66,
+      "paragraph_index": 9,
+      "fact": "Die Nummer des flächenhaften Naturdenkmals ist 8336081001.",
+      "fallback": false
+    },
+    {
+      "fact_index": 67,
+      "paragraph_index": 9,
+      "fact": "Flächenhafte Naturdenkmale (FND) sind ähnlich geschützt wie Naturschutzgebiete (NSG).",
+      "fallback": false
+    },
+    {
+      "fact_index": 68,
+      "paragraph_index": 9,
+      "fact": "Flächenhafte Naturdenkmale werden vom Landratsamt verordnet.",
+      "fallback": false
+    },
+    {
+      "fact_index": 69,
+      "paragraph_index": 9,
+      "fact": "Flächenhafte Naturdenkmale haben eine Fläche von weniger als 5 Hektar.",
+      "fallback": false
+    },
+    {
+      "fact_index": 70,
+      "paragraph_index": 9,
+      "fact": "Die Fläche des flächenhaften Naturdenkmals am Eiemer See beträgt 3,5 Hektar.",
+      "fallback": false
+    },
+    {
+      "fact_index": 71,
+      "paragraph_index": 9,
+      "fact": "Das flächenhafte Naturdenkmal bildet den Kern des Eiemer Sees.",
+      "fallback": false
+    },
+    {
+      "fact_index": 72,
+      "paragraph_index": 10,
+      "fact": "Der Eiemer See gehört seit dem 31. Mai 2015 zum FFH-Gebiet 'Dinkelbärg un Röttler Wald'.",
+      "fallback": false
+    },
+    {
+      "fact_index": 73,
+      "paragraph_index": 10,
+      "fact": "Das FFH-Gebiet 'Dinkelbärg un Röttler Wald' hat die Nummer 8312311.",
+      "fallback": false
+    },
+    {
+      "fact_index": 74,
+      "paragraph_index": 10,
+      "fact": "Die Teilfläche des FFH-Gebiets um den Eiemer See umfasst 11,5 ha.",
+      "fallback": false
+    },
+    {
+      "fact_index": 75,
+      "paragraph_index": 10,
+      "fact": "Die Teilfläche deckt sich ungefähr mit dem Landschaftsschutzgebiet (LSG) und dem Naturdenkmal (FND).",
+      "fallback": false
+    },
+    {
+      "fact_index": 76,
+      "paragraph_index": 10,
+      "fact": "Das FFH-Gebiet 'Dinkelbärg un Röttler Wald' erstreckt sich über die Landkreise Lörrach und Waldshut.",
+      "fallback": false
+    },
+    {
+      "fact_index": 77,
+      "paragraph_index": 10,
+      "fact": "Der Eiemer See wird in der Kurzbeschreibung des Gebiets ausdrücklich genannt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 78,
+      "paragraph_index": 10,
+      "fact": "Das Gebiet wird als Kulturlandschaft mit naturnahen Buchenwäldern, Hecken, Kalkmagerrasen, Glatthaferwiesen, Höhlen und einem temporären Karstsee beschrieben.",
+      "fallback": false
+    },
+    {
+      "fact_index": 79,
+      "paragraph_index": 10,
+      "fact": "Das Gebiet ist ein hervorragender Lebensraum für zahlreiche FFH-Arten, insbesondere für Fledermausarten.",
+      "fallback": false
+    },
+    {
+      "fact_index": 80,
+      "paragraph_index": 11,
+      "fact": "Im Eiemer See lebt eine urzeitliche Krebsart.",
+      "fallback": false
+    },
+    {
+      "fact_index": 81,
+      "paragraph_index": 11,
+      "fact": "Diese Krebsart kommt sonst nur an wenigen Orten in Deutschland und im restlichen Europa vor.",
+      "fallback": false
+    },
+    {
+      "fact_index": 82,
+      "paragraph_index": 11,
+      "fact": "Der wissenschaftliche Name des Tieres ist Tanymastix lacunae.",
+      "fallback": false
+    },
+    {
+      "fact_index": 83,
+      "paragraph_index": 11,
+      "fact": "Er gehört zu den Kiemenfußkrebsen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 84,
+      "paragraph_index": 11,
+      "fact": "Kiemenfußkrebse haben ihre Kiemen an den Füßen oder Beinen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 85,
+      "paragraph_index": 11,
+      "fact": "Ausgewachsene Exemplare werden etwa zwei Zentimeter lang.",
+      "fallback": false
+    },
+    {
+      "fact_index": 86,
+      "paragraph_index": 11,
+      "fact": "Die Weibchen können bis zu 14.000 Eier legen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 87,
+      "paragraph_index": 11,
+      "fact": "Die Eier sind sehr robust und können mehrere Jahre im trockenen Boden überleben, bis der See wieder ansteigt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 88,
+      "paragraph_index": 11,
+      "fact": "Die Art wurde bereits 1758 von Linné beschrieben.",
+      "fallback": false
+    },
+    {
+      "fact_index": 89,
+      "paragraph_index": 11,
+      "fact": "Der Zoologe Eduard Graeter hat die Art 1909 erstmals im Eiemer See gefunden.",
+      "fallback": false
+    },
+    {
+      "fact_index": 90,
+      "paragraph_index": 11,
+      "fact": "Eduard Graeter befasste sich im Zusammenhang mit seiner Dissertation an der Universität Basel auch mit Ruderfußkrebsen in unterirdischen Gewässern.",
+      "fallback": false
+    },
+    {
+      "fact_index": 91,
+      "paragraph_index": 12,
+      "fact": "Das Eierspringen findet am Eiemer See statt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 92,
+      "paragraph_index": 12,
+      "fact": "Das Eierspringen findet am Oschdermendig statt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 93,
+      "paragraph_index": 12,
+      "fact": "Das Eierspringen ist ein Brauch.",
+      "fallback": false
+    },
+    {
+      "fact_index": 94,
+      "paragraph_index": 12,
+      "fact": "Der Brauch des Eierspringens hat keltische Ursprünge.",
+      "fallback": false
+    },
+    {
+      "fact_index": 95,
+      "paragraph_index": 12,
+      "fact": "Der Brauch soll die Fruchtbarkeit im Eiemer Dorf erhalten.",
+      "fallback": false
+    }
+  ]
+}

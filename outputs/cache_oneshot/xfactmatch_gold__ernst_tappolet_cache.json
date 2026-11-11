@@ -1,0 +1,938 @@
+{
+  "{\"candidate_indices\": [0, 3], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Emanuel Tappolet wird in französischsprachigen Publikationen als Ernest Tappolet bezeichnet.\"], \"source_fact_index\": 0, \"target_contexts\": [[\"Ernst Emanuel Tappolet schrieb seinen Vornamen in französischen Texten als Ernest.\"], [\"Ernst Emanuel Tappolet wurde am 21. Oktober 1870 in Hittnau geboren.\", \"Ernst Emanuel Tappolet starb am 2. November 1939 in Basel.\", \"Ernst Emanuel Tappolet war ein Schweizer Romanist.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 283,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [1, 2], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Emanuel Tappolet wird in französischsprachigen Publikationen als Ernest Tappolet bezeichnet.\", \"Ernst Emanuel Tappolet wurde am 21. Oktober 1870 in Hittnau geboren.\"], \"source_fact_index\": 1, \"target_contexts\": [[\"Ernst Emanuel Tappolet schrieb seinen Vornamen in französischen Texten als Ernest.\", \"Ernst Emanuel Tappolet wurde am 21. Oktober 1870 in Hittnau geboren.\"], [\"Ernst Emanuel Tappolet schrieb seinen Vornamen in französischen Texten als Ernest.\", \"Ernst Emanuel Tappolet wurde am 21. Oktober 1870 in Hittnau geboren.\", \"Ernst Emanuel Tappolet starb am 2. November 1939 in Basel.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 337,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [2, 1], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Emanuel Tappolet wird in französischsprachigen Publikationen als Ernest Tappolet bezeichnet.\", \"Ernst Emanuel Tappolet wurde am 21. Oktober 1870 in Hittnau geboren.\", \"Ernst Emanuel Tappolet starb am 2. November 1939 in Basel.\"], \"source_fact_index\": 2, \"target_contexts\": [[\"Ernst Emanuel Tappolet schrieb seinen Vornamen in französischen Texten als Ernest.\", \"Ernst Emanuel Tappolet wurde am 21. Oktober 1870 in Hittnau geboren.\", \"Ernst Emanuel Tappolet starb am 2. November 1939 in Basel.\"], [\"Ernst Emanuel Tappolet schrieb seinen Vornamen in französischen Texten als Ernest.\", \"Ernst Emanuel Tappolet wurde am 21. Oktober 1870 in Hittnau geboren.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 358,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [3, 0], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Emanuel Tappolet wurde am 21. Oktober 1870 in Hittnau geboren.\", \"Ernst Emanuel Tappolet starb am 2. November 1939 in Basel.\", \"Ernst Emanuel Tappolet war ein Schweizer Romanist.\"], \"source_fact_index\": 3, \"target_contexts\": [[\"Ernst Emanuel Tappolet wurde am 21. Oktober 1870 in Hittnau geboren.\", \"Ernst Emanuel Tappolet starb am 2. November 1939 in Basel.\", \"Ernst Emanuel Tappolet war ein Schweizer Romanist.\"], [\"Ernst Emanuel Tappolet schrieb seinen Vornamen in französischen Texten als Ernest.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 319,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [5, 3], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Emanuel Tappolet starb am 2. November 1939 in Basel.\", \"Ernst Emanuel Tappolet war ein Schweizer Romanist.\", \"Ernst Emanuel Tappolet gründete 1899 zusammen mit Louis Gauchat und Jules Jeanjaquet das Glossaire des patois de la Suisse romande.\"], \"source_fact_index\": 4, \"target_contexts\": [[\"Ernst Emanuel Tappolet war ein Schweizer Romanist.\", \"Ernst Emanuel Tappolet war Professor an der Universität Basel.\", \"Ernst Emanuel Tappolet hat 1899 zusammen mit Louis Gauchat und Jules Jeanjaquet das Glossaire des patois de la Suisse romande gegründet.\"], [\"Ernst Emanuel Tappolet wurde am 21. Oktober 1870 in Hittnau geboren.\", \"Ernst Emanuel Tappolet starb am 2. November 1939 in Basel.\", \"Ernst Emanuel Tappolet war ein Schweizer Romanist.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 375,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [3, 0], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Emanuel Tappolet war ein Schweizer Romanist.\", \"Ernst Emanuel Tappolet gründete 1899 zusammen mit Louis Gauchat und Jules Jeanjaquet das Glossaire des patois de la Suisse romande.\", \"Ernst Emanuel Tappolet vertrat 1901 die Meinung, dass Zürich die erste Schweizer Stadt war, in der das Standarddeutsche den Dialekt als Umgangssprache verdrängte.\"], \"source_fact_index\": 5, \"target_contexts\": [[\"Ernst Emanuel Tappolet wurde am 21. Oktober 1870 in Hittnau geboren.\", \"Ernst Emanuel Tappolet starb am 2. November 1939 in Basel.\", \"Ernst Emanuel Tappolet war ein Schweizer Romanist.\"], [\"Ernst Emanuel Tappolet schrieb seinen Vornamen in französischen Texten als Ernest.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 352,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [3, 0], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Emanuel Tappolet gründete 1899 zusammen mit Louis Gauchat und Jules Jeanjaquet das Glossaire des patois de la Suisse romande.\", \"Ernst Emanuel Tappolet vertrat 1901 die Meinung, dass Zürich die erste Schweizer Stadt war, in der das Standarddeutsche den Dialekt als Umgangssprache verdrängte.\", \"Die Meinung von Ernst Emanuel Tappolet aus dem Jahr 1901 bezüglich der Stadt Zürich wird noch heute gelegentlich zitiert.\"], \"source_fact_index\": 6, \"target_contexts\": [[\"Ernst Emanuel Tappolet wurde am 21. Oktober 1870 in Hittnau geboren.\", \"Ernst Emanuel Tappolet starb am 2. November 1939 in Basel.\", \"Ernst Emanuel Tappolet war ein Schweizer Romanist.\"], [\"Ernst Emanuel Tappolet schrieb seinen Vornamen in französischen Texten als Ernest.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 369,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [11, 12], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Emanuel Tappolet vertrat 1901 die Meinung, dass Zürich die erste Schweizer Stadt war, in der das Standarddeutsche den Dialekt als Umgangssprache verdrängte.\", \"Die Meinung von Ernst Emanuel Tappolet aus dem Jahr 1901 bezüglich der Stadt Zürich wird noch heute gelegentlich zitiert.\", \"Ernst Tappolet stammte aus einer Familie, die um 1800 von Essertines-sur-Yverdon im Kanton Waadt nach Küsnacht ausgewandert war.\"], \"source_fact_index\": 7, \"target_contexts\": [[\"Die Aussage, dass das Schweizerdeutsche dem Hochdeutschen weichen würde, wird heute noch gerne zitiert.\", \"Es ist heute kaum noch bekannt, wer diese Idee ursprünglich aufgestellt hat.\", \"Ernst Tappolet stammt aus einer Familie, die etwa um 1800 von Essertines-sur-Yverdon im Wadtland nach Küsnacht ausgewandert ist.\"], [\"Es ist heute kaum noch bekannt, wer diese Idee ursprünglich aufgestellt hat.\", \"Ernst Tappolet stammt aus einer Familie, die etwa um 1800 von Essertines-sur-Yverdon im Wadtland nach Küsnacht ausgewandert ist.\", \"Die Familie von Ernst Tappolet erhielt 1826 das Zürcher Bürgerrecht.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 459,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [12, 11], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Meinung von Ernst Emanuel Tappolet aus dem Jahr 1901 bezüglich der Stadt Zürich wird noch heute gelegentlich zitiert.\", \"Ernst Tappolet stammte aus einer Familie, die um 1800 von Essertines-sur-Yverdon im Kanton Waadt nach Küsnacht ausgewandert war.\", \"Die Familie von Ernst Tappolet erwarb 1826 das Stadtzürcher Bürgerrecht.\"], \"source_fact_index\": 8, \"target_contexts\": [[\"Es ist heute kaum noch bekannt, wer diese Idee ursprünglich aufgestellt hat.\", \"Ernst Tappolet stammt aus einer Familie, die etwa um 1800 von Essertines-sur-Yverdon im Wadtland nach Küsnacht ausgewandert ist.\", \"Die Familie von Ernst Tappolet erhielt 1826 das Zürcher Bürgerrecht.\"], [\"Die Aussage, dass das Schweizerdeutsche dem Hochdeutschen weichen würde, wird heute noch gerne zitiert.\", \"Es ist heute kaum noch bekannt, wer diese Idee ursprünglich aufgestellt hat.\", \"Ernst Tappolet stammt aus einer Familie, die etwa um 1800 von Essertines-sur-Yverdon im Wadtland nach Küsnacht ausgewandert ist.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 441,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [13, 12], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet stammte aus einer Familie, die um 1800 von Essertines-sur-Yverdon im Kanton Waadt nach Küsnacht ausgewandert war.\", \"Die Familie von Ernst Tappolet erwarb 1826 das Stadtzürcher Bürgerrecht.\", \"Der Vater von Ernst Tappolet hieß Paul Friedrich Tappolez.\"], \"source_fact_index\": 9, \"target_contexts\": [[\"Ernst Tappolet stammt aus einer Familie, die etwa um 1800 von Essertines-sur-Yverdon im Wadtland nach Küsnacht ausgewandert ist.\", \"Die Familie von Ernst Tappolet erhielt 1826 das Zürcher Bürgerrecht.\", \"Der Vater von Ernst Tappolet war Pfarrer im Zürcher Oberland.\"], [\"Es ist heute kaum noch bekannt, wer diese Idee ursprünglich aufgestellt hat.\", \"Ernst Tappolet stammt aus einer Familie, die etwa um 1800 von Essertines-sur-Yverdon im Wadtland nach Küsnacht ausgewandert ist.\", \"Die Familie von Ernst Tappolet erhielt 1826 das Zürcher Bürgerrecht.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 428,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [13, 36], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Familie von Ernst Tappolet erwarb 1826 das Stadtzürcher Bürgerrecht.\", \"Der Vater von Ernst Tappolet hieß Paul Friedrich Tappolez.\", \"Paul Friedrich Tappolez war Pfarrer im Zürcher Oberland.\"], \"source_fact_index\": 10, \"target_contexts\": [[\"Ernst Tappolet stammt aus einer Familie, die etwa um 1800 von Essertines-sur-Yverdon im Wadtland nach Küsnacht ausgewandert ist.\", \"Die Familie von Ernst Tappolet erhielt 1826 das Zürcher Bürgerrecht.\", \"Der Vater von Ernst Tappolet war Pfarrer im Zürcher Oberland.\"], [\"Johanna Elisabeth Schlub starb 1941.\", \"Die Person war Mitglied der Abstinenzler-Bewegung.\", \"Die Person war der Sohn eines Pfarrers.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 361,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [13, 11], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Vater von Ernst Tappolet hieß Paul Friedrich Tappolez.\", \"Paul Friedrich Tappolez war Pfarrer im Zürcher Oberland.\", \"Siegfried Tappolet war ein Halbgeschwister von Ernst Tappolet.\"], \"source_fact_index\": 11, \"target_contexts\": [[\"Ernst Tappolet stammt aus einer Familie, die etwa um 1800 von Essertines-sur-Yverdon im Wadtland nach Küsnacht ausgewandert ist.\", \"Die Familie von Ernst Tappolet erhielt 1826 das Zürcher Bürgerrecht.\", \"Der Vater von Ernst Tappolet war Pfarrer im Zürcher Oberland.\"], [\"Die Aussage, dass das Schweizerdeutsche dem Hochdeutschen weichen würde, wird heute noch gerne zitiert.\", \"Es ist heute kaum noch bekannt, wer diese Idee ursprünglich aufgestellt hat.\", \"Ernst Tappolet stammt aus einer Familie, die etwa um 1800 von Essertines-sur-Yverdon im Wadtland nach Küsnacht ausgewandert ist.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 399,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [13, 36], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Paul Friedrich Tappolez war Pfarrer im Zürcher Oberland.\", \"Siegfried Tappolet war ein Halbgeschwister von Ernst Tappolet.\", \"Siegfried Tappolet war Opernsänger und Gesangspädagoge.\"], \"source_fact_index\": 12, \"target_contexts\": [[\"Ernst Tappolet stammt aus einer Familie, die etwa um 1800 von Essertines-sur-Yverdon im Wadtland nach Küsnacht ausgewandert ist.\", \"Die Familie von Ernst Tappolet erhielt 1826 das Zürcher Bürgerrecht.\", \"Der Vater von Ernst Tappolet war Pfarrer im Zürcher Oberland.\"], [\"Johanna Elisabeth Schlub starb 1941.\", \"Die Person war Mitglied der Abstinenzler-Bewegung.\", \"Die Person war der Sohn eines Pfarrers.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 358,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [13, 12], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Siegfried Tappolet war ein Halbgeschwister von Ernst Tappolet.\", \"Siegfried Tappolet war Opernsänger und Gesangspädagoge.\", \"Bertha Tappolet war ein Halbgeschwister von Ernst Tappolet.\"], \"source_fact_index\": 13, \"target_contexts\": [[\"Ernst Tappolet stammt aus einer Familie, die etwa um 1800 von Essertines-sur-Yverdon im Wadtland nach Küsnacht ausgewandert ist.\", \"Die Familie von Ernst Tappolet erhielt 1826 das Zürcher Bürgerrecht.\", \"Der Vater von Ernst Tappolet war Pfarrer im Zürcher Oberland.\"], [\"Es ist heute kaum noch bekannt, wer diese Idee ursprünglich aufgestellt hat.\", \"Ernst Tappolet stammt aus einer Familie, die etwa um 1800 von Essertines-sur-Yverdon im Wadtland nach Küsnacht ausgewandert ist.\", \"Die Familie von Ernst Tappolet erhielt 1826 das Zürcher Bürgerrecht.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 400,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [14, 15], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Bertha Tappolet war ein Halbgeschwister von Ernst Tappolet.\", \"Bertha Tappolet war Künstlerin.\", \"Tappolet studierte in Marburg.\"], \"source_fact_index\": 15, \"target_contexts\": [[\"Die Familie von Ernst Tappolet erhielt 1826 das Zürcher Bürgerrecht.\", \"Der Vater von Ernst Tappolet war Pfarrer im Zürcher Oberland.\", \"Ernst studierte in Marburg.\"], [\"Der Vater von Ernst Tappolet war Pfarrer im Zürcher Oberland.\", \"Ernst studierte in Marburg.\", \"Ernst studierte in Paris.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 301,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [15, 16], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Bertha Tappolet war Künstlerin.\", \"Tappolet studierte in Marburg.\", \"Tappolet studierte in Paris.\"], \"source_fact_index\": 16, \"target_contexts\": [[\"Der Vater von Ernst Tappolet war Pfarrer im Zürcher Oberland.\", \"Ernst studierte in Marburg.\", \"Ernst studierte in Paris.\"], [\"Ernst studierte in Marburg.\", \"Ernst studierte in Paris.\", \"Ernst studierte in Florenz.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 267,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [16, 15], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Tappolet studierte in Marburg.\", \"Tappolet studierte in Paris.\", \"Tappolet studierte in Florenz.\"], \"source_fact_index\": 17, \"target_contexts\": [[\"Ernst studierte in Marburg.\", \"Ernst studierte in Paris.\", \"Ernst studierte in Florenz.\"], [\"Der Vater von Ernst Tappolet war Pfarrer im Zürcher Oberland.\", \"Ernst studierte in Marburg.\", \"Ernst studierte in Paris.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 266,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [17, 15], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Tappolet studierte in Paris.\", \"Tappolet studierte in Florenz.\", \"Tappolet studierte in Zürich.\"], \"source_fact_index\": 18, \"target_contexts\": [[\"Ernst studierte in Paris.\", \"Ernst studierte in Florenz.\", \"Ernst studierte in Zürich.\"], [\"Der Vater von Ernst Tappolet war Pfarrer im Zürcher Oberland.\", \"Ernst studierte in Marburg.\", \"Ernst studierte in Paris.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 264,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [17, 15], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Tappolet studierte in Florenz.\", \"Tappolet studierte in Zürich.\", \"Tappolet promovierte an der Universität Zürich.\"], \"source_fact_index\": 19, \"target_contexts\": [[\"Ernst studierte in Paris.\", \"Ernst studierte in Florenz.\", \"Ernst studierte in Zürich.\"], [\"Der Vater von Ernst Tappolet war Pfarrer im Zürcher Oberland.\", \"Ernst studierte in Marburg.\", \"Ernst studierte in Paris.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 267,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [18, 14], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Tappolet studierte in Zürich.\", \"Tappolet promovierte an der Universität Zürich.\", \"Tappolet promovierte bei Heinrich Morf.\"], \"source_fact_index\": 20, \"target_contexts\": [[\"Ernst studierte in Florenz.\", \"Ernst studierte in Zürich.\", \"Ernst promovierte in Zürich bei Heinrich Morf über romanische Verwandtschaftsnamen.\"], [\"Die Familie von Ernst Tappolet erhielt 1826 das Zürcher Bürgerrecht.\", \"Der Vater von Ernst Tappolet war Pfarrer im Zürcher Oberland.\", \"Ernst studierte in Marburg.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 296,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [21, 20], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Tappolet promovierte an der Universität Zürich.\", \"Tappolet promovierte bei Heinrich Morf.\", \"Das Thema der Promotion war 'Die romanischen Verwandtschaftsnamen, mit besonderer Berücksichtigung der französischen und italienischen Mundarten; ein Beitrag zur vergleichenden Lexikologie'.\"], \"source_fact_index\": 21, \"target_contexts\": [[\"Das Buch 'Die romanischen Verwandtschaftsnamen' wurde 1895 veröffentlicht.\", \"Das Werk eröffnete der onomasiologischen Forschung in der Romanistik einen neuen Weg.\", \"Das Werk steht am Anfang einer Reihe von Büchern über den Wortschatz der romanischen Sprachen.\"], [\"Ernst promovierte in Zürich bei Heinrich Morf über romanische Verwandtschaftsnamen.\", \"Das Buch 'Die romanischen Verwandtschaftsnamen' wurde 1895 veröffentlicht.\", \"Das Werk eröffnete der onomasiologischen Forschung in der Romanistik einen neuen Weg.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 368,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [19, 24], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Tappolet promovierte bei Heinrich Morf.\", \"Das Thema der Promotion war 'Die romanischen Verwandtschaftsnamen, mit besonderer Berücksichtigung der französischen und italienischen Mundarten; ein Beitrag zur vergleichenden Lexikologie'.\", \"Die Promotionsschrift wurde 1895 in Strassburg veröffentlicht.\"], \"source_fact_index\": 22, \"target_contexts\": [[\"Ernst studierte in Zürich.\", \"Ernst promovierte in Zürich bei Heinrich Morf über romanische Verwandtschaftsnamen.\", \"Das Buch 'Die romanischen Verwandtschaftsnamen' wurde 1895 veröffentlicht.\"], [\"Ernst war anschließend Gymnasiallehrer in Zürich.\", \"Ernst schrieb 1901 die Arbeit 'Über den Stand der Mundarten in der deutschen und französischen Schweiz'.\", \"Ernst habilitierte sich 1902 mit dieser Arbeit.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 354,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [20, 21], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Das Thema der Promotion war 'Die romanischen Verwandtschaftsnamen, mit besonderer Berücksichtigung der französischen und italienischen Mundarten; ein Beitrag zur vergleichenden Lexikologie'.\", \"Die Promotionsschrift wurde 1895 in Strassburg veröffentlicht.\", \"Das Werk zur vergleichenden Lexikologie war bahnbrechend für die romanistische onomasiologische Forschung.\"], \"source_fact_index\": 23, \"target_contexts\": [[\"Ernst promovierte in Zürich bei Heinrich Morf über romanische Verwandtschaftsnamen.\", \"Das Buch 'Die romanischen Verwandtschaftsnamen' wurde 1895 veröffentlicht.\", \"Das Werk eröffnete der onomasiologischen Forschung in der Romanistik einen neuen Weg.\"], [\"Das Buch 'Die romanischen Verwandtschaftsnamen' wurde 1895 veröffentlicht.\", \"Das Werk eröffnete der onomasiologischen Forschung in der Romanistik einen neuen Weg.\", \"Das Werk steht am Anfang einer Reihe von Büchern über den Wortschatz der romanischen Sprachen.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 389,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [21, 20], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Promotionsschrift wurde 1895 in Strassburg veröffentlicht.\", \"Das Werk zur vergleichenden Lexikologie war bahnbrechend für die romanistische onomasiologische Forschung.\", \"Das Werk stand am Anfang einer großen Zahl von Untersuchungen über den Wortschatz der romanischen Sprachen.\"], \"source_fact_index\": 24, \"target_contexts\": [[\"Das Buch 'Die romanischen Verwandtschaftsnamen' wurde 1895 veröffentlicht.\", \"Das Werk eröffnete der onomasiologischen Forschung in der Romanistik einen neuen Weg.\", \"Das Werk steht am Anfang einer Reihe von Büchern über den Wortschatz der romanischen Sprachen.\"], [\"Ernst promovierte in Zürich bei Heinrich Morf über romanische Verwandtschaftsnamen.\", \"Das Buch 'Die romanischen Verwandtschaftsnamen' wurde 1895 veröffentlicht.\", \"Das Werk eröffnete der onomasiologischen Forschung in der Romanistik einen neuen Weg.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 368,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [24, 19], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Das Werk zur vergleichenden Lexikologie war bahnbrechend für die romanistische onomasiologische Forschung.\", \"Das Werk stand am Anfang einer großen Zahl von Untersuchungen über den Wortschatz der romanischen Sprachen.\", \"Tappolet habilitierte sich im Jahr 1902.\"], \"source_fact_index\": 25, \"target_contexts\": [[\"Ernst war anschließend Gymnasiallehrer in Zürich.\", \"Ernst schrieb 1901 die Arbeit 'Über den Stand der Mundarten in der deutschen und französischen Schweiz'.\", \"Ernst habilitierte sich 1902 mit dieser Arbeit.\"], [\"Ernst studierte in Zürich.\", \"Ernst promovierte in Zürich bei Heinrich Morf über romanische Verwandtschaftsnamen.\", \"Das Buch 'Die romanischen Verwandtschaftsnamen' wurde 1895 veröffentlicht.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 348,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [17, 16], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Das Werk stand am Anfang einer großen Zahl von Untersuchungen über den Wortschatz der romanischen Sprachen.\", \"Tappolet habilitierte sich im Jahr 1902.\", \"Die Habilitation erfolgte in Zürich.\"], \"source_fact_index\": 26, \"target_contexts\": [[\"Ernst studierte in Paris.\", \"Ernst studierte in Florenz.\", \"Ernst studierte in Zürich.\"], [\"Ernst studierte in Marburg.\", \"Ernst studierte in Paris.\", \"Ernst studierte in Florenz.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 274,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [23, 18], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Tappolet habilitierte sich im Jahr 1902.\", \"Die Habilitation erfolgte in Zürich.\", \"Die Habilitationsschrift trug den Titel 'Über den Stand der Mundarten in der deutschen und französischen Schweiz'.\"], \"source_fact_index\": 27, \"target_contexts\": [[\"Das Werk steht am Anfang einer Reihe von Büchern über den Wortschatz der romanischen Sprachen.\", \"Ernst war anschließend Gymnasiallehrer in Zürich.\", \"Ernst schrieb 1901 die Arbeit 'Über den Stand der Mundarten in der deutschen und französischen Schweiz'.\"], [\"Ernst studierte in Florenz.\", \"Ernst studierte in Zürich.\", \"Ernst promovierte in Zürich bei Heinrich Morf über romanische Verwandtschaftsnamen.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 326,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [17, 24], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Habilitation erfolgte in Zürich.\", \"Die Habilitationsschrift trug den Titel 'Über den Stand der Mundarten in der deutschen und französischen Schweiz'.\", \"Die Habilitationsschrift wurde 1901 in Zürich veröffentlicht.\"], \"source_fact_index\": 28, \"target_contexts\": [[\"Ernst studierte in Paris.\", \"Ernst studierte in Florenz.\", \"Ernst studierte in Zürich.\"], [\"Ernst war anschließend Gymnasiallehrer in Zürich.\", \"Ernst schrieb 1901 die Arbeit 'Über den Stand der Mundarten in der deutschen und französischen Schweiz'.\", \"Ernst habilitierte sich 1902 mit dieser Arbeit.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 310,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [28, 29], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Habilitationsschrift trug den Titel 'Über den Stand der Mundarten in der deutschen und französischen Schweiz'.\", \"Die Habilitationsschrift wurde 1901 in Zürich veröffentlicht.\", \"Er war einige Jahre als Französischlehrer an der Zürcher Kantonsschule tätig.\"], \"source_fact_index\": 29, \"target_contexts\": [[\"Ein Schwerpunkt seines Wirkens an der Universität Basel war die romanistische Onomasiologie (Wortfeldforschung).\", \"Ein weiterer Schwerpunkt seines Wirkens an der Universität Basel war die romanistische Dialektologie.\", \"Er vermittelte seinen Schülern Wissen, das direkt im Neusprachenunterricht anwendbar war.\"], [\"Ein weiterer Schwerpunkt seines Wirkens an der Universität Basel war die romanistische Dialektologie.\", \"Er vermittelte seinen Schülern Wissen, das direkt im Neusprachenunterricht anwendbar war.\", \"Er befasste sich mit grundsätzlichen Fragen zur Natur der Sprachen.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 376,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [25, 26], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Habilitationsschrift wurde 1901 in Zürich veröffentlicht.\", \"Er war einige Jahre als Französischlehrer an der Zürcher Kantonsschule tätig.\", \"Er wurde 1904 an die Universität Basel berufen.\"], \"source_fact_index\": 30, \"target_contexts\": [[\"Ernst schrieb 1901 die Arbeit 'Über den Stand der Mundarten in der deutschen und französischen Schweiz'.\", \"Ernst habilitierte sich 1902 mit dieser Arbeit.\", \"Die Person wurde 1904 als Professor an die Universität Basel berufen.\"], [\"Ernst habilitierte sich 1902 mit dieser Arbeit.\", \"Die Person wurde 1904 als Professor an die Universität Basel berufen.\", \"Ein Schwerpunkt seines Wirkens an der Universität Basel war die romanistische Onomasiologie (Wortfeldforschung).\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 353,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [26, 27], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Er war einige Jahre als Französischlehrer an der Zürcher Kantonsschule tätig.\", \"Er wurde 1904 an die Universität Basel berufen.\", \"Er wirkte an der Universität Basel als Professor für romanische Philologie.\"], \"source_fact_index\": 31, \"target_contexts\": [[\"Ernst habilitierte sich 1902 mit dieser Arbeit.\", \"Die Person wurde 1904 als Professor an die Universität Basel berufen.\", \"Ein Schwerpunkt seines Wirkens an der Universität Basel war die romanistische Onomasiologie (Wortfeldforschung).\"], [\"Die Person wurde 1904 als Professor an die Universität Basel berufen.\", \"Ein Schwerpunkt seines Wirkens an der Universität Basel war die romanistische Onomasiologie (Wortfeldforschung).\", \"Ein weiterer Schwerpunkt seines Wirkens an der Universität Basel war die romanistische Dialektologie.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 357,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [29, 30], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Er wurde 1904 an die Universität Basel berufen.\", \"Er wirkte an der Universität Basel als Professor für romanische Philologie.\", \"Er begründete 1899 zusammen mit Louis Gauchat und Jules Jeanjaquet das Glossaire des patois de la Suisse romande.\"], \"source_fact_index\": 32, \"target_contexts\": [[\"Ein weiterer Schwerpunkt seines Wirkens an der Universität Basel war die romanistische Dialektologie.\", \"Er vermittelte seinen Schülern Wissen, das direkt im Neusprachenunterricht anwendbar war.\", \"Er befasste sich mit grundsätzlichen Fragen zur Natur der Sprachen.\"], [\"Er vermittelte seinen Schülern Wissen, das direkt im Neusprachenunterricht anwendbar war.\", \"Er befasste sich mit grundsätzlichen Fragen zur Natur der Sprachen.\", \"Er veröffentlichte im Jahr 1907 das Werk 'Die Sprache des Kindes'.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 368,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [25, 30], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Er wirkte an der Universität Basel als Professor für romanische Philologie.\", \"Er begründete 1899 zusammen mit Louis Gauchat und Jules Jeanjaquet das Glossaire des patois de la Suisse romande.\", \"Ab 1924 arbeitete er als Redaktor am Glossaire des patois de la Suisse romande.\"], \"source_fact_index\": 33, \"target_contexts\": [[\"Ernst schrieb 1901 die Arbeit 'Über den Stand der Mundarten in der deutschen und französischen Schweiz'.\", \"Ernst habilitierte sich 1902 mit dieser Arbeit.\", \"Die Person wurde 1904 als Professor an die Universität Basel berufen.\"], [\"Er vermittelte seinen Schülern Wissen, das direkt im Neusprachenunterricht anwendbar war.\", \"Er befasste sich mit grundsätzlichen Fragen zur Natur der Sprachen.\", \"Er veröffentlichte im Jahr 1907 das Werk 'Die Sprache des Kindes'.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 376,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [25, 28], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Er begründete 1899 zusammen mit Louis Gauchat und Jules Jeanjaquet das Glossaire des patois de la Suisse romande.\", \"Ab 1924 arbeitete er als Redaktor am Glossaire des patois de la Suisse romande.\", \"Im Jahr 1935 wurde er zu seinem 65. Geburtstag mit einer Festschrift geehrt.\"], \"source_fact_index\": 34, \"target_contexts\": [[\"Ernst schrieb 1901 die Arbeit 'Über den Stand der Mundarten in der deutschen und französischen Schweiz'.\", \"Ernst habilitierte sich 1902 mit dieser Arbeit.\", \"Die Person wurde 1904 als Professor an die Universität Basel berufen.\"], [\"Ein Schwerpunkt seines Wirkens an der Universität Basel war die romanistische Onomasiologie (Wortfeldforschung).\", \"Ein weiterer Schwerpunkt seines Wirkens an der Universität Basel war die romanistische Dialektologie.\", \"Er vermittelte seinen Schülern Wissen, das direkt im Neusprachenunterricht anwendbar war.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 393,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [32, 33], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ab 1924 arbeitete er als Redaktor am Glossaire des patois de la Suisse romande.\", \"Im Jahr 1935 wurde er zu seinem 65. Geburtstag mit einer Festschrift geehrt.\", \"Tappolet war ab 1897 mit Johanna Elisabeth Schlub verheiratet.\"], \"source_fact_index\": 35, \"target_contexts\": [[\"Er veröffentlichte im Jahr 1907 das Werk 'Die Sprache des Kindes'.\", \"Er veröffentlichte im Jahr 1913 das Werk 'Die Ursachen des Wortreichtums bei den Haustiernamen der französischen Schweiz'.\", \"Ghüraate hat im Jahr 1897 Johanna Elisabeth Schlub geheiratet.\"], [\"Er veröffentlichte im Jahr 1913 das Werk 'Die Ursachen des Wortreichtums bei den Haustiernamen der französischen Schweiz'.\", \"Ghüraate hat im Jahr 1897 Johanna Elisabeth Schlub geheiratet.\", \"Johanna Elisabeth Schlub wurde 1866 geboren.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 396,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [33, 34], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Im Jahr 1935 wurde er zu seinem 65. Geburtstag mit einer Festschrift geehrt.\", \"Tappolet war ab 1897 mit Johanna Elisabeth Schlub verheiratet.\", \"Johanna Elisabeth Schlub lebte von 1866 bis 1941.\"], \"source_fact_index\": 36, \"target_contexts\": [[\"Er veröffentlichte im Jahr 1913 das Werk 'Die Ursachen des Wortreichtums bei den Haustiernamen der französischen Schweiz'.\", \"Ghüraate hat im Jahr 1897 Johanna Elisabeth Schlub geheiratet.\", \"Johanna Elisabeth Schlub wurde 1866 geboren.\"], [\"Ghüraate hat im Jahr 1897 Johanna Elisabeth Schlub geheiratet.\", \"Johanna Elisabeth Schlub wurde 1866 geboren.\", \"Johanna Elisabeth Schlub starb 1941.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 366,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [1, 3], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Tappolet war ab 1897 mit Johanna Elisabeth Schlub verheiratet.\", \"Johanna Elisabeth Schlub lebte von 1866 bis 1941.\", \"Lucienne Hubler ist die Autorin des Eintrags zu Ernst Tappolet im Historischen Lexikon der Schweiz.\"], \"source_fact_index\": 37, \"target_contexts\": [[\"Ernst Emanuel Tappolet schrieb seinen Vornamen in französischen Texten als Ernest.\", \"Ernst Emanuel Tappolet wurde am 21. Oktober 1870 in Hittnau geboren.\"], [\"Ernst Emanuel Tappolet wurde am 21. Oktober 1870 in Hittnau geboren.\", \"Ernst Emanuel Tappolet starb am 2. November 1939 in Basel.\", \"Ernst Emanuel Tappolet war ein Schweizer Romanist.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 353,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [33, 34], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Johanna Elisabeth Schlub lebte von 1866 bis 1941.\", \"Lucienne Hubler ist die Autorin des Eintrags zu Ernst Tappolet im Historischen Lexikon der Schweiz.\", \"In der gedruckten Ausgabe des Historischen Lexikons der Schweiz wurde der Name Schlub fälschlicherweise als Schlup geschrieben.\"], \"source_fact_index\": 38, \"target_contexts\": [[\"Er veröffentlichte im Jahr 1913 das Werk 'Die Ursachen des Wortreichtums bei den Haustiernamen der französischen Schweiz'.\", \"Ghüraate hat im Jahr 1897 Johanna Elisabeth Schlub geheiratet.\", \"Johanna Elisabeth Schlub wurde 1866 geboren.\"], [\"Ghüraate hat im Jahr 1897 Johanna Elisabeth Schlub geheiratet.\", \"Johanna Elisabeth Schlub wurde 1866 geboren.\", \"Johanna Elisabeth Schlub starb 1941.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 377,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [33, 32], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Lucienne Hubler ist die Autorin des Eintrags zu Ernst Tappolet im Historischen Lexikon der Schweiz.\", \"In der gedruckten Ausgabe des Historischen Lexikons der Schweiz wurde der Name Schlub fälschlicherweise als Schlup geschrieben.\", \"Die Lebensdaten basieren auf der Inschrift des Steins auf dem Familiengrab.\"], \"source_fact_index\": 39, \"target_contexts\": [[\"Er veröffentlichte im Jahr 1913 das Werk 'Die Ursachen des Wortreichtums bei den Haustiernamen der französischen Schweiz'.\", \"Ghüraate hat im Jahr 1897 Johanna Elisabeth Schlub geheiratet.\", \"Johanna Elisabeth Schlub wurde 1866 geboren.\"], [\"Er veröffentlichte im Jahr 1907 das Werk 'Die Sprache des Kindes'.\", \"Er veröffentlichte im Jahr 1913 das Werk 'Die Ursachen des Wortreichtums bei den Haustiernamen der französischen Schweiz'.\", \"Ghüraate hat im Jahr 1897 Johanna Elisabeth Schlub geheiratet.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 403,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [26, 27], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"In der gedruckten Ausgabe des Historischen Lexikons der Schweiz wurde der Name Schlub fälschlicherweise als Schlup geschrieben.\", \"Die Lebensdaten basieren auf der Inschrift des Steins auf dem Familiengrab.\", \"Tappolets Lehre konzentrierte sich auf die Onomasiologie (Wortfeldforschung) der romanischen Sprachen.\"], \"source_fact_index\": 40, \"target_contexts\": [[\"Ernst habilitierte sich 1902 mit dieser Arbeit.\", \"Die Person wurde 1904 als Professor an die Universität Basel berufen.\", \"Ein Schwerpunkt seines Wirkens an der Universität Basel war die romanistische Onomasiologie (Wortfeldforschung).\"], [\"Die Person wurde 1904 als Professor an die Universität Basel berufen.\", \"Ein Schwerpunkt seines Wirkens an der Universität Basel war die romanistische Onomasiologie (Wortfeldforschung).\", \"Ein weiterer Schwerpunkt seines Wirkens an der Universität Basel war die romanistische Dialektologie.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 383,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [27, 26], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Lebensdaten basieren auf der Inschrift des Steins auf dem Familiengrab.\", \"Tappolets Lehre konzentrierte sich auf die Onomasiologie (Wortfeldforschung) der romanischen Sprachen.\", \"Tappolets Lehre konzentrierte sich auf die romanistische Dialektologie.\"], \"source_fact_index\": 41, \"target_contexts\": [[\"Die Person wurde 1904 als Professor an die Universität Basel berufen.\", \"Ein Schwerpunkt seines Wirkens an der Universität Basel war die romanistische Onomasiologie (Wortfeldforschung).\", \"Ein weiterer Schwerpunkt seines Wirkens an der Universität Basel war die romanistische Dialektologie.\"], [\"Ernst habilitierte sich 1902 mit dieser Arbeit.\", \"Die Person wurde 1904 als Professor an die Universität Basel berufen.\", \"Ein Schwerpunkt seines Wirkens an der Universität Basel war die romanistische Onomasiologie (Wortfeldforschung).\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 371,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [28, 25], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Tappolets Lehre konzentrierte sich auf die Onomasiologie (Wortfeldforschung) der romanischen Sprachen.\", \"Tappolets Lehre konzentrierte sich auf die romanistische Dialektologie.\", \"Tappolet vermittelte seinen Schülern Wissen, das direkt im neusprachlichen Unterricht anwendbar war.\"], \"source_fact_index\": 42, \"target_contexts\": [[\"Ein Schwerpunkt seines Wirkens an der Universität Basel war die romanistische Onomasiologie (Wortfeldforschung).\", \"Ein weiterer Schwerpunkt seines Wirkens an der Universität Basel war die romanistische Dialektologie.\", \"Er vermittelte seinen Schülern Wissen, das direkt im Neusprachenunterricht anwendbar war.\"], [\"Ernst schrieb 1901 die Arbeit 'Über den Stand der Mundarten in der deutschen und französischen Schweiz'.\", \"Ernst habilitierte sich 1902 mit dieser Arbeit.\", \"Die Person wurde 1904 als Professor an die Universität Basel berufen.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 385,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [29, 28], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Tappolets Lehre konzentrierte sich auf die romanistische Dialektologie.\", \"Tappolet vermittelte seinen Schülern Wissen, das direkt im neusprachlichen Unterricht anwendbar war.\", \"Tappolet setzte sich mit grundsätzlichen Fragen zur Natur der Sprachen auseinander.\"], \"source_fact_index\": 43, \"target_contexts\": [[\"Ein weiterer Schwerpunkt seines Wirkens an der Universität Basel war die romanistische Dialektologie.\", \"Er vermittelte seinen Schülern Wissen, das direkt im Neusprachenunterricht anwendbar war.\", \"Er befasste sich mit grundsätzlichen Fragen zur Natur der Sprachen.\"], [\"Ein Schwerpunkt seines Wirkens an der Universität Basel war die romanistische Onomasiologie (Wortfeldforschung).\", \"Ein weiterer Schwerpunkt seines Wirkens an der Universität Basel war die romanistische Dialektologie.\", \"Er vermittelte seinen Schülern Wissen, das direkt im Neusprachenunterricht anwendbar war.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 376,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [30, 28], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Tappolet vermittelte seinen Schülern Wissen, das direkt im neusprachlichen Unterricht anwendbar war.\", \"Tappolet setzte sich mit grundsätzlichen Fragen zur Natur der Sprachen auseinander.\", \"Tappolet veröffentlichte im Jahr 1907 das Werk 'Die Sprache des Kindes'.\"], \"source_fact_index\": 44, \"target_contexts\": [[\"Er vermittelte seinen Schülern Wissen, das direkt im Neusprachenunterricht anwendbar war.\", \"Er befasste sich mit grundsätzlichen Fragen zur Natur der Sprachen.\", \"Er veröffentlichte im Jahr 1907 das Werk 'Die Sprache des Kindes'.\"], [\"Ein Schwerpunkt seines Wirkens an der Universität Basel war die romanistische Onomasiologie (Wortfeldforschung).\", \"Ein weiterer Schwerpunkt seines Wirkens an der Universität Basel war die romanistische Dialektologie.\", \"Er vermittelte seinen Schülern Wissen, das direkt im Neusprachenunterricht anwendbar war.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 381,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [31, 30], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Tappolet setzte sich mit grundsätzlichen Fragen zur Natur der Sprachen auseinander.\", \"Tappolet veröffentlichte im Jahr 1907 das Werk 'Die Sprache des Kindes'.\", \"Tappolet veröffentlichte im Jahr 1913 das Werk 'Die Ursachen des Wortreichtums bei den Haustiernamen der französischen Schweiz'.\"], \"source_fact_index\": 45, \"target_contexts\": [[\"Er befasste sich mit grundsätzlichen Fragen zur Natur der Sprachen.\", \"Er veröffentlichte im Jahr 1907 das Werk 'Die Sprache des Kindes'.\", \"Er veröffentlichte im Jahr 1913 das Werk 'Die Ursachen des Wortreichtums bei den Haustiernamen der französischen Schweiz'.\"], [\"Er vermittelte seinen Schülern Wissen, das direkt im Neusprachenunterricht anwendbar war.\", \"Er befasste sich mit grundsätzlichen Fragen zur Natur der Sprachen.\", \"Er veröffentlichte im Jahr 1907 das Werk 'Die Sprache des Kindes'.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 389,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [44, 45], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Tappolet veröffentlichte im Jahr 1907 das Werk 'Die Sprache des Kindes'.\", \"Tappolet veröffentlichte im Jahr 1913 das Werk 'Die Ursachen des Wortreichtums bei den Haustiernamen der französischen Schweiz'.\", \"Tappolet verfasste Artikel für das Glossaire des patois de la Suisse romande.\"], \"source_fact_index\": 46, \"target_contexts\": [[\"Louis Gauchat war Professor.\", \"Jules Jeanjaquet war Professor.\", \"Tappolet hat Artikel für das Glossaire des patois de la Suisse romande geschrieben.\"], [\"Jules Jeanjaquet war Professor.\", \"Tappolet hat Artikel für das Glossaire des patois de la Suisse romande geschrieben.\", \"Louis Gauchat hat Artikel für das Glossaire des patois de la Suisse romande geschrieben.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 348,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [49, 41], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Tappolet veröffentlichte im Jahr 1913 das Werk 'Die Ursachen des Wortreichtums bei den Haustiernamen der französischen Schweiz'.\", \"Tappolet verfasste Artikel für das Glossaire des patois de la Suisse romande.\", \"Zu den von Tappolet verfassten Artikeln gehören unter anderem ados, affaire, agreblyé, agron, aise, aisement, aller, alyon, âme, amour, anneau, ansela, anson, apondre, archal, argent, argile, arin, armalyi, arode, aselye, avec, avoir, Bâle, ban, banc, banneret, bas, beau und ber.\"], \"source_fact_index\": 47, \"target_contexts\": [[\"Tappolet verfasste insbesondere Artikel, in denen die Volkskunde eine wichtige Rolle spielt.\", \"Tappolet hat selbst Quellenmaterial in der Landschaft gesammelt.\", \"Tappolet war an den Aufnahmen des Patois auf Grammophonplatten beteiligt.\"], [\"Louis Gauchat war einer der Gründerväter des Glossaire des patois de la Suisse romande.\", \"Jules Jeanjaquet war einer der Gründerväter des Glossaire des patois de la Suisse romande.\", \"Tappolet war Professor.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 446,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [47, 48], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Tappolet verfasste Artikel für das Glossaire des patois de la Suisse romande.\", \"Zu den von Tappolet verfassten Artikeln gehören unter anderem ados, affaire, agreblyé, agron, aise, aisement, aller, alyon, âme, amour, anneau, ansela, anson, apondre, archal, argent, argile, arin, armalyi, arode, aselye, avec, avoir, Bâle, ban, banc, banneret, bas, beau und ber.\", \"Tappolet hatte eine besondere Vorliebe für Artikel mit wichtigen volkskundlichen Aspekten.\"], \"source_fact_index\": 48, \"target_contexts\": [[\"Louis Gauchat hat Artikel für das Glossaire des patois de la Suisse romande geschrieben.\", \"Jules Jeanjaquet hat Artikel für das Glossaire des patois de la Suisse romande geschrieben.\", \"Tappolet verfasste insbesondere Artikel, in denen die Volkskunde eine wichtige Rolle spielt.\"], [\"Jules Jeanjaquet hat Artikel für das Glossaire des patois de la Suisse romande geschrieben.\", \"Tappolet verfasste insbesondere Artikel, in denen die Volkskunde eine wichtige Rolle spielt.\", \"Tappolet hat selbst Quellenmaterial in der Landschaft gesammelt.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 443,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [48, 49], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Zu den von Tappolet verfassten Artikeln gehören unter anderem ados, affaire, agreblyé, agron, aise, aisement, aller, alyon, âme, amour, anneau, ansela, anson, apondre, archal, argent, argile, arin, armalyi, arode, aselye, avec, avoir, Bâle, ban, banc, banneret, bas, beau und ber.\", \"Tappolet hatte eine besondere Vorliebe für Artikel mit wichtigen volkskundlichen Aspekten.\", \"Tappolet stand selbst im Kontakt zu Gewährsleuten, um Material für das Wörterbuch zu gewinnen.\"], \"source_fact_index\": 49, \"target_contexts\": [[\"Jules Jeanjaquet hat Artikel für das Glossaire des patois de la Suisse romande geschrieben.\", \"Tappolet verfasste insbesondere Artikel, in denen die Volkskunde eine wichtige Rolle spielt.\", \"Tappolet hat selbst Quellenmaterial in der Landschaft gesammelt.\"], [\"Tappolet verfasste insbesondere Artikel, in denen die Volkskunde eine wichtige Rolle spielt.\", \"Tappolet hat selbst Quellenmaterial in der Landschaft gesammelt.\", \"Tappolet war an den Aufnahmen des Patois auf Grammophonplatten beteiligt.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 436,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [49, 48], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Tappolet hatte eine besondere Vorliebe für Artikel mit wichtigen volkskundlichen Aspekten.\", \"Tappolet stand selbst im Kontakt zu Gewährsleuten, um Material für das Wörterbuch zu gewinnen.\", \"Tappolet engagierte sich bei der Aufnahme der Patois auf Grammophonplatten.\"], \"source_fact_index\": 50, \"target_contexts\": [[\"Tappolet verfasste insbesondere Artikel, in denen die Volkskunde eine wichtige Rolle spielt.\", \"Tappolet hat selbst Quellenmaterial in der Landschaft gesammelt.\", \"Tappolet war an den Aufnahmen des Patois auf Grammophonplatten beteiligt.\"], [\"Jules Jeanjaquet hat Artikel für das Glossaire des patois de la Suisse romande geschrieben.\", \"Tappolet verfasste insbesondere Artikel, in denen die Volkskunde eine wichtige Rolle spielt.\", \"Tappolet hat selbst Quellenmaterial in der Landschaft gesammelt.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 357,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [50, 57], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Tappolet stand selbst im Kontakt zu Gewährsleuten, um Material für das Wörterbuch zu gewinnen.\", \"Tappolet engagierte sich bei der Aufnahme der Patois auf Grammophonplatten.\", \"Die Publikation 'Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz, Kulturhistorisch-linguistische Untersuchung' ist zweibändig.\"], \"source_fact_index\": 51, \"target_contexts\": [[\"Tappolet hat selbst Quellenmaterial in der Landschaft gesammelt.\", \"Tappolet war an den Aufnahmen des Patois auf Grammophonplatten beteiligt.\", \"Die Grundlage für das Glossar war das zweibändige Buch 'Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz, Kulturhistorisch-linguistische Untersuchung'.\"], [\"Tappolet beschreibt exakt die lautliche Anpassung alemannischer Wörter an frankoprovenzalische und französische Mundarten.\", \"Das Buch von Tappolet über alemannische Lehnwörter im Welschland diente als Vorbild für das Buch von Emil Steiner.\", \"Emil Steiner schrieb ein Buch über französische Lehnwörter im Alemannischen mit dem Titel 'Die französischen Lehnwörter in den alemannischen Mundarten der Schweiz. Kulturhistorisch-linguistische Untersuchung mit etymologischem Wörterbuch'.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 442,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [51, 50], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Tappolet engagierte sich bei der Aufnahme der Patois auf Grammophonplatten.\", \"Die Publikation 'Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz, Kulturhistorisch-linguistische Untersuchung' ist zweibändig.\", \"Die Publikation 'Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz, Kulturhistorisch-linguistische Untersuchung' erschien in den Jahren 1914 und 1917.\"], \"source_fact_index\": 52, \"target_contexts\": [[\"Tappolet war an den Aufnahmen des Patois auf Grammophonplatten beteiligt.\", \"Die Grundlage für das Glossar war das zweibändige Buch 'Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz, Kulturhistorisch-linguistische Untersuchung'.\", \"Das Buch 'Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz' erschien in den Jahren 1914 und 1917.\"], [\"Tappolet hat selbst Quellenmaterial in der Landschaft gesammelt.\", \"Tappolet war an den Aufnahmen des Patois auf Grammophonplatten beteiligt.\", \"Die Grundlage für das Glossar war das zweibändige Buch 'Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz, Kulturhistorisch-linguistische Untersuchung'.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 445,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [50, 52], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Publikation 'Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz, Kulturhistorisch-linguistische Untersuchung' ist zweibändig.\", \"Die Publikation 'Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz, Kulturhistorisch-linguistische Untersuchung' erschien in den Jahren 1914 und 1917.\", \"Die Publikation basierte auf Materialsammlungen, die für das Glossaire vorgenommen wurden.\"], \"source_fact_index\": 53, \"target_contexts\": [[\"Tappolet hat selbst Quellenmaterial in der Landschaft gesammelt.\", \"Tappolet war an den Aufnahmen des Patois auf Grammophonplatten beteiligt.\", \"Die Grundlage für das Glossar war das zweibändige Buch 'Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz, Kulturhistorisch-linguistische Untersuchung'.\"], [\"Die Grundlage für das Glossar war das zweibändige Buch 'Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz, Kulturhistorisch-linguistische Untersuchung'.\", \"Das Buch 'Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz' erschien in den Jahren 1914 und 1917.\", \"Das Werk enthält neben Wortlisten auch Analysen von Tappolet zu kulturellen, sachlichen und affektiven Motiven der Übernahme in die Patois.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 466,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [52, 50], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Publikation 'Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz, Kulturhistorisch-linguistische Untersuchung' erschien in den Jahren 1914 und 1917.\", \"Die Publikation basierte auf Materialsammlungen, die für das Glossaire vorgenommen wurden.\", \"In dem Werk wurden die kulturellen, sachlichen und affektiven Motive für die Übernahme von schweizerdeutschem Wortgut in die Patois erörtert.\"], \"source_fact_index\": 54, \"target_contexts\": [[\"Die Grundlage für das Glossar war das zweibändige Buch 'Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz, Kulturhistorisch-linguistische Untersuchung'.\", \"Das Buch 'Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz' erschien in den Jahren 1914 und 1917.\", \"Das Werk enthält neben Wortlisten auch Analysen von Tappolet zu kulturellen, sachlichen und affektiven Motiven der Übernahme in die Patois.\"], [\"Tappolet hat selbst Quellenmaterial in der Landschaft gesammelt.\", \"Tappolet war an den Aufnahmen des Patois auf Grammophonplatten beteiligt.\", \"Die Grundlage für das Glossar war das zweibändige Buch 'Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz, Kulturhistorisch-linguistische Untersuchung'.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 469,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [53, 54], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Publikation basierte auf Materialsammlungen, die für das Glossaire vorgenommen wurden.\", \"In dem Werk wurden die kulturellen, sachlichen und affektiven Motive für die Übernahme von schweizerdeutschem Wortgut in die Patois erörtert.\", \"Der Autor unterschied in seinem Werk zwischen 'Bedürfnislehnwort' und 'Luxuslehnwort'.\"], \"source_fact_index\": 55, \"target_contexts\": [[\"Das Buch 'Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz' erschien in den Jahren 1914 und 1917.\", \"Das Werk enthält neben Wortlisten auch Analysen von Tappolet zu kulturellen, sachlichen und affektiven Motiven der Übernahme in die Patois.\", \"Tappolet unterscheidet in seinem Werk zwischen 'Bedürfnisleenwoort' und 'Luxusleenwoort'.\"], [\"Das Werk enthält neben Wortlisten auch Analysen von Tappolet zu kulturellen, sachlichen und affektiven Motiven der Übernahme in die Patois.\", \"Tappolet unterscheidet in seinem Werk zwischen 'Bedürfnisleenwoort' und 'Luxusleenwoort'.\", \"Tappolet charakterisiert in seinem Werk den jeweiligen Geltungsraum der Lehnwörter.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 450,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [53, 54], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"In dem Werk wurden die kulturellen, sachlichen und affektiven Motive für die Übernahme von schweizerdeutschem Wortgut in die Patois erörtert.\", \"Der Autor unterschied in seinem Werk zwischen 'Bedürfnislehnwort' und 'Luxuslehnwort'.\", \"Der Autor charakterisierte den jeweiligen Geltungsraum von 'Bedürfnislehnwort' und 'Luxuslehnwort'.\"], \"source_fact_index\": 56, \"target_contexts\": [[\"Das Buch 'Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz' erschien in den Jahren 1914 und 1917.\", \"Das Werk enthält neben Wortlisten auch Analysen von Tappolet zu kulturellen, sachlichen und affektiven Motiven der Übernahme in die Patois.\", \"Tappolet unterscheidet in seinem Werk zwischen 'Bedürfnisleenwoort' und 'Luxusleenwoort'.\"], [\"Das Werk enthält neben Wortlisten auch Analysen von Tappolet zu kulturellen, sachlichen und affektiven Motiven der Übernahme in die Patois.\", \"Tappolet unterscheidet in seinem Werk zwischen 'Bedürfnisleenwoort' und 'Luxusleenwoort'.\", \"Tappolet charakterisiert in seinem Werk den jeweiligen Geltungsraum der Lehnwörter.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 458,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [55, 52], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Autor unterschied in seinem Werk zwischen 'Bedürfnislehnwort' und 'Luxuslehnwort'.\", \"Der Autor charakterisierte den jeweiligen Geltungsraum von 'Bedürfnislehnwort' und 'Luxuslehnwort'.\", \"Das Werk beschreibt exakt die lautlichen Anpassungen alemannischer Wörter an die französischen und frankoprovenzalischen Mundarten.\"], \"source_fact_index\": 57, \"target_contexts\": [[\"Tappolet unterscheidet in seinem Werk zwischen 'Bedürfnisleenwoort' und 'Luxusleenwoort'.\", \"Tappolet charakterisiert in seinem Werk den jeweiligen Geltungsraum der Lehnwörter.\", \"Tappolet beschreibt exakt die lautliche Anpassung alemannischer Wörter an frankoprovenzalische und französische Mundarten.\"], [\"Die Grundlage für das Glossar war das zweibändige Buch 'Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz, Kulturhistorisch-linguistische Untersuchung'.\", \"Das Buch 'Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz' erschien in den Jahren 1914 und 1917.\", \"Das Werk enthält neben Wortlisten auch Analysen von Tappolet zu kulturellen, sachlichen und affektiven Motiven der Übernahme in die Patois.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 456,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [56, 52], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Autor charakterisierte den jeweiligen Geltungsraum von 'Bedürfnislehnwort' und 'Luxuslehnwort'.\", \"Das Werk beschreibt exakt die lautlichen Anpassungen alemannischer Wörter an die französischen und frankoprovenzalischen Mundarten.\", \"Tappolet ist der Autor des Buches über die alemannischen Lehnwörter im Westschweizer Patois.\"], \"source_fact_index\": 58, \"target_contexts\": [[\"Tappolet charakterisiert in seinem Werk den jeweiligen Geltungsraum der Lehnwörter.\", \"Tappolet beschreibt exakt die lautliche Anpassung alemannischer Wörter an frankoprovenzalische und französische Mundarten.\", \"Das Buch von Tappolet über alemannische Lehnwörter im Welschland diente als Vorbild für das Buch von Emil Steiner.\"], [\"Die Grundlage für das Glossar war das zweibändige Buch 'Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz, Kulturhistorisch-linguistische Untersuchung'.\", \"Das Buch 'Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz' erschien in den Jahren 1914 und 1917.\", \"Das Werk enthält neben Wortlisten auch Analysen von Tappolet zu kulturellen, sachlichen und affektiven Motiven der Übernahme in die Patois.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 460,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [57, 58], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Das Werk beschreibt exakt die lautlichen Anpassungen alemannischer Wörter an die französischen und frankoprovenzalischen Mundarten.\", \"Tappolet ist der Autor des Buches über die alemannischen Lehnwörter im Westschweizer Patois.\", \"Emil Steiner veröffentlichte 1921 das Werk 'Die französischen Lehnwörter in den alemannischen Mundarten der Schweiz. Kulturhistorisch-linguistische Untersuchung mit etymologischem Wörterbuch'.\"], \"source_fact_index\": 59, \"target_contexts\": [[\"Tappolet beschreibt exakt die lautliche Anpassung alemannischer Wörter an frankoprovenzalische und französische Mundarten.\", \"Das Buch von Tappolet über alemannische Lehnwörter im Welschland diente als Vorbild für das Buch von Emil Steiner.\", \"Emil Steiner schrieb ein Buch über französische Lehnwörter im Alemannischen mit dem Titel 'Die französischen Lehnwörter in den alemannischen Mundarten der Schweiz. Kulturhistorisch-linguistische Untersuchung mit etymologischem Wörterbuch'.\"], [\"Das Buch von Tappolet über alemannische Lehnwörter im Welschland diente als Vorbild für das Buch von Emil Steiner.\", \"Emil Steiner schrieb ein Buch über französische Lehnwörter im Alemannischen mit dem Titel 'Die französischen Lehnwörter in den alemannischen Mundarten der Schweiz. Kulturhistorisch-linguistische Untersuchung mit etymologischem Wörterbuch'.\", \"Das Buch von Emil Steiner erschien im Jahr 1921.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 496,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [56, 58], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Tappolet ist der Autor des Buches über die alemannischen Lehnwörter im Westschweizer Patois.\", \"Emil Steiner veröffentlichte 1921 das Werk 'Die französischen Lehnwörter in den alemannischen Mundarten der Schweiz. Kulturhistorisch-linguistische Untersuchung mit etymologischem Wörterbuch'.\", \"Das Werk von Emil Steiner bildet das Gegenüber zu Tappolets Buch.\"], \"source_fact_index\": 60, \"target_contexts\": [[\"Tappolet charakterisiert in seinem Werk den jeweiligen Geltungsraum der Lehnwörter.\", \"Tappolet beschreibt exakt die lautliche Anpassung alemannischer Wörter an frankoprovenzalische und französische Mundarten.\", \"Das Buch von Tappolet über alemannische Lehnwörter im Welschland diente als Vorbild für das Buch von Emil Steiner.\"], [\"Das Buch von Tappolet über alemannische Lehnwörter im Welschland diente als Vorbild für das Buch von Emil Steiner.\", \"Emil Steiner schrieb ein Buch über französische Lehnwörter im Alemannischen mit dem Titel 'Die französischen Lehnwörter in den alemannischen Mundarten der Schweiz. Kulturhistorisch-linguistische Untersuchung mit etymologischem Wörterbuch'.\", \"Das Buch von Emil Steiner erschien im Jahr 1921.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 454,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [59, 61], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Emil Steiner veröffentlichte 1921 das Werk 'Die französischen Lehnwörter in den alemannischen Mundarten der Schweiz. Kulturhistorisch-linguistische Untersuchung mit etymologischem Wörterbuch'.\", \"Das Werk von Emil Steiner bildet das Gegenüber zu Tappolets Buch.\", \"Tappolet plante, sich 1940 emeritieren zu lassen.\"], \"source_fact_index\": 61, \"target_contexts\": [[\"Emil Steiner schrieb ein Buch über französische Lehnwörter im Alemannischen mit dem Titel 'Die französischen Lehnwörter in den alemannischen Mundarten der Schweiz. Kulturhistorisch-linguistische Untersuchung mit etymologischem Wörterbuch'.\", \"Das Buch von Emil Steiner erschien im Jahr 1921.\", \"Er wollte 1940 in den Ruhestand treten.\"], [\"Er wollte 1940 in den Ruhestand treten.\", \"Er wollte seine gesamten Kräfte dem Glossaire zur Verfügung stellen.\", \"Er ist ein Jahr vor 1940 gestorben.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 389,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [60, 59], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Das Werk von Emil Steiner bildet das Gegenüber zu Tappolets Buch.\", \"Tappolet plante, sich 1940 emeritieren zu lassen.\", \"Tappolet wollte seine ganze Kraft dem Glossaire zur Verfügung stellen.\"], \"source_fact_index\": 62, \"target_contexts\": [[\"Das Buch von Emil Steiner erschien im Jahr 1921.\", \"Er wollte 1940 in den Ruhestand treten.\", \"Er wollte seine gesamten Kräfte dem Glossaire zur Verfügung stellen.\"], [\"Emil Steiner schrieb ein Buch über französische Lehnwörter im Alemannischen mit dem Titel 'Die französischen Lehnwörter in den alemannischen Mundarten der Schweiz. Kulturhistorisch-linguistische Untersuchung mit etymologischem Wörterbuch'.\", \"Das Buch von Emil Steiner erschien im Jahr 1921.\", \"Er wollte 1940 in den Ruhestand treten.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 359,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [61, 59], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Tappolet plante, sich 1940 emeritieren zu lassen.\", \"Tappolet wollte seine ganze Kraft dem Glossaire zur Verfügung stellen.\", \"Tappolet starb im Jahr 1939.\"], \"source_fact_index\": 63, \"target_contexts\": [[\"Er wollte 1940 in den Ruhestand treten.\", \"Er wollte seine gesamten Kräfte dem Glossaire zur Verfügung stellen.\", \"Er ist ein Jahr vor 1940 gestorben.\"], [\"Emil Steiner schrieb ein Buch über französische Lehnwörter im Alemannischen mit dem Titel 'Die französischen Lehnwörter in den alemannischen Mundarten der Schweiz. Kulturhistorisch-linguistische Untersuchung mit etymologischem Wörterbuch'.\", \"Das Buch von Emil Steiner erschien im Jahr 1921.\", \"Er wollte 1940 in den Ruhestand treten.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 354,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [63, 59], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Tappolet wollte seine ganze Kraft dem Glossaire zur Verfügung stellen.\", \"Tappolet starb im Jahr 1939.\", \"Durch seinen Tod konnte Tappolet seine Pläne zur Emeritierung nicht verwirklichen.\"], \"source_fact_index\": 64, \"target_contexts\": [[\"Er ist ein Jahr vor 1940 gestorben.\", \"Er starb im Alter von 69 Jahren.\", \"Sein Tod erfolgte ganz plötzlich.\"], [\"Emil Steiner schrieb ein Buch über französische Lehnwörter im Alemannischen mit dem Titel 'Die französischen Lehnwörter in den alemannischen Mundarten der Schweiz. Kulturhistorisch-linguistische Untersuchung mit etymologischem Wörterbuch'.\", \"Das Buch von Emil Steiner erschien im Jahr 1921.\", \"Er wollte 1940 in den Ruhestand treten.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 348,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [64, 77], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Tappolet starb im Jahr 1939.\", \"Durch seinen Tod konnte Tappolet seine Pläne zur Emeritierung nicht verwirklichen.\", \"Tappolet veröffentlichte 1901 die Überarbeitung 'Über den Stand der Mundarten in der deutschen und französischen Schweiz'.\"], \"source_fact_index\": 65, \"target_contexts\": [[\"Er starb im Alter von 69 Jahren.\", \"Sein Tod erfolgte ganz plötzlich.\", \"Der Autor schrieb 1901 eine Arbeit über den Zustand der Mundarten in der französischen und deutschen Schweiz.\"], [\"Die Publikation wurde im 'Nebelspalter' verspottet.\", \"Die Thesen von Tappolet wurden weitgehend diskutiert.\", \"Im Gegensatz zu Tappolets Ansicht blieb die Lebendigkeit der schweizerdeutschen Mundarten im Vergleich zu hundert Jahren zuvor nicht geringer, obwohl sie 'ausgewaschener' wurden.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 361,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [9, 77], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Durch seinen Tod konnte Tappolet seine Pläne zur Emeritierung nicht verwirklichen.\", \"Tappolet veröffentlichte 1901 die Überarbeitung 'Über den Stand der Mundarten in der deutschen und französischen Schweiz'.\", \"Tappolet vertrat die Meinung, dass die deutschsprachige Schweiz innerhalb von fünfzig Jahren den Dialekt als Umgangssprache zugunsten der Hochsprache aufgeben würde.\"], \"source_fact_index\": 66, \"target_contexts\": [[\"Die Person schrieb ein Buch über alemannische Lehnwörter in weltweiten Dialekten.\", \"Die Person vertrat um 1900 die Ansicht, dass das Schweizerdeutsche dem Hochdeutschen weichen würde.\", \"Die Aussage, dass das Schweizerdeutsche dem Hochdeutschen weichen würde, wird heute noch gerne zitiert.\"], [\"Die Publikation wurde im 'Nebelspalter' verspottet.\", \"Die Thesen von Tappolet wurden weitgehend diskutiert.\", \"Im Gegensatz zu Tappolets Ansicht blieb die Lebendigkeit der schweizerdeutschen Mundarten im Vergleich zu hundert Jahren zuvor nicht geringer, obwohl sie 'ausgewaschener' wurden.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 414,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [67, 9], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Tappolet veröffentlichte 1901 die Überarbeitung 'Über den Stand der Mundarten in der deutschen und französischen Schweiz'.\", \"Tappolet vertrat die Meinung, dass die deutschsprachige Schweiz innerhalb von fünfzig Jahren den Dialekt als Umgangssprache zugunsten der Hochsprache aufgeben würde.\", \"Tappolet glaubte, dass die deutschsprachige Schweiz der Entwicklung in Deutschland und der Suisse romande folgen würde.\"], \"source_fact_index\": 67, \"target_contexts\": [[\"Der Autor beobachtete, dass die Schriftsprache zunehmend in die Dialekte eindringt und sich in der Volkssprache ausbreitet.\", \"Nach Meinung des Autors war die Verdrängung der Mundart in der Westschweiz der Deutschschweiz um zweihundert Jahre voraus.\", \"Der Autor war überzeugt, dass die Ostschweiz dem Westen folgen würde.\"], [\"Die Person schrieb ein Buch über alemannische Lehnwörter in weltweiten Dialekten.\", \"Die Person vertrat um 1900 die Ansicht, dass das Schweizerdeutsche dem Hochdeutschen weichen würde.\", \"Die Aussage, dass das Schweizerdeutsche dem Hochdeutschen weichen würde, wird heute noch gerne zitiert.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 428,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [68, 9], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Tappolet vertrat die Meinung, dass die deutschsprachige Schweiz innerhalb von fünfzig Jahren den Dialekt als Umgangssprache zugunsten der Hochsprache aufgeben würde.\", \"Tappolet glaubte, dass die deutschsprachige Schweiz der Entwicklung in Deutschland und der Suisse romande folgen würde.\", \"Tappolet prognostizierte, dass Zürich die erste Stadt sein würde, die den Dialekt aufgibt.\"], \"source_fact_index\": 68, \"target_contexts\": [[\"Nach Meinung des Autors war die Verdrängung der Mundart in der Westschweiz der Deutschschweiz um zweihundert Jahre voraus.\", \"Der Autor war überzeugt, dass die Ostschweiz dem Westen folgen würde.\", \"Der Autor war fest davon überzeugt, dass Zürich die erste Schweizer Stadt sein würde, in der Hochdeutsch gesprochen wird.\"], [\"Die Person schrieb ein Buch über alemannische Lehnwörter in weltweiten Dialekten.\", \"Die Person vertrat um 1900 die Ansicht, dass das Schweizerdeutsche dem Hochdeutschen weichen würde.\", \"Die Aussage, dass das Schweizerdeutsche dem Hochdeutschen weichen würde, wird heute noch gerne zitiert.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 416,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [71, 9], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Tappolet glaubte, dass die deutschsprachige Schweiz der Entwicklung in Deutschland und der Suisse romande folgen würde.\", \"Tappolet prognostizierte, dass Zürich die erste Stadt sein würde, die den Dialekt aufgibt.\", \"Otto von Greyerz war der Überzeugung, dass eine schweizerdeutsch-hochdeutsche Zweisprachigkeit (Diglossie) möglich und nötig sei, um die Mundart zu erhalten.\"], \"source_fact_index\": 69, \"target_contexts\": [[\"In einer Befragung von zehn Personen in einer kleinen Zürcher Straße antworteten sechs auf Hochdeutsch.\", \"Der Autor beschrieb eine Verlegenheit bei der Wahl der Sprache, wenn er im Zug Personen ansprach, deren Herkunft nicht sofort erkennbar war.\", \"Der Autor teilte die Ansicht von Otto von Greyerz bezüglich einer schweizerdeutsch-hochdeutschen Zweisprachigkeit (Diglossie) nicht.\"], [\"Die Person schrieb ein Buch über alemannische Lehnwörter in weltweiten Dialekten.\", \"Die Person vertrat um 1900 die Ansicht, dass das Schweizerdeutsche dem Hochdeutschen weichen würde.\", \"Die Aussage, dass das Schweizerdeutsche dem Hochdeutschen weichen würde, wird heute noch gerne zitiert.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 434,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [9, 77], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Tappolet prognostizierte, dass Zürich die erste Stadt sein würde, die den Dialekt aufgibt.\", \"Otto von Greyerz war der Überzeugung, dass eine schweizerdeutsch-hochdeutsche Zweisprachigkeit (Diglossie) möglich und nötig sei, um die Mundart zu erhalten.\", \"Tappolets Schrift wurde von der Universität Zürich als Habilitationsschrift angenommen.\"], \"source_fact_index\": 70, \"target_contexts\": [[\"Die Person schrieb ein Buch über alemannische Lehnwörter in weltweiten Dialekten.\", \"Die Person vertrat um 1900 die Ansicht, dass das Schweizerdeutsche dem Hochdeutschen weichen würde.\", \"Die Aussage, dass das Schweizerdeutsche dem Hochdeutschen weichen würde, wird heute noch gerne zitiert.\"], [\"Die Publikation wurde im 'Nebelspalter' verspottet.\", \"Die Thesen von Tappolet wurden weitgehend diskutiert.\", \"Im Gegensatz zu Tappolets Ansicht blieb die Lebendigkeit der schweizerdeutschen Mundarten im Vergleich zu hundert Jahren zuvor nicht geringer, obwohl sie 'ausgewaschener' wurden.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 410,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [76, 73], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Otto von Greyerz war der Überzeugung, dass eine schweizerdeutsch-hochdeutsche Zweisprachigkeit (Diglossie) möglich und nötig sei, um die Mundart zu erhalten.\", \"Tappolets Schrift wurde von der Universität Zürich als Habilitationsschrift angenommen.\", \"Tappolets Schrift erlangte eine große Öffentlichkeit und rief gespaltene Reaktionen hervor.\"], \"source_fact_index\": 71, \"target_contexts\": [[\"Ein Rezensent in der Basler Allgemeinen Schweizer Zeitung betonte die Wichtigkeit, selbstbewusst für die eigene Sprache einzutreten und das Schweizerdeutsch zu pflegen.\", \"Die Publikation wurde im 'Nebelspalter' verspottet.\", \"Die Thesen von Tappolet wurden weitgehend diskutiert.\"], [\"Der Autor teilte die Ansicht von Otto von Greyerz bezüglich einer schweizerdeutsch-hochdeutschen Zweisprachigkeit (Diglossie) nicht.\", \"Der Autor interpretierte die Sprachgeschichte und den Sprachwandel so, dass das Schweizerdeutsch vor dem Hochdeutschen zurückweicht.\", \"Die Reaktionen auf die Schrift des Autors waren unterschiedlich.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 408,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [71, 74], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Tappolets Schrift wurde von der Universität Zürich als Habilitationsschrift angenommen.\", \"Tappolets Schrift erlangte eine große Öffentlichkeit und rief gespaltene Reaktionen hervor.\", \"Ein Rezensent in der Allgemeinen Schweizer Zeitung teilte Tappolets Pessimismus nicht.\"], \"source_fact_index\": 72, \"target_contexts\": [[\"In einer Befragung von zehn Personen in einer kleinen Zürcher Straße antworteten sechs auf Hochdeutsch.\", \"Der Autor beschrieb eine Verlegenheit bei der Wahl der Sprache, wenn er im Zug Personen ansprach, deren Herkunft nicht sofort erkennbar war.\", \"Der Autor teilte die Ansicht von Otto von Greyerz bezüglich einer schweizerdeutsch-hochdeutschen Zweisprachigkeit (Diglossie) nicht.\"], [\"Der Autor interpretierte die Sprachgeschichte und den Sprachwandel so, dass das Schweizerdeutsch vor dem Hochdeutschen zurückweicht.\", \"Die Reaktionen auf die Schrift des Autors waren unterschiedlich.\", \"Ein Rezensent in der Basler Allgemeinen Schweizer Zeitung betonte die Wichtigkeit, selbstbewusst für die eigene Sprache einzutreten und das Schweizerdeutsch zu pflegen.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 413,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [74, 9], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Tappolets Schrift erlangte eine große Öffentlichkeit und rief gespaltene Reaktionen hervor.\", \"Ein Rezensent in der Allgemeinen Schweizer Zeitung teilte Tappolets Pessimismus nicht.\", \"Ein Rezensent in der Allgemeinen Schweizer Zeitung meinte, die Publikation zeige, dass die Schweizer mehr für ihre Sprache eintreten und Mundarten pflegen sollten.\"], \"source_fact_index\": 73, \"target_contexts\": [[\"Der Autor interpretierte die Sprachgeschichte und den Sprachwandel so, dass das Schweizerdeutsch vor dem Hochdeutschen zurückweicht.\", \"Die Reaktionen auf die Schrift des Autors waren unterschiedlich.\", \"Ein Rezensent in der Basler Allgemeinen Schweizer Zeitung betonte die Wichtigkeit, selbstbewusst für die eigene Sprache einzutreten und das Schweizerdeutsch zu pflegen.\"], [\"Die Person schrieb ein Buch über alemannische Lehnwörter in weltweiten Dialekten.\", \"Die Person vertrat um 1900 die Ansicht, dass das Schweizerdeutsche dem Hochdeutschen weichen würde.\", \"Die Aussage, dass das Schweizerdeutsche dem Hochdeutschen weichen würde, wird heute noch gerne zitiert.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 411,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [70, 9], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ein Rezensent in der Allgemeinen Schweizer Zeitung teilte Tappolets Pessimismus nicht.\", \"Ein Rezensent in der Allgemeinen Schweizer Zeitung meinte, die Publikation zeige, dass die Schweizer mehr für ihre Sprache eintreten und Mundarten pflegen sollten.\", \"Tappolet behauptete, ein Zürcher käme in der Eisenbahn in Verlegenheit, in welcher Sprache er einen Fremden ansprechen sollte.\"], \"source_fact_index\": 74, \"target_contexts\": [[\"Der Autor war fest davon überzeugt, dass Zürich die erste Schweizer Stadt sein würde, in der Hochdeutsch gesprochen wird.\", \"In einer Befragung von zehn Personen in einer kleinen Zürcher Straße antworteten sechs auf Hochdeutsch.\", \"Der Autor beschrieb eine Verlegenheit bei der Wahl der Sprache, wenn er im Zug Personen ansprach, deren Herkunft nicht sofort erkennbar war.\"], [\"Die Person schrieb ein Buch über alemannische Lehnwörter in weltweiten Dialekten.\", \"Die Person vertrat um 1900 die Ansicht, dass das Schweizerdeutsche dem Hochdeutschen weichen würde.\", \"Die Aussage, dass das Schweizerdeutsche dem Hochdeutschen weichen würde, wird heute noch gerne zitiert.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 423,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [77, 76], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ein Rezensent in der Allgemeinen Schweizer Zeitung meinte, die Publikation zeige, dass die Schweizer mehr für ihre Sprache eintreten und Mundarten pflegen sollten.\", \"Tappolet behauptete, ein Zürcher käme in der Eisenbahn in Verlegenheit, in welcher Sprache er einen Fremden ansprechen sollte.\", \"Die Zeitschrift 'Nebelspalter' reagierte mit Spott auf Tappolets Aussage zur Sprachverlegenheit in der Eisenbahn.\"], \"source_fact_index\": 75, \"target_contexts\": [[\"Die Publikation wurde im 'Nebelspalter' verspottet.\", \"Die Thesen von Tappolet wurden weitgehend diskutiert.\", \"Im Gegensatz zu Tappolets Ansicht blieb die Lebendigkeit der schweizerdeutschen Mundarten im Vergleich zu hundert Jahren zuvor nicht geringer, obwohl sie 'ausgewaschener' wurden.\"], [\"Ein Rezensent in der Basler Allgemeinen Schweizer Zeitung betonte die Wichtigkeit, selbstbewusst für die eigene Sprache einzutreten und das Schweizerdeutsch zu pflegen.\", \"Die Publikation wurde im 'Nebelspalter' verspottet.\", \"Die Thesen von Tappolet wurden weitgehend diskutiert.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 421,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [9, 8], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Tappolet behauptete, ein Zürcher käme in der Eisenbahn in Verlegenheit, in welcher Sprache er einen Fremden ansprechen sollte.\", \"Die Zeitschrift 'Nebelspalter' reagierte mit Spott auf Tappolets Aussage zur Sprachverlegenheit in der Eisenbahn.\", \"Die Ansicht, dass die Deutschschweiz oder Zürich um 1900 vor einem Sprachwechsel standen, wird bis heute gelegentlich wiedergegeben.\"], \"source_fact_index\": 76, \"target_contexts\": [[\"Die Person schrieb ein Buch über alemannische Lehnwörter in weltweiten Dialekten.\", \"Die Person vertrat um 1900 die Ansicht, dass das Schweizerdeutsche dem Hochdeutschen weichen würde.\", \"Die Aussage, dass das Schweizerdeutsche dem Hochdeutschen weichen würde, wird heute noch gerne zitiert.\"], [\"Die Person war wichtig für das Schweizerdeutsche.\", \"Die Person schrieb ein Buch über alemannische Lehnwörter in weltweiten Dialekten.\", \"Die Person vertrat um 1900 die Ansicht, dass das Schweizerdeutsche dem Hochdeutschen weichen würde.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 406,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [10, 9], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Zeitschrift 'Nebelspalter' reagierte mit Spott auf Tappolets Aussage zur Sprachverlegenheit in der Eisenbahn.\", \"Die Ansicht, dass die Deutschschweiz oder Zürich um 1900 vor einem Sprachwechsel standen, wird bis heute gelegentlich wiedergegeben.\", \"Bei der heutigen Wiedergabe dieser Ansicht sind oft weder der ursprüngliche Autor noch der damalige Widerspruch bekannt.\"], \"source_fact_index\": 77, \"target_contexts\": [[\"Die Person vertrat um 1900 die Ansicht, dass das Schweizerdeutsche dem Hochdeutschen weichen würde.\", \"Die Aussage, dass das Schweizerdeutsche dem Hochdeutschen weichen würde, wird heute noch gerne zitiert.\", \"Es ist heute kaum noch bekannt, wer diese Idee ursprünglich aufgestellt hat.\"], [\"Die Person schrieb ein Buch über alemannische Lehnwörter in weltweiten Dialekten.\", \"Die Person vertrat um 1900 die Ansicht, dass das Schweizerdeutsche dem Hochdeutschen weichen würde.\", \"Die Aussage, dass das Schweizerdeutsche dem Hochdeutschen weichen würde, wird heute noch gerne zitiert.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 407,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [0, 3], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Emanuel Tappolet schrieb seinen Vornamen in französischen Texten als Ernest.\"], \"source_fact_index\": 0, \"target_contexts\": [[\"Ernst Emanuel Tappolet wird in französischsprachigen Publikationen als Ernest Tappolet bezeichnet.\"], [\"Ernst Emanuel Tappolet wurde am 21. Oktober 1870 in Hittnau geboren.\", \"Ernst Emanuel Tappolet starb am 2. November 1939 in Basel.\", \"Ernst Emanuel Tappolet war ein Schweizer Romanist.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 283,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [1, 2], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Emanuel Tappolet schrieb seinen Vornamen in französischen Texten als Ernest.\", \"Ernst Emanuel Tappolet wurde am 21. Oktober 1870 in Hittnau geboren.\"], \"source_fact_index\": 1, \"target_contexts\": [[\"Ernst Emanuel Tappolet wird in französischsprachigen Publikationen als Ernest Tappolet bezeichnet.\", \"Ernst Emanuel Tappolet wurde am 21. Oktober 1870 in Hittnau geboren.\"], [\"Ernst Emanuel Tappolet wird in französischsprachigen Publikationen als Ernest Tappolet bezeichnet.\", \"Ernst Emanuel Tappolet wurde am 21. Oktober 1870 in Hittnau geboren.\", \"Ernst Emanuel Tappolet starb am 2. November 1939 in Basel.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 340,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [2, 1], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Emanuel Tappolet schrieb seinen Vornamen in französischen Texten als Ernest.\", \"Ernst Emanuel Tappolet wurde am 21. Oktober 1870 in Hittnau geboren.\", \"Ernst Emanuel Tappolet starb am 2. November 1939 in Basel.\"], \"source_fact_index\": 2, \"target_contexts\": [[\"Ernst Emanuel Tappolet wird in französischsprachigen Publikationen als Ernest Tappolet bezeichnet.\", \"Ernst Emanuel Tappolet wurde am 21. Oktober 1870 in Hittnau geboren.\", \"Ernst Emanuel Tappolet starb am 2. November 1939 in Basel.\"], [\"Ernst Emanuel Tappolet wird in französischsprachigen Publikationen als Ernest Tappolet bezeichnet.\", \"Ernst Emanuel Tappolet wurde am 21. Oktober 1870 in Hittnau geboren.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 361,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [3, 0], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Emanuel Tappolet wurde am 21. Oktober 1870 in Hittnau geboren.\", \"Ernst Emanuel Tappolet starb am 2. November 1939 in Basel.\", \"Ernst Emanuel Tappolet war ein Schweizer Romanist.\"], \"source_fact_index\": 3, \"target_contexts\": [[\"Ernst Emanuel Tappolet wurde am 21. Oktober 1870 in Hittnau geboren.\", \"Ernst Emanuel Tappolet starb am 2. November 1939 in Basel.\", \"Ernst Emanuel Tappolet war ein Schweizer Romanist.\"], [\"Ernst Emanuel Tappolet wird in französischsprachigen Publikationen als Ernest Tappolet bezeichnet.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 322,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [2, 3], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Emanuel Tappolet starb am 2. November 1939 in Basel.\", \"Ernst Emanuel Tappolet war ein Schweizer Romanist.\", \"Ernst Emanuel Tappolet war Professor an der Universität Basel.\"], \"source_fact_index\": 4, \"target_contexts\": [[\"Ernst Emanuel Tappolet wird in französischsprachigen Publikationen als Ernest Tappolet bezeichnet.\", \"Ernst Emanuel Tappolet wurde am 21. Oktober 1870 in Hittnau geboren.\", \"Ernst Emanuel Tappolet starb am 2. November 1939 in Basel.\"], [\"Ernst Emanuel Tappolet wurde am 21. Oktober 1870 in Hittnau geboren.\", \"Ernst Emanuel Tappolet starb am 2. November 1939 in Basel.\", \"Ernst Emanuel Tappolet war ein Schweizer Romanist.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 357,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [4, 37], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Emanuel Tappolet war ein Schweizer Romanist.\", \"Ernst Emanuel Tappolet war Professor an der Universität Basel.\", \"Ernst Emanuel Tappolet hat 1899 zusammen mit Louis Gauchat und Jules Jeanjaquet das Glossaire des patois de la Suisse romande gegründet.\"], \"source_fact_index\": 5, \"target_contexts\": [[\"Ernst Emanuel Tappolet starb am 2. November 1939 in Basel.\", \"Ernst Emanuel Tappolet war ein Schweizer Romanist.\", \"Ernst Emanuel Tappolet gründete 1899 zusammen mit Louis Gauchat und Jules Jeanjaquet das Glossaire des patois de la Suisse romande.\"], [\"Tappolet war ab 1897 mit Johanna Elisabeth Schlub verheiratet.\", \"Johanna Elisabeth Schlub lebte von 1866 bis 1941.\", \"Lucienne Hubler ist die Autorin des Eintrags zu Ernst Tappolet im Historischen Lexikon der Schweiz.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 385,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [76, 66], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Person war wichtig für das Schweizerdeutsche.\", \"Die Person schrieb ein Buch über alemannische Lehnwörter in weltweiten Dialekten.\", \"Die Person vertrat um 1900 die Ansicht, dass das Schweizerdeutsche dem Hochdeutschen weichen würde.\"], \"source_fact_index\": 8, \"target_contexts\": [[\"Tappolet behauptete, ein Zürcher käme in der Eisenbahn in Verlegenheit, in welcher Sprache er einen Fremden ansprechen sollte.\", \"Die Zeitschrift 'Nebelspalter' reagierte mit Spott auf Tappolets Aussage zur Sprachverlegenheit in der Eisenbahn.\", \"Die Ansicht, dass die Deutschschweiz oder Zürich um 1900 vor einem Sprachwechsel standen, wird bis heute gelegentlich wiedergegeben.\"], [\"Durch seinen Tod konnte Tappolet seine Pläne zur Emeritierung nicht verwirklichen.\", \"Tappolet veröffentlichte 1901 die Überarbeitung 'Über den Stand der Mundarten in der deutschen und französischen Schweiz'.\", \"Tappolet vertrat die Meinung, dass die deutschsprachige Schweiz innerhalb von fünfzig Jahren den Dialekt als Umgangssprache zugunsten der Hochsprache aufgeben würde.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 423,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [77, 76], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Person vertrat um 1900 die Ansicht, dass das Schweizerdeutsche dem Hochdeutschen weichen würde.\", \"Die Aussage, dass das Schweizerdeutsche dem Hochdeutschen weichen würde, wird heute noch gerne zitiert.\", \"Es ist heute kaum noch bekannt, wer diese Idee ursprünglich aufgestellt hat.\"], \"source_fact_index\": 10, \"target_contexts\": [[\"Die Zeitschrift 'Nebelspalter' reagierte mit Spott auf Tappolets Aussage zur Sprachverlegenheit in der Eisenbahn.\", \"Die Ansicht, dass die Deutschschweiz oder Zürich um 1900 vor einem Sprachwechsel standen, wird bis heute gelegentlich wiedergegeben.\", \"Bei der heutigen Wiedergabe dieser Ansicht sind oft weder der ursprüngliche Autor noch der damalige Widerspruch bekannt.\"], [\"Tappolet behauptete, ein Zürcher käme in der Eisenbahn in Verlegenheit, in welcher Sprache er einen Fremden ansprechen sollte.\", \"Die Zeitschrift 'Nebelspalter' reagierte mit Spott auf Tappolets Aussage zur Sprachverlegenheit in der Eisenbahn.\", \"Die Ansicht, dass die Deutschschweiz oder Zürich um 1900 vor einem Sprachwechsel standen, wird bis heute gelegentlich wiedergegeben.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 432,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [8, 7], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Es ist heute kaum noch bekannt, wer diese Idee ursprünglich aufgestellt hat.\", \"Ernst Tappolet stammt aus einer Familie, die etwa um 1800 von Essertines-sur-Yverdon im Wadtland nach Küsnacht ausgewandert ist.\", \"Die Familie von Ernst Tappolet erhielt 1826 das Zürcher Bürgerrecht.\"], \"source_fact_index\": 12, \"target_contexts\": [[\"Die Meinung von Ernst Emanuel Tappolet aus dem Jahr 1901 bezüglich der Stadt Zürich wird noch heute gelegentlich zitiert.\", \"Ernst Tappolet stammte aus einer Familie, die um 1800 von Essertines-sur-Yverdon im Kanton Waadt nach Küsnacht ausgewandert war.\", \"Die Familie von Ernst Tappolet erwarb 1826 das Stadtzürcher Bürgerrecht.\"], [\"Ernst Emanuel Tappolet vertrat 1901 die Meinung, dass Zürich die erste Schweizer Stadt war, in der das Standarddeutsche den Dialekt als Umgangssprache verdrängte.\", \"Die Meinung von Ernst Emanuel Tappolet aus dem Jahr 1901 bezüglich der Stadt Zürich wird noch heute gelegentlich zitiert.\", \"Ernst Tappolet stammte aus einer Familie, die um 1800 von Essertines-sur-Yverdon im Kanton Waadt nach Küsnacht ausgewandert war.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 475,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [10, 9], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Tappolet stammt aus einer Familie, die etwa um 1800 von Essertines-sur-Yverdon im Wadtland nach Küsnacht ausgewandert ist.\", \"Die Familie von Ernst Tappolet erhielt 1826 das Zürcher Bürgerrecht.\", \"Der Vater von Ernst Tappolet war Pfarrer im Zürcher Oberland.\"], \"source_fact_index\": 13, \"target_contexts\": [[\"Die Familie von Ernst Tappolet erwarb 1826 das Stadtzürcher Bürgerrecht.\", \"Der Vater von Ernst Tappolet hieß Paul Friedrich Tappolez.\", \"Paul Friedrich Tappolez war Pfarrer im Zürcher Oberland.\"], [\"Ernst Tappolet stammte aus einer Familie, die um 1800 von Essertines-sur-Yverdon im Kanton Waadt nach Küsnacht ausgewandert war.\", \"Die Familie von Ernst Tappolet erwarb 1826 das Stadtzürcher Bürgerrecht.\", \"Der Vater von Ernst Tappolet hieß Paul Friedrich Tappolez.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 407,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [15, 26], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Familie von Ernst Tappolet erhielt 1826 das Zürcher Bürgerrecht.\", \"Der Vater von Ernst Tappolet war Pfarrer im Zürcher Oberland.\", \"Ernst studierte in Marburg.\"], \"source_fact_index\": 14, \"target_contexts\": [[\"Bertha Tappolet war ein Halbgeschwister von Ernst Tappolet.\", \"Bertha Tappolet war Künstlerin.\", \"Tappolet studierte in Marburg.\"], [\"Das Werk stand am Anfang einer großen Zahl von Untersuchungen über den Wortschatz der romanischen Sprachen.\", \"Tappolet habilitierte sich im Jahr 1902.\", \"Die Habilitation erfolgte in Zürich.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 313,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [16, 17], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Vater von Ernst Tappolet war Pfarrer im Zürcher Oberland.\", \"Ernst studierte in Marburg.\", \"Ernst studierte in Paris.\"], \"source_fact_index\": 15, \"target_contexts\": [[\"Bertha Tappolet war Künstlerin.\", \"Tappolet studierte in Marburg.\", \"Tappolet studierte in Paris.\"], [\"Tappolet studierte in Marburg.\", \"Tappolet studierte in Paris.\", \"Tappolet studierte in Florenz.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 270,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [17, 26], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst studierte in Marburg.\", \"Ernst studierte in Paris.\", \"Ernst studierte in Florenz.\"], \"source_fact_index\": 16, \"target_contexts\": [[\"Tappolet studierte in Marburg.\", \"Tappolet studierte in Paris.\", \"Tappolet studierte in Florenz.\"], [\"Das Werk stand am Anfang einer großen Zahl von Untersuchungen über den Wortschatz der romanischen Sprachen.\", \"Tappolet habilitierte sich im Jahr 1902.\", \"Die Habilitation erfolgte in Zürich.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 278,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [22, 28], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst studierte in Zürich.\", \"Ernst promovierte in Zürich bei Heinrich Morf über romanische Verwandtschaftsnamen.\", \"Das Buch 'Die romanischen Verwandtschaftsnamen' wurde 1895 veröffentlicht.\"], \"source_fact_index\": 19, \"target_contexts\": [[\"Tappolet promovierte bei Heinrich Morf.\", \"Das Thema der Promotion war 'Die romanischen Verwandtschaftsnamen, mit besonderer Berücksichtigung der französischen und italienischen Mundarten; ein Beitrag zur vergleichenden Lexikologie'.\", \"Die Promotionsschrift wurde 1895 in Strassburg veröffentlicht.\"], [\"Die Habilitation erfolgte in Zürich.\", \"Die Habilitationsschrift trug den Titel 'Über den Stand der Mundarten in der deutschen und französischen Schweiz'.\", \"Die Habilitationsschrift wurde 1901 in Zürich veröffentlicht.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 350,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [24, 23], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Das Buch 'Die romanischen Verwandtschaftsnamen' wurde 1895 veröffentlicht.\", \"Das Werk eröffnete der onomasiologischen Forschung in der Romanistik einen neuen Weg.\", \"Das Werk steht am Anfang einer Reihe von Büchern über den Wortschatz der romanischen Sprachen.\"], \"source_fact_index\": 21, \"target_contexts\": [[\"Die Promotionsschrift wurde 1895 in Strassburg veröffentlicht.\", \"Das Werk zur vergleichenden Lexikologie war bahnbrechend für die romanistische onomasiologische Forschung.\", \"Das Werk stand am Anfang einer großen Zahl von Untersuchungen über den Wortschatz der romanischen Sprachen.\"], [\"Das Thema der Promotion war 'Die romanischen Verwandtschaftsnamen, mit besonderer Berücksichtigung der französischen und italienischen Mundarten; ein Beitrag zur vergleichenden Lexikologie'.\", \"Die Promotionsschrift wurde 1895 in Strassburg veröffentlicht.\", \"Das Werk zur vergleichenden Lexikologie war bahnbrechend für die romanistische onomasiologische Forschung.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 392,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [26, 18], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Das Werk eröffnete der onomasiologischen Forschung in der Romanistik einen neuen Weg.\", \"Das Werk steht am Anfang einer Reihe von Büchern über den Wortschatz der romanischen Sprachen.\", \"Ernst war anschließend Gymnasiallehrer in Zürich.\"], \"source_fact_index\": 22, \"target_contexts\": [[\"Das Werk stand am Anfang einer großen Zahl von Untersuchungen über den Wortschatz der romanischen Sprachen.\", \"Tappolet habilitierte sich im Jahr 1902.\", \"Die Habilitation erfolgte in Zürich.\"], [\"Tappolet studierte in Paris.\", \"Tappolet studierte in Florenz.\", \"Tappolet studierte in Zürich.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 307,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [27, 28], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Das Werk steht am Anfang einer Reihe von Büchern über den Wortschatz der romanischen Sprachen.\", \"Ernst war anschließend Gymnasiallehrer in Zürich.\", \"Ernst schrieb 1901 die Arbeit 'Über den Stand der Mundarten in der deutschen und französischen Schweiz'.\"], \"source_fact_index\": 23, \"target_contexts\": [[\"Tappolet habilitierte sich im Jahr 1902.\", \"Die Habilitation erfolgte in Zürich.\", \"Die Habilitationsschrift trug den Titel 'Über den Stand der Mundarten in der deutschen und französischen Schweiz'.\"], [\"Die Habilitation erfolgte in Zürich.\", \"Die Habilitationsschrift trug den Titel 'Über den Stand der Mundarten in der deutschen und französischen Schweiz'.\", \"Die Habilitationsschrift wurde 1901 in Zürich veröffentlicht.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 341,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [25, 28], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst war anschließend Gymnasiallehrer in Zürich.\", \"Ernst schrieb 1901 die Arbeit 'Über den Stand der Mundarten in der deutschen und französischen Schweiz'.\", \"Ernst habilitierte sich 1902 mit dieser Arbeit.\"], \"source_fact_index\": 24, \"target_contexts\": [[\"Das Werk zur vergleichenden Lexikologie war bahnbrechend für die romanistische onomasiologische Forschung.\", \"Das Werk stand am Anfang einer großen Zahl von Untersuchungen über den Wortschatz der romanischen Sprachen.\", \"Tappolet habilitierte sich im Jahr 1902.\"], [\"Die Habilitation erfolgte in Zürich.\", \"Die Habilitationsschrift trug den Titel 'Über den Stand der Mundarten in der deutschen und französischen Schweiz'.\", \"Die Habilitationsschrift wurde 1901 in Zürich veröffentlicht.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 350,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [30, 31], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst schrieb 1901 die Arbeit 'Über den Stand der Mundarten in der deutschen und französischen Schweiz'.\", \"Ernst habilitierte sich 1902 mit dieser Arbeit.\", \"Die Person wurde 1904 als Professor an die Universität Basel berufen.\"], \"source_fact_index\": 25, \"target_contexts\": [[\"Die Habilitationsschrift wurde 1901 in Zürich veröffentlicht.\", \"Er war einige Jahre als Französischlehrer an der Zürcher Kantonsschule tätig.\", \"Er wurde 1904 an die Universität Basel berufen.\"], [\"Er war einige Jahre als Französischlehrer an der Zürcher Kantonsschule tätig.\", \"Er wurde 1904 an die Universität Basel berufen.\", \"Er wirkte an der Universität Basel als Professor für romanische Philologie.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 347,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [31, 40], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst habilitierte sich 1902 mit dieser Arbeit.\", \"Die Person wurde 1904 als Professor an die Universität Basel berufen.\", \"Ein Schwerpunkt seines Wirkens an der Universität Basel war die romanistische Onomasiologie (Wortfeldforschung).\"], \"source_fact_index\": 26, \"target_contexts\": [[\"Er war einige Jahre als Französischlehrer an der Zürcher Kantonsschule tätig.\", \"Er wurde 1904 an die Universität Basel berufen.\", \"Er wirkte an der Universität Basel als Professor für romanische Philologie.\"], [\"In der gedruckten Ausgabe des Historischen Lexikons der Schweiz wurde der Name Schlub fälschlicherweise als Schlup geschrieben.\", \"Die Lebensdaten basieren auf der Inschrift des Steins auf dem Familiengrab.\", \"Tappolets Lehre konzentrierte sich auf die Onomasiologie (Wortfeldforschung) der romanischen Sprachen.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 372,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [31, 41], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Person wurde 1904 als Professor an die Universität Basel berufen.\", \"Ein Schwerpunkt seines Wirkens an der Universität Basel war die romanistische Onomasiologie (Wortfeldforschung).\", \"Ein weiterer Schwerpunkt seines Wirkens an der Universität Basel war die romanistische Dialektologie.\"], \"source_fact_index\": 27, \"target_contexts\": [[\"Er war einige Jahre als Französischlehrer an der Zürcher Kantonsschule tätig.\", \"Er wurde 1904 an die Universität Basel berufen.\", \"Er wirkte an der Universität Basel als Professor für romanische Philologie.\"], [\"Die Lebensdaten basieren auf der Inschrift des Steins auf dem Familiengrab.\", \"Tappolets Lehre konzentrierte sich auf die Onomasiologie (Wortfeldforschung) der romanischen Sprachen.\", \"Tappolets Lehre konzentrierte sich auf die romanistische Dialektologie.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 365,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [42, 29], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ein Schwerpunkt seines Wirkens an der Universität Basel war die romanistische Onomasiologie (Wortfeldforschung).\", \"Ein weiterer Schwerpunkt seines Wirkens an der Universität Basel war die romanistische Dialektologie.\", \"Er vermittelte seinen Schülern Wissen, das direkt im Neusprachenunterricht anwendbar war.\"], \"source_fact_index\": 28, \"target_contexts\": [[\"Tappolets Lehre konzentrierte sich auf die Onomasiologie (Wortfeldforschung) der romanischen Sprachen.\", \"Tappolets Lehre konzentrierte sich auf die romanistische Dialektologie.\", \"Tappolet vermittelte seinen Schülern Wissen, das direkt im neusprachlichen Unterricht anwendbar war.\"], [\"Die Habilitationsschrift trug den Titel 'Über den Stand der Mundarten in der deutschen und französischen Schweiz'.\", \"Die Habilitationsschrift wurde 1901 in Zürich veröffentlicht.\", \"Er war einige Jahre als Französischlehrer an der Zürcher Kantonsschule tätig.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 388,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [44, 34], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Er vermittelte seinen Schülern Wissen, das direkt im Neusprachenunterricht anwendbar war.\", \"Er befasste sich mit grundsätzlichen Fragen zur Natur der Sprachen.\", \"Er veröffentlichte im Jahr 1907 das Werk 'Die Sprache des Kindes'.\"], \"source_fact_index\": 30, \"target_contexts\": [[\"Tappolet vermittelte seinen Schülern Wissen, das direkt im neusprachlichen Unterricht anwendbar war.\", \"Tappolet setzte sich mit grundsätzlichen Fragen zur Natur der Sprachen auseinander.\", \"Tappolet veröffentlichte im Jahr 1907 das Werk 'Die Sprache des Kindes'.\"], [\"Er begründete 1899 zusammen mit Louis Gauchat und Jules Jeanjaquet das Glossaire des patois de la Suisse romande.\", \"Ab 1924 arbeitete er als Redaktor am Glossaire des patois de la Suisse romande.\", \"Im Jahr 1935 wurde er zu seinem 65. Geburtstag mit einer Festschrift geehrt.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 391,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [35, 36], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Er veröffentlichte im Jahr 1907 das Werk 'Die Sprache des Kindes'.\", \"Er veröffentlichte im Jahr 1913 das Werk 'Die Ursachen des Wortreichtums bei den Haustiernamen der französischen Schweiz'.\", \"Ghüraate hat im Jahr 1897 Johanna Elisabeth Schlub geheiratet.\"], \"source_fact_index\": 32, \"target_contexts\": [[\"Ab 1924 arbeitete er als Redaktor am Glossaire des patois de la Suisse romande.\", \"Im Jahr 1935 wurde er zu seinem 65. Geburtstag mit einer Festschrift geehrt.\", \"Tappolet war ab 1897 mit Johanna Elisabeth Schlub verheiratet.\"], [\"Im Jahr 1935 wurde er zu seinem 65. Geburtstag mit einer Festschrift geehrt.\", \"Tappolet war ab 1897 mit Johanna Elisabeth Schlub verheiratet.\", \"Johanna Elisabeth Schlub lebte von 1866 bis 1941.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 394,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [36, 35], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Er veröffentlichte im Jahr 1913 das Werk 'Die Ursachen des Wortreichtums bei den Haustiernamen der französischen Schweiz'.\", \"Ghüraate hat im Jahr 1897 Johanna Elisabeth Schlub geheiratet.\", \"Johanna Elisabeth Schlub wurde 1866 geboren.\"], \"source_fact_index\": 33, \"target_contexts\": [[\"Im Jahr 1935 wurde er zu seinem 65. Geburtstag mit einer Festschrift geehrt.\", \"Tappolet war ab 1897 mit Johanna Elisabeth Schlub verheiratet.\", \"Johanna Elisabeth Schlub lebte von 1866 bis 1941.\"], [\"Ab 1924 arbeitete er als Redaktor am Glossaire des patois de la Suisse romande.\", \"Im Jahr 1935 wurde er zu seinem 65. Geburtstag mit einer Festschrift geehrt.\", \"Tappolet war ab 1897 mit Johanna Elisabeth Schlub verheiratet.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 387,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [36, 35], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ghüraate hat im Jahr 1897 Johanna Elisabeth Schlub geheiratet.\", \"Johanna Elisabeth Schlub wurde 1866 geboren.\", \"Johanna Elisabeth Schlub starb 1941.\"], \"source_fact_index\": 34, \"target_contexts\": [[\"Im Jahr 1935 wurde er zu seinem 65. Geburtstag mit einer Festschrift geehrt.\", \"Tappolet war ab 1897 mit Johanna Elisabeth Schlub verheiratet.\", \"Johanna Elisabeth Schlub lebte von 1866 bis 1941.\"], [\"Ab 1924 arbeitete er als Redaktor am Glossaire des patois de la Suisse romande.\", \"Im Jahr 1935 wurde er zu seinem 65. Geburtstag mit einer Festschrift geehrt.\", \"Tappolet war ab 1897 mit Johanna Elisabeth Schlub verheiratet.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 367,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [14, 7], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Johanna Elisabeth Schlub wurde 1866 geboren.\", \"Johanna Elisabeth Schlub starb 1941.\", \"Die Person war Mitglied der Abstinenzler-Bewegung.\"], \"source_fact_index\": 35, \"target_contexts\": [[\"Siegfried Tappolet war Opernsänger und Gesangspädagoge.\", \"Bertha Tappolet war ein Halbgeschwister von Ernst Tappolet.\", \"Bertha Tappolet war Künstlerin.\"], [\"Ernst Emanuel Tappolet vertrat 1901 die Meinung, dass Zürich die erste Schweizer Stadt war, in der das Standarddeutsche den Dialekt als Umgangssprache verdrängte.\", \"Die Meinung von Ernst Emanuel Tappolet aus dem Jahr 1901 bezüglich der Stadt Zürich wird noch heute gelegentlich zitiert.\", \"Ernst Tappolet stammte aus einer Familie, die um 1800 von Essertines-sur-Yverdon im Kanton Waadt nach Küsnacht ausgewandert war.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 388,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [10, 12], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Johanna Elisabeth Schlub starb 1941.\", \"Die Person war Mitglied der Abstinenzler-Bewegung.\", \"Die Person war der Sohn eines Pfarrers.\"], \"source_fact_index\": 36, \"target_contexts\": [[\"Die Familie von Ernst Tappolet erwarb 1826 das Stadtzürcher Bürgerrecht.\", \"Der Vater von Ernst Tappolet hieß Paul Friedrich Tappolez.\", \"Paul Friedrich Tappolez war Pfarrer im Zürcher Oberland.\"], [\"Paul Friedrich Tappolez war Pfarrer im Zürcher Oberland.\", \"Siegfried Tappolet war ein Halbgeschwister von Ernst Tappolet.\", \"Siegfried Tappolet war Opernsänger und Gesangspädagoge.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 335,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [10, 7], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Person war Mitglied der Abstinenzler-Bewegung.\", \"Die Person war der Sohn eines Pfarrers.\", \"Es wird vermutet, dass die Mitgliedschaft in der Abstinenzler-Bewegung typisch für Söhne von Pfarrern zu jener Zeit war.\"], \"source_fact_index\": 37, \"target_contexts\": [[\"Die Familie von Ernst Tappolet erwarb 1826 das Stadtzürcher Bürgerrecht.\", \"Der Vater von Ernst Tappolet hieß Paul Friedrich Tappolez.\", \"Paul Friedrich Tappolez war Pfarrer im Zürcher Oberland.\"], [\"Ernst Emanuel Tappolet vertrat 1901 die Meinung, dass Zürich die erste Schweizer Stadt war, in der das Standarddeutsche den Dialekt als Umgangssprache verdrängte.\", \"Die Meinung von Ernst Emanuel Tappolet aus dem Jahr 1901 bezüglich der Stadt Zürich wird noch heute gelegentlich zitiert.\", \"Ernst Tappolet stammte aus einer Familie, die um 1800 von Essertines-sur-Yverdon im Kanton Waadt nach Küsnacht ausgewandert war.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 417,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [46, 49], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Es wird vermutet, dass die Mitgliedschaft in der Abstinenzler-Bewegung typisch für Söhne von Pfarrern zu jener Zeit war.\", \"Tappolet war 1899 einer der Gründerväter des Glossaire des patois de la Suisse romande.\", \"Louis Gauchat war einer der Gründerväter des Glossaire des patois de la Suisse romande.\"], \"source_fact_index\": 39, \"target_contexts\": [[\"Tappolet veröffentlichte im Jahr 1907 das Werk 'Die Sprache des Kindes'.\", \"Tappolet veröffentlichte im Jahr 1913 das Werk 'Die Ursachen des Wortreichtums bei den Haustiernamen der französischen Schweiz'.\", \"Tappolet verfasste Artikel für das Glossaire des patois de la Suisse romande.\"], [\"Zu den von Tappolet verfassten Artikeln gehören unter anderem ados, affaire, agreblyé, agron, aise, aisement, aller, alyon, âme, amour, anneau, ansela, anson, apondre, archal, argent, argile, arin, armalyi, arode, aselye, avec, avoir, Bâle, ban, banc, banneret, bas, beau und ber.\", \"Tappolet hatte eine besondere Vorliebe für Artikel mit wichtigen volkskundlichen Aspekten.\", \"Tappolet stand selbst im Kontakt zu Gewährsleuten, um Material für das Wörterbuch zu gewinnen.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 492,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [46, 49], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Tappolet war 1899 einer der Gründerväter des Glossaire des patois de la Suisse romande.\", \"Louis Gauchat war einer der Gründerväter des Glossaire des patois de la Suisse romande.\", \"Jules Jeanjaquet war einer der Gründerväter des Glossaire des patois de la Suisse romande.\"], \"source_fact_index\": 40, \"target_contexts\": [[\"Tappolet veröffentlichte im Jahr 1907 das Werk 'Die Sprache des Kindes'.\", \"Tappolet veröffentlichte im Jahr 1913 das Werk 'Die Ursachen des Wortreichtums bei den Haustiernamen der französischen Schweiz'.\", \"Tappolet verfasste Artikel für das Glossaire des patois de la Suisse romande.\"], [\"Zu den von Tappolet verfassten Artikeln gehören unter anderem ados, affaire, agreblyé, agron, aise, aisement, aller, alyon, âme, amour, anneau, ansela, anson, apondre, archal, argent, argile, arin, armalyi, arode, aselye, avec, avoir, Bâle, ban, banc, banneret, bas, beau und ber.\", \"Tappolet hatte eine besondere Vorliebe für Artikel mit wichtigen volkskundlichen Aspekten.\", \"Tappolet stand selbst im Kontakt zu Gewährsleuten, um Material für das Wörterbuch zu gewinnen.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 482,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [48, 49], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Tappolet war Professor.\", \"Louis Gauchat war Professor.\", \"Jules Jeanjaquet war Professor.\"], \"source_fact_index\": 43, \"target_contexts\": [[\"Tappolet verfasste Artikel für das Glossaire des patois de la Suisse romande.\", \"Zu den von Tappolet verfassten Artikeln gehören unter anderem ados, affaire, agreblyé, agron, aise, aisement, aller, alyon, âme, amour, anneau, ansela, anson, apondre, archal, argent, argile, arin, armalyi, arode, aselye, avec, avoir, Bâle, ban, banc, banneret, bas, beau und ber.\", \"Tappolet hatte eine besondere Vorliebe für Artikel mit wichtigen volkskundlichen Aspekten.\"], [\"Zu den von Tappolet verfassten Artikeln gehören unter anderem ados, affaire, agreblyé, agron, aise, aisement, aller, alyon, âme, amour, anneau, ansela, anson, apondre, archal, argent, argile, arin, armalyi, arode, aselye, avec, avoir, Bâle, ban, banc, banneret, bas, beau und ber.\", \"Tappolet hatte eine besondere Vorliebe für Artikel mit wichtigen volkskundlichen Aspekten.\", \"Tappolet stand selbst im Kontakt zu Gewährsleuten, um Material für das Wörterbuch zu gewinnen.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 491,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [46, 50], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Louis Gauchat war Professor.\", \"Jules Jeanjaquet war Professor.\", \"Tappolet hat Artikel für das Glossaire des patois de la Suisse romande geschrieben.\"], \"source_fact_index\": 44, \"target_contexts\": [[\"Tappolet veröffentlichte im Jahr 1907 das Werk 'Die Sprache des Kindes'.\", \"Tappolet veröffentlichte im Jahr 1913 das Werk 'Die Ursachen des Wortreichtums bei den Haustiernamen der französischen Schweiz'.\", \"Tappolet verfasste Artikel für das Glossaire des patois de la Suisse romande.\"], [\"Tappolet hatte eine besondere Vorliebe für Artikel mit wichtigen volkskundlichen Aspekten.\", \"Tappolet stand selbst im Kontakt zu Gewährsleuten, um Material für das Wörterbuch zu gewinnen.\", \"Tappolet engagierte sich bei der Aufnahme der Patois auf Grammophonplatten.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 363,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [46, 48], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Tappolet hat Artikel für das Glossaire des patois de la Suisse romande geschrieben.\", \"Louis Gauchat hat Artikel für das Glossaire des patois de la Suisse romande geschrieben.\", \"Jules Jeanjaquet hat Artikel für das Glossaire des patois de la Suisse romande geschrieben.\"], \"source_fact_index\": 46, \"target_contexts\": [[\"Tappolet veröffentlichte im Jahr 1907 das Werk 'Die Sprache des Kindes'.\", \"Tappolet veröffentlichte im Jahr 1913 das Werk 'Die Ursachen des Wortreichtums bei den Haustiernamen der französischen Schweiz'.\", \"Tappolet verfasste Artikel für das Glossaire des patois de la Suisse romande.\"], [\"Tappolet verfasste Artikel für das Glossaire des patois de la Suisse romande.\", \"Zu den von Tappolet verfassten Artikeln gehören unter anderem ados, affaire, agreblyé, agron, aise, aisement, aller, alyon, âme, amour, anneau, ansela, anson, apondre, archal, argent, argile, arin, armalyi, arode, aselye, avec, avoir, Bâle, ban, banc, banneret, bas, beau und ber.\", \"Tappolet hatte eine besondere Vorliebe für Artikel mit wichtigen volkskundlichen Aspekten.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 466,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [49, 50], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Jules Jeanjaquet hat Artikel für das Glossaire des patois de la Suisse romande geschrieben.\", \"Tappolet verfasste insbesondere Artikel, in denen die Volkskunde eine wichtige Rolle spielt.\", \"Tappolet hat selbst Quellenmaterial in der Landschaft gesammelt.\"], \"source_fact_index\": 48, \"target_contexts\": [[\"Zu den von Tappolet verfassten Artikeln gehören unter anderem ados, affaire, agreblyé, agron, aise, aisement, aller, alyon, âme, amour, anneau, ansela, anson, apondre, archal, argent, argile, arin, armalyi, arode, aselye, avec, avoir, Bâle, ban, banc, banneret, bas, beau und ber.\", \"Tappolet hatte eine besondere Vorliebe für Artikel mit wichtigen volkskundlichen Aspekten.\", \"Tappolet stand selbst im Kontakt zu Gewährsleuten, um Material für das Wörterbuch zu gewinnen.\"], [\"Tappolet hatte eine besondere Vorliebe für Artikel mit wichtigen volkskundlichen Aspekten.\", \"Tappolet stand selbst im Kontakt zu Gewährsleuten, um Material für das Wörterbuch zu gewinnen.\", \"Tappolet engagierte sich bei der Aufnahme der Patois auf Grammophonplatten.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 447,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [50, 49], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Tappolet verfasste insbesondere Artikel, in denen die Volkskunde eine wichtige Rolle spielt.\", \"Tappolet hat selbst Quellenmaterial in der Landschaft gesammelt.\", \"Tappolet war an den Aufnahmen des Patois auf Grammophonplatten beteiligt.\"], \"source_fact_index\": 49, \"target_contexts\": [[\"Tappolet hatte eine besondere Vorliebe für Artikel mit wichtigen volkskundlichen Aspekten.\", \"Tappolet stand selbst im Kontakt zu Gewährsleuten, um Material für das Wörterbuch zu gewinnen.\", \"Tappolet engagierte sich bei der Aufnahme der Patois auf Grammophonplatten.\"], [\"Zu den von Tappolet verfassten Artikeln gehören unter anderem ados, affaire, agreblyé, agron, aise, aisement, aller, alyon, âme, amour, anneau, ansela, anson, apondre, archal, argent, argile, arin, armalyi, arode, aselye, avec, avoir, Bâle, ban, banc, banneret, bas, beau und ber.\", \"Tappolet hatte eine besondere Vorliebe für Artikel mit wichtigen volkskundlichen Aspekten.\", \"Tappolet stand selbst im Kontakt zu Gewährsleuten, um Material für das Wörterbuch zu gewinnen.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 444,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [51, 52], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Tappolet hat selbst Quellenmaterial in der Landschaft gesammelt.\", \"Tappolet war an den Aufnahmen des Patois auf Grammophonplatten beteiligt.\", \"Die Grundlage für das Glossar war das zweibändige Buch 'Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz, Kulturhistorisch-linguistische Untersuchung'.\"], \"source_fact_index\": 50, \"target_contexts\": [[\"Tappolet stand selbst im Kontakt zu Gewährsleuten, um Material für das Wörterbuch zu gewinnen.\", \"Tappolet engagierte sich bei der Aufnahme der Patois auf Grammophonplatten.\", \"Die Publikation 'Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz, Kulturhistorisch-linguistische Untersuchung' ist zweibändig.\"], [\"Tappolet engagierte sich bei der Aufnahme der Patois auf Grammophonplatten.\", \"Die Publikation 'Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz, Kulturhistorisch-linguistische Untersuchung' ist zweibändig.\", \"Die Publikation 'Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz, Kulturhistorisch-linguistische Untersuchung' erschien in den Jahren 1914 und 1917.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 428,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [52, 59], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Tappolet war an den Aufnahmen des Patois auf Grammophonplatten beteiligt.\", \"Die Grundlage für das Glossar war das zweibändige Buch 'Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz, Kulturhistorisch-linguistische Untersuchung'.\", \"Das Buch 'Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz' erschien in den Jahren 1914 und 1917.\"], \"source_fact_index\": 51, \"target_contexts\": [[\"Tappolet engagierte sich bei der Aufnahme der Patois auf Grammophonplatten.\", \"Die Publikation 'Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz, Kulturhistorisch-linguistische Untersuchung' ist zweibändig.\", \"Die Publikation 'Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz, Kulturhistorisch-linguistische Untersuchung' erschien in den Jahren 1914 und 1917.\"], [\"Das Werk beschreibt exakt die lautlichen Anpassungen alemannischer Wörter an die französischen und frankoprovenzalischen Mundarten.\", \"Tappolet ist der Autor des Buches über die alemannischen Lehnwörter im Westschweizer Patois.\", \"Emil Steiner veröffentlichte 1921 das Werk 'Die französischen Lehnwörter in den alemannischen Mundarten der Schweiz. Kulturhistorisch-linguistische Untersuchung mit etymologischem Wörterbuch'.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 475,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [54, 55], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Grundlage für das Glossar war das zweibändige Buch 'Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz, Kulturhistorisch-linguistische Untersuchung'.\", \"Das Buch 'Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz' erschien in den Jahren 1914 und 1917.\", \"Das Werk enthält neben Wortlisten auch Analysen von Tappolet zu kulturellen, sachlichen und affektiven Motiven der Übernahme in die Patois.\"], \"source_fact_index\": 52, \"target_contexts\": [[\"Die Publikation 'Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz, Kulturhistorisch-linguistische Untersuchung' erschien in den Jahren 1914 und 1917.\", \"Die Publikation basierte auf Materialsammlungen, die für das Glossaire vorgenommen wurden.\", \"In dem Werk wurden die kulturellen, sachlichen und affektiven Motive für die Übernahme von schweizerdeutschem Wortgut in die Patois erörtert.\"], [\"Die Publikation basierte auf Materialsammlungen, die für das Glossaire vorgenommen wurden.\", \"In dem Werk wurden die kulturellen, sachlichen und affektiven Motive für die Übernahme von schweizerdeutschem Wortgut in die Patois erörtert.\", \"Der Autor unterschied in seinem Werk zwischen 'Bedürfnislehnwort' und 'Luxuslehnwort'.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 482,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [55, 56], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Das Buch 'Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz' erschien in den Jahren 1914 und 1917.\", \"Das Werk enthält neben Wortlisten auch Analysen von Tappolet zu kulturellen, sachlichen und affektiven Motiven der Übernahme in die Patois.\", \"Tappolet unterscheidet in seinem Werk zwischen 'Bedürfnisleenwoort' und 'Luxusleenwoort'.\"], \"source_fact_index\": 53, \"target_contexts\": [[\"Die Publikation basierte auf Materialsammlungen, die für das Glossaire vorgenommen wurden.\", \"In dem Werk wurden die kulturellen, sachlichen und affektiven Motive für die Übernahme von schweizerdeutschem Wortgut in die Patois erörtert.\", \"Der Autor unterschied in seinem Werk zwischen 'Bedürfnislehnwort' und 'Luxuslehnwort'.\"], [\"In dem Werk wurden die kulturellen, sachlichen und affektiven Motive für die Übernahme von schweizerdeutschem Wortgut in die Patois erörtert.\", \"Der Autor unterschied in seinem Werk zwischen 'Bedürfnislehnwort' und 'Luxuslehnwort'.\", \"Der Autor charakterisierte den jeweiligen Geltungsraum von 'Bedürfnislehnwort' und 'Luxuslehnwort'.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 458,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [56, 55], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Das Werk enthält neben Wortlisten auch Analysen von Tappolet zu kulturellen, sachlichen und affektiven Motiven der Übernahme in die Patois.\", \"Tappolet unterscheidet in seinem Werk zwischen 'Bedürfnisleenwoort' und 'Luxusleenwoort'.\", \"Tappolet charakterisiert in seinem Werk den jeweiligen Geltungsraum der Lehnwörter.\"], \"source_fact_index\": 54, \"target_contexts\": [[\"In dem Werk wurden die kulturellen, sachlichen und affektiven Motive für die Übernahme von schweizerdeutschem Wortgut in die Patois erörtert.\", \"Der Autor unterschied in seinem Werk zwischen 'Bedürfnislehnwort' und 'Luxuslehnwort'.\", \"Der Autor charakterisierte den jeweiligen Geltungsraum von 'Bedürfnislehnwort' und 'Luxuslehnwort'.\"], [\"Die Publikation basierte auf Materialsammlungen, die für das Glossaire vorgenommen wurden.\", \"In dem Werk wurden die kulturellen, sachlichen und affektiven Motive für die Übernahme von schweizerdeutschem Wortgut in die Patois erörtert.\", \"Der Autor unterschied in seinem Werk zwischen 'Bedürfnislehnwort' und 'Luxuslehnwort'.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 444,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [57, 56], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Tappolet unterscheidet in seinem Werk zwischen 'Bedürfnisleenwoort' und 'Luxusleenwoort'.\", \"Tappolet charakterisiert in seinem Werk den jeweiligen Geltungsraum der Lehnwörter.\", \"Tappolet beschreibt exakt die lautliche Anpassung alemannischer Wörter an frankoprovenzalische und französische Mundarten.\"], \"source_fact_index\": 55, \"target_contexts\": [[\"Der Autor unterschied in seinem Werk zwischen 'Bedürfnislehnwort' und 'Luxuslehnwort'.\", \"Der Autor charakterisierte den jeweiligen Geltungsraum von 'Bedürfnislehnwort' und 'Luxuslehnwort'.\", \"Das Werk beschreibt exakt die lautlichen Anpassungen alemannischer Wörter an die französischen und frankoprovenzalischen Mundarten.\"], [\"In dem Werk wurden die kulturellen, sachlichen und affektiven Motive für die Übernahme von schweizerdeutschem Wortgut in die Patois erörtert.\", \"Der Autor unterschied in seinem Werk zwischen 'Bedürfnislehnwort' und 'Luxuslehnwort'.\", \"Der Autor charakterisierte den jeweiligen Geltungsraum von 'Bedürfnislehnwort' und 'Luxuslehnwort'.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 438,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [60, 58], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Tappolet charakterisiert in seinem Werk den jeweiligen Geltungsraum der Lehnwörter.\", \"Tappolet beschreibt exakt die lautliche Anpassung alemannischer Wörter an frankoprovenzalische und französische Mundarten.\", \"Das Buch von Tappolet über alemannische Lehnwörter im Welschland diente als Vorbild für das Buch von Emil Steiner.\"], \"source_fact_index\": 56, \"target_contexts\": [[\"Tappolet ist der Autor des Buches über die alemannischen Lehnwörter im Westschweizer Patois.\", \"Emil Steiner veröffentlichte 1921 das Werk 'Die französischen Lehnwörter in den alemannischen Mundarten der Schweiz. Kulturhistorisch-linguistische Untersuchung mit etymologischem Wörterbuch'.\", \"Das Werk von Emil Steiner bildet das Gegenüber zu Tappolets Buch.\"], [\"Der Autor charakterisierte den jeweiligen Geltungsraum von 'Bedürfnislehnwort' und 'Luxuslehnwort'.\", \"Das Werk beschreibt exakt die lautlichen Anpassungen alemannischer Wörter an die französischen und frankoprovenzalischen Mundarten.\", \"Tappolet ist der Autor des Buches über die alemannischen Lehnwörter im Westschweizer Patois.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 441,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [59, 51], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Tappolet beschreibt exakt die lautliche Anpassung alemannischer Wörter an frankoprovenzalische und französische Mundarten.\", \"Das Buch von Tappolet über alemannische Lehnwörter im Welschland diente als Vorbild für das Buch von Emil Steiner.\", \"Emil Steiner schrieb ein Buch über französische Lehnwörter im Alemannischen mit dem Titel 'Die französischen Lehnwörter in den alemannischen Mundarten der Schweiz. Kulturhistorisch-linguistische Untersuchung mit etymologischem Wörterbuch'.\"], \"source_fact_index\": 57, \"target_contexts\": [[\"Das Werk beschreibt exakt die lautlichen Anpassungen alemannischer Wörter an die französischen und frankoprovenzalischen Mundarten.\", \"Tappolet ist der Autor des Buches über die alemannischen Lehnwörter im Westschweizer Patois.\", \"Emil Steiner veröffentlichte 1921 das Werk 'Die französischen Lehnwörter in den alemannischen Mundarten der Schweiz. Kulturhistorisch-linguistische Untersuchung mit etymologischem Wörterbuch'.\"], [\"Tappolet stand selbst im Kontakt zu Gewährsleuten, um Material für das Wörterbuch zu gewinnen.\", \"Tappolet engagierte sich bei der Aufnahme der Patois auf Grammophonplatten.\", \"Die Publikation 'Die alemannischen Lehnwörter in den Mundarten der französischen Schweiz, Kulturhistorisch-linguistische Untersuchung' ist zweibändig.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 473,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [61, 64], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Emil Steiner schrieb ein Buch über französische Lehnwörter im Alemannischen mit dem Titel 'Die französischen Lehnwörter in den alemannischen Mundarten der Schweiz. Kulturhistorisch-linguistische Untersuchung mit etymologischem Wörterbuch'.\", \"Das Buch von Emil Steiner erschien im Jahr 1921.\", \"Er wollte 1940 in den Ruhestand treten.\"], \"source_fact_index\": 59, \"target_contexts\": [[\"Emil Steiner veröffentlichte 1921 das Werk 'Die französischen Lehnwörter in den alemannischen Mundarten der Schweiz. Kulturhistorisch-linguistische Untersuchung mit etymologischem Wörterbuch'.\", \"Das Werk von Emil Steiner bildet das Gegenüber zu Tappolets Buch.\", \"Tappolet plante, sich 1940 emeritieren zu lassen.\"], [\"Tappolet wollte seine ganze Kraft dem Glossaire zur Verfügung stellen.\", \"Tappolet starb im Jahr 1939.\", \"Durch seinen Tod konnte Tappolet seine Pläne zur Emeritierung nicht verwirklichen.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 396,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [61, 63], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Er wollte 1940 in den Ruhestand treten.\", \"Er wollte seine gesamten Kräfte dem Glossaire zur Verfügung stellen.\", \"Er ist ein Jahr vor 1940 gestorben.\"], \"source_fact_index\": 61, \"target_contexts\": [[\"Emil Steiner veröffentlichte 1921 das Werk 'Die französischen Lehnwörter in den alemannischen Mundarten der Schweiz. Kulturhistorisch-linguistische Untersuchung mit etymologischem Wörterbuch'.\", \"Das Werk von Emil Steiner bildet das Gegenüber zu Tappolets Buch.\", \"Tappolet plante, sich 1940 emeritieren zu lassen.\"], [\"Tappolet plante, sich 1940 emeritieren zu lassen.\", \"Tappolet wollte seine ganze Kraft dem Glossaire zur Verfügung stellen.\", \"Tappolet starb im Jahr 1939.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 352,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [63, 64], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Er wollte seine gesamten Kräfte dem Glossaire zur Verfügung stellen.\", \"Er ist ein Jahr vor 1940 gestorben.\", \"Er starb im Alter von 69 Jahren.\"], \"source_fact_index\": 62, \"target_contexts\": [[\"Tappolet plante, sich 1940 emeritieren zu lassen.\", \"Tappolet wollte seine ganze Kraft dem Glossaire zur Verfügung stellen.\", \"Tappolet starb im Jahr 1939.\"], [\"Tappolet wollte seine ganze Kraft dem Glossaire zur Verfügung stellen.\", \"Tappolet starb im Jahr 1939.\", \"Durch seinen Tod konnte Tappolet seine Pläne zur Emeritierung nicht verwirklichen.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 316,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [64, 63], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Er ist ein Jahr vor 1940 gestorben.\", \"Er starb im Alter von 69 Jahren.\", \"Sein Tod erfolgte ganz plötzlich.\"], \"source_fact_index\": 63, \"target_contexts\": [[\"Tappolet wollte seine ganze Kraft dem Glossaire zur Verfügung stellen.\", \"Tappolet starb im Jahr 1939.\", \"Durch seinen Tod konnte Tappolet seine Pläne zur Emeritierung nicht verwirklichen.\"], [\"Tappolet plante, sich 1940 emeritieren zu lassen.\", \"Tappolet wollte seine ganze Kraft dem Glossaire zur Verfügung stellen.\", \"Tappolet starb im Jahr 1939.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 311,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [65, 76], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Er starb im Alter von 69 Jahren.\", \"Sein Tod erfolgte ganz plötzlich.\", \"Der Autor schrieb 1901 eine Arbeit über den Zustand der Mundarten in der französischen und deutschen Schweiz.\"], \"source_fact_index\": 64, \"target_contexts\": [[\"Tappolet starb im Jahr 1939.\", \"Durch seinen Tod konnte Tappolet seine Pläne zur Emeritierung nicht verwirklichen.\", \"Tappolet veröffentlichte 1901 die Überarbeitung 'Über den Stand der Mundarten in der deutschen und französischen Schweiz'.\"], [\"Tappolet behauptete, ein Zürcher käme in der Eisenbahn in Verlegenheit, in welcher Sprache er einen Fremden ansprechen sollte.\", \"Die Zeitschrift 'Nebelspalter' reagierte mit Spott auf Tappolets Aussage zur Sprachverlegenheit in der Eisenbahn.\", \"Die Ansicht, dass die Deutschschweiz oder Zürich um 1900 vor einem Sprachwechsel standen, wird bis heute gelegentlich wiedergegeben.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 383,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [66, 76], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Autor schrieb 1901 eine Arbeit über den Zustand der Mundarten in der französischen und deutschen Schweiz.\", \"Der Autor beobachtete, dass die Schriftsprache zunehmend in die Dialekte eindringt und sich in der Volkssprache ausbreitet.\", \"Nach Meinung des Autors war die Verdrängung der Mundart in der Westschweiz der Deutschschweiz um zweihundert Jahre voraus.\"], \"source_fact_index\": 66, \"target_contexts\": [[\"Durch seinen Tod konnte Tappolet seine Pläne zur Emeritierung nicht verwirklichen.\", \"Tappolet veröffentlichte 1901 die Überarbeitung 'Über den Stand der Mundarten in der deutschen und französischen Schweiz'.\", \"Tappolet vertrat die Meinung, dass die deutschsprachige Schweiz innerhalb von fünfzig Jahren den Dialekt als Umgangssprache zugunsten der Hochsprache aufgeben würde.\"], [\"Tappolet behauptete, ein Zürcher käme in der Eisenbahn in Verlegenheit, in welcher Sprache er einen Fremden ansprechen sollte.\", \"Die Zeitschrift 'Nebelspalter' reagierte mit Spott auf Tappolets Aussage zur Sprachverlegenheit in der Eisenbahn.\", \"Die Ansicht, dass die Deutschschweiz oder Zürich um 1900 vor einem Sprachwechsel standen, wird bis heute gelegentlich wiedergegeben.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 455,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [67, 69], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Autor beobachtete, dass die Schriftsprache zunehmend in die Dialekte eindringt und sich in der Volkssprache ausbreitet.\", \"Nach Meinung des Autors war die Verdrängung der Mundart in der Westschweiz der Deutschschweiz um zweihundert Jahre voraus.\", \"Der Autor war überzeugt, dass die Ostschweiz dem Westen folgen würde.\"], \"source_fact_index\": 67, \"target_contexts\": [[\"Tappolet veröffentlichte 1901 die Überarbeitung 'Über den Stand der Mundarten in der deutschen und französischen Schweiz'.\", \"Tappolet vertrat die Meinung, dass die deutschsprachige Schweiz innerhalb von fünfzig Jahren den Dialekt als Umgangssprache zugunsten der Hochsprache aufgeben würde.\", \"Tappolet glaubte, dass die deutschsprachige Schweiz der Entwicklung in Deutschland und der Suisse romande folgen würde.\"], [\"Tappolet glaubte, dass die deutschsprachige Schweiz der Entwicklung in Deutschland und der Suisse romande folgen würde.\", \"Tappolet prognostizierte, dass Zürich die erste Stadt sein würde, die den Dialekt aufgibt.\", \"Otto von Greyerz war der Überzeugung, dass eine schweizerdeutsch-hochdeutsche Zweisprachigkeit (Diglossie) möglich und nötig sei, um die Mundart zu erhalten.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 448,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [73, 69], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Autor war überzeugt, dass die Ostschweiz dem Westen folgen würde.\", \"Der Autor war fest davon überzeugt, dass Zürich die erste Schweizer Stadt sein würde, in der Hochdeutsch gesprochen wird.\", \"In einer Befragung von zehn Personen in einer kleinen Zürcher Straße antworteten sechs auf Hochdeutsch.\"], \"source_fact_index\": 69, \"target_contexts\": [[\"Tappolets Schrift erlangte eine große Öffentlichkeit und rief gespaltene Reaktionen hervor.\", \"Ein Rezensent in der Allgemeinen Schweizer Zeitung teilte Tappolets Pessimismus nicht.\", \"Ein Rezensent in der Allgemeinen Schweizer Zeitung meinte, die Publikation zeige, dass die Schweizer mehr für ihre Sprache eintreten und Mundarten pflegen sollten.\"], [\"Tappolet glaubte, dass die deutschsprachige Schweiz der Entwicklung in Deutschland und der Suisse romande folgen würde.\", \"Tappolet prognostizierte, dass Zürich die erste Stadt sein würde, die den Dialekt aufgibt.\", \"Otto von Greyerz war der Überzeugung, dass eine schweizerdeutsch-hochdeutsche Zweisprachigkeit (Diglossie) möglich und nötig sei, um die Mundart zu erhalten.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 417,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [74, 77], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Autor war fest davon überzeugt, dass Zürich die erste Schweizer Stadt sein würde, in der Hochdeutsch gesprochen wird.\", \"In einer Befragung von zehn Personen in einer kleinen Zürcher Straße antworteten sechs auf Hochdeutsch.\", \"Der Autor beschrieb eine Verlegenheit bei der Wahl der Sprache, wenn er im Zug Personen ansprach, deren Herkunft nicht sofort erkennbar war.\"], \"source_fact_index\": 70, \"target_contexts\": [[\"Ein Rezensent in der Allgemeinen Schweizer Zeitung teilte Tappolets Pessimismus nicht.\", \"Ein Rezensent in der Allgemeinen Schweizer Zeitung meinte, die Publikation zeige, dass die Schweizer mehr für ihre Sprache eintreten und Mundarten pflegen sollten.\", \"Tappolet behauptete, ein Zürcher käme in der Eisenbahn in Verlegenheit, in welcher Sprache er einen Fremden ansprechen sollte.\"], [\"Die Zeitschrift 'Nebelspalter' reagierte mit Spott auf Tappolets Aussage zur Sprachverlegenheit in der Eisenbahn.\", \"Die Ansicht, dass die Deutschschweiz oder Zürich um 1900 vor einem Sprachwechsel standen, wird bis heute gelegentlich wiedergegeben.\", \"Bei der heutigen Wiedergabe dieser Ansicht sind oft weder der ursprüngliche Autor noch der damalige Widerspruch bekannt.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 440,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [73, 67], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Autor beschrieb eine Verlegenheit bei der Wahl der Sprache, wenn er im Zug Personen ansprach, deren Herkunft nicht sofort erkennbar war.\", \"Der Autor teilte die Ansicht von Otto von Greyerz bezüglich einer schweizerdeutsch-hochdeutschen Zweisprachigkeit (Diglossie) nicht.\", \"Der Autor interpretierte die Sprachgeschichte und den Sprachwandel so, dass das Schweizerdeutsch vor dem Hochdeutschen zurückweicht.\"], \"source_fact_index\": 72, \"target_contexts\": [[\"Tappolets Schrift erlangte eine große Öffentlichkeit und rief gespaltene Reaktionen hervor.\", \"Ein Rezensent in der Allgemeinen Schweizer Zeitung teilte Tappolets Pessimismus nicht.\", \"Ein Rezensent in der Allgemeinen Schweizer Zeitung meinte, die Publikation zeige, dass die Schweizer mehr für ihre Sprache eintreten und Mundarten pflegen sollten.\"], [\"Tappolet veröffentlichte 1901 die Überarbeitung 'Über den Stand der Mundarten in der deutschen und französischen Schweiz'.\", \"Tappolet vertrat die Meinung, dass die deutschsprachige Schweiz innerhalb von fünfzig Jahren den Dialekt als Umgangssprache zugunsten der Hochsprache aufgeben würde.\", \"Tappolet glaubte, dass die deutschsprachige Schweiz der Entwicklung in Deutschland und der Suisse romande folgen würde.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 450,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [77, 71], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Autor teilte die Ansicht von Otto von Greyerz bezüglich einer schweizerdeutsch-hochdeutschen Zweisprachigkeit (Diglossie) nicht.\", \"Der Autor interpretierte die Sprachgeschichte und den Sprachwandel so, dass das Schweizerdeutsch vor dem Hochdeutschen zurückweicht.\", \"Die Reaktionen auf die Schrift des Autors waren unterschiedlich.\"], \"source_fact_index\": 73, \"target_contexts\": [[\"Die Zeitschrift 'Nebelspalter' reagierte mit Spott auf Tappolets Aussage zur Sprachverlegenheit in der Eisenbahn.\", \"Die Ansicht, dass die Deutschschweiz oder Zürich um 1900 vor einem Sprachwechsel standen, wird bis heute gelegentlich wiedergegeben.\", \"Bei der heutigen Wiedergabe dieser Ansicht sind oft weder der ursprüngliche Autor noch der damalige Widerspruch bekannt.\"], [\"Otto von Greyerz war der Überzeugung, dass eine schweizerdeutsch-hochdeutsche Zweisprachigkeit (Diglossie) möglich und nötig sei, um die Mundart zu erhalten.\", \"Tappolets Schrift wurde von der Universität Zürich als Habilitationsschrift angenommen.\", \"Tappolets Schrift erlangte eine große Öffentlichkeit und rief gespaltene Reaktionen hervor.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 427,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [73, 69], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Autor interpretierte die Sprachgeschichte und den Sprachwandel so, dass das Schweizerdeutsch vor dem Hochdeutschen zurückweicht.\", \"Die Reaktionen auf die Schrift des Autors waren unterschiedlich.\", \"Ein Rezensent in der Basler Allgemeinen Schweizer Zeitung betonte die Wichtigkeit, selbstbewusst für die eigene Sprache einzutreten und das Schweizerdeutsch zu pflegen.\"], \"source_fact_index\": 74, \"target_contexts\": [[\"Tappolets Schrift erlangte eine große Öffentlichkeit und rief gespaltene Reaktionen hervor.\", \"Ein Rezensent in der Allgemeinen Schweizer Zeitung teilte Tappolets Pessimismus nicht.\", \"Ein Rezensent in der Allgemeinen Schweizer Zeitung meinte, die Publikation zeige, dass die Schweizer mehr für ihre Sprache eintreten und Mundarten pflegen sollten.\"], [\"Tappolet glaubte, dass die deutschsprachige Schweiz der Entwicklung in Deutschland und der Suisse romande folgen würde.\", \"Tappolet prognostizierte, dass Zürich die erste Stadt sein würde, die den Dialekt aufgibt.\", \"Otto von Greyerz war der Überzeugung, dass eine schweizerdeutsch-hochdeutsche Zweisprachigkeit (Diglossie) möglich und nötig sei, um die Mundart zu erhalten.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 431,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [71, 75], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ein Rezensent in der Basler Allgemeinen Schweizer Zeitung betonte die Wichtigkeit, selbstbewusst für die eigene Sprache einzutreten und das Schweizerdeutsch zu pflegen.\", \"Die Publikation wurde im 'Nebelspalter' verspottet.\", \"Die Thesen von Tappolet wurden weitgehend diskutiert.\"], \"source_fact_index\": 76, \"target_contexts\": [[\"Otto von Greyerz war der Überzeugung, dass eine schweizerdeutsch-hochdeutsche Zweisprachigkeit (Diglossie) möglich und nötig sei, um die Mundart zu erhalten.\", \"Tappolets Schrift wurde von der Universität Zürich als Habilitationsschrift angenommen.\", \"Tappolets Schrift erlangte eine große Öffentlichkeit und rief gespaltene Reaktionen hervor.\"], [\"Ein Rezensent in der Allgemeinen Schweizer Zeitung meinte, die Publikation zeige, dass die Schweizer mehr für ihre Sprache eintreten und Mundarten pflegen sollten.\", \"Tappolet behauptete, ein Zürcher käme in der Eisenbahn in Verlegenheit, in welcher Sprache er einen Fremden ansprechen sollte.\", \"Die Zeitschrift 'Nebelspalter' reagierte mit Spott auf Tappolets Aussage zur Sprachverlegenheit in der Eisenbahn.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 430,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [66, 76], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Publikation wurde im 'Nebelspalter' verspottet.\", \"Die Thesen von Tappolet wurden weitgehend diskutiert.\", \"Im Gegensatz zu Tappolets Ansicht blieb die Lebendigkeit der schweizerdeutschen Mundarten im Vergleich zu hundert Jahren zuvor nicht geringer, obwohl sie 'ausgewaschener' wurden.\"], \"source_fact_index\": 77, \"target_contexts\": [[\"Durch seinen Tod konnte Tappolet seine Pläne zur Emeritierung nicht verwirklichen.\", \"Tappolet veröffentlichte 1901 die Überarbeitung 'Über den Stand der Mundarten in der deutschen und französischen Schweiz'.\", \"Tappolet vertrat die Meinung, dass die deutschsprachige Schweiz innerhalb von fünfzig Jahren den Dialekt als Umgangssprache zugunsten der Hochsprache aufgeben würde.\"], [\"Tappolet behauptete, ein Zürcher käme in der Eisenbahn in Verlegenheit, in welcher Sprache er einen Fremden ansprechen sollte.\", \"Die Zeitschrift 'Nebelspalter' reagierte mit Spott auf Tappolets Aussage zur Sprachverlegenheit in der Eisenbahn.\", \"Die Ansicht, dass die Deutschschweiz oder Zürich um 1900 vor einem Sprachwechsel standen, wird bis heute gelegentlich wiedergegeben.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 438,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [36, 13], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Siegfried Tappolet war Opernsänger und Gesangspädagoge.\", \"Bertha Tappolet war ein Halbgeschwister von Ernst Tappolet.\", \"Bertha Tappolet war Künstlerin.\"], \"source_fact_index\": 14, \"target_contexts\": [[\"Johanna Elisabeth Schlub starb 1941.\", \"Die Person war Mitglied der Abstinenzler-Bewegung.\", \"Die Person war der Sohn eines Pfarrers.\"], [\"Ernst Tappolet stammt aus einer Familie, die etwa um 1800 von Essertines-sur-Yverdon im Wadtland nach Küsnacht ausgewandert ist.\", \"Die Familie von Ernst Tappolet erhielt 1826 das Zürcher Bürgerrecht.\", \"Der Vater von Ernst Tappolet war Pfarrer im Zürcher Oberland.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 350,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [69, 73], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Emanuel Tappolet war Professor an der Universität Basel.\", \"Ernst Emanuel Tappolet hat 1899 zusammen mit Louis Gauchat und Jules Jeanjaquet das Glossaire des patois de la Suisse romande gegründet.\", \"Die Person war wichtig für das Schweizerdeutsche.\"], \"source_fact_index\": 6, \"target_contexts\": [[\"Tappolet glaubte, dass die deutschsprachige Schweiz der Entwicklung in Deutschland und der Suisse romande folgen würde.\", \"Tappolet prognostizierte, dass Zürich die erste Stadt sein würde, die den Dialekt aufgibt.\", \"Otto von Greyerz war der Überzeugung, dass eine schweizerdeutsch-hochdeutsche Zweisprachigkeit (Diglossie) möglich und nötig sei, um die Mundart zu erhalten.\"], [\"Tappolets Schrift erlangte eine große Öffentlichkeit und rief gespaltene Reaktionen hervor.\", \"Ein Rezensent in der Allgemeinen Schweizer Zeitung teilte Tappolets Pessimismus nicht.\", \"Ein Rezensent in der Allgemeinen Schweizer Zeitung meinte, die Publikation zeige, dass die Schweizer mehr für ihre Sprache eintreten und Mundarten pflegen sollten.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 413,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [73, 69], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst Emanuel Tappolet hat 1899 zusammen mit Louis Gauchat und Jules Jeanjaquet das Glossaire des patois de la Suisse romande gegründet.\", \"Die Person war wichtig für das Schweizerdeutsche.\", \"Die Person schrieb ein Buch über alemannische Lehnwörter in weltweiten Dialekten.\"], \"source_fact_index\": 7, \"target_contexts\": [[\"Tappolets Schrift erlangte eine große Öffentlichkeit und rief gespaltene Reaktionen hervor.\", \"Ein Rezensent in der Allgemeinen Schweizer Zeitung teilte Tappolets Pessimismus nicht.\", \"Ein Rezensent in der Allgemeinen Schweizer Zeitung meinte, die Publikation zeige, dass die Schweizer mehr für ihre Sprache eintreten und Mundarten pflegen sollten.\"], [\"Tappolet glaubte, dass die deutschsprachige Schweiz der Entwicklung in Deutschland und der Suisse romande folgen würde.\", \"Tappolet prognostizierte, dass Zürich die erste Stadt sein würde, die den Dialekt aufgibt.\", \"Otto von Greyerz war der Überzeugung, dass eine schweizerdeutsch-hochdeutsche Zweisprachigkeit (Diglossie) möglich und nötig sei, um die Mundart zu erhalten.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 419,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [76, 69], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Person schrieb ein Buch über alemannische Lehnwörter in weltweiten Dialekten.\", \"Die Person vertrat um 1900 die Ansicht, dass das Schweizerdeutsche dem Hochdeutschen weichen würde.\", \"Die Aussage, dass das Schweizerdeutsche dem Hochdeutschen weichen würde, wird heute noch gerne zitiert.\"], \"source_fact_index\": 9, \"target_contexts\": [[\"Tappolet behauptete, ein Zürcher käme in der Eisenbahn in Verlegenheit, in welcher Sprache er einen Fremden ansprechen sollte.\", \"Die Zeitschrift 'Nebelspalter' reagierte mit Spott auf Tappolets Aussage zur Sprachverlegenheit in der Eisenbahn.\", \"Die Ansicht, dass die Deutschschweiz oder Zürich um 1900 vor einem Sprachwechsel standen, wird bis heute gelegentlich wiedergegeben.\"], [\"Tappolet glaubte, dass die deutschsprachige Schweiz der Entwicklung in Deutschland und der Suisse romande folgen würde.\", \"Tappolet prognostizierte, dass Zürich die erste Stadt sein würde, die den Dialekt aufgibt.\", \"Otto von Greyerz war der Überzeugung, dass eine schweizerdeutsch-hochdeutsche Zweisprachigkeit (Diglossie) möglich und nötig sei, um die Mundart zu erhalten.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 439,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [7, 8], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Aussage, dass das Schweizerdeutsche dem Hochdeutschen weichen würde, wird heute noch gerne zitiert.\", \"Es ist heute kaum noch bekannt, wer diese Idee ursprünglich aufgestellt hat.\", \"Ernst Tappolet stammt aus einer Familie, die etwa um 1800 von Essertines-sur-Yverdon im Wadtland nach Küsnacht ausgewandert ist.\"], \"source_fact_index\": 11, \"target_contexts\": [[\"Ernst Emanuel Tappolet vertrat 1901 die Meinung, dass Zürich die erste Schweizer Stadt war, in der das Standarddeutsche den Dialekt als Umgangssprache verdrängte.\", \"Die Meinung von Ernst Emanuel Tappolet aus dem Jahr 1901 bezüglich der Stadt Zürich wird noch heute gelegentlich zitiert.\", \"Ernst Tappolet stammte aus einer Familie, die um 1800 von Essertines-sur-Yverdon im Kanton Waadt nach Küsnacht ausgewandert war.\"], [\"Die Meinung von Ernst Emanuel Tappolet aus dem Jahr 1901 bezüglich der Stadt Zürich wird noch heute gelegentlich zitiert.\", \"Ernst Tappolet stammte aus einer Familie, die um 1800 von Essertines-sur-Yverdon im Kanton Waadt nach Küsnacht ausgewandert war.\", \"Die Familie von Ernst Tappolet erwarb 1826 das Stadtzürcher Bürgerrecht.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 477,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [26, 18], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst studierte in Paris.\", \"Ernst studierte in Florenz.\", \"Ernst studierte in Zürich.\"], \"source_fact_index\": 17, \"target_contexts\": [[\"Das Werk stand am Anfang einer großen Zahl von Untersuchungen über den Wortschatz der romanischen Sprachen.\", \"Tappolet habilitierte sich im Jahr 1902.\", \"Die Habilitation erfolgte in Zürich.\"], [\"Tappolet studierte in Paris.\", \"Tappolet studierte in Florenz.\", \"Tappolet studierte in Zürich.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 276,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [20, 26], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst studierte in Florenz.\", \"Ernst studierte in Zürich.\", \"Ernst promovierte in Zürich bei Heinrich Morf über romanische Verwandtschaftsnamen.\"], \"source_fact_index\": 18, \"target_contexts\": [[\"Tappolet studierte in Zürich.\", \"Tappolet promovierte an der Universität Zürich.\", \"Tappolet promovierte bei Heinrich Morf.\"], [\"Das Werk stand am Anfang einer großen Zahl von Untersuchungen über den Wortschatz der romanischen Sprachen.\", \"Tappolet habilitierte sich im Jahr 1902.\", \"Die Habilitation erfolgte in Zürich.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 294,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [23, 24], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ernst promovierte in Zürich bei Heinrich Morf über romanische Verwandtschaftsnamen.\", \"Das Buch 'Die romanischen Verwandtschaftsnamen' wurde 1895 veröffentlicht.\", \"Das Werk eröffnete der onomasiologischen Forschung in der Romanistik einen neuen Weg.\"], \"source_fact_index\": 20, \"target_contexts\": [[\"Das Thema der Promotion war 'Die romanischen Verwandtschaftsnamen, mit besonderer Berücksichtigung der französischen und italienischen Mundarten; ein Beitrag zur vergleichenden Lexikologie'.\", \"Die Promotionsschrift wurde 1895 in Strassburg veröffentlicht.\", \"Das Werk zur vergleichenden Lexikologie war bahnbrechend für die romanistische onomasiologische Forschung.\"], [\"Die Promotionsschrift wurde 1895 in Strassburg veröffentlicht.\", \"Das Werk zur vergleichenden Lexikologie war bahnbrechend für die romanistische onomasiologische Forschung.\", \"Das Werk stand am Anfang einer großen Zahl von Untersuchungen über den Wortschatz der romanischen Sprachen.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 391,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [43, 31], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ein weiterer Schwerpunkt seines Wirkens an der Universität Basel war die romanistische Dialektologie.\", \"Er vermittelte seinen Schülern Wissen, das direkt im Neusprachenunterricht anwendbar war.\", \"Er befasste sich mit grundsätzlichen Fragen zur Natur der Sprachen.\"], \"source_fact_index\": 29, \"target_contexts\": [[\"Tappolets Lehre konzentrierte sich auf die romanistische Dialektologie.\", \"Tappolet vermittelte seinen Schülern Wissen, das direkt im neusprachlichen Unterricht anwendbar war.\", \"Tappolet setzte sich mit grundsätzlichen Fragen zur Natur der Sprachen auseinander.\"], [\"Er war einige Jahre als Französischlehrer an der Zürcher Kantonsschule tätig.\", \"Er wurde 1904 an die Universität Basel berufen.\", \"Er wirkte an der Universität Basel als Professor für romanische Philologie.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 358,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [45, 29], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Er befasste sich mit grundsätzlichen Fragen zur Natur der Sprachen.\", \"Er veröffentlichte im Jahr 1907 das Werk 'Die Sprache des Kindes'.\", \"Er veröffentlichte im Jahr 1913 das Werk 'Die Ursachen des Wortreichtums bei den Haustiernamen der französischen Schweiz'.\"], \"source_fact_index\": 31, \"target_contexts\": [[\"Tappolet setzte sich mit grundsätzlichen Fragen zur Natur der Sprachen auseinander.\", \"Tappolet veröffentlichte im Jahr 1907 das Werk 'Die Sprache des Kindes'.\", \"Tappolet veröffentlichte im Jahr 1913 das Werk 'Die Ursachen des Wortreichtums bei den Haustiernamen der französischen Schweiz'.\"], [\"Die Habilitationsschrift trug den Titel 'Über den Stand der Mundarten in der deutschen und französischen Schweiz'.\", \"Die Habilitationsschrift wurde 1901 in Zürich veröffentlicht.\", \"Er war einige Jahre als Französischlehrer an der Zürcher Kantonsschule tätig.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 390,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [46, 50], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Person war der Sohn eines Pfarrers.\", \"Es wird vermutet, dass die Mitgliedschaft in der Abstinenzler-Bewegung typisch für Söhne von Pfarrern zu jener Zeit war.\", \"Tappolet war 1899 einer der Gründerväter des Glossaire des patois de la Suisse romande.\"], \"source_fact_index\": 38, \"target_contexts\": [[\"Tappolet veröffentlichte im Jahr 1907 das Werk 'Die Sprache des Kindes'.\", \"Tappolet veröffentlichte im Jahr 1913 das Werk 'Die Ursachen des Wortreichtums bei den Haustiernamen der französischen Schweiz'.\", \"Tappolet verfasste Artikel für das Glossaire des patois de la Suisse romande.\"], [\"Tappolet hatte eine besondere Vorliebe für Artikel mit wichtigen volkskundlichen Aspekten.\", \"Tappolet stand selbst im Kontakt zu Gewährsleuten, um Material für das Wörterbuch zu gewinnen.\", \"Tappolet engagierte sich bei der Aufnahme der Patois auf Grammophonplatten.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 400,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [50, 47], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Louis Gauchat war einer der Gründerväter des Glossaire des patois de la Suisse romande.\", \"Jules Jeanjaquet war einer der Gründerväter des Glossaire des patois de la Suisse romande.\", \"Tappolet war Professor.\"], \"source_fact_index\": 41, \"target_contexts\": [[\"Tappolet hatte eine besondere Vorliebe für Artikel mit wichtigen volkskundlichen Aspekten.\", \"Tappolet stand selbst im Kontakt zu Gewährsleuten, um Material für das Wörterbuch zu gewinnen.\", \"Tappolet engagierte sich bei der Aufnahme der Patois auf Grammophonplatten.\"], [\"Tappolet veröffentlichte im Jahr 1913 das Werk 'Die Ursachen des Wortreichtums bei den Haustiernamen der französischen Schweiz'.\", \"Tappolet verfasste Artikel für das Glossaire des patois de la Suisse romande.\", \"Zu den von Tappolet verfassten Artikeln gehören unter anderem ados, affaire, agreblyé, agron, aise, aisement, aller, alyon, âme, amour, anneau, ansela, anson, apondre, archal, argent, argile, arin, armalyi, arode, aselye, avec, avoir, Bâle, ban, banc, banneret, bas, beau und ber.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 457,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [48, 49], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Jules Jeanjaquet war einer der Gründerväter des Glossaire des patois de la Suisse romande.\", \"Tappolet war Professor.\", \"Louis Gauchat war Professor.\"], \"source_fact_index\": 42, \"target_contexts\": [[\"Tappolet verfasste Artikel für das Glossaire des patois de la Suisse romande.\", \"Zu den von Tappolet verfassten Artikeln gehören unter anderem ados, affaire, agreblyé, agron, aise, aisement, aller, alyon, âme, amour, anneau, ansela, anson, apondre, archal, argent, argile, arin, armalyi, arode, aselye, avec, avoir, Bâle, ban, banc, banneret, bas, beau und ber.\", \"Tappolet hatte eine besondere Vorliebe für Artikel mit wichtigen volkskundlichen Aspekten.\"], [\"Zu den von Tappolet verfassten Artikeln gehören unter anderem ados, affaire, agreblyé, agron, aise, aisement, aller, alyon, âme, amour, anneau, ansela, anson, apondre, archal, argent, argile, arin, armalyi, arode, aselye, avec, avoir, Bâle, ban, banc, banneret, bas, beau und ber.\", \"Tappolet hatte eine besondere Vorliebe für Artikel mit wichtigen volkskundlichen Aspekten.\", \"Tappolet stand selbst im Kontakt zu Gewährsleuten, um Material für das Wörterbuch zu gewinnen.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 507,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [46, 48], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Jules Jeanjaquet war Professor.\", \"Tappolet hat Artikel für das Glossaire des patois de la Suisse romande geschrieben.\", \"Louis Gauchat hat Artikel für das Glossaire des patois de la Suisse romande geschrieben.\"], \"source_fact_index\": 45, \"target_contexts\": [[\"Tappolet veröffentlichte im Jahr 1907 das Werk 'Die Sprache des Kindes'.\", \"Tappolet veröffentlichte im Jahr 1913 das Werk 'Die Ursachen des Wortreichtums bei den Haustiernamen der französischen Schweiz'.\", \"Tappolet verfasste Artikel für das Glossaire des patois de la Suisse romande.\"], [\"Tappolet verfasste Artikel für das Glossaire des patois de la Suisse romande.\", \"Zu den von Tappolet verfassten Artikeln gehören unter anderem ados, affaire, agreblyé, agron, aise, aisement, aller, alyon, âme, amour, anneau, ansela, anson, apondre, archal, argent, argile, arin, armalyi, arode, aselye, avec, avoir, Bâle, ban, banc, banneret, bas, beau und ber.\", \"Tappolet hatte eine besondere Vorliebe für Artikel mit wichtigen volkskundlichen Aspekten.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 453,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [48, 47], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Louis Gauchat hat Artikel für das Glossaire des patois de la Suisse romande geschrieben.\", \"Jules Jeanjaquet hat Artikel für das Glossaire des patois de la Suisse romande geschrieben.\", \"Tappolet verfasste insbesondere Artikel, in denen die Volkskunde eine wichtige Rolle spielt.\"], \"source_fact_index\": 47, \"target_contexts\": [[\"Tappolet verfasste Artikel für das Glossaire des patois de la Suisse romande.\", \"Zu den von Tappolet verfassten Artikeln gehören unter anderem ados, affaire, agreblyé, agron, aise, aisement, aller, alyon, âme, amour, anneau, ansela, anson, apondre, archal, argent, argile, arin, armalyi, arode, aselye, avec, avoir, Bâle, ban, banc, banneret, bas, beau und ber.\", \"Tappolet hatte eine besondere Vorliebe für Artikel mit wichtigen volkskundlichen Aspekten.\"], [\"Tappolet veröffentlichte im Jahr 1913 das Werk 'Die Ursachen des Wortreichtums bei den Haustiernamen der französischen Schweiz'.\", \"Tappolet verfasste Artikel für das Glossaire des patois de la Suisse romande.\", \"Zu den von Tappolet verfassten Artikeln gehören unter anderem ados, affaire, agreblyé, agron, aise, aisement, aller, alyon, âme, amour, anneau, ansela, anson, apondre, archal, argent, argile, arin, armalyi, arode, aselye, avec, avoir, Bâle, ban, banc, banneret, bas, beau und ber.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 541,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [59, 60], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Das Buch von Tappolet über alemannische Lehnwörter im Welschland diente als Vorbild für das Buch von Emil Steiner.\", \"Emil Steiner schrieb ein Buch über französische Lehnwörter im Alemannischen mit dem Titel 'Die französischen Lehnwörter in den alemannischen Mundarten der Schweiz. Kulturhistorisch-linguistische Untersuchung mit etymologischem Wörterbuch'.\", \"Das Buch von Emil Steiner erschien im Jahr 1921.\"], \"source_fact_index\": 58, \"target_contexts\": [[\"Das Werk beschreibt exakt die lautlichen Anpassungen alemannischer Wörter an die französischen und frankoprovenzalischen Mundarten.\", \"Tappolet ist der Autor des Buches über die alemannischen Lehnwörter im Westschweizer Patois.\", \"Emil Steiner veröffentlichte 1921 das Werk 'Die französischen Lehnwörter in den alemannischen Mundarten der Schweiz. Kulturhistorisch-linguistische Untersuchung mit etymologischem Wörterbuch'.\"], [\"Tappolet ist der Autor des Buches über die alemannischen Lehnwörter im Westschweizer Patois.\", \"Emil Steiner veröffentlichte 1921 das Werk 'Die französischen Lehnwörter in den alemannischen Mundarten der Schweiz. Kulturhistorisch-linguistische Untersuchung mit etymologischem Wörterbuch'.\", \"Das Werk von Emil Steiner bildet das Gegenüber zu Tappolets Buch.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 475,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [62, 64], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Das Buch von Emil Steiner erschien im Jahr 1921.\", \"Er wollte 1940 in den Ruhestand treten.\", \"Er wollte seine gesamten Kräfte dem Glossaire zur Verfügung stellen.\"], \"source_fact_index\": 60, \"target_contexts\": [[\"Das Werk von Emil Steiner bildet das Gegenüber zu Tappolets Buch.\", \"Tappolet plante, sich 1940 emeritieren zu lassen.\", \"Tappolet wollte seine ganze Kraft dem Glossaire zur Verfügung stellen.\"], [\"Tappolet wollte seine ganze Kraft dem Glossaire zur Verfügung stellen.\", \"Tappolet starb im Jahr 1939.\", \"Durch seinen Tod konnte Tappolet seine Pläne zur Emeritierung nicht verwirklichen.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 324,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [73, 67], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Sein Tod erfolgte ganz plötzlich.\", \"Der Autor schrieb 1901 eine Arbeit über den Zustand der Mundarten in der französischen und deutschen Schweiz.\", \"Der Autor beobachtete, dass die Schriftsprache zunehmend in die Dialekte eindringt und sich in der Volkssprache ausbreitet.\"], \"source_fact_index\": 65, \"target_contexts\": [[\"Tappolets Schrift erlangte eine große Öffentlichkeit und rief gespaltene Reaktionen hervor.\", \"Ein Rezensent in der Allgemeinen Schweizer Zeitung teilte Tappolets Pessimismus nicht.\", \"Ein Rezensent in der Allgemeinen Schweizer Zeitung meinte, die Publikation zeige, dass die Schweizer mehr für ihre Sprache eintreten und Mundarten pflegen sollten.\"], [\"Tappolet veröffentlichte 1901 die Überarbeitung 'Über den Stand der Mundarten in der deutschen und französischen Schweiz'.\", \"Tappolet vertrat die Meinung, dass die deutschsprachige Schweiz innerhalb von fünfzig Jahren den Dialekt als Umgangssprache zugunsten der Hochsprache aufgeben würde.\", \"Tappolet glaubte, dass die deutschsprachige Schweiz der Entwicklung in Deutschland und der Suisse romande folgen würde.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 419,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [68, 69], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Nach Meinung des Autors war die Verdrängung der Mundart in der Westschweiz der Deutschschweiz um zweihundert Jahre voraus.\", \"Der Autor war überzeugt, dass die Ostschweiz dem Westen folgen würde.\", \"Der Autor war fest davon überzeugt, dass Zürich die erste Schweizer Stadt sein würde, in der Hochdeutsch gesprochen wird.\"], \"source_fact_index\": 68, \"target_contexts\": [[\"Tappolet vertrat die Meinung, dass die deutschsprachige Schweiz innerhalb von fünfzig Jahren den Dialekt als Umgangssprache zugunsten der Hochsprache aufgeben würde.\", \"Tappolet glaubte, dass die deutschsprachige Schweiz der Entwicklung in Deutschland und der Suisse romande folgen würde.\", \"Tappolet prognostizierte, dass Zürich die erste Stadt sein würde, die den Dialekt aufgibt.\"], [\"Tappolet glaubte, dass die deutschsprachige Schweiz der Entwicklung in Deutschland und der Suisse romande folgen würde.\", \"Tappolet prognostizierte, dass Zürich die erste Stadt sein würde, die den Dialekt aufgibt.\", \"Otto von Greyerz war der Überzeugung, dass eine schweizerdeutsch-hochdeutsche Zweisprachigkeit (Diglossie) möglich und nötig sei, um die Mundart zu erhalten.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 436,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [69, 77], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"In einer Befragung von zehn Personen in einer kleinen Zürcher Straße antworteten sechs auf Hochdeutsch.\", \"Der Autor beschrieb eine Verlegenheit bei der Wahl der Sprache, wenn er im Zug Personen ansprach, deren Herkunft nicht sofort erkennbar war.\", \"Der Autor teilte die Ansicht von Otto von Greyerz bezüglich einer schweizerdeutsch-hochdeutschen Zweisprachigkeit (Diglossie) nicht.\"], \"source_fact_index\": 71, \"target_contexts\": [[\"Tappolet glaubte, dass die deutschsprachige Schweiz der Entwicklung in Deutschland und der Suisse romande folgen würde.\", \"Tappolet prognostizierte, dass Zürich die erste Stadt sein würde, die den Dialekt aufgibt.\", \"Otto von Greyerz war der Überzeugung, dass eine schweizerdeutsch-hochdeutsche Zweisprachigkeit (Diglossie) möglich und nötig sei, um die Mundart zu erhalten.\"], [\"Die Zeitschrift 'Nebelspalter' reagierte mit Spott auf Tappolets Aussage zur Sprachverlegenheit in der Eisenbahn.\", \"Die Ansicht, dass die Deutschschweiz oder Zürich um 1900 vor einem Sprachwechsel standen, wird bis heute gelegentlich wiedergegeben.\", \"Bei der heutigen Wiedergabe dieser Ansicht sind oft weder der ursprüngliche Autor noch der damalige Widerspruch bekannt.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 451,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [75, 77], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Reaktionen auf die Schrift des Autors waren unterschiedlich.\", \"Ein Rezensent in der Basler Allgemeinen Schweizer Zeitung betonte die Wichtigkeit, selbstbewusst für die eigene Sprache einzutreten und das Schweizerdeutsch zu pflegen.\", \"Die Publikation wurde im 'Nebelspalter' verspottet.\"], \"source_fact_index\": 75, \"target_contexts\": [[\"Ein Rezensent in der Allgemeinen Schweizer Zeitung meinte, die Publikation zeige, dass die Schweizer mehr für ihre Sprache eintreten und Mundarten pflegen sollten.\", \"Tappolet behauptete, ein Zürcher käme in der Eisenbahn in Verlegenheit, in welcher Sprache er einen Fremden ansprechen sollte.\", \"Die Zeitschrift 'Nebelspalter' reagierte mit Spott auf Tappolets Aussage zur Sprachverlegenheit in der Eisenbahn.\"], [\"Die Zeitschrift 'Nebelspalter' reagierte mit Spott auf Tappolets Aussage zur Sprachverlegenheit in der Eisenbahn.\", \"Die Ansicht, dass die Deutschschweiz oder Zürich um 1900 vor einem Sprachwechsel standen, wird bis heute gelegentlich wiedergegeben.\", \"Bei der heutigen Wiedergabe dieser Ansicht sind oft weder der ursprüngliche Autor noch der damalige Widerspruch bekannt.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 434,
+    "verification_status": "model_verified"
+  }
+}

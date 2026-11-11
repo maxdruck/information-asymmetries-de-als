@@ -1,0 +1,108 @@
+{
+  "fact_source": "manual",
+  "rows": [
+    {
+      "pair_key": "gold__ernst_tappolet",
+      "title": "Ernst Tappolet",
+      "manual_title": "Ernst Tappolet",
+      "direction": "de_to_als",
+      "total_source_facts": 50,
+      "shared_yes": 36,
+      "source_only_no": 14,
+      "unknown": 0,
+      "coverage": 1.0,
+      "overlap_yes_total": 0.72,
+      "overlap_yes_verified": 0.72
+    },
+    {
+      "pair_key": "gold__ernst_tappolet",
+      "title": "Ernst Tappolet",
+      "manual_title": "Ernst Tappolet",
+      "direction": "als_to_de",
+      "total_source_facts": 50,
+      "shared_yes": 37,
+      "source_only_no": 13,
+      "unknown": 0,
+      "coverage": 1.0,
+      "overlap_yes_total": 0.74,
+      "overlap_yes_verified": 0.74
+    },
+    {
+      "pair_key": "gold__kalender",
+      "title": "Kalender",
+      "manual_title": "Kalender",
+      "direction": "de_to_als",
+      "total_source_facts": 50,
+      "shared_yes": 49,
+      "source_only_no": 1,
+      "unknown": 0,
+      "coverage": 1.0,
+      "overlap_yes_total": 0.98,
+      "overlap_yes_verified": 0.98
+    },
+    {
+      "pair_key": "gold__kalender",
+      "title": "Kalender",
+      "manual_title": "Kalender",
+      "direction": "als_to_de",
+      "total_source_facts": 50,
+      "shared_yes": 48,
+      "source_only_no": 2,
+      "unknown": 0,
+      "coverage": 1.0,
+      "overlap_yes_total": 0.96,
+      "overlap_yes_verified": 0.96
+    },
+    {
+      "pair_key": "gold__eichener_see",
+      "title": "Eichener See",
+      "manual_title": "Eichener See",
+      "direction": "de_to_als",
+      "total_source_facts": 50,
+      "shared_yes": 15,
+      "source_only_no": 35,
+      "unknown": 0,
+      "coverage": 1.0,
+      "overlap_yes_total": 0.3,
+      "overlap_yes_verified": 0.3
+    },
+    {
+      "pair_key": "gold__eichener_see",
+      "title": "Eichener See",
+      "manual_title": "Eichener See",
+      "direction": "als_to_de",
+      "total_source_facts": 50,
+      "shared_yes": 19,
+      "source_only_no": 31,
+      "unknown": 0,
+      "coverage": 1.0,
+      "overlap_yes_total": 0.38,
+      "overlap_yes_verified": 0.38
+    }
+  ],
+  "by_direction": {
+    "de_to_als": {
+      "n_pairs": 3,
+      "mean_overlap_yes_total": 0.6667,
+      "median_overlap_yes_total": 0.72,
+      "min_overlap_yes_total": 0.3,
+      "max_overlap_yes_total": 0.98
+    },
+    "als_to_de": {
+      "n_pairs": 3,
+      "mean_overlap_yes_total": 0.6933,
+      "median_overlap_yes_total": 0.74,
+      "min_overlap_yes_total": 0.38,
+      "max_overlap_yes_total": 0.96
+    }
+  },
+  "missing_files": [
+    "outputs/manual_verified/manual_verified_gold__le_mans.json",
+    "outputs/manual_verified/manual_verified_gold__notschrei.json",
+    "outputs/manual_verified/manual_verified_gold__ethnie.json",
+    "outputs/manual_verified/manual_verified_gold__rheinbruecke_schaffhausen_feuerthalen.json",
+    "outputs/manual_verified/manual_verified_gold__leo_der_grosse.json",
+    "outputs/manual_verified/manual_verified_gold__wahrscheinlichkeit.json",
+    "outputs/manual_verified/manual_verified_gold__oliver_kahn.json"
+  ]
+}

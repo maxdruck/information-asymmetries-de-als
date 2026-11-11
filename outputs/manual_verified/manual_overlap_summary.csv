@@ -1,0 +1,7 @@
+pair_key,title,manual_title,direction,total_source_facts,shared_yes,source_only_no,unknown,coverage,overlap_yes_total,overlap_yes_verified
+gold__ernst_tappolet,Ernst Tappolet,Ernst Tappolet,de_to_als,50,36,14,0,1.0,0.72,0.72
+gold__ernst_tappolet,Ernst Tappolet,Ernst Tappolet,als_to_de,50,37,13,0,1.0,0.74,0.74
+gold__kalender,Kalender,Kalender,de_to_als,50,49,1,0,1.0,0.98,0.98
+gold__kalender,Kalender,Kalender,als_to_de,50,48,2,0,1.0,0.96,0.96
+gold__eichener_see,Eichener See,Eichener See,de_to_als,50,15,35,0,1.0,0.3,0.3
+gold__eichener_see,Eichener See,Eichener See,als_to_de,50,19,31,0,1.0,0.38,0.38

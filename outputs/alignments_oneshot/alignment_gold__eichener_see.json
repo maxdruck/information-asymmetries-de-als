@@ -1,0 +1,3586 @@
+{
+  "pair_key": "gold__eichener_see",
+  "cluster": "Gold",
+  "title": "Eichener See",
+  "als_page_id": "gold_eichener_see_als",
+  "de_page_id": "gold_eichener_see_de",
+  "als_title": "Eichener See",
+  "de_title": "Eichener See",
+  "embed_model": "sentence-transformers/LaBSE",
+  "xfactalign_version": "paper_style_density_normalized_distance",
+  "top_k_facts": 2,
+  "paragraph_alignment": "directed_argmax_union",
+  "fact_retrieval_metric": "D(e_i,f_j)=1-cos(e_i,f_j)-hubness(f_j)",
+  "paragraph_adjacency": [
+    {
+      "de_paragraph": 0,
+      "als_paragraph": 0,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 0,
+      "als_paragraph": 10,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 1,
+      "als_paragraph": 0,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 2,
+      "als_paragraph": 1,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 3,
+      "als_paragraph": 11,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 4,
+      "als_paragraph": 3,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 4,
+      "als_paragraph": 6,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 4,
+      "als_paragraph": 7,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 5,
+      "als_paragraph": 2,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 5,
+      "als_paragraph": 8,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 5,
+      "als_paragraph": 9,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 5,
+      "als_paragraph": 11,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 6,
+      "als_paragraph": 5,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 8,
+      "als_paragraph": 4,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 8,
+      "als_paragraph": 7,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 8,
+      "als_paragraph": 12,
+      "weight": 1
+    }
+  ],
+  "de_to_als": [
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 0,
+      "source_fact": "Der Eichener See befindet sich beim Schopfheimer Stadtteil Eichen im baden-württembergischen Landkreis Lörrach.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 1,
+          "target_fact": "Der See befindet sich auf dem Dinkelberg bei Schopfe in Baden-Württemberg.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.2043
+        },
+        {
+          "target_fact_index": 76,
+          "target_fact": "Das FFH-Gebiet 'Dinkelbärg un Röttler Wald' erstreckt sich über die Landkreise Lörrach und Waldshut.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.0983
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 1,
+      "source_fact": "Der Eichener See wird im Volksmund alemannisch Eiemer See genannt.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 0,
+          "target_fact": "Der Eiemer See (deutsch: Eichener See) ist ein Karstsee.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.172
+        },
+        {
+          "target_fact_index": 77,
+          "target_fact": "Der Eiemer See wird in der Kurzbeschreibung des Gebiets ausdrücklich genannt.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.1374
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 2,
+      "source_fact": "Der Eichener See ist ein zeitweise (astatisch) erscheinender Karstsee.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 0,
+          "target_fact": "Der Eiemer See (deutsch: Eichener See) ist ein Karstsee.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.133
+        },
+        {
+          "target_fact_index": 78,
+          "target_fact": "Das Gebiet wird als Kulturlandschaft mit naturnahen Buchenwäldern, Hecken, Kalkmagerrasen, Glatthaferwiesen, Höhlen und einem temporären Karstsee beschrieben.",
+          "target_paragraph": 10,
+          "density_normalized_distance": 0.0462
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 3,
+      "source_fact": "Der Eichener See ist Teil des FFH-Gebietes Dinkelberg und Röttler Wald.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 76,
+          "target_fact": "Das FFH-Gebiet 'Dinkelbärg un Röttler Wald' erstreckt sich über die Landkreise Lörrach und Waldshut.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.2907
+        },
+        {
+          "target_fact_index": 72,
+          "target_fact": "Der Eiemer See gehört seit dem 31. Mai 2015 zum FFH-Gebiet 'Dinkelbärg un Röttler Wald'.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.2323
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 4,
+      "source_fact": "Der See ist nur bei hohem Grundwasserstand wasserführend.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 4,
+          "target_fact": "Der See wird unterirdisch durch Grundwasser gefüllt.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1696
+        },
+        {
+          "target_fact_index": 5,
+          "target_fact": "Der See ist nur sichtbar, wenn es zuvor lange Zeit stark geregnet hat.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1416
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 5,
+      "source_fact": "Der See liegt in einer Mulde, einer Muschelkalk-Karstwanne.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 1,
+          "target_fact": "Der See befindet sich auf dem Dinkelberg bei Schopfe in Baden-Württemberg.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0514
+        },
+        {
+          "target_fact_index": 78,
+          "target_fact": "Das Gebiet wird als Kulturlandschaft mit naturnahen Buchenwäldern, Hecken, Kalkmagerrasen, Glatthaferwiesen, Höhlen und einem temporären Karstsee beschrieben.",
+          "target_paragraph": 10,
+          "density_normalized_distance": 0.062
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 6,
+      "source_fact": "Der Eichener See hat keinen oberirdischen Zufluss.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 3,
+          "target_fact": "Es gibt keinen Bach, der in den See fließt oder aus ihm herausführt.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0863
+        },
+        {
+          "target_fact_index": 0,
+          "target_fact": "Der Eiemer See (deutsch: Eichener See) ist ein Karstsee.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0363
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 7,
+      "source_fact": "Der Abfluss des Sees erfolgt teilweise unterirdisch.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 4,
+          "target_fact": "Der See wird unterirdisch durch Grundwasser gefüllt.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1785
+        },
+        {
+          "target_fact_index": 3,
+          "target_fact": "Es gibt keinen Bach, der in den See fließt oder aus ihm herausführt.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0061
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 8,
+      "source_fact": "Der Abfluss des Sees erfolgt teilweise durch Verdunstung.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 4,
+          "target_fact": "Der See wird unterirdisch durch Grundwasser gefüllt.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0861
+        },
+        {
+          "target_fact_index": 3,
+          "target_fact": "Es gibt keinen Bach, der in den See fließt oder aus ihm herausführt.",
+          "target_paragraph": 0,
+          "density_normalized_distance": 0.0266
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 9,
+      "source_fact": "Der Eichener See liegt im Naturpark Südschwarzwald.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 1,
+          "target_fact": "Der See befindet sich auf dem Dinkelberg bei Schopfe in Baden-Württemberg.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1107
+        },
+        {
+          "target_fact_index": 0,
+          "target_fact": "Der Eiemer See (deutsch: Eichener See) ist ein Karstsee.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0525
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 10,
+      "source_fact": "Der Eichener See liegt im nordöstlichen Randgebiet des Gebirgszugs Dinkelberg.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 1,
+          "target_fact": "Der See befindet sich auf dem Dinkelberg bei Schopfe in Baden-Württemberg.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.2362
+        },
+        {
+          "target_fact_index": 0,
+          "target_fact": "Der Eiemer See (deutsch: Eichener See) ist ein Karstsee.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0321
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 11,
+      "source_fact": "Der Schopfheimer Ortsteil Eichen liegt westlich des Eichener Sees.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 1,
+          "target_fact": "Der See befindet sich auf dem Dinkelberg bei Schopfe in Baden-Württemberg.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1144
+        },
+        {
+          "target_fact_index": 0,
+          "target_fact": "Der Eiemer See (deutsch: Eichener See) ist ein Karstsee.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0444
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 12,
+      "source_fact": "Die Gemeinde Hasel liegt ostnordöstlich des Eichener Sees.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 1,
+          "target_fact": "Der See befindet sich auf dem Dinkelberg bei Schopfe in Baden-Württemberg.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0454
+        },
+        {
+          "target_fact_index": 0,
+          "target_fact": "Der Eiemer See (deutsch: Eichener See) ist ein Karstsee.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0315
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 13,
+      "source_fact": "Die Kernstadt von Wehr liegt etwa südöstlich des Eichener Sees.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 0,
+          "target_fact": "Der Eiemer See (deutsch: Eichener See) ist ein Karstsee.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0227
+        },
+        {
+          "target_fact_index": 1,
+          "target_fact": "Der See befindet sich auf dem Dinkelberg bei Schopfe in Baden-Württemberg.",
+          "target_paragraph": 0,
+          "density_normalized_distance": 0.0036
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 14,
+      "source_fact": "Der Eichener See befindet sich 2,5 km westlich der Erdmannshöhle (Hasler Höhle).",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 0,
+          "target_fact": "Der Eiemer See (deutsch: Eichener See) ist ein Karstsee.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0942
+        },
+        {
+          "target_fact_index": 1,
+          "target_fact": "Der See befindet sich auf dem Dinkelberg bei Schopfe in Baden-Württemberg.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0161
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 15,
+      "source_fact": "Der Eichener See liegt in einem flachen Tal.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 0,
+          "target_fact": "Der Eiemer See (deutsch: Eichener See) ist ein Karstsee.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0945
+        },
+        {
+          "target_fact_index": 1,
+          "target_fact": "Der See befindet sich auf dem Dinkelberg bei Schopfe in Baden-Württemberg.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0703
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 16,
+      "source_fact": "Der Eichener See liegt rund 350 m südlich der Bundesstraße 518.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 1,
+          "target_fact": "Der See befindet sich auf dem Dinkelberg bei Schopfe in Baden-Württemberg.",
+          "target_paragraph": 0,
+          "density_normalized_distance": 0.0054
+        },
+        {
+          "target_fact_index": 0,
+          "target_fact": "Der Eiemer See (deutsch: Eichener See) ist ein Karstsee.",
+          "target_paragraph": 0,
+          "density_normalized_distance": 0.0628
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 17,
+      "source_fact": "Geologisch handelt es sich um eine zeitweise mit Wasser gefüllte Doline.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 8,
+          "target_fact": "Bei Regen sammelt sich Wasser in diesen Hohlräumen.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.0336
+        },
+        {
+          "target_fact_index": 10,
+          "target_fact": "Das gestaute Wasser sammelt sich in Senken, sogenannten Dolinen.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.029
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 18,
+      "source_fact": "Grundwasser tritt besonders nach der Schneeschmelze oder nach längeren Regenphasen zu Tage.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 9,
+          "target_fact": "Bei längerem Regen und zusätzlicher Schneeschmelze kann nicht alles Wasser ablaufen und staut sich in den Hohlräumen.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.1668
+        },
+        {
+          "target_fact_index": 10,
+          "target_fact": "Das gestaute Wasser sammelt sich in Senken, sogenannten Dolinen.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.0835
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 19,
+      "source_fact": "Die Formation wird als Erdfallsee bezeichnet.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 10,
+          "target_fact": "Das gestaute Wasser sammelt sich in Senken, sogenannten Dolinen.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.0096
+        },
+        {
+          "target_fact_index": 6,
+          "target_fact": "Der Dinkelberg ist eine Karstgegend.",
+          "target_paragraph": 1,
+          "density_normalized_distance": 0.0353
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 20,
+      "source_fact": "In trockenen Phasen kann der Flurabstand bis zu 40 m betragen.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 9,
+          "target_fact": "Bei längerem Regen und zusätzlicher Schneeschmelze kann nicht alles Wasser ablaufen und staut sich in den Hohlräumen.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.0366
+        },
+        {
+          "target_fact_index": 8,
+          "target_fact": "Bei Regen sammelt sich Wasser in diesen Hohlräumen.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.0105
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 21,
+      "source_fact": "Der Flurabstand ist der Höhenunterschied zwischen Grundwasserspiegel und Erdoberfläche.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 13,
+          "target_fact": "Es gibt eine unterirdische Verbindung zwischen dem See und der Hasler Höhle.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.0407
+        },
+        {
+          "target_fact_index": 11,
+          "target_fact": "Man kann beobachten, wie Wasser aus dem Boden sprudelt.",
+          "target_paragraph": 1,
+          "density_normalized_distance": 0.0233
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 22,
+      "source_fact": "Der tiefste Punkt der das Grundwasser stauenden Wanne liegt etwa 48 m unter der Erdoberfläche.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 11,
+          "target_fact": "Man kann beobachten, wie Wasser aus dem Boden sprudelt.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.0241
+        },
+        {
+          "target_fact_index": 10,
+          "target_fact": "Das gestaute Wasser sammelt sich in Senken, sogenannten Dolinen.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.0055
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 23,
+      "source_fact": "Der Dinkelberg besteht vorwiegend aus Muschelkalk.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 6,
+          "target_fact": "Der Dinkelberg ist eine Karstgegend.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.1867
+        },
+        {
+          "target_fact_index": 7,
+          "target_fact": "Im Dinkelberg gibt es überall Höhlen, Löcher und Einbrüche.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.0128
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 24,
+      "source_fact": "Im Dinkelberg befinden sich Hohlräume.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 6,
+          "target_fact": "Der Dinkelberg ist eine Karstgegend.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.2505
+        },
+        {
+          "target_fact_index": 7,
+          "target_fact": "Im Dinkelberg gibt es überall Höhlen, Löcher und Einbrüche.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.1776
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 25,
+      "source_fact": "Die Hohlräume können sich aufgrund eines Grundwasserstaus sehr schnell mit Wasser füllen.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 8,
+          "target_fact": "Bei Regen sammelt sich Wasser in diesen Hohlräumen.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.0196
+        },
+        {
+          "target_fact_index": 11,
+          "target_fact": "Man kann beobachten, wie Wasser aus dem Boden sprudelt.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.0178
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 26,
+      "source_fact": "Die Hohlräume leeren sich hingegen nur langsam wieder.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 8,
+          "target_fact": "Bei Regen sammelt sich Wasser in diesen Hohlräumen.",
+          "target_paragraph": 1,
+          "density_normalized_distance": 0.0794
+        },
+        {
+          "target_fact_index": 10,
+          "target_fact": "Das gestaute Wasser sammelt sich in Senken, sogenannten Dolinen.",
+          "target_paragraph": 1,
+          "density_normalized_distance": 0.0795
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 27,
+      "source_fact": "Der Seegrund ist von einer krautreichen Wiesengesellschaft bewachsen.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 80,
+          "target_fact": "Im Eiemer See lebt eine urzeitliche Krebsart.",
+          "target_paragraph": 11,
+          "density_normalized_distance": 0.0884
+        },
+        {
+          "target_fact_index": 83,
+          "target_fact": "Er gehört zu den Kiemenfußkrebsen.",
+          "target_paragraph": 11,
+          "density_normalized_distance": 0.089
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 28,
+      "source_fact": "Die Wiesengesellschaft am Seegrund darf bei Trockenheit nicht beweidet werden.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 90,
+          "target_fact": "Eduard Graeter befasste sich im Zusammenhang mit seiner Dissertation an der Universität Basel auch mit Ruderfußkrebsen in unterirdischen Gewässern.",
+          "target_paragraph": 11,
+          "density_normalized_distance": 0.1067
+        },
+        {
+          "target_fact_index": 82,
+          "target_fact": "Der wissenschaftliche Name des Tieres ist Tanymastix lacunae.",
+          "target_paragraph": 11,
+          "density_normalized_distance": 0.111
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 29,
+      "source_fact": "Die Wiesengesellschaft am Seegrund darf bei Trockenheit nicht gedüngt werden.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 82,
+          "target_fact": "Der wissenschaftliche Name des Tieres ist Tanymastix lacunae.",
+          "target_paragraph": 11,
+          "density_normalized_distance": 0.1034
+        },
+        {
+          "target_fact_index": 90,
+          "target_fact": "Eduard Graeter befasste sich im Zusammenhang mit seiner Dissertation an der Universität Basel auch mit Ruderfußkrebsen in unterirdischen Gewässern.",
+          "target_paragraph": 11,
+          "density_normalized_distance": 0.1097
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 30,
+      "source_fact": "Im See lebt der Blattfußkrebs Tanymastix lacunae.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 82,
+          "target_fact": "Der wissenschaftliche Name des Tieres ist Tanymastix lacunae.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.2529
+        },
+        {
+          "target_fact_index": 83,
+          "target_fact": "Er gehört zu den Kiemenfußkrebsen.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.0575
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 31,
+      "source_fact": "Tanymastix lacunae gehört zur Ordnung der Kiemenfüßer (Anostraca).",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 82,
+          "target_fact": "Der wissenschaftliche Name des Tieres ist Tanymastix lacunae.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.2365
+        },
+        {
+          "target_fact_index": 83,
+          "target_fact": "Er gehört zu den Kiemenfußkrebsen.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.1399
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 32,
+      "source_fact": "Ein Austrocknen des Seegrundes ist für den Lebenszyklus von Tanymastix lacunae unabdingbar.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 82,
+          "target_fact": "Der wissenschaftliche Name des Tieres ist Tanymastix lacunae.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.1402
+        },
+        {
+          "target_fact_index": 83,
+          "target_fact": "Er gehört zu den Kiemenfußkrebsen.",
+          "target_paragraph": 11,
+          "density_normalized_distance": 0.0503
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 33,
+      "source_fact": "Der See ist der einzig gesicherte Fundort von Tanymastix lacunae in Deutschland.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 82,
+          "target_fact": "Der wissenschaftliche Name des Tieres ist Tanymastix lacunae.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.2613
+        },
+        {
+          "target_fact_index": 81,
+          "target_fact": "Diese Krebsart kommt sonst nur an wenigen Orten in Deutschland und im restlichen Europa vor.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.0637
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 34,
+      "source_fact": "In ganz Europa sind lediglich sieben weitere sichere Fundorte von Tanymastix lacunae bekannt.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 81,
+          "target_fact": "Diese Krebsart kommt sonst nur an wenigen Orten in Deutschland und im restlichen Europa vor.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.1568
+        },
+        {
+          "target_fact_index": 82,
+          "target_fact": "Der wissenschaftliche Name des Tieres ist Tanymastix lacunae.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.1404
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 35,
+      "source_fact": "Der See wurde erstmals 1771 urkundlich erwähnt.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 45,
+          "target_fact": "Das erste datierte Auftreten des See ist im Jahr 1772.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.2085
+        },
+        {
+          "target_fact_index": 50,
+          "target_fact": "Die Badische Zeitung veröffentlichte dazu einen Artikel am 18. Dezember 2017.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.0397
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 36,
+      "source_fact": "Im Jahr 1771 ertranken fünf Menschen in dem See, nachdem ihr Boot gekentert war.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 27,
+          "target_fact": "Es sind anscheinend zu viele Personen in das Boot eingestiegen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.0636
+        },
+        {
+          "target_fact_index": 29,
+          "target_fact": "Vier der jungen Leute sind ertrunken.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.0593
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 37,
+      "source_fact": "Im Jahr 1876 kamen Menschen in dem See um.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 30,
+          "target_fact": "Die Personen wurden mit Stangen aus dem See gezogen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.1004
+        },
+        {
+          "target_fact_index": 27,
+          "target_fact": "Es sind anscheinend zu viele Personen in das Boot eingestiegen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.0962
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 38,
+      "source_fact": "Im Jahr 1910 kamen Menschen in dem See um.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 27,
+          "target_fact": "Es sind anscheinend zu viele Personen in das Boot eingestiegen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.1357
+        },
+        {
+          "target_fact_index": 30,
+          "target_fact": "Die Personen wurden mit Stangen aus dem See gezogen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.1322
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 39,
+      "source_fact": "Die erste wissenschaftliche Beschreibung des Sees erfolgte vermutlich in dem Artikel 'Von einem merkwürdigen See in der oberen Markgrafschaft Baden'.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 61,
+          "target_fact": "Der Verordnungstext wurde am 8. Mai 1942 im 'Alemanne' abgedruckt.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0771
+        },
+        {
+          "target_fact_index": 15,
+          "target_fact": "Der erste Bericht über den Eiemer See stammt aus dem Jahr 1784.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0336
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 40,
+      "source_fact": "Der Artikel wurde von Heinrich Sander verfasst.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 16,
+          "target_fact": "Die Informationen stammen aus den veröffentlichten Nachlassschriften von Heinrich Sander.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.2917
+        },
+        {
+          "target_fact_index": 17,
+          "target_fact": "Heinrich Sander war Professor am Gymnasium illustre in Karlsruhe.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1241
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 41,
+      "source_fact": "Der Artikel erschien im Jahr 1782 in der Zeitschrift 'Der Naturforscher'.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 61,
+          "target_fact": "Der Verordnungstext wurde am 8. Mai 1942 im 'Alemanne' abgedruckt.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.2094
+        },
+        {
+          "target_fact_index": 16,
+          "target_fact": "Die Informationen stammen aus den veröffentlichten Nachlassschriften von Heinrich Sander.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1037
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 42,
+      "source_fact": "Der See und seine Uferbereiche stehen seit 1939 unter besonderem Schutz.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 65,
+          "target_fact": "Der See und seine nähere Umgebung wurden am 11. Februar 1983 als flächenhaftes Naturdenkmal ausgewiesen.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.108
+        },
+        {
+          "target_fact_index": 64,
+          "target_fact": "Der See selbst gehört nicht zum Landschaftsschutzgebiet.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0712
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 43,
+      "source_fact": "Seit 1983 ist der See als flächiges Naturdenkmal ausgewiesen.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 65,
+          "target_fact": "Der See und seine nähere Umgebung wurden am 11. Februar 1983 als flächenhaftes Naturdenkmal ausgewiesen.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.2552
+        },
+        {
+          "target_fact_index": 64,
+          "target_fact": "Der See selbst gehört nicht zum Landschaftsschutzgebiet.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0732
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 44,
+      "source_fact": "Die Größe des Naturdenkmals beträgt 3,75 Hektar.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 62,
+          "target_fact": "Das Landschaftsschutzgebiet hat eine Größe von 8 ha.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.2165
+        },
+        {
+          "target_fact_index": 70,
+          "target_fact": "Die Fläche des flächenhaften Naturdenkmals am Eiemer See beträgt 3,5 Hektar.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.1826
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 45,
+      "source_fact": "Der See ist als Fauna-Flora-Habitat-Gebiet von europäischem Rang eingestuft.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 64,
+          "target_fact": "Der See selbst gehört nicht zum Landschaftsschutzgebiet.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0498
+        },
+        {
+          "target_fact_index": 65,
+          "target_fact": "Der See und seine nähere Umgebung wurden am 11. Februar 1983 als flächenhaftes Naturdenkmal ausgewiesen.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.0493
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 46,
+      "source_fact": "Das Naturdenkmal wird von einem Landschaftsschutzgebiet umschlossen.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 68,
+          "target_fact": "Flächenhafte Naturdenkmale werden vom Landratsamt verordnet.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.255
+        },
+        {
+          "target_fact_index": 62,
+          "target_fact": "Das Landschaftsschutzgebiet hat eine Größe von 8 ha.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.1725
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 47,
+      "source_fact": "Das Landschaftsschutzgebiet hat die Nummer 3.36.012.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 60,
+          "target_fact": "Das Landschaftsschutzgebiet hat die Nummer 3.36.012.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.5095
+        },
+        {
+          "target_fact_index": 66,
+          "target_fact": "Die Nummer des flächenhaften Naturdenkmals ist 8336081001.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.1634
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 48,
+      "source_fact": "Die Größe des Landschaftsschutzgebiets beträgt 8,0 Hektar.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 62,
+          "target_fact": "Das Landschaftsschutzgebiet hat eine Größe von 8 ha.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.4183
+        },
+        {
+          "target_fact_index": 69,
+          "target_fact": "Flächenhafte Naturdenkmale haben eine Fläche von weniger als 5 Hektar.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.1768
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 49,
+      "source_fact": "Das Landschaftsschutzgebiet wurde per Verordnung vom 26. April 1942 ausgewiesen.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 61,
+          "target_fact": "Der Verordnungstext wurde am 8. Mai 1942 im 'Alemanne' abgedruckt.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.2021
+        },
+        {
+          "target_fact_index": 59,
+          "target_fact": "Der Eiemer See wurde am 29. April 1942 zum Landschaftsschutzgebiet (LSG) ausgewiesen.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.1575
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 50,
+      "source_fact": "In besonders niederschlagsreichen Jahren kann der oberirdisch sichtbare Wasserstand bis zu drei Meter betragen.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 38,
+          "target_fact": "Der Eiemer See hat bei maximalem Füllstand eine Tiefe von etwa 3,20 Metern.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.0237
+        },
+        {
+          "target_fact_index": 43,
+          "target_fact": "Das Wasser bleibt meistens zwischen drei Wochen und zwei Monaten im See.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.0036
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 51,
+      "source_fact": "Der See kann innerhalb von ein bis fünf Wochen eine Ausdehnung von 250 m Länge und 135 m Breite erreichen.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 43,
+          "target_fact": "Das Wasser bleibt meistens zwischen drei Wochen und zwei Monaten im See.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.0487
+        },
+        {
+          "target_fact_index": 42,
+          "target_fact": "Im schnellsten Fall ist der See innerhalb einer Woche gefüllt.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.0399
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 52,
+      "source_fact": "Die maximale Ausdehnung des Sees beträgt circa 2,5 ha.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 38,
+          "target_fact": "Der Eiemer See hat bei maximalem Füllstand eine Tiefe von etwa 3,20 Metern.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.0915
+        },
+        {
+          "target_fact_index": 42,
+          "target_fact": "Im schnellsten Fall ist der See innerhalb einer Woche gefüllt.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.0631
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 53,
+      "source_fact": "Es kann acht bis 160 Tage dauern, bis das gesamte zu Tage getretene Wasser wieder verschwindet.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 42,
+          "target_fact": "Im schnellsten Fall ist der See innerhalb einer Woche gefüllt.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.0121
+        },
+        {
+          "target_fact_index": 43,
+          "target_fact": "Das Wasser bleibt meistens zwischen drei Wochen und zwei Monaten im See.",
+          "target_paragraph": 5,
+          "density_normalized_distance": 0.0271
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 54,
+      "source_fact": "Es gibt eine Sage über Männlein, die in einem großen unterirdischen Palast hausen.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 94,
+          "target_fact": "Der Brauch des Eierspringens hat keltische Ursprünge.",
+          "target_paragraph": 12,
+          "density_normalized_distance": 0.035
+        },
+        {
+          "target_fact_index": 95,
+          "target_fact": "Der Brauch soll die Fruchtbarkeit im Eiemer Dorf erhalten.",
+          "target_paragraph": 12,
+          "density_normalized_distance": 0.0962
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 55,
+      "source_fact": "Der Palast ist aus Kristall gestaltet und mit Gold, Silber und Edelsteinen eingerichtet.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 52,
+          "target_fact": "Im Dezember 2015 befand sich der See auf einem historischen Tiefstand.",
+          "target_paragraph": 7,
+          "density_normalized_distance": 0.0226
+        },
+        {
+          "target_fact_index": 94,
+          "target_fact": "Der Brauch des Eierspringens hat keltische Ursprünge.",
+          "target_paragraph": 12,
+          "density_normalized_distance": 0.0381
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 56,
+      "source_fact": "Es ist ungeklärt, ob es sich bei diesen Wesen um hilfreiche Seemännlein oder andere Wichte handelt.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 36,
+          "target_fact": "Diese Anpflanzungen lieferten gute Ernten.",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.0926
+        },
+        {
+          "target_fact_index": 34,
+          "target_fact": "Die Qualität des Futters war gut.",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.1105
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 57,
+      "source_fact": "Ein Bauer aus Eichen versprach seine jüngste Tochter einem dieser Wichte zur Frau.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 95,
+          "target_fact": "Der Brauch soll die Fruchtbarkeit im Eiemer Dorf erhalten.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.0636
+        },
+        {
+          "target_fact_index": 93,
+          "target_fact": "Das Eierspringen ist ein Brauch.",
+          "target_paragraph": 12,
+          "density_normalized_distance": 0.0631
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 58,
+      "source_fact": "Die Bedingung des Versprechens war, dass die Seewichte die Felder des Bauern ausreichend bewässern.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 95,
+          "target_fact": "Der Brauch soll die Fruchtbarkeit im Eiemer Dorf erhalten.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.1009
+        },
+        {
+          "target_fact_index": 36,
+          "target_fact": "Diese Anpflanzungen lieferten gute Ernten.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.0554
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 59,
+      "source_fact": "Die Seewichte hielten die Abmachung ein, sodass die Felder des Bauern grünten, während die der Nachbarn verdorrten.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 37,
+          "target_fact": "Die Ernten waren gefährdet bzw. wurden vernichtet, wenn das Wasser kam und die Flächen überschwemmte.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.0335
+        },
+        {
+          "target_fact_index": 95,
+          "target_fact": "Der Brauch soll die Fruchtbarkeit im Eiemer Dorf erhalten.",
+          "target_paragraph": 12,
+          "density_normalized_distance": 0.0388
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 60,
+      "source_fact": "Die Tochter stimmte dem Vertrag ihres Vaters zunächst zu.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 94,
+          "target_fact": "Der Brauch des Eierspringens hat keltische Ursprünge.",
+          "target_paragraph": 12,
+          "density_normalized_distance": 0.0108
+        },
+        {
+          "target_fact_index": 34,
+          "target_fact": "Die Qualität des Futters war gut.",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.013
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 61,
+      "source_fact": "Später verliebte sich die Tochter in einen gutaussehenden Burschen.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 95,
+          "target_fact": "Der Brauch soll die Fruchtbarkeit im Eiemer Dorf erhalten.",
+          "target_paragraph": 12,
+          "density_normalized_distance": 0.1065
+        },
+        {
+          "target_fact_index": 52,
+          "target_fact": "Im Dezember 2015 befand sich der See auf einem historischen Tiefstand.",
+          "target_paragraph": 7,
+          "density_normalized_distance": 0.1313
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 62,
+      "source_fact": "Das Mädchen fürchtete sich davor, ihr Leben mit einem Wicht im Kristallschloss im Berg zu verbringen.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 95,
+          "target_fact": "Der Brauch soll die Fruchtbarkeit im Eiemer Dorf erhalten.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.0179
+        },
+        {
+          "target_fact_index": 94,
+          "target_fact": "Der Brauch des Eierspringens hat keltische Ursprünge.",
+          "target_paragraph": 12,
+          "density_normalized_distance": 0.0642
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 63,
+      "source_fact": "Aus Verzweiflung beschloss die Tochter, mit ihrem Liebsten die Heimat zu verlassen, um der Macht der Seewichte zu entkommen.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 95,
+          "target_fact": "Der Brauch soll die Fruchtbarkeit im Eiemer Dorf erhalten.",
+          "target_paragraph": 12,
+          "density_normalized_distance": 0.0772
+        },
+        {
+          "target_fact_index": 52,
+          "target_fact": "Im Dezember 2015 befand sich der See auf einem historischen Tiefstand.",
+          "target_paragraph": 7,
+          "density_normalized_distance": 0.0834
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 64,
+      "source_fact": "Die beiden trafen sich in der letzten Nacht auf der Eichener Höhe.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 49,
+          "target_fact": "Der Eichener See tauchte im Dezember 2017 auf.",
+          "target_paragraph": 7,
+          "density_normalized_distance": 0.0339
+        },
+        {
+          "target_fact_index": 34,
+          "target_fact": "Die Qualität des Futters war gut.",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.0696
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 65,
+      "source_fact": "Um Mitternacht, als die Glocke der Schopfheimer Michaelskirche schlug, begann ein unheimliches Rauschen.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 53,
+          "target_fact": "Durch Niederschläge zu Beginn des Jahres 2016 stieg der Grundwasserspiegel schnell an.",
+          "target_paragraph": 7,
+          "density_normalized_distance": 0.0382
+        },
+        {
+          "target_fact_index": 34,
+          "target_fact": "Die Qualität des Futters war gut.",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.0789
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 66,
+      "source_fact": "Wassermassen quollen hervor und füllten die Mulde unter Donner und Blitzen.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 37,
+          "target_fact": "Die Ernten waren gefährdet bzw. wurden vernichtet, wenn das Wasser kam und die Flächen überschwemmte.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.0351
+        },
+        {
+          "target_fact_index": 53,
+          "target_fact": "Durch Niederschläge zu Beginn des Jahres 2016 stieg der Grundwasserspiegel schnell an.",
+          "target_paragraph": 7,
+          "density_normalized_distance": 0.0243
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 67,
+      "source_fact": "Das Paar ertrank, als der See über ihnen zusammenschlug.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 37,
+          "target_fact": "Die Ernten waren gefährdet bzw. wurden vernichtet, wenn das Wasser kam und die Flächen überschwemmte.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.0206
+        },
+        {
+          "target_fact_index": 56,
+          "target_fact": "Weitere Niederschläge im Februar führten dazu, dass der See austrat.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.0128
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 68,
+      "source_fact": "Die Felder und Matten des Bauern wurden weggeschwemmt, bis nur noch nackter Fels übrig blieb und die Ernte zerstört war.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 37,
+          "target_fact": "Die Ernten waren gefährdet bzw. wurden vernichtet, wenn das Wasser kam und die Flächen überschwemmte.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.0899
+        },
+        {
+          "target_fact_index": 33,
+          "target_fact": "Auf dem Seeboden wurde Madde (Wiesengras/Heu) gemäht.",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.005
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 69,
+      "source_fact": "Die Eichener Bauern glauben heute, dass ein steigender Seespiegel eine Erinnerung der Seewichte an den damaligen Verrat ist.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 94,
+          "target_fact": "Der Brauch des Eierspringens hat keltische Ursprünge.",
+          "target_paragraph": 12,
+          "density_normalized_distance": 0.0008
+        },
+        {
+          "target_fact_index": 95,
+          "target_fact": "Der Brauch soll die Fruchtbarkeit im Eiemer Dorf erhalten.",
+          "target_paragraph": 12,
+          "density_normalized_distance": 0.0269
+        }
+      ]
+    }
+  ],
+  "als_to_de": [
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 0,
+      "source_fact": "Der Eiemer See (deutsch: Eichener See) ist ein Karstsee.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 1,
+          "target_fact": "Der Eichener See wird im Volksmund alemannisch Eiemer See genannt.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.2977
+        },
+        {
+          "target_fact_index": 2,
+          "target_fact": "Der Eichener See ist ein zeitweise (astatisch) erscheinender Karstsee.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.2818
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 1,
+      "source_fact": "Der See befindet sich auf dem Dinkelberg bei Schopfe in Baden-Württemberg.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 0,
+          "target_fact": "Der Eichener See befindet sich beim Schopfheimer Stadtteil Eichen im baden-württembergischen Landkreis Lörrach.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.2291
+        },
+        {
+          "target_fact_index": 10,
+          "target_fact": "Der Eichener See liegt im nordöstlichen Randgebiet des Gebirgszugs Dinkelberg.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.201
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 2,
+      "source_fact": "Der See ist nur alle paar Jahre sichtbar.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 4,
+          "target_fact": "Der See ist nur bei hohem Grundwasserstand wasserführend.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0253
+        },
+        {
+          "target_fact_index": 2,
+          "target_fact": "Der Eichener See ist ein zeitweise (astatisch) erscheinender Karstsee.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0246
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 3,
+      "source_fact": "Es gibt keinen Bach, der in den See fließt oder aus ihm herausführt.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 6,
+          "target_fact": "Der Eichener See hat keinen oberirdischen Zufluss.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1665
+        },
+        {
+          "target_fact_index": 8,
+          "target_fact": "Der Abfluss des Sees erfolgt teilweise durch Verdunstung.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0076
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 4,
+      "source_fact": "Der See wird unterirdisch durch Grundwasser gefüllt.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 7,
+          "target_fact": "Der Abfluss des Sees erfolgt teilweise unterirdisch.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.208
+        },
+        {
+          "target_fact_index": 4,
+          "target_fact": "Der See ist nur bei hohem Grundwasserstand wasserführend.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1557
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 5,
+      "source_fact": "Der See ist nur sichtbar, wenn es zuvor lange Zeit stark geregnet hat.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 4,
+          "target_fact": "Der See ist nur bei hohem Grundwasserstand wasserführend.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1068
+        },
+        {
+          "target_fact_index": 2,
+          "target_fact": "Der Eichener See ist ein zeitweise (astatisch) erscheinender Karstsee.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0043
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 6,
+      "source_fact": "Der Dinkelberg ist eine Karstgegend.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 24,
+          "target_fact": "Im Dinkelberg befinden sich Hohlräume.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.2302
+        },
+        {
+          "target_fact_index": 23,
+          "target_fact": "Der Dinkelberg besteht vorwiegend aus Muschelkalk.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1332
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 7,
+      "source_fact": "Im Dinkelberg gibt es überall Höhlen, Löcher und Einbrüche.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 24,
+          "target_fact": "Im Dinkelberg befinden sich Hohlräume.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1704
+        },
+        {
+          "target_fact_index": 23,
+          "target_fact": "Der Dinkelberg besteht vorwiegend aus Muschelkalk.",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.0277
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 8,
+      "source_fact": "Bei Regen sammelt sich Wasser in diesen Hohlräumen.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 25,
+          "target_fact": "Die Hohlräume können sich aufgrund eines Grundwasserstaus sehr schnell mit Wasser füllen.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.002
+        },
+        {
+          "target_fact_index": 18,
+          "target_fact": "Grundwasser tritt besonders nach der Schneeschmelze oder nach längeren Regenphasen zu Tage.",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.0074
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 9,
+      "source_fact": "Bei längerem Regen und zusätzlicher Schneeschmelze kann nicht alles Wasser ablaufen und staut sich in den Hohlräumen.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 18,
+          "target_fact": "Grundwasser tritt besonders nach der Schneeschmelze oder nach längeren Regenphasen zu Tage.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1011
+        },
+        {
+          "target_fact_index": 25,
+          "target_fact": "Die Hohlräume können sich aufgrund eines Grundwasserstaus sehr schnell mit Wasser füllen.",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.0325
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 10,
+      "source_fact": "Das gestaute Wasser sammelt sich in Senken, sogenannten Dolinen.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 19,
+          "target_fact": "Die Formation wird als Erdfallsee bezeichnet.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.082
+        },
+        {
+          "target_fact_index": 18,
+          "target_fact": "Grundwasser tritt besonders nach der Schneeschmelze oder nach längeren Regenphasen zu Tage.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0295
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 11,
+      "source_fact": "Man kann beobachten, wie Wasser aus dem Boden sprudelt.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 25,
+          "target_fact": "Die Hohlräume können sich aufgrund eines Grundwasserstaus sehr schnell mit Wasser füllen.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0356
+        },
+        {
+          "target_fact_index": 21,
+          "target_fact": "Der Flurabstand ist der Höhenunterschied zwischen Grundwasserspiegel und Erdoberfläche.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0221
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 12,
+      "source_fact": "Versuche mit Farbe haben nachgewiesen, dass Wasser aus dem See beim Ablaufen unter anderem in der Hasler Höhle in Hasel erscheint.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 25,
+          "target_fact": "Die Hohlräume können sich aufgrund eines Grundwasserstaus sehr schnell mit Wasser füllen.",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.0823
+        },
+        {
+          "target_fact_index": 21,
+          "target_fact": "Der Flurabstand ist der Höhenunterschied zwischen Grundwasserspiegel und Erdoberfläche.",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.0831
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 13,
+      "source_fact": "Es gibt eine unterirdische Verbindung zwischen dem See und der Hasler Höhle.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 21,
+          "target_fact": "Der Flurabstand ist der Höhenunterschied zwischen Grundwasserspiegel und Erdoberfläche.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1009
+        },
+        {
+          "target_fact_index": 22,
+          "target_fact": "Der tiefste Punkt der das Grundwasser stauenden Wanne liegt etwa 48 m unter der Erdoberfläche.",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.0312
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 14,
+      "source_fact": "Die Hasler Höhle ist etwa 2 Kilometer vom See entfernt.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 22,
+          "target_fact": "Der tiefste Punkt der das Grundwasser stauenden Wanne liegt etwa 48 m unter der Erdoberfläche.",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.0618
+        },
+        {
+          "target_fact_index": 21,
+          "target_fact": "Der Flurabstand ist der Höhenunterschied zwischen Grundwasserspiegel und Erdoberfläche.",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.0797
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 15,
+      "source_fact": "Der erste Bericht über den Eiemer See stammt aus dem Jahr 1784.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 41,
+          "target_fact": "Der Artikel erschien im Jahr 1782 in der Zeitschrift 'Der Naturforscher'.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.0911
+        },
+        {
+          "target_fact_index": 39,
+          "target_fact": "Die erste wissenschaftliche Beschreibung des Sees erfolgte vermutlich in dem Artikel 'Von einem merkwürdigen See in der oberen Markgrafschaft Baden'.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.0875
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 16,
+      "source_fact": "Die Informationen stammen aus den veröffentlichten Nachlassschriften von Heinrich Sander.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 40,
+          "target_fact": "Der Artikel wurde von Heinrich Sander verfasst.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.3535
+        },
+        {
+          "target_fact_index": 41,
+          "target_fact": "Der Artikel erschien im Jahr 1782 in der Zeitschrift 'Der Naturforscher'.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.0409
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 17,
+      "source_fact": "Heinrich Sander war Professor am Gymnasium illustre in Karlsruhe.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 40,
+          "target_fact": "Der Artikel wurde von Heinrich Sander verfasst.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.1713
+        },
+        {
+          "target_fact_index": 49,
+          "target_fact": "Das Landschaftsschutzgebiet wurde per Verordnung vom 26. April 1942 ausgewiesen.",
+          "target_paragraph": 5,
+          "density_normalized_distance": 0.0711
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 18,
+      "source_fact": "Heinrich Sander war unter anderem Lehrer von Johann Peter Hebel.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 40,
+          "target_fact": "Der Artikel wurde von Heinrich Sander verfasst.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.2163
+        },
+        {
+          "target_fact_index": 49,
+          "target_fact": "Das Landschaftsschutzgebiet wurde per Verordnung vom 26. April 1942 ausgewiesen.",
+          "target_paragraph": 5,
+          "density_normalized_distance": 0.0507
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 19,
+      "source_fact": "Heinrich Sander beschrieb die Größe des Sees als 'ungleich und verschieden'.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 40,
+          "target_fact": "Der Artikel wurde von Heinrich Sander verfasst.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.219
+        },
+        {
+          "target_fact_index": 49,
+          "target_fact": "Das Landschaftsschutzgebiet wurde per Verordnung vom 26. April 1942 ausgewiesen.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.0199
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 20,
+      "source_fact": "Die Breite des Sees wurde mit einem 'Bichseschiss' (Büchsenschuss) berechnet.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 49,
+          "target_fact": "Das Landschaftsschutzgebiet wurde per Verordnung vom 26. April 1942 ausgewiesen.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.0809
+        },
+        {
+          "target_fact_index": 39,
+          "target_fact": "Die erste wissenschaftliche Beschreibung des Sees erfolgte vermutlich in dem Artikel 'Von einem merkwürdigen See in der oberen Markgrafschaft Baden'.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.0065
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 21,
+      "source_fact": "Die Länge des Sees wurde mit zwei 'Bichseschiss' (Büchsenschüssen) berechnet.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 39,
+          "target_fact": "Die erste wissenschaftliche Beschreibung des Sees erfolgte vermutlich in dem Artikel 'Von einem merkwürdigen See in der oberen Markgrafschaft Baden'.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.0136
+        },
+        {
+          "target_fact_index": 49,
+          "target_fact": "Das Landschaftsschutzgebiet wurde per Verordnung vom 26. April 1942 ausgewiesen.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.0101
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 22,
+      "source_fact": "Es wurde berichtet, dass bei der Entstehung des Sees fast alle Pflanzen zerstört wurden.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 49,
+          "target_fact": "Das Landschaftsschutzgebiet wurde per Verordnung vom 26. April 1942 ausgewiesen.",
+          "target_paragraph": 5,
+          "density_normalized_distance": 0.0373
+        },
+        {
+          "target_fact_index": 44,
+          "target_fact": "Die Größe des Naturdenkmals beträgt 3,75 Hektar.",
+          "target_paragraph": 5,
+          "density_normalized_distance": 0.0532
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 23,
+      "source_fact": "Einige Birnbäume überlebten die Entstehung des Sees ohne Schaden.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 42,
+          "target_fact": "Der See und seine Uferbereiche stehen seit 1939 unter besonderem Schutz.",
+          "target_paragraph": 5,
+          "density_normalized_distance": 0.0459
+        },
+        {
+          "target_fact_index": 49,
+          "target_fact": "Das Landschaftsschutzgebiet wurde per Verordnung vom 26. April 1942 ausgewiesen.",
+          "target_paragraph": 5,
+          "density_normalized_distance": 0.068
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 24,
+      "source_fact": "De Sander schreibt über ein Unglück im See.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 38,
+          "target_fact": "Im Jahr 1910 kamen Menschen in dem See um.",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.0308
+        },
+        {
+          "target_fact_index": 37,
+          "target_fact": "Im Jahr 1876 kamen Menschen in dem See um.",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.0436
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 25,
+      "source_fact": "Das Ereignis fand an einem Sonntagmorgen im Mai statt.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 37,
+          "target_fact": "Im Jahr 1876 kamen Menschen in dem See um.",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.0728
+        },
+        {
+          "target_fact_index": 38,
+          "target_fact": "Im Jahr 1910 kamen Menschen in dem See um.",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.0986
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 26,
+      "source_fact": "Junge Mädchen und Jungen wollten mit einem Boot auf dem See spazieren fahren.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 38,
+          "target_fact": "Im Jahr 1910 kamen Menschen in dem See um.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.0515
+        },
+        {
+          "target_fact_index": 37,
+          "target_fact": "Im Jahr 1876 kamen Menschen in dem See um.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.0139
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 27,
+      "source_fact": "Es sind anscheinend zu viele Personen in das Boot eingestiegen.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 38,
+          "target_fact": "Im Jahr 1910 kamen Menschen in dem See um.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.0821
+        },
+        {
+          "target_fact_index": 37,
+          "target_fact": "Im Jahr 1876 kamen Menschen in dem See um.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.0404
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 28,
+      "source_fact": "Das Boot ist gesunken.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 36,
+          "target_fact": "Im Jahr 1771 ertranken fünf Menschen in dem See, nachdem ihr Boot gekentert war.",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.0253
+        },
+        {
+          "target_fact_index": 38,
+          "target_fact": "Im Jahr 1910 kamen Menschen in dem See um.",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.1073
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 29,
+      "source_fact": "Vier der jungen Leute sind ertrunken.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 36,
+          "target_fact": "Im Jahr 1771 ertranken fünf Menschen in dem See, nachdem ihr Boot gekentert war.",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.0713
+        },
+        {
+          "target_fact_index": 37,
+          "target_fact": "Im Jahr 1876 kamen Menschen in dem See um.",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.0853
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 30,
+      "source_fact": "Die Personen wurden mit Stangen aus dem See gezogen.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 38,
+          "target_fact": "Im Jahr 1910 kamen Menschen in dem See um.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.1637
+        },
+        {
+          "target_fact_index": 37,
+          "target_fact": "Im Jahr 1876 kamen Menschen in dem See um.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.1298
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 31,
+      "source_fact": "Laut dem Text hätten die Personen wiederbelebt werden können, wenn die Polizei schneller gerufen worden wäre.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 38,
+          "target_fact": "Im Jahr 1910 kamen Menschen in dem See um.",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.0027
+        },
+        {
+          "target_fact_index": 37,
+          "target_fact": "Im Jahr 1876 kamen Menschen in dem See um.",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.0214
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 32,
+      "source_fact": "Die Seebodenfläche wurde genutzt, sobald das Wasser zurückgegangen war.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 59,
+          "target_fact": "Die Seewichte hielten die Abmachung ein, sodass die Felder des Bauern grünten, während die der Nachbarn verdorrten.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.1004
+        },
+        {
+          "target_fact_index": 68,
+          "target_fact": "Die Felder und Matten des Bauern wurden weggeschwemmt, bis nur noch nackter Fels übrig blieb und die Ernte zerstört war.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0695
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 33,
+      "source_fact": "Auf dem Seeboden wurde Madde (Wiesengras/Heu) gemäht.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 68,
+          "target_fact": "Die Felder und Matten des Bauern wurden weggeschwemmt, bis nur noch nackter Fels übrig blieb und die Ernte zerstört war.",
+          "target_paragraph": 8,
+          "density_normalized_distance": 0.0076
+        },
+        {
+          "target_fact_index": 59,
+          "target_fact": "Die Seewichte hielten die Abmachung ein, sodass die Felder des Bauern grünten, während die der Nachbarn verdorrten.",
+          "target_paragraph": 8,
+          "density_normalized_distance": 0.0382
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 34,
+      "source_fact": "Die Qualität des Futters war gut.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 58,
+          "target_fact": "Die Bedingung des Versprechens war, dass die Seewichte die Felder des Bauern ausreichend bewässern.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0277
+        },
+        {
+          "target_fact_index": 60,
+          "target_fact": "Die Tochter stimmte dem Vertrag ihres Vaters zunächst zu.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0117
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 35,
+      "source_fact": "Es wurden verschiedene Kulturen angepflanzt, darunter Roggen (Korn), Dinkel, Hafer (Haber), Gerste (Gärschd) und Kartoffeln (Herdepfel).",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 57,
+          "target_fact": "Ein Bauer aus Eichen versprach seine jüngste Tochter einem dieser Wichte zur Frau.",
+          "target_paragraph": 8,
+          "density_normalized_distance": 0.0037
+        },
+        {
+          "target_fact_index": 60,
+          "target_fact": "Die Tochter stimmte dem Vertrag ihres Vaters zunächst zu.",
+          "target_paragraph": 8,
+          "density_normalized_distance": 0.0113
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 36,
+      "source_fact": "Diese Anpflanzungen lieferten gute Ernten.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 58,
+          "target_fact": "Die Bedingung des Versprechens war, dass die Seewichte die Felder des Bauern ausreichend bewässern.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0351
+        },
+        {
+          "target_fact_index": 59,
+          "target_fact": "Die Seewichte hielten die Abmachung ein, sodass die Felder des Bauern grünten, während die der Nachbarn verdorrten.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0071
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 37,
+      "source_fact": "Die Ernten waren gefährdet bzw. wurden vernichtet, wenn das Wasser kam und die Flächen überschwemmte.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 59,
+          "target_fact": "Die Seewichte hielten die Abmachung ein, sodass die Felder des Bauern grünten, während die der Nachbarn verdorrten.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.1935
+        },
+        {
+          "target_fact_index": 68,
+          "target_fact": "Die Felder und Matten des Bauern wurden weggeschwemmt, bis nur noch nackter Fels übrig blieb und die Ernte zerstört war.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.1832
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 38,
+      "source_fact": "Der Eiemer See hat bei maximalem Füllstand eine Tiefe von etwa 3,20 Metern.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 52,
+          "target_fact": "Die maximale Ausdehnung des Sees beträgt circa 2,5 ha.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.0648
+        },
+        {
+          "target_fact_index": 50,
+          "target_fact": "In besonders niederschlagsreichen Jahren kann der oberirdisch sichtbare Wasserstand bis zu drei Meter betragen.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.0619
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 39,
+      "source_fact": "Der Eiemer See ist 250 Meter lang.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 51,
+          "target_fact": "Der See kann innerhalb von ein bis fünf Wochen eine Ausdehnung von 250 m Länge und 135 m Breite erreichen.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.132
+        },
+        {
+          "target_fact_index": 52,
+          "target_fact": "Die maximale Ausdehnung des Sees beträgt circa 2,5 ha.",
+          "target_paragraph": 6,
+          "density_normalized_distance": 0.0166
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 40,
+      "source_fact": "Der Eiemer See ist 135 Meter breit.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 51,
+          "target_fact": "Der See kann innerhalb von ein bis fünf Wochen eine Ausdehnung von 250 m Länge und 135 m Breite erreichen.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.1326
+        },
+        {
+          "target_fact_index": 52,
+          "target_fact": "Die maximale Ausdehnung des Sees beträgt circa 2,5 ha.",
+          "target_paragraph": 6,
+          "density_normalized_distance": 0.0518
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 41,
+      "source_fact": "Das Fassungsvermögen des Eiemer Sees beträgt etwa 33.000 Kubikmeter Wasser.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 52,
+          "target_fact": "Die maximale Ausdehnung des Sees beträgt circa 2,5 ha.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.0413
+        },
+        {
+          "target_fact_index": 51,
+          "target_fact": "Der See kann innerhalb von ein bis fünf Wochen eine Ausdehnung von 250 m Länge und 135 m Breite erreichen.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.0378
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 42,
+      "source_fact": "Im schnellsten Fall ist der See innerhalb einer Woche gefüllt.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 51,
+          "target_fact": "Der See kann innerhalb von ein bis fünf Wochen eine Ausdehnung von 250 m Länge und 135 m Breite erreichen.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.0636
+        },
+        {
+          "target_fact_index": 53,
+          "target_fact": "Es kann acht bis 160 Tage dauern, bis das gesamte zu Tage getretene Wasser wieder verschwindet.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.038
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 43,
+      "source_fact": "Das Wasser bleibt meistens zwischen drei Wochen und zwei Monaten im See.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 51,
+          "target_fact": "Der See kann innerhalb von ein bis fünf Wochen eine Ausdehnung von 250 m Länge und 135 m Breite erreichen.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.1471
+        },
+        {
+          "target_fact_index": 53,
+          "target_fact": "Es kann acht bis 160 Tage dauern, bis das gesamte zu Tage getretene Wasser wieder verschwindet.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.0735
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 44,
+      "source_fact": "Der See war bereits so stark zugefroren, dass man darauf Schlittschuhlaufen konnte.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 53,
+          "target_fact": "Es kann acht bis 160 Tage dauern, bis das gesamte zu Tage getretene Wasser wieder verschwindet.",
+          "target_paragraph": 6,
+          "density_normalized_distance": 0.0299
+        },
+        {
+          "target_fact_index": 51,
+          "target_fact": "Der See kann innerhalb von ein bis fünf Wochen eine Ausdehnung von 250 m Länge und 135 m Breite erreichen.",
+          "target_paragraph": 6,
+          "density_normalized_distance": 0.0559
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 45,
+      "source_fact": "Das erste datierte Auftreten des See ist im Jahr 1772.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 35,
+          "target_fact": "Der See wurde erstmals 1771 urkundlich erwähnt.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.254
+        },
+        {
+          "target_fact_index": 37,
+          "target_fact": "Im Jahr 1876 kamen Menschen in dem See um.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.0654
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 46,
+      "source_fact": "Gustav Albiez hat in seiner Dissertation von 1931 auf Seite 53 eine Zusammenstellung erstellt.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 38,
+          "target_fact": "Im Jahr 1910 kamen Menschen in dem See um.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.0065
+        },
+        {
+          "target_fact_index": 37,
+          "target_fact": "Im Jahr 1876 kamen Menschen in dem See um.",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.0426
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 47,
+      "source_fact": "Gustav Albiez zeigt in seiner Arbeit alle Jahre, in denen der See bis 1930 aufgetreten ist.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 38,
+          "target_fact": "Im Jahr 1910 kamen Menschen in dem See um.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.064
+        },
+        {
+          "target_fact_index": 37,
+          "target_fact": "Im Jahr 1876 kamen Menschen in dem See um.",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.0032
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 48,
+      "source_fact": "Alle bisher bekannten Daten zum Auftreten sind in der 'Liste zum Auftreten vom Eiemer See' zusammengefasst.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 38,
+          "target_fact": "Im Jahr 1910 kamen Menschen in dem See um.",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.1988
+        },
+        {
+          "target_fact_index": 37,
+          "target_fact": "Im Jahr 1876 kamen Menschen in dem See um.",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.2026
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 49,
+      "source_fact": "Der Eichener See tauchte im Dezember 2017 auf.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 37,
+          "target_fact": "Im Jahr 1876 kamen Menschen in dem See um.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.0809
+        },
+        {
+          "target_fact_index": 64,
+          "target_fact": "Die beiden trafen sich in der letzten Nacht auf der Eichener Höhe.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0616
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 50,
+      "source_fact": "Die Badische Zeitung veröffentlichte dazu einen Artikel am 18. Dezember 2017.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 37,
+          "target_fact": "Im Jahr 1876 kamen Menschen in dem See um.",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.0204
+        },
+        {
+          "target_fact_index": 62,
+          "target_fact": "Das Mädchen fürchtete sich davor, ihr Leben mit einem Wicht im Kristallschloss im Berg zu verbringen.",
+          "target_paragraph": 8,
+          "density_normalized_distance": 0.0298
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 51,
+      "source_fact": "Vor dem Auftreten 2017 kam der See zwischen Februar und März 2016 an die Oberfläche.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 67,
+          "target_fact": "Das Paar ertrank, als der See über ihnen zusammenschlug.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.063
+        },
+        {
+          "target_fact_index": 37,
+          "target_fact": "Im Jahr 1876 kamen Menschen in dem See um.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.0573
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 52,
+      "source_fact": "Im Dezember 2015 befand sich der See auf einem historischen Tiefstand.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 38,
+          "target_fact": "Im Jahr 1910 kamen Menschen in dem See um.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.0909
+        },
+        {
+          "target_fact_index": 63,
+          "target_fact": "Aus Verzweiflung beschloss die Tochter, mit ihrem Liebsten die Heimat zu verlassen, um der Macht der Seewichte zu entkommen.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.078
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 53,
+      "source_fact": "Durch Niederschläge zu Beginn des Jahres 2016 stieg der Grundwasserspiegel schnell an.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 37,
+          "target_fact": "Im Jahr 1876 kamen Menschen in dem See um.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.0787
+        },
+        {
+          "target_fact_index": 38,
+          "target_fact": "Im Jahr 1910 kamen Menschen in dem See um.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.0286
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 54,
+      "source_fact": "Der Grundwasserspiegel stieg innerhalb weniger Tage im Januar von 6 auf 37 Meter.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 37,
+          "target_fact": "Im Jahr 1876 kamen Menschen in dem See um.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.053
+        },
+        {
+          "target_fact_index": 63,
+          "target_fact": "Aus Verzweiflung beschloss die Tochter, mit ihrem Liebsten die Heimat zu verlassen, um der Macht der Seewichte zu entkommen.",
+          "target_paragraph": 8,
+          "density_normalized_distance": 0.0124
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 55,
+      "source_fact": "Trotz des Anstiegs im Januar lag der See noch zwei Meter unter der Oberfläche.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 67,
+          "target_fact": "Das Paar ertrank, als der See über ihnen zusammenschlug.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0376
+        },
+        {
+          "target_fact_index": 68,
+          "target_fact": "Die Felder und Matten des Bauern wurden weggeschwemmt, bis nur noch nackter Fels übrig blieb und die Ernte zerstört war.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0029
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 56,
+      "source_fact": "Weitere Niederschläge im Februar führten dazu, dass der See austrat.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 67,
+          "target_fact": "Das Paar ertrank, als der See über ihnen zusammenschlug.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.1012
+        },
+        {
+          "target_fact_index": 59,
+          "target_fact": "Die Seewichte hielten die Abmachung ein, sodass die Felder des Bauern grünten, während die der Nachbarn verdorrten.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0343
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 57,
+      "source_fact": "Der Pegel des Sees wird regelmäßig gemessen.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 69,
+          "target_fact": "Die Eichener Bauern glauben heute, dass ein steigender Seespiegel eine Erinnerung der Seewichte an den damaligen Verrat ist.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0323
+        },
+        {
+          "target_fact_index": 58,
+          "target_fact": "Die Bedingung des Versprechens war, dass die Seewichte die Felder des Bauern ausreichend bewässern.",
+          "target_paragraph": 8,
+          "density_normalized_distance": 0.0077
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 58,
+      "source_fact": "Die Badische Zeitung veröffentlichte am 18. Februar 2016 einen Artikel mit dem Titel 'Eichener See: Geheimnisse eines Gewässers, das kommt und geht'.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 37,
+          "target_fact": "Im Jahr 1876 kamen Menschen in dem See um.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.0232
+        },
+        {
+          "target_fact_index": 63,
+          "target_fact": "Aus Verzweiflung beschloss die Tochter, mit ihrem Liebsten die Heimat zu verlassen, um der Macht der Seewichte zu entkommen.",
+          "target_paragraph": 8,
+          "density_normalized_distance": 0.0312
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 59,
+      "source_fact": "Der Eiemer See wurde am 29. April 1942 zum Landschaftsschutzgebiet (LSG) ausgewiesen.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 49,
+          "target_fact": "Das Landschaftsschutzgebiet wurde per Verordnung vom 26. April 1942 ausgewiesen.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.2667
+        },
+        {
+          "target_fact_index": 43,
+          "target_fact": "Seit 1983 ist der See als flächiges Naturdenkmal ausgewiesen.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.0795
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 60,
+      "source_fact": "Das Landschaftsschutzgebiet hat die Nummer 3.36.012.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 47,
+          "target_fact": "Das Landschaftsschutzgebiet hat die Nummer 3.36.012.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.5578
+        },
+        {
+          "target_fact_index": 49,
+          "target_fact": "Das Landschaftsschutzgebiet wurde per Verordnung vom 26. April 1942 ausgewiesen.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.1835
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 61,
+      "source_fact": "Der Verordnungstext wurde am 8. Mai 1942 im 'Alemanne' abgedruckt.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 49,
+          "target_fact": "Das Landschaftsschutzgebiet wurde per Verordnung vom 26. April 1942 ausgewiesen.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.1887
+        },
+        {
+          "target_fact_index": 41,
+          "target_fact": "Der Artikel erschien im Jahr 1782 in der Zeitschrift 'Der Naturforscher'.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.1488
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 62,
+      "source_fact": "Das Landschaftsschutzgebiet hat eine Größe von 8 ha.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 48,
+          "target_fact": "Die Größe des Landschaftsschutzgebiets beträgt 8,0 Hektar.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.3963
+        },
+        {
+          "target_fact_index": 46,
+          "target_fact": "Das Naturdenkmal wird von einem Landschaftsschutzgebiet umschlossen.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.2325
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 63,
+      "source_fact": "Das Landschaftsschutzgebiet erstreckt sich wie ein Kranz im Norden, Westen und Süden um den See herum.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 46,
+          "target_fact": "Das Naturdenkmal wird von einem Landschaftsschutzgebiet umschlossen.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.1142
+        },
+        {
+          "target_fact_index": 49,
+          "target_fact": "Das Landschaftsschutzgebiet wurde per Verordnung vom 26. April 1942 ausgewiesen.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.049
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 64,
+      "source_fact": "Der See selbst gehört nicht zum Landschaftsschutzgebiet.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 46,
+          "target_fact": "Das Naturdenkmal wird von einem Landschaftsschutzgebiet umschlossen.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.197
+        },
+        {
+          "target_fact_index": 47,
+          "target_fact": "Das Landschaftsschutzgebiet hat die Nummer 3.36.012.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.1233
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 65,
+      "source_fact": "Der See und seine nähere Umgebung wurden am 11. Februar 1983 als flächenhaftes Naturdenkmal ausgewiesen.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 43,
+          "target_fact": "Seit 1983 ist der See als flächiges Naturdenkmal ausgewiesen.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.2623
+        },
+        {
+          "target_fact_index": 42,
+          "target_fact": "Der See und seine Uferbereiche stehen seit 1939 unter besonderem Schutz.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.1146
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 66,
+      "source_fact": "Die Nummer des flächenhaften Naturdenkmals ist 8336081001.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 47,
+          "target_fact": "Das Landschaftsschutzgebiet hat die Nummer 3.36.012.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.1086
+        },
+        {
+          "target_fact_index": 44,
+          "target_fact": "Die Größe des Naturdenkmals beträgt 3,75 Hektar.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.0334
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 67,
+      "source_fact": "Flächenhafte Naturdenkmale (FND) sind ähnlich geschützt wie Naturschutzgebiete (NSG).",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 46,
+          "target_fact": "Das Naturdenkmal wird von einem Landschaftsschutzgebiet umschlossen.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.1882
+        },
+        {
+          "target_fact_index": 49,
+          "target_fact": "Das Landschaftsschutzgebiet wurde per Verordnung vom 26. April 1942 ausgewiesen.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.0699
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 68,
+      "source_fact": "Flächenhafte Naturdenkmale werden vom Landratsamt verordnet.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 46,
+          "target_fact": "Das Naturdenkmal wird von einem Landschaftsschutzgebiet umschlossen.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.1832
+        },
+        {
+          "target_fact_index": 49,
+          "target_fact": "Das Landschaftsschutzgebiet wurde per Verordnung vom 26. April 1942 ausgewiesen.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.116
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 69,
+      "source_fact": "Flächenhafte Naturdenkmale haben eine Fläche von weniger als 5 Hektar.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 44,
+          "target_fact": "Die Größe des Naturdenkmals beträgt 3,75 Hektar.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.1653
+        },
+        {
+          "target_fact_index": 48,
+          "target_fact": "Die Größe des Landschaftsschutzgebiets beträgt 8,0 Hektar.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.1639
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 70,
+      "source_fact": "Die Fläche des flächenhaften Naturdenkmals am Eiemer See beträgt 3,5 Hektar.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 44,
+          "target_fact": "Die Größe des Naturdenkmals beträgt 3,75 Hektar.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.2715
+        },
+        {
+          "target_fact_index": 48,
+          "target_fact": "Die Größe des Landschaftsschutzgebiets beträgt 8,0 Hektar.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.1618
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 71,
+      "source_fact": "Das flächenhafte Naturdenkmal bildet den Kern des Eiemer Sees.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 46,
+          "target_fact": "Das Naturdenkmal wird von einem Landschaftsschutzgebiet umschlossen.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.0518
+        },
+        {
+          "target_fact_index": 45,
+          "target_fact": "Der See ist als Fauna-Flora-Habitat-Gebiet von europäischem Rang eingestuft.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.0325
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 72,
+      "source_fact": "Der Eiemer See gehört seit dem 31. Mai 2015 zum FFH-Gebiet 'Dinkelbärg un Röttler Wald'.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 3,
+          "target_fact": "Der Eichener See ist Teil des FFH-Gebietes Dinkelberg und Röttler Wald.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0787
+        },
+        {
+          "target_fact_index": 1,
+          "target_fact": "Der Eichener See wird im Volksmund alemannisch Eiemer See genannt.",
+          "target_paragraph": 0,
+          "density_normalized_distance": 0.0689
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 73,
+      "source_fact": "Das FFH-Gebiet 'Dinkelbärg un Röttler Wald' hat die Nummer 8312311.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 3,
+          "target_fact": "Der Eichener See ist Teil des FFH-Gebietes Dinkelberg und Röttler Wald.",
+          "target_paragraph": 0,
+          "density_normalized_distance": 0.0483
+        },
+        {
+          "target_fact_index": 1,
+          "target_fact": "Der Eichener See wird im Volksmund alemannisch Eiemer See genannt.",
+          "target_paragraph": 0,
+          "density_normalized_distance": 0.2822
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 74,
+      "source_fact": "Die Teilfläche des FFH-Gebiets um den Eiemer See umfasst 11,5 ha.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 3,
+          "target_fact": "Der Eichener See ist Teil des FFH-Gebietes Dinkelberg und Röttler Wald.",
+          "target_paragraph": 0,
+          "density_normalized_distance": 0.0227
+        },
+        {
+          "target_fact_index": 7,
+          "target_fact": "Der Abfluss des Sees erfolgt teilweise unterirdisch.",
+          "target_paragraph": 0,
+          "density_normalized_distance": 0.0898
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 75,
+      "source_fact": "Die Teilfläche deckt sich ungefähr mit dem Landschaftsschutzgebiet (LSG) und dem Naturdenkmal (FND).",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 3,
+          "target_fact": "Der Eichener See ist Teil des FFH-Gebietes Dinkelberg und Röttler Wald.",
+          "target_paragraph": 0,
+          "density_normalized_distance": 0.053
+        },
+        {
+          "target_fact_index": 8,
+          "target_fact": "Der Abfluss des Sees erfolgt teilweise durch Verdunstung.",
+          "target_paragraph": 0,
+          "density_normalized_distance": 0.1635
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 76,
+      "source_fact": "Das FFH-Gebiet 'Dinkelbärg un Röttler Wald' erstreckt sich über die Landkreise Lörrach und Waldshut.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 3,
+          "target_fact": "Der Eichener See ist Teil des FFH-Gebietes Dinkelberg und Röttler Wald.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.101
+        },
+        {
+          "target_fact_index": 0,
+          "target_fact": "Der Eichener See befindet sich beim Schopfheimer Stadtteil Eichen im baden-württembergischen Landkreis Lörrach.",
+          "target_paragraph": 0,
+          "density_normalized_distance": 0.15
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 77,
+      "source_fact": "Der Eiemer See wird in der Kurzbeschreibung des Gebiets ausdrücklich genannt.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 1,
+          "target_fact": "Der Eichener See wird im Volksmund alemannisch Eiemer See genannt.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0786
+        },
+        {
+          "target_fact_index": 8,
+          "target_fact": "Der Abfluss des Sees erfolgt teilweise durch Verdunstung.",
+          "target_paragraph": 0,
+          "density_normalized_distance": 0.0457
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 78,
+      "source_fact": "Das Gebiet wird als Kulturlandschaft mit naturnahen Buchenwäldern, Hecken, Kalkmagerrasen, Glatthaferwiesen, Höhlen und einem temporären Karstsee beschrieben.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 2,
+          "target_fact": "Der Eichener See ist ein zeitweise (astatisch) erscheinender Karstsee.",
+          "target_paragraph": 0,
+          "density_normalized_distance": 0.0837
+        },
+        {
+          "target_fact_index": 5,
+          "target_fact": "Der See liegt in einer Mulde, einer Muschelkalk-Karstwanne.",
+          "target_paragraph": 0,
+          "density_normalized_distance": 0.096
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 79,
+      "source_fact": "Das Gebiet ist ein hervorragender Lebensraum für zahlreiche FFH-Arten, insbesondere für Fledermausarten.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 4,
+          "target_fact": "Der See ist nur bei hohem Grundwasserstand wasserführend.",
+          "target_paragraph": 0,
+          "density_normalized_distance": 0.1221
+        },
+        {
+          "target_fact_index": 3,
+          "target_fact": "Der Eichener See ist Teil des FFH-Gebietes Dinkelberg und Röttler Wald.",
+          "target_paragraph": 0,
+          "density_normalized_distance": 0.1309
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 80,
+      "source_fact": "Im Eiemer See lebt eine urzeitliche Krebsart.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 30,
+          "target_fact": "Im See lebt der Blattfußkrebs Tanymastix lacunae.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.0545
+        },
+        {
+          "target_fact_index": 45,
+          "target_fact": "Der See ist als Fauna-Flora-Habitat-Gebiet von europäischem Rang eingestuft.",
+          "target_paragraph": 5,
+          "density_normalized_distance": 0.086
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 81,
+      "source_fact": "Diese Krebsart kommt sonst nur an wenigen Orten in Deutschland und im restlichen Europa vor.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 34,
+          "target_fact": "In ganz Europa sind lediglich sieben weitere sichere Fundorte von Tanymastix lacunae bekannt.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.1566
+        },
+        {
+          "target_fact_index": 33,
+          "target_fact": "Der See ist der einzig gesicherte Fundort von Tanymastix lacunae in Deutschland.",
+          "target_paragraph": 3,
+          "density_normalized_distance": 0.0098
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 82,
+      "source_fact": "Der wissenschaftliche Name des Tieres ist Tanymastix lacunae.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 31,
+          "target_fact": "Tanymastix lacunae gehört zur Ordnung der Kiemenfüßer (Anostraca).",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.278
+        },
+        {
+          "target_fact_index": 30,
+          "target_fact": "Im See lebt der Blattfußkrebs Tanymastix lacunae.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.2539
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 83,
+      "source_fact": "Er gehört zu den Kiemenfußkrebsen.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 31,
+          "target_fact": "Tanymastix lacunae gehört zur Ordnung der Kiemenfüßer (Anostraca).",
+          "target_paragraph": 3,
+          "density_normalized_distance": 0.0086
+        },
+        {
+          "target_fact_index": 30,
+          "target_fact": "Im See lebt der Blattfußkrebs Tanymastix lacunae.",
+          "target_paragraph": 3,
+          "density_normalized_distance": 0.1317
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 84,
+      "source_fact": "Kiemenfußkrebse haben ihre Kiemen an den Füßen oder Beinen.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 30,
+          "target_fact": "Im See lebt der Blattfußkrebs Tanymastix lacunae.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.0107
+        },
+        {
+          "target_fact_index": 34,
+          "target_fact": "In ganz Europa sind lediglich sieben weitere sichere Fundorte von Tanymastix lacunae bekannt.",
+          "target_paragraph": 3,
+          "density_normalized_distance": 0.055
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 85,
+      "source_fact": "Ausgewachsene Exemplare werden etwa zwei Zentimeter lang.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 34,
+          "target_fact": "In ganz Europa sind lediglich sieben weitere sichere Fundorte von Tanymastix lacunae bekannt.",
+          "target_paragraph": 3,
+          "density_normalized_distance": 0.0422
+        },
+        {
+          "target_fact_index": 44,
+          "target_fact": "Die Größe des Naturdenkmals beträgt 3,75 Hektar.",
+          "target_paragraph": 5,
+          "density_normalized_distance": 0.0578
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 86,
+      "source_fact": "Die Weibchen können bis zu 14.000 Eier legen.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 40,
+          "target_fact": "Der Artikel wurde von Heinrich Sander verfasst.",
+          "target_paragraph": 5,
+          "density_normalized_distance": 0.1156
+        },
+        {
+          "target_fact_index": 34,
+          "target_fact": "In ganz Europa sind lediglich sieben weitere sichere Fundorte von Tanymastix lacunae bekannt.",
+          "target_paragraph": 3,
+          "density_normalized_distance": 0.1196
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 87,
+      "source_fact": "Die Eier sind sehr robust und können mehrere Jahre im trockenen Boden überleben, bis der See wieder ansteigt.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 34,
+          "target_fact": "In ganz Europa sind lediglich sieben weitere sichere Fundorte von Tanymastix lacunae bekannt.",
+          "target_paragraph": 3,
+          "density_normalized_distance": 0.004
+        },
+        {
+          "target_fact_index": 32,
+          "target_fact": "Ein Austrocknen des Seegrundes ist für den Lebenszyklus von Tanymastix lacunae unabdingbar.",
+          "target_paragraph": 3,
+          "density_normalized_distance": 0.0143
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 88,
+      "source_fact": "Die Art wurde bereits 1758 von Linné beschrieben.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 41,
+          "target_fact": "Der Artikel erschien im Jahr 1782 in der Zeitschrift 'Der Naturforscher'.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.0777
+        },
+        {
+          "target_fact_index": 40,
+          "target_fact": "Der Artikel wurde von Heinrich Sander verfasst.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.0191
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 89,
+      "source_fact": "Der Zoologe Eduard Graeter hat die Art 1909 erstmals im Eiemer See gefunden.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 41,
+          "target_fact": "Der Artikel erschien im Jahr 1782 in der Zeitschrift 'Der Naturforscher'.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.1475
+        },
+        {
+          "target_fact_index": 43,
+          "target_fact": "Seit 1983 ist der See als flächiges Naturdenkmal ausgewiesen.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.0059
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 90,
+      "source_fact": "Eduard Graeter befasste sich im Zusammenhang mit seiner Dissertation an der Universität Basel auch mit Ruderfußkrebsen in unterirdischen Gewässern.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 41,
+          "target_fact": "Der Artikel erschien im Jahr 1782 in der Zeitschrift 'Der Naturforscher'.",
+          "target_paragraph": 5,
+          "density_normalized_distance": 0.032
+        },
+        {
+          "target_fact_index": 40,
+          "target_fact": "Der Artikel wurde von Heinrich Sander verfasst.",
+          "target_paragraph": 5,
+          "density_normalized_distance": 0.0499
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 91,
+      "source_fact": "Das Eierspringen findet am Eiemer See statt.",
+      "source_paragraph": 12,
+      "matches": [
+        {
+          "target_fact_index": 54,
+          "target_fact": "Es gibt eine Sage über Männlein, die in einem großen unterirdischen Palast hausen.",
+          "target_paragraph": 8,
+          "density_normalized_distance": 0.0711
+        },
+        {
+          "target_fact_index": 62,
+          "target_fact": "Das Mädchen fürchtete sich davor, ihr Leben mit einem Wicht im Kristallschloss im Berg zu verbringen.",
+          "target_paragraph": 8,
+          "density_normalized_distance": 0.089
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 92,
+      "source_fact": "Das Eierspringen findet am Oschdermendig statt.",
+      "source_paragraph": 12,
+      "matches": [
+        {
+          "target_fact_index": 54,
+          "target_fact": "Es gibt eine Sage über Männlein, die in einem großen unterirdischen Palast hausen.",
+          "target_paragraph": 8,
+          "density_normalized_distance": 0.1786
+        },
+        {
+          "target_fact_index": 64,
+          "target_fact": "Die beiden trafen sich in der letzten Nacht auf der Eichener Höhe.",
+          "target_paragraph": 8,
+          "density_normalized_distance": 0.1994
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 93,
+      "source_fact": "Das Eierspringen ist ein Brauch.",
+      "source_paragraph": 12,
+      "matches": [
+        {
+          "target_fact_index": 57,
+          "target_fact": "Ein Bauer aus Eichen versprach seine jüngste Tochter einem dieser Wichte zur Frau.",
+          "target_paragraph": 8,
+          "density_normalized_distance": 0.0937
+        },
+        {
+          "target_fact_index": 63,
+          "target_fact": "Aus Verzweiflung beschloss die Tochter, mit ihrem Liebsten die Heimat zu verlassen, um der Macht der Seewichte zu entkommen.",
+          "target_paragraph": 8,
+          "density_normalized_distance": 0.1548
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 94,
+      "source_fact": "Der Brauch des Eierspringens hat keltische Ursprünge.",
+      "source_paragraph": 12,
+      "matches": [
+        {
+          "target_fact_index": 60,
+          "target_fact": "Die Tochter stimmte dem Vertrag ihres Vaters zunächst zu.",
+          "target_paragraph": 8,
+          "density_normalized_distance": 0.0683
+        },
+        {
+          "target_fact_index": 54,
+          "target_fact": "Es gibt eine Sage über Männlein, die in einem großen unterirdischen Palast hausen.",
+          "target_paragraph": 8,
+          "density_normalized_distance": 0.0816
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 95,
+      "source_fact": "Der Brauch soll die Fruchtbarkeit im Eiemer Dorf erhalten.",
+      "source_paragraph": 12,
+      "matches": [
+        {
+          "target_fact_index": 57,
+          "target_fact": "Ein Bauer aus Eichen versprach seine jüngste Tochter einem dieser Wichte zur Frau.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0735
+        },
+        {
+          "target_fact_index": 62,
+          "target_fact": "Das Mädchen fürchtete sich davor, ihr Leben mit einem Wicht im Kristallschloss im Berg zu verbringen.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.006
+        }
+      ]
+    }
+  ]
+}

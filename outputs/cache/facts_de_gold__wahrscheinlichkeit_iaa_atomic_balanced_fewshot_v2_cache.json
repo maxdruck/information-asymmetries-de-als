@@ -1,0 +1,176 @@
+{
+  "Die Wahrscheinlichkeit ist ein allgemeines Maß der Erwartung für ein unsicheres Ereignis. Auf der einen Seite sollen Vorhersagen (Prognosen) über den Ausgang zukünftiger Ereignisse gemacht werden. Auf der anderen Seite soll aber auch bei bereits eingetretenen Ereignissen beurteilt werden, wie gewöhnlich oder ungewöhnlich sie sind. In der Mathematik hat sich mit der Wahrscheinlichkeitstheorie ein eigenes Fachgebiet entwickelt. Es hat mit Versuchen bei Glücksspielen begonnen und ist heute in so gut wie allen Lebensbereichen anzutreffen.": [
+    "Die Wahrscheinlichkeit ist ein allgemeines Maß der Erwartung für ein unsicheres Ereignis.",
+    "Mit der Wahrscheinlichkeit sollen Vorhersagen (Prognosen) über den Ausgang zukünftiger Ereignisse gemacht werden.",
+    "Mit der Wahrscheinlichkeit soll bei bereits eingetretenen Ereignissen beurteilt werden, wie gewöhnlich oder ungewöhnlich sie sind.",
+    "In der Mathematik hat sich mit der Wahrscheinlichkeitstheorie ein eigenes Fachgebiet entwickelt.",
+    "Die Wahrscheinlichkeitstheorie hat mit Versuchen bei Glücksspielen begonnen.",
+    "Die Wahrscheinlichkeitstheorie ist heute in so gut wie allen Lebensbereichen anzutreffen."
+  ],
+  "Die Wahrscheinlichkeit dafür, dass bei einem Zufallsexperiment ein bestimmtes Ereignis eintritt, ist nach Laplace das Zahlenverhältnis (Quotient) der Anzahl der günstigen Ergebnisse zur Anzahl der überhaupt möglichen Ergebnisse. Hierin unterscheidet sich die sog. klassische Wahrscheinlichkeit von der Chance, die als Quotient aus der Anzahl der günstigen zur Anzahl der ungünstigen Ergebnisse definiert ist": [
+    "Die Wahrscheinlichkeit dafür, dass bei einem Zufallsexperiment ein bestimmtes Ereignis eintritt, ist nach Laplace das Zahlenverhältnis (Quotient) der Anzahl der günstigen Ergebnisse zur Anzahl der überhaupt möglichen Ergebnisse.",
+    "Die klassische Wahrscheinlichkeit unterscheidet sich von der Chance.",
+    "Die Chance ist als Quotient aus der Anzahl der günstigen zur Anzahl der ungünstigen Ergebnisse definiert."
+  ],
+  "Die verschiedenen Wahrscheinlichkeitsdefinitionen (Auffassungen von Wahrscheinlichkeit) unterscheiden sich darin, wie man den Zahlenwert der Wahrscheinlichkeit erhält.": [
+    "Die verschiedenen Wahrscheinlichkeitsdefinitionen unterscheiden sich darin, wie man den Zahlenwert der Wahrscheinlichkeit erhält.",
+    "Wahrscheinlichkeitsdefinitionen sind Auffassungen von Wahrscheinlichkeit."
+  ],
+  "Bei einem idealen, „fairen“ Würfel (das heißt, kein Ergebnis wird durch unsymmetrische Massenverteilung oder Ähnliches bevorzugt) hat wegen der Symmetrie jede der sechs Seiten von vornherein (A-priori-Wahrscheinlichkeit) die gleiche „Chance“, nach dem Wurf oben zu liegen. Daher ist beispielsweise die Wahrscheinlichkeit, eine ungerade Zahl zu werfen, 3/6 = 0,5, denn es gibt drei günstige Ergebnisse (1, 3, 5) bei sechs möglichen Ergebnissen.": [
+    "Bei einem idealen, „fairen“ Würfel wird kein Ergebnis durch unsymmetrische Massenverteilung oder Ähnliches bevorzugt.",
+    "Bei einem idealen, „fairen“ Würfel hat wegen der Symmetrie jede der sechs Seiten von vornherein (A-priori-Wahrscheinlichkeit) die gleiche „Chance“, nach dem Wurf oben zu liegen.",
+    "Die Wahrscheinlichkeit, mit einem idealen, „fairen“ Würfel eine ungerade Zahl zu werfen, ist 3/6 = 0,5.",
+    "Bei dem Wurf einer ungeraden Zahl mit einem idealen, „fairen“ Würfel gibt es drei günstige Ergebnisse (1, 3, 5) bei sechs möglichen Ergebnissen."
+  ],
+  "Dies ist die sogenannte klassische Definition, wie sie von Christiaan Huygens und Jakob I Bernoulli entwickelt und von Laplace formuliert wurde. Sie ist die Grundlage der klassischen Wahrscheinlichkeitstheorie. Die Elementarereignisse besitzen hierbei gleiche A-priori-Eintrittswahrscheinlichkeiten.": [
+    "Die klassische Definition wurde von Christiaan Huygens entwickelt.",
+    "Die klassische Definition wurde von Jakob I Bernoulli entwickelt.",
+    "Die klassische Definition wurde von Laplace formuliert.",
+    "Die klassische Definition ist die Grundlage der klassischen Wahrscheinlichkeitstheorie.",
+    "Die Elementarereignisse besitzen bei der klassischen Definition gleiche A-priori-Eintrittswahrscheinlichkeiten."
+  ],
+  "Der Versuch wird viele Male wiederholt, dann werden die relativen Häufigkeiten der jeweiligen Elementarereignisse berechnet. Die Wahrscheinlichkeit eines Ereignisses ist nun der Grenzwert, dem die relative Häufigkeit für unendlich viele Wiederholungen zustrebt. Dies ist die sogenannte „Limes-Definition“ nach von Mises. Das Gesetz der großen Zahlen spielt hier eine zentrale Rolle. Voraussetzung sind die beliebige Wiederholbarkeit des Experiments und dass die einzelnen Durchgänge voneinander unabhängig sind. Ein anderer Name für dieses Konzept ist Frequentistischer Wahrscheinlichkeitsbegriff.": [
+    "Der Versuch wird viele Male wiederholt.",
+    "Die relativen Häufigkeiten der jeweiligen Elementarereignisse werden berechnet.",
+    "Die Wahrscheinlichkeit eines Ereignisses ist der Grenzwert, dem die relative Häufigkeit für unendlich viele Wiederholungen zustrebt.",
+    "Dies ist die sogenannte „Limes-Definition“ nach von Mises.",
+    "Das Gesetz der großen Zahlen spielt hier eine zentrale Rolle.",
+    "Voraussetzung ist die beliebige Wiederholbarkeit des Experiments.",
+    "Voraussetzung ist, dass die einzelnen Durchgänge voneinander unabhängig sind.",
+    "Ein anderer Name für dieses Konzept ist Frequentistischer Wahrscheinlichkeitsbegriff."
+  ],
+  "Beispiel: Man würfelt 1000-mal und erhält folgende Verteilung: Die 1 fällt 100-mal (das entspricht einer relativen Häufigkeit von 10 %), die 2 fällt 150-mal (15 %), die 3 ebenfalls 150-mal (15 %), die 4 in 20 %, die 5 in 30 % und die 6 in 10 % der Fälle. Der Verdacht kommt auf, dass der Würfel nicht fair ist. Wenn nach 10.000 Versuchen sich die Zahlen bei den angegebenen Werten stabilisiert haben, dann kann man mit einiger Sicherheit sagen, dass zum Beispiel die Wahrscheinlichkeit, eine 3 zu würfeln, bei 15 % liegt.": [
+    "In einem Beispiel wird 1000-mal gewürfelt.",
+    "Bei 1000 Würfen fällt die 1 100-mal.",
+    "Die relative Häufigkeit der 1 beträgt 10 %.",
+    "Bei 1000 Würfen fällt die 2 150-mal.",
+    "Die relative Häufigkeit der 2 beträgt 15 %.",
+    "Bei 1000 Würfen fällt die 3 150-mal.",
+    "Die relative Häufigkeit der 3 beträgt 15 %.",
+    "Bei 1000 Würfen fällt die 4 in 20 % der Fälle.",
+    "Bei 1000 Würfen fällt die 5 in 30 % der Fälle.",
+    "Bei 1000 Würfen fällt die 6 in 10 % der Fälle.",
+    "Es kommt der Verdacht auf, dass der Würfel nicht fair ist.",
+    "Wenn sich die Zahlen nach 10.000 Versuchen bei den angegebenen Werten stabilisiert haben, kann man mit einiger Sicherheit sagen, dass zum Beispiel die Wahrscheinlichkeit, eine 3 zu würfeln, bei 15 % liegt."
+  ],
+  "Die Propensitätstheorie interpretiert Wahrscheinlichkeit als Maß für die Neigung eines Prozesses zu einem bestimmten Ergebnis. Dieser Wahrscheinlichkeitsbegriff ist zum Beispiel in der Physik bei der Zerfallswahrscheinlichkeit eines Radionuklids gemeint; die Experimente sind hier die einzelnen, voneinander unabhängigen Zerfälle der Atomkerne. Für jeden einzelnen Atomkern nimmt man eine charakteristische Neigung (propensity) zum Zerfall an, die unabhängig von seinem Alter und der Nachbarkerne ist.": [
+    "Die Propensitätstheorie interpretiert Wahrscheinlichkeit als Maß für die Neigung eines Prozesses zu einem bestimmten Ergebnis.",
+    "Dieser Wahrscheinlichkeitsbegriff ist zum Beispiel in der Physik bei der Zerfallswahrscheinlichkeit eines Radionuklids gemeint.",
+    "Die Experimente sind bei der Zerfallswahrscheinlichkeit eines Radionuklids die einzelnen, voneinander unabhängigen Zerfälle der Atomkerne.",
+    "Für jeden einzelnen Atomkern nimmt man eine charakteristische Neigung (propensity) zum Zerfall an.",
+    "Die charakteristische Neigung zum Zerfall eines Atomkerns ist unabhängig von seinem Alter.",
+    "Die charakteristische Neigung zum Zerfall eines Atomkerns ist unabhängig von den Nachbarkernen."
+  ],
+  "In der nichtrelativistischen Quantenmechanik wird die Wellenfunktion eines Teilchens als seine fundamentale Beschreibung verwendet. Es handelt sich also nicht um eine bloß statistische, sondern um eine nicht-determinierte Wahrscheinlichkeit.": [
+    "In der nichtrelativistischen Quantenmechanik wird die Wellenfunktion eines Teilchens als seine fundamentale Beschreibung verwendet.",
+    "Die Wellenfunktion eines Teilchens ist in der nichtrelativistischen Quantenmechanik keine bloß statistische Wahrscheinlichkeit.",
+    "Die Wellenfunktion eines Teilchens ist in der nichtrelativistischen Quantenmechanik eine nicht-determinierte Wahrscheinlichkeit."
+  ],
+  "Wahrscheinlichkeiten sind Grade des Vertrauens in eine ungewisse Sache, sie sind beste Schätzungen. Sie erhalten dadurch den Charakter von Hypothesen. Auch bei einmaligen Zufallsereignissen kann man deren Eintretenswahrscheinlichkeit schätzen. Zentrale Gesichtspunkte sind hier Experten­wissen, Erfahrung und Intuition. Manche Hypothesen werden für wahrscheinlicher als andere gehalten, manche müssen aufgrund neuer Informationen geändert, andere ganz verworfen werden. Man spricht von einer subjektivistischen Wahrscheinlichkeitsauffassung, siehe auch Bayesscher Wahrscheinlichkeitsbegriff.": [
+    "Wahrscheinlichkeiten sind Grade des Vertrauens in eine ungewisse Sache.",
+    "Wahrscheinlichkeiten sind beste Schätzungen.",
+    "Wahrscheinlichkeiten erhalten dadurch den Charakter von Hypothesen.",
+    "Bei einmaligen Zufallsereignissen kann man deren Eintretenswahrscheinlichkeit schätzen.",
+    "Expertenwissen ist ein zentraler Gesichtspunkt bei der Schätzung der Eintretenswahrscheinlichkeit einmaliger Zufallsereignisse.",
+    "Erfahrung ist ein zentraler Gesichtspunkt bei der Schätzung der Eintretenswahrscheinlichkeit einmaliger Zufallsereignisse.",
+    "Intuition ist ein zentraler Gesichtspunkt bei der Schätzung der Eintretenswahrscheinlichkeit einmaliger Zufallsereignisse.",
+    "Manche Hypothesen werden für wahrscheinlicher als andere gehalten.",
+    "Manche Hypothesen müssen aufgrund neuer Informationen geändert werden.",
+    "Manche Hypothesen müssen aufgrund neuer Informationen ganz verworfen werden.",
+    "Man spricht von einer subjektivistischen Wahrscheinlichkeitsauffassung."
+  ],
+  "Beispiel: Nachdem jemand verschiedene Autos besessen hat, schätzt er die Wahrscheinlichkeit als hoch ein (zum Beispiel „Ich bin mir zu 80 % sicher“), mit der Marke XY auch beim nächsten Autokauf wieder zufrieden zu sein. Dieser Vorhersagewert kann zum Beispiel durch einen Testbericht nach oben oder unten verändert werden.": [
+    "Nachdem jemand verschiedene Autos besessen hat, schätzt er die Wahrscheinlichkeit als hoch ein, mit der Marke XY auch beim nächsten Autokauf wieder zufrieden zu sein.",
+    "Ein Beispiel für diese Einschätzung ist die Aussage „Ich bin mir zu 80 % sicher“.",
+    "Dieser Vorhersagewert kann zum Beispiel durch einen Testbericht nach oben oder unten verändert werden."
+  ],
+  "Diese intuitive Wahrscheinlichkeitserfassung birgt jedoch eine Vielzahl von „Stolpersteinen“, die z. B. in der subjektiven Wahrnehmung (Risiken, wie etwa wegen erhöhter Geschwindigkeit zu verunfallen, werden tendenziell niedriger und Chancen, wie etwa auf einen Lottogewinn, höher als die tatsächliche Wahrscheinlichkeit des Eintritts eingeschätzt) oder der asymmetrischen Informationen liegen (Die subjektive Beurteilung von Unfallgefahren entspricht eher der Erwähnungshäufigkeit in den Medien als der tatsächlichen Unfallstatistik, klassische Beispiele dafür sind zu hoch eingeschätzte Eintrittswahrscheinlichkeiten eines Haiangriffes oder eines Flugunfalls). Aber solche a-priori-Wahrscheinlichkeiten können bei wiederholten Experimenten unter Anwendung der Bayes-Formel zu a-posteriori-Wahrscheinlichkeiten führen, die bessere Schätzungen ermöglichen. Dies wird mit dem Schlagwort „Lernen aus Erfahrung“ umschrieben.": [
+    "Diese intuitive Wahrscheinlichkeitserfassung birgt eine Vielzahl von Stolpersteinen.",
+    "Stolpersteine der intuitiven Wahrscheinlichkeitserfassung liegen in der subjektiven Wahrnehmung.",
+    "In der subjektiven Wahrnehmung werden Risiken, wie etwa wegen erhöhter Geschwindigkeit zu verunfallen, tendenziell niedriger als die tatsächliche Wahrscheinlichkeit des Eintritts eingeschätzt.",
+    "In der subjektiven Wahrnehmung werden Chancen, wie etwa auf einen Lottogewinn, tendenziell höher als die tatsächliche Wahrscheinlichkeit des Eintritts eingeschätzt.",
+    "Stolpersteine der intuitiven Wahrscheinlichkeitserfassung liegen in asymmetrischen Informationen.",
+    "Die subjektive Beurteilung von Unfallgefahren entspricht eher der Erwähnungshäufigkeit in den Medien als der tatsächlichen Unfallstatistik.",
+    "Zu hoch eingeschätzte Eintrittswahrscheinlichkeiten eines Haiangriffes sind klassische Beispiele für die subjektive Beurteilung von Unfallgefahren.",
+    "Zu hoch eingeschätzte Eintrittswahrscheinlichkeiten eines Flugunfalls sind klassische Beispiele für die subjektive Beurteilung von Unfallgefahren.",
+    "A-priori-Wahrscheinlichkeiten können bei wiederholten Experimenten unter Anwendung der Bayes-Formel zu a-posteriori-Wahrscheinlichkeiten führen.",
+    "A-posteriori-Wahrscheinlichkeiten ermöglichen bessere Schätzungen.",
+    "Dies wird mit dem Schlagwort Lernen aus Erfahrung umschrieben."
+  ],
+  "Die axiomatische (auf Axiomen beruhende) Definition der Wahrscheinlichkeit nach Kolmogorow ist die heute für die Mathematik maßgebende Definition, siehe Axiome von Kolmogorow.": [
+    "Die axiomatische Definition der Wahrscheinlichkeit nach Kolmogorow beruht auf Axiomen.",
+    "Die axiomatische Definition der Wahrscheinlichkeit nach Kolmogorow ist die heute für die Mathematik maßgebende Definition."
+  ],
+  "Die Stochastik ist d oder die Mathematik der Daten und des Zufalls, also ein Teilgebiet der Mathematik und fasst als Oberbegriff die Gebiete Wahrscheinlichkeitstheorie und Mathematische Statistik zusammen.": [
+    "Die Stochastik ist die Mathematik des Zufalls.",
+    "Die Stochastik ist die Mathematik der Daten und des Zufalls.",
+    "Die Stochastik ist ein Teilgebiet der Mathematik.",
+    "Die Stochastik fasst als Oberbegriff die Gebiete Wahrscheinlichkeitstheorie und Mathematische Statistik zusammen."
+  ],
+  "Die Wahrscheinlichkeitsrechnung oder Wahrscheinlichkeitstheorie als Teilgebiet der Stochastik stellt die Begriffe zur mathematischen Modellierung von Vorgängen bereit,": [
+    "Die Wahrscheinlichkeitsrechnung ist ein Teilgebiet der Stochastik.",
+    "Die Wahrscheinlichkeitstheorie ist ein Teilgebiet der Stochastik.",
+    "Die Wahrscheinlichkeitsrechnung stellt die Begriffe zur mathematischen Modellierung von Vorgängen bereit.",
+    "Die Wahrscheinlichkeitstheorie stellt die Begriffe zur mathematischen Modellierung von Vorgängen bereit."
+  ],
+  "Wahrscheinlichkeiten sind Zahlen zwischen 0 und 1,": [
+    "Wahrscheinlichkeiten sind Zahlen zwischen 0 und 1"
+  ],
+  "Es wird oft behauptet, der Mensch besitze ein schlechtes Gefühl für die Wahrscheinlichkeit, man spricht in diesem Zusammenhang auch vom „Wahrscheinlichkeitsidioten“ (siehe auch Zahlenanalphabetismus). Dazu folgende Beispiele:": [
+    "Es wird oft behauptet, dass der Mensch ein schlechtes Gefühl für die Wahrscheinlichkeit besitze.",
+    "In diesem Zusammenhang spricht man auch vom „Wahrscheinlichkeitsidioten“."
+  ],
+  "Sie haben an einer Vorsorgeuntersuchung teilgenommen und einen positiven Befund erhalten. Sie wissen zusätzlich, dass Sie im Vergleich zur Gesamtbevölkerung keine besonderen Risikofaktoren für die diagnostizierte Krankheit aufweisen: Mit den Rechenmethoden der bedingten Wahrscheinlichkeit kann man das tatsächliche Risiko abschätzen, des Tests und die beobachtete Grundhäufigkeit der betreffenden Krankheit in der Gesamtbevölkerung. Behandlungen abzuwägen.": [
+    "Sie haben an einer Vorsorgeuntersuchung teilgenommen.",
+    "Sie haben einen positiven Befund erhalten.",
+    "Sie weisen im Vergleich zur Gesamtbevölkerung keine besonderen Risikofaktoren für die diagnostizierte Krankheit auf.",
+    "Mit den Rechenmethoden der bedingten Wahrscheinlichkeit kann man das tatsächliche Risiko abschätzen.",
+    "Für die Abschätzung des tatsächlichen Risikos werden die Rechenmethoden der bedingten Wahrscheinlichkeit genutzt.",
+    "Die Abschätzung des tatsächlichen Risikos basiert auf dem Test.",
+    "Die Abschätzung des tatsächlichen Risikos basiert auf der beobachteten Grundhäufigkeit der betreffenden Krankheit in der Gesamtbevölkerung."
+  ],
+  "Während über den mathematischen Umgang mit Wahrscheinlichkeiten weitgehend Einigkeit herrscht (siehe Wahrscheinlichkeitstheorie), besteht Uneinigkeit darüber, worauf die Rechenregeln der mathematischen Theorie angewendet werden dürfen. Dies führt zur Frage nach der Interpretation des Begriffs „Wahrscheinlichkeit“.": [
+    "Über den mathematischen Umgang mit Wahrscheinlichkeiten herrscht weitgehend Einigkeit.",
+    "Es besteht Uneinigkeit darüber, worauf die Rechenregeln der mathematischen Theorie angewendet werden dürfen.",
+    "Die Uneinigkeit über die Anwendung der Rechenregeln führt zur Frage nach der Interpretation des Begriffs „Wahrscheinlichkeit“."
+  ],
+  "Häufig wird „Wahrscheinlichkeit“ in zwei verschiedenen Zusammenhängen gebraucht:": [
+    "Der Begriff „Wahrscheinlichkeit“ wird häufig in zwei verschiedenen Zusammenhängen gebraucht."
+  ],
+  "Aleatorische Wahrscheinlichkeit (auch: ontische/objektive/statistische Wahrscheinlichkeit) beschreibt die relative Häufigkeit zukünftiger Ereignisse, die von einem zufälligen physikalischen Prozess bestimmt werden. Genauer unterscheidet man deterministische physikalische Prozesse, die mit ausreichend genauer Information im Prinzip vorhersagbar wären (Würfelwurf, Wettervorhersage), und nichtdeterministische Prozesse, die prinzipiell nicht vorhersagbar sind (radioaktiver Zerfall).": [
+    "Aleatorische Wahrscheinlichkeit beschreibt die relative Häufigkeit zukünftiger Ereignisse, die von einem zufälligen physikalischen Prozess bestimmt werden.",
+    "Aleatorische Wahrscheinlichkeit wird auch als ontische Wahrscheinlichkeit bezeichnet.",
+    "Aleatorische Wahrscheinlichkeit wird auch als objektive Wahrscheinlichkeit bezeichnet.",
+    "Aleatorische Wahrscheinlichkeit wird auch als statistische Wahrscheinlichkeit bezeichnet.",
+    "Man unterscheidet deterministische physikalische Prozesse, die mit ausreichend genauer Information im Prinzip vorhersagbar wären.",
+    "Der Würfelwurf ist ein Beispiel für einen deterministischen physikalischen Prozess.",
+    "Die Wettervorhersage ist ein Beispiel für einen deterministischen physikalischen Prozess.",
+    "Man unterscheidet nichtdeterministische Prozesse, die prinzipiell nicht vorhersagbar sind.",
+    "Der radioaktive Zerfall ist ein Beispiel für einen nichtdeterministischen Prozess."
+  ],
+  "Epistemische Wahrscheinlichkeit (auch: subjektive/personelle Wahrscheinlichkeit) beschreibt die Unsicherheit über Aussagen, bei denen kausale Zusammenhänge und Hintergründe nur unvollständig bekannt sind. Diese Aussagen können sich auf vergangene oder zukünftige Ereignisse beziehen. Naturgesetzen werden zum Beispiel gelegentlich epistemische Wahrscheinlichkeiten zugeordnet, ebenso Aussagen in Politik („Die Steuersenkung kommt mit 60 % Wahrscheinlichkeit.“), Wirtschaft oder Rechtsprechung.": [
+    "Epistemische Wahrscheinlichkeit beschreibt die Unsicherheit über Aussagen, bei denen kausale Zusammenhänge und Hintergründe nur unvollständig bekannt sind.",
+    "Epistemische Wahrscheinlichkeit wird auch als subjektive Wahrscheinlichkeit bezeichnet.",
+    "Epistemische Wahrscheinlichkeit wird auch als personelle Wahrscheinlichkeit bezeichnet.",
+    "Die Aussagen der epistemischen Wahrscheinlichkeit können sich auf vergangene Ereignisse beziehen.",
+    "Die Aussagen der epistemischen Wahrscheinlichkeit können sich auf zukünftige Ereignisse beziehen.",
+    "Naturgesetzen werden gelegentlich epistemische Wahrscheinlichkeiten zugeordnet.",
+    "Aussagen in Politik werden gelegentlich epistemische Wahrscheinlichkeiten zugeordnet.",
+    "Aussagen in Wirtschaft werden gelegentlich epistemische Wahrscheinlichkeiten zugeordnet.",
+    "Aussagen in Rechtsprechung werden gelegentlich epistemische Wahrscheinlichkeiten zugeordnet."
+  ],
+  "Aleatorische und epistemische Wahrscheinlichkeit sind lose mit dem frequentistischen und dem bayesschen Wahrscheinlichkeitsbegriff assoziiert.": [
+    "Aleatorische Wahrscheinlichkeit ist lose mit dem frequentistischen Wahrscheinlichkeitsbegriff assoziiert.",
+    "Aleatorische Wahrscheinlichkeit ist lose mit dem bayesschen Wahrscheinlichkeitsbegriff assoziiert.",
+    "Epistemische Wahrscheinlichkeit ist lose mit dem frequentistischen Wahrscheinlichkeitsbegriff assoziiert.",
+    "Epistemische Wahrscheinlichkeit ist lose mit dem bayesschen Wahrscheinlichkeitsbegriff assoziiert."
+  ],
+  "Es ist eine offene Frage, ob sich aleatorische Wahrscheinlichkeit auf epistemische Wahrscheinlichkeit reduzieren lässt (oder umgekehrt): Erscheint uns die Welt zufällig, weil wir nicht genug über sie wissen, oder gibt es fundamental zufällige Prozesse, wie etwa die Kopenhagener Deutung der Quantenmechanik annimmt? Obwohl für beide Standpunkte dieselben mathematischen Regeln zum Umgang mit Wahrscheinlichkeiten gelten, hat die jeweilige Sichtweise wichtige Konsequenzen dafür, welche mathematischen Modelle als gültig angesehen werden.": [
+    "Es ist eine offene Frage, ob sich aleatorische Wahrscheinlichkeit auf epistemische Wahrscheinlichkeit reduzieren lässt.",
+    "Es ist eine offene Frage, ob sich epistemische Wahrscheinlichkeit auf aleatorische Wahrscheinlichkeit reduzieren lässt.",
+    "Es stellt sich die Frage, ob die Welt uns erscheint, weil wir nicht genug über sie wissen, zufällig zu sein.",
+    "Es stellt sich die Frage, ob es fundamental zufällige Prozesse gibt, wie etwa die Kopenhagener Deutung der Quantenmechanik annimmt.",
+    "Für beide Standpunkte gelten dieselben mathematischen Regeln zum Umgang mit Wahrscheinlichkeiten.",
+    "Die jeweilige Sichtweise hat wichtige Konsequenzen dafür, welche mathematischen Modelle als gültig angesehen werden."
+  ]
+}

@@ -1,0 +1,944 @@
+{
+  "{\"candidate_indices\": [0, 80], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Rheinbrücke Schaffhausen–Feuerthalen wird von Veloland Schweiz unter der Brücke durch geführt.\"], \"source_fact_index\": 0, \"target_contexts\": [[\"Die Rheinbrücke Schaffhausen–Füerthalen wird vom Veloland Schweiz unter dem Namen 'unter dè Brugg durrè' geführt.\"], [\"Die Fahrbahnplatte teilt sich in drei Fahrstreifen mit insgesamt 13 Meter Breite.\", \"Die Fahrbahnplatte teilt sich in zwei Trottoirs mit jeweils 3 Meter Breite.\", \"Martin Schweizer schrieb den Artikel Die Feuerthaler Brücke wird erneuert in den Schaffhauser Nachrichten vom 17. September 2010.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 319,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [1, 3], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Rheinbrücke Schaffhausen–Feuerthalen wird von Veloland Schweiz unter der Brücke durch geführt.\", \"Es gilt als sicher, dass bei Schaffhausen schon zur Zeit der Gallier in Form einer Furt ein Rheinübergang vorhanden war.\"], \"source_fact_index\": 1, \"target_contexts\": [[\"Die Rheinbrücke Schaffhausen–Füerthalen wird vom Veloland Schweiz unter dem Namen 'unter dè Brugg durrè' geführt.\", \"Es gilt als sicher, dass man zu Gallier-Zeiten in Schaffhausen bereits eine Art von Furt als Rheinübergang hatte.\"], [\"Es gilt als sicher, dass man zu Gallier-Zeiten in Schaffhausen bereits eine Art von Furt als Rheinübergang hatte.\", \"Eine Rheinbrücke wurde erstmals im Jahr 1259 urkundlich erwähnt.\", \"Dieser Bau wurde wahrscheinlich vom Abt vom Kloster Allerheiligen beauftragt.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 371,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [2, 5], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Rheinbrücke Schaffhausen–Feuerthalen wird von Veloland Schweiz unter der Brücke durch geführt.\", \"Es gilt als sicher, dass bei Schaffhausen schon zur Zeit der Gallier in Form einer Furt ein Rheinübergang vorhanden war.\", \"Im Jahre 1259 wurde erstmals urkundlich eine Rheinbrücke erwähnt.\"], \"source_fact_index\": 2, \"target_contexts\": [[\"Die Rheinbrücke Schaffhausen–Füerthalen wird vom Veloland Schweiz unter dem Namen 'unter dè Brugg durrè' geführt.\", \"Es gilt als sicher, dass man zu Gallier-Zeiten in Schaffhausen bereits eine Art von Furt als Rheinübergang hatte.\", \"Eine Rheinbrücke wurde erstmals im Jahr 1259 urkundlich erwähnt.\"], [\"Dieser Bau wurde wahrscheinlich vom Abt vom Kloster Allerheiligen beauftragt.\", \"Der schmale, überdachte Holzsteg wurde im Frühsommer 1480 durch ein Hochwasser zerstört.\", \"Das hölzerne Nachfolgebauwerk ist von 1489 überliefert.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 409,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [3, 1], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Es gilt als sicher, dass bei Schaffhausen schon zur Zeit der Gallier in Form einer Furt ein Rheinübergang vorhanden war.\", \"Im Jahre 1259 wurde erstmals urkundlich eine Rheinbrücke erwähnt.\", \"Der Bau der Rheinbrücke wurde wahrscheinlich durch den Abt des Klosters Allerheiligen beauftragt.\"], \"source_fact_index\": 3, \"target_contexts\": [[\"Es gilt als sicher, dass man zu Gallier-Zeiten in Schaffhausen bereits eine Art von Furt als Rheinübergang hatte.\", \"Eine Rheinbrücke wurde erstmals im Jahr 1259 urkundlich erwähnt.\", \"Dieser Bau wurde wahrscheinlich vom Abt vom Kloster Allerheiligen beauftragt.\"], [\"Die Rheinbrücke Schaffhausen–Füerthalen wird vom Veloland Schweiz unter dem Namen 'unter dè Brugg durrè' geführt.\", \"Es gilt als sicher, dass man zu Gallier-Zeiten in Schaffhausen bereits eine Art von Furt als Rheinübergang hatte.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 389,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [4, 5], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Im Jahre 1259 wurde erstmals urkundlich eine Rheinbrücke erwähnt.\", \"Der Bau der Rheinbrücke wurde wahrscheinlich durch den Abt des Klosters Allerheiligen beauftragt.\", \"Der schmale, gedeckte Holzsteg wurde im Frühsommer 1480 durch ein Hochwasser zerstört.\"], \"source_fact_index\": 4, \"target_contexts\": [[\"Eine Rheinbrücke wurde erstmals im Jahr 1259 urkundlich erwähnt.\", \"Dieser Bau wurde wahrscheinlich vom Abt vom Kloster Allerheiligen beauftragt.\", \"Der schmale, überdachte Holzsteg wurde im Frühsommer 1480 durch ein Hochwasser zerstört.\"], [\"Dieser Bau wurde wahrscheinlich vom Abt vom Kloster Allerheiligen beauftragt.\", \"Der schmale, überdachte Holzsteg wurde im Frühsommer 1480 durch ein Hochwasser zerstört.\", \"Das hölzerne Nachfolgebauwerk ist von 1489 überliefert.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 387,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [5, 2], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Bau der Rheinbrücke wurde wahrscheinlich durch den Abt des Klosters Allerheiligen beauftragt.\", \"Der schmale, gedeckte Holzsteg wurde im Frühsommer 1480 durch ein Hochwasser zerstört.\", \"Das hölzerne Nachfolgebauwerk ist für 1489 dokumentiert.\"], \"source_fact_index\": 5, \"target_contexts\": [[\"Dieser Bau wurde wahrscheinlich vom Abt vom Kloster Allerheiligen beauftragt.\", \"Der schmale, überdachte Holzsteg wurde im Frühsommer 1480 durch ein Hochwasser zerstört.\", \"Das hölzerne Nachfolgebauwerk ist von 1489 überliefert.\"], [\"Die Rheinbrücke Schaffhausen–Füerthalen wird vom Veloland Schweiz unter dem Namen 'unter dè Brugg durrè' geführt.\", \"Es gilt als sicher, dass man zu Gallier-Zeiten in Schaffhausen bereits eine Art von Furt als Rheinübergang hatte.\", \"Eine Rheinbrücke wurde erstmals im Jahr 1259 urkundlich erwähnt.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 407,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [6, 9], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der schmale, gedeckte Holzsteg wurde im Frühsommer 1480 durch ein Hochwasser zerstört.\", \"Das hölzerne Nachfolgebauwerk ist für 1489 dokumentiert.\", \"Das hölzerne Nachfolgebauwerk wurde zwischen 1550 und 1611 durch eine steinerne Bogenbrücke mit acht Öffnungen ersetzt.\"], \"source_fact_index\": 6, \"target_contexts\": [[\"Der schmale, überdachte Holzsteg wurde im Frühsommer 1480 durch ein Hochwasser zerstört.\", \"Das hölzerne Nachfolgebauwerk ist von 1489 überliefert.\", \"Dieses Bauwerk wurde zwischen 1550 und 1611 durch eine Bogenbrücke aus Stein mit acht Öffnungen ersetzt.\"], [\"Die Steinbrücke wies wegen technischer Mängel häufig Schäden auf.\", \"Hochwasser haben Pfeiler zerstört.\", \"Zwei eingestürzte Bogenöffnungen mussten durch eine gedeckte Holzbrücke ersetzt werden.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 403,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [7, 8], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Das hölzerne Nachfolgebauwerk ist für 1489 dokumentiert.\", \"Das hölzerne Nachfolgebauwerk wurde zwischen 1550 und 1611 durch eine steinerne Bogenbrücke mit acht Öffnungen ersetzt.\", \"Die Steinbrücke wies wegen technischer Mängel häufig Schäden auf.\"], \"source_fact_index\": 7, \"target_contexts\": [[\"Das hölzerne Nachfolgebauwerk ist von 1489 überliefert.\", \"Dieses Bauwerk wurde zwischen 1550 und 1611 durch eine Bogenbrücke aus Stein mit acht Öffnungen ersetzt.\", \"Die Steinbrücke wies wegen technischer Mängel häufig Schäden auf.\"], [\"Dieses Bauwerk wurde zwischen 1550 und 1611 durch eine Bogenbrücke aus Stein mit acht Öffnungen ersetzt.\", \"Die Steinbrücke wies wegen technischer Mängel häufig Schäden auf.\", \"Hochwasser haben Pfeiler zerstört.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 393,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [8, 7], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Das hölzerne Nachfolgebauwerk wurde zwischen 1550 und 1611 durch eine steinerne Bogenbrücke mit acht Öffnungen ersetzt.\", \"Die Steinbrücke wies wegen technischer Mängel häufig Schäden auf.\", \"Hochwässer zerstörten Pfeiler der Steinbrücke.\"], \"source_fact_index\": 8, \"target_contexts\": [[\"Dieses Bauwerk wurde zwischen 1550 und 1611 durch eine Bogenbrücke aus Stein mit acht Öffnungen ersetzt.\", \"Die Steinbrücke wies wegen technischer Mängel häufig Schäden auf.\", \"Hochwasser haben Pfeiler zerstört.\"], [\"Das hölzerne Nachfolgebauwerk ist von 1489 überliefert.\", \"Dieses Bauwerk wurde zwischen 1550 und 1611 durch eine Bogenbrücke aus Stein mit acht Öffnungen ersetzt.\", \"Die Steinbrücke wies wegen technischer Mängel häufig Schäden auf.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 386,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [9, 6], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Steinbrücke wies wegen technischer Mängel häufig Schäden auf.\", \"Hochwässer zerstörten Pfeiler der Steinbrücke.\", \"Zwei eingestürzte Bogenöffnungen der Steinbrücke mussten durch eine gedeckte Holzbrücke ersetzt werden.\"], \"source_fact_index\": 9, \"target_contexts\": [[\"Die Steinbrücke wies wegen technischer Mängel häufig Schäden auf.\", \"Hochwasser haben Pfeiler zerstört.\", \"Zwei eingestürzte Bogenöffnungen mussten durch eine gedeckte Holzbrücke ersetzt werden.\"], [\"Der schmale, überdachte Holzsteg wurde im Frühsommer 1480 durch ein Hochwasser zerstört.\", \"Das hölzerne Nachfolgebauwerk ist von 1489 überliefert.\", \"Dieses Bauwerk wurde zwischen 1550 und 1611 durch eine Bogenbrücke aus Stein mit acht Öffnungen ersetzt.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 374,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [10, 8], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Hochwässer zerstörten Pfeiler der Steinbrücke.\", \"Zwei eingestürzte Bogenöffnungen der Steinbrücke mussten durch eine gedeckte Holzbrücke ersetzt werden.\", \"Am 3. Mai 1754 führte ein Hochwasser durch Unterspülung der Pfeiler zum kompletten Einsturz des Bauwerkes.\"], \"source_fact_index\": 10, \"target_contexts\": [[\"Hochwasser haben Pfeiler zerstört.\", \"Zwei eingestürzte Bogenöffnungen mussten durch eine gedeckte Holzbrücke ersetzt werden.\", \"Am 3. Mai 1754 führte ein Hochwasser durch Unterspülung der Pfeiler zum kompletten Einsturz des Bauwerks.\"], [\"Dieses Bauwerk wurde zwischen 1550 und 1611 durch eine Bogenbrücke aus Stein mit acht Öffnungen ersetzt.\", \"Die Steinbrücke wies wegen technischer Mängel häufig Schäden auf.\", \"Hochwasser haben Pfeiler zerstört.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 381,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [11, 10], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Zwei eingestürzte Bogenöffnungen der Steinbrücke mussten durch eine gedeckte Holzbrücke ersetzt werden.\", \"Am 3. Mai 1754 führte ein Hochwasser durch Unterspülung der Pfeiler zum kompletten Einsturz des Bauwerkes.\", \"Nach dem Einsturz am 3. Mai 1754 blieb nur ein Pfeiler stehen.\"], \"source_fact_index\": 11, \"target_contexts\": [[\"Zwei eingestürzte Bogenöffnungen mussten durch eine gedeckte Holzbrücke ersetzt werden.\", \"Am 3. Mai 1754 führte ein Hochwasser durch Unterspülung der Pfeiler zum kompletten Einsturz des Bauwerks.\", \"Nur ein Pfeiler blieb dort stehen.\"], [\"Hochwasser haben Pfeiler zerstört.\", \"Zwei eingestürzte Bogenöffnungen mussten durch eine gedeckte Holzbrücke ersetzt werden.\", \"Am 3. Mai 1754 führte ein Hochwasser durch Unterspülung der Pfeiler zum kompletten Einsturz des Bauwerks.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 396,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [12, 13], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Am 3. Mai 1754 führte ein Hochwasser durch Unterspülung der Pfeiler zum kompletten Einsturz des Bauwerkes.\", \"Nach dem Einsturz am 3. Mai 1754 blieb nur ein Pfeiler stehen.\", \"Am 2. Oktober 1755 beauftragte der Schaffhauser Stadtrat den Baumeister Hans Ulrich Grubenmann mit der Errichtung einer Holzbrücke.\"], \"source_fact_index\": 12, \"target_contexts\": [[\"Am 3. Mai 1754 führte ein Hochwasser durch Unterspülung der Pfeiler zum kompletten Einsturz des Bauwerks.\", \"Nur ein Pfeiler blieb dort stehen.\", \"Am 2. Oktober 1755 hat der Schaffhauser Stadtrat den Baumeister Hans Ulrich Grübenmann mit der Errichtung einer Holzbrücke beauftragt.\"], [\"Nur ein Pfeiler blieb dort stehen.\", \"Am 2. Oktober 1755 hat der Schaffhauser Stadtrat den Baumeister Hans Ulrich Grübenmann mit der Errichtung einer Holzbrücke beauftragt.\", \"Der Stadtrat hat die von Grübenmann vorgeschlagene Konstruktion mit einer Stützweite von 119 Metern abgelehnt.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 438,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [13, 12], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Nach dem Einsturz am 3. Mai 1754 blieb nur ein Pfeiler stehen.\", \"Am 2. Oktober 1755 beauftragte der Schaffhauser Stadtrat den Baumeister Hans Ulrich Grubenmann mit der Errichtung einer Holzbrücke.\", \"Der Schaffhauser Stadtrat lehnte die von Hans Ulrich Grubenmann vorgeschlagene Konstruktion mit 119 Meter Stützweite ab.\"], \"source_fact_index\": 13, \"target_contexts\": [[\"Nur ein Pfeiler blieb dort stehen.\", \"Am 2. Oktober 1755 hat der Schaffhauser Stadtrat den Baumeister Hans Ulrich Grübenmann mit der Errichtung einer Holzbrücke beauftragt.\", \"Der Stadtrat hat die von Grübenmann vorgeschlagene Konstruktion mit einer Stützweite von 119 Metern abgelehnt.\"], [\"Am 3. Mai 1754 führte ein Hochwasser durch Unterspülung der Pfeiler zum kompletten Einsturz des Bauwerks.\", \"Nur ein Pfeiler blieb dort stehen.\", \"Am 2. Oktober 1755 hat der Schaffhauser Stadtrat den Baumeister Hans Ulrich Grübenmann mit der Errichtung einer Holzbrücke beauftragt.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 437,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [14, 13], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Am 2. Oktober 1755 beauftragte der Schaffhauser Stadtrat den Baumeister Hans Ulrich Grubenmann mit der Errichtung einer Holzbrücke.\", \"Der Schaffhauser Stadtrat lehnte die von Hans Ulrich Grubenmann vorgeschlagene Konstruktion mit 119 Meter Stützweite ab.\", \"Der Schaffhauser Stadtrat traute der pfeilerlosen Konstruktion nicht.\"], \"source_fact_index\": 14, \"target_contexts\": [[\"Am 2. Oktober 1755 hat der Schaffhauser Stadtrat den Baumeister Hans Ulrich Grübenmann mit der Errichtung einer Holzbrücke beauftragt.\", \"Der Stadtrat hat die von Grübenmann vorgeschlagene Konstruktion mit einer Stützweite von 119 Metern abgelehnt.\", \"Der Stadtrat hat der pfeilerlosen Konstruktion nicht vertraut.\"], [\"Nur ein Pfeiler blieb dort stehen.\", \"Am 2. Oktober 1755 hat der Schaffhauser Stadtrat den Baumeister Hans Ulrich Grübenmann mit der Errichtung einer Holzbrücke beauftragt.\", \"Der Stadtrat hat die von Grübenmann vorgeschlagene Konstruktion mit einer Stützweite von 119 Metern abgelehnt.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 437,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [16, 15], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Schaffhauser Stadtrat lehnte die von Hans Ulrich Grubenmann vorgeschlagene Konstruktion mit 119 Meter Stützweite ab.\", \"Der Schaffhauser Stadtrat traute der pfeilerlosen Konstruktion nicht.\", \"Es kam eine Brücke mit Verwendung des bestehenden Pfeilers im Rhein und Stützweiten von 63 und 56 Metern zur Ausführung.\"], \"source_fact_index\": 15, \"target_contexts\": [[\"Der Stadtrat hat der pfeilerlosen Konstruktion nicht vertraut.\", \"Es wurde eine Brücke gebaut, bei der Pfeiler im Rhein gebraucht wurden, die schon dort gewesen sind.\", \"Die Brücke hatte eine Stützweite von 63 und 56 Metern.\"], [\"Der Stadtrat hat die von Grübenmann vorgeschlagene Konstruktion mit einer Stützweite von 119 Metern abgelehnt.\", \"Der Stadtrat hat der pfeilerlosen Konstruktion nicht vertraut.\", \"Es wurde eine Brücke gebaut, bei der Pfeiler im Rhein gebraucht wurden, die schon dort gewesen sind.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 400,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [17, 22], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Schaffhauser Stadtrat traute der pfeilerlosen Konstruktion nicht.\", \"Es kam eine Brücke mit Verwendung des bestehenden Pfeilers im Rhein und Stützweiten von 63 und 56 Metern zur Ausführung.\", \"Die Holzbrücke war mit 400‘000 Schindeln aus dem Schwarzwald gedeckt.\"], \"source_fact_index\": 16, \"target_contexts\": [[\"Es wurde eine Brücke gebaut, bei der Pfeiler im Rhein gebraucht wurden, die schon dort gewesen sind.\", \"Die Brücke hatte eine Stützweite von 63 und 56 Metern.\", \"Die überdachte Holzbrücke hatte ein Dach aus 400.000 Schindeln aus dem Schwarzwald.\"], [\"Die überdachte Holzbrücke hatte eine freie Höhe von 5 Metern.\", \"Für den Bau wurden 20 extra große Tannen, auch Dollbäume benannt, verwendet.\", \"Für den Bau wurden 400 normale Tannen verwendet.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 391,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [18, 23], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Es kam eine Brücke mit Verwendung des bestehenden Pfeilers im Rhein und Stützweiten von 63 und 56 Metern zur Ausführung.\", \"Die Holzbrücke war mit 400‘000 Schindeln aus dem Schwarzwald gedeckt.\", \"Die Holzbrücke wies zwischen der Tragkonstruktion seitlich angeordnete Sprengwerke auf.\"], \"source_fact_index\": 17, \"target_contexts\": [[\"Die Brücke hatte eine Stützweite von 63 und 56 Metern.\", \"Die überdachte Holzbrücke hatte ein Dach aus 400.000 Schindeln aus dem Schwarzwald.\", \"Die überdachte Holzbrücke wies zwischen der Trägerkonstruktion ein seitlich angeordnetes Sprängwerk auf.\"], [\"Für den Bau wurden 20 extra große Tannen, auch Dollbäume benannt, verwendet.\", \"Für den Bau wurden 400 normale Tannen verwendet.\", \"Das für den Bau verwendete Holz wurde im Bregenzerwald geschlagen und nach Schaffhausen geflossen.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 404,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [19, 20], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Holzbrücke war mit 400‘000 Schindeln aus dem Schwarzwald gedeckt.\", \"Die Holzbrücke wies zwischen der Tragkonstruktion seitlich angeordnete Sprengwerke auf.\", \"Die Holzbrücke hatte eine lichte Breite von 4,5 Metern.\"], \"source_fact_index\": 18, \"target_contexts\": [[\"Die überdachte Holzbrücke hatte ein Dach aus 400.000 Schindeln aus dem Schwarzwald.\", \"Die überdachte Holzbrücke wies zwischen der Trägerkonstruktion ein seitlich angeordnetes Sprängwerk auf.\", \"Die überdachte Holzbrücke hatte eine lichte Breite von 4,5 Metern.\"], [\"Die überdachte Holzbrücke wies zwischen der Trägerkonstruktion ein seitlich angeordnetes Sprängwerk auf.\", \"Die überdachte Holzbrücke hatte eine lichte Breite von 4,5 Metern.\", \"Die überdachte Holzbrücke hatte eine freie Höhe von 5 Metern.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 396,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [20, 19], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Holzbrücke wies zwischen der Tragkonstruktion seitlich angeordnete Sprengwerke auf.\", \"Die Holzbrücke hatte eine lichte Breite von 4,5 Metern.\", \"Die Holzbrücke besass eine freie Höhe von 5 Metern.\"], \"source_fact_index\": 19, \"target_contexts\": [[\"Die überdachte Holzbrücke wies zwischen der Trägerkonstruktion ein seitlich angeordnetes Sprängwerk auf.\", \"Die überdachte Holzbrücke hatte eine lichte Breite von 4,5 Metern.\", \"Die überdachte Holzbrücke hatte eine freie Höhe von 5 Metern.\"], [\"Die überdachte Holzbrücke hatte ein Dach aus 400.000 Schindeln aus dem Schwarzwald.\", \"Die überdachte Holzbrücke wies zwischen der Trägerkonstruktion ein seitlich angeordnetes Sprängwerk auf.\", \"Die überdachte Holzbrücke hatte eine lichte Breite von 4,5 Metern.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 386,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [21, 22], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Holzbrücke hatte eine lichte Breite von 4,5 Metern.\", \"Die Holzbrücke besass eine freie Höhe von 5 Metern.\", \"Für den Bau wurden 20 extra grosse Tannen, auch Dollbäume genannt, verwendet.\"], \"source_fact_index\": 20, \"target_contexts\": [[\"Die überdachte Holzbrücke hatte eine lichte Breite von 4,5 Metern.\", \"Die überdachte Holzbrücke hatte eine freie Höhe von 5 Metern.\", \"Für den Bau wurden 20 extra große Tannen, auch Dollbäume benannt, verwendet.\"], [\"Die überdachte Holzbrücke hatte eine freie Höhe von 5 Metern.\", \"Für den Bau wurden 20 extra große Tannen, auch Dollbäume benannt, verwendet.\", \"Für den Bau wurden 400 normale Tannen verwendet.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 358,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [22, 21], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Holzbrücke besass eine freie Höhe von 5 Metern.\", \"Für den Bau wurden 20 extra grosse Tannen, auch Dollbäume genannt, verwendet.\", \"Für den Bau wurden 400 normale Tannen verwendet.\"], \"source_fact_index\": 21, \"target_contexts\": [[\"Die überdachte Holzbrücke hatte eine freie Höhe von 5 Metern.\", \"Für den Bau wurden 20 extra große Tannen, auch Dollbäume benannt, verwendet.\", \"Für den Bau wurden 400 normale Tannen verwendet.\"], [\"Die überdachte Holzbrücke hatte eine lichte Breite von 4,5 Metern.\", \"Die überdachte Holzbrücke hatte eine freie Höhe von 5 Metern.\", \"Für den Bau wurden 20 extra große Tannen, auch Dollbäume benannt, verwendet.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 355,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [23, 22], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Für den Bau wurden 20 extra grosse Tannen, auch Dollbäume genannt, verwendet.\", \"Für den Bau wurden 400 normale Tannen verwendet.\", \"Das für den Bau verwendete Holz wurde im Bregenzerwald geschlagen.\"], \"source_fact_index\": 22, \"target_contexts\": [[\"Für den Bau wurden 20 extra große Tannen, auch Dollbäume benannt, verwendet.\", \"Für den Bau wurden 400 normale Tannen verwendet.\", \"Das für den Bau verwendete Holz wurde im Bregenzerwald geschlagen und nach Schaffhausen geflossen.\"], [\"Die überdachte Holzbrücke hatte eine freie Höhe von 5 Metern.\", \"Für den Bau wurden 20 extra große Tannen, auch Dollbäume benannt, verwendet.\", \"Für den Bau wurden 400 normale Tannen verwendet.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 355,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [23, 22], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Für den Bau wurden 400 normale Tannen verwendet.\", \"Das für den Bau verwendete Holz wurde im Bregenzerwald geschlagen.\", \"Das für den Bau verwendete Holz wurde nach Schaffhausen geflösst.\"], \"source_fact_index\": 23, \"target_contexts\": [[\"Für den Bau wurden 20 extra große Tannen, auch Dollbäume benannt, verwendet.\", \"Für den Bau wurden 400 normale Tannen verwendet.\", \"Das für den Bau verwendete Holz wurde im Bregenzerwald geschlagen und nach Schaffhausen geflossen.\"], [\"Die überdachte Holzbrücke hatte eine freie Höhe von 5 Metern.\", \"Für den Bau wurden 20 extra große Tannen, auch Dollbäume benannt, verwendet.\", \"Für den Bau wurden 400 normale Tannen verwendet.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 350,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [24, 27], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Das für den Bau verwendete Holz wurde im Bregenzerwald geschlagen.\", \"Das für den Bau verwendete Holz wurde nach Schaffhausen geflösst.\", \"Die Eröffnung des Bauwerks war am 2. Oktober 1758.\"], \"source_fact_index\": 24, \"target_contexts\": [[\"Für den Bau wurden 400 normale Tannen verwendet.\", \"Das für den Bau verwendete Holz wurde im Bregenzerwald geschlagen und nach Schaffhausen geflossen.\", \"Die Brücke wurde am 2. Oktober 1758 eröffnet.\"], [\"Am 13. April 1799 legten französische Truppen durch Brandstiftung die dritte Rheinbrücke in Schutt und Asche.\", \"Die französischen Truppen befanden sich am 13. April 1799 auf dem Rückzug von der Schlacht bei Stockach.\", \"Die französischen Truppen haben die Schlacht bei Stockach im zweiten Koalitionskrieg verloren.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 379,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [25, 26], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Das für den Bau verwendete Holz wurde nach Schaffhausen geflösst.\", \"Die Eröffnung des Bauwerks war am 2. Oktober 1758.\", \"Am 13. April 1799 zerstörten französische Truppen durch einen gelegten Brand die dritte Rheinbrücke.\"], \"source_fact_index\": 25, \"target_contexts\": [[\"Das für den Bau verwendete Holz wurde im Bregenzerwald geschlagen und nach Schaffhausen geflossen.\", \"Die Brücke wurde am 2. Oktober 1758 eröffnet.\", \"Am 13. April 1799 legten französische Truppen durch Brandstiftung die dritte Rheinbrücke in Schutt und Asche.\"], [\"Die Brücke wurde am 2. Oktober 1758 eröffnet.\", \"Am 13. April 1799 legten französische Truppen durch Brandstiftung die dritte Rheinbrücke in Schutt und Asche.\", \"Die französischen Truppen befanden sich am 13. April 1799 auf dem Rückzug von der Schlacht bei Stockach.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 410,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [26, 27], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Eröffnung des Bauwerks war am 2. Oktober 1758.\", \"Am 13. April 1799 zerstörten französische Truppen durch einen gelegten Brand die dritte Rheinbrücke.\", \"Die französischen Truppen befanden sich am 13. April 1799 auf dem Rückzug von der im zweiten Koalitionskrieg verlorenen Schlacht bei Stockach.\"], \"source_fact_index\": 26, \"target_contexts\": [[\"Die Brücke wurde am 2. Oktober 1758 eröffnet.\", \"Am 13. April 1799 legten französische Truppen durch Brandstiftung die dritte Rheinbrücke in Schutt und Asche.\", \"Die französischen Truppen befanden sich am 13. April 1799 auf dem Rückzug von der Schlacht bei Stockach.\"], [\"Am 13. April 1799 legten französische Truppen durch Brandstiftung die dritte Rheinbrücke in Schutt und Asche.\", \"Die französischen Truppen befanden sich am 13. April 1799 auf dem Rückzug von der Schlacht bei Stockach.\", \"Die französischen Truppen haben die Schlacht bei Stockach im zweiten Koalitionskrieg verloren.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 442,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [28, 27], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Am 13. April 1799 zerstörten französische Truppen durch einen gelegten Brand die dritte Rheinbrücke.\", \"Die französischen Truppen befanden sich am 13. April 1799 auf dem Rückzug von der im zweiten Koalitionskrieg verlorenen Schlacht bei Stockach.\", \"Das Originalmodell der Brücke ist im Museum zu Allerheiligen in Schaffhausen zu besichtigen.\"], \"source_fact_index\": 27, \"target_contexts\": [[\"Die französischen Truppen befanden sich am 13. April 1799 auf dem Rückzug von der Schlacht bei Stockach.\", \"Die französischen Truppen haben die Schlacht bei Stockach im zweiten Koalitionskrieg verloren.\", \"Das Originalmodell der Brücke ist im Museum Allerheiligen in Schaffhausen zu besichtigen.\"], [\"Am 13. April 1799 legten französische Truppen durch Brandstiftung die dritte Rheinbrücke in Schutt und Asche.\", \"Die französischen Truppen befanden sich am 13. April 1799 auf dem Rückzug von der Schlacht bei Stockach.\", \"Die französischen Truppen haben die Schlacht bei Stockach im zweiten Koalitionskrieg verloren.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 434,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [29, 31], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die französischen Truppen befanden sich am 13. April 1799 auf dem Rückzug von der im zweiten Koalitionskrieg verlorenen Schlacht bei Stockach.\", \"Das Originalmodell der Brücke ist im Museum zu Allerheiligen in Schaffhausen zu besichtigen.\", \"Eine Sage erzählt, dass Grubenmann die Auflagen des Stadtrates bezüglich Stützpfeilers missachtete.\"], \"source_fact_index\": 28, \"target_contexts\": [[\"Die französischen Truppen haben die Schlacht bei Stockach im zweiten Koalitionskrieg verloren.\", \"Das Originalmodell der Brücke ist im Museum Allerheiligen in Schaffhausen zu besichtigen.\", \"Es wird erzählt, dass der Grübenmann die Auflagen des Stadtrats bezüglich Stützpfeiler missachtet hat.\"], [\"Es wird erzählt, dass der Grübenmann die Auflagen des Stadtrats bezüglich Stützpfeiler missachtet hat.\", \"Die Brücke war angeblich so konstruiert, dass sie auch ohne Stützpfeiler stabil genug gewesen wäre.\", \"Der Grübenmann schlug bei der Eröffnung der Brücke die Keile zwischen Brücke und Pfeiler weg.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 424,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [30, 32], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Das Originalmodell der Brücke ist im Museum zu Allerheiligen in Schaffhausen zu besichtigen.\", \"Eine Sage erzählt, dass Grubenmann die Auflagen des Stadtrates bezüglich Stützpfeilers missachtete.\", \"Die Brücke sei so konstruiert gewesen, dass sie auch ohne Stützpfeiler tragfähig gewesen wäre.\"], \"source_fact_index\": 29, \"target_contexts\": [[\"Das Originalmodell der Brücke ist im Museum Allerheiligen in Schaffhausen zu besichtigen.\", \"Es wird erzählt, dass der Grübenmann die Auflagen des Stadtrats bezüglich Stützpfeiler missachtet hat.\", \"Die Brücke war angeblich so konstruiert, dass sie auch ohne Stützpfeiler stabil genug gewesen wäre.\"], [\"Die Brücke war angeblich so konstruiert, dass sie auch ohne Stützpfeiler stabil genug gewesen wäre.\", \"Der Grübenmann schlug bei der Eröffnung der Brücke die Keile zwischen Brücke und Pfeiler weg.\", \"Der Grübenmann sagte bei der Eröffnung der Brücke: 'Da habt ihr eure Pfeiler, aber ich habe meine Brücke.'\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 416,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [31, 32], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Eine Sage erzählt, dass Grubenmann die Auflagen des Stadtrates bezüglich Stützpfeilers missachtete.\", \"Die Brücke sei so konstruiert gewesen, dass sie auch ohne Stützpfeiler tragfähig gewesen wäre.\", \"Bei der Eröffnung der Brücke habe Grubenmann die Keile zwischen Brücke und Pfeiler weggeschlagen.\"], \"source_fact_index\": 30, \"target_contexts\": [[\"Es wird erzählt, dass der Grübenmann die Auflagen des Stadtrats bezüglich Stützpfeiler missachtet hat.\", \"Die Brücke war angeblich so konstruiert, dass sie auch ohne Stützpfeiler stabil genug gewesen wäre.\", \"Der Grübenmann schlug bei der Eröffnung der Brücke die Keile zwischen Brücke und Pfeiler weg.\"], [\"Die Brücke war angeblich so konstruiert, dass sie auch ohne Stützpfeiler stabil genug gewesen wäre.\", \"Der Grübenmann schlug bei der Eröffnung der Brücke die Keile zwischen Brücke und Pfeiler weg.\", \"Der Grübenmann sagte bei der Eröffnung der Brücke: 'Da habt ihr eure Pfeiler, aber ich habe meine Brücke.'\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 424,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [32, 31], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Brücke sei so konstruiert gewesen, dass sie auch ohne Stützpfeiler tragfähig gewesen wäre.\", \"Bei der Eröffnung der Brücke habe Grubenmann die Keile zwischen Brücke und Pfeiler weggeschlagen.\", \"Bei der Eröffnung der Brücke habe Grubenmann gesagt: «Da habt ihr euren Pfeiler, aber ich habe meine Brücke.»\"], \"source_fact_index\": 31, \"target_contexts\": [[\"Die Brücke war angeblich so konstruiert, dass sie auch ohne Stützpfeiler stabil genug gewesen wäre.\", \"Der Grübenmann schlug bei der Eröffnung der Brücke die Keile zwischen Brücke und Pfeiler weg.\", \"Der Grübenmann sagte bei der Eröffnung der Brücke: 'Da habt ihr eure Pfeiler, aber ich habe meine Brücke.'\"], [\"Es wird erzählt, dass der Grübenmann die Auflagen des Stadtrats bezüglich Stützpfeiler missachtet hat.\", \"Die Brücke war angeblich so konstruiert, dass sie auch ohne Stützpfeiler stabil genug gewesen wäre.\", \"Der Grübenmann schlug bei der Eröffnung der Brücke die Keile zwischen Brücke und Pfeiler weg.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 427,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [21, 15], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Bei der Eröffnung der Brücke habe Grubenmann die Keile zwischen Brücke und Pfeiler weggeschlagen.\", \"Bei der Eröffnung der Brücke habe Grubenmann gesagt: «Da habt ihr euren Pfeiler, aber ich habe meine Brücke.»\", \"Die Geschichte gehört ins Reich der Legenden, weil das ausgeführte Bauwerk wegen der Mitbenutzung des alten Pfeilers einen leichten Knick im Grundriss hatte.\"], \"source_fact_index\": 32, \"target_contexts\": [[\"Die überdachte Holzbrücke hatte eine lichte Breite von 4,5 Metern.\", \"Die überdachte Holzbrücke hatte eine freie Höhe von 5 Metern.\", \"Für den Bau wurden 20 extra große Tannen, auch Dollbäume benannt, verwendet.\"], [\"Der Stadtrat hat die von Grübenmann vorgeschlagene Konstruktion mit einer Stützweite von 119 Metern abgelehnt.\", \"Der Stadtrat hat der pfeilerlosen Konstruktion nicht vertraut.\", \"Es wurde eine Brücke gebaut, bei der Pfeiler im Rhein gebraucht wurden, die schon dort gewesen sind.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 414,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [14, 15], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Bei der Eröffnung der Brücke habe Grubenmann gesagt: «Da habt ihr euren Pfeiler, aber ich habe meine Brücke.»\", \"Die Geschichte gehört ins Reich der Legenden, weil das ausgeführte Bauwerk wegen der Mitbenutzung des alten Pfeilers einen leichten Knick im Grundriss hatte.\", \"Die Brücke hätte ohne diesen Pfeiler den auftretenden Kräften nicht standgehalten.\"], \"source_fact_index\": 33, \"target_contexts\": [[\"Am 2. Oktober 1755 hat der Schaffhauser Stadtrat den Baumeister Hans Ulrich Grübenmann mit der Errichtung einer Holzbrücke beauftragt.\", \"Der Stadtrat hat die von Grübenmann vorgeschlagene Konstruktion mit einer Stützweite von 119 Metern abgelehnt.\", \"Der Stadtrat hat der pfeilerlosen Konstruktion nicht vertraut.\"], [\"Der Stadtrat hat die von Grübenmann vorgeschlagene Konstruktion mit einer Stützweite von 119 Metern abgelehnt.\", \"Der Stadtrat hat der pfeilerlosen Konstruktion nicht vertraut.\", \"Es wurde eine Brücke gebaut, bei der Pfeiler im Rhein gebraucht wurden, die schon dort gewesen sind.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 432,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [18, 15], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Geschichte gehört ins Reich der Legenden, weil das ausgeführte Bauwerk wegen der Mitbenutzung des alten Pfeilers einen leichten Knick im Grundriss hatte.\", \"Die Brücke hätte ohne diesen Pfeiler den auftretenden Kräften nicht standgehalten.\", \"Die Brücke hatte trotz des Mittelpfeilers auch durchlaufende Tragwerksteile.\"], \"source_fact_index\": 34, \"target_contexts\": [[\"Die Brücke hatte eine Stützweite von 63 und 56 Metern.\", \"Die überdachte Holzbrücke hatte ein Dach aus 400.000 Schindeln aus dem Schwarzwald.\", \"Die überdachte Holzbrücke wies zwischen der Trägerkonstruktion ein seitlich angeordnetes Sprängwerk auf.\"], [\"Der Stadtrat hat die von Grübenmann vorgeschlagene Konstruktion mit einer Stützweite von 119 Metern abgelehnt.\", \"Der Stadtrat hat der pfeilerlosen Konstruktion nicht vertraut.\", \"Es wurde eine Brücke gebaut, bei der Pfeiler im Rhein gebraucht wurden, die schon dort gewesen sind.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 412,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [14, 18], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Brücke hätte ohne diesen Pfeiler den auftretenden Kräften nicht standgehalten.\", \"Die Brücke hatte trotz des Mittelpfeilers auch durchlaufende Tragwerksteile.\", \"Die durchlaufenden Tragwerksteile sind einerseits als Überbleibsel des vorhergehenden Entwurfs ohne Mittelpfeiler zu sehen.\"], \"source_fact_index\": 35, \"target_contexts\": [[\"Am 2. Oktober 1755 hat der Schaffhauser Stadtrat den Baumeister Hans Ulrich Grübenmann mit der Errichtung einer Holzbrücke beauftragt.\", \"Der Stadtrat hat die von Grübenmann vorgeschlagene Konstruktion mit einer Stützweite von 119 Metern abgelehnt.\", \"Der Stadtrat hat der pfeilerlosen Konstruktion nicht vertraut.\"], [\"Die Brücke hatte eine Stützweite von 63 und 56 Metern.\", \"Die überdachte Holzbrücke hatte ein Dach aus 400.000 Schindeln aus dem Schwarzwald.\", \"Die überdachte Holzbrücke wies zwischen der Trägerkonstruktion ein seitlich angeordnetes Sprängwerk auf.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 421,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [13, 23], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Brücke hatte trotz des Mittelpfeilers auch durchlaufende Tragwerksteile.\", \"Die durchlaufenden Tragwerksteile sind einerseits als Überbleibsel des vorhergehenden Entwurfs ohne Mittelpfeiler zu sehen.\", \"Die durchlaufenden Tragwerksteile sind anderseits darauf zurückzuführen, dass Grubenmann rein nach Erfahrungswerten arbeitete.\"], \"source_fact_index\": 36, \"target_contexts\": [[\"Nur ein Pfeiler blieb dort stehen.\", \"Am 2. Oktober 1755 hat der Schaffhauser Stadtrat den Baumeister Hans Ulrich Grübenmann mit der Errichtung einer Holzbrücke beauftragt.\", \"Der Stadtrat hat die von Grübenmann vorgeschlagene Konstruktion mit einer Stützweite von 119 Metern abgelehnt.\"], [\"Für den Bau wurden 20 extra große Tannen, auch Dollbäume benannt, verwendet.\", \"Für den Bau wurden 400 normale Tannen verwendet.\", \"Das für den Bau verwendete Holz wurde im Bregenzerwald geschlagen und nach Schaffhausen geflossen.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 405,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [14, 13], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die durchlaufenden Tragwerksteile sind einerseits als Überbleibsel des vorhergehenden Entwurfs ohne Mittelpfeiler zu sehen.\", \"Die durchlaufenden Tragwerksteile sind anderseits darauf zurückzuführen, dass Grubenmann rein nach Erfahrungswerten arbeitete.\", \"Grubenmann kannte noch keine Berechnungsmethoden.\"], \"source_fact_index\": 37, \"target_contexts\": [[\"Am 2. Oktober 1755 hat der Schaffhauser Stadtrat den Baumeister Hans Ulrich Grübenmann mit der Errichtung einer Holzbrücke beauftragt.\", \"Der Stadtrat hat die von Grübenmann vorgeschlagene Konstruktion mit einer Stützweite von 119 Metern abgelehnt.\", \"Der Stadtrat hat der pfeilerlosen Konstruktion nicht vertraut.\"], [\"Nur ein Pfeiler blieb dort stehen.\", \"Am 2. Oktober 1755 hat der Schaffhauser Stadtrat den Baumeister Hans Ulrich Grübenmann mit der Errichtung einer Holzbrücke beauftragt.\", \"Der Stadtrat hat die von Grübenmann vorgeschlagene Konstruktion mit einer Stützweite von 119 Metern abgelehnt.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 423,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [38, 42], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die durchlaufenden Tragwerksteile sind anderseits darauf zurückzuführen, dass Grubenmann rein nach Erfahrungswerten arbeitete.\", \"Grubenmann kannte noch keine Berechnungsmethoden.\", \"Schaffhausen beauftragte im Jahre 1804 den Werkmeister Andreas Widtmer mit dem Bau der vierten und letzten hölzernen Rheinbrücke.\"], \"source_fact_index\": 38, \"target_contexts\": [[\"In der Natur wird Symmetrie oft mit Schönheit und Effizienz assoziiert.\", \"Die bilaterale Symmetrie des menschlichen Körpers ist ein Hauptmerkmal der Wirbeltieranatomie.\", \"Schaffhausen beauftragte im Jahr 1804 den Werkmeister Andreas Widtmer mit dem Bau der vierten und letzten Rheinbrücke aus Holz.\"], [\"Die offene Holzbrücke überspannte den Rhein mit sieben bogenförmig geschwungenen Öffnungen.\", \"Die bogenförmig geschwungenen Öffnungen ruhten auf Pfohljoch.\", \"Alle 7 bis 20 Jahre mussten größere Instandsetzungsmaßnahmen durchgeführt werden.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 413,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [39, 40], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Grubenmann kannte noch keine Berechnungsmethoden.\", \"Schaffhausen beauftragte im Jahre 1804 den Werkmeister Andreas Widtmer mit dem Bau der vierten und letzten hölzernen Rheinbrücke.\", \"Die offene Holzbrücke war zwischen den Geländern 8 Meter breit.\"], \"source_fact_index\": 39, \"target_contexts\": [[\"Die bilaterale Symmetrie des menschlichen Körpers ist ein Hauptmerkmal der Wirbeltieranatomie.\", \"Schaffhausen beauftragte im Jahr 1804 den Werkmeister Andreas Widtmer mit dem Bau der vierten und letzten Rheinbrücke aus Holz.\", \"Die offene Holzbrücke war zwischen den Geländern 8 Meter breit.\"], [\"Schaffhausen beauftragte im Jahr 1804 den Werkmeister Andreas Widtmer mit dem Bau der vierten und letzten Rheinbrücke aus Holz.\", \"Die offene Holzbrücke war zwischen den Geländern 8 Meter breit.\", \"Die offene Holzbrücke überspannte den Rhein mit sieben bogenförmig geschwungenen Öffnungen.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 413,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [40, 41], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Schaffhausen beauftragte im Jahre 1804 den Werkmeister Andreas Widtmer mit dem Bau der vierten und letzten hölzernen Rheinbrücke.\", \"Die offene Holzbrücke war zwischen den Geländern 8 Meter breit.\", \"Die offene Holzbrücke überspannte den Rhein mit sieben bogenförmig geschwungenen Öffnungen.\"], \"source_fact_index\": 40, \"target_contexts\": [[\"Schaffhausen beauftragte im Jahr 1804 den Werkmeister Andreas Widtmer mit dem Bau der vierten und letzten Rheinbrücke aus Holz.\", \"Die offene Holzbrücke war zwischen den Geländern 8 Meter breit.\", \"Die offene Holzbrücke überspannte den Rhein mit sieben bogenförmig geschwungenen Öffnungen.\"], [\"Die offene Holzbrücke war zwischen den Geländern 8 Meter breit.\", \"Die offene Holzbrücke überspannte den Rhein mit sieben bogenförmig geschwungenen Öffnungen.\", \"Die bogenförmig geschwungenen Öffnungen ruhten auf Pfohljoch.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 411,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [41, 40], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die offene Holzbrücke war zwischen den Geländern 8 Meter breit.\", \"Die offene Holzbrücke überspannte den Rhein mit sieben bogenförmig geschwungenen Öffnungen.\", \"Die bogenförmig geschwungenen Öffnungen der Brücke ruhten auf Pfahljochen.\"], \"source_fact_index\": 41, \"target_contexts\": [[\"Die offene Holzbrücke war zwischen den Geländern 8 Meter breit.\", \"Die offene Holzbrücke überspannte den Rhein mit sieben bogenförmig geschwungenen Öffnungen.\", \"Die bogenförmig geschwungenen Öffnungen ruhten auf Pfohljoch.\"], [\"Schaffhausen beauftragte im Jahr 1804 den Werkmeister Andreas Widtmer mit dem Bau der vierten und letzten Rheinbrücke aus Holz.\", \"Die offene Holzbrücke war zwischen den Geländern 8 Meter breit.\", \"Die offene Holzbrücke überspannte den Rhein mit sieben bogenförmig geschwungenen Öffnungen.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 396,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [42, 43], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die offene Holzbrücke überspannte den Rhein mit sieben bogenförmig geschwungenen Öffnungen.\", \"Die bogenförmig geschwungenen Öffnungen der Brücke ruhten auf Pfahljochen.\", \"Alle 7 bis 20 Jahre mussten an der Brücke grössere Instandsetzungsmassnahmen durchgeführt werden.\"], \"source_fact_index\": 42, \"target_contexts\": [[\"Die offene Holzbrücke überspannte den Rhein mit sieben bogenförmig geschwungenen Öffnungen.\", \"Die bogenförmig geschwungenen Öffnungen ruhten auf Pfohljoch.\", \"Alle 7 bis 20 Jahre mussten größere Instandsetzungsmaßnahmen durchgeführt werden.\"], [\"Die bogenförmig geschwungenen Öffnungen ruhten auf Pfohljoch.\", \"Alle 7 bis 20 Jahre mussten größere Instandsetzungsmaßnahmen durchgeführt werden.\", \"Die Instandsetzungsmaßnahmen wurden bis 1850 durch einen Brückenzoll finanziert.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 395,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [43, 38], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die bogenförmig geschwungenen Öffnungen der Brücke ruhten auf Pfahljochen.\", \"Alle 7 bis 20 Jahre mussten an der Brücke grössere Instandsetzungsmassnahmen durchgeführt werden.\", \"Die Instandsetzungsmassnahmen wurden bis 1850 durch einen Brückenzoll finanziert.\"], \"source_fact_index\": 43, \"target_contexts\": [[\"Die bogenförmig geschwungenen Öffnungen ruhten auf Pfohljoch.\", \"Alle 7 bis 20 Jahre mussten größere Instandsetzungsmaßnahmen durchgeführt werden.\", \"Die Instandsetzungsmaßnahmen wurden bis 1850 durch einen Brückenzoll finanziert.\"], [\"In der Natur wird Symmetrie oft mit Schönheit und Effizienz assoziiert.\", \"Die bilaterale Symmetrie des menschlichen Körpers ist ein Hauptmerkmal der Wirbeltieranatomie.\", \"Schaffhausen beauftragte im Jahr 1804 den Werkmeister Andreas Widtmer mit dem Bau der vierten und letzten Rheinbrücke aus Holz.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 407,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [35, 33], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Alle 7 bis 20 Jahre mussten an der Brücke grössere Instandsetzungsmassnahmen durchgeführt werden.\", \"Die Instandsetzungsmassnahmen wurden bis 1850 durch einen Brückenzoll finanziert.\", \"Die Europäische Union (EU) ist eine supranationale Organisation.\"], \"source_fact_index\": 44, \"target_contexts\": [[\"Symmetrie ist ein grundlegendes Konzept in der Geometrie, der Physik und der Kunst.\", \"Symmetrie beschreibt eine ausgewogene und proportionale Ähnlichkeit über eine Teilung hinweg.\", \"Ein symmetrisches Objekt ist eines, das gegenüber einer bestimmten Transformation, wie Rotation oder Spiegelung, invariant ist.\"], [\"Der Grübenmann schlug bei der Eröffnung der Brücke die Keile zwischen Brücke und Pfeiler weg.\", \"Der Grübenmann sagte bei der Eröffnung der Brücke: 'Da habt ihr eure Pfeiler, aber ich habe meine Brücke.'\", \"Symmetrie ist ein grundlegendes Konzept in der Geometrie, der Physik und der Kunst.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 400,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [33, 35], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Instandsetzungsmassnahmen wurden bis 1850 durch einen Brückenzoll finanziert.\", \"Die Europäische Union (EU) ist eine supranationale Organisation.\", \"Die Europäische Union besteht aus 27 Mitgliedstaaten.\"], \"source_fact_index\": 45, \"target_contexts\": [[\"Der Grübenmann schlug bei der Eröffnung der Brücke die Keile zwischen Brücke und Pfeiler weg.\", \"Der Grübenmann sagte bei der Eröffnung der Brücke: 'Da habt ihr eure Pfeiler, aber ich habe meine Brücke.'\", \"Symmetrie ist ein grundlegendes Konzept in der Geometrie, der Physik und der Kunst.\"], [\"Symmetrie ist ein grundlegendes Konzept in der Geometrie, der Physik und der Kunst.\", \"Symmetrie beschreibt eine ausgewogene und proportionale Ähnlichkeit über eine Teilung hinweg.\", \"Ein symmetrisches Objekt ist eines, das gegenüber einer bestimmten Transformation, wie Rotation oder Spiegelung, invariant ist.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 387,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [33, 35], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Europäische Union (EU) ist eine supranationale Organisation.\", \"Die Europäische Union besteht aus 27 Mitgliedstaaten.\", \"Die Europäische Union wurde durch den Vertrag von Maastricht 1992 gegründet.\"], \"source_fact_index\": 46, \"target_contexts\": [[\"Der Grübenmann schlug bei der Eröffnung der Brücke die Keile zwischen Brücke und Pfeiler weg.\", \"Der Grübenmann sagte bei der Eröffnung der Brücke: 'Da habt ihr eure Pfeiler, aber ich habe meine Brücke.'\", \"Symmetrie ist ein grundlegendes Konzept in der Geometrie, der Physik und der Kunst.\"], [\"Symmetrie ist ein grundlegendes Konzept in der Geometrie, der Physik und der Kunst.\", \"Symmetrie beschreibt eine ausgewogene und proportionale Ähnlichkeit über eine Teilung hinweg.\", \"Ein symmetrisches Objekt ist eines, das gegenüber einer bestimmten Transformation, wie Rotation oder Spiegelung, invariant ist.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 381,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [33, 37], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Europäische Union besteht aus 27 Mitgliedstaaten.\", \"Die Europäische Union wurde durch den Vertrag von Maastricht 1992 gegründet.\", \"Die Europäische Union hat ihren Sitz in Brüssel.\"], \"source_fact_index\": 47, \"target_contexts\": [[\"Der Grübenmann schlug bei der Eröffnung der Brücke die Keile zwischen Brücke und Pfeiler weg.\", \"Der Grübenmann sagte bei der Eröffnung der Brücke: 'Da habt ihr eure Pfeiler, aber ich habe meine Brücke.'\", \"Symmetrie ist ein grundlegendes Konzept in der Geometrie, der Physik und der Kunst.\"], [\"Ein symmetrisches Objekt ist eines, das gegenüber einer bestimmten Transformation, wie Rotation oder Spiegelung, invariant ist.\", \"In der Natur wird Symmetrie oft mit Schönheit und Effizienz assoziiert.\", \"Die bilaterale Symmetrie des menschlichen Körpers ist ein Hauptmerkmal der Wirbeltieranatomie.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 377,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [33, 35], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Europäische Union wurde durch den Vertrag von Maastricht 1992 gegründet.\", \"Die Europäische Union hat ihren Sitz in Brüssel.\", \"Die Europäische Union verfolgt das Ziel, den Frieden zu sichern.\"], \"source_fact_index\": 48, \"target_contexts\": [[\"Der Grübenmann schlug bei der Eröffnung der Brücke die Keile zwischen Brücke und Pfeiler weg.\", \"Der Grübenmann sagte bei der Eröffnung der Brücke: 'Da habt ihr eure Pfeiler, aber ich habe meine Brücke.'\", \"Symmetrie ist ein grundlegendes Konzept in der Geometrie, der Physik und der Kunst.\"], [\"Symmetrie ist ein grundlegendes Konzept in der Geometrie, der Physik und der Kunst.\", \"Symmetrie beschreibt eine ausgewogene und proportionale Ähnlichkeit über eine Teilung hinweg.\", \"Ein symmetrisches Objekt ist eines, das gegenüber einer bestimmten Transformation, wie Rotation oder Spiegelung, invariant ist.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 381,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [37, 36], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Europäische Union hat ihren Sitz in Brüssel.\", \"Die Europäische Union verfolgt das Ziel, den Frieden zu sichern.\", \"Die Europäische Union verfolgt das Ziel, das wirtschaftliche Wohlergehen ihrer Bürger zu fördern.\"], \"source_fact_index\": 49, \"target_contexts\": [[\"Ein symmetrisches Objekt ist eines, das gegenüber einer bestimmten Transformation, wie Rotation oder Spiegelung, invariant ist.\", \"In der Natur wird Symmetrie oft mit Schönheit und Effizienz assoziiert.\", \"Die bilaterale Symmetrie des menschlichen Körpers ist ein Hauptmerkmal der Wirbeltieranatomie.\"], [\"Symmetrie beschreibt eine ausgewogene und proportionale Ähnlichkeit über eine Teilung hinweg.\", \"Ein symmetrisches Objekt ist eines, das gegenüber einer bestimmten Transformation, wie Rotation oder Spiegelung, invariant ist.\", \"In der Natur wird Symmetrie oft mit Schönheit und Effizienz assoziiert.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 371,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [37, 36], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Europäische Union verfolgt das Ziel, den Frieden zu sichern.\", \"Die Europäische Union verfolgt das Ziel, das wirtschaftliche Wohlergehen ihrer Bürger zu fördern.\", \"Die Europäische Union verfolgt das Ziel, das soziale Wohlergehen ihrer Bürger zu fördern.\"], \"source_fact_index\": 50, \"target_contexts\": [[\"Ein symmetrisches Objekt ist eines, das gegenüber einer bestimmten Transformation, wie Rotation oder Spiegelung, invariant ist.\", \"In der Natur wird Symmetrie oft mit Schönheit und Effizienz assoziiert.\", \"Die bilaterale Symmetrie des menschlichen Körpers ist ein Hauptmerkmal der Wirbeltieranatomie.\"], [\"Symmetrie beschreibt eine ausgewogene und proportionale Ähnlichkeit über eine Teilung hinweg.\", \"Ein symmetrisches Objekt ist eines, das gegenüber einer bestimmten Transformation, wie Rotation oder Spiegelung, invariant ist.\", \"In der Natur wird Symmetrie oft mit Schönheit und Effizienz assoziiert.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 379,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [33, 37], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Europäische Union verfolgt das Ziel, das wirtschaftliche Wohlergehen ihrer Bürger zu fördern.\", \"Die Europäische Union verfolgt das Ziel, das soziale Wohlergehen ihrer Bürger zu fördern.\", \"Die Europäische Kommission gehört zu den Hauptorganen der Europäischen Union.\"], \"source_fact_index\": 51, \"target_contexts\": [[\"Der Grübenmann schlug bei der Eröffnung der Brücke die Keile zwischen Brücke und Pfeiler weg.\", \"Der Grübenmann sagte bei der Eröffnung der Brücke: 'Da habt ihr eure Pfeiler, aber ich habe meine Brücke.'\", \"Symmetrie ist ein grundlegendes Konzept in der Geometrie, der Physik und der Kunst.\"], [\"Ein symmetrisches Objekt ist eines, das gegenüber einer bestimmten Transformation, wie Rotation oder Spiegelung, invariant ist.\", \"In der Natur wird Symmetrie oft mit Schönheit und Effizienz assoziiert.\", \"Die bilaterale Symmetrie des menschlichen Körpers ist ein Hauptmerkmal der Wirbeltieranatomie.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 390,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [33, 37], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Europäische Union verfolgt das Ziel, das soziale Wohlergehen ihrer Bürger zu fördern.\", \"Die Europäische Kommission gehört zu den Hauptorganen der Europäischen Union.\", \"Das Europäische Parlament gehört zu den Hauptorganen der Europäischen Union.\"], \"source_fact_index\": 52, \"target_contexts\": [[\"Der Grübenmann schlug bei der Eröffnung der Brücke die Keile zwischen Brücke und Pfeiler weg.\", \"Der Grübenmann sagte bei der Eröffnung der Brücke: 'Da habt ihr eure Pfeiler, aber ich habe meine Brücke.'\", \"Symmetrie ist ein grundlegendes Konzept in der Geometrie, der Physik und der Kunst.\"], [\"Ein symmetrisches Objekt ist eines, das gegenüber einer bestimmten Transformation, wie Rotation oder Spiegelung, invariant ist.\", \"In der Natur wird Symmetrie oft mit Schönheit und Effizienz assoziiert.\", \"Die bilaterale Symmetrie des menschlichen Körpers ist ein Hauptmerkmal der Wirbeltieranatomie.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 384,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [33, 37], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Europäische Kommission gehört zu den Hauptorganen der Europäischen Union.\", \"Das Europäische Parlament gehört zu den Hauptorganen der Europäischen Union.\", \"Der Rat der Europäischen Union gehört zu den Hauptorganen der Europäischen Union.\"], \"source_fact_index\": 53, \"target_contexts\": [[\"Der Grübenmann schlug bei der Eröffnung der Brücke die Keile zwischen Brücke und Pfeiler weg.\", \"Der Grübenmann sagte bei der Eröffnung der Brücke: 'Da habt ihr eure Pfeiler, aber ich habe meine Brücke.'\", \"Symmetrie ist ein grundlegendes Konzept in der Geometrie, der Physik und der Kunst.\"], [\"Ein symmetrisches Objekt ist eines, das gegenüber einer bestimmten Transformation, wie Rotation oder Spiegelung, invariant ist.\", \"In der Natur wird Symmetrie oft mit Schönheit und Effizienz assoziiert.\", \"Die bilaterale Symmetrie des menschlichen Körpers ist ein Hauptmerkmal der Wirbeltieranatomie.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 380,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [59, 60], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Das Europäische Parlament gehört zu den Hauptorganen der Europäischen Union.\", \"Der Rat der Europäischen Union gehört zu den Hauptorganen der Europäischen Union.\", \"Bis zur Eröffnung der A4-Stadtdurchfahrt und der A4 Schrägseilbrücke im Jahre 1995 führte ein Grossteil des Strassenverkehrs zwischen Stuttgart und Zürich über die neue Brücke.\"], \"source_fact_index\": 54, \"target_contexts\": [[\"Das Bauwerk wurde in den Jahren 1962 bis 1965 gebaut.\", \"Das Bauwerk hat 7 Millionen Franken gekostet.\", \"Bis die A4-Stadtdurchfahrt und die A4-Schrägseilbrücke im Jahr 1995 eröffnet wurden, ist ein Großteil des Straßenverkehrs zwischen Stuttgart und Zürich über die neue Brücke geflossen.\"], [\"Das Bauwerk hat 7 Millionen Franken gekostet.\", \"Bis die A4-Stadtdurchfahrt und die A4-Schrägseilbrücke im Jahr 1995 eröffnet wurden, ist ein Großteil des Straßenverkehrs zwischen Stuttgart und Zürich über die neue Brücke geflossen.\", \"Nach der Eröffnung der A4-Stadtdurchfahrt und der A4-Schrägseilbrücke ist vor allem der Transitverkehr über die Rheinbrücke nach Fürthaleen spürbar zurückgegangen.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 474,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [59, 60], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Rat der Europäischen Union gehört zu den Hauptorganen der Europäischen Union.\", \"Bis zur Eröffnung der A4-Stadtdurchfahrt und der A4 Schrägseilbrücke im Jahre 1995 führte ein Grossteil des Strassenverkehrs zwischen Stuttgart und Zürich über die neue Brücke.\", \"Nach der Eröffnung der A4-Stadtdurchfahrt und der A4 Schrägseilbrücke im Jahre 1995 flaute der Verkehr spürbar ab.\"], \"source_fact_index\": 55, \"target_contexts\": [[\"Das Bauwerk wurde in den Jahren 1962 bis 1965 gebaut.\", \"Das Bauwerk hat 7 Millionen Franken gekostet.\", \"Bis die A4-Stadtdurchfahrt und die A4-Schrägseilbrücke im Jahr 1995 eröffnet wurden, ist ein Großteil des Straßenverkehrs zwischen Stuttgart und Zürich über die neue Brücke geflossen.\"], [\"Das Bauwerk hat 7 Millionen Franken gekostet.\", \"Bis die A4-Stadtdurchfahrt und die A4-Schrägseilbrücke im Jahr 1995 eröffnet wurden, ist ein Großteil des Straßenverkehrs zwischen Stuttgart und Zürich über die neue Brücke geflossen.\", \"Nach der Eröffnung der A4-Stadtdurchfahrt und der A4-Schrägseilbrücke ist vor allem der Transitverkehr über die Rheinbrücke nach Fürthaleen spürbar zurückgegangen.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 500,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [61, 62], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Bis zur Eröffnung der A4-Stadtdurchfahrt und der A4 Schrägseilbrücke im Jahre 1995 führte ein Grossteil des Strassenverkehrs zwischen Stuttgart und Zürich über die neue Brücke.\", \"Nach der Eröffnung der A4-Stadtdurchfahrt und der A4 Schrägseilbrücke im Jahre 1995 flaute der Verkehr spürbar ab.\", \"Im Jahr 2009 passierten durchschnittlich 19‘000 Fahrzeuge pro Tag die Brücke.\"], \"source_fact_index\": 56, \"target_contexts\": [[\"Bis die A4-Stadtdurchfahrt und die A4-Schrägseilbrücke im Jahr 1995 eröffnet wurden, ist ein Großteil des Straßenverkehrs zwischen Stuttgart und Zürich über die neue Brücke geflossen.\", \"Nach der Eröffnung der A4-Stadtdurchfahrt und der A4-Schrägseilbrücke ist vor allem der Transitverkehr über die Rheinbrücke nach Fürthaleen spürbar zurückgegangen.\", \"Im Jahr 2009 haben durchschnittlich 19.000 Fahrzeuge pro Tag die Brücke überquert.\"], [\"Nach der Eröffnung der A4-Stadtdurchfahrt und der A4-Schrägseilbrücke ist vor allem der Transitverkehr über die Rheinbrücke nach Fürthaleen spürbar zurückgegangen.\", \"Im Jahr 2009 haben durchschnittlich 19.000 Fahrzeuge pro Tag die Brücke überquert.\", \"Die Tendenz der Fahrzeugzahlen auf der Brücke ist wieder steigend.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 531,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [62, 61], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Nach der Eröffnung der A4-Stadtdurchfahrt und der A4 Schrägseilbrücke im Jahre 1995 flaute der Verkehr spürbar ab.\", \"Im Jahr 2009 passierten durchschnittlich 19‘000 Fahrzeuge pro Tag die Brücke.\", \"Die Tendenz der Fahrzeugzahlen, die die Brücke passierten, war 2009 wieder steigend.\"], \"source_fact_index\": 57, \"target_contexts\": [[\"Nach der Eröffnung der A4-Stadtdurchfahrt und der A4-Schrägseilbrücke ist vor allem der Transitverkehr über die Rheinbrücke nach Fürthaleen spürbar zurückgegangen.\", \"Im Jahr 2009 haben durchschnittlich 19.000 Fahrzeuge pro Tag die Brücke überquert.\", \"Die Tendenz der Fahrzeugzahlen auf der Brücke ist wieder steigend.\"], [\"Bis die A4-Stadtdurchfahrt und die A4-Schrägseilbrücke im Jahr 1995 eröffnet wurden, ist ein Großteil des Straßenverkehrs zwischen Stuttgart und Zürich über die neue Brücke geflossen.\", \"Nach der Eröffnung der A4-Stadtdurchfahrt und der A4-Schrägseilbrücke ist vor allem der Transitverkehr über die Rheinbrücke nach Fürthaleen spürbar zurückgegangen.\", \"Im Jahr 2009 haben durchschnittlich 19.000 Fahrzeuge pro Tag die Brücke überquert.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 505,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [63, 65], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Im Jahr 2009 passierten durchschnittlich 19‘000 Fahrzeuge pro Tag die Brücke.\", \"Die Tendenz der Fahrzeugzahlen, die die Brücke passierten, war 2009 wieder steigend.\", \"In den Jahren 1986/87 wurde die Rheinbrücke zum ersten Mal für 1,35 Millionen Franken saniert.\"], \"source_fact_index\": 58, \"target_contexts\": [[\"Im Jahr 2009 haben durchschnittlich 19.000 Fahrzeuge pro Tag die Brücke überquert.\", \"Die Tendenz der Fahrzeugzahlen auf der Brücke ist wieder steigend.\", \"In den Jahren 1986/87 wurde die Rheinbrücke zum ersten Mal für 1,35 Millionen Franken saniert.\"], [\"In den Jahren 1986/87 wurde die Rheinbrücke zum ersten Mal für 1,35 Millionen Franken saniert.\", \"In den Jahren 2011/12 wurde eine Totalsanierung einschließlich der in der Brücke verlegten Leitungen durchgeführt.\", \"Die Sanierung verursachte Kosten von etwa 5,6 Millionen Franken.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 427,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [64, 63], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Tendenz der Fahrzeugzahlen, die die Brücke passierten, war 2009 wieder steigend.\", \"In den Jahren 1986/87 wurde die Rheinbrücke zum ersten Mal für 1,35 Millionen Franken saniert.\", \"In den Jahren 2011/12 wurde eine Totalsanierung der Rheinbrücke durchgeführt.\"], \"source_fact_index\": 59, \"target_contexts\": [[\"Die Tendenz der Fahrzeugzahlen auf der Brücke ist wieder steigend.\", \"In den Jahren 1986/87 wurde die Rheinbrücke zum ersten Mal für 1,35 Millionen Franken saniert.\", \"In den Jahren 2011/12 wurde eine Totalsanierung einschließlich der in der Brücke verlegten Leitungen durchgeführt.\"], [\"Im Jahr 2009 haben durchschnittlich 19.000 Fahrzeuge pro Tag die Brücke überquert.\", \"Die Tendenz der Fahrzeugzahlen auf der Brücke ist wieder steigend.\", \"In den Jahren 1986/87 wurde die Rheinbrücke zum ersten Mal für 1,35 Millionen Franken saniert.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 425,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [64, 55], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"In den Jahren 1986/87 wurde die Rheinbrücke zum ersten Mal für 1,35 Millionen Franken saniert.\", \"In den Jahren 2011/12 wurde eine Totalsanierung der Rheinbrücke durchgeführt.\", \"Die Totalsanierung in den Jahren 2011/12 einschloss die in der Brücke verlegten Werkleitungen.\"], \"source_fact_index\": 60, \"target_contexts\": [[\"Die Tendenz der Fahrzeugzahlen auf der Brücke ist wieder steigend.\", \"In den Jahren 1986/87 wurde die Rheinbrücke zum ersten Mal für 1,35 Millionen Franken saniert.\", \"In den Jahren 2011/12 wurde eine Totalsanierung einschließlich der in der Brücke verlegten Leitungen durchgeführt.\"], [\"Kurz nachdem die Brücke in Betrieb genommen wurde, wurden die Pläne für die Schiffbarmachung des Hochrheins endgültig aufgegeben.\", \"Alle Vorgängerbrücken sind auf dem Freien Platz zugelaufen.\", \"Mit dem Neubau wurde der Verkehrsfluss geändert.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 414,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [65, 58], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"In den Jahren 2011/12 wurde eine Totalsanierung der Rheinbrücke durchgeführt.\", \"Die Totalsanierung in den Jahren 2011/12 einschloss die in der Brücke verlegten Werkleitungen.\", \"Der Kostenvoranschlag von 5,66 Millionen Franken für die Totalsanierung wurde nicht überschritten.\"], \"source_fact_index\": 61, \"target_contexts\": [[\"In den Jahren 1986/87 wurde die Rheinbrücke zum ersten Mal für 1,35 Millionen Franken saniert.\", \"In den Jahren 2011/12 wurde eine Totalsanierung einschließlich der in der Brücke verlegten Leitungen durchgeführt.\", \"Die Sanierung verursachte Kosten von etwa 5,6 Millionen Franken.\"], [\"Die Schiffswinkligkeit der Brücke gegenüber der Strömungsrichtung wurde durch die Verschiebung des Widerlagers am Schaffhauser Ufer um 50 Meter rhenabwärts verändert.\", \"Das Bauwerk wurde in den Jahren 1962 bis 1965 gebaut.\", \"Das Bauwerk hat 7 Millionen Franken gekostet.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 425,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [66, 52], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Totalsanierung in den Jahren 2011/12 einschloss die in der Brücke verlegten Werkleitungen.\", \"Der Kostenvoranschlag von 5,66 Millionen Franken für die Totalsanierung wurde nicht überschritten.\", \"Nach der Sanierung gehen die Ingenieure von einer Restnutzungsdauer der Rheinbrücke von 60 Jahren aus.\"], \"source_fact_index\": 62, \"target_contexts\": [[\"In den Jahren 2011/12 wurde eine Totalsanierung einschließlich der in der Brücke verlegten Leitungen durchgeführt.\", \"Die Sanierung verursachte Kosten von etwa 5,6 Millionen Franken.\", \"Nach der Sanierung berechneten die Ingenieure eine Restnutzungsdauer von 60 Jahren.\"], [\"Dank der neuen Rheinregulierung durch das Kraftwerk hat der Rhein zu jeder Jahreszeit den gleichen Pegel.\", \"Durch die neue Rheinregulierung konnte man die Brücke tiefer legen.\", \"Die Ingenieure haben in der Konstruktion die Vorgabe berücksichtigt, dass die Brücke bei einer allfälligen Hochrheinschifffahrt angehoben werden kann.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 422,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [67, 69], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Kostenvoranschlag von 5,66 Millionen Franken für die Totalsanierung wurde nicht überschritten.\", \"Nach der Sanierung gehen die Ingenieure von einer Restnutzungsdauer der Rheinbrücke von 60 Jahren aus.\", \"Die Brücke ist 102,5 Meter lang.\"], \"source_fact_index\": 63, \"target_contexts\": [[\"Die Sanierung verursachte Kosten von etwa 5,6 Millionen Franken.\", \"Nach der Sanierung berechneten die Ingenieure eine Restnutzungsdauer von 60 Jahren.\", \"Die 102,5 Meter lange Brücke ist als vorgespannte Stahlbetonbrücke gebaut worden.\"], [\"Die 102,5 Meter lange Brücke ist als vorgespannte Stahlbetonbrücke gebaut worden.\", \"Die Brücke weist drei Öffnungen auf.\", \"Die Brücke hat eine Mittelspannweite von 61 Meter.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 374,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [67, 74], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Nach der Sanierung gehen die Ingenieure von einer Restnutzungsdauer der Rheinbrücke von 60 Jahren aus.\", \"Die Brücke ist 102,5 Meter lang.\", \"Die Brücke wurde als vorgespannte Stahlbetonbrücke erstellt.\"], \"source_fact_index\": 64, \"target_contexts\": [[\"Die Sanierung verursachte Kosten von etwa 5,6 Millionen Franken.\", \"Nach der Sanierung berechneten die Ingenieure eine Restnutzungsdauer von 60 Jahren.\", \"Die 102,5 Meter lange Brücke ist als vorgespannte Stahlbetonbrücke gebaut worden.\"], [\"Der Hohlkastenquerschnitt hat über den Flusspfeilern eine Bauhöhe von 1,83 Meter.\", \"Der Überbau liegt auf zwei schmalen, scheibenförmigen Pfeilern.\", \"Die Pfeiler stehen auf Betonpfählen.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 371,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [68, 70], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Brücke ist 102,5 Meter lang.\", \"Die Brücke wurde als vorgespannte Stahlbetonbrücke erstellt.\", \"Die Brücke weist drei Öffnungen auf.\"], \"source_fact_index\": 65, \"target_contexts\": [[\"Nach der Sanierung berechneten die Ingenieure eine Restnutzungsdauer von 60 Jahren.\", \"Die 102,5 Meter lange Brücke ist als vorgespannte Stahlbetonbrücke gebaut worden.\", \"Die Brücke weist drei Öffnungen auf.\"], [\"Die Brücke weist drei Öffnungen auf.\", \"Die Brücke hat eine Mittelspannweite von 61 Meter.\", \"In Querrichtung ist ein dreizelliger Hohlkastenquerschnitt vorhanden.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 332,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [69, 71], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Brücke wurde als vorgespannte Stahlbetonbrücke erstellt.\", \"Die Brücke weist drei Öffnungen auf.\", \"Die Brücke besitzt eine Mittelspannweite von 61 Metern.\"], \"source_fact_index\": 66, \"target_contexts\": [[\"Die 102,5 Meter lange Brücke ist als vorgespannte Stahlbetonbrücke gebaut worden.\", \"Die Brücke weist drei Öffnungen auf.\", \"Die Brücke hat eine Mittelspannweite von 61 Meter.\"], [\"Die Brücke hat eine Mittelspannweite von 61 Meter.\", \"In Querrichtung ist ein dreizelliger Hohlkastenquerschnitt vorhanden.\", \"Der Hohlkastenquerschnitt hat in der Brückenmitte eine Bauhöhe von 1,28 Meter.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 340,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [70, 76], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Brücke weist drei Öffnungen auf.\", \"Die Brücke besitzt eine Mittelspannweite von 61 Metern.\", \"In Querrichtung ist ein dreizelliger Hohlkastenquerschnitt vorhanden.\"], \"source_fact_index\": 67, \"target_contexts\": [[\"Die Brücke weist drei Öffnungen auf.\", \"Die Brücke hat eine Mittelspannweite von 61 Meter.\", \"In Querrichtung ist ein dreizelliger Hohlkastenquerschnitt vorhanden.\"], [\"Die Pfeiler stehen auf Betonpfählen.\", \"Die Betonpfähle stecken bis zu 20 Meter tief im Flussbett.\", \"Die großflächigen Widerlager haben eine Flachgründung.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 320,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [71, 72], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Brücke besitzt eine Mittelspannweite von 61 Metern.\", \"In Querrichtung ist ein dreizelliger Hohlkastenquerschnitt vorhanden.\", \"Der Hohlkastenquerschnitt besitzt in Brückenmitte eine Bauhöhe von 1,28 Meter.\"], \"source_fact_index\": 68, \"target_contexts\": [[\"Die Brücke hat eine Mittelspannweite von 61 Meter.\", \"In Querrichtung ist ein dreizelliger Hohlkastenquerschnitt vorhanden.\", \"Der Hohlkastenquerschnitt hat in der Brückenmitte eine Bauhöhe von 1,28 Meter.\"], [\"In Querrichtung ist ein dreizelliger Hohlkastenquerschnitt vorhanden.\", \"Der Hohlkastenquerschnitt hat in der Brückenmitte eine Bauhöhe von 1,28 Meter.\", \"Der Hohlkastenquerschnitt hat über den Flusspfeilern eine Bauhöhe von 1,83 Meter.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 379,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [72, 71], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"In Querrichtung ist ein dreizelliger Hohlkastenquerschnitt vorhanden.\", \"Der Hohlkastenquerschnitt besitzt in Brückenmitte eine Bauhöhe von 1,28 Meter.\", \"Der Hohlkastenquerschnitt besitzt über den Flusspfeilern eine Bauhöhe von 1,83 Meter.\"], \"source_fact_index\": 69, \"target_contexts\": [[\"In Querrichtung ist ein dreizelliger Hohlkastenquerschnitt vorhanden.\", \"Der Hohlkastenquerschnitt hat in der Brückenmitte eine Bauhöhe von 1,28 Meter.\", \"Der Hohlkastenquerschnitt hat über den Flusspfeilern eine Bauhöhe von 1,83 Meter.\"], [\"Die Brücke hat eine Mittelspannweite von 61 Meter.\", \"In Querrichtung ist ein dreizelliger Hohlkastenquerschnitt vorhanden.\", \"Der Hohlkastenquerschnitt hat in der Brückenmitte eine Bauhöhe von 1,28 Meter.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 392,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [73, 74], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Hohlkastenquerschnitt besitzt in Brückenmitte eine Bauhöhe von 1,28 Meter.\", \"Der Hohlkastenquerschnitt besitzt über den Flusspfeilern eine Bauhöhe von 1,83 Meter.\", \"Der Überbau ruht auf zwei schmalen, scheibenförmigen Pfeilern.\"], \"source_fact_index\": 70, \"target_contexts\": [[\"Der Hohlkastenquerschnitt hat in der Brückenmitte eine Bauhöhe von 1,28 Meter.\", \"Der Hohlkastenquerschnitt hat über den Flusspfeilern eine Bauhöhe von 1,83 Meter.\", \"Der Überbau liegt auf zwei schmalen, scheibenförmigen Pfeilern.\"], [\"Der Hohlkastenquerschnitt hat über den Flusspfeilern eine Bauhöhe von 1,83 Meter.\", \"Der Überbau liegt auf zwei schmalen, scheibenförmigen Pfeilern.\", \"Die Pfeiler stehen auf Betonpfählen.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 396,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [75, 74], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Hohlkastenquerschnitt besitzt über den Flusspfeilern eine Bauhöhe von 1,83 Meter.\", \"Der Überbau ruht auf zwei schmalen, scheibenförmigen Pfeilern.\", \"Die Pfeiler sind auf Betonpfählen bis zu 20 Meter tief im Flussbett gegründet.\"], \"source_fact_index\": 71, \"target_contexts\": [[\"Der Überbau liegt auf zwei schmalen, scheibenförmigen Pfeilern.\", \"Die Pfeiler stehen auf Betonpfählen.\", \"Die Betonpfähle stecken bis zu 20 Meter tief im Flussbett.\"], [\"Der Hohlkastenquerschnitt hat über den Flusspfeilern eine Bauhöhe von 1,83 Meter.\", \"Der Überbau liegt auf zwei schmalen, scheibenförmigen Pfeilern.\", \"Die Pfeiler stehen auf Betonpfählen.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 367,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [76, 70], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Überbau ruht auf zwei schmalen, scheibenförmigen Pfeilern.\", \"Die Pfeiler sind auf Betonpfählen bis zu 20 Meter tief im Flussbett gegründet.\", \"Die grossflächigen Widerlager besitzen eine Flachgründung.\"], \"source_fact_index\": 72, \"target_contexts\": [[\"Die Pfeiler stehen auf Betonpfählen.\", \"Die Betonpfähle stecken bis zu 20 Meter tief im Flussbett.\", \"Die großflächigen Widerlager haben eine Flachgründung.\"], [\"Die Brücke weist drei Öffnungen auf.\", \"Die Brücke hat eine Mittelspannweite von 61 Meter.\", \"In Querrichtung ist ein dreizelliger Hohlkastenquerschnitt vorhanden.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 334,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [77, 78], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Pfeiler sind auf Betonpfählen bis zu 20 Meter tief im Flussbett gegründet.\", \"Die grossflächigen Widerlager besitzen eine Flachgründung.\", \"Die Fahrbahnplatte weist eine Breite von 19 Metern auf.\"], \"source_fact_index\": 73, \"target_contexts\": [[\"Die Betonpfähle stecken bis zu 20 Meter tief im Flussbett.\", \"Die großflächigen Widerlager haben eine Flachgründung.\", \"Die Fahrbahnplatte weist eine Breite von 19 Meter auf.\"], [\"Die großflächigen Widerlager haben eine Flachgründung.\", \"Die Fahrbahnplatte weist eine Breite von 19 Meter auf.\", \"Die Fahrbahnplatte teilt sich in drei Fahrstreifen mit insgesamt 13 Meter Breite.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 341,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [78, 79], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die grossflächigen Widerlager besitzen eine Flachgründung.\", \"Die Fahrbahnplatte weist eine Breite von 19 Metern auf.\", \"Die Fahrbahnplatte teilt sich in drei Fahrstreifen mit insgesamt 13 Meter Breite.\"], \"source_fact_index\": 74, \"target_contexts\": [[\"Die großflächigen Widerlager haben eine Flachgründung.\", \"Die Fahrbahnplatte weist eine Breite von 19 Meter auf.\", \"Die Fahrbahnplatte teilt sich in drei Fahrstreifen mit insgesamt 13 Meter Breite.\"], [\"Die Fahrbahnplatte weist eine Breite von 19 Meter auf.\", \"Die Fahrbahnplatte teilt sich in drei Fahrstreifen mit insgesamt 13 Meter Breite.\", \"Die Fahrbahnplatte teilt sich in zwei Trottoirs mit jeweils 3 Meter Breite.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 348,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [79, 78], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Fahrbahnplatte weist eine Breite von 19 Metern auf.\", \"Die Fahrbahnplatte teilt sich in drei Fahrstreifen mit insgesamt 13 Meter Breite.\", \"Die Fahrbahnplatte teilt sich in zwei Gehwege mit jeweils 3 Meter Breite.\"], \"source_fact_index\": 75, \"target_contexts\": [[\"Die Fahrbahnplatte weist eine Breite von 19 Meter auf.\", \"Die Fahrbahnplatte teilt sich in drei Fahrstreifen mit insgesamt 13 Meter Breite.\", \"Die Fahrbahnplatte teilt sich in zwei Trottoirs mit jeweils 3 Meter Breite.\"], [\"Die großflächigen Widerlager haben eine Flachgründung.\", \"Die Fahrbahnplatte weist eine Breite von 19 Meter auf.\", \"Die Fahrbahnplatte teilt sich in drei Fahrstreifen mit insgesamt 13 Meter Breite.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 352,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [0], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Rheinbrücke Schaffhausen–Füerthalen wird vom Veloland Schweiz unter dem Namen 'unter dè Brugg durrè' geführt.\"], \"source_fact_index\": 0, \"target_contexts\": [[\"Die Rheinbrücke Schaffhausen–Feuerthalen wird von Veloland Schweiz unter der Brücke durch geführt.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 244,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [1, 3], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Rheinbrücke Schaffhausen–Füerthalen wird vom Veloland Schweiz unter dem Namen 'unter dè Brugg durrè' geführt.\", \"Es gilt als sicher, dass man zu Gallier-Zeiten in Schaffhausen bereits eine Art von Furt als Rheinübergang hatte.\"], \"source_fact_index\": 1, \"target_contexts\": [[\"Die Rheinbrücke Schaffhausen–Feuerthalen wird von Veloland Schweiz unter der Brücke durch geführt.\", \"Es gilt als sicher, dass bei Schaffhausen schon zur Zeit der Gallier in Form einer Furt ein Rheinübergang vorhanden war.\"], [\"Es gilt als sicher, dass bei Schaffhausen schon zur Zeit der Gallier in Form einer Furt ein Rheinübergang vorhanden war.\", \"Im Jahre 1259 wurde erstmals urkundlich eine Rheinbrücke erwähnt.\", \"Der Bau der Rheinbrücke wurde wahrscheinlich durch den Abt des Klosters Allerheiligen beauftragt.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 376,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [2, 5], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Rheinbrücke Schaffhausen–Füerthalen wird vom Veloland Schweiz unter dem Namen 'unter dè Brugg durrè' geführt.\", \"Es gilt als sicher, dass man zu Gallier-Zeiten in Schaffhausen bereits eine Art von Furt als Rheinübergang hatte.\", \"Eine Rheinbrücke wurde erstmals im Jahr 1259 urkundlich erwähnt.\"], \"source_fact_index\": 2, \"target_contexts\": [[\"Die Rheinbrücke Schaffhausen–Feuerthalen wird von Veloland Schweiz unter der Brücke durch geführt.\", \"Es gilt als sicher, dass bei Schaffhausen schon zur Zeit der Gallier in Form einer Furt ein Rheinübergang vorhanden war.\", \"Im Jahre 1259 wurde erstmals urkundlich eine Rheinbrücke erwähnt.\"], [\"Der Bau der Rheinbrücke wurde wahrscheinlich durch den Abt des Klosters Allerheiligen beauftragt.\", \"Der schmale, gedeckte Holzsteg wurde im Frühsommer 1480 durch ein Hochwasser zerstört.\", \"Das hölzerne Nachfolgebauwerk ist für 1489 dokumentiert.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 413,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [3, 1], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Es gilt als sicher, dass man zu Gallier-Zeiten in Schaffhausen bereits eine Art von Furt als Rheinübergang hatte.\", \"Eine Rheinbrücke wurde erstmals im Jahr 1259 urkundlich erwähnt.\", \"Dieser Bau wurde wahrscheinlich vom Abt vom Kloster Allerheiligen beauftragt.\"], \"source_fact_index\": 3, \"target_contexts\": [[\"Es gilt als sicher, dass bei Schaffhausen schon zur Zeit der Gallier in Form einer Furt ein Rheinübergang vorhanden war.\", \"Im Jahre 1259 wurde erstmals urkundlich eine Rheinbrücke erwähnt.\", \"Der Bau der Rheinbrücke wurde wahrscheinlich durch den Abt des Klosters Allerheiligen beauftragt.\"], [\"Die Rheinbrücke Schaffhausen–Feuerthalen wird von Veloland Schweiz unter der Brücke durch geführt.\", \"Es gilt als sicher, dass bei Schaffhausen schon zur Zeit der Gallier in Form einer Furt ein Rheinübergang vorhanden war.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 380,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [4, 10], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Eine Rheinbrücke wurde erstmals im Jahr 1259 urkundlich erwähnt.\", \"Dieser Bau wurde wahrscheinlich vom Abt vom Kloster Allerheiligen beauftragt.\", \"Der schmale, überdachte Holzsteg wurde im Frühsommer 1480 durch ein Hochwasser zerstört.\"], \"source_fact_index\": 4, \"target_contexts\": [[\"Im Jahre 1259 wurde erstmals urkundlich eine Rheinbrücke erwähnt.\", \"Der Bau der Rheinbrücke wurde wahrscheinlich durch den Abt des Klosters Allerheiligen beauftragt.\", \"Der schmale, gedeckte Holzsteg wurde im Frühsommer 1480 durch ein Hochwasser zerstört.\"], [\"Hochwässer zerstörten Pfeiler der Steinbrücke.\", \"Zwei eingestürzte Bogenöffnungen der Steinbrücke mussten durch eine gedeckte Holzbrücke ersetzt werden.\", \"Am 3. Mai 1754 führte ein Hochwasser durch Unterspülung der Pfeiler zum kompletten Einsturz des Bauwerkes.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 394,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [5, 4], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Dieser Bau wurde wahrscheinlich vom Abt vom Kloster Allerheiligen beauftragt.\", \"Der schmale, überdachte Holzsteg wurde im Frühsommer 1480 durch ein Hochwasser zerstört.\", \"Das hölzerne Nachfolgebauwerk ist von 1489 überliefert.\"], \"source_fact_index\": 5, \"target_contexts\": [[\"Der Bau der Rheinbrücke wurde wahrscheinlich durch den Abt des Klosters Allerheiligen beauftragt.\", \"Der schmale, gedeckte Holzsteg wurde im Frühsommer 1480 durch ein Hochwasser zerstört.\", \"Das hölzerne Nachfolgebauwerk ist für 1489 dokumentiert.\"], [\"Im Jahre 1259 wurde erstmals urkundlich eine Rheinbrücke erwähnt.\", \"Der Bau der Rheinbrücke wurde wahrscheinlich durch den Abt des Klosters Allerheiligen beauftragt.\", \"Der schmale, gedeckte Holzsteg wurde im Frühsommer 1480 durch ein Hochwasser zerstört.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 394,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [6, 9], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der schmale, überdachte Holzsteg wurde im Frühsommer 1480 durch ein Hochwasser zerstört.\", \"Das hölzerne Nachfolgebauwerk ist von 1489 überliefert.\", \"Dieses Bauwerk wurde zwischen 1550 und 1611 durch eine Bogenbrücke aus Stein mit acht Öffnungen ersetzt.\"], \"source_fact_index\": 6, \"target_contexts\": [[\"Der schmale, gedeckte Holzsteg wurde im Frühsommer 1480 durch ein Hochwasser zerstört.\", \"Das hölzerne Nachfolgebauwerk ist für 1489 dokumentiert.\", \"Das hölzerne Nachfolgebauwerk wurde zwischen 1550 und 1611 durch eine steinerne Bogenbrücke mit acht Öffnungen ersetzt.\"], [\"Die Steinbrücke wies wegen technischer Mängel häufig Schäden auf.\", \"Hochwässer zerstörten Pfeiler der Steinbrücke.\", \"Zwei eingestürzte Bogenöffnungen der Steinbrücke mussten durch eine gedeckte Holzbrücke ersetzt werden.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 413,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [7, 8], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Das hölzerne Nachfolgebauwerk ist von 1489 überliefert.\", \"Dieses Bauwerk wurde zwischen 1550 und 1611 durch eine Bogenbrücke aus Stein mit acht Öffnungen ersetzt.\", \"Die Steinbrücke wies wegen technischer Mängel häufig Schäden auf.\"], \"source_fact_index\": 7, \"target_contexts\": [[\"Das hölzerne Nachfolgebauwerk ist für 1489 dokumentiert.\", \"Das hölzerne Nachfolgebauwerk wurde zwischen 1550 und 1611 durch eine steinerne Bogenbrücke mit acht Öffnungen ersetzt.\", \"Die Steinbrücke wies wegen technischer Mängel häufig Schäden auf.\"], [\"Das hölzerne Nachfolgebauwerk wurde zwischen 1550 und 1611 durch eine steinerne Bogenbrücke mit acht Öffnungen ersetzt.\", \"Die Steinbrücke wies wegen technischer Mängel häufig Schäden auf.\", \"Hochwässer zerstörten Pfeiler der Steinbrücke.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 407,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [8, 10], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Dieses Bauwerk wurde zwischen 1550 und 1611 durch eine Bogenbrücke aus Stein mit acht Öffnungen ersetzt.\", \"Die Steinbrücke wies wegen technischer Mängel häufig Schäden auf.\", \"Hochwasser haben Pfeiler zerstört.\"], \"source_fact_index\": 8, \"target_contexts\": [[\"Das hölzerne Nachfolgebauwerk wurde zwischen 1550 und 1611 durch eine steinerne Bogenbrücke mit acht Öffnungen ersetzt.\", \"Die Steinbrücke wies wegen technischer Mängel häufig Schäden auf.\", \"Hochwässer zerstörten Pfeiler der Steinbrücke.\"], [\"Hochwässer zerstörten Pfeiler der Steinbrücke.\", \"Zwei eingestürzte Bogenöffnungen der Steinbrücke mussten durch eine gedeckte Holzbrücke ersetzt werden.\", \"Am 3. Mai 1754 führte ein Hochwasser durch Unterspülung der Pfeiler zum kompletten Einsturz des Bauwerkes.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 389,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [9, 6], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Steinbrücke wies wegen technischer Mängel häufig Schäden auf.\", \"Hochwasser haben Pfeiler zerstört.\", \"Zwei eingestürzte Bogenöffnungen mussten durch eine gedeckte Holzbrücke ersetzt werden.\"], \"source_fact_index\": 9, \"target_contexts\": [[\"Die Steinbrücke wies wegen technischer Mängel häufig Schäden auf.\", \"Hochwässer zerstörten Pfeiler der Steinbrücke.\", \"Zwei eingestürzte Bogenöffnungen der Steinbrücke mussten durch eine gedeckte Holzbrücke ersetzt werden.\"], [\"Der schmale, gedeckte Holzsteg wurde im Frühsommer 1480 durch ein Hochwasser zerstört.\", \"Das hölzerne Nachfolgebauwerk ist für 1489 dokumentiert.\", \"Das hölzerne Nachfolgebauwerk wurde zwischen 1550 und 1611 durch eine steinerne Bogenbrücke mit acht Öffnungen ersetzt.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 380,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [10, 11], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Hochwasser haben Pfeiler zerstört.\", \"Zwei eingestürzte Bogenöffnungen mussten durch eine gedeckte Holzbrücke ersetzt werden.\", \"Am 3. Mai 1754 führte ein Hochwasser durch Unterspülung der Pfeiler zum kompletten Einsturz des Bauwerks.\"], \"source_fact_index\": 10, \"target_contexts\": [[\"Hochwässer zerstörten Pfeiler der Steinbrücke.\", \"Zwei eingestürzte Bogenöffnungen der Steinbrücke mussten durch eine gedeckte Holzbrücke ersetzt werden.\", \"Am 3. Mai 1754 führte ein Hochwasser durch Unterspülung der Pfeiler zum kompletten Einsturz des Bauwerkes.\"], [\"Zwei eingestürzte Bogenöffnungen der Steinbrücke mussten durch eine gedeckte Holzbrücke ersetzt werden.\", \"Am 3. Mai 1754 führte ein Hochwasser durch Unterspülung der Pfeiler zum kompletten Einsturz des Bauwerkes.\", \"Nach dem Einsturz am 3. Mai 1754 blieb nur ein Pfeiler stehen.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 406,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [11, 1], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Zwei eingestürzte Bogenöffnungen mussten durch eine gedeckte Holzbrücke ersetzt werden.\", \"Am 3. Mai 1754 führte ein Hochwasser durch Unterspülung der Pfeiler zum kompletten Einsturz des Bauwerks.\", \"Nur ein Pfeiler blieb dort stehen.\"], \"source_fact_index\": 11, \"target_contexts\": [[\"Zwei eingestürzte Bogenöffnungen der Steinbrücke mussten durch eine gedeckte Holzbrücke ersetzt werden.\", \"Am 3. Mai 1754 führte ein Hochwasser durch Unterspülung der Pfeiler zum kompletten Einsturz des Bauwerkes.\", \"Nach dem Einsturz am 3. Mai 1754 blieb nur ein Pfeiler stehen.\"], [\"Die Rheinbrücke Schaffhausen–Feuerthalen wird von Veloland Schweiz unter der Brücke durch geführt.\", \"Es gilt als sicher, dass bei Schaffhausen schon zur Zeit der Gallier in Form einer Furt ein Rheinübergang vorhanden war.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 387,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [12, 13], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Am 3. Mai 1754 führte ein Hochwasser durch Unterspülung der Pfeiler zum kompletten Einsturz des Bauwerks.\", \"Nur ein Pfeiler blieb dort stehen.\", \"Am 2. Oktober 1755 hat der Schaffhauser Stadtrat den Baumeister Hans Ulrich Grübenmann mit der Errichtung einer Holzbrücke beauftragt.\"], \"source_fact_index\": 12, \"target_contexts\": [[\"Am 3. Mai 1754 führte ein Hochwasser durch Unterspülung der Pfeiler zum kompletten Einsturz des Bauwerkes.\", \"Nach dem Einsturz am 3. Mai 1754 blieb nur ein Pfeiler stehen.\", \"Am 2. Oktober 1755 beauftragte der Schaffhauser Stadtrat den Baumeister Hans Ulrich Grubenmann mit der Errichtung einer Holzbrücke.\"], [\"Nach dem Einsturz am 3. Mai 1754 blieb nur ein Pfeiler stehen.\", \"Am 2. Oktober 1755 beauftragte der Schaffhauser Stadtrat den Baumeister Hans Ulrich Grubenmann mit der Errichtung einer Holzbrücke.\", \"Der Schaffhauser Stadtrat lehnte die von Hans Ulrich Grubenmann vorgeschlagene Konstruktion mit 119 Meter Stützweite ab.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 452,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [13, 14], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Nur ein Pfeiler blieb dort stehen.\", \"Am 2. Oktober 1755 hat der Schaffhauser Stadtrat den Baumeister Hans Ulrich Grübenmann mit der Errichtung einer Holzbrücke beauftragt.\", \"Der Stadtrat hat die von Grübenmann vorgeschlagene Konstruktion mit einer Stützweite von 119 Metern abgelehnt.\"], \"source_fact_index\": 13, \"target_contexts\": [[\"Nach dem Einsturz am 3. Mai 1754 blieb nur ein Pfeiler stehen.\", \"Am 2. Oktober 1755 beauftragte der Schaffhauser Stadtrat den Baumeister Hans Ulrich Grubenmann mit der Errichtung einer Holzbrücke.\", \"Der Schaffhauser Stadtrat lehnte die von Hans Ulrich Grubenmann vorgeschlagene Konstruktion mit 119 Meter Stützweite ab.\"], [\"Am 2. Oktober 1755 beauftragte der Schaffhauser Stadtrat den Baumeister Hans Ulrich Grubenmann mit der Errichtung einer Holzbrücke.\", \"Der Schaffhauser Stadtrat lehnte die von Hans Ulrich Grubenmann vorgeschlagene Konstruktion mit 119 Meter Stützweite ab.\", \"Der Schaffhauser Stadtrat traute der pfeilerlosen Konstruktion nicht.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 444,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [14, 37], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Am 2. Oktober 1755 hat der Schaffhauser Stadtrat den Baumeister Hans Ulrich Grübenmann mit der Errichtung einer Holzbrücke beauftragt.\", \"Der Stadtrat hat die von Grübenmann vorgeschlagene Konstruktion mit einer Stützweite von 119 Metern abgelehnt.\", \"Der Stadtrat hat der pfeilerlosen Konstruktion nicht vertraut.\"], \"source_fact_index\": 14, \"target_contexts\": [[\"Am 2. Oktober 1755 beauftragte der Schaffhauser Stadtrat den Baumeister Hans Ulrich Grubenmann mit der Errichtung einer Holzbrücke.\", \"Der Schaffhauser Stadtrat lehnte die von Hans Ulrich Grubenmann vorgeschlagene Konstruktion mit 119 Meter Stützweite ab.\", \"Der Schaffhauser Stadtrat traute der pfeilerlosen Konstruktion nicht.\"], [\"Die durchlaufenden Tragwerksteile sind einerseits als Überbleibsel des vorhergehenden Entwurfs ohne Mittelpfeiler zu sehen.\", \"Die durchlaufenden Tragwerksteile sind anderseits darauf zurückzuführen, dass Grubenmann rein nach Erfahrungswerten arbeitete.\", \"Grubenmann kannte noch keine Berechnungsmethoden.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 432,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [15, 33], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Stadtrat hat die von Grübenmann vorgeschlagene Konstruktion mit einer Stützweite von 119 Metern abgelehnt.\", \"Der Stadtrat hat der pfeilerlosen Konstruktion nicht vertraut.\", \"Es wurde eine Brücke gebaut, bei der Pfeiler im Rhein gebraucht wurden, die schon dort gewesen sind.\"], \"source_fact_index\": 15, \"target_contexts\": [[\"Der Schaffhauser Stadtrat lehnte die von Hans Ulrich Grubenmann vorgeschlagene Konstruktion mit 119 Meter Stützweite ab.\", \"Der Schaffhauser Stadtrat traute der pfeilerlosen Konstruktion nicht.\", \"Es kam eine Brücke mit Verwendung des bestehenden Pfeilers im Rhein und Stützweiten von 63 und 56 Metern zur Ausführung.\"], [\"Bei der Eröffnung der Brücke habe Grubenmann gesagt: «Da habt ihr euren Pfeiler, aber ich habe meine Brücke.»\", \"Die Geschichte gehört ins Reich der Legenden, weil das ausgeführte Bauwerk wegen der Mitbenutzung des alten Pfeilers einen leichten Knick im Grundriss hatte.\", \"Die Brücke hätte ohne diesen Pfeiler den auftretenden Kräften nicht standgehalten.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 429,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [15, 18], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Stadtrat hat der pfeilerlosen Konstruktion nicht vertraut.\", \"Es wurde eine Brücke gebaut, bei der Pfeiler im Rhein gebraucht wurden, die schon dort gewesen sind.\", \"Die Brücke hatte eine Stützweite von 63 und 56 Metern.\"], \"source_fact_index\": 16, \"target_contexts\": [[\"Der Schaffhauser Stadtrat lehnte die von Hans Ulrich Grubenmann vorgeschlagene Konstruktion mit 119 Meter Stützweite ab.\", \"Der Schaffhauser Stadtrat traute der pfeilerlosen Konstruktion nicht.\", \"Es kam eine Brücke mit Verwendung des bestehenden Pfeilers im Rhein und Stützweiten von 63 und 56 Metern zur Ausführung.\"], [\"Die Holzbrücke war mit 400‘000 Schindeln aus dem Schwarzwald gedeckt.\", \"Die Holzbrücke wies zwischen der Tragkonstruktion seitlich angeordnete Sprengwerke auf.\", \"Die Holzbrücke hatte eine lichte Breite von 4,5 Metern.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 395,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [16, 21], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Es wurde eine Brücke gebaut, bei der Pfeiler im Rhein gebraucht wurden, die schon dort gewesen sind.\", \"Die Brücke hatte eine Stützweite von 63 und 56 Metern.\", \"Die überdachte Holzbrücke hatte ein Dach aus 400.000 Schindeln aus dem Schwarzwald.\"], \"source_fact_index\": 17, \"target_contexts\": [[\"Der Schaffhauser Stadtrat traute der pfeilerlosen Konstruktion nicht.\", \"Es kam eine Brücke mit Verwendung des bestehenden Pfeilers im Rhein und Stützweiten von 63 und 56 Metern zur Ausführung.\", \"Die Holzbrücke war mit 400‘000 Schindeln aus dem Schwarzwald gedeckt.\"], [\"Die Holzbrücke besass eine freie Höhe von 5 Metern.\", \"Für den Bau wurden 20 extra grosse Tannen, auch Dollbäume genannt, verwendet.\", \"Für den Bau wurden 400 normale Tannen verwendet.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 388,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [17, 34], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Brücke hatte eine Stützweite von 63 und 56 Metern.\", \"Die überdachte Holzbrücke hatte ein Dach aus 400.000 Schindeln aus dem Schwarzwald.\", \"Die überdachte Holzbrücke wies zwischen der Trägerkonstruktion ein seitlich angeordnetes Sprängwerk auf.\"], \"source_fact_index\": 18, \"target_contexts\": [[\"Es kam eine Brücke mit Verwendung des bestehenden Pfeilers im Rhein und Stützweiten von 63 und 56 Metern zur Ausführung.\", \"Die Holzbrücke war mit 400‘000 Schindeln aus dem Schwarzwald gedeckt.\", \"Die Holzbrücke wies zwischen der Tragkonstruktion seitlich angeordnete Sprengwerke auf.\"], [\"Die Geschichte gehört ins Reich der Legenden, weil das ausgeführte Bauwerk wegen der Mitbenutzung des alten Pfeilers einen leichten Knick im Grundriss hatte.\", \"Die Brücke hätte ohne diesen Pfeiler den auftretenden Kräften nicht standgehalten.\", \"Die Brücke hatte trotz des Mittelpfeilers auch durchlaufende Tragwerksteile.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 422,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [18, 16], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die überdachte Holzbrücke hatte ein Dach aus 400.000 Schindeln aus dem Schwarzwald.\", \"Die überdachte Holzbrücke wies zwischen der Trägerkonstruktion ein seitlich angeordnetes Sprängwerk auf.\", \"Die überdachte Holzbrücke hatte eine lichte Breite von 4,5 Metern.\"], \"source_fact_index\": 19, \"target_contexts\": [[\"Die Holzbrücke war mit 400‘000 Schindeln aus dem Schwarzwald gedeckt.\", \"Die Holzbrücke wies zwischen der Tragkonstruktion seitlich angeordnete Sprengwerke auf.\", \"Die Holzbrücke hatte eine lichte Breite von 4,5 Metern.\"], [\"Der Schaffhauser Stadtrat traute der pfeilerlosen Konstruktion nicht.\", \"Es kam eine Brücke mit Verwendung des bestehenden Pfeilers im Rhein und Stützweiten von 63 und 56 Metern zur Ausführung.\", \"Die Holzbrücke war mit 400‘000 Schindeln aus dem Schwarzwald gedeckt.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 406,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [19, 18], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die überdachte Holzbrücke wies zwischen der Trägerkonstruktion ein seitlich angeordnetes Sprängwerk auf.\", \"Die überdachte Holzbrücke hatte eine lichte Breite von 4,5 Metern.\", \"Die überdachte Holzbrücke hatte eine freie Höhe von 5 Metern.\"], \"source_fact_index\": 20, \"target_contexts\": [[\"Die Holzbrücke wies zwischen der Tragkonstruktion seitlich angeordnete Sprengwerke auf.\", \"Die Holzbrücke hatte eine lichte Breite von 4,5 Metern.\", \"Die Holzbrücke besass eine freie Höhe von 5 Metern.\"], [\"Die Holzbrücke war mit 400‘000 Schindeln aus dem Schwarzwald gedeckt.\", \"Die Holzbrücke wies zwischen der Tragkonstruktion seitlich angeordnete Sprengwerke auf.\", \"Die Holzbrücke hatte eine lichte Breite von 4,5 Metern.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 375,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [20, 21], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die überdachte Holzbrücke hatte eine lichte Breite von 4,5 Metern.\", \"Die überdachte Holzbrücke hatte eine freie Höhe von 5 Metern.\", \"Für den Bau wurden 20 extra große Tannen, auch Dollbäume benannt, verwendet.\"], \"source_fact_index\": 21, \"target_contexts\": [[\"Die Holzbrücke hatte eine lichte Breite von 4,5 Metern.\", \"Die Holzbrücke besass eine freie Höhe von 5 Metern.\", \"Für den Bau wurden 20 extra grosse Tannen, auch Dollbäume genannt, verwendet.\"], [\"Die Holzbrücke besass eine freie Höhe von 5 Metern.\", \"Für den Bau wurden 20 extra grosse Tannen, auch Dollbäume genannt, verwendet.\", \"Für den Bau wurden 400 normale Tannen verwendet.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 355,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [21, 20], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die überdachte Holzbrücke hatte eine freie Höhe von 5 Metern.\", \"Für den Bau wurden 20 extra große Tannen, auch Dollbäume benannt, verwendet.\", \"Für den Bau wurden 400 normale Tannen verwendet.\"], \"source_fact_index\": 22, \"target_contexts\": [[\"Die Holzbrücke besass eine freie Höhe von 5 Metern.\", \"Für den Bau wurden 20 extra grosse Tannen, auch Dollbäume genannt, verwendet.\", \"Für den Bau wurden 400 normale Tannen verwendet.\"], [\"Die Holzbrücke hatte eine lichte Breite von 4,5 Metern.\", \"Die Holzbrücke besass eine freie Höhe von 5 Metern.\", \"Für den Bau wurden 20 extra grosse Tannen, auch Dollbäume genannt, verwendet.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 349,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [22, 23], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Für den Bau wurden 20 extra große Tannen, auch Dollbäume benannt, verwendet.\", \"Für den Bau wurden 400 normale Tannen verwendet.\", \"Das für den Bau verwendete Holz wurde im Bregenzerwald geschlagen und nach Schaffhausen geflossen.\"], \"source_fact_index\": 23, \"target_contexts\": [[\"Für den Bau wurden 20 extra grosse Tannen, auch Dollbäume genannt, verwendet.\", \"Für den Bau wurden 400 normale Tannen verwendet.\", \"Das für den Bau verwendete Holz wurde im Bregenzerwald geschlagen.\"], [\"Für den Bau wurden 400 normale Tannen verwendet.\", \"Das für den Bau verwendete Holz wurde im Bregenzerwald geschlagen.\", \"Das für den Bau verwendete Holz wurde nach Schaffhausen geflösst.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 348,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [24, 26], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Für den Bau wurden 400 normale Tannen verwendet.\", \"Das für den Bau verwendete Holz wurde im Bregenzerwald geschlagen und nach Schaffhausen geflossen.\", \"Die Brücke wurde am 2. Oktober 1758 eröffnet.\"], \"source_fact_index\": 24, \"target_contexts\": [[\"Das für den Bau verwendete Holz wurde im Bregenzerwald geschlagen.\", \"Das für den Bau verwendete Holz wurde nach Schaffhausen geflösst.\", \"Die Eröffnung des Bauwerks war am 2. Oktober 1758.\"], [\"Die Eröffnung des Bauwerks war am 2. Oktober 1758.\", \"Am 13. April 1799 zerstörten französische Truppen durch einen gelegten Brand die dritte Rheinbrücke.\", \"Die französischen Truppen befanden sich am 13. April 1799 auf dem Rückzug von der im zweiten Koalitionskrieg verlorenen Schlacht bei Stockach.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 384,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [25, 26], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Das für den Bau verwendete Holz wurde im Bregenzerwald geschlagen und nach Schaffhausen geflossen.\", \"Die Brücke wurde am 2. Oktober 1758 eröffnet.\", \"Am 13. April 1799 legten französische Truppen durch Brandstiftung die dritte Rheinbrücke in Schutt und Asche.\"], \"source_fact_index\": 25, \"target_contexts\": [[\"Das für den Bau verwendete Holz wurde nach Schaffhausen geflösst.\", \"Die Eröffnung des Bauwerks war am 2. Oktober 1758.\", \"Am 13. April 1799 zerstörten französische Truppen durch einen gelegten Brand die dritte Rheinbrücke.\"], [\"Die Eröffnung des Bauwerks war am 2. Oktober 1758.\", \"Am 13. April 1799 zerstörten französische Truppen durch einen gelegten Brand die dritte Rheinbrücke.\", \"Die französischen Truppen befanden sich am 13. April 1799 auf dem Rückzug von der im zweiten Koalitionskrieg verlorenen Schlacht bei Stockach.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 417,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [26, 25], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Brücke wurde am 2. Oktober 1758 eröffnet.\", \"Am 13. April 1799 legten französische Truppen durch Brandstiftung die dritte Rheinbrücke in Schutt und Asche.\", \"Die französischen Truppen befanden sich am 13. April 1799 auf dem Rückzug von der Schlacht bei Stockach.\"], \"source_fact_index\": 26, \"target_contexts\": [[\"Die Eröffnung des Bauwerks war am 2. Oktober 1758.\", \"Am 13. April 1799 zerstörten französische Truppen durch einen gelegten Brand die dritte Rheinbrücke.\", \"Die französischen Truppen befanden sich am 13. April 1799 auf dem Rückzug von der im zweiten Koalitionskrieg verlorenen Schlacht bei Stockach.\"], [\"Das für den Bau verwendete Holz wurde nach Schaffhausen geflösst.\", \"Die Eröffnung des Bauwerks war am 2. Oktober 1758.\", \"Am 13. April 1799 zerstörten französische Truppen durch einen gelegten Brand die dritte Rheinbrücke.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 424,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [26, 25], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Am 13. April 1799 legten französische Truppen durch Brandstiftung die dritte Rheinbrücke in Schutt und Asche.\", \"Die französischen Truppen befanden sich am 13. April 1799 auf dem Rückzug von der Schlacht bei Stockach.\", \"Die französischen Truppen haben die Schlacht bei Stockach im zweiten Koalitionskrieg verloren.\"], \"source_fact_index\": 27, \"target_contexts\": [[\"Die Eröffnung des Bauwerks war am 2. Oktober 1758.\", \"Am 13. April 1799 zerstörten französische Truppen durch einen gelegten Brand die dritte Rheinbrücke.\", \"Die französischen Truppen befanden sich am 13. April 1799 auf dem Rückzug von der im zweiten Koalitionskrieg verlorenen Schlacht bei Stockach.\"], [\"Das für den Bau verwendete Holz wurde nach Schaffhausen geflösst.\", \"Die Eröffnung des Bauwerks war am 2. Oktober 1758.\", \"Am 13. April 1799 zerstörten französische Truppen durch einen gelegten Brand die dritte Rheinbrücke.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 426,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [27, 26], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die französischen Truppen befanden sich am 13. April 1799 auf dem Rückzug von der Schlacht bei Stockach.\", \"Die französischen Truppen haben die Schlacht bei Stockach im zweiten Koalitionskrieg verloren.\", \"Das Originalmodell der Brücke ist im Museum Allerheiligen in Schaffhausen zu besichtigen.\"], \"source_fact_index\": 28, \"target_contexts\": [[\"Am 13. April 1799 zerstörten französische Truppen durch einen gelegten Brand die dritte Rheinbrücke.\", \"Die französischen Truppen befanden sich am 13. April 1799 auf dem Rückzug von der im zweiten Koalitionskrieg verlorenen Schlacht bei Stockach.\", \"Das Originalmodell der Brücke ist im Museum zu Allerheiligen in Schaffhausen zu besichtigen.\"], [\"Die Eröffnung des Bauwerks war am 2. Oktober 1758.\", \"Am 13. April 1799 zerstörten französische Truppen durch einen gelegten Brand die dritte Rheinbrücke.\", \"Die französischen Truppen befanden sich am 13. April 1799 auf dem Rückzug von der im zweiten Koalitionskrieg verlorenen Schlacht bei Stockach.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 439,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [28, 30], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die französischen Truppen haben die Schlacht bei Stockach im zweiten Koalitionskrieg verloren.\", \"Das Originalmodell der Brücke ist im Museum Allerheiligen in Schaffhausen zu besichtigen.\", \"Es wird erzählt, dass der Grübenmann die Auflagen des Stadtrats bezüglich Stützpfeiler missachtet hat.\"], \"source_fact_index\": 29, \"target_contexts\": [[\"Die französischen Truppen befanden sich am 13. April 1799 auf dem Rückzug von der im zweiten Koalitionskrieg verlorenen Schlacht bei Stockach.\", \"Das Originalmodell der Brücke ist im Museum zu Allerheiligen in Schaffhausen zu besichtigen.\", \"Eine Sage erzählt, dass Grubenmann die Auflagen des Stadtrates bezüglich Stützpfeilers missachtete.\"], [\"Eine Sage erzählt, dass Grubenmann die Auflagen des Stadtrates bezüglich Stützpfeilers missachtete.\", \"Die Brücke sei so konstruiert gewesen, dass sie auch ohne Stützpfeiler tragfähig gewesen wäre.\", \"Bei der Eröffnung der Brücke habe Grubenmann die Keile zwischen Brücke und Pfeiler weggeschlagen.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 423,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [29, 31], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Das Originalmodell der Brücke ist im Museum Allerheiligen in Schaffhausen zu besichtigen.\", \"Es wird erzählt, dass der Grübenmann die Auflagen des Stadtrats bezüglich Stützpfeiler missachtet hat.\", \"Die Brücke war angeblich so konstruiert, dass sie auch ohne Stützpfeiler stabil genug gewesen wäre.\"], \"source_fact_index\": 30, \"target_contexts\": [[\"Das Originalmodell der Brücke ist im Museum zu Allerheiligen in Schaffhausen zu besichtigen.\", \"Eine Sage erzählt, dass Grubenmann die Auflagen des Stadtrates bezüglich Stützpfeilers missachtete.\", \"Die Brücke sei so konstruiert gewesen, dass sie auch ohne Stützpfeiler tragfähig gewesen wäre.\"], [\"Die Brücke sei so konstruiert gewesen, dass sie auch ohne Stützpfeiler tragfähig gewesen wäre.\", \"Bei der Eröffnung der Brücke habe Grubenmann die Keile zwischen Brücke und Pfeiler weggeschlagen.\", \"Bei der Eröffnung der Brücke habe Grubenmann gesagt: «Da habt ihr euren Pfeiler, aber ich habe meine Brücke.»\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 417,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [30, 31], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Es wird erzählt, dass der Grübenmann die Auflagen des Stadtrats bezüglich Stützpfeiler missachtet hat.\", \"Die Brücke war angeblich so konstruiert, dass sie auch ohne Stützpfeiler stabil genug gewesen wäre.\", \"Der Grübenmann schlug bei der Eröffnung der Brücke die Keile zwischen Brücke und Pfeiler weg.\"], \"source_fact_index\": 31, \"target_contexts\": [[\"Eine Sage erzählt, dass Grubenmann die Auflagen des Stadtrates bezüglich Stützpfeilers missachtete.\", \"Die Brücke sei so konstruiert gewesen, dass sie auch ohne Stützpfeiler tragfähig gewesen wäre.\", \"Bei der Eröffnung der Brücke habe Grubenmann die Keile zwischen Brücke und Pfeiler weggeschlagen.\"], [\"Die Brücke sei so konstruiert gewesen, dass sie auch ohne Stützpfeiler tragfähig gewesen wäre.\", \"Bei der Eröffnung der Brücke habe Grubenmann die Keile zwischen Brücke und Pfeiler weggeschlagen.\", \"Bei der Eröffnung der Brücke habe Grubenmann gesagt: «Da habt ihr euren Pfeiler, aber ich habe meine Brücke.»\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 425,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [31, 30], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Brücke war angeblich so konstruiert, dass sie auch ohne Stützpfeiler stabil genug gewesen wäre.\", \"Der Grübenmann schlug bei der Eröffnung der Brücke die Keile zwischen Brücke und Pfeiler weg.\", \"Der Grübenmann sagte bei der Eröffnung der Brücke: 'Da habt ihr eure Pfeiler, aber ich habe meine Brücke.'\"], \"source_fact_index\": 32, \"target_contexts\": [[\"Die Brücke sei so konstruiert gewesen, dass sie auch ohne Stützpfeiler tragfähig gewesen wäre.\", \"Bei der Eröffnung der Brücke habe Grubenmann die Keile zwischen Brücke und Pfeiler weggeschlagen.\", \"Bei der Eröffnung der Brücke habe Grubenmann gesagt: «Da habt ihr euren Pfeiler, aber ich habe meine Brücke.»\"], [\"Eine Sage erzählt, dass Grubenmann die Auflagen des Stadtrates bezüglich Stützpfeilers missachtete.\", \"Die Brücke sei so konstruiert gewesen, dass sie auch ohne Stützpfeiler tragfähig gewesen wäre.\", \"Bei der Eröffnung der Brücke habe Grubenmann die Keile zwischen Brücke und Pfeiler weggeschlagen.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 426,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [51, 53], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Grübenmann schlug bei der Eröffnung der Brücke die Keile zwischen Brücke und Pfeiler weg.\", \"Der Grübenmann sagte bei der Eröffnung der Brücke: 'Da habt ihr eure Pfeiler, aber ich habe meine Brücke.'\", \"Symmetrie ist ein grundlegendes Konzept in der Geometrie, der Physik und der Kunst.\"], \"source_fact_index\": 33, \"target_contexts\": [[\"Die Europäische Union verfolgt das Ziel, das wirtschaftliche Wohlergehen ihrer Bürger zu fördern.\", \"Die Europäische Union verfolgt das Ziel, das soziale Wohlergehen ihrer Bürger zu fördern.\", \"Die Europäische Kommission gehört zu den Hauptorganen der Europäischen Union.\"], [\"Die Europäische Kommission gehört zu den Hauptorganen der Europäischen Union.\", \"Das Europäische Parlament gehört zu den Hauptorganen der Europäischen Union.\", \"Der Rat der Europäischen Union gehört zu den Hauptorganen der Europäischen Union.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 369,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [44, 48], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Grübenmann sagte bei der Eröffnung der Brücke: 'Da habt ihr eure Pfeiler, aber ich habe meine Brücke.'\", \"Symmetrie ist ein grundlegendes Konzept in der Geometrie, der Physik und der Kunst.\", \"Symmetrie beschreibt eine ausgewogene und proportionale Ähnlichkeit über eine Teilung hinweg.\"], \"source_fact_index\": 34, \"target_contexts\": [[\"Alle 7 bis 20 Jahre mussten an der Brücke grössere Instandsetzungsmassnahmen durchgeführt werden.\", \"Die Instandsetzungsmassnahmen wurden bis 1850 durch einen Brückenzoll finanziert.\", \"Die Europäische Union (EU) ist eine supranationale Organisation.\"], [\"Die Europäische Union wurde durch den Vertrag von Maastricht 1992 gegründet.\", \"Die Europäische Union hat ihren Sitz in Brüssel.\", \"Die Europäische Union verfolgt das Ziel, den Frieden zu sichern.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 375,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [44, 51], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Symmetrie ist ein grundlegendes Konzept in der Geometrie, der Physik und der Kunst.\", \"Symmetrie beschreibt eine ausgewogene und proportionale Ähnlichkeit über eine Teilung hinweg.\", \"Ein symmetrisches Objekt ist eines, das gegenüber einer bestimmten Transformation, wie Rotation oder Spiegelung, invariant ist.\"], \"source_fact_index\": 35, \"target_contexts\": [[\"Alle 7 bis 20 Jahre mussten an der Brücke grössere Instandsetzungsmassnahmen durchgeführt werden.\", \"Die Instandsetzungsmassnahmen wurden bis 1850 durch einen Brückenzoll finanziert.\", \"Die Europäische Union (EU) ist eine supranationale Organisation.\"], [\"Die Europäische Union verfolgt das Ziel, das wirtschaftliche Wohlergehen ihrer Bürger zu fördern.\", \"Die Europäische Union verfolgt das Ziel, das soziale Wohlergehen ihrer Bürger zu fördern.\", \"Die Europäische Kommission gehört zu den Hauptorganen der Europäischen Union.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 379,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [49, 51], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Symmetrie beschreibt eine ausgewogene und proportionale Ähnlichkeit über eine Teilung hinweg.\", \"Ein symmetrisches Objekt ist eines, das gegenüber einer bestimmten Transformation, wie Rotation oder Spiegelung, invariant ist.\", \"In der Natur wird Symmetrie oft mit Schönheit und Effizienz assoziiert.\"], \"source_fact_index\": 36, \"target_contexts\": [[\"Die Europäische Union hat ihren Sitz in Brüssel.\", \"Die Europäische Union verfolgt das Ziel, den Frieden zu sichern.\", \"Die Europäische Union verfolgt das Ziel, das wirtschaftliche Wohlergehen ihrer Bürger zu fördern.\"], [\"Die Europäische Union verfolgt das Ziel, das wirtschaftliche Wohlergehen ihrer Bürger zu fördern.\", \"Die Europäische Union verfolgt das Ziel, das soziale Wohlergehen ihrer Bürger zu fördern.\", \"Die Europäische Kommission gehört zu den Hauptorganen der Europäischen Union.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 360,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [51, 53], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ein symmetrisches Objekt ist eines, das gegenüber einer bestimmten Transformation, wie Rotation oder Spiegelung, invariant ist.\", \"In der Natur wird Symmetrie oft mit Schönheit und Effizienz assoziiert.\", \"Die bilaterale Symmetrie des menschlichen Körpers ist ein Hauptmerkmal der Wirbeltieranatomie.\"], \"source_fact_index\": 37, \"target_contexts\": [[\"Die Europäische Union verfolgt das Ziel, das wirtschaftliche Wohlergehen ihrer Bürger zu fördern.\", \"Die Europäische Union verfolgt das Ziel, das soziale Wohlergehen ihrer Bürger zu fördern.\", \"Die Europäische Kommission gehört zu den Hauptorganen der Europäischen Union.\"], [\"Die Europäische Kommission gehört zu den Hauptorganen der Europäischen Union.\", \"Das Europäische Parlament gehört zu den Hauptorganen der Europäischen Union.\", \"Der Rat der Europäischen Union gehört zu den Hauptorganen der Europäischen Union.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 359,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [38, 42], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"In der Natur wird Symmetrie oft mit Schönheit und Effizienz assoziiert.\", \"Die bilaterale Symmetrie des menschlichen Körpers ist ein Hauptmerkmal der Wirbeltieranatomie.\", \"Schaffhausen beauftragte im Jahr 1804 den Werkmeister Andreas Widtmer mit dem Bau der vierten und letzten Rheinbrücke aus Holz.\"], \"source_fact_index\": 38, \"target_contexts\": [[\"Die durchlaufenden Tragwerksteile sind anderseits darauf zurückzuführen, dass Grubenmann rein nach Erfahrungswerten arbeitete.\", \"Grubenmann kannte noch keine Berechnungsmethoden.\", \"Schaffhausen beauftragte im Jahre 1804 den Werkmeister Andreas Widtmer mit dem Bau der vierten und letzten hölzernen Rheinbrücke.\"], [\"Die offene Holzbrücke überspannte den Rhein mit sieben bogenförmig geschwungenen Öffnungen.\", \"Die bogenförmig geschwungenen Öffnungen der Brücke ruhten auf Pfahljochen.\", \"Alle 7 bis 20 Jahre mussten an der Brücke grössere Instandsetzungsmassnahmen durchgeführt werden.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 421,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [39, 40], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die bilaterale Symmetrie des menschlichen Körpers ist ein Hauptmerkmal der Wirbeltieranatomie.\", \"Schaffhausen beauftragte im Jahr 1804 den Werkmeister Andreas Widtmer mit dem Bau der vierten und letzten Rheinbrücke aus Holz.\", \"Die offene Holzbrücke war zwischen den Geländern 8 Meter breit.\"], \"source_fact_index\": 39, \"target_contexts\": [[\"Grubenmann kannte noch keine Berechnungsmethoden.\", \"Schaffhausen beauftragte im Jahre 1804 den Werkmeister Andreas Widtmer mit dem Bau der vierten und letzten hölzernen Rheinbrücke.\", \"Die offene Holzbrücke war zwischen den Geländern 8 Meter breit.\"], [\"Schaffhausen beauftragte im Jahre 1804 den Werkmeister Andreas Widtmer mit dem Bau der vierten und letzten hölzernen Rheinbrücke.\", \"Die offene Holzbrücke war zwischen den Geländern 8 Meter breit.\", \"Die offene Holzbrücke überspannte den Rhein mit sieben bogenförmig geschwungenen Öffnungen.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 415,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [40, 41], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Schaffhausen beauftragte im Jahr 1804 den Werkmeister Andreas Widtmer mit dem Bau der vierten und letzten Rheinbrücke aus Holz.\", \"Die offene Holzbrücke war zwischen den Geländern 8 Meter breit.\", \"Die offene Holzbrücke überspannte den Rhein mit sieben bogenförmig geschwungenen Öffnungen.\"], \"source_fact_index\": 40, \"target_contexts\": [[\"Schaffhausen beauftragte im Jahre 1804 den Werkmeister Andreas Widtmer mit dem Bau der vierten und letzten hölzernen Rheinbrücke.\", \"Die offene Holzbrücke war zwischen den Geländern 8 Meter breit.\", \"Die offene Holzbrücke überspannte den Rhein mit sieben bogenförmig geschwungenen Öffnungen.\"], [\"Die offene Holzbrücke war zwischen den Geländern 8 Meter breit.\", \"Die offene Holzbrücke überspannte den Rhein mit sieben bogenförmig geschwungenen Öffnungen.\", \"Die bogenförmig geschwungenen Öffnungen der Brücke ruhten auf Pfahljochen.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 413,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [41, 40], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die offene Holzbrücke war zwischen den Geländern 8 Meter breit.\", \"Die offene Holzbrücke überspannte den Rhein mit sieben bogenförmig geschwungenen Öffnungen.\", \"Die bogenförmig geschwungenen Öffnungen ruhten auf Pfohljoch.\"], \"source_fact_index\": 41, \"target_contexts\": [[\"Die offene Holzbrücke war zwischen den Geländern 8 Meter breit.\", \"Die offene Holzbrücke überspannte den Rhein mit sieben bogenförmig geschwungenen Öffnungen.\", \"Die bogenförmig geschwungenen Öffnungen der Brücke ruhten auf Pfahljochen.\"], [\"Schaffhausen beauftragte im Jahre 1804 den Werkmeister Andreas Widtmer mit dem Bau der vierten und letzten hölzernen Rheinbrücke.\", \"Die offene Holzbrücke war zwischen den Geländern 8 Meter breit.\", \"Die offene Holzbrücke überspannte den Rhein mit sieben bogenförmig geschwungenen Öffnungen.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 398,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [42, 43], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die offene Holzbrücke überspannte den Rhein mit sieben bogenförmig geschwungenen Öffnungen.\", \"Die bogenförmig geschwungenen Öffnungen ruhten auf Pfohljoch.\", \"Alle 7 bis 20 Jahre mussten größere Instandsetzungsmaßnahmen durchgeführt werden.\"], \"source_fact_index\": 42, \"target_contexts\": [[\"Die offene Holzbrücke überspannte den Rhein mit sieben bogenförmig geschwungenen Öffnungen.\", \"Die bogenförmig geschwungenen Öffnungen der Brücke ruhten auf Pfahljochen.\", \"Alle 7 bis 20 Jahre mussten an der Brücke grössere Instandsetzungsmassnahmen durchgeführt werden.\"], [\"Die bogenförmig geschwungenen Öffnungen der Brücke ruhten auf Pfahljochen.\", \"Alle 7 bis 20 Jahre mussten an der Brücke grössere Instandsetzungsmassnahmen durchgeführt werden.\", \"Die Instandsetzungsmassnahmen wurden bis 1850 durch einen Brückenzoll finanziert.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 403,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [43, 42], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die bogenförmig geschwungenen Öffnungen ruhten auf Pfohljoch.\", \"Alle 7 bis 20 Jahre mussten größere Instandsetzungsmaßnahmen durchgeführt werden.\", \"Die Instandsetzungsmaßnahmen wurden bis 1850 durch einen Brückenzoll finanziert.\"], \"source_fact_index\": 43, \"target_contexts\": [[\"Die bogenförmig geschwungenen Öffnungen der Brücke ruhten auf Pfahljochen.\", \"Alle 7 bis 20 Jahre mussten an der Brücke grössere Instandsetzungsmassnahmen durchgeführt werden.\", \"Die Instandsetzungsmassnahmen wurden bis 1850 durch einen Brückenzoll finanziert.\"], [\"Die offene Holzbrücke überspannte den Rhein mit sieben bogenförmig geschwungenen Öffnungen.\", \"Die bogenförmig geschwungenen Öffnungen der Brücke ruhten auf Pfahljochen.\", \"Alle 7 bis 20 Jahre mussten an der Brücke grössere Instandsetzungsmassnahmen durchgeführt werden.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 402,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [61, 60], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Alle 7 bis 20 Jahre mussten größere Instandsetzungsmaßnahmen durchgeführt werden.\", \"Die Instandsetzungsmaßnahmen wurden bis 1850 durch einen Brückenzoll finanziert.\", \"Die alte Holzbrücke war im Zuge des stetig steigenden Kraftfahrzeugverkehrs in den 1950er Jahren nicht mehr ausreichend.\"], \"source_fact_index\": 44, \"target_contexts\": [[\"In den Jahren 2011/12 wurde eine Totalsanierung der Rheinbrücke durchgeführt.\", \"Die Totalsanierung in den Jahren 2011/12 einschloss die in der Brücke verlegten Werkleitungen.\", \"Der Kostenvoranschlag von 5,66 Millionen Franken für die Totalsanierung wurde nicht überschritten.\"], [\"In den Jahren 1986/87 wurde die Rheinbrücke zum ersten Mal für 1,35 Millionen Franken saniert.\", \"In den Jahren 2011/12 wurde eine Totalsanierung der Rheinbrücke durchgeführt.\", \"Die Totalsanierung in den Jahren 2011/12 einschloss die in der Brücke verlegten Werkleitungen.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 434,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [61, 62], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Instandsetzungsmaßnahmen wurden bis 1850 durch einen Brückenzoll finanziert.\", \"Die alte Holzbrücke war im Zuge des stetig steigenden Kraftfahrzeugverkehrs in den 1950er Jahren nicht mehr ausreichend.\", \"Aufgrund dessen wurde mit der Projektierung eines Neubaus begonnen.\"], \"source_fact_index\": 45, \"target_contexts\": [[\"In den Jahren 2011/12 wurde eine Totalsanierung der Rheinbrücke durchgeführt.\", \"Die Totalsanierung in den Jahren 2011/12 einschloss die in der Brücke verlegten Werkleitungen.\", \"Der Kostenvoranschlag von 5,66 Millionen Franken für die Totalsanierung wurde nicht überschritten.\"], [\"Die Totalsanierung in den Jahren 2011/12 einschloss die in der Brücke verlegten Werkleitungen.\", \"Der Kostenvoranschlag von 5,66 Millionen Franken für die Totalsanierung wurde nicht überschritten.\", \"Nach der Sanierung gehen die Ingenieure von einer Restnutzungsdauer der Rheinbrücke von 60 Jahren aus.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 427,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [61, 62], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die alte Holzbrücke war im Zuge des stetig steigenden Kraftfahrzeugverkehrs in den 1950er Jahren nicht mehr ausreichend.\", \"Aufgrund dessen wurde mit der Projektierung eines Neubaus begonnen.\", \"Zur selben Zeit wurde der Neubau des Kraftwerks Schaffhausen geplant.\"], \"source_fact_index\": 46, \"target_contexts\": [[\"In den Jahren 2011/12 wurde eine Totalsanierung der Rheinbrücke durchgeführt.\", \"Die Totalsanierung in den Jahren 2011/12 einschloss die in der Brücke verlegten Werkleitungen.\", \"Der Kostenvoranschlag von 5,66 Millionen Franken für die Totalsanierung wurde nicht überschritten.\"], [\"Die Totalsanierung in den Jahren 2011/12 einschloss die in der Brücke verlegten Werkleitungen.\", \"Der Kostenvoranschlag von 5,66 Millionen Franken für die Totalsanierung wurde nicht überschritten.\", \"Nach der Sanierung gehen die Ingenieure von einer Restnutzungsdauer der Rheinbrücke von 60 Jahren aus.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 418,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [61, 62], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Aufgrund dessen wurde mit der Projektierung eines Neubaus begonnen.\", \"Zur selben Zeit wurde der Neubau des Kraftwerks Schaffhausen geplant.\", \"Der Neubau des Kraftwerks Schaffhausen war als Ersatz für den fast 100-jährigen Moserdamm geplant.\"], \"source_fact_index\": 47, \"target_contexts\": [[\"In den Jahren 2011/12 wurde eine Totalsanierung der Rheinbrücke durchgeführt.\", \"Die Totalsanierung in den Jahren 2011/12 einschloss die in der Brücke verlegten Werkleitungen.\", \"Der Kostenvoranschlag von 5,66 Millionen Franken für die Totalsanierung wurde nicht überschritten.\"], [\"Die Totalsanierung in den Jahren 2011/12 einschloss die in der Brücke verlegten Werkleitungen.\", \"Der Kostenvoranschlag von 5,66 Millionen Franken für die Totalsanierung wurde nicht überschritten.\", \"Nach der Sanierung gehen die Ingenieure von einer Restnutzungsdauer der Rheinbrücke von 60 Jahren aus.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 411,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [59, 61], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Zur selben Zeit wurde der Neubau des Kraftwerks Schaffhausen geplant.\", \"Der Neubau des Kraftwerks Schaffhausen war als Ersatz für den fast 100-jährigen Moserdamm geplant.\", \"Für die vorgesehene Aufstauung des Rheins war eine Neugestaltung des gesamten Rheinufers bis Büsingen notwendig.\"], \"source_fact_index\": 48, \"target_contexts\": [[\"Die Tendenz der Fahrzeugzahlen, die die Brücke passierten, war 2009 wieder steigend.\", \"In den Jahren 1986/87 wurde die Rheinbrücke zum ersten Mal für 1,35 Millionen Franken saniert.\", \"In den Jahren 2011/12 wurde eine Totalsanierung der Rheinbrücke durchgeführt.\"], [\"In den Jahren 2011/12 wurde eine Totalsanierung der Rheinbrücke durchgeführt.\", \"Die Totalsanierung in den Jahren 2011/12 einschloss die in der Brücke verlegten Werkleitungen.\", \"Der Kostenvoranschlag von 5,66 Millionen Franken für die Totalsanierung wurde nicht überschritten.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 423,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [58, 59], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Neubau des Kraftwerks Schaffhausen war als Ersatz für den fast 100-jährigen Moserdamm geplant.\", \"Für die vorgesehene Aufstauung des Rheins war eine Neugestaltung des gesamten Rheinufers bis Büsingen notwendig.\", \"Als Zubringer von Neuhausen her wurde die Rheinuferstraße im Süden der Altstadt gebaut.\"], \"source_fact_index\": 49, \"target_contexts\": [[\"Im Jahr 2009 passierten durchschnittlich 19‘000 Fahrzeuge pro Tag die Brücke.\", \"Die Tendenz der Fahrzeugzahlen, die die Brücke passierten, war 2009 wieder steigend.\", \"In den Jahren 1986/87 wurde die Rheinbrücke zum ersten Mal für 1,35 Millionen Franken saniert.\"], [\"Die Tendenz der Fahrzeugzahlen, die die Brücke passierten, war 2009 wieder steigend.\", \"In den Jahren 1986/87 wurde die Rheinbrücke zum ersten Mal für 1,35 Millionen Franken saniert.\", \"In den Jahren 2011/12 wurde eine Totalsanierung der Rheinbrücke durchgeführt.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 431,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [62, 59], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Für die vorgesehene Aufstauung des Rheins war eine Neugestaltung des gesamten Rheinufers bis Büsingen notwendig.\", \"Als Zubringer von Neuhausen her wurde die Rheinuferstraße im Süden der Altstadt gebaut.\", \"Dank der neuen Rheinregulierung durch das Kraftwerk hat der Rhein zu jeder Jahreszeit den gleichen Pegel.\"], \"source_fact_index\": 50, \"target_contexts\": [[\"Die Totalsanierung in den Jahren 2011/12 einschloss die in der Brücke verlegten Werkleitungen.\", \"Der Kostenvoranschlag von 5,66 Millionen Franken für die Totalsanierung wurde nicht überschritten.\", \"Nach der Sanierung gehen die Ingenieure von einer Restnutzungsdauer der Rheinbrücke von 60 Jahren aus.\"], [\"Die Tendenz der Fahrzeugzahlen, die die Brücke passierten, war 2009 wieder steigend.\", \"In den Jahren 1986/87 wurde die Rheinbrücke zum ersten Mal für 1,35 Millionen Franken saniert.\", \"In den Jahren 2011/12 wurde eine Totalsanierung der Rheinbrücke durchgeführt.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 431,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [59, 58], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Als Zubringer von Neuhausen her wurde die Rheinuferstraße im Süden der Altstadt gebaut.\", \"Dank der neuen Rheinregulierung durch das Kraftwerk hat der Rhein zu jeder Jahreszeit den gleichen Pegel.\", \"Durch die neue Rheinregulierung konnte man die Brücke tiefer legen.\"], \"source_fact_index\": 51, \"target_contexts\": [[\"Die Tendenz der Fahrzeugzahlen, die die Brücke passierten, war 2009 wieder steigend.\", \"In den Jahren 1986/87 wurde die Rheinbrücke zum ersten Mal für 1,35 Millionen Franken saniert.\", \"In den Jahren 2011/12 wurde eine Totalsanierung der Rheinbrücke durchgeführt.\"], [\"Im Jahr 2009 passierten durchschnittlich 19‘000 Fahrzeuge pro Tag die Brücke.\", \"Die Tendenz der Fahrzeugzahlen, die die Brücke passierten, war 2009 wieder steigend.\", \"In den Jahren 1986/87 wurde die Rheinbrücke zum ersten Mal für 1,35 Millionen Franken saniert.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 415,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [62, 60], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Dank der neuen Rheinregulierung durch das Kraftwerk hat der Rhein zu jeder Jahreszeit den gleichen Pegel.\", \"Durch die neue Rheinregulierung konnte man die Brücke tiefer legen.\", \"Die Ingenieure haben in der Konstruktion die Vorgabe berücksichtigt, dass die Brücke bei einer allfälligen Hochrheinschifffahrt angehoben werden kann.\"], \"source_fact_index\": 52, \"target_contexts\": [[\"Die Totalsanierung in den Jahren 2011/12 einschloss die in der Brücke verlegten Werkleitungen.\", \"Der Kostenvoranschlag von 5,66 Millionen Franken für die Totalsanierung wurde nicht überschritten.\", \"Nach der Sanierung gehen die Ingenieure von einer Restnutzungsdauer der Rheinbrücke von 60 Jahren aus.\"], [\"In den Jahren 1986/87 wurde die Rheinbrücke zum ersten Mal für 1,35 Millionen Franken saniert.\", \"In den Jahren 2011/12 wurde eine Totalsanierung der Rheinbrücke durchgeführt.\", \"Die Totalsanierung in den Jahren 2011/12 einschloss die in der Brücke verlegten Werkleitungen.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 438,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [62, 61], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Durch die neue Rheinregulierung konnte man die Brücke tiefer legen.\", \"Die Ingenieure haben in der Konstruktion die Vorgabe berücksichtigt, dass die Brücke bei einer allfälligen Hochrheinschifffahrt angehoben werden kann.\", \"Kurz nachdem die Brücke in Betrieb genommen wurde, wurden die Pläne für die Schiffbarmachung des Hochrheins endgültig aufgegeben.\"], \"source_fact_index\": 53, \"target_contexts\": [[\"Die Totalsanierung in den Jahren 2011/12 einschloss die in der Brücke verlegten Werkleitungen.\", \"Der Kostenvoranschlag von 5,66 Millionen Franken für die Totalsanierung wurde nicht überschritten.\", \"Nach der Sanierung gehen die Ingenieure von einer Restnutzungsdauer der Rheinbrücke von 60 Jahren aus.\"], [\"In den Jahren 2011/12 wurde eine Totalsanierung der Rheinbrücke durchgeführt.\", \"Die Totalsanierung in den Jahren 2011/12 einschloss die in der Brücke verlegten Werkleitungen.\", \"Der Kostenvoranschlag von 5,66 Millionen Franken für die Totalsanierung wurde nicht überschritten.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 442,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [61, 60], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Ingenieure haben in der Konstruktion die Vorgabe berücksichtigt, dass die Brücke bei einer allfälligen Hochrheinschifffahrt angehoben werden kann.\", \"Kurz nachdem die Brücke in Betrieb genommen wurde, wurden die Pläne für die Schiffbarmachung des Hochrheins endgültig aufgegeben.\", \"Alle Vorgängerbrücken sind auf dem Freien Platz zugelaufen.\"], \"source_fact_index\": 54, \"target_contexts\": [[\"In den Jahren 2011/12 wurde eine Totalsanierung der Rheinbrücke durchgeführt.\", \"Die Totalsanierung in den Jahren 2011/12 einschloss die in der Brücke verlegten Werkleitungen.\", \"Der Kostenvoranschlag von 5,66 Millionen Franken für die Totalsanierung wurde nicht überschritten.\"], [\"In den Jahren 1986/87 wurde die Rheinbrücke zum ersten Mal für 1,35 Millionen Franken saniert.\", \"In den Jahren 2011/12 wurde eine Totalsanierung der Rheinbrücke durchgeführt.\", \"Die Totalsanierung in den Jahren 2011/12 einschloss die in der Brücke verlegten Werkleitungen.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 443,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [60, 59], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Kurz nachdem die Brücke in Betrieb genommen wurde, wurden die Pläne für die Schiffbarmachung des Hochrheins endgültig aufgegeben.\", \"Alle Vorgängerbrücken sind auf dem Freien Platz zugelaufen.\", \"Mit dem Neubau wurde der Verkehrsfluss geändert.\"], \"source_fact_index\": 55, \"target_contexts\": [[\"In den Jahren 1986/87 wurde die Rheinbrücke zum ersten Mal für 1,35 Millionen Franken saniert.\", \"In den Jahren 2011/12 wurde eine Totalsanierung der Rheinbrücke durchgeführt.\", \"Die Totalsanierung in den Jahren 2011/12 einschloss die in der Brücke verlegten Werkleitungen.\"], [\"Die Tendenz der Fahrzeugzahlen, die die Brücke passierten, war 2009 wieder steigend.\", \"In den Jahren 1986/87 wurde die Rheinbrücke zum ersten Mal für 1,35 Millionen Franken saniert.\", \"In den Jahren 2011/12 wurde eine Totalsanierung der Rheinbrücke durchgeführt.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 417,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [62, 61], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Alle Vorgängerbrücken sind auf dem Freien Platz zugelaufen.\", \"Mit dem Neubau wurde der Verkehrsfluss geändert.\", \"Die Schiffswinkligkeit der Brücke gegenüber der Strömungsrichtung wurde durch die Verschiebung des Widerlagers am Schaffhauser Ufer um 50 Meter rhenabwärts verändert.\"], \"source_fact_index\": 56, \"target_contexts\": [[\"Die Totalsanierung in den Jahren 2011/12 einschloss die in der Brücke verlegten Werkleitungen.\", \"Der Kostenvoranschlag von 5,66 Millionen Franken für die Totalsanierung wurde nicht überschritten.\", \"Nach der Sanierung gehen die Ingenieure von einer Restnutzungsdauer der Rheinbrücke von 60 Jahren aus.\"], [\"In den Jahren 2011/12 wurde eine Totalsanierung der Rheinbrücke durchgeführt.\", \"Die Totalsanierung in den Jahren 2011/12 einschloss die in der Brücke verlegten Werkleitungen.\", \"Der Kostenvoranschlag von 5,66 Millionen Franken für die Totalsanierung wurde nicht überschritten.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 425,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [58, 61], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Mit dem Neubau wurde der Verkehrsfluss geändert.\", \"Die Schiffswinkligkeit der Brücke gegenüber der Strömungsrichtung wurde durch die Verschiebung des Widerlagers am Schaffhauser Ufer um 50 Meter rhenabwärts verändert.\", \"Das Bauwerk wurde in den Jahren 1962 bis 1965 gebaut.\"], \"source_fact_index\": 57, \"target_contexts\": [[\"Im Jahr 2009 passierten durchschnittlich 19‘000 Fahrzeuge pro Tag die Brücke.\", \"Die Tendenz der Fahrzeugzahlen, die die Brücke passierten, war 2009 wieder steigend.\", \"In den Jahren 1986/87 wurde die Rheinbrücke zum ersten Mal für 1,35 Millionen Franken saniert.\"], [\"In den Jahren 2011/12 wurde eine Totalsanierung der Rheinbrücke durchgeführt.\", \"Die Totalsanierung in den Jahren 2011/12 einschloss die in der Brücke verlegten Werkleitungen.\", \"Der Kostenvoranschlag von 5,66 Millionen Franken für die Totalsanierung wurde nicht überschritten.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 428,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [61, 58], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Schiffswinkligkeit der Brücke gegenüber der Strömungsrichtung wurde durch die Verschiebung des Widerlagers am Schaffhauser Ufer um 50 Meter rhenabwärts verändert.\", \"Das Bauwerk wurde in den Jahren 1962 bis 1965 gebaut.\", \"Das Bauwerk hat 7 Millionen Franken gekostet.\"], \"source_fact_index\": 58, \"target_contexts\": [[\"In den Jahren 2011/12 wurde eine Totalsanierung der Rheinbrücke durchgeführt.\", \"Die Totalsanierung in den Jahren 2011/12 einschloss die in der Brücke verlegten Werkleitungen.\", \"Der Kostenvoranschlag von 5,66 Millionen Franken für die Totalsanierung wurde nicht überschritten.\"], [\"Im Jahr 2009 passierten durchschnittlich 19‘000 Fahrzeuge pro Tag die Brücke.\", \"Die Tendenz der Fahrzeugzahlen, die die Brücke passierten, war 2009 wieder steigend.\", \"In den Jahren 1986/87 wurde die Rheinbrücke zum ersten Mal für 1,35 Millionen Franken saniert.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 430,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [54, 55], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Das Bauwerk wurde in den Jahren 1962 bis 1965 gebaut.\", \"Das Bauwerk hat 7 Millionen Franken gekostet.\", \"Bis die A4-Stadtdurchfahrt und die A4-Schrägseilbrücke im Jahr 1995 eröffnet wurden, ist ein Großteil des Straßenverkehrs zwischen Stuttgart und Zürich über die neue Brücke geflossen.\"], \"source_fact_index\": 59, \"target_contexts\": [[\"Das Europäische Parlament gehört zu den Hauptorganen der Europäischen Union.\", \"Der Rat der Europäischen Union gehört zu den Hauptorganen der Europäischen Union.\", \"Bis zur Eröffnung der A4-Stadtdurchfahrt und der A4 Schrägseilbrücke im Jahre 1995 führte ein Grossteil des Strassenverkehrs zwischen Stuttgart und Zürich über die neue Brücke.\"], [\"Der Rat der Europäischen Union gehört zu den Hauptorganen der Europäischen Union.\", \"Bis zur Eröffnung der A4-Stadtdurchfahrt und der A4 Schrägseilbrücke im Jahre 1995 führte ein Grossteil des Strassenverkehrs zwischen Stuttgart und Zürich über die neue Brücke.\", \"Nach der Eröffnung der A4-Stadtdurchfahrt und der A4 Schrägseilbrücke im Jahre 1995 flaute der Verkehr spürbar ab.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 467,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [55, 54], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Das Bauwerk hat 7 Millionen Franken gekostet.\", \"Bis die A4-Stadtdurchfahrt und die A4-Schrägseilbrücke im Jahr 1995 eröffnet wurden, ist ein Großteil des Straßenverkehrs zwischen Stuttgart und Zürich über die neue Brücke geflossen.\", \"Nach der Eröffnung der A4-Stadtdurchfahrt und der A4-Schrägseilbrücke ist vor allem der Transitverkehr über die Rheinbrücke nach Fürthaleen spürbar zurückgegangen.\"], \"source_fact_index\": 60, \"target_contexts\": [[\"Der Rat der Europäischen Union gehört zu den Hauptorganen der Europäischen Union.\", \"Bis zur Eröffnung der A4-Stadtdurchfahrt und der A4 Schrägseilbrücke im Jahre 1995 führte ein Grossteil des Strassenverkehrs zwischen Stuttgart und Zürich über die neue Brücke.\", \"Nach der Eröffnung der A4-Stadtdurchfahrt und der A4 Schrägseilbrücke im Jahre 1995 flaute der Verkehr spürbar ab.\"], [\"Das Europäische Parlament gehört zu den Hauptorganen der Europäischen Union.\", \"Der Rat der Europäischen Union gehört zu den Hauptorganen der Europäischen Union.\", \"Bis zur Eröffnung der A4-Stadtdurchfahrt und der A4 Schrägseilbrücke im Jahre 1995 führte ein Grossteil des Strassenverkehrs zwischen Stuttgart und Zürich über die neue Brücke.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 495,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [56, 57], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Bis die A4-Stadtdurchfahrt und die A4-Schrägseilbrücke im Jahr 1995 eröffnet wurden, ist ein Großteil des Straßenverkehrs zwischen Stuttgart und Zürich über die neue Brücke geflossen.\", \"Nach der Eröffnung der A4-Stadtdurchfahrt und der A4-Schrägseilbrücke ist vor allem der Transitverkehr über die Rheinbrücke nach Fürthaleen spürbar zurückgegangen.\", \"Im Jahr 2009 haben durchschnittlich 19.000 Fahrzeuge pro Tag die Brücke überquert.\"], \"source_fact_index\": 61, \"target_contexts\": [[\"Bis zur Eröffnung der A4-Stadtdurchfahrt und der A4 Schrägseilbrücke im Jahre 1995 führte ein Grossteil des Strassenverkehrs zwischen Stuttgart und Zürich über die neue Brücke.\", \"Nach der Eröffnung der A4-Stadtdurchfahrt und der A4 Schrägseilbrücke im Jahre 1995 flaute der Verkehr spürbar ab.\", \"Im Jahr 2009 passierten durchschnittlich 19‘000 Fahrzeuge pro Tag die Brücke.\"], [\"Nach der Eröffnung der A4-Stadtdurchfahrt und der A4 Schrägseilbrücke im Jahre 1995 flaute der Verkehr spürbar ab.\", \"Im Jahr 2009 passierten durchschnittlich 19‘000 Fahrzeuge pro Tag die Brücke.\", \"Die Tendenz der Fahrzeugzahlen, die die Brücke passierten, war 2009 wieder steigend.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 530,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [57, 55], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Nach der Eröffnung der A4-Stadtdurchfahrt und der A4-Schrägseilbrücke ist vor allem der Transitverkehr über die Rheinbrücke nach Fürthaleen spürbar zurückgegangen.\", \"Im Jahr 2009 haben durchschnittlich 19.000 Fahrzeuge pro Tag die Brücke überquert.\", \"Die Tendenz der Fahrzeugzahlen auf der Brücke ist wieder steigend.\"], \"source_fact_index\": 62, \"target_contexts\": [[\"Nach der Eröffnung der A4-Stadtdurchfahrt und der A4 Schrägseilbrücke im Jahre 1995 flaute der Verkehr spürbar ab.\", \"Im Jahr 2009 passierten durchschnittlich 19‘000 Fahrzeuge pro Tag die Brücke.\", \"Die Tendenz der Fahrzeugzahlen, die die Brücke passierten, war 2009 wieder steigend.\"], [\"Der Rat der Europäischen Union gehört zu den Hauptorganen der Europäischen Union.\", \"Bis zur Eröffnung der A4-Stadtdurchfahrt und der A4 Schrägseilbrücke im Jahre 1995 führte ein Grossteil des Strassenverkehrs zwischen Stuttgart und Zürich über die neue Brücke.\", \"Nach der Eröffnung der A4-Stadtdurchfahrt und der A4 Schrägseilbrücke im Jahre 1995 flaute der Verkehr spürbar ab.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 483,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [58, 59], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Im Jahr 2009 haben durchschnittlich 19.000 Fahrzeuge pro Tag die Brücke überquert.\", \"Die Tendenz der Fahrzeugzahlen auf der Brücke ist wieder steigend.\", \"In den Jahren 1986/87 wurde die Rheinbrücke zum ersten Mal für 1,35 Millionen Franken saniert.\"], \"source_fact_index\": 63, \"target_contexts\": [[\"Im Jahr 2009 passierten durchschnittlich 19‘000 Fahrzeuge pro Tag die Brücke.\", \"Die Tendenz der Fahrzeugzahlen, die die Brücke passierten, war 2009 wieder steigend.\", \"In den Jahren 1986/87 wurde die Rheinbrücke zum ersten Mal für 1,35 Millionen Franken saniert.\"], [\"Die Tendenz der Fahrzeugzahlen, die die Brücke passierten, war 2009 wieder steigend.\", \"In den Jahren 1986/87 wurde die Rheinbrücke zum ersten Mal für 1,35 Millionen Franken saniert.\", \"In den Jahren 2011/12 wurde eine Totalsanierung der Rheinbrücke durchgeführt.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 430,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [60, 59], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Tendenz der Fahrzeugzahlen auf der Brücke ist wieder steigend.\", \"In den Jahren 1986/87 wurde die Rheinbrücke zum ersten Mal für 1,35 Millionen Franken saniert.\", \"In den Jahren 2011/12 wurde eine Totalsanierung einschließlich der in der Brücke verlegten Leitungen durchgeführt.\"], \"source_fact_index\": 64, \"target_contexts\": [[\"In den Jahren 1986/87 wurde die Rheinbrücke zum ersten Mal für 1,35 Millionen Franken saniert.\", \"In den Jahren 2011/12 wurde eine Totalsanierung der Rheinbrücke durchgeführt.\", \"Die Totalsanierung in den Jahren 2011/12 einschloss die in der Brücke verlegten Werkleitungen.\"], [\"Die Tendenz der Fahrzeugzahlen, die die Brücke passierten, war 2009 wieder steigend.\", \"In den Jahren 1986/87 wurde die Rheinbrücke zum ersten Mal für 1,35 Millionen Franken saniert.\", \"In den Jahren 2011/12 wurde eine Totalsanierung der Rheinbrücke durchgeführt.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 435,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [61, 58], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"In den Jahren 1986/87 wurde die Rheinbrücke zum ersten Mal für 1,35 Millionen Franken saniert.\", \"In den Jahren 2011/12 wurde eine Totalsanierung einschließlich der in der Brücke verlegten Leitungen durchgeführt.\", \"Die Sanierung verursachte Kosten von etwa 5,6 Millionen Franken.\"], \"source_fact_index\": 65, \"target_contexts\": [[\"In den Jahren 2011/12 wurde eine Totalsanierung der Rheinbrücke durchgeführt.\", \"Die Totalsanierung in den Jahren 2011/12 einschloss die in der Brücke verlegten Werkleitungen.\", \"Der Kostenvoranschlag von 5,66 Millionen Franken für die Totalsanierung wurde nicht überschritten.\"], [\"Im Jahr 2009 passierten durchschnittlich 19‘000 Fahrzeuge pro Tag die Brücke.\", \"Die Tendenz der Fahrzeugzahlen, die die Brücke passierten, war 2009 wieder steigend.\", \"In den Jahren 1986/87 wurde die Rheinbrücke zum ersten Mal für 1,35 Millionen Franken saniert.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 432,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [62, 61], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"In den Jahren 2011/12 wurde eine Totalsanierung einschließlich der in der Brücke verlegten Leitungen durchgeführt.\", \"Die Sanierung verursachte Kosten von etwa 5,6 Millionen Franken.\", \"Nach der Sanierung berechneten die Ingenieure eine Restnutzungsdauer von 60 Jahren.\"], \"source_fact_index\": 66, \"target_contexts\": [[\"Die Totalsanierung in den Jahren 2011/12 einschloss die in der Brücke verlegten Werkleitungen.\", \"Der Kostenvoranschlag von 5,66 Millionen Franken für die Totalsanierung wurde nicht überschritten.\", \"Nach der Sanierung gehen die Ingenieure von einer Restnutzungsdauer der Rheinbrücke von 60 Jahren aus.\"], [\"In den Jahren 2011/12 wurde eine Totalsanierung der Rheinbrücke durchgeführt.\", \"Die Totalsanierung in den Jahren 2011/12 einschloss die in der Brücke verlegten Werkleitungen.\", \"Der Kostenvoranschlag von 5,66 Millionen Franken für die Totalsanierung wurde nicht überschritten.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 426,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [63, 64], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Sanierung verursachte Kosten von etwa 5,6 Millionen Franken.\", \"Nach der Sanierung berechneten die Ingenieure eine Restnutzungsdauer von 60 Jahren.\", \"Die 102,5 Meter lange Brücke ist als vorgespannte Stahlbetonbrücke gebaut worden.\"], \"source_fact_index\": 67, \"target_contexts\": [[\"Der Kostenvoranschlag von 5,66 Millionen Franken für die Totalsanierung wurde nicht überschritten.\", \"Nach der Sanierung gehen die Ingenieure von einer Restnutzungsdauer der Rheinbrücke von 60 Jahren aus.\", \"Die Brücke ist 102,5 Meter lang.\"], [\"Nach der Sanierung gehen die Ingenieure von einer Restnutzungsdauer der Rheinbrücke von 60 Jahren aus.\", \"Die Brücke ist 102,5 Meter lang.\", \"Die Brücke wurde als vorgespannte Stahlbetonbrücke erstellt.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 382,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [65, 67], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Nach der Sanierung berechneten die Ingenieure eine Restnutzungsdauer von 60 Jahren.\", \"Die 102,5 Meter lange Brücke ist als vorgespannte Stahlbetonbrücke gebaut worden.\", \"Die Brücke weist drei Öffnungen auf.\"], \"source_fact_index\": 68, \"target_contexts\": [[\"Die Brücke ist 102,5 Meter lang.\", \"Die Brücke wurde als vorgespannte Stahlbetonbrücke erstellt.\", \"Die Brücke weist drei Öffnungen auf.\"], [\"Die Brücke weist drei Öffnungen auf.\", \"Die Brücke besitzt eine Mittelspannweite von 61 Metern.\", \"In Querrichtung ist ein dreizelliger Hohlkastenquerschnitt vorhanden.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 332,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [66, 63], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die 102,5 Meter lange Brücke ist als vorgespannte Stahlbetonbrücke gebaut worden.\", \"Die Brücke weist drei Öffnungen auf.\", \"Die Brücke hat eine Mittelspannweite von 61 Meter.\"], \"source_fact_index\": 69, \"target_contexts\": [[\"Die Brücke wurde als vorgespannte Stahlbetonbrücke erstellt.\", \"Die Brücke weist drei Öffnungen auf.\", \"Die Brücke besitzt eine Mittelspannweite von 61 Metern.\"], [\"Der Kostenvoranschlag von 5,66 Millionen Franken für die Totalsanierung wurde nicht überschritten.\", \"Nach der Sanierung gehen die Ingenieure von einer Restnutzungsdauer der Rheinbrücke von 60 Jahren aus.\", \"Die Brücke ist 102,5 Meter lang.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 350,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [67, 72], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Brücke weist drei Öffnungen auf.\", \"Die Brücke hat eine Mittelspannweite von 61 Meter.\", \"In Querrichtung ist ein dreizelliger Hohlkastenquerschnitt vorhanden.\"], \"source_fact_index\": 70, \"target_contexts\": [[\"Die Brücke weist drei Öffnungen auf.\", \"Die Brücke besitzt eine Mittelspannweite von 61 Metern.\", \"In Querrichtung ist ein dreizelliger Hohlkastenquerschnitt vorhanden.\"], [\"Der Überbau ruht auf zwei schmalen, scheibenförmigen Pfeilern.\", \"Die Pfeiler sind auf Betonpfählen bis zu 20 Meter tief im Flussbett gegründet.\", \"Die grossflächigen Widerlager besitzen eine Flachgründung.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 333,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [68, 69], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Brücke hat eine Mittelspannweite von 61 Meter.\", \"In Querrichtung ist ein dreizelliger Hohlkastenquerschnitt vorhanden.\", \"Der Hohlkastenquerschnitt hat in der Brückenmitte eine Bauhöhe von 1,28 Meter.\"], \"source_fact_index\": 71, \"target_contexts\": [[\"Die Brücke besitzt eine Mittelspannweite von 61 Metern.\", \"In Querrichtung ist ein dreizelliger Hohlkastenquerschnitt vorhanden.\", \"Der Hohlkastenquerschnitt besitzt in Brückenmitte eine Bauhöhe von 1,28 Meter.\"], [\"In Querrichtung ist ein dreizelliger Hohlkastenquerschnitt vorhanden.\", \"Der Hohlkastenquerschnitt besitzt in Brückenmitte eine Bauhöhe von 1,28 Meter.\", \"Der Hohlkastenquerschnitt besitzt über den Flusspfeilern eine Bauhöhe von 1,83 Meter.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 378,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [69, 68], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"In Querrichtung ist ein dreizelliger Hohlkastenquerschnitt vorhanden.\", \"Der Hohlkastenquerschnitt hat in der Brückenmitte eine Bauhöhe von 1,28 Meter.\", \"Der Hohlkastenquerschnitt hat über den Flusspfeilern eine Bauhöhe von 1,83 Meter.\"], \"source_fact_index\": 72, \"target_contexts\": [[\"In Querrichtung ist ein dreizelliger Hohlkastenquerschnitt vorhanden.\", \"Der Hohlkastenquerschnitt besitzt in Brückenmitte eine Bauhöhe von 1,28 Meter.\", \"Der Hohlkastenquerschnitt besitzt über den Flusspfeilern eine Bauhöhe von 1,83 Meter.\"], [\"Die Brücke besitzt eine Mittelspannweite von 61 Metern.\", \"In Querrichtung ist ein dreizelliger Hohlkastenquerschnitt vorhanden.\", \"Der Hohlkastenquerschnitt besitzt in Brückenmitte eine Bauhöhe von 1,28 Meter.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 391,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [70, 67], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Hohlkastenquerschnitt hat in der Brückenmitte eine Bauhöhe von 1,28 Meter.\", \"Der Hohlkastenquerschnitt hat über den Flusspfeilern eine Bauhöhe von 1,83 Meter.\", \"Der Überbau liegt auf zwei schmalen, scheibenförmigen Pfeilern.\"], \"source_fact_index\": 73, \"target_contexts\": [[\"Der Hohlkastenquerschnitt besitzt in Brückenmitte eine Bauhöhe von 1,28 Meter.\", \"Der Hohlkastenquerschnitt besitzt über den Flusspfeilern eine Bauhöhe von 1,83 Meter.\", \"Der Überbau ruht auf zwei schmalen, scheibenförmigen Pfeilern.\"], [\"Die Brücke weist drei Öffnungen auf.\", \"Die Brücke besitzt eine Mittelspannweite von 61 Metern.\", \"In Querrichtung ist ein dreizelliger Hohlkastenquerschnitt vorhanden.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 381,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [71, 72], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Hohlkastenquerschnitt hat über den Flusspfeilern eine Bauhöhe von 1,83 Meter.\", \"Der Überbau liegt auf zwei schmalen, scheibenförmigen Pfeilern.\", \"Die Pfeiler stehen auf Betonpfählen.\"], \"source_fact_index\": 74, \"target_contexts\": [[\"Der Hohlkastenquerschnitt besitzt über den Flusspfeilern eine Bauhöhe von 1,83 Meter.\", \"Der Überbau ruht auf zwei schmalen, scheibenförmigen Pfeilern.\", \"Die Pfeiler sind auf Betonpfählen bis zu 20 Meter tief im Flussbett gegründet.\"], [\"Der Überbau ruht auf zwei schmalen, scheibenförmigen Pfeilern.\", \"Die Pfeiler sind auf Betonpfählen bis zu 20 Meter tief im Flussbett gegründet.\", \"Die grossflächigen Widerlager besitzen eine Flachgründung.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 375,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [71, 68], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Überbau liegt auf zwei schmalen, scheibenförmigen Pfeilern.\", \"Die Pfeiler stehen auf Betonpfählen.\", \"Die Betonpfähle stecken bis zu 20 Meter tief im Flussbett.\"], \"source_fact_index\": 75, \"target_contexts\": [[\"Der Hohlkastenquerschnitt besitzt über den Flusspfeilern eine Bauhöhe von 1,83 Meter.\", \"Der Überbau ruht auf zwei schmalen, scheibenförmigen Pfeilern.\", \"Die Pfeiler sind auf Betonpfählen bis zu 20 Meter tief im Flussbett gegründet.\"], [\"Die Brücke besitzt eine Mittelspannweite von 61 Metern.\", \"In Querrichtung ist ein dreizelliger Hohlkastenquerschnitt vorhanden.\", \"Der Hohlkastenquerschnitt besitzt in Brückenmitte eine Bauhöhe von 1,28 Meter.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 367,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [72, 67], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Pfeiler stehen auf Betonpfählen.\", \"Die Betonpfähle stecken bis zu 20 Meter tief im Flussbett.\", \"Die großflächigen Widerlager haben eine Flachgründung.\"], \"source_fact_index\": 76, \"target_contexts\": [[\"Der Überbau ruht auf zwei schmalen, scheibenförmigen Pfeilern.\", \"Die Pfeiler sind auf Betonpfählen bis zu 20 Meter tief im Flussbett gegründet.\", \"Die grossflächigen Widerlager besitzen eine Flachgründung.\"], [\"Die Brücke weist drei Öffnungen auf.\", \"Die Brücke besitzt eine Mittelspannweite von 61 Metern.\", \"In Querrichtung ist ein dreizelliger Hohlkastenquerschnitt vorhanden.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 334,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [73, 74], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Betonpfähle stecken bis zu 20 Meter tief im Flussbett.\", \"Die großflächigen Widerlager haben eine Flachgründung.\", \"Die Fahrbahnplatte weist eine Breite von 19 Meter auf.\"], \"source_fact_index\": 77, \"target_contexts\": [[\"Die Pfeiler sind auf Betonpfählen bis zu 20 Meter tief im Flussbett gegründet.\", \"Die grossflächigen Widerlager besitzen eine Flachgründung.\", \"Die Fahrbahnplatte weist eine Breite von 19 Metern auf.\"], [\"Die grossflächigen Widerlager besitzen eine Flachgründung.\", \"Die Fahrbahnplatte weist eine Breite von 19 Metern auf.\", \"Die Fahrbahnplatte teilt sich in drei Fahrstreifen mit insgesamt 13 Meter Breite.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 341,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [74, 75], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die großflächigen Widerlager haben eine Flachgründung.\", \"Die Fahrbahnplatte weist eine Breite von 19 Meter auf.\", \"Die Fahrbahnplatte teilt sich in drei Fahrstreifen mit insgesamt 13 Meter Breite.\"], \"source_fact_index\": 78, \"target_contexts\": [[\"Die grossflächigen Widerlager besitzen eine Flachgründung.\", \"Die Fahrbahnplatte weist eine Breite von 19 Metern auf.\", \"Die Fahrbahnplatte teilt sich in drei Fahrstreifen mit insgesamt 13 Meter Breite.\"], [\"Die Fahrbahnplatte weist eine Breite von 19 Metern auf.\", \"Die Fahrbahnplatte teilt sich in drei Fahrstreifen mit insgesamt 13 Meter Breite.\", \"Die Fahrbahnplatte teilt sich in zwei Gehwege mit jeweils 3 Meter Breite.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 347,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [75, 74], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Fahrbahnplatte weist eine Breite von 19 Meter auf.\", \"Die Fahrbahnplatte teilt sich in drei Fahrstreifen mit insgesamt 13 Meter Breite.\", \"Die Fahrbahnplatte teilt sich in zwei Trottoirs mit jeweils 3 Meter Breite.\"], \"source_fact_index\": 79, \"target_contexts\": [[\"Die Fahrbahnplatte weist eine Breite von 19 Metern auf.\", \"Die Fahrbahnplatte teilt sich in drei Fahrstreifen mit insgesamt 13 Meter Breite.\", \"Die Fahrbahnplatte teilt sich in zwei Gehwege mit jeweils 3 Meter Breite.\"], [\"Die grossflächigen Widerlager besitzen eine Flachgründung.\", \"Die Fahrbahnplatte weist eine Breite von 19 Metern auf.\", \"Die Fahrbahnplatte teilt sich in drei Fahrstreifen mit insgesamt 13 Meter Breite.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 352,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [0], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Fahrbahnplatte teilt sich in drei Fahrstreifen mit insgesamt 13 Meter Breite.\", \"Die Fahrbahnplatte teilt sich in zwei Trottoirs mit jeweils 3 Meter Breite.\", \"Martin Schweizer schrieb den Artikel Die Feuerthaler Brücke wird erneuert in den Schaffhauser Nachrichten vom 17. September 2010.\"], \"source_fact_index\": 80, \"target_contexts\": [[\"Die Rheinbrücke Schaffhausen–Feuerthalen wird von Veloland Schweiz unter der Brücke durch geführt.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 287,
+    "verification_status": "model_verified"
+  }
+}

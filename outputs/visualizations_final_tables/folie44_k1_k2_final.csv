@@ -1,0 +1,13 @@
+Kennzahl,Auswertung,N,p_o,κ,95%-CI
+κ1 (Manual_Gold),"DE → ALS, dreikategorial",149,"0,832","0,671","[0,564; 0,773]"
+κ1 (Manual_Gold),"DE → ALS, binarisiert",149,"0,899","0,771","[0,654; 0,871]"
+κ1 (Manual_Gold),"ALS → DE, dreikategorial",150,"0,860","0,727","[0,626; 0,823]"
+κ1 (Manual_Gold),"ALS → DE, binarisiert",150,"0,927","0,832","[0,729; 0,923]"
+κ1 (Manual_Gold),"gepoolt, dreikategorial",299,"0,846","0,699","[0,626; 0,770]"
+κ1 (Manual_Gold),"gepoolt, binarisiert",299,"0,913","0,802","[0,725; 0,870]"
+κ2 (Gemma_Gold),"DE → ALS, dreikategorial",150,"0,940","0,883","[0,804; 0,949]"
+κ2 (Gemma_Gold),"DE → ALS, binarisiert",150,"0,967","0,925","[0,852; 0,984]"
+κ2 (Gemma_Gold),"ALS → DE, dreikategorial",150,"0,940","0,877","[0,794; 0,946]"
+κ2 (Gemma_Gold),"ALS → DE, binarisiert",150,"0,967","0,926","[0,856; 0,985]"
+κ2 (Gemma_Gold),"gepoolt, dreikategorial",300,"0,940","0,880","[0,825; 0,930]"
+κ2 (Gemma_Gold),"gepoolt, binarisiert",300,"0,967","0,925","[0,877; 0,969]"

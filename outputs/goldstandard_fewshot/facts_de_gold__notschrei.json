@@ -1,0 +1,663 @@
+{
+  "pair_key": "gold__notschrei",
+  "cluster": "Gold",
+  "als_page_id": "gold_notschrei_als",
+  "de_page_id": "gold_notschrei_de",
+  "pair_title": "Notschrei",
+  "page_id": "gold_notschrei_de",
+  "page_title": "Notschrei",
+  "language_variety": "de",
+  "decomposition_model": "gemma-4-31b-it",
+  "decomposition_prompt_version": "iaa_atomic_balanced_fewshot_v2",
+  "num_paragraphs": 20,
+  "num_facts": 104,
+  "num_fallback_paragraphs": 0,
+  "paragraphs": [
+    "Der Notschrei ist ein Gebirgspass im Südschwarzwald zwischen dem Dreisamtal im Raum Freiburg im Norden und dem oberen Wiesental im Süden. Er verbindet über die Landesstraße L 126 die Talorte Oberried im Norden und Todtnau im Süden. Die Landesstraße 124 zweigt am Notschrei von der Landesstraße 126 ab und führt Richtung Nordwesten über die Halde am Schauinsland nach Freiburg.",
+    "Der Name geht darauf zurück, dass die Straße über den Pass auf einen „Notschrei“ der Bevölkerung hin gebaut wurde, eine dringende Petition.",
+    "Die Passhöhe mit liegt fünf Kilometer westlich des Feldbergs in der Gemarkung Todtnau und ist nach der Hohtannhöhe der zweithöchste Pass im Landkreis Lörrach. Vor dem Nordanstieg der Landesstraße 126 südlich von Oberried führt eine Stichstraße nach Osten in das zu Oberried gehörende St. Wilhelmer Tal; auf halber Höhe zweigt beim Steinwasen-Park die Kreisstraße 4996 nach Hofsgrund und zur Landesstraße 124 auf der Halde beim Schauinsland ab. Auf der Südseite liegen zwischen der Passhöhe und Todtnau die Ortschaften Muggenbrunn und Aftersteg, zwischen denen eine Stichstraße zum östlich gelegenen Gemeindeteil Todtnauberg führt.",
+    "Nahe der Passhöhe entstand 1854 im Zuge des Straßenausbaus ein Gasthof ebenfalls mit dem Namen Notschrei, inzwischen ausgebaut zum Vier-Sterne-Waldhotel am Notschreipass.",
+    "Der Notschrei ist touristisch stark erschlossen. Er ist im Sommer Ausgangspunkt für Wanderungen Richtung Wiedener Eck, Schauinsland und Feldberg und im Winter Start der Notschrei-Loipen Richtung Schauinsland, Wiedener Eck, Stübenwasen und Feldberg. In der Nähe des Passes liegen mehrere Skilifte und Hotels.",
+    "Das Waldhotel am Notschreipass wurde bereits 1900 und 1906 in zwei Bauabschnitten errichtet und Kurhaus Waldheim benannt. Das Haus war auch Haltestelle der Pferdepostlinie.Siehe Hilger.",
+    "Die westliche Variante des Schwarzwälder Weitwanderwegs Westweg verläuft zwischen Feldberg und Belchen über den Notschrei.",
+    "Der Notschrei wurde bei der Tour de France 1971 am 27. Juni befahren und war Teil der Etappe von Basel nach Freiburg; er wurde als Berg der 2. Kategorie gewertet.",
+    "Die Straße führt vom Oberrieder Tal zur Passhöhe am sog. Schwendle, der Wasserscheide zwischen Dreisam- und Wiesental. Seit ihrer Fertigstellung 1848 trägt diese Stelle den Namen „Notschrei“, der geographische Begriff bezieht sich auf einen historischen Vorgang.",
+    "1780, noch unter der Regierung Vorderösterreichs, wurde der Bau einer Passstraße von Todtnau nach Oberried über den 1119 m hohen Schwendle geplant, um das Gebiet um Sankt Blasien und Waldshut besser an den Breisgau anzubinden.",
+    "Als Todtnau unter Napoleon badisch wurde, brauchte der Ort neue Impulse, denn der Bergbau war am Ende. Strukturwandel war also dringend notwendig, und erste industrielle Entwicklungen kam durch Zuzug Schweizer Kapitals zustande. So gab es bald zahlreiche Manufakturen wie Bürstenfabriken (die erste 1765), eine Zuckerfabrik (die erste 1826), eine Papierfabrik und Spinnereien. Allerdings erwies es sich als problematisch, die Produkte abzusetzen – die abgelegene Lage des Tales und seiner Gemeinden führte zu hohen Transportkosten. Freiburg, damals bereits florierende Stadt im Breisgau, war auf direktem Wege mit dem Fuhrwerk nicht einmal erreichbar. Es gab nur einen steilen Weg, der über Aftersteg, Muggenbrunn, die Halde und Horben nach Günterstal führte und im Winter oft unbenutzbar war. Zwischen Todtnau und Halde mussten zunächst 500 Höhenmeter Aufstieg und anschließend wieder hinab ins Tal bewältigt werden. Dieser Weg war überhaupt nur mit Saumpferden und zweirädrigen Handkarren zu benutzen.",
+    "Das Großherzogtum Baden hatte andere Interessen als den Straßenbau, Vor allem aber Todtnau und Schönau rivalisierten um das Straßenprojekt. Schönau, das damals seit Kurzem ein badisches Amtsstädtchen war, hatte in Karlsruhe mehr politisches Gewicht als Todtnau und fand Unterstützung in der Forderung nach einer Straße übers Wiedener Eck nach Staufen.",
+    "Erstmals 1819, im ersten Landtag in Karlsruhe, brachten die Gemeinden des oberen Wiesentals eine Petition vor, in der sie eine Fahrstraße von Todtnau über Muggenbrunn, St. Wilhelm nach Oberried forderten, als Anschluss an die bereits bestehende Verbindung zwischen Kirchzarten und Freiburg. 1844 fiel zwar eine Entscheidung, allerdings für die Straße von Utzenfeld übers Wiedener Eck durchs Münstertal nach Staufen.",
+    "Im Jahr 1847 machten sich Hunger und Arbeitslosigkeit im Wiesental breit, was zu einer Erneuerung der Forderung führte – die Bevölkerung fühlte sich von der Regierung in Karlsruhe im Stich gelassen. Viele Todtnauer und Zeller bekundeten sich bereits offen zu den Zielen der Badischen Revolution und zu deren Vertretern, Hecker und Struve. Um ein Aufbegehren der Bevölkerung zu verhindern, musste die Karlsruher Regierung nun handeln und auf den „Notschrei“, die dringende Petition, reagieren.",
+    "Zahlreiche Personen des öffentlichen Lebens machten sich für die Forderung Todtnaus nach der Straßenanbindung stark. So unterstützte der Zeller Kaufmann und Textilingenieur Johann Faller – gebürtiger Todtnauer und Mitglied der Zweiten Kammer in Karlsruhe – zusammen mit dem Schopfheimer Abgeordneten Ernst Friedrich Gottschalk die Todtnauer Petition. Mitausschlaggebend war die Intervention des Bezirksförsters Friedrich Julius GerwigZur Person siehe aus Kirchzarten (sein Vetter Robert Gerwig hatte u. a. die Schwarzwaldbahn gebaut), der gegenüber der staatlichen Forstbehörde den Standpunkt vertrat, dass die 1200 Morgen staatlicher Waldungen am Notschrei und die daraus resultierende Verwertung des Holzes durch einen Holzabfuhrweg erheblich erleichtert werde.",
+    "30 Jahre nach der ersten Forderung fiel am 13. vergessen.",
+    "Drei Großherzoge hatten sich mit dem Projekt befasst: Ludwig I., Leopold und Friedrich I.",
+    "1848/49 wurden die ersten 7 km für 36 000 Gulden zwischen Notschrei und Oberried gebaut und am 13. November 1848 eingeweiht. Die Straße war rund 6 m breit und hatte eine Steigung von 5–11 %. Das Festprogramm zur Einweihung der Straße fiel jedoch den Schneemassen zum Opfer. Der Bürgermeister Kelle aus Todtnau bezeichnete die Verbindung nach Freiburg als „notwendige Lebensader“.",
+    "1855 wurde auch der Streckenabschnitt zwischen Todtnau und Notschrei für 37 000 Gulden vollendet. Der Verkehr war danach auf 17 160 Zentner Transportgüter angewachsen, doch hatten sich die Transportkosten von 36–40 Kreuzer pro Zentner auf rund 18 Kreuzer/Zentner verringert.",
+    "Um 1991 wurde noch erwogen, die durch Pendler, Anwohner und Touristen stark beanspruchte Passstraße durch eine Eisenbahn über den Notschrei oder einen Tunnel durch den Schauinsland zu entlasten, doch diese Pläne werden trotz unverändert starker Verkehrsbelastung derzeit nicht weiter verfolgt."
+  ],
+  "facts": [
+    {
+      "fact_index": 0,
+      "paragraph_index": 0,
+      "fact": "Der Notschrei ist ein Gebirgspass im Südschwarzwald.",
+      "fallback": false
+    },
+    {
+      "fact_index": 1,
+      "paragraph_index": 0,
+      "fact": "Der Notschrei liegt zwischen dem Dreisamtal im Raum Freiburg im Norden und dem oberen Wiesental im Süden.",
+      "fallback": false
+    },
+    {
+      "fact_index": 2,
+      "paragraph_index": 0,
+      "fact": "Der Notschrei verbindet über die Landesstraße L 126 die Talorte Oberried im Norden und Todtnau im Süden.",
+      "fallback": false
+    },
+    {
+      "fact_index": 3,
+      "paragraph_index": 0,
+      "fact": "Die Landesstraße 124 zweigt am Notschrei von der Landesstraße 126 ab.",
+      "fallback": false
+    },
+    {
+      "fact_index": 4,
+      "paragraph_index": 0,
+      "fact": "Die Landesstraße 124 führt Richtung Nordwesten über die Halde am Schauinsland nach Freiburg.",
+      "fallback": false
+    },
+    {
+      "fact_index": 5,
+      "paragraph_index": 1,
+      "fact": "Der Name der Straße geht darauf zurück, dass sie über den Pass auf einen Notschrei der Bevölkerung hin gebaut wurde.",
+      "fallback": false
+    },
+    {
+      "fact_index": 6,
+      "paragraph_index": 1,
+      "fact": "Der Notschrei der Bevölkerung war eine dringende Petition.",
+      "fallback": false
+    },
+    {
+      "fact_index": 7,
+      "paragraph_index": 2,
+      "fact": "Die Passhöhe liegt fünf Kilometer westlich des Feldbergs in der Gemarkung Todtnau.",
+      "fallback": false
+    },
+    {
+      "fact_index": 8,
+      "paragraph_index": 2,
+      "fact": "Die Passhöhe ist nach der Hohtannhöhe der zweithöchste Pass im Landkreis Lörrach.",
+      "fallback": false
+    },
+    {
+      "fact_index": 9,
+      "paragraph_index": 2,
+      "fact": "Vor dem Nordanstieg der Landesstraße 126 südlich von Oberried führt eine Stichstraße nach Osten in das zu Oberried gehörende St. Wilhelmer Tal.",
+      "fallback": false
+    },
+    {
+      "fact_index": 10,
+      "paragraph_index": 2,
+      "fact": "Auf halber Höhe zweigt beim Steinwasen-Park die Kreisstraße 4996 nach Hofsgrund und zur Landesstraße 124 auf der Halde beim Schauinsland ab.",
+      "fallback": false
+    },
+    {
+      "fact_index": 11,
+      "paragraph_index": 2,
+      "fact": "Auf der Südseite liegen zwischen der Passhöhe und Todtnau die Ortschaften Muggenbrunn und Aftersteg.",
+      "fallback": false
+    },
+    {
+      "fact_index": 12,
+      "paragraph_index": 2,
+      "fact": "Zwischen Muggenbrunn und Aftersteg führt eine Stichstraße zum östlich gelegenen Gemeindeteil Todtnauberg.",
+      "fallback": false
+    },
+    {
+      "fact_index": 13,
+      "paragraph_index": 3,
+      "fact": "Nahe der Passhöhe entstand 1854 im Zuge des Straßenausbaus ein Gasthof mit dem Namen Notschrei.",
+      "fallback": false
+    },
+    {
+      "fact_index": 14,
+      "paragraph_index": 3,
+      "fact": "Der Gasthof Notschrei wurde inzwischen zum Vier-Sterne-Waldhotel am Notschreipass ausgebaut.",
+      "fallback": false
+    },
+    {
+      "fact_index": 15,
+      "paragraph_index": 4,
+      "fact": "Der Notschrei ist touristisch stark erschlossen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 16,
+      "paragraph_index": 4,
+      "fact": "Der Notschrei ist im Sommer Ausgangspunkt für Wanderungen Richtung Wiedener Eck.",
+      "fallback": false
+    },
+    {
+      "fact_index": 17,
+      "paragraph_index": 4,
+      "fact": "Der Notschrei ist im Sommer Ausgangspunkt für Wanderungen Richtung Schauinsland.",
+      "fallback": false
+    },
+    {
+      "fact_index": 18,
+      "paragraph_index": 4,
+      "fact": "Der Notschrei ist im Sommer Ausgangspunkt für Wanderungen Richtung Feldberg.",
+      "fallback": false
+    },
+    {
+      "fact_index": 19,
+      "paragraph_index": 4,
+      "fact": "Der Notschrei ist im Winter Start der Notschrei-Loipen Richtung Schauinsland.",
+      "fallback": false
+    },
+    {
+      "fact_index": 20,
+      "paragraph_index": 4,
+      "fact": "Der Notschrei ist im Winter Start der Notschrei-Loipen Richtung Wiedener Eck.",
+      "fallback": false
+    },
+    {
+      "fact_index": 21,
+      "paragraph_index": 4,
+      "fact": "Der Notschrei ist im Winter Start der Notschrei-Loipen Richtung Stübenwasen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 22,
+      "paragraph_index": 4,
+      "fact": "Der Notschrei ist im Winter Start der Notschrei-Loipen Richtung Feldberg.",
+      "fallback": false
+    },
+    {
+      "fact_index": 23,
+      "paragraph_index": 4,
+      "fact": "In der Nähe des Passes liegen mehrere Skilifte.",
+      "fallback": false
+    },
+    {
+      "fact_index": 24,
+      "paragraph_index": 4,
+      "fact": "In der Nähe des Passes liegen mehrere Hotels.",
+      "fallback": false
+    },
+    {
+      "fact_index": 25,
+      "paragraph_index": 5,
+      "fact": "Das Waldhotel am Notschreipass wurde 1900 in einem ersten Bauabschnitt errichtet.",
+      "fallback": false
+    },
+    {
+      "fact_index": 26,
+      "paragraph_index": 5,
+      "fact": "Das Waldhotel am Notschreipass wurde 1906 in einem zweiten Bauabschnitt errichtet.",
+      "fallback": false
+    },
+    {
+      "fact_index": 27,
+      "paragraph_index": 5,
+      "fact": "Das Waldhotel am Notschreipass wurde Kurhaus Waldheim benannt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 28,
+      "paragraph_index": 5,
+      "fact": "Das Waldhotel am Notschreipass war Haltestelle der Pferdepostlinie.",
+      "fallback": false
+    },
+    {
+      "fact_index": 29,
+      "paragraph_index": 6,
+      "fact": "Die westliche Variante des Schwarzwälder Weitwanderwegs ist der Westweg.",
+      "fallback": false
+    },
+    {
+      "fact_index": 30,
+      "paragraph_index": 6,
+      "fact": "Der Westweg verläuft zwischen Feldberg und Belchen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 31,
+      "paragraph_index": 6,
+      "fact": "Der Westweg verläuft über den Notschrei.",
+      "fallback": false
+    },
+    {
+      "fact_index": 32,
+      "paragraph_index": 7,
+      "fact": "Der Notschrei wurde bei der Tour de France 1971 am 27. Juni befahren.",
+      "fallback": false
+    },
+    {
+      "fact_index": 33,
+      "paragraph_index": 7,
+      "fact": "Der Notschrei war Teil der Etappe von Basel nach Freiburg.",
+      "fallback": false
+    },
+    {
+      "fact_index": 34,
+      "paragraph_index": 7,
+      "fact": "Der Notschrei wurde als Berg der 2. Kategorie gewertet.",
+      "fallback": false
+    },
+    {
+      "fact_index": 35,
+      "paragraph_index": 8,
+      "fact": "Die Straße führt vom Oberrieder Tal zur Passhöhe am sog. Schwendle.",
+      "fallback": false
+    },
+    {
+      "fact_index": 36,
+      "paragraph_index": 8,
+      "fact": "Das Schwendle ist die Wasserscheide zwischen Dreisam- und Wiesental.",
+      "fallback": false
+    },
+    {
+      "fact_index": 37,
+      "paragraph_index": 8,
+      "fact": "Die Stelle am Schwendle trägt seit ihrer Fertigstellung 1848 den Namen „Notschrei“.",
+      "fallback": false
+    },
+    {
+      "fact_index": 38,
+      "paragraph_index": 8,
+      "fact": "Der geographische Begriff „Notschrei“ bezieht sich auf einen historischen Vorgang.",
+      "fallback": false
+    },
+    {
+      "fact_index": 39,
+      "paragraph_index": 9,
+      "fact": "1780 wurde der Bau einer Passstraße von Todtnau nach Oberried über den 1119 m hohen Schwendle geplant.",
+      "fallback": false
+    },
+    {
+      "fact_index": 40,
+      "paragraph_index": 9,
+      "fact": "Die Planung des Baus der Passstraße von Todtnau nach Oberried erfolgte noch unter der Regierung Vorderösterreichs.",
+      "fallback": false
+    },
+    {
+      "fact_index": 41,
+      "paragraph_index": 9,
+      "fact": "Der Bau der Passstraße von Todtnau nach Oberried sollte das Gebiet um Sankt Blasien und Waldshut besser an den Breisgau anbinden.",
+      "fallback": false
+    },
+    {
+      "fact_index": 42,
+      "paragraph_index": 10,
+      "fact": "Als Todtnau unter Napoleon badisch wurde, brauchte der Ort neue Impulse.",
+      "fallback": false
+    },
+    {
+      "fact_index": 43,
+      "paragraph_index": 10,
+      "fact": "Der Bergbau in Todtnau war am Ende.",
+      "fallback": false
+    },
+    {
+      "fact_index": 44,
+      "paragraph_index": 10,
+      "fact": "Strukturwandel war in Todtnau dringend notwendig.",
+      "fallback": false
+    },
+    {
+      "fact_index": 45,
+      "paragraph_index": 10,
+      "fact": "Erste industrielle Entwicklungen in Todtnau kamen durch Zuzug Schweizer Kapitals zustande.",
+      "fallback": false
+    },
+    {
+      "fact_index": 46,
+      "paragraph_index": 10,
+      "fact": "In Todtnau gab es bald zahlreiche Manufakturen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 47,
+      "paragraph_index": 10,
+      "fact": "In Todtnau gab es Bürstenfabriken, wobei die erste 1765 entstand.",
+      "fallback": false
+    },
+    {
+      "fact_index": 48,
+      "paragraph_index": 10,
+      "fact": "In Todtnau gab es eine Zuckerfabrik, wobei die erste 1826 entstand.",
+      "fallback": false
+    },
+    {
+      "fact_index": 49,
+      "paragraph_index": 10,
+      "fact": "In Todtnau gab es eine Papierfabrik.",
+      "fallback": false
+    },
+    {
+      "fact_index": 50,
+      "paragraph_index": 10,
+      "fact": "In Todtnau gab es Spinnereien.",
+      "fallback": false
+    },
+    {
+      "fact_index": 51,
+      "paragraph_index": 10,
+      "fact": "Es erwies sich als problematisch, die Produkte abzusetzen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 52,
+      "paragraph_index": 10,
+      "fact": "Die abgelegene Lage des Tales und seiner Gemeinden führte zu hohen Transportkosten.",
+      "fallback": false
+    },
+    {
+      "fact_index": 53,
+      "paragraph_index": 10,
+      "fact": "Freiburg war damals bereits eine florierende Stadt im Breisgau.",
+      "fallback": false
+    },
+    {
+      "fact_index": 54,
+      "paragraph_index": 10,
+      "fact": "Freiburg war auf direktem Wege mit dem Fuhrwerk von Todtnau aus nicht einmal erreichbar.",
+      "fallback": false
+    },
+    {
+      "fact_index": 55,
+      "paragraph_index": 10,
+      "fact": "Es gab nur einen steilen Weg, der über Aftersteg, Muggenbrunn, die Halde und Horben nach Günterstal führte.",
+      "fallback": false
+    },
+    {
+      "fact_index": 56,
+      "paragraph_index": 10,
+      "fact": "Dieser Weg war im Winter oft unbenutzbar.",
+      "fallback": false
+    },
+    {
+      "fact_index": 57,
+      "paragraph_index": 10,
+      "fact": "Zwischen Todtnau und Halde mussten zunächst 500 Höhenmeter Aufstieg und anschließend wieder hinab ins Tal bewältigt werden.",
+      "fallback": false
+    },
+    {
+      "fact_index": 58,
+      "paragraph_index": 10,
+      "fact": "Dieser Weg war überhaupt nur mit Saumpferden und zweirädrigen Handkarren zu benutzen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 59,
+      "paragraph_index": 11,
+      "fact": "Das Großherzogtum Baden hatte andere Interessen als den Straßenbau.",
+      "fallback": false
+    },
+    {
+      "fact_index": 60,
+      "paragraph_index": 11,
+      "fact": "Todtnau und Schönau rivalisierten vor allem um das Straßenprojekt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 61,
+      "paragraph_index": 11,
+      "fact": "Schönau war damals seit Kurzem ein badisches Amtsstädtchen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 62,
+      "paragraph_index": 11,
+      "fact": "Schönau hatte in Karlsruhe mehr politisches Gewicht als Todtnau.",
+      "fallback": false
+    },
+    {
+      "fact_index": 63,
+      "paragraph_index": 11,
+      "fact": "Schönau fand Unterstützung in der Forderung nach einer Straße übers Wiedener Eck nach Staufen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 64,
+      "paragraph_index": 12,
+      "fact": "Die Gemeinden des oberen Wiesentals brachten 1819 im ersten Landtag in Karlsruhe eine Petition vor.",
+      "fallback": false
+    },
+    {
+      "fact_index": 65,
+      "paragraph_index": 12,
+      "fact": "In der Petition forderten die Gemeinden des oberen Wiesentals eine Fahrstraße von Todtnau über Muggenbrunn und St. Wilhelm nach Oberried.",
+      "fallback": false
+    },
+    {
+      "fact_index": 66,
+      "paragraph_index": 12,
+      "fact": "Die geforderte Fahrstraße sollte als Anschluss an die bereits bestehende Verbindung zwischen Kirchzarten und Freiburg dienen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 67,
+      "paragraph_index": 12,
+      "fact": "1844 fiel eine Entscheidung für die Straße von Utzenfeld übers Wiedener Eck durchs Münstertal nach Staufen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 68,
+      "paragraph_index": 13,
+      "fact": "Im Jahr 1847 machten sich Hunger und Arbeitslosigkeit im Wiesental breit.",
+      "fallback": false
+    },
+    {
+      "fact_index": 69,
+      "paragraph_index": 13,
+      "fact": "Der Hunger und die Arbeitslosigkeit im Wiesental führten im Jahr 1847 zu einer Erneuerung der Forderung.",
+      "fallback": false
+    },
+    {
+      "fact_index": 70,
+      "paragraph_index": 13,
+      "fact": "Die Bevölkerung fühlte sich von der Regierung in Karlsruhe im Stich gelassen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 71,
+      "paragraph_index": 13,
+      "fact": "Viele Todtnauer bekundeten sich bereits offen zu den Zielen der Badischen Revolution.",
+      "fallback": false
+    },
+    {
+      "fact_index": 72,
+      "paragraph_index": 13,
+      "fact": "Viele Todtnauer bekundeten sich bereits offen zu den Vertretern der Badischen Revolution, Hecker und Struve.",
+      "fallback": false
+    },
+    {
+      "fact_index": 73,
+      "paragraph_index": 13,
+      "fact": "Viele Zeller bekundeten sich bereits offen zu den Zielen der Badischen Revolution.",
+      "fallback": false
+    },
+    {
+      "fact_index": 74,
+      "paragraph_index": 13,
+      "fact": "Viele Zeller bekundeten sich bereits offen zu den Vertretern der Badischen Revolution, Hecker und Struve.",
+      "fallback": false
+    },
+    {
+      "fact_index": 75,
+      "paragraph_index": 13,
+      "fact": "Die Karlsruher Regierung musste handeln, um ein Aufbegehren der Bevölkerung zu verhindern.",
+      "fallback": false
+    },
+    {
+      "fact_index": 76,
+      "paragraph_index": 13,
+      "fact": "Die Karlsruher Regierung musste auf den Notschrei, die dringende Petition, reagieren.",
+      "fallback": false
+    },
+    {
+      "fact_index": 77,
+      "paragraph_index": 14,
+      "fact": "Zahlreiche Personen des öffentlichen Lebens machten sich für die Forderung Todtnaus nach der Straßenanbindung stark.",
+      "fallback": false
+    },
+    {
+      "fact_index": 78,
+      "paragraph_index": 14,
+      "fact": "Johann Faller unterstützte zusammen mit Ernst Friedrich Gottschalk die Todtnauer Petition.",
+      "fallback": false
+    },
+    {
+      "fact_index": 79,
+      "paragraph_index": 14,
+      "fact": "Johann Faller war ein Zeller Kaufmann.",
+      "fallback": false
+    },
+    {
+      "fact_index": 80,
+      "paragraph_index": 14,
+      "fact": "Johann Faller war Textilingenieur.",
+      "fallback": false
+    },
+    {
+      "fact_index": 81,
+      "paragraph_index": 14,
+      "fact": "Johann Faller war gebürtiger Todtnauer.",
+      "fallback": false
+    },
+    {
+      "fact_index": 82,
+      "paragraph_index": 14,
+      "fact": "Johann Faller war Mitglied der Zweiten Kammer in Karlsruhe.",
+      "fallback": false
+    },
+    {
+      "fact_index": 83,
+      "paragraph_index": 14,
+      "fact": "Ernst Friedrich Gottschalk war ein Schopfheimer Abgeordneter.",
+      "fallback": false
+    },
+    {
+      "fact_index": 84,
+      "paragraph_index": 14,
+      "fact": "Die Intervention des Bezirksförsters Friedrich Julius Gerwig aus Kirchzarten war mitausschlaggebend.",
+      "fallback": false
+    },
+    {
+      "fact_index": 85,
+      "paragraph_index": 14,
+      "fact": "Robert Gerwig war der Vetter von Friedrich Julius Gerwig.",
+      "fallback": false
+    },
+    {
+      "fact_index": 86,
+      "paragraph_index": 14,
+      "fact": "Robert Gerwig hatte unter anderem die Schwarzwaldbahn gebaut.",
+      "fallback": false
+    },
+    {
+      "fact_index": 87,
+      "paragraph_index": 14,
+      "fact": "Friedrich Julius Gerwig vertrat gegenüber der staatlichen Forstbehörde den Standpunkt, dass die 1200 Morgen staatlicher Waldungen am Notschrei und die daraus resultierende Verwertung des Holzes durch einen Holzabfuhrweg erheblich erleichtert werde.",
+      "fallback": false
+    },
+    {
+      "fact_index": 88,
+      "paragraph_index": 15,
+      "fact": "Am 13. fiel 30 Jahre nach der ersten Forderung eine Entscheidung, die vergessen wurde.",
+      "fallback": false
+    },
+    {
+      "fact_index": 89,
+      "paragraph_index": 16,
+      "fact": "Ludwig I. hatte sich mit dem Projekt befasst.",
+      "fallback": false
+    },
+    {
+      "fact_index": 90,
+      "paragraph_index": 16,
+      "fact": "Leopold hatte sich mit dem Projekt befasst.",
+      "fallback": false
+    },
+    {
+      "fact_index": 91,
+      "paragraph_index": 16,
+      "fact": "Friedrich I. hatte sich mit dem Projekt befasst.",
+      "fallback": false
+    },
+    {
+      "fact_index": 92,
+      "paragraph_index": 17,
+      "fact": "1848/49 wurden die ersten 7 km zwischen Notschrei und Oberried für 36 000 Gulden gebaut.",
+      "fallback": false
+    },
+    {
+      "fact_index": 93,
+      "paragraph_index": 17,
+      "fact": "Die ersten 7 km zwischen Notschrei und Oberried wurden am 13. November 1848 eingeweiht.",
+      "fallback": false
+    },
+    {
+      "fact_index": 94,
+      "paragraph_index": 17,
+      "fact": "Die Straße war rund 6 m breit.",
+      "fallback": false
+    },
+    {
+      "fact_index": 95,
+      "paragraph_index": 17,
+      "fact": "Die Straße hatte eine Steigung von 5–11 %.",
+      "fallback": false
+    },
+    {
+      "fact_index": 96,
+      "paragraph_index": 17,
+      "fact": "Das Festprogramm zur Einweihung der Straße fiel den Schneemassen zum Opfer.",
+      "fallback": false
+    },
+    {
+      "fact_index": 97,
+      "paragraph_index": 17,
+      "fact": "Der Bürgermeister Kelle aus Todtnau bezeichnete die Verbindung nach Freiburg als „notwendige Lebensader“.",
+      "fallback": false
+    },
+    {
+      "fact_index": 98,
+      "paragraph_index": 18,
+      "fact": "1855 wurde der Streckenabschnitt zwischen Todtnau und Notschrei für 37 000 Gulden vollendet.",
+      "fallback": false
+    },
+    {
+      "fact_index": 99,
+      "paragraph_index": 18,
+      "fact": "Der Verkehr war danach auf 17 160 Zentner Transportgüter angewachsen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 100,
+      "paragraph_index": 18,
+      "fact": "Die Transportkosten hatten sich von 36–40 Kreuzer pro Zentner auf rund 18 Kreuzer/Zentner verringert.",
+      "fallback": false
+    },
+    {
+      "fact_index": 101,
+      "paragraph_index": 19,
+      "fact": "Um 1991 wurde erwogen, die durch Pendler, Anwohner und Touristen stark beanspruchte Passstraße durch eine Eisenbahn über den Notschrei zu entlasten.",
+      "fallback": false
+    },
+    {
+      "fact_index": 102,
+      "paragraph_index": 19,
+      "fact": "Um 1991 wurde erwogen, die durch Pendler, Anwohner und Touristen stark beanspruchte Passstraße durch einen Tunnel durch den Schauinsland zu entlasten.",
+      "fallback": false
+    },
+    {
+      "fact_index": 103,
+      "paragraph_index": 19,
+      "fact": "Die Pläne zur Entlastung der Passstraße werden trotz unverändert starker Verkehrsbelastung derzeit nicht weiter verfolgt.",
+      "fallback": false
+    }
+  ]
+}

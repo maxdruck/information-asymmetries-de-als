@@ -1,0 +1,651 @@
+{
+  "pair_key": "gold__ethnie",
+  "cluster": "Gold",
+  "als_page_id": "gold_ethnie_als",
+  "de_page_id": "gold_ethnie_de",
+  "pair_title": "Ethnie",
+  "page_id": "gold_ethnie_als",
+  "page_title": "Ethnie",
+  "language_variety": "als",
+  "decomposition_model": "gemma-4-31b-it",
+  "decomposition_prompt_version": "iaa_atomic_balanced_fewshot_v2",
+  "num_paragraphs": 14,
+  "num_facts": 103,
+  "num_fallback_paragraphs": 0,
+  "paragraphs": [
+    "Ethnie (die ethnischi Gruppe) oder Ethnos (vo griechisch ἔθνος, isch e Begriff us der Ethnologii,",
+    "S griechische Wort éthnos beschriibt d Abgränzig, wemme zwüsche Draditione underscheidet, wo zun ere Gruppe ghöre, und sonige, wo nid drzue ghöre. Ethnischi Gruppierige definiere sich äntwäder us der gmeinsame Vergangeheit oder dur e gmeinsami Zuekumftsperspektive. Die Gmeinsamkeit zeigt sich in Dradition, Sproch und Religion oder au do drin, was me für Chleider treit und was und wie me tuet ässe.",
+    "D Wüsseschafte, wo sich mit Ethnie befasse, si d Ethnologii, d Völkerkund, die Europäischi Ethnologii (Volkskund), d Kulturanthropologii, d Sozialanthropologii, d Religionsethnologii, d Ethnosoziologii und d Sozialgeographii.",
+    "As Uswiichbegriff und zur Präzisierig zum Begriff vom «Volk» bezeichnet „Ethnos“ in Abgränzig zum politische Volksbegriff Demos en ethnische Volksbegriff.Emerich K. Francis: Ethnos und Demos. Berlin 1965. Lueg au: Friedrich Heckmann: Ethnos, Demos und Nation, 1991 resp. Heckmann: und dezue Wolfram Stender: Ethnische Erweckungen. Zum Funktionswandel von Ethnizität in modernen Gesellschaften – ein Literaturbericht. In: Mittelweg 36, 24.6.2000",
+    "Der Begriff Ethnii isch deilwiis mit däm vo der Volkszueghörigkeit und vo der Kulturnation verwandt. Bispil si europäischi Ethnie – wie die Dütsche, d Russe oder asiatischi Ethnie – wie d Turkvölker oder d Chinese. Öb d Indogermane (Indoeuropäer) ere gmeinsamen Ethnii chönne zuegordnet wärde, isch umstritten.",
+    "Währed d Begriff Volk und Ethnii beidi im aktuelle dütsche Wortschatz vorchömme, git s nume s Adjektiv ethnisch, wo nit historisch belastet isch. S Wort \"völkisch\" het z Dütschland iim zwänzigschte Johrhundert en abwiichendi Bedütigskonnotation übercho und isch in dr Schwiiz sowiso nit bruucht worde.",
+    "S Adjektiv ethnisch wird bruucht, für zum e Volks- oder Volksgruppezueghörigkeit von ere Staatsbürgerschaft z underscheide, wo cha verschiide si. So si nit alli Staatsbürger vo Finnland, Frankriich, Dütschland, Russland usw. au ethnischi Finne, Dütschi, Franzose usw. und umkehrt, sondern es git au sätigi, wo usserhalb vo ihre Nationalstaate wohne.",
+    "Wemme dr Begriff ethnisch bruucht, so wiist das au druf hi, ass nit noch linguistische Gsichtspünggt gruppiert wird. So chönne verschiideni ethnischi Gruppe die gliichi Sproch bruuche (z. B. in Iiwanderigsländer wie d USA, Kanada, usw.) und sogar die gliich Muetersproch. Anderersiits git s meistens innerhalb vo der Sproch von ere Ethnii starki Dialäktunderschiid.",
+    "In Analogii zum angloamerikanische Sprochgebruuch sait me au sonige Kulture und Kulturelemänt ethnisch, wo in ere westlige bzw. in der globale Zivilisation en Überräst vo Urbevölkerige sind und wo dene ihre Draditione läbig si. Bispil dodrfür si die indianische Uriiwohner vo Nordamerika, wo sich as Aghörigi von ere „Indianische Nation” („Indian Nation”) und eso von ere gmeinsame Ethnii verstöhn. Entsprächends gältet für d Uriiwohner vo Australie.",
+    "Meistens isch d Sälbstidentifikation mit der eigene ethnische Gruppe so stark, dass si em Individuum als völlig sälbstverständlig und sogar natürlig erschiint. Es isch s kollektive Gfüehl, ass me zunenander ghört bzw. anders isch, wo für d Konstitution von ere ethnische Gruppe dr Usschlag git. Em Konzäpt vo der kulturelle Differenzierig zwüschen em \"Mir\" und de kulturell \"Andere\" sait me Ethnizität. Ethnischi Gruppe hai weniger z due mit ere unveränderlige Faktizitet, as vilmeh drmit wie Kollektiv sich sälber und die wo nit drzue ghöre, aluege.",
+    "Es git uf der Wält e grossi Zahl vo ethnische „Mir-Gruppe“, won ere grosse Zahl vo andere ethnische Gruppe gegenüberstöhn. Allerdings si die Gruppe und ihr Verheltnis zu den „Andere“ nit unveränderligi biologischi Tatsache. Ethnischi Gruppe si sozial konstruiert und ihri Gränze verändere sich im Lauf vo der Ziit. Das underscheidet s Ethnizitetskonzäpt wäsentlig vom überholte Begriff vo de menschlige Rasse, wo von ere physische, biologische Differenzierig vo der Menschheit usgoht. Ethnischi Gruppe chönne zum Bispil mitenander verschmelze (vgl. d Mestize z Südamerika) oder sich dur e Komflikt abspalte (vgl. d Entstehig vo de Schiite dur e Kampf um d Nochfolg vom Prophet Mohammed im 7. Johrhundert, wo hüte hüfig as eigeni ethnischi Gruppe betrachtet wärde).",
+    "S Verheltnis zwüschen ethnische Gruppe cha je noch de politische, ökonomische und sozialen Umständ verschiide si. Gsellschafte si braktisch nie ethnisch homogen und d Ethnii vo ihre Mitgliider cha näbesächlig si oder aber von ere essentielle Bedütig für die soziali Stellig vom ene Individuum. Kulturelli und ethnischi Identidete bilde sich in dr Abgränzig zu de „Andere“. Das cha au zum Ethnozentrismus – d Interpretation vo der Umwält mit de Massstäb vo der eigene Gruppe – und zu Xenophobii – Angst vor Fremdem, füehre. Ethnozentrismus und Xenophobii chömme hüfig ins Spiil im Zsämmehang mit politische Debatte zur Migration.",
+    "Im Dütsche wird für ethnischi Gruppe au öfters der Begriff „Volksgruppe“ bruucht. Es chunnt hüfig vor, ass verschiideni Volksgruppe in eim Staatsgebiet läbe. Zum Bispil het der Vilvölkerstaat Östriich–Ungarn im 19./ 20. Jh. us verschiidene Ethnie (Dütschsprochigi, Ungare, Slowene, Bosniake, Kroate, Italiäner, usw.) bestande. Das isch au hüte no so in dr Schwiiz, wo kei ethnischi Eiheit bildet, sondern us verschiidene ethnische Gruppe (dütsch-, französisch-, italiänisch-, rätoromanischsprochigi Schwiizer) bestoht. Ganz allgemein cha me säge, ass so guet wie kei Staat ethnisch homogen isch. Bsundrigs heterogen si Staate, wo in dr Kolonialziit entstande si und wo d Kolonialherre ihri Gränze festgleit hai, ohni sich um d Bevölkerig z kümmere, so zum Bispil d Staate z Süd- und Mittelamerika, Afrika, Asie und Polynesie (z. B. Indonesie).",
+    "Ethnischi Gruppe si nie ganz homogen, au wenn s öfters eso usgseht. D Zueghörigkeit vom ene Individuum zun ere ethnische Gruppe isch vilschichtig und im Kontext vo Migration und diasporische Realitäte mänggisch au nit eideutig. Neui ethnischi Gruppe chönne sich bispilswiise im Zug vo Komflikt bilde oder au dur Migration. As jüngers Bispil vo däm cha mä d Afroamerikaner erwähne, e sehr heterogeni ethnischi Gruppe, wo überhaupt erst ufgrund vo de Ereignis in de letzte 500 Johr entstande isch. D Maroons, wo z Jamaika läbe und wo vo gflüchtete Sklave abstamme, wo us Westafrika in d Karibik verschleppt worde si, si en anders Bispil."
+  ],
+  "facts": [
+    {
+      "fact_index": 0,
+      "paragraph_index": 0,
+      "fact": "Ethnie ist eine ethnische Gruppe.",
+      "fallback": false
+    },
+    {
+      "fact_index": 1,
+      "paragraph_index": 0,
+      "fact": "Ethnos leitet sich vom griechischen Wort ἔθνος ab.",
+      "fallback": false
+    },
+    {
+      "fact_index": 2,
+      "paragraph_index": 0,
+      "fact": "Ethnie oder Ethnos ist ein Begriff aus der Ethnologie.",
+      "fallback": false
+    },
+    {
+      "fact_index": 3,
+      "paragraph_index": 1,
+      "fact": "Das griechische Wort éthnos beschreibt die Abgrenzung, wenn man zwischen Traditionen unterscheidet, die zu einer Gruppe gehören, und solchen, die nicht dazu gehören.",
+      "fallback": false
+    },
+    {
+      "fact_index": 4,
+      "paragraph_index": 1,
+      "fact": "Ethnische Gruppierungen definieren sich entweder aus der gemeinsamen Vergangenheit.",
+      "fallback": false
+    },
+    {
+      "fact_index": 5,
+      "paragraph_index": 1,
+      "fact": "Ethnische Gruppierungen definieren sich durch eine gemeinsame Zukunftsperspektive.",
+      "fallback": false
+    },
+    {
+      "fact_index": 6,
+      "paragraph_index": 1,
+      "fact": "Die Gemeinsamkeit ethnischer Gruppierungen zeigt sich in der Tradition.",
+      "fallback": false
+    },
+    {
+      "fact_index": 7,
+      "paragraph_index": 1,
+      "fact": "Die Gemeinsamkeit ethnischer Gruppierungen zeigt sich in der Sprache.",
+      "fallback": false
+    },
+    {
+      "fact_index": 8,
+      "paragraph_index": 1,
+      "fact": "Die Gemeinsamkeit ethnischer Gruppierungen zeigt sich in der Religion.",
+      "fallback": false
+    },
+    {
+      "fact_index": 9,
+      "paragraph_index": 1,
+      "fact": "Die Gemeinsamkeit ethnischer Gruppierungen zeigt sich darin, welche Kleider man trägt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 10,
+      "paragraph_index": 1,
+      "fact": "Die Gemeinsamkeit ethnischer Gruppierungen zeigt sich darin, was und wie man isst.",
+      "fallback": false
+    },
+    {
+      "fact_index": 11,
+      "paragraph_index": 2,
+      "fact": "Die Ethnologie ist eine Wissenschaft, die sich mit Ethnie befasst.",
+      "fallback": false
+    },
+    {
+      "fact_index": 12,
+      "paragraph_index": 2,
+      "fact": "Die Völkerkunde ist eine Wissenschaft, die sich mit Ethnie befasst.",
+      "fallback": false
+    },
+    {
+      "fact_index": 13,
+      "paragraph_index": 2,
+      "fact": "Die Europäische Ethnologie (Volkskunde) ist eine Wissenschaft, die sich mit Ethnie befasst.",
+      "fallback": false
+    },
+    {
+      "fact_index": 14,
+      "paragraph_index": 2,
+      "fact": "Die Kulturanthropologie ist eine Wissenschaft, die sich mit Ethnie befasst.",
+      "fallback": false
+    },
+    {
+      "fact_index": 15,
+      "paragraph_index": 2,
+      "fact": "Die Sozialanthropologie ist eine Wissenschaft, die sich mit Ethnie befasst.",
+      "fallback": false
+    },
+    {
+      "fact_index": 16,
+      "paragraph_index": 2,
+      "fact": "Die Religionsethnologie ist eine Wissenschaft, die sich mit Ethnie befasst.",
+      "fallback": false
+    },
+    {
+      "fact_index": 17,
+      "paragraph_index": 2,
+      "fact": "Die Ethnosoziologie ist eine Wissenschaft, die sich mit Ethnie befasst.",
+      "fallback": false
+    },
+    {
+      "fact_index": 18,
+      "paragraph_index": 2,
+      "fact": "Die Sozialgeographie ist eine Wissenschaft, die sich mit Ethnie befasst.",
+      "fallback": false
+    },
+    {
+      "fact_index": 19,
+      "paragraph_index": 3,
+      "fact": "Ethnos bezeichnet in Abgrenzung zum politischen Volksbegriff Demos einen ethnischen Volksbegriff.",
+      "fallback": false
+    },
+    {
+      "fact_index": 20,
+      "paragraph_index": 3,
+      "fact": "Ethnos wird als Ausweichbegriff und zur Präzisierung zum Begriff vom Volk verwendet.",
+      "fallback": false
+    },
+    {
+      "fact_index": 21,
+      "paragraph_index": 4,
+      "fact": "Der Begriff Ethnie ist teilweise mit dem Begriff der Volkszugehörigkeit verwandt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 22,
+      "paragraph_index": 4,
+      "fact": "Der Begriff Ethnie ist teilweise mit dem Begriff der Kulturnation verwandt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 23,
+      "paragraph_index": 4,
+      "fact": "Europäische Ethnien sind beispielsweise die Deutschen oder die Russen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 24,
+      "paragraph_index": 4,
+      "fact": "Asiatische Ethnien sind beispielsweise die Turkvölker oder die Chinesen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 25,
+      "paragraph_index": 4,
+      "fact": "Ob die Indogermanen (Indoeuropäer) einer gemeinsamen Ethnie zugeordnet werden können, ist umstritten.",
+      "fallback": false
+    },
+    {
+      "fact_index": 26,
+      "paragraph_index": 5,
+      "fact": "Die Begriffe Volk und Ethnii kommen beide im aktuellen deutschen Wortschatz vor.",
+      "fallback": false
+    },
+    {
+      "fact_index": 27,
+      "paragraph_index": 5,
+      "fact": "Es gibt nur das Adjektiv ethnisch, das nicht historisch belastet ist.",
+      "fallback": false
+    },
+    {
+      "fact_index": 28,
+      "paragraph_index": 5,
+      "fact": "Das Wort völkisch hat in Deutschland im zwanzigsten Jahrhundert eine abweichende Bedeutungskonnotation bekommen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 29,
+      "paragraph_index": 5,
+      "fact": "Das Wort völkisch wurde in der Schweiz sowieso nicht gebraucht.",
+      "fallback": false
+    },
+    {
+      "fact_index": 30,
+      "paragraph_index": 6,
+      "fact": "Das Adjektiv ethnisch wird gebraucht, um eine Volks- oder Volksgruppenzugehörigkeit von einer Staatsbürgerschaft zu unterscheiden.",
+      "fallback": false
+    },
+    {
+      "fact_index": 31,
+      "paragraph_index": 6,
+      "fact": "Die Volks- oder Volksgruppenzugehörigkeit kann von der Staatsbürgerschaft verschieden sein.",
+      "fallback": false
+    },
+    {
+      "fact_index": 32,
+      "paragraph_index": 6,
+      "fact": "Nicht alle Staatsbürger von Finnland, Frankreich, Deutschland, Russland usw. sind auch ethnische Finnen, Deutsche, Franzosen usw.",
+      "fallback": false
+    },
+    {
+      "fact_index": 33,
+      "paragraph_index": 6,
+      "fact": "Nicht alle ethnischen Finnen, Deutsche, Franzosen usw. sind Staatsbürger der entsprechenden Staaten.",
+      "fallback": false
+    },
+    {
+      "fact_index": 34,
+      "paragraph_index": 6,
+      "fact": "Es gibt Personen, die außerhalb ihrer Nationalstaaten wohnen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 35,
+      "paragraph_index": 7,
+      "fact": "Die Verwendung des Begriffs ethnisch weist darauf hin, dass nicht nach linguistischen Gesichtspunkten gruppiert wird.",
+      "fallback": false
+    },
+    {
+      "fact_index": 36,
+      "paragraph_index": 7,
+      "fact": "Verschiedene ethnische Gruppen können die gleiche Sprache benutzen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 37,
+      "paragraph_index": 7,
+      "fact": "Verschiedene ethnische Gruppen können in Einwanderungsländern wie den USA oder Kanada die gleiche Sprache benutzen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 38,
+      "paragraph_index": 7,
+      "fact": "Verschiedene ethnische Gruppen können sogar die gleiche Muttersprache benutzen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 39,
+      "paragraph_index": 7,
+      "fact": "Innerhalb der Sprache einer Ethnie gibt es meistens starke Dialektunterschiede.",
+      "fallback": false
+    },
+    {
+      "fact_index": 40,
+      "paragraph_index": 8,
+      "fact": "In Analogie zum angloamerikanischen Sprachgebrauch bezeichnet man solche Kulturen und Kulturelemente als ethnisch, die in einer westlichen bzw. in der globalen Zivilisation ein Überrest von Urbevölkerungen sind und deren Traditionen lebendig sind.",
+      "fallback": false
+    },
+    {
+      "fact_index": 41,
+      "paragraph_index": 8,
+      "fact": "Die indianischen Ureinwohner von Nordamerika sind Beispiele für solche Kulturen und Kulturelemente.",
+      "fallback": false
+    },
+    {
+      "fact_index": 42,
+      "paragraph_index": 8,
+      "fact": "Die indianischen Ureinwohner von Nordamerika verstehen sich als Angehörige einer „Indianischen Nation“ („Indian Nation“).",
+      "fallback": false
+    },
+    {
+      "fact_index": 43,
+      "paragraph_index": 8,
+      "fact": "Die indianischen Ureinwohner von Nordamerika verstehen sich als Angehörige einer gemeinsamen Ethnie.",
+      "fallback": false
+    },
+    {
+      "fact_index": 44,
+      "paragraph_index": 8,
+      "fact": "Entsprechendes gilt für die Ureinwohner von Australien.",
+      "fallback": false
+    },
+    {
+      "fact_index": 45,
+      "paragraph_index": 9,
+      "fact": "Meistens ist die Selbstidentifikation mit der eigenen ethnischen Gruppe so stark, dass sie dem Individuum als völlig selbstverständlich und sogar natürlich erscheint.",
+      "fallback": false
+    },
+    {
+      "fact_index": 46,
+      "paragraph_index": 9,
+      "fact": "Das kollektive Gefühl, dass man zueinander gehört bzw. anders ist, gibt den Ausschlag für die Konstitution einer ethnischen Gruppe.",
+      "fallback": false
+    },
+    {
+      "fact_index": 47,
+      "paragraph_index": 9,
+      "fact": "Das Konzept der kulturellen Differenzierung zwischen dem 'Wir' und den kulturell 'Anderen' nennt man Ethnizität.",
+      "fallback": false
+    },
+    {
+      "fact_index": 48,
+      "paragraph_index": 9,
+      "fact": "Ethnische Gruppen haben weniger mit einer unveränderlichen Faktizität zu tun, als vielmehr damit, wie Kollektive sich selber und diejenigen, die nicht dazugehören, ansehen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 49,
+      "paragraph_index": 10,
+      "fact": "Es gibt auf der Welt eine große Zahl von ethnischen „Wir-Gruppen“, die einer großen Zahl von anderen ethnischen Gruppen gegenüberstehen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 50,
+      "paragraph_index": 10,
+      "fact": "Diese Gruppen und ihr Verhältnis zu den „Anderen“ sind keine unveränderlichen biologischen Tatsachen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 51,
+      "paragraph_index": 10,
+      "fact": "Ethnische Gruppen sind sozial konstruiert.",
+      "fallback": false
+    },
+    {
+      "fact_index": 52,
+      "paragraph_index": 10,
+      "fact": "Die Grenzen ethnischer Gruppen verändern sich im Lauf der Zeit.",
+      "fallback": false
+    },
+    {
+      "fact_index": 53,
+      "paragraph_index": 10,
+      "fact": "Das Ethnizitätskonzept unterscheidet sich wesentlich vom überholten Begriff der menschlichen Rasse.",
+      "fallback": false
+    },
+    {
+      "fact_index": 54,
+      "paragraph_index": 10,
+      "fact": "Der Begriff der menschlichen Rasse geht von einer physischen, biologischen Differenzierung der Menschheit aus.",
+      "fallback": false
+    },
+    {
+      "fact_index": 55,
+      "paragraph_index": 10,
+      "fact": "Ethnische Gruppen können miteinander verschmelzen, wie zum Beispiel die Mestizen in Südamerika.",
+      "fallback": false
+    },
+    {
+      "fact_index": 56,
+      "paragraph_index": 10,
+      "fact": "Ethnische Gruppen können sich durch einen Konflikt abspalten.",
+      "fallback": false
+    },
+    {
+      "fact_index": 57,
+      "paragraph_index": 10,
+      "fact": "Die Schiiten entstanden durch einen Kampf um die Nachfolge vom Propheten Mohammed im 7. Jahrhundert.",
+      "fallback": false
+    },
+    {
+      "fact_index": 58,
+      "paragraph_index": 10,
+      "fact": "Schiiten werden heute häufig als eigene ethnische Gruppe betrachtet.",
+      "fallback": false
+    },
+    {
+      "fact_index": 59,
+      "paragraph_index": 11,
+      "fact": "Das Verhältnis zwischen ethnischen Gruppen kann je nach den politischen, ökonomischen und sozialen Umständen verschieden sein.",
+      "fallback": false
+    },
+    {
+      "fact_index": 60,
+      "paragraph_index": 11,
+      "fact": "Gesellschaften sind praktisch nie ethnisch homogen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 61,
+      "paragraph_index": 11,
+      "fact": "Die Ethnien der Mitglieder einer Gesellschaft können nebensächlich sein.",
+      "fallback": false
+    },
+    {
+      "fact_index": 62,
+      "paragraph_index": 11,
+      "fact": "Die Ethnien der Mitglieder einer Gesellschaft können von essentieller Bedeutung für die soziale Stellung eines Individuums sein.",
+      "fallback": false
+    },
+    {
+      "fact_index": 63,
+      "paragraph_index": 11,
+      "fact": "Kulturelle und ethnische Identitäten bilden sich in der Abgrenzung zu den „Anderen“.",
+      "fallback": false
+    },
+    {
+      "fact_index": 64,
+      "paragraph_index": 11,
+      "fact": "Die Abgrenzung zu den „Anderen“ kann zu Ethnozentrismus führen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 65,
+      "paragraph_index": 11,
+      "fact": "Ethnozentrismus ist die Interpretation der Umwelt mit den Maßstäben der eigenen Gruppe.",
+      "fallback": false
+    },
+    {
+      "fact_index": 66,
+      "paragraph_index": 11,
+      "fact": "Die Abgrenzung zu den „Anderen“ kann zu Xenophobie führen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 67,
+      "paragraph_index": 11,
+      "fact": "Xenophobie ist die Angst vor Fremdem.",
+      "fallback": false
+    },
+    {
+      "fact_index": 68,
+      "paragraph_index": 11,
+      "fact": "Ethnozentrismus kommt häufig im Zusammenhang mit politischen Debatten zur Migration ins Spiel.",
+      "fallback": false
+    },
+    {
+      "fact_index": 69,
+      "paragraph_index": 11,
+      "fact": "Xenophobie kommt häufig im Zusammenhang mit politischen Debatten zur Migration ins Spiel.",
+      "fallback": false
+    },
+    {
+      "fact_index": 70,
+      "paragraph_index": 12,
+      "fact": "Im Deutschen wird für ethnische Gruppen auch öfters der Begriff „Volksgruppe“ gebraucht.",
+      "fallback": false
+    },
+    {
+      "fact_index": 71,
+      "paragraph_index": 12,
+      "fact": "Es kommt häufig vor, dass verschiedene Volksgruppen in einem Staatsgebiet leben.",
+      "fallback": false
+    },
+    {
+      "fact_index": 72,
+      "paragraph_index": 12,
+      "fact": "Der Vielvölkerstaat Österreich–Ungarn bestand im 19. und 20. Jahrhundert aus verschiedenen Ethnien.",
+      "fallback": false
+    },
+    {
+      "fact_index": 73,
+      "paragraph_index": 12,
+      "fact": "Zu den Ethnien in Österreich–Ungarn gehörten Deutschsprachige.",
+      "fallback": false
+    },
+    {
+      "fact_index": 74,
+      "paragraph_index": 12,
+      "fact": "Zu den Ethnien in Österreich–Ungarn gehörten Ungarn.",
+      "fallback": false
+    },
+    {
+      "fact_index": 75,
+      "paragraph_index": 12,
+      "fact": "Zu den Ethnien in Österreich–Ungarn gehörten Slowenen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 76,
+      "paragraph_index": 12,
+      "fact": "Zu den Ethnien in Österreich–Ungarn gehörten Bosniaken.",
+      "fallback": false
+    },
+    {
+      "fact_index": 77,
+      "paragraph_index": 12,
+      "fact": "Zu den Ethnien in Österreich–Ungarn gehörten Kroaten.",
+      "fallback": false
+    },
+    {
+      "fact_index": 78,
+      "paragraph_index": 12,
+      "fact": "Zu den Ethnien in Österreich–Ungarn gehörten Italiener.",
+      "fallback": false
+    },
+    {
+      "fact_index": 79,
+      "paragraph_index": 12,
+      "fact": "Die Schweiz bildet keine ethnische Einheit.",
+      "fallback": false
+    },
+    {
+      "fact_index": 80,
+      "paragraph_index": 12,
+      "fact": "Die Schweiz besteht aus verschiedenen ethnischen Gruppen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 81,
+      "paragraph_index": 12,
+      "fact": "Zu den ethnischen Gruppen in der Schweiz gehören deutschsprach자prachige Schweizer.",
+      "fallback": false
+    },
+    {
+      "fact_index": 82,
+      "paragraph_index": 12,
+      "fact": "Zu den ethnischen Gruppen in der Schweiz gehören französischsprachige Schweizer.",
+      "fallback": false
+    },
+    {
+      "fact_index": 83,
+      "paragraph_index": 12,
+      "fact": "Zu den ethnischen Gruppen in der Schweiz gehören italienischsprachige Schweizer.",
+      "fallback": false
+    },
+    {
+      "fact_index": 84,
+      "paragraph_index": 12,
+      "fact": "Zu den ethnischen Gruppen in der Schweiz gehören rätoromanischsprachige Schweizer.",
+      "fallback": false
+    },
+    {
+      "fact_index": 85,
+      "paragraph_index": 12,
+      "fact": "Ganz allgemein ist so gut wie kein Staat ethnisch homogen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 86,
+      "paragraph_index": 12,
+      "fact": "Staaten, die in der Kolonialzeit entstanden sind und in denen die Kolonialherren ihre Grenzen ohne Rücksicht auf die Bevölkerung festlegten, sind besonders heterogen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 87,
+      "paragraph_index": 12,
+      "fact": "Staaten in Süd- und Mittelamerika sind Beispiele für solche heterogenen Staaten.",
+      "fallback": false
+    },
+    {
+      "fact_index": 88,
+      "paragraph_index": 12,
+      "fact": "Staaten in Afrika sind Beispiele für solche heterogenen Staaten.",
+      "fallback": false
+    },
+    {
+      "fact_index": 89,
+      "paragraph_index": 12,
+      "fact": "Staaten in Asien sind Beispiele für solche heterogenen Staaten.",
+      "fallback": false
+    },
+    {
+      "fact_index": 90,
+      "paragraph_index": 12,
+      "fact": "Staaten in Polynesien sind Beispiele für solche heterogenen Staaten.",
+      "fallback": false
+    },
+    {
+      "fact_index": 91,
+      "paragraph_index": 12,
+      "fact": "Indonesien ist ein Beispiel für einen solchen heterogenen Staat.",
+      "fallback": false
+    },
+    {
+      "fact_index": 92,
+      "paragraph_index": 13,
+      "fact": "Ethnische Gruppen sind nie ganz homogen, auch wenn es öfters so aussieht.",
+      "fallback": false
+    },
+    {
+      "fact_index": 93,
+      "paragraph_index": 13,
+      "fact": "Die Zugehörigkeit eines Individuums zu einer ethnischen Gruppe ist vielschichtig.",
+      "fallback": false
+    },
+    {
+      "fact_index": 94,
+      "paragraph_index": 13,
+      "fact": "Die Zugehörigkeit eines Individuums zu einer ethnischen Gruppe ist im Kontext von Migration und diasporischen Realitäten manchmal nicht eindeutig.",
+      "fallback": false
+    },
+    {
+      "fact_index": 95,
+      "paragraph_index": 13,
+      "fact": "Neue ethnische Gruppen können sich beispielsweise im Zuge von Konflikten bilden.",
+      "fallback": false
+    },
+    {
+      "fact_index": 96,
+      "paragraph_index": 13,
+      "fact": "Neue ethnische Gruppen können sich beispielsweise durch Migration bilden.",
+      "fallback": false
+    },
+    {
+      "fact_index": 97,
+      "paragraph_index": 13,
+      "fact": "Die Afroamerikaner sind ein jüngeres Beispiel für die Bildung neuer ethnischer Gruppen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 98,
+      "paragraph_index": 13,
+      "fact": "Die Afroamerikaner sind eine sehr heterogene ethnische Gruppe.",
+      "fallback": false
+    },
+    {
+      "fact_index": 99,
+      "paragraph_index": 13,
+      "fact": "Die Afroamerikaner sind aufgrund der Ereignisse in den letzten 500 Jahren entstanden.",
+      "fallback": false
+    },
+    {
+      "fact_index": 100,
+      "paragraph_index": 13,
+      "fact": "Die Maroons sind ein weiteres Beispiel für ethnische Gruppen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 101,
+      "paragraph_index": 13,
+      "fact": "Die Maroons leben in Jamaika.",
+      "fallback": false
+    },
+    {
+      "fact_index": 102,
+      "paragraph_index": 13,
+      "fact": "Die Maroons stammen von geflüchteten Sklaven ab, die aus Westafrika in die Karibik verschleppt worden sind.",
+      "fallback": false
+    }
+  ]
+}

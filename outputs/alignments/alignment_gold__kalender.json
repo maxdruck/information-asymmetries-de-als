@@ -1,0 +1,4954 @@
+{
+  "pair_key": "gold__kalender",
+  "cluster": "Gold",
+  "title": "Kalender",
+  "als_page_id": "gold_kalender_als",
+  "de_page_id": "gold_kalender_de",
+  "als_title": "Kalender",
+  "de_title": "Kalender",
+  "embed_model": "sentence-transformers/LaBSE",
+  "xfactalign_version": "paper_style_density_normalized_distance",
+  "top_k_facts": 2,
+  "paragraph_alignment": "directed_argmax_union",
+  "fact_retrieval_metric": "D(e_i,f_j)=1-cos(e_i,f_j)-hubness(f_j)",
+  "paragraph_adjacency": [
+    {
+      "de_paragraph": 0,
+      "als_paragraph": 0,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 1,
+      "als_paragraph": 1,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 2,
+      "als_paragraph": 2,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 3,
+      "als_paragraph": 3,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 4,
+      "als_paragraph": 4,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 5,
+      "als_paragraph": 5,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 5,
+      "als_paragraph": 6,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 6,
+      "als_paragraph": 7,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 7,
+      "als_paragraph": 8,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 8,
+      "als_paragraph": 9,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 9,
+      "als_paragraph": 10,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 10,
+      "als_paragraph": 11,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 11,
+      "als_paragraph": 12,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 12,
+      "als_paragraph": 13,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 13,
+      "als_paragraph": 14,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 14,
+      "als_paragraph": 15,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 15,
+      "als_paragraph": 16,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 16,
+      "als_paragraph": 17,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 17,
+      "als_paragraph": 18,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 18,
+      "als_paragraph": 19,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 19,
+      "als_paragraph": 20,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 19,
+      "als_paragraph": 21,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 20,
+      "als_paragraph": 22,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 21,
+      "als_paragraph": 23,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 22,
+      "als_paragraph": 4,
+      "weight": 1
+    }
+  ],
+  "de_to_als": [
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 0,
+      "source_fact": "Ein Kalender ist eine Übersicht über die Tage, Wochen und Monate eines Jahres.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 0,
+          "target_fact": "Ein Kalender ist eine Übersicht über die Tage, Wochen und Monate eines Jahres.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.3592
+        },
+        {
+          "target_fact_index": 1,
+          "target_fact": "Eine veraltete Bezeichnung für einen Kalender ist Johrwyser.",
+          "target_paragraph": 0,
+          "density_normalized_distance": 0.0848
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 1,
+      "source_fact": "Eine veraltete Bezeichnung für einen Kalender ist Jahrweiser.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 1,
+          "target_fact": "Eine veraltete Bezeichnung für einen Kalender ist Johrwyser.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.3202
+        },
+        {
+          "target_fact_index": 0,
+          "target_fact": "Ein Kalender ist eine Übersicht über die Tage, Wochen und Monate eines Jahres.",
+          "target_paragraph": 0,
+          "density_normalized_distance": 0.037
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 2,
+      "source_fact": "Das Wort „Kalender“ entstammt dem lateinischen Calendarium (Schuldbuch).",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 2,
+          "target_fact": "Das Wort „Kalender“ stammt vom lateinischen Calendarium (Schuldbuch) ab.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.3632
+        },
+        {
+          "target_fact_index": 5,
+          "target_fact": "Das Verb calare bedeutet „ausrufen“.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.1612
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 3,
+      "source_fact": "Das Calendarium war ein Verzeichnis der Kalendae.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 3,
+          "target_fact": "Das Calendarium war ein Verzeichnis der Kalendae.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.3467
+        },
+        {
+          "target_fact_index": 8,
+          "target_fact": "An den Kalendae waren Zinsforderungen fällig.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.0964
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 4,
+      "source_fact": "Die Kalendae waren die jeweils ersten, auszurufenden Tage der antiken Monate.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 4,
+          "target_fact": "Die Kalendae waren die jeweils ersten, auszurufenden Tage der antiken Monate.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.3479
+        },
+        {
+          "target_fact_index": 6,
+          "target_fact": "An den Kalendae waren Darlehen auszuzahlen.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.0629
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 5,
+      "source_fact": "Das Wort Kalendae leitet sich von calare („ausrufen“) ab.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 5,
+          "target_fact": "Das Verb calare bedeutet „ausrufen“.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.3785
+        },
+        {
+          "target_fact_index": 2,
+          "target_fact": "Das Wort „Kalender“ stammt vom lateinischen Calendarium (Schuldbuch) ab.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.1271
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 6,
+      "source_fact": "An den Kalendae wurden Darlehen ausgezahlt.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 6,
+          "target_fact": "An den Kalendae waren Darlehen auszuzahlen.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.5504
+        },
+        {
+          "target_fact_index": 7,
+          "target_fact": "An den Kalendae waren Darlehensrückführungen fällig.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.4405
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 7,
+      "source_fact": "An den Kalendae wurden Darlehensrückführungen fällig.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 7,
+          "target_fact": "An den Kalendae waren Darlehensrückführungen fällig.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.5828
+        },
+        {
+          "target_fact_index": 6,
+          "target_fact": "An den Kalendae waren Darlehen auszuzahlen.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.4912
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 8,
+      "source_fact": "An den Kalendae wurden Zinsforderungen fällig.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 8,
+          "target_fact": "An den Kalendae waren Zinsforderungen fällig.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.6042
+        },
+        {
+          "target_fact_index": 7,
+          "target_fact": "An den Kalendae waren Darlehensrückführungen fällig.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.4541
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 9,
+      "source_fact": "Es gibt verschiedene Kalendersysteme.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 9,
+          "target_fact": "Es gibt verschiedene Kalendersysteme.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.3127
+        },
+        {
+          "target_fact_index": 10,
+          "target_fact": "Heute ist weltweit überwiegend der Gregorianische Kalender im Gebrauch.",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.018
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 10,
+      "source_fact": "Heute ist weltweit überwiegend der gregorianische Kalender in Gebrauch.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 10,
+          "target_fact": "Heute ist weltweit überwiegend der Gregorianische Kalender im Gebrauch.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.4057
+        },
+        {
+          "target_fact_index": 9,
+          "target_fact": "Es gibt verschiedene Kalendersysteme.",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.1437
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 11,
+      "source_fact": "Kalender gibt es in gedruckten Formen.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 11,
+          "target_fact": "Kalender gibt es in gedruckten Formen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.4044
+        },
+        {
+          "target_fact_index": 12,
+          "target_fact": "Kalender gibt es in bebilderten Formen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.3686
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 12,
+      "source_fact": "Kalender gibt es in bebilderten Formen.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 12,
+          "target_fact": "Kalender gibt es in bebilderten Formen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.4355
+        },
+        {
+          "target_fact_index": 11,
+          "target_fact": "Kalender gibt es in gedruckten Formen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.3376
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 13,
+      "source_fact": "Kalender gibt es in elektronischen Formen.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 13,
+          "target_fact": "Kalender gibt es in elektronischen Formen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.4044
+        },
+        {
+          "target_fact_index": 11,
+          "target_fact": "Kalender gibt es in gedruckten Formen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.3156
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 14,
+      "source_fact": "Die Regeln zur Aufstellung von Kalendern ergeben sich aus astronomischen Gegebenheiten wie Mondphasen und dem Sonnenjahr.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 14,
+          "target_fact": "Die Regeln zur Aufstellung von Kalendern sind von astronomischen Gegebenheiten wie Mondphasen und Sonnenjahr abgeleitet.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.3374
+        },
+        {
+          "target_fact_index": 15,
+          "target_fact": "Die Regeln zur Aufstellung von Kalendern sind von entsprechenden Kalenderberechnungen abgeleitet.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.1636
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 15,
+      "source_fact": "Die Regeln zur Aufstellung von Kalendern ergeben sich aus entsprechenden Kalenderberechnungen.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 15,
+          "target_fact": "Die Regeln zur Aufstellung von Kalendern sind von entsprechenden Kalenderberechnungen abgeleitet.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.3886
+        },
+        {
+          "target_fact_index": 14,
+          "target_fact": "Die Regeln zur Aufstellung von Kalendern sind von astronomischen Gegebenheiten wie Mondphasen und Sonnenjahr abgeleitet.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.1039
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 16,
+      "source_fact": "Die wissenschaftliche Kalenderkunde ist ein Teilgebiet der astronomischen Chronologie.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 16,
+          "target_fact": "Die wissenschaftliche Kalenderkunde ist ein Teilgebiet der astronomischen Chronologie.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.3441
+        },
+        {
+          "target_fact_index": 17,
+          "target_fact": "Die vorwissenschaftliche Kunst, Kalender zu erstellen, nennt man Hemerology.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.0571
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 17,
+      "source_fact": "Die vorwissenschaftliche Kunst, Kalender zu erstellen, nennt man Hemerologie.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 17,
+          "target_fact": "Die vorwissenschaftliche Kunst, Kalender zu erstellen, nennt man Hemerology.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.3947
+        },
+        {
+          "target_fact_index": 16,
+          "target_fact": "Die wissenschaftliche Kalenderkunde ist ein Teilgebiet der astronomischen Chronologie.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.0066
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 18,
+      "source_fact": "Die Kenntnis regelmäßig stattfindender Tierwanderungen war für die frühen Jägerkulturen wichtig.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 18,
+          "target_fact": "Die Kenntnis von regelmäßig stattfindenden Tierwanderungen war schon für die frühen Jägerkulturen wichtig.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.4239
+        },
+        {
+          "target_fact_index": 24,
+          "target_fact": "Eine Beobachtung der Veränderungen am Nachthimmel war zu dieser Zeit ebenfalls möglich.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.0191
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 19,
+      "source_fact": "Der Mensch dürfte schon damals ein Bewusstsein für jahreszeitlich sich wiederholende Ereignisse und entsprechende Zyklen seiner Umwelt gehabt haben.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 19,
+          "target_fact": "Der Mensch hatte wahrscheinlich ziemlich früh ein Bewusstsein für jahreszeitlich und astronomisch sich wiederholende Ereignisse sowie für entsprechende Zyklen in seiner Umwelt.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.3467
+        },
+        {
+          "target_fact_index": 23,
+          "target_fact": "Jahreszeitlich bedingte Klimaschwankungen konnten von den Menschen spätestens in der Altschteizit wahrgenommen werden.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.1091
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 20,
+      "source_fact": "Der Mensch dürfte schon damals ein Bewusstsein für astronomisch sich wiederholende Ereignisse und entsprechende Zyklen seiner Umwelt gehabt haben.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 19,
+          "target_fact": "Der Mensch hatte wahrscheinlich ziemlich früh ein Bewusstsein für jahreszeitlich und astronomisch sich wiederholende Ereignisse sowie für entsprechende Zyklen in seiner Umwelt.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.3572
+        },
+        {
+          "target_fact_index": 25,
+          "target_fact": "Eine Beobachtung der Eigenbewegungen der Planeten war zu dieser Zeit ebenfalls möglich.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.0887
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 21,
+      "source_fact": "Zu den Zyklen der Umwelt gehören die Veränderungen im Zyklus von Tag und Nacht.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 20,
+          "target_fact": "Zum Bewusstsein für wiederholende Ereignisse gehört der Wechsel von Tag und Nacht.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.2349
+        },
+        {
+          "target_fact_index": 21,
+          "target_fact": "Zum Bewusstsein für wiederholende Ereignisse gehören die Mondphasen.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.0714
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 22,
+      "source_fact": "Zu den Zyklen der Umwelt gehören die Veränderungen im Zyklus der Mondphasen.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 21,
+          "target_fact": "Zum Bewusstsein für wiederholende Ereignisse gehören die Mondphasen.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.1585
+        },
+        {
+          "target_fact_index": 22,
+          "target_fact": "Jahreszeitlich bedingte Klimaschwankungen spielten in der Bauernerei der meisten Weltregionen eine bedeutende Rolle.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.0795
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 23,
+      "source_fact": "Zu den Zyklen der Umwelt gehören die jahreszeitlich bedingten Schwankungen.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 22,
+          "target_fact": "Jahreszeitlich bedingte Klimaschwankungen spielten in der Bauernerei der meisten Weltregionen eine bedeutende Rolle.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.1006
+        },
+        {
+          "target_fact_index": 23,
+          "target_fact": "Jahreszeitlich bedingte Klimaschwankungen konnten von den Menschen spätestens in der Altschteizit wahrgenommen werden.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.0688
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 24,
+      "source_fact": "Menschen in der Altsteinzeit konnten den Jahreslauf wahrnehmen.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 23,
+          "target_fact": "Jahreszeitlich bedingte Klimaschwankungen konnten von den Menschen spätestens in der Altschteizit wahrgenommen werden.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.1581
+        },
+        {
+          "target_fact_index": 24,
+          "target_fact": "Eine Beobachtung der Veränderungen am Nachthimmel war zu dieser Zeit ebenfalls möglich.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.0098
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 25,
+      "source_fact": "Menschen in der Altsteinzeit konnten den Nachthimmel mit Mondlauf und Bewegungen der Planeten beobachten.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 24,
+          "target_fact": "Eine Beobachtung der Veränderungen am Nachthimmel war zu dieser Zeit ebenfalls möglich.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.1678
+        },
+        {
+          "target_fact_index": 25,
+          "target_fact": "Eine Beobachtung der Eigenbewegungen der Planeten war zu dieser Zeit ebenfalls möglich.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.148
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 26,
+      "source_fact": "Der Turm von Jericho aus dem 9. Jahrtausend v. Chr. deutet auf die Kenntnis der Sommersonnenwende hin.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 26,
+          "target_fact": "Der Rurm von Jericho aus dem 9. Jahrtausend v. Chr. deutet darauf hin, dass man die Sommersonnwendi kannte.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.4352
+        },
+        {
+          "target_fact_index": 27,
+          "target_fact": "Jungsteinzeitliche Bauten wie Stonehenge zeugen von den Bemühungen der sesshaft gewordenen Bevölkerung, die natürliche Jahreslänge präzise bestimmen zu können.",
+          "target_paragraph": 7,
+          "density_normalized_distance": 0.0663
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 27,
+      "source_fact": "Jungsteinzeitliche Bauten wie etwa Stonehenge zeugen von den Bemühungen der sesshaft gewordenen Bevölkerung, die natürliche Jahreslänge exakt bestimmen zu können.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 27,
+          "target_fact": "Jungsteinzeitliche Bauten wie Stonehenge zeugen von den Bemühungen der sesshaft gewordenen Bevölkerung, die natürliche Jahreslänge präzise bestimmen zu können.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.4614
+        },
+        {
+          "target_fact_index": 28,
+          "target_fact": "Jungsteinzeitliche Bauten wie Stonehenge zeugen von den Bemühungen der sesshaft gewordenen Bevölkerung, ausgewählte zyklisch wiederkehrende Himmelsereignisse wie Sonnenwenden und Tag-und-Nacht-Gleichen präzise bestimmen zu können.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.3137
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 28,
+      "source_fact": "Jungsteinzeitliche Bauten wie etwa Stonehenge zeugen von den Bemühungen der sesshaft gewordenen Bevölkerung, ausgewählte zyklisch wiederkehrende Himmelsereignisse wie Sonnenwende und Tag-und-Nacht-Gleiche exakt bestimmen zu können.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 28,
+          "target_fact": "Jungsteinzeitliche Bauten wie Stonehenge zeugen von den Bemühungen der sesshaft gewordenen Bevölkerung, ausgewählte zyklisch wiederkehrende Himmelsereignisse wie Sonnenwenden und Tag-und-Nacht-Gleichen präzise bestimmen zu können.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.4355
+        },
+        {
+          "target_fact_index": 27,
+          "target_fact": "Jungsteinzeitliche Bauten wie Stonehenge zeugen von den Bemühungen der sesshaft gewordenen Bevölkerung, die natürliche Jahreslänge präzise bestimmen zu können.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.3402
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 29,
+      "source_fact": "Für die Landwirtschaft war es wichtig, eine von den konkreten Wetterbedingungen unabhängige Bestimmung der Zeitpunkte für Aussaat und Ernte vornehmen zu können.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 29,
+          "target_fact": "Für die Bauern war es wichtig, eine Bestimmung der Zeitpunkte für das Säen und Ernten vornehmen zu können.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.3245
+        },
+        {
+          "target_fact_index": 32,
+          "target_fact": "Bestimmte landwirtschaftliche Termine waren an Feste gebunden.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.0897
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 30,
+      "source_fact": "Mit der systematischen Himmelsbeobachtung waren religiöse Fruchtbarkeitskulte verbunden.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 30,
+          "target_fact": "Mit der systematischen Himmelsbeobachtung waren religiöse Fruchtbarkeitskulte verbunden.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.511
+        },
+        {
+          "target_fact_index": 31,
+          "target_fact": "Die religiösen Fruchtbarkeitskulte waren getragen von der Hoffnung auf eine günstige Rückkehr der Fruchtbarkeitsbedingungen.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.2019
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 31,
+      "source_fact": "Die religiösen Fruchtbarkeitskulte waren getragen von der Hoffnung auf eine günstige Wiederkehr der Fruchtbarkeitsbedingungen.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 31,
+          "target_fact": "Die religiösen Fruchtbarkeitskulte waren getragen von der Hoffnung auf eine günstige Rückkehr der Fruchtbarkeitsbedingungen.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.5941
+        },
+        {
+          "target_fact_index": 30,
+          "target_fact": "Mit der systematischen Himmelsbeobachtung waren religiöse Fruchtbarkeitskulte verbunden.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.1117
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 32,
+      "source_fact": "Bestimmte landwirtschaftliche Termine wurden an Feste gebunden.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 32,
+          "target_fact": "Bestimmte landwirtschaftliche Termine waren an Feste gebunden.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.4837
+        },
+        {
+          "target_fact_index": 33,
+          "target_fact": "Diese Feste waren wiederum an Himmelsereignisse gebunden.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.1629
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 33,
+      "source_fact": "Die Feste waren an Himmelsereignisse geknüpft.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 33,
+          "target_fact": "Diese Feste waren wiederum an Himmelsereignisse gebunden.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.4153
+        },
+        {
+          "target_fact_index": 32,
+          "target_fact": "Bestimmte landwirtschaftliche Termine waren an Feste gebunden.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.1603
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 34,
+      "source_fact": "Für den Übergang von Jägerkulturen zum Ackerbau im Neolithikum (Jungsteinzeit) wird eine Veränderung kalendarischer Vorstellungen vom Mond- zum Sonnenkalender angenommen.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 34,
+          "target_fact": "Für den Übergang von den Jägerkulturen zum Ackerbau im Neolithikum (Jungsteinzeit) ist eine Veränderung von kalendarischen Vorstellungen vom Mond- zum Sonnenkalender passiert.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.4191
+        },
+        {
+          "target_fact_index": 39,
+          "target_fact": "Analog zum Begriff der Neolithischen Revolution (Übergang zum Ackerbau) wird auch von der Neolithischen Kalender-Revolution gesprochen.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.1313
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 35,
+      "source_fact": "Der steinzeitliche Kalender wird auch als neolithischer Kalender bezeichnet.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 35,
+          "target_fact": "Diese steinzeitlichen Kalender werden auch neolithische Kalender genannt.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.293
+        },
+        {
+          "target_fact_index": 39,
+          "target_fact": "Analog zum Begriff der Neolithischen Revolution (Übergang zum Ackerbau) wird auch von der Neolithischen Kalender-Revolution gesprochen.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.193
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 36,
+      "source_fact": "Alexander Thom nannte den steinzeitlichen Kalender auch megalithischen Kalender.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 36,
+          "target_fact": "Alexander Thom taufte die neolithischen Kalender megalithische Kalender.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.2791
+        },
+        {
+          "target_fact_index": 35,
+          "target_fact": "Diese steinzeitlichen Kalender werden auch neolithische Kalender genannt.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.1246
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 37,
+      "source_fact": "Der steinzeitliche Kalender beinhaltet wohl die ältesten kalendarischen Vorstellungen der Menschheit.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 37,
+          "target_fact": "Die neolithischen Kalender beinhalten wohl die ältesten kalendarischen Vorstellungen der Menschheit.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.2505
+        },
+        {
+          "target_fact_index": 36,
+          "target_fact": "Alexander Thom taufte die neolithischen Kalender megalithische Kalender.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.005
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 38,
+      "source_fact": "Der steinzeitliche Kalender ist die Grundlage späterer Kalendervarianten.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 38,
+          "target_fact": "Die neolithischen Kalender sind die Grundlage von späteren Kalendervarianten.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.2508
+        },
+        {
+          "target_fact_index": 35,
+          "target_fact": "Diese steinzeitlichen Kalender werden auch neolithische Kalender genannt.",
+          "target_paragraph": 8,
+          "density_normalized_distance": 0.024
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 39,
+      "source_fact": "Analog zum Begriff der Neolithischen Revolution (Übergang zum Ackerbau) wird auch von der Neolithischen Kalender-Revolution gesprochen.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 39,
+          "target_fact": "Analog zum Begriff der Neolithischen Revolution (Übergang zum Ackerbau) wird auch von der Neolithischen Kalender-Revolution gesprochen.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.4664
+        },
+        {
+          "target_fact_index": 34,
+          "target_fact": "Für den Übergang von den Jägerkulturen zum Ackerbau im Neolithikum (Jungsteinzeit) ist eine Veränderung von kalendarischen Vorstellungen vom Mond- zum Sonnenkalender passiert.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0994
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 40,
+      "source_fact": "Die ältesten heute noch bekannten Kalender stammen aus den frühen Hochkulturen Ägyptens.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 40,
+          "target_fact": "Die ältesten heute noch bekannten Kalender stammen aus den frühen Hochkulturen Ägypten und Mesopotamien.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.3141
+        },
+        {
+          "target_fact_index": 41,
+          "target_fact": "In den frühen Hochkulturen Ägypten und Mesopotamien zeigten sich bereits zwei grundlegende Kalenderarten, die bis heute die meisten Kalendersysteme prägen.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.1816
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 41,
+      "source_fact": "Die ältesten heute noch bekannten Kalender stammen aus den frühen Hochkulturen Mesopotamiens.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 40,
+          "target_fact": "Die ältesten heute noch bekannten Kalender stammen aus den frühen Hochkulturen Ägypten und Mesopotamien.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.354
+        },
+        {
+          "target_fact_index": 41,
+          "target_fact": "In den frühen Hochkulturen Ägypten und Mesopotamien zeigten sich bereits zwei grundlegende Kalenderarten, die bis heute die meisten Kalendersysteme prägen.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.2313
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 42,
+      "source_fact": "In den frühen Hochkulturen Ägyptens und Mesopotamiens zeigten sich schon zwei grundlegende Kalendertypen, die bis heute die meisten Kalendersysteme prägen.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 41,
+          "target_fact": "In den frühen Hochkulturen Ägypten und Mesopotamien zeigten sich bereits zwei grundlegende Kalenderarten, die bis heute die meisten Kalendersysteme prägen.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.4396
+        },
+        {
+          "target_fact_index": 40,
+          "target_fact": "Die ältesten heute noch bekannten Kalender stammen aus den frühen Hochkulturen Ägypten und Mesopotamien.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.2375
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 43,
+      "source_fact": "Ein grundlegender Kalendertyp ist der an den Mondphasen orientierte Mondkalender.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 42,
+          "target_fact": "Eine grundlegende Kalenderart ist der an den Mondphasen orientierte Mondkalender.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.3108
+        },
+        {
+          "target_fact_index": 43,
+          "target_fact": "Eine grundlegende Kalenderart ist der astronomische Kalender, welcher den Lauf der Himmelskörper widerspiegelt.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.1788
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 44,
+      "source_fact": "Ein grundlegender Kalendertyp ist der astronomische Kalender, der den Lauf der Himmelskörper widerspiegelt.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 43,
+          "target_fact": "Eine grundlegende Kalenderart ist der astronomische Kalender, welcher den Lauf der Himmelskörper widerspiegelt.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.3536
+        },
+        {
+          "target_fact_index": 42,
+          "target_fact": "Eine grundlegende Kalenderart ist der an den Mondphasen orientierte Mondkalender.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.1567
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 45,
+      "source_fact": "Der siebentägige Wochenzyklus wurde spätestens von den Babyloniern entwickelt.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 44,
+          "target_fact": "Spätestens von den Babyloniern wurde der siebentägige Wochenzyklus entwickelt.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.4553
+        },
+        {
+          "target_fact_index": 45,
+          "target_fact": "Der siebentägige Wochenzyklus regelt heute fast weltweit den Ablauf vom Alltag.",
+          "target_paragraph": 10,
+          "density_normalized_distance": 0.0271
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 46,
+      "source_fact": "Der siebentägige Wochenzyklus regelt heute fast weltweit den Ablauf des Alltags.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 45,
+          "target_fact": "Der siebentägige Wochenzyklus regelt heute fast weltweit den Ablauf vom Alltag.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.4201
+        },
+        {
+          "target_fact_index": 44,
+          "target_fact": "Spätestens von den Babyloniern wurde der siebentägige Wochenzyklus entwickelt.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.0521
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 47,
+      "source_fact": "In anderen Kalendern gab es ähnliche Zyklen zwischen fünf und zehn Tagen.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 46,
+          "target_fact": "In anderen Kalendern gab es ähnliche Zyklen zwischen fünf und zehn Tagen.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.3982
+        },
+        {
+          "target_fact_index": 44,
+          "target_fact": "Spätestens von den Babyloniern wurde der siebentägige Wochenzyklus entwickelt.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.0008
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 48,
+      "source_fact": "Die Anpassung von Wochen und Monatsfolgen an die feste Größe des astronomischen Jahres war nicht einfach zu lösen.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 47,
+          "target_fact": "Die Anpassung von Wochen- und Monatsfolgen an die feste Größe des astronomischen Jahres war nicht einfach zu lösen.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.4432
+        },
+        {
+          "target_fact_index": 48,
+          "target_fact": "Dies führte zur Ausbildung von verschiedenen Kalendersystemen.",
+          "target_paragraph": 11,
+          "density_normalized_distance": 0.1603
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 49,
+      "source_fact": "Es kam zur Herausbildung verschiedener Kalendersysteme.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 48,
+          "target_fact": "Dies führte zur Ausbildung von verschiedenen Kalendersystemen.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.2652
+        },
+        {
+          "target_fact_index": 47,
+          "target_fact": "Die Anpassung von Wochen- und Monatsfolgen an die feste Größe des astronomischen Jahres war nicht einfach zu lösen.",
+          "target_paragraph": 11,
+          "density_normalized_distance": 0.1048
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 50,
+      "source_fact": "Frühe Kalendersysteme wurden durch Beobachtung gewonnen.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 49,
+          "target_fact": "Frühe Kalendersysteme wurden durch Beobachtung gewonnen.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.4234
+        },
+        {
+          "target_fact_index": 53,
+          "target_fact": "Frühe Kalendersysteme mussten regelmäßig nachgeregelt werden.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.1693
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 51,
+      "source_fact": "Frühe Kalendersysteme waren astronomische Kalender.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 50,
+          "target_fact": "Frühe Kalendersysteme waren astronomische Kalender.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.3001
+        },
+        {
+          "target_fact_index": 49,
+          "target_fact": "Frühe Kalendersysteme wurden durch Beobachtung gewonnen.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.1868
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 52,
+      "source_fact": "Mit dem Eintritt eines bestimmten definierten Himmelsereignisses begann ein neuer Zyklus.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 51,
+          "target_fact": "Ein neuer Zyklus begann mit dem Eintritt von bestimmten definierten Himmelsereignissen.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.38
+        },
+        {
+          "target_fact_index": 52,
+          "target_fact": "Beispiele für definierte Himmelsereignisse sind der Neumond oder die Tag-und-Nacht-Gleiche im Frühling.",
+          "target_paragraph": 12,
+          "density_normalized_distance": 0.039
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 53,
+      "source_fact": "Ein bestimmtes definiertes Himmelsereignis kann der Neumond sein.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 52,
+          "target_fact": "Beispiele für definierte Himmelsereignisse sind der Neumond oder die Tag-und-Nacht-Gleiche im Frühling.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.1151
+        },
+        {
+          "target_fact_index": 51,
+          "target_fact": "Ein neuer Zyklus begann mit dem Eintritt von bestimmten definierten Himmelsereignissen.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.0973
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 54,
+      "source_fact": "Ein bestimmtes definiertes Himmelsereignis kann die Tag-und-Nacht-Gleiche im Frühling sein.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 52,
+          "target_fact": "Beispiele für definierte Himmelsereignisse sind der Neumond oder die Tag-und-Nacht-Gleiche im Frühling.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.248
+        },
+        {
+          "target_fact_index": 51,
+          "target_fact": "Ein neuer Zyklus begann mit dem Eintritt von bestimmten definierten Himmelsereignissen.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.0273
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 55,
+      "source_fact": "Frühe Kalendersysteme mussten regelmäßig nachgeregelt werden.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 53,
+          "target_fact": "Frühe Kalendersysteme mussten regelmäßig nachgeregelt werden.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.3969
+        },
+        {
+          "target_fact_index": 49,
+          "target_fact": "Frühe Kalendersysteme wurden durch Beobachtung gewonnen.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.1958
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 56,
+      "source_fact": "Diese Methode hatte einen entscheidenden Nachteil.",
+      "source_paragraph": 12,
+      "matches": [
+        {
+          "target_fact_index": 54,
+          "target_fact": "Diese Methode hatte einen entscheidenden Nachteil.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.5414
+        },
+        {
+          "target_fact_index": 61,
+          "target_fact": "Durch die langen Informationswege konnte es passieren, dass ein religiöses Fest in abgelegenen Gebieten am falschen Tag gefeiert wurde.",
+          "target_paragraph": 13,
+          "density_normalized_distance": 0.0398
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 57,
+      "source_fact": "In großen Herrschaftsräumen konnte ein Ereignis an unterschiedlichen Orten eventuell zu unterschiedlichen Zeiten wahrgenommen werden.",
+      "source_paragraph": 12,
+      "matches": [
+        {
+          "target_fact_index": 55,
+          "target_fact": "In großen Herrschaftsgebieten konnte ein Ereignis an unterschiedlichen Orten eventuell zu unterschiedlichen Zeiten wahrgenommen werden.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.4875
+        },
+        {
+          "target_fact_index": 56,
+          "target_fact": "In großen Herrschaftsgebieten konnten daher unterschiedliche Daten gezählt worden sein.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.2679
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 58,
+      "source_fact": "In großen Herrschaftsräumen konnten aufgrund der unterschiedlichen Wahrnehmungszeiten unterschiedliche Daten gezählt werden.",
+      "source_paragraph": 12,
+      "matches": [
+        {
+          "target_fact_index": 56,
+          "target_fact": "In großen Herrschaftsgebieten konnten daher unterschiedliche Daten gezählt worden sein.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.3764
+        },
+        {
+          "target_fact_index": 55,
+          "target_fact": "In großen Herrschaftsgebieten konnte ein Ereignis an unterschiedlichen Orten eventuell zu unterschiedlichen Zeiten wahrgenommen werden.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.2847
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 59,
+      "source_fact": "Wenn der Eintritt eines Ereignisses nur an einem bestimmten Ort wie der Hauptstadt oder dem Haupttempel maßgeblich war, konnten weit entfernt gelegene Gebiete oft erst nach Tagen davon unterrichtet werden.",
+      "source_paragraph": 12,
+      "matches": [
+        {
+          "target_fact_index": 57,
+          "target_fact": "Wenn der Eintritt von einem Ereignis nur an einem bestimmten Ort maßgeblich war, konnten weit entfernt gelegene Gebiete oft erst nach ein paar Tagen davon unterrichtet werden.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.3839
+        },
+        {
+          "target_fact_index": 58,
+          "target_fact": "Beispiele für einen bestimmten Ort waren die Hauptstadt oder ein Haupttempel.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.1924
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 60,
+      "source_fact": "Probleme dieser Art gab es im früheren jüdischen Kalender.",
+      "source_paragraph": 12,
+      "matches": [
+        {
+          "target_fact_index": 59,
+          "target_fact": "Solche Probleme gab es beispielsweise im früheren jüdischen Kalender.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.385
+        },
+        {
+          "target_fact_index": 54,
+          "target_fact": "Diese Methode hatte einen entscheidenden Nachteil.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.0748
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 61,
+      "source_fact": "Im früheren jüdischen Kalender entschied der Hohepriester über die erste Sichtung der Mondsichel bei Neumond.",
+      "source_paragraph": 12,
+      "matches": [
+        {
+          "target_fact_index": 60,
+          "target_fact": "Im früheren jüdischen Kalender entschied der Hohepriester über die erste Sichtung der Mondsichel bei Neumond.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.4557
+        },
+        {
+          "target_fact_index": 63,
+          "target_fact": "Der Neumond konnte nicht vorausberechnet werden, sondern wurde durch tagesaktuelle Beobachtung ermittelt.",
+          "target_paragraph": 13,
+          "density_normalized_distance": 0.0265
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 62,
+      "source_fact": "Durch die langen Informationswege konnte es passieren, dass ein religiöses Fest in abgelegenen Gebieten am „falschen“ Tag gefeiert wurde.",
+      "source_paragraph": 12,
+      "matches": [
+        {
+          "target_fact_index": 61,
+          "target_fact": "Durch die langen Informationswege konnte es passieren, dass ein religiöses Fest in abgelegenen Gebieten am falschen Tag gefeiert wurde.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.5027
+        },
+        {
+          "target_fact_index": 57,
+          "target_fact": "Wenn der Eintritt von einem Ereignis nur an einem bestimmten Ort maßgeblich war, konnten weit entfernt gelegene Gebiete oft erst nach ein paar Tagen davon unterrichtet werden.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.1599
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 63,
+      "source_fact": "Kurz vor Monatsende war es nicht möglich vorherzusagen, welches Datum beispielsweise in sieben Tagen sein würde.",
+      "source_paragraph": 12,
+      "matches": [
+        {
+          "target_fact_index": 62,
+          "target_fact": "Kurz vor Monatsende war es nicht möglich vorherzusagen, welches Datum zum Beispiel in sieben Tagen sein würde.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.4383
+        },
+        {
+          "target_fact_index": 63,
+          "target_fact": "Der Neumond konnte nicht vorausberechnet werden, sondern wurde durch tagesaktuelle Beobachtung ermittelt.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.0868
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 64,
+      "source_fact": "Der Neumond wurde nicht vorausberechnet, sondern durch tagesaktuelle Beobachtung ermittelt.",
+      "source_paragraph": 12,
+      "matches": [
+        {
+          "target_fact_index": 63,
+          "target_fact": "Der Neumond konnte nicht vorausberechnet werden, sondern wurde durch tagesaktuelle Beobachtung ermittelt.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.415
+        },
+        {
+          "target_fact_index": 62,
+          "target_fact": "Kurz vor Monatsende war es nicht möglich vorherzusagen, welches Datum zum Beispiel in sieben Tagen sein würde.",
+          "target_paragraph": 13,
+          "density_normalized_distance": 0.0134
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 65,
+      "source_fact": "Immer mehr Kulturen begannen, ihre Kalender zu berechnen.",
+      "source_paragraph": 13,
+      "matches": [
+        {
+          "target_fact_index": 64,
+          "target_fact": "Immer mehr Kulturen haben deshalb ihre Kalender angefangen zu berechnen.",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.3434
+        },
+        {
+          "target_fact_index": 65,
+          "target_fact": "Der letzte ernsthafte Versuch, einen Beobachtungskalender zu etablieren, wurde in der Französischen Revolution unternommen.",
+          "target_paragraph": 14,
+          "density_normalized_distance": 0.0382
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 66,
+      "source_fact": "Der letzte ernsthafte Versuch, einen Beobachtungs-Kalender zu etablieren, wurde in der Französischen Revolution unternommen.",
+      "source_paragraph": 13,
+      "matches": [
+        {
+          "target_fact_index": 65,
+          "target_fact": "Der letzte ernsthafte Versuch, einen Beobachtungskalender zu etablieren, wurde in der Französischen Revolution unternommen.",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.4847
+        },
+        {
+          "target_fact_index": 66,
+          "target_fact": "Dieser Versuch war der Französische Revolutionskalender.",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.1969
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 67,
+      "source_fact": "In der Französischen Revolution wurde der Französische Revolutionskalender eingeführt.",
+      "source_paragraph": 13,
+      "matches": [
+        {
+          "target_fact_index": 66,
+          "target_fact": "Dieser Versuch war der Französische Revolutionskalender.",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.2018
+        },
+        {
+          "target_fact_index": 65,
+          "target_fact": "Der letzte ernsthafte Versuch, einen Beobachtungskalender zu etablieren, wurde in der Französischen Revolution unternommen.",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.1961
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 68,
+      "source_fact": "Die Berechnung von Kalendern setzt umfangreiche astronomische und mathematische Kenntnisse voraus.",
+      "source_paragraph": 14,
+      "matches": [
+        {
+          "target_fact_index": 67,
+          "target_fact": "Die Berechnung von Kalendern (arithmetischen Kalendern) setzt umfangreiche astronomische und mathematische Kenntnisse voraus.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.3462
+        },
+        {
+          "target_fact_index": 68,
+          "target_fact": "Bei der Entwicklung des frühen ägyptischen astralen Sothiskalenders sind diese Kenntnisse vorhanden gewesen.",
+          "target_paragraph": 15,
+          "density_normalized_distance": 0.0622
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 69,
+      "source_fact": "Bei der Entwicklung des frühen ägyptischen astralen Sothiskalenders waren umfangreiche astronomische und mathematische Kenntnisse vorhanden.",
+      "source_paragraph": 14,
+      "matches": [
+        {
+          "target_fact_index": 68,
+          "target_fact": "Bei der Entwicklung des frühen ägyptischen astralen Sothiskalenders sind diese Kenntnisse vorhanden gewesen.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.2955
+        },
+        {
+          "target_fact_index": 67,
+          "target_fact": "Die Berechnung von Kalendern (arithmetischen Kalendern) setzt umfangreiche astronomische und mathematische Kenntnisse voraus.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.1301
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 70,
+      "source_fact": "Die Einführung eines ägyptischen Verwaltungskalenders auf 365-Tage-Basis folgte spätestens im dritten Jahrtausend v. Chr.",
+      "source_paragraph": 14,
+      "matches": [
+        {
+          "target_fact_index": 69,
+          "target_fact": "Die Einführung eines ägyptischen Verwaltungskalenders auf 365-Tage-Basis erfolgte spätestens im dritten Jahrtausend v. Chr.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.4112
+        },
+        {
+          "target_fact_index": 72,
+          "target_fact": "Ptolemaios III. unternahm 238 v. Chr. einen Versuch zur Einführung eines Schalttags.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.1123
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 71,
+      "source_fact": "Der ägyptische Verwaltungskalender auf 365-Tage-Basis konnte das Durchwandern der Jahreszeiten nicht verhindern.",
+      "source_paragraph": 14,
+      "matches": [
+        {
+          "target_fact_index": 70,
+          "target_fact": "Der ägyptische Verwaltungskalender konnte das Durchwandern der Jahreszeiten nicht verhindern.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.3585
+        },
+        {
+          "target_fact_index": 69,
+          "target_fact": "Die Einführung eines ägyptischen Verwaltungskalenders auf 365-Tage-Basis erfolgte spätestens im dritten Jahrtausend v. Chr.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.1302
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 72,
+      "source_fact": "Die ägyptischen Könige bemängelten die Jahreszeitenverschiebung.",
+      "source_paragraph": 14,
+      "matches": [
+        {
+          "target_fact_index": 71,
+          "target_fact": "Die ägyptischen Könige kritisierten die Jahreszeitenverschiebung.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.48
+        },
+        {
+          "target_fact_index": 70,
+          "target_fact": "Der ägyptische Verwaltungskalender konnte das Durchwandern der Jahreszeiten nicht verhindern.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.1555
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 73,
+      "source_fact": "Ptolemaios III. unternahm 238 v. Chr. einen Versuch zur Einführung eines Schalttages.",
+      "source_paragraph": 14,
+      "matches": [
+        {
+          "target_fact_index": 72,
+          "target_fact": "Ptolemaios III. unternahm 238 v. Chr. einen Versuch zur Einführung eines Schalttags.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.5348
+        },
+        {
+          "target_fact_index": 69,
+          "target_fact": "Die Einführung eines ägyptischen Verwaltungskalenders auf 365-Tage-Basis erfolgte spätestens im dritten Jahrtausend v. Chr.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.0229
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 74,
+      "source_fact": "Nach dem Tod von Ptolemaios III. wurde neben dem neuen Schalttageskalender wieder der alte ägyptische Verwaltungskalender benutzt.",
+      "source_paragraph": 14,
+      "matches": [
+        {
+          "target_fact_index": 73,
+          "target_fact": "Nach dem Tod von Ptolemaios III. wurde neben dem neuen Schalttagskalender wieder der alte ägyptische Verwaltungskalender gebraucht.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.405
+        },
+        {
+          "target_fact_index": 72,
+          "target_fact": "Ptolemaios III. unternahm 238 v. Chr. einen Versuch zur Einführung eines Schalttags.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.1194
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 75,
+      "source_fact": "Der julianische Kalender wurde 45 v. Chr. von Julius Cäsar eingeführt.",
+      "source_paragraph": 14,
+      "matches": [
+        {
+          "target_fact_index": 74,
+          "target_fact": "Der julianische Kalender wurde 45 v. Chr. von Julius Cäsar eingeführt.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.3767
+        },
+        {
+          "target_fact_index": 69,
+          "target_fact": "Die Einführung eines ägyptischen Verwaltungskalenders auf 365-Tage-Basis erfolgte spätestens im dritten Jahrtausend v. Chr.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.1321
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 76,
+      "source_fact": "Der julianische Kalender stützte sich auf die Kalenderform des Ptolemaios III.",
+      "source_paragraph": 14,
+      "matches": [
+        {
+          "target_fact_index": 75,
+          "target_fact": "Der julianische Kalender stützte sich auf die Kalenderform von Ptolemaios III.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.3503
+        },
+        {
+          "target_fact_index": 72,
+          "target_fact": "Ptolemaios III. unternahm 238 v. Chr. einen Versuch zur Einführung eines Schalttags.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.169
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 77,
+      "source_fact": "Mondkalender müssen mit Schalttagen oder unterschiedlichen Monatslängen arbeiten, die nach einer festgelegten mathematischen Regel in den normalen Kalenderlauf eingefügt sind.",
+      "source_paragraph": 15,
+      "matches": [
+        {
+          "target_fact_index": 76,
+          "target_fact": "Sowohl Mond- als auch Sonnenkalender müssen mit Schalttagen oder unterschiedlichen Monatslängen arbeiten, die nach einer festgelegten mathematischen Regel in den normalen Kalenderlauf eingebaut wurden.",
+          "target_paragraph": 16,
+          "density_normalized_distance": -0.2834
+        },
+        {
+          "target_fact_index": 77,
+          "target_fact": "Ein Sonnenkalender braucht normalerweise etwa alle vier Jahre einen zusätzlichen Tag, um die durchschnittliche Tageszahl der Länge des Sonnenjahres anzupassen.",
+          "target_paragraph": 16,
+          "density_normalized_distance": -0.0355
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 78,
+      "source_fact": "Sonnenkalender müssen mit Schalttagen oder unterschiedlichen Monatslängen arbeiten, die nach einer festgelegten mathematischen Regel in den normalen Kalenderlauf eingefügt sind.",
+      "source_paragraph": 15,
+      "matches": [
+        {
+          "target_fact_index": 76,
+          "target_fact": "Sowohl Mond- als auch Sonnenkalender müssen mit Schalttagen oder unterschiedlichen Monatslängen arbeiten, die nach einer festgelegten mathematischen Regel in den normalen Kalenderlauf eingebaut wurden.",
+          "target_paragraph": 16,
+          "density_normalized_distance": -0.2851
+        },
+        {
+          "target_fact_index": 77,
+          "target_fact": "Ein Sonnenkalender braucht normalerweise etwa alle vier Jahre einen zusätzlichen Tag, um die durchschnittliche Tageszahl der Länge des Sonnenjahres anzupassen.",
+          "target_paragraph": 16,
+          "density_normalized_distance": -0.0766
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 79,
+      "source_fact": "Ein Sonnenkalender benötigt normalerweise einen zusätzlichen Tag circa alle vier Jahre, um die durchschnittliche Tageszahl der Länge des Sonnenjahrs anzupassen.",
+      "source_paragraph": 15,
+      "matches": [
+        {
+          "target_fact_index": 77,
+          "target_fact": "Ein Sonnenkalender braucht normalerweise etwa alle vier Jahre einen zusätzlichen Tag, um die durchschnittliche Tageszahl der Länge des Sonnenjahres anzupassen.",
+          "target_paragraph": 16,
+          "density_normalized_distance": -0.4144
+        },
+        {
+          "target_fact_index": 79,
+          "target_fact": "Ein Mondkalender muss die Monatslänge zwischen 29 und 30 Tagen variieren.",
+          "target_paragraph": 16,
+          "density_normalized_distance": 0.0391
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 80,
+      "source_fact": "Im gregorianischen Kalender ist der zusätzliche Tag des Sonnenkalenders der 29. Februar.",
+      "source_paragraph": 15,
+      "matches": [
+        {
+          "target_fact_index": 78,
+          "target_fact": "Im Gregorianischen Kalender ist dieser zusätzliche Tag der 29. Februar.",
+          "target_paragraph": 16,
+          "density_normalized_distance": -0.3279
+        },
+        {
+          "target_fact_index": 79,
+          "target_fact": "Ein Mondkalender muss die Monatslänge zwischen 29 und 30 Tagen variieren.",
+          "target_paragraph": 16,
+          "density_normalized_distance": 0.0175
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 81,
+      "source_fact": "Ein Mondkalender muss die Monatslängen zwischen 29 und 30 Tagen variieren.",
+      "source_paragraph": 15,
+      "matches": [
+        {
+          "target_fact_index": 79,
+          "target_fact": "Ein Mondkalender muss die Monatslänge zwischen 29 und 30 Tagen variieren.",
+          "target_paragraph": 16,
+          "density_normalized_distance": -0.3453
+        },
+        {
+          "target_fact_index": 80,
+          "target_fact": "Die Zeit zwischen zwei gleichen Mondphasen dauert durchschnittlich etwa 29,531 Tage.",
+          "target_paragraph": 16,
+          "density_normalized_distance": -0.1048
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 82,
+      "source_fact": "Die Zeit zwischen zwei gleichen Mondphasen beträgt durchschnittlich circa 29,531 Tage.",
+      "source_paragraph": 15,
+      "matches": [
+        {
+          "target_fact_index": 80,
+          "target_fact": "Die Zeit zwischen zwei gleichen Mondphasen dauert durchschnittlich etwa 29,531 Tage.",
+          "target_paragraph": 16,
+          "density_normalized_distance": -0.3888
+        },
+        {
+          "target_fact_index": 79,
+          "target_fact": "Ein Mondkalender muss die Monatslänge zwischen 29 und 30 Tagen variieren.",
+          "target_paragraph": 16,
+          "density_normalized_distance": -0.0522
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 83,
+      "source_fact": "Der Einschub eines zusätzlichen Tages in ein Kalendersystem wird als Embolismus bezeichnet.",
+      "source_paragraph": 16,
+      "matches": [
+        {
+          "target_fact_index": 81,
+          "target_fact": "Der Einschub von einem zusätzlichen Tag, Monat oder Jahr in einem Kalendersystem wird als Embolismus benannt.",
+          "target_paragraph": 17,
+          "density_normalized_distance": -0.315
+        },
+        {
+          "target_fact_index": 82,
+          "target_fact": "Das Wort Embolismus leitet sich vom altgriechischen ἐμβάλλειν für „einschaalten“ ab.",
+          "target_paragraph": 17,
+          "density_normalized_distance": -0.014
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 84,
+      "source_fact": "Der Einschub eines zusätzlichen Monats in ein Kalendersystem wird als Embolismus bezeichnet.",
+      "source_paragraph": 16,
+      "matches": [
+        {
+          "target_fact_index": 81,
+          "target_fact": "Der Einschub von einem zusätzlichen Tag, Monat oder Jahr in einem Kalendersystem wird als Embolismus benannt.",
+          "target_paragraph": 17,
+          "density_normalized_distance": -0.318
+        },
+        {
+          "target_fact_index": 82,
+          "target_fact": "Das Wort Embolismus leitet sich vom altgriechischen ἐμβάλλειν für „einschaalten“ ab.",
+          "target_paragraph": 17,
+          "density_normalized_distance": -0.0166
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 85,
+      "source_fact": "Der Einschub eines zusätzlichen Jahres in ein Kalendersystem wird als Embolismus bezeichnet.",
+      "source_paragraph": 16,
+      "matches": [
+        {
+          "target_fact_index": 81,
+          "target_fact": "Der Einschub von einem zusätzlichen Tag, Monat oder Jahr in einem Kalendersystem wird als Embolismus benannt.",
+          "target_paragraph": 17,
+          "density_normalized_distance": -0.3162
+        },
+        {
+          "target_fact_index": 82,
+          "target_fact": "Das Wort Embolismus leitet sich vom altgriechischen ἐμβάλλειν für „einschaalten“ ab.",
+          "target_paragraph": 17,
+          "density_normalized_distance": -0.0144
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 86,
+      "source_fact": "Embolismus bedeutet „einschalten“.",
+      "source_paragraph": 16,
+      "matches": [
+        {
+          "target_fact_index": 82,
+          "target_fact": "Das Wort Embolismus leitet sich vom altgriechischen ἐμβάλλειν für „einschaalten“ ab.",
+          "target_paragraph": 17,
+          "density_normalized_distance": -0.1773
+        },
+        {
+          "target_fact_index": 81,
+          "target_fact": "Der Einschub von einem zusätzlichen Tag, Monat oder Jahr in einem Kalendersystem wird als Embolismus benannt.",
+          "target_paragraph": 17,
+          "density_normalized_distance": 0.0651
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 87,
+      "source_fact": "Lunar- oder Mondkalender orientieren sich an den Mondphasen.",
+      "source_paragraph": 17,
+      "matches": [
+        {
+          "target_fact_index": 83,
+          "target_fact": "Lunar- oder Mondkalender orientieren sich an den Mondphasen.",
+          "target_paragraph": 18,
+          "density_normalized_distance": -0.3242
+        },
+        {
+          "target_fact_index": 84,
+          "target_fact": "Das deutsche Wort Monat leitet sich etymologisch vom Mond ab.",
+          "target_paragraph": 18,
+          "density_normalized_distance": -0.0478
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 88,
+      "source_fact": "Das deutsche Wort Monat leitet sich etymologisch von Mond ab.",
+      "source_paragraph": 17,
+      "matches": [
+        {
+          "target_fact_index": 84,
+          "target_fact": "Das deutsche Wort Monat leitet sich etymologisch vom Mond ab.",
+          "target_paragraph": 18,
+          "density_normalized_distance": -0.4191
+        },
+        {
+          "target_fact_index": 85,
+          "target_fact": "Der Monat vom Gregorianischen Kalender hat außer dem Namen nichts mehr mit einem Mondzyklus zu tun.",
+          "target_paragraph": 18,
+          "density_normalized_distance": 0.0403
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 89,
+      "source_fact": "Der Monat des gregorianischen Kalenders hat außer dem Namen nichts mehr mit dem Mondzyklus zu tun.",
+      "source_paragraph": 17,
+      "matches": [
+        {
+          "target_fact_index": 85,
+          "target_fact": "Der Monat vom Gregorianischen Kalender hat außer dem Namen nichts mehr mit einem Mondzyklus zu tun.",
+          "target_paragraph": 18,
+          "density_normalized_distance": -0.3312
+        },
+        {
+          "target_fact_index": 84,
+          "target_fact": "Das deutsche Wort Monat leitet sich etymologisch vom Mond ab.",
+          "target_paragraph": 18,
+          "density_normalized_distance": -0.0477
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 90,
+      "source_fact": "Der Monat des gregorianischen Kalenders dauert mit einer durchschnittlichen Länge von 30,437 Tagen fast einen Tag länger als der durchschnittliche synodische Monat.",
+      "source_paragraph": 17,
+      "matches": [
+        {
+          "target_fact_index": 86,
+          "target_fact": "Der Monat vom Gregorianischen Kalender dauert mit einer durchschnittlichen Länge von 30,437 Tagen fast einen Tag länger als der durchschnittliche synodische Monat.",
+          "target_paragraph": 18,
+          "density_normalized_distance": -0.3078
+        },
+        {
+          "target_fact_index": 85,
+          "target_fact": "Der Monat vom Gregorianischen Kalender hat außer dem Namen nichts mehr mit einem Mondzyklus zu tun.",
+          "target_paragraph": 18,
+          "density_normalized_distance": -0.0194
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 91,
+      "source_fact": "Der Nachteil eines reinen Lunarkalenders besteht darin, dass er nicht mit dem Sonnenjahr korrespondieren kann.",
+      "source_paragraph": 18,
+      "matches": [
+        {
+          "target_fact_index": 87,
+          "target_fact": "Der Nachteil vom reinen Lunarkalender besteht darin, dass er nicht mit einem Sonnenjahr korrespondieren kann.",
+          "target_paragraph": 19,
+          "density_normalized_distance": -0.4354
+        },
+        {
+          "target_fact_index": 88,
+          "target_fact": "Die Eigenschaft, dass der Lunarkalender nicht mit dem Sonnenjahr korrespondiert, hat in subtropischen und tropischen Breiten oft nicht die Bedeutung, die ihr dort zukommt, wo die Kulturen von den Jahreszeiten abhängig sind.",
+          "target_paragraph": 19,
+          "density_normalized_distance": -0.0255
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 92,
+      "source_fact": "Die fehlende Korrespondenz eines reinen Lunarkalenders mit dem Sonnenjahr hat in subtropischen und tropischen Breiten oft nicht die Bedeutung, die ihr in von den Jahreszeiten abhängigen Kulturen zukommt.",
+      "source_paragraph": 18,
+      "matches": [
+        {
+          "target_fact_index": 88,
+          "target_fact": "Die Eigenschaft, dass der Lunarkalender nicht mit dem Sonnenjahr korrespondiert, hat in subtropischen und tropischen Breiten oft nicht die Bedeutung, die ihr dort zukommt, wo die Kulturen von den Jahreszeiten abhängig sind.",
+          "target_paragraph": 19,
+          "density_normalized_distance": -0.3415
+        },
+        {
+          "target_fact_index": 87,
+          "target_fact": "Der Nachteil vom reinen Lunarkalender besteht darin, dass er nicht mit einem Sonnenjahr korrespondieren kann.",
+          "target_paragraph": 19,
+          "density_normalized_distance": -0.1029
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 93,
+      "source_fact": "Der islamische Kalender ist der bekannteste heute noch gebräuchliche lunare Kalender.",
+      "source_paragraph": 18,
+      "matches": [
+        {
+          "target_fact_index": 89,
+          "target_fact": "Im islamischen Kalender, dem bekanntesten heute noch gebräuchlichen lunaren Kalender, dauert das Jahr mit 12 Monaten durchschnittlich 354,372 Tage.",
+          "target_paragraph": 19,
+          "density_normalized_distance": -0.1142
+        },
+        {
+          "target_fact_index": 90,
+          "target_fact": "Die islamischen Monate wandern dadurch Jahr für Jahr etwa elf Tage im Gregorianischen Kalender voraus.",
+          "target_paragraph": 19,
+          "density_normalized_distance": -0.0299
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 94,
+      "source_fact": "Im islamischen Kalender dauert das Jahr mit 12 Monaten durchschnittlich 354,372 Tage.",
+      "source_paragraph": 18,
+      "matches": [
+        {
+          "target_fact_index": 89,
+          "target_fact": "Im islamischen Kalender, dem bekanntesten heute noch gebräuchlichen lunaren Kalender, dauert das Jahr mit 12 Monaten durchschnittlich 354,372 Tage.",
+          "target_paragraph": 19,
+          "density_normalized_distance": -0.2948
+        },
+        {
+          "target_fact_index": 90,
+          "target_fact": "Die islamischen Monate wandern dadurch Jahr für Jahr etwa elf Tage im Gregorianischen Kalender voraus.",
+          "target_paragraph": 19,
+          "density_normalized_distance": -0.0575
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 95,
+      "source_fact": "Die islamischen Monate wandern dadurch Jahr für Jahr zirka elf Tage im gregorianischen Kalender nach vorne.",
+      "source_paragraph": 18,
+      "matches": [
+        {
+          "target_fact_index": 90,
+          "target_fact": "Die islamischen Monate wandern dadurch Jahr für Jahr etwa elf Tage im Gregorianischen Kalender voraus.",
+          "target_paragraph": 19,
+          "density_normalized_distance": -0.338
+        },
+        {
+          "target_fact_index": 89,
+          "target_fact": "Im islamischen Kalender, dem bekanntesten heute noch gebräuchlichen lunaren Kalender, dauert das Jahr mit 12 Monaten durchschnittlich 354,372 Tage.",
+          "target_paragraph": 19,
+          "density_normalized_distance": -0.0364
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 96,
+      "source_fact": "Das Osterdatum folgt einem lunaren Kalender (Computus (Osterrechnung)).",
+      "source_paragraph": 18,
+      "matches": [
+        {
+          "target_fact_index": 91,
+          "target_fact": "Das Osterdatum folgt dem lunaren Kalender.",
+          "target_paragraph": 19,
+          "density_normalized_distance": -0.2493
+        },
+        {
+          "target_fact_index": 90,
+          "target_fact": "Die islamischen Monate wandern dadurch Jahr für Jahr etwa elf Tage im Gregorianischen Kalender voraus.",
+          "target_paragraph": 19,
+          "density_normalized_distance": 0.0229
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 97,
+      "source_fact": "Die meisten Kulturen orientierten sich bei ihrer Zeitmessung an den durch die Sonne bestimmten Jahreszeiten.",
+      "source_paragraph": 19,
+      "matches": [
+        {
+          "target_fact_index": 92,
+          "target_fact": "Die meisten Kulturen orientieren sich bei ihrer Zeitmessung an den durch die Sonne bestimmten Jahreszeiten.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.3675
+        },
+        {
+          "target_fact_index": 93,
+          "target_fact": "Die durch die Sonne bestimmten Jahreszeiten werden als Solar- oder Sonnenkalender bezeichnet.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.0708
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 98,
+      "source_fact": "Die durch die Sonne bestimmten Jahreszeiten bilden die Basis für Solar- oder Sonnenkalender.",
+      "source_paragraph": 19,
+      "matches": [
+        {
+          "target_fact_index": 93,
+          "target_fact": "Die durch die Sonne bestimmten Jahreszeiten werden als Solar- oder Sonnenkalender bezeichnet.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.2268
+        },
+        {
+          "target_fact_index": 92,
+          "target_fact": "Die meisten Kulturen orientieren sich bei ihrer Zeitmessung an den durch die Sonne bestimmten Jahreszeiten.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.0996
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 99,
+      "source_fact": "Der Grundtyp des Solarkalenders hat die meisten Varianten hervorgebracht.",
+      "source_paragraph": 19,
+      "matches": [
+        {
+          "target_fact_index": 94,
+          "target_fact": "Der Grundtyp vom Solarkalender hat die meisten Varianten hervorgebracht.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.4673
+        },
+        {
+          "target_fact_index": 97,
+          "target_fact": "Das tropische Jahr ist die Ausgangsbasis für den allgemeinen Jahresbegriff.",
+          "target_paragraph": 20,
+          "density_normalized_distance": 0.0187
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 100,
+      "source_fact": "Das Solarjahr orientiert sich am tropischen Jahr.",
+      "source_paragraph": 19,
+      "matches": [
+        {
+          "target_fact_index": 95,
+          "target_fact": "Das Solarjahr orientiert sich am tropischen Jahr.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.4201
+        },
+        {
+          "target_fact_index": 96,
+          "target_fact": "Das tropische Jahr ist der Umlauf der Erde bezogen auf den Frühlingspunkt.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.2081
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 101,
+      "source_fact": "Das tropische Jahr ist der auf den Frühlingspunkt bezogene Umlauf der Erde um die Sonne.",
+      "source_paragraph": 19,
+      "matches": [
+        {
+          "target_fact_index": 96,
+          "target_fact": "Das tropische Jahr ist der Umlauf der Erde bezogen auf den Frühlingspunkt.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.3985
+        },
+        {
+          "target_fact_index": 95,
+          "target_fact": "Das Solarjahr orientiert sich am tropischen Jahr.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.2123
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 102,
+      "source_fact": "Das tropische Jahr ist die Ausgangsbasis für den allgemeinen Jahresbegriff.",
+      "source_paragraph": 19,
+      "matches": [
+        {
+          "target_fact_index": 97,
+          "target_fact": "Das tropische Jahr ist die Ausgangsbasis für den allgemeinen Jahresbegriff.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.4812
+        },
+        {
+          "target_fact_index": 96,
+          "target_fact": "Das tropische Jahr ist der Umlauf der Erde bezogen auf den Frühlingspunkt.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.1904
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 103,
+      "source_fact": "Der heute weltweit verbreitete gregorianische Kalender ist ein solarer Kalender.",
+      "source_paragraph": 19,
+      "matches": [
+        {
+          "target_fact_index": 98,
+          "target_fact": "Der heute weltweit verbreitete Gregorianische Kalender ist ein solarer Kalender.",
+          "target_paragraph": 21,
+          "density_normalized_distance": -0.2878
+        },
+        {
+          "target_fact_index": 97,
+          "target_fact": "Das tropische Jahr ist die Ausgangsbasis für den allgemeinen Jahresbegriff.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.0442
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 104,
+      "source_fact": "Der Lunisolarkalender stellt den Versuch dar, einen reinen Lunarkalender an das Sonnenjahr anzupassen.",
+      "source_paragraph": 20,
+      "matches": [
+        {
+          "target_fact_index": 99,
+          "target_fact": "Der Lunisolarkalender stellt den Versuch dar, einen reinen Lunarkalender an das Sonnenjahr anzupassen.",
+          "target_paragraph": 22,
+          "density_normalized_distance": -0.3474
+        },
+        {
+          "target_fact_index": 101,
+          "target_fact": "Die Lösung im Lunisolarkalender liegt im Einschalten von Schaltmonaten.",
+          "target_paragraph": 22,
+          "density_normalized_distance": -0.0799
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 105,
+      "source_fact": "Bei Lunisolarkalendern ist die Länge der Monate durch die Mondphasen festgelegt.",
+      "source_paragraph": 20,
+      "matches": [
+        {
+          "target_fact_index": 100,
+          "target_fact": "In einem Lunisolarkalender können keine Schalttage wie beim Sonnenkalender eingefügt werden, weil die Länge der Monate durch die Mondphasen festgelegt ist.",
+          "target_paragraph": 22,
+          "density_normalized_distance": -0.1248
+        },
+        {
+          "target_fact_index": 101,
+          "target_fact": "Die Lösung im Lunisolarkalender liegt im Einschalten von Schaltmonaten.",
+          "target_paragraph": 22,
+          "density_normalized_distance": -0.1049
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 106,
+      "source_fact": "In Lunisolarkalendern können keine Schalttage wie beim Sonnenkalender eingefügt werden.",
+      "source_paragraph": 20,
+      "matches": [
+        {
+          "target_fact_index": 100,
+          "target_fact": "In einem Lunisolarkalender können keine Schalttage wie beim Sonnenkalender eingefügt werden, weil die Länge der Monate durch die Mondphasen festgelegt ist.",
+          "target_paragraph": 22,
+          "density_normalized_distance": -0.1729
+        },
+        {
+          "target_fact_index": 101,
+          "target_fact": "Die Lösung im Lunisolarkalender liegt im Einschalten von Schaltmonaten.",
+          "target_paragraph": 22,
+          "density_normalized_distance": -0.0639
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 107,
+      "source_fact": "Die Lösung zur Anpassung an das Sonnenjahr liegt in der Einfügung von Schaltmonaten.",
+      "source_paragraph": 20,
+      "matches": [
+        {
+          "target_fact_index": 101,
+          "target_fact": "Die Lösung im Lunisolarkalender liegt im Einschalten von Schaltmonaten.",
+          "target_paragraph": 22,
+          "density_normalized_distance": -0.3005
+        },
+        {
+          "target_fact_index": 99,
+          "target_fact": "Der Lunisolarkalender stellt den Versuch dar, einen reinen Lunarkalender an das Sonnenjahr anzupassen.",
+          "target_paragraph": 22,
+          "density_normalized_distance": 0.0727
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 108,
+      "source_fact": "Die Jahreslänge der Lunisolarkalender schwankt zwischen zirka 353 und zirka 385 Tagen.",
+      "source_paragraph": 20,
+      "matches": [
+        {
+          "target_fact_index": 102,
+          "target_fact": "Die Jahreslänge der Lunisolarkalender schwankt deshalb zwischen etwa 353 und etwa 385 Tagen.",
+          "target_paragraph": 22,
+          "density_normalized_distance": -0.3322
+        },
+        {
+          "target_fact_index": 101,
+          "target_fact": "Die Lösung im Lunisolarkalender liegt im Einschalten von Schaltmonaten.",
+          "target_paragraph": 22,
+          "density_normalized_distance": 0.0153
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 109,
+      "source_fact": "Der jüdische Kalender ist ein bekannter Lunisolarkalender.",
+      "source_paragraph": 20,
+      "matches": [
+        {
+          "target_fact_index": 103,
+          "target_fact": "Der jüdische Kalender ist ein bekannter Lunisolarkalender.",
+          "target_paragraph": 22,
+          "density_normalized_distance": -0.3394
+        },
+        {
+          "target_fact_index": 105,
+          "target_fact": "Der keltische Kalender ist ein bekannter Lunisolarkalender.",
+          "target_paragraph": 22,
+          "density_normalized_distance": -0.2411
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 110,
+      "source_fact": "Der traditionelle chinesische Kalender ist ein bekannter Lunisolarkalender.",
+      "source_paragraph": 20,
+      "matches": [
+        {
+          "target_fact_index": 104,
+          "target_fact": "Der traditionelle chinesische Kalender ist ein bekannter Lunisolarkalender.",
+          "target_paragraph": 22,
+          "density_normalized_distance": -0.3468
+        },
+        {
+          "target_fact_index": 105,
+          "target_fact": "Der keltische Kalender ist ein bekannter Lunisolarkalender.",
+          "target_paragraph": 22,
+          "density_normalized_distance": -0.2046
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 111,
+      "source_fact": "Der keltische Kalender ist ein bekannter Lunisolarkalender.",
+      "source_paragraph": 20,
+      "matches": [
+        {
+          "target_fact_index": 105,
+          "target_fact": "Der keltische Kalender ist ein bekannter Lunisolarkalender.",
+          "target_paragraph": 22,
+          "density_normalized_distance": -0.3354
+        },
+        {
+          "target_fact_index": 103,
+          "target_fact": "Der jüdische Kalender ist ein bekannter Lunisolarkalender.",
+          "target_paragraph": 22,
+          "density_normalized_distance": -0.245
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 112,
+      "source_fact": "Es sind nur wenige Kalendersysteme bekannt, die sich weder am Mond noch an der Sonne orientieren.",
+      "source_paragraph": 21,
+      "matches": [
+        {
+          "target_fact_index": 106,
+          "target_fact": "Es sind nur wenige Kalendersysteme bekannt.",
+          "target_paragraph": 23,
+          "density_normalized_distance": -0.1659
+        },
+        {
+          "target_fact_index": 107,
+          "target_fact": "Maya-Kalender basieren auf einer regelmäßigen Folge von 20 Tagen.",
+          "target_paragraph": 23,
+          "density_normalized_distance": 0.0427
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 113,
+      "source_fact": "Der astronomische ägyptische Kalender orientierte sich an dem hellsten Stern des Nachthimmels Sirius.",
+      "source_paragraph": 21,
+      "matches": [
+        {
+          "target_fact_index": 107,
+          "target_fact": "Maya-Kalender basieren auf einer regelmäßigen Folge von 20 Tagen.",
+          "target_paragraph": 23,
+          "density_normalized_distance": 0.0617
+        },
+        {
+          "target_fact_index": 108,
+          "target_fact": "Maya-Kalender basieren auf einer 52 Jahre dauernden Kalenderrunde.",
+          "target_paragraph": 23,
+          "density_normalized_distance": 0.0709
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 114,
+      "source_fact": "Die Maya-Kalender basierten auf einer regelmäßigen Folge von 20 Tagen.",
+      "source_paragraph": 21,
+      "matches": [
+        {
+          "target_fact_index": 107,
+          "target_fact": "Maya-Kalender basieren auf einer regelmäßigen Folge von 20 Tagen.",
+          "target_paragraph": 23,
+          "density_normalized_distance": -0.3524
+        },
+        {
+          "target_fact_index": 108,
+          "target_fact": "Maya-Kalender basieren auf einer 52 Jahre dauernden Kalenderrunde.",
+          "target_paragraph": 23,
+          "density_normalized_distance": -0.1877
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 115,
+      "source_fact": "Die Maya-Kalender basierten auf einer 52 Jahre dauernden Kalenderrunde.",
+      "source_paragraph": 21,
+      "matches": [
+        {
+          "target_fact_index": 108,
+          "target_fact": "Maya-Kalender basieren auf einer 52 Jahre dauernden Kalenderrunde.",
+          "target_paragraph": 23,
+          "density_normalized_distance": -0.3364
+        },
+        {
+          "target_fact_index": 107,
+          "target_fact": "Maya-Kalender basieren auf einer regelmäßigen Folge von 20 Tagen.",
+          "target_paragraph": 23,
+          "density_normalized_distance": -0.1923
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 116,
+      "source_fact": "Unter Zeitrechnung versteht man die Ordnung und Strukturierung von Zeit.",
+      "source_paragraph": 22,
+      "matches": [
+        {
+          "target_fact_index": 16,
+          "target_fact": "Die wissenschaftliche Kalenderkunde ist ein Teilgebiet der astronomischen Chronologie.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.0052
+        },
+        {
+          "target_fact_index": 17,
+          "target_fact": "Die vorwissenschaftliche Kunst, Kalender zu erstellen, nennt man Hemerology.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.0003
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 117,
+      "source_fact": "Zeitrechnung hilft den Menschen dabei, den Ablauf der Zeit besser zu verstehen.",
+      "source_paragraph": 22,
+      "matches": [
+        {
+          "target_fact_index": 17,
+          "target_fact": "Die vorwissenschaftliche Kunst, Kalender zu erstellen, nennt man Hemerology.",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.0319
+        },
+        {
+          "target_fact_index": 16,
+          "target_fact": "Die wissenschaftliche Kalenderkunde ist ein Teilgebiet der astronomischen Chronologie.",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.0664
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 118,
+      "source_fact": "Die international gebräuchlichste Zeitrechnung ist der Gregorianische Kalender.",
+      "source_paragraph": 22,
+      "matches": [
+        {
+          "target_fact_index": 17,
+          "target_fact": "Die vorwissenschaftliche Kunst, Kalender zu erstellen, nennt man Hemerology.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.0401
+        },
+        {
+          "target_fact_index": 16,
+          "target_fact": "Die wissenschaftliche Kalenderkunde ist ein Teilgebiet der astronomischen Chronologie.",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.0343
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 119,
+      "source_fact": "Der Gregorianische Kalender ist mit der Ordnung und Strukturierung verbunden.",
+      "source_paragraph": 22,
+      "matches": [
+        {
+          "target_fact_index": 15,
+          "target_fact": "Die Regeln zur Aufstellung von Kalendern sind von entsprechenden Kalenderberechnungen abgeleitet.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.0039
+        },
+        {
+          "target_fact_index": 14,
+          "target_fact": "Die Regeln zur Aufstellung von Kalendern sind von astronomischen Gegebenheiten wie Mondphasen und Sonnenjahr abgeleitet.",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.0
+        }
+      ]
+    }
+  ],
+  "als_to_de": [
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 0,
+      "source_fact": "Ein Kalender ist eine Übersicht über die Tage, Wochen und Monate eines Jahres.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 0,
+          "target_fact": "Ein Kalender ist eine Übersicht über die Tage, Wochen und Monate eines Jahres.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.3612
+        },
+        {
+          "target_fact_index": 1,
+          "target_fact": "Eine veraltete Bezeichnung für einen Kalender ist Jahrweiser.",
+          "target_paragraph": 0,
+          "density_normalized_distance": 0.017
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 1,
+      "source_fact": "Eine veraltete Bezeichnung für einen Kalender ist Johrwyser.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 1,
+          "target_fact": "Eine veraltete Bezeichnung für einen Kalender ist Jahrweiser.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.319
+        },
+        {
+          "target_fact_index": 0,
+          "target_fact": "Ein Kalender ist eine Übersicht über die Tage, Wochen und Monate eines Jahres.",
+          "target_paragraph": 0,
+          "density_normalized_distance": 0.1038
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 2,
+      "source_fact": "Das Wort „Kalender“ stammt vom lateinischen Calendarium (Schuldbuch) ab.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 2,
+          "target_fact": "Das Wort „Kalender“ entstammt dem lateinischen Calendarium (Schuldbuch).",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.3309
+        },
+        {
+          "target_fact_index": 5,
+          "target_fact": "Das Wort Kalendae leitet sich von calare („ausrufen“) ab.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.2241
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 3,
+      "source_fact": "Das Calendarium war ein Verzeichnis der Kalendae.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 3,
+          "target_fact": "Das Calendarium war ein Verzeichnis der Kalendae.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.3428
+        },
+        {
+          "target_fact_index": 5,
+          "target_fact": "Das Wort Kalendae leitet sich von calare („ausrufen“) ab.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.0471
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 4,
+      "source_fact": "Die Kalendae waren die jeweils ersten, auszurufenden Tage der antiken Monate.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 4,
+          "target_fact": "Die Kalendae waren die jeweils ersten, auszurufenden Tage der antiken Monate.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.3512
+        },
+        {
+          "target_fact_index": 3,
+          "target_fact": "Das Calendarium war ein Verzeichnis der Kalendae.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.0111
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 5,
+      "source_fact": "Das Verb calare bedeutet „ausrufen“.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 5,
+          "target_fact": "Das Wort Kalendae leitet sich von calare („ausrufen“) ab.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.2816
+        },
+        {
+          "target_fact_index": 2,
+          "target_fact": "Das Wort „Kalender“ entstammt dem lateinischen Calendarium (Schuldbuch).",
+          "target_paragraph": 1,
+          "density_normalized_distance": 0.0651
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 6,
+      "source_fact": "An den Kalendae waren Darlehen auszuzahlen.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 6,
+          "target_fact": "An den Kalendae wurden Darlehen ausgezahlt.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.5127
+        },
+        {
+          "target_fact_index": 8,
+          "target_fact": "An den Kalendae wurden Zinsforderungen fällig.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.4514
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 7,
+      "source_fact": "An den Kalendae waren Darlehensrückführungen fällig.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 7,
+          "target_fact": "An den Kalendae wurden Darlehensrückführungen fällig.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.5458
+        },
+        {
+          "target_fact_index": 8,
+          "target_fact": "An den Kalendae wurden Zinsforderungen fällig.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.4647
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 8,
+      "source_fact": "An den Kalendae waren Zinsforderungen fällig.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 8,
+          "target_fact": "An den Kalendae wurden Zinsforderungen fällig.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.5838
+        },
+        {
+          "target_fact_index": 7,
+          "target_fact": "An den Kalendae wurden Darlehensrückführungen fällig.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.4216
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 9,
+      "source_fact": "Es gibt verschiedene Kalendersysteme.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 9,
+          "target_fact": "Es gibt verschiedene Kalendersysteme.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.3216
+        },
+        {
+          "target_fact_index": 10,
+          "target_fact": "Heute ist weltweit überwiegend der gregorianische Kalender in Gebrauch.",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.1255
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 10,
+      "source_fact": "Heute ist weltweit überwiegend der Gregorianische Kalender im Gebrauch.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 10,
+          "target_fact": "Heute ist weltweit überwiegend der gregorianische Kalender in Gebrauch.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.3118
+        },
+        {
+          "target_fact_index": 9,
+          "target_fact": "Es gibt verschiedene Kalendersysteme.",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.1211
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 11,
+      "source_fact": "Kalender gibt es in gedruckten Formen.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 11,
+          "target_fact": "Kalender gibt es in gedruckten Formen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.4308
+        },
+        {
+          "target_fact_index": 12,
+          "target_fact": "Kalender gibt es in bebilderten Formen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.3806
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 12,
+      "source_fact": "Kalender gibt es in bebilderten Formen.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 12,
+          "target_fact": "Kalender gibt es in bebilderten Formen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.4474
+        },
+        {
+          "target_fact_index": 11,
+          "target_fact": "Kalender gibt es in gedruckten Formen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.364
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 13,
+      "source_fact": "Kalender gibt es in elektronischen Formen.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 13,
+          "target_fact": "Kalender gibt es in elektronischen Formen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.4499
+        },
+        {
+          "target_fact_index": 11,
+          "target_fact": "Kalender gibt es in gedruckten Formen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.342
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 14,
+      "source_fact": "Die Regeln zur Aufstellung von Kalendern sind von astronomischen Gegebenheiten wie Mondphasen und Sonnenjahr abgeleitet.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 14,
+          "target_fact": "Die Regeln zur Aufstellung von Kalendern ergeben sich aus astronomischen Gegebenheiten wie Mondphasen und dem Sonnenjahr.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.3353
+        },
+        {
+          "target_fact_index": 15,
+          "target_fact": "Die Regeln zur Aufstellung von Kalendern ergeben sich aus entsprechenden Kalenderberechnungen.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.1512
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 15,
+      "source_fact": "Die Regeln zur Aufstellung von Kalendern sind von entsprechenden Kalenderberechnungen abgeleitet.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 15,
+          "target_fact": "Die Regeln zur Aufstellung von Kalendern ergeben sich aus entsprechenden Kalenderberechnungen.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.3713
+        },
+        {
+          "target_fact_index": 14,
+          "target_fact": "Die Regeln zur Aufstellung von Kalendern ergeben sich aus astronomischen Gegebenheiten wie Mondphasen und dem Sonnenjahr.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.0971
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 16,
+      "source_fact": "Die wissenschaftliche Kalenderkunde ist ein Teilgebiet der astronomischen Chronologie.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 16,
+          "target_fact": "Die wissenschaftliche Kalenderkunde ist ein Teilgebiet der astronomischen Chronologie.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.3324
+        },
+        {
+          "target_fact_index": 116,
+          "target_fact": "Unter Zeitrechnung versteht man die Ordnung und Strukturierung von Zeit.",
+          "target_paragraph": 22,
+          "density_normalized_distance": -0.0731
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 17,
+      "source_fact": "Die vorwissenschaftliche Kunst, Kalender zu erstellen, nennt man Hemerology.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 17,
+          "target_fact": "Die vorwissenschaftliche Kunst, Kalender zu erstellen, nennt man Hemerologie.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.3927
+        },
+        {
+          "target_fact_index": 116,
+          "target_fact": "Unter Zeitrechnung versteht man die Ordnung und Strukturierung von Zeit.",
+          "target_paragraph": 22,
+          "density_normalized_distance": -0.0066
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 18,
+      "source_fact": "Die Kenntnis von regelmäßig stattfindenden Tierwanderungen war schon für die frühen Jägerkulturen wichtig.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 18,
+          "target_fact": "Die Kenntnis regelmäßig stattfindender Tierwanderungen war für die frühen Jägerkulturen wichtig.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.4429
+        },
+        {
+          "target_fact_index": 19,
+          "target_fact": "Der Mensch dürfte schon damals ein Bewusstsein für jahreszeitlich sich wiederholende Ereignisse und entsprechende Zyklen seiner Umwelt gehabt haben.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.0588
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 19,
+      "source_fact": "Der Mensch hatte wahrscheinlich ziemlich früh ein Bewusstsein für jahreszeitlich und astronomisch sich wiederholende Ereignisse sowie für entsprechende Zyklen in seiner Umwelt.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 19,
+          "target_fact": "Der Mensch dürfte schon damals ein Bewusstsein für jahreszeitlich sich wiederholende Ereignisse und entsprechende Zyklen seiner Umwelt gehabt haben.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.4139
+        },
+        {
+          "target_fact_index": 20,
+          "target_fact": "Der Mensch dürfte schon damals ein Bewusstsein für astronomisch sich wiederholende Ereignisse und entsprechende Zyklen seiner Umwelt gehabt haben.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.3948
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 20,
+      "source_fact": "Zum Bewusstsein für wiederholende Ereignisse gehört der Wechsel von Tag und Nacht.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 21,
+          "target_fact": "Zu den Zyklen der Umwelt gehören die Veränderungen im Zyklus von Tag und Nacht.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.2125
+        },
+        {
+          "target_fact_index": 19,
+          "target_fact": "Der Mensch dürfte schon damals ein Bewusstsein für jahreszeitlich sich wiederholende Ereignisse und entsprechende Zyklen seiner Umwelt gehabt haben.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.048
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 21,
+      "source_fact": "Zum Bewusstsein für wiederholende Ereignisse gehören die Mondphasen.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 22,
+          "target_fact": "Zu den Zyklen der Umwelt gehören die Veränderungen im Zyklus der Mondphasen.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.0921
+        },
+        {
+          "target_fact_index": 23,
+          "target_fact": "Zu den Zyklen der Umwelt gehören die jahreszeitlich bedingten Schwankungen.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.0466
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 22,
+      "source_fact": "Jahreszeitlich bedingte Klimaschwankungen spielten in der Bauernerei der meisten Weltregionen eine bedeutende Rolle.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 23,
+          "target_fact": "Zu den Zyklen der Umwelt gehören die jahreszeitlich bedingten Schwankungen.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.119
+        },
+        {
+          "target_fact_index": 22,
+          "target_fact": "Zu den Zyklen der Umwelt gehören die Veränderungen im Zyklus der Mondphasen.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.0521
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 23,
+      "source_fact": "Jahreszeitlich bedingte Klimaschwankungen konnten von den Menschen spätestens in der Altschteizit wahrgenommen werden.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 24,
+          "target_fact": "Menschen in der Altsteinzeit konnten den Jahreslauf wahrnehmen.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.1388
+        },
+        {
+          "target_fact_index": 19,
+          "target_fact": "Der Mensch dürfte schon damals ein Bewusstsein für jahreszeitlich sich wiederholende Ereignisse und entsprechende Zyklen seiner Umwelt gehabt haben.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.0892
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 24,
+      "source_fact": "Eine Beobachtung der Veränderungen am Nachthimmel war zu dieser Zeit ebenfalls möglich.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 25,
+          "target_fact": "Menschen in der Altsteinzeit konnten den Nachthimmel mit Mondlauf und Bewegungen der Planeten beobachten.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.1084
+        },
+        {
+          "target_fact_index": 21,
+          "target_fact": "Zu den Zyklen der Umwelt gehören die Veränderungen im Zyklus von Tag und Nacht.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.0221
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 25,
+      "source_fact": "Eine Beobachtung der Eigenbewegungen der Planeten war zu dieser Zeit ebenfalls möglich.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 25,
+          "target_fact": "Menschen in der Altsteinzeit konnten den Nachthimmel mit Mondlauf und Bewegungen der Planeten beobachten.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.0984
+        },
+        {
+          "target_fact_index": 20,
+          "target_fact": "Der Mensch dürfte schon damals ein Bewusstsein für astronomisch sich wiederholende Ereignisse und entsprechende Zyklen seiner Umwelt gehabt haben.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.036
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 26,
+      "source_fact": "Der Rurm von Jericho aus dem 9. Jahrtausend v. Chr. deutet darauf hin, dass man die Sommersonnwendi kannte.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 26,
+          "target_fact": "Der Turm von Jericho aus dem 9. Jahrtausend v. Chr. deutet auf die Kenntnis der Sommersonnenwende hin.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.4443
+        },
+        {
+          "target_fact_index": 28,
+          "target_fact": "Jungsteinzeitliche Bauten wie etwa Stonehenge zeugen von den Bemühungen der sesshaft gewordenen Bevölkerung, ausgewählte zyklisch wiederkehrende Himmelsereignisse wie Sonnenwende und Tag-und-Nacht-Gleiche exakt bestimmen zu können.",
+          "target_paragraph": 6,
+          "density_normalized_distance": 0.033
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 27,
+      "source_fact": "Jungsteinzeitliche Bauten wie Stonehenge zeugen von den Bemühungen der sesshaft gewordenen Bevölkerung, die natürliche Jahreslänge präzise bestimmen zu können.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 27,
+          "target_fact": "Jungsteinzeitliche Bauten wie etwa Stonehenge zeugen von den Bemühungen der sesshaft gewordenen Bevölkerung, die natürliche Jahreslänge exakt bestimmen zu können.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.4767
+        },
+        {
+          "target_fact_index": 28,
+          "target_fact": "Jungsteinzeitliche Bauten wie etwa Stonehenge zeugen von den Bemühungen der sesshaft gewordenen Bevölkerung, ausgewählte zyklisch wiederkehrende Himmelsereignisse wie Sonnenwende und Tag-und-Nacht-Gleiche exakt bestimmen zu können.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.347
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 28,
+      "source_fact": "Jungsteinzeitliche Bauten wie Stonehenge zeugen von den Bemühungen der sesshaft gewordenen Bevölkerung, ausgewählte zyklisch wiederkehrende Himmelsereignisse wie Sonnenwenden und Tag-und-Nacht-Gleichen präzise bestimmen zu können.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 28,
+          "target_fact": "Jungsteinzeitliche Bauten wie etwa Stonehenge zeugen von den Bemühungen der sesshaft gewordenen Bevölkerung, ausgewählte zyklisch wiederkehrende Himmelsereignisse wie Sonnenwende und Tag-und-Nacht-Gleiche exakt bestimmen zu können.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.4701
+        },
+        {
+          "target_fact_index": 27,
+          "target_fact": "Jungsteinzeitliche Bauten wie etwa Stonehenge zeugen von den Bemühungen der sesshaft gewordenen Bevölkerung, die natürliche Jahreslänge exakt bestimmen zu können.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.3568
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 29,
+      "source_fact": "Für die Bauern war es wichtig, eine Bestimmung der Zeitpunkte für das Säen und Ernten vornehmen zu können.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 29,
+          "target_fact": "Für die Landwirtschaft war es wichtig, eine von den konkreten Wetterbedingungen unabhängige Bestimmung der Zeitpunkte für Aussaat und Ernte vornehmen zu können.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.3273
+        },
+        {
+          "target_fact_index": 32,
+          "target_fact": "Bestimmte landwirtschaftliche Termine wurden an Feste gebunden.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.0501
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 30,
+      "source_fact": "Mit der systematischen Himmelsbeobachtung waren religiöse Fruchtbarkeitskulte verbunden.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 30,
+          "target_fact": "Mit der systematischen Himmelsbeobachtung waren religiöse Fruchtbarkeitskulte verbunden.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.5055
+        },
+        {
+          "target_fact_index": 31,
+          "target_fact": "Die religiösen Fruchtbarkeitskulte waren getragen von der Hoffnung auf eine günstige Wiederkehr der Fruchtbarkeitsbedingungen.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.201
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 31,
+      "source_fact": "Die religiösen Fruchtbarkeitskulte waren getragen von der Hoffnung auf eine günstige Rückkehr der Fruchtbarkeitsbedingungen.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 31,
+          "target_fact": "Die religiösen Fruchtbarkeitskulte waren getragen von der Hoffnung auf eine günstige Wiederkehr der Fruchtbarkeitsbedingungen.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.5969
+        },
+        {
+          "target_fact_index": 30,
+          "target_fact": "Mit der systematischen Himmelsbeobachtung waren religiöse Fruchtbarkeitskulte verbunden.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.1099
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 32,
+      "source_fact": "Bestimmte landwirtschaftliche Termine waren an Feste gebunden.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 32,
+          "target_fact": "Bestimmte landwirtschaftliche Termine wurden an Feste gebunden.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.4916
+        },
+        {
+          "target_fact_index": 33,
+          "target_fact": "Die Feste waren an Himmelsereignisse geknüpft.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.2466
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 33,
+      "source_fact": "Diese Feste waren wiederum an Himmelsereignisse gebunden.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 33,
+          "target_fact": "Die Feste waren an Himmelsereignisse geknüpft.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.462
+        },
+        {
+          "target_fact_index": 32,
+          "target_fact": "Bestimmte landwirtschaftliche Termine wurden an Feste gebunden.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.1311
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 34,
+      "source_fact": "Für den Übergang von den Jägerkulturen zum Ackerbau im Neolithikum (Jungsteinzeit) ist eine Veränderung von kalendarischen Vorstellungen vom Mond- zum Sonnenkalender passiert.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 34,
+          "target_fact": "Für den Übergang von Jägerkulturen zum Ackerbau im Neolithikum (Jungsteinzeit) wird eine Veränderung kalendarischer Vorstellungen vom Mond- zum Sonnenkalender angenommen.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.432
+        },
+        {
+          "target_fact_index": 39,
+          "target_fact": "Analog zum Begriff der Neolithischen Revolution (Übergang zum Ackerbau) wird auch von der Neolithischen Kalender-Revolution gesprochen.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.0959
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 35,
+      "source_fact": "Diese steinzeitlichen Kalender werden auch neolithische Kalender genannt.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 35,
+          "target_fact": "Der steinzeitliche Kalender wird auch als neolithischer Kalender bezeichnet.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.2609
+        },
+        {
+          "target_fact_index": 39,
+          "target_fact": "Analog zum Begriff der Neolithischen Revolution (Übergang zum Ackerbau) wird auch von der Neolithischen Kalender-Revolution gesprochen.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.1204
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 36,
+      "source_fact": "Alexander Thom taufte die neolithischen Kalender megalithische Kalender.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 36,
+          "target_fact": "Alexander Thom nannte den steinzeitlichen Kalender auch megalithischen Kalender.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.2508
+        },
+        {
+          "target_fact_index": 35,
+          "target_fact": "Der steinzeitliche Kalender wird auch als neolithischer Kalender bezeichnet.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.0176
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 37,
+      "source_fact": "Die neolithischen Kalender beinhalten wohl die ältesten kalendarischen Vorstellungen der Menschheit.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 37,
+          "target_fact": "Der steinzeitliche Kalender beinhaltet wohl die ältesten kalendarischen Vorstellungen der Menschheit.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.2621
+        },
+        {
+          "target_fact_index": 34,
+          "target_fact": "Für den Übergang von Jägerkulturen zum Ackerbau im Neolithikum (Jungsteinzeit) wird eine Veränderung kalendarischer Vorstellungen vom Mond- zum Sonnenkalender angenommen.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.0657
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 38,
+      "source_fact": "Die neolithischen Kalender sind die Grundlage von späteren Kalendervarianten.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 38,
+          "target_fact": "Der steinzeitliche Kalender ist die Grundlage späterer Kalendervarianten.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.2828
+        },
+        {
+          "target_fact_index": 35,
+          "target_fact": "Der steinzeitliche Kalender wird auch als neolithischer Kalender bezeichnet.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.0421
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 39,
+      "source_fact": "Analog zum Begriff der Neolithischen Revolution (Übergang zum Ackerbau) wird auch von der Neolithischen Kalender-Revolution gesprochen.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 39,
+          "target_fact": "Analog zum Begriff der Neolithischen Revolution (Übergang zum Ackerbau) wird auch von der Neolithischen Kalender-Revolution gesprochen.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.4415
+        },
+        {
+          "target_fact_index": 34,
+          "target_fact": "Für den Übergang von Jägerkulturen zum Ackerbau im Neolithikum (Jungsteinzeit) wird eine Veränderung kalendarischer Vorstellungen vom Mond- zum Sonnenkalender angenommen.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.1228
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 40,
+      "source_fact": "Die ältesten heute noch bekannten Kalender stammen aus den frühen Hochkulturen Ägypten und Mesopotamien.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 41,
+          "target_fact": "Die ältesten heute noch bekannten Kalender stammen aus den frühen Hochkulturen Mesopotamiens.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.2935
+        },
+        {
+          "target_fact_index": 40,
+          "target_fact": "Die ältesten heute noch bekannten Kalender stammen aus den frühen Hochkulturen Ägyptens.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.244
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 41,
+      "source_fact": "In den frühen Hochkulturen Ägypten und Mesopotamien zeigten sich bereits zwei grundlegende Kalenderarten, die bis heute die meisten Kalendersysteme prägen.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 42,
+          "target_fact": "In den frühen Hochkulturen Ägyptens und Mesopotamiens zeigten sich schon zwei grundlegende Kalendertypen, die bis heute die meisten Kalendersysteme prägen.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.3788
+        },
+        {
+          "target_fact_index": 41,
+          "target_fact": "Die ältesten heute noch bekannten Kalender stammen aus den frühen Hochkulturen Mesopotamiens.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.1438
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 42,
+      "source_fact": "Eine grundlegende Kalenderart ist der an den Mondphasen orientierte Mondkalender.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 43,
+          "target_fact": "Ein grundlegender Kalendertyp ist der an den Mondphasen orientierte Mondkalender.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.3008
+        },
+        {
+          "target_fact_index": 44,
+          "target_fact": "Ein grundlegender Kalendertyp ist der astronomische Kalender, der den Lauf der Himmelskörper widerspiegelt.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.1483
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 43,
+      "source_fact": "Eine grundlegende Kalenderart ist der astronomische Kalender, welcher den Lauf der Himmelskörper widerspiegelt.",
+      "source_paragraph": 9,
+      "matches": [
+        {
+          "target_fact_index": 44,
+          "target_fact": "Ein grundlegender Kalendertyp ist der astronomische Kalender, der den Lauf der Himmelskörper widerspiegelt.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.3061
+        },
+        {
+          "target_fact_index": 43,
+          "target_fact": "Ein grundlegender Kalendertyp ist der an den Mondphasen orientierte Mondkalender.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.1296
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 44,
+      "source_fact": "Spätestens von den Babyloniern wurde der siebentägige Wochenzyklus entwickelt.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 45,
+          "target_fact": "Der siebentägige Wochenzyklus wurde spätestens von den Babyloniern entwickelt.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.4479
+        },
+        {
+          "target_fact_index": 46,
+          "target_fact": "Der siebentägige Wochenzyklus regelt heute fast weltweit den Ablauf des Alltags.",
+          "target_paragraph": 9,
+          "density_normalized_distance": 0.0367
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 45,
+      "source_fact": "Der siebentägige Wochenzyklus regelt heute fast weltweit den Ablauf vom Alltag.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 46,
+          "target_fact": "Der siebentägige Wochenzyklus regelt heute fast weltweit den Ablauf des Alltags.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.4189
+        },
+        {
+          "target_fact_index": 45,
+          "target_fact": "Der siebentägige Wochenzyklus wurde spätestens von den Babyloniern entwickelt.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.0532
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 46,
+      "source_fact": "In anderen Kalendern gab es ähnliche Zyklen zwischen fünf und zehn Tagen.",
+      "source_paragraph": 10,
+      "matches": [
+        {
+          "target_fact_index": 47,
+          "target_fact": "In anderen Kalendern gab es ähnliche Zyklen zwischen fünf und zehn Tagen.",
+          "target_paragraph": 9,
+          "density_normalized_distance": -0.4052
+        },
+        {
+          "target_fact_index": 45,
+          "target_fact": "Der siebentägige Wochenzyklus wurde spätestens von den Babyloniern entwickelt.",
+          "target_paragraph": 9,
+          "density_normalized_distance": 0.0062
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 47,
+      "source_fact": "Die Anpassung von Wochen- und Monatsfolgen an die feste Größe des astronomischen Jahres war nicht einfach zu lösen.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 48,
+          "target_fact": "Die Anpassung von Wochen und Monatsfolgen an die feste Größe des astronomischen Jahres war nicht einfach zu lösen.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.4339
+        },
+        {
+          "target_fact_index": 49,
+          "target_fact": "Es kam zur Herausbildung verschiedener Kalendersysteme.",
+          "target_paragraph": 10,
+          "density_normalized_distance": 0.2178
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 48,
+      "source_fact": "Dies führte zur Ausbildung von verschiedenen Kalendersystemen.",
+      "source_paragraph": 11,
+      "matches": [
+        {
+          "target_fact_index": 49,
+          "target_fact": "Es kam zur Herausbildung verschiedener Kalendersysteme.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.2276
+        },
+        {
+          "target_fact_index": 48,
+          "target_fact": "Die Anpassung von Wochen und Monatsfolgen an die feste Größe des astronomischen Jahres war nicht einfach zu lösen.",
+          "target_paragraph": 10,
+          "density_normalized_distance": 0.0942
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 49,
+      "source_fact": "Frühe Kalendersysteme wurden durch Beobachtung gewonnen.",
+      "source_paragraph": 12,
+      "matches": [
+        {
+          "target_fact_index": 50,
+          "target_fact": "Frühe Kalendersysteme wurden durch Beobachtung gewonnen.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.4308
+        },
+        {
+          "target_fact_index": 55,
+          "target_fact": "Frühe Kalendersysteme mussten regelmäßig nachgeregelt werden.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.1786
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 50,
+      "source_fact": "Frühe Kalendersysteme waren astronomische Kalender.",
+      "source_paragraph": 12,
+      "matches": [
+        {
+          "target_fact_index": 51,
+          "target_fact": "Frühe Kalendersysteme waren astronomische Kalender.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.325
+        },
+        {
+          "target_fact_index": 50,
+          "target_fact": "Frühe Kalendersysteme wurden durch Beobachtung gewonnen.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.1942
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 51,
+      "source_fact": "Ein neuer Zyklus begann mit dem Eintritt von bestimmten definierten Himmelsereignissen.",
+      "source_paragraph": 12,
+      "matches": [
+        {
+          "target_fact_index": 52,
+          "target_fact": "Mit dem Eintritt eines bestimmten definierten Himmelsereignisses begann ein neuer Zyklus.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.414
+        },
+        {
+          "target_fact_index": 53,
+          "target_fact": "Ein bestimmtes definiertes Himmelsereignis kann der Neumond sein.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.1539
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 52,
+      "source_fact": "Beispiele für definierte Himmelsereignisse sind der Neumond oder die Tag-und-Nacht-Gleiche im Frühling.",
+      "source_paragraph": 12,
+      "matches": [
+        {
+          "target_fact_index": 54,
+          "target_fact": "Ein bestimmtes definiertes Himmelsereignis kann die Tag-und-Nacht-Gleiche im Frühling sein.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.27
+        },
+        {
+          "target_fact_index": 53,
+          "target_fact": "Ein bestimmtes definiertes Himmelsereignis kann der Neumond sein.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.1815
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 53,
+      "source_fact": "Frühe Kalendersysteme mussten regelmäßig nachgeregelt werden.",
+      "source_paragraph": 12,
+      "matches": [
+        {
+          "target_fact_index": 55,
+          "target_fact": "Frühe Kalendersysteme mussten regelmäßig nachgeregelt werden.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.4062
+        },
+        {
+          "target_fact_index": 50,
+          "target_fact": "Frühe Kalendersysteme wurden durch Beobachtung gewonnen.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.2032
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 54,
+      "source_fact": "Diese Methode hatte einen entscheidenden Nachteil.",
+      "source_paragraph": 13,
+      "matches": [
+        {
+          "target_fact_index": 56,
+          "target_fact": "Diese Methode hatte einen entscheidenden Nachteil.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.5371
+        },
+        {
+          "target_fact_index": 62,
+          "target_fact": "Durch die langen Informationswege konnte es passieren, dass ein religiöses Fest in abgelegenen Gebieten am „falschen“ Tag gefeiert wurde.",
+          "target_paragraph": 12,
+          "density_normalized_distance": 0.0354
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 55,
+      "source_fact": "In großen Herrschaftsgebieten konnte ein Ereignis an unterschiedlichen Orten eventuell zu unterschiedlichen Zeiten wahrgenommen werden.",
+      "source_paragraph": 13,
+      "matches": [
+        {
+          "target_fact_index": 57,
+          "target_fact": "In großen Herrschaftsräumen konnte ein Ereignis an unterschiedlichen Orten eventuell zu unterschiedlichen Zeiten wahrgenommen werden.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.4725
+        },
+        {
+          "target_fact_index": 58,
+          "target_fact": "In großen Herrschaftsräumen konnten aufgrund der unterschiedlichen Wahrnehmungszeiten unterschiedliche Daten gezählt werden.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.2805
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 56,
+      "source_fact": "In großen Herrschaftsgebieten konnten daher unterschiedliche Daten gezählt worden sein.",
+      "source_paragraph": 13,
+      "matches": [
+        {
+          "target_fact_index": 58,
+          "target_fact": "In großen Herrschaftsräumen konnten aufgrund der unterschiedlichen Wahrnehmungszeiten unterschiedliche Daten gezählt werden.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.3353
+        },
+        {
+          "target_fact_index": 57,
+          "target_fact": "In großen Herrschaftsräumen konnte ein Ereignis an unterschiedlichen Orten eventuell zu unterschiedlichen Zeiten wahrgenommen werden.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.2161
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 57,
+      "source_fact": "Wenn der Eintritt von einem Ereignis nur an einem bestimmten Ort maßgeblich war, konnten weit entfernt gelegene Gebiete oft erst nach ein paar Tagen davon unterrichtet werden.",
+      "source_paragraph": 13,
+      "matches": [
+        {
+          "target_fact_index": 59,
+          "target_fact": "Wenn der Eintritt eines Ereignisses nur an einem bestimmten Ort wie der Hauptstadt oder dem Haupttempel maßgeblich war, konnten weit entfernt gelegene Gebiete oft erst nach Tagen davon unterrichtet werden.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.3798
+        },
+        {
+          "target_fact_index": 62,
+          "target_fact": "Durch die langen Informationswege konnte es passieren, dass ein religiöses Fest in abgelegenen Gebieten am „falschen“ Tag gefeiert wurde.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.1966
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 58,
+      "source_fact": "Beispiele für einen bestimmten Ort waren die Hauptstadt oder ein Haupttempel.",
+      "source_paragraph": 13,
+      "matches": [
+        {
+          "target_fact_index": 59,
+          "target_fact": "Wenn der Eintritt eines Ereignisses nur an einem bestimmten Ort wie der Hauptstadt oder dem Haupttempel maßgeblich war, konnten weit entfernt gelegene Gebiete oft erst nach Tagen davon unterrichtet werden.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.1867
+        },
+        {
+          "target_fact_index": 57,
+          "target_fact": "In großen Herrschaftsräumen konnte ein Ereignis an unterschiedlichen Orten eventuell zu unterschiedlichen Zeiten wahrgenommen werden.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.0725
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 59,
+      "source_fact": "Solche Probleme gab es beispielsweise im früheren jüdischen Kalender.",
+      "source_paragraph": 13,
+      "matches": [
+        {
+          "target_fact_index": 60,
+          "target_fact": "Probleme dieser Art gab es im früheren jüdischen Kalender.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.3643
+        },
+        {
+          "target_fact_index": 56,
+          "target_fact": "Diese Methode hatte einen entscheidenden Nachteil.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.0116
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 60,
+      "source_fact": "Im früheren jüdischen Kalender entschied der Hohepriester über die erste Sichtung der Mondsichel bei Neumond.",
+      "source_paragraph": 13,
+      "matches": [
+        {
+          "target_fact_index": 61,
+          "target_fact": "Im früheren jüdischen Kalender entschied der Hohepriester über die erste Sichtung der Mondsichel bei Neumond.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.4367
+        },
+        {
+          "target_fact_index": 64,
+          "target_fact": "Der Neumond wurde nicht vorausberechnet, sondern durch tagesaktuelle Beobachtung ermittelt.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.0142
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 61,
+      "source_fact": "Durch die langen Informationswege konnte es passieren, dass ein religiöses Fest in abgelegenen Gebieten am falschen Tag gefeiert wurde.",
+      "source_paragraph": 13,
+      "matches": [
+        {
+          "target_fact_index": 62,
+          "target_fact": "Durch die langen Informationswege konnte es passieren, dass ein religiöses Fest in abgelegenen Gebieten am „falschen“ Tag gefeiert wurde.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.5083
+        },
+        {
+          "target_fact_index": 57,
+          "target_fact": "In großen Herrschaftsräumen konnte ein Ereignis an unterschiedlichen Orten eventuell zu unterschiedlichen Zeiten wahrgenommen werden.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.1219
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 62,
+      "source_fact": "Kurz vor Monatsende war es nicht möglich vorherzusagen, welches Datum zum Beispiel in sieben Tagen sein würde.",
+      "source_paragraph": 13,
+      "matches": [
+        {
+          "target_fact_index": 63,
+          "target_fact": "Kurz vor Monatsende war es nicht möglich vorherzusagen, welches Datum beispielsweise in sieben Tagen sein würde.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.4625
+        },
+        {
+          "target_fact_index": 59,
+          "target_fact": "Wenn der Eintritt eines Ereignisses nur an einem bestimmten Ort wie der Hauptstadt oder dem Haupttempel maßgeblich war, konnten weit entfernt gelegene Gebiete oft erst nach Tagen davon unterrichtet werden.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.1063
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 63,
+      "source_fact": "Der Neumond konnte nicht vorausberechnet werden, sondern wurde durch tagesaktuelle Beobachtung ermittelt.",
+      "source_paragraph": 13,
+      "matches": [
+        {
+          "target_fact_index": 64,
+          "target_fact": "Der Neumond wurde nicht vorausberechnet, sondern durch tagesaktuelle Beobachtung ermittelt.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.4685
+        },
+        {
+          "target_fact_index": 63,
+          "target_fact": "Kurz vor Monatsende war es nicht möglich vorherzusagen, welches Datum beispielsweise in sieben Tagen sein würde.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.0907
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 64,
+      "source_fact": "Immer mehr Kulturen haben deshalb ihre Kalender angefangen zu berechnen.",
+      "source_paragraph": 14,
+      "matches": [
+        {
+          "target_fact_index": 65,
+          "target_fact": "Immer mehr Kulturen begannen, ihre Kalender zu berechnen.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.3546
+        },
+        {
+          "target_fact_index": 67,
+          "target_fact": "In der Französischen Revolution wurde der Französische Revolutionskalender eingeführt.",
+          "target_paragraph": 13,
+          "density_normalized_distance": 0.0724
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 65,
+      "source_fact": "Der letzte ernsthafte Versuch, einen Beobachtungskalender zu etablieren, wurde in der Französischen Revolution unternommen.",
+      "source_paragraph": 14,
+      "matches": [
+        {
+          "target_fact_index": 66,
+          "target_fact": "Der letzte ernsthafte Versuch, einen Beobachtungs-Kalender zu etablieren, wurde in der Französischen Revolution unternommen.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.4637
+        },
+        {
+          "target_fact_index": 67,
+          "target_fact": "In der Französischen Revolution wurde der Französische Revolutionskalender eingeführt.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.1794
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 66,
+      "source_fact": "Dieser Versuch war der Französische Revolutionskalender.",
+      "source_paragraph": 14,
+      "matches": [
+        {
+          "target_fact_index": 67,
+          "target_fact": "In der Französischen Revolution wurde der Französische Revolutionskalender eingeführt.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.2056
+        },
+        {
+          "target_fact_index": 66,
+          "target_fact": "Der letzte ernsthafte Versuch, einen Beobachtungs-Kalender zu etablieren, wurde in der Französischen Revolution unternommen.",
+          "target_paragraph": 13,
+          "density_normalized_distance": -0.1964
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 67,
+      "source_fact": "Die Berechnung von Kalendern (arithmetischen Kalendern) setzt umfangreiche astronomische und mathematische Kenntnisse voraus.",
+      "source_paragraph": 15,
+      "matches": [
+        {
+          "target_fact_index": 68,
+          "target_fact": "Die Berechnung von Kalendern setzt umfangreiche astronomische und mathematische Kenntnisse voraus.",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.3481
+        },
+        {
+          "target_fact_index": 69,
+          "target_fact": "Bei der Entwicklung des frühen ägyptischen astralen Sothiskalenders waren umfangreiche astronomische und mathematische Kenntnisse vorhanden.",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.1475
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 68,
+      "source_fact": "Bei der Entwicklung des frühen ägyptischen astralen Sothiskalenders sind diese Kenntnisse vorhanden gewesen.",
+      "source_paragraph": 15,
+      "matches": [
+        {
+          "target_fact_index": 69,
+          "target_fact": "Bei der Entwicklung des frühen ägyptischen astralen Sothiskalenders waren umfangreiche astronomische und mathematische Kenntnisse vorhanden.",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.2622
+        },
+        {
+          "target_fact_index": 70,
+          "target_fact": "Die Einführung eines ägyptischen Verwaltungskalenders auf 365-Tage-Basis folgte spätestens im dritten Jahrtausend v. Chr.",
+          "target_paragraph": 14,
+          "density_normalized_distance": 0.0012
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 69,
+      "source_fact": "Die Einführung eines ägyptischen Verwaltungskalenders auf 365-Tage-Basis erfolgte spätestens im dritten Jahrtausend v. Chr.",
+      "source_paragraph": 15,
+      "matches": [
+        {
+          "target_fact_index": 70,
+          "target_fact": "Die Einführung eines ägyptischen Verwaltungskalenders auf 365-Tage-Basis folgte spätestens im dritten Jahrtausend v. Chr.",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.3994
+        },
+        {
+          "target_fact_index": 73,
+          "target_fact": "Ptolemaios III. unternahm 238 v. Chr. einen Versuch zur Einführung eines Schalttages.",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.1244
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 70,
+      "source_fact": "Der ägyptische Verwaltungskalender konnte das Durchwandern der Jahreszeiten nicht verhindern.",
+      "source_paragraph": 15,
+      "matches": [
+        {
+          "target_fact_index": 71,
+          "target_fact": "Der ägyptische Verwaltungskalender auf 365-Tage-Basis konnte das Durchwandern der Jahreszeiten nicht verhindern.",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.3027
+        },
+        {
+          "target_fact_index": 72,
+          "target_fact": "Die ägyptischen Könige bemängelten die Jahreszeitenverschiebung.",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.1912
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 71,
+      "source_fact": "Die ägyptischen Könige kritisierten die Jahreszeitenverschiebung.",
+      "source_paragraph": 15,
+      "matches": [
+        {
+          "target_fact_index": 72,
+          "target_fact": "Die ägyptischen Könige bemängelten die Jahreszeitenverschiebung.",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.4963
+        },
+        {
+          "target_fact_index": 71,
+          "target_fact": "Der ägyptische Verwaltungskalender auf 365-Tage-Basis konnte das Durchwandern der Jahreszeiten nicht verhindern.",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.0514
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 72,
+      "source_fact": "Ptolemaios III. unternahm 238 v. Chr. einen Versuch zur Einführung eines Schalttags.",
+      "source_paragraph": 15,
+      "matches": [
+        {
+          "target_fact_index": 73,
+          "target_fact": "Ptolemaios III. unternahm 238 v. Chr. einen Versuch zur Einführung eines Schalttages.",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.5224
+        },
+        {
+          "target_fact_index": 70,
+          "target_fact": "Die Einführung eines ägyptischen Verwaltungskalenders auf 365-Tage-Basis folgte spätestens im dritten Jahrtausend v. Chr.",
+          "target_paragraph": 14,
+          "density_normalized_distance": 0.0135
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 73,
+      "source_fact": "Nach dem Tod von Ptolemaios III. wurde neben dem neuen Schalttagskalender wieder der alte ägyptische Verwaltungskalender gebraucht.",
+      "source_paragraph": 15,
+      "matches": [
+        {
+          "target_fact_index": 74,
+          "target_fact": "Nach dem Tod von Ptolemaios III. wurde neben dem neuen Schalttageskalender wieder der alte ägyptische Verwaltungskalender benutzt.",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.3933
+        },
+        {
+          "target_fact_index": 73,
+          "target_fact": "Ptolemaios III. unternahm 238 v. Chr. einen Versuch zur Einführung eines Schalttages.",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.1171
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 74,
+      "source_fact": "Der julianische Kalender wurde 45 v. Chr. von Julius Cäsar eingeführt.",
+      "source_paragraph": 15,
+      "matches": [
+        {
+          "target_fact_index": 75,
+          "target_fact": "Der julianische Kalender wurde 45 v. Chr. von Julius Cäsar eingeführt.",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.3752
+        },
+        {
+          "target_fact_index": 70,
+          "target_fact": "Die Einführung eines ägyptischen Verwaltungskalenders auf 365-Tage-Basis folgte spätestens im dritten Jahrtausend v. Chr.",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.113
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 75,
+      "source_fact": "Der julianische Kalender stützte sich auf die Kalenderform von Ptolemaios III.",
+      "source_paragraph": 15,
+      "matches": [
+        {
+          "target_fact_index": 76,
+          "target_fact": "Der julianische Kalender stützte sich auf die Kalenderform des Ptolemaios III.",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.3426
+        },
+        {
+          "target_fact_index": 73,
+          "target_fact": "Ptolemaios III. unternahm 238 v. Chr. einen Versuch zur Einführung eines Schalttages.",
+          "target_paragraph": 14,
+          "density_normalized_distance": -0.178
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 76,
+      "source_fact": "Sowohl Mond- als auch Sonnenkalender müssen mit Schalttagen oder unterschiedlichen Monatslängen arbeiten, die nach einer festgelegten mathematischen Regel in den normalen Kalenderlauf eingebaut wurden.",
+      "source_paragraph": 16,
+      "matches": [
+        {
+          "target_fact_index": 78,
+          "target_fact": "Sonnenkalender müssen mit Schalttagen oder unterschiedlichen Monatslängen arbeiten, die nach einer festgelegten mathematischen Regel in den normalen Kalenderlauf eingefügt sind.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.3347
+        },
+        {
+          "target_fact_index": 77,
+          "target_fact": "Mondkalender müssen mit Schalttagen oder unterschiedlichen Monatslängen arbeiten, die nach einer festgelegten mathematischen Regel in den normalen Kalenderlauf eingefügt sind.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.3317
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 77,
+      "source_fact": "Ein Sonnenkalender braucht normalerweise etwa alle vier Jahre einen zusätzlichen Tag, um die durchschnittliche Tageszahl der Länge des Sonnenjahres anzupassen.",
+      "source_paragraph": 16,
+      "matches": [
+        {
+          "target_fact_index": 79,
+          "target_fact": "Ein Sonnenkalender benötigt normalerweise einen zusätzlichen Tag circa alle vier Jahre, um die durchschnittliche Tageszahl der Länge des Sonnenjahrs anzupassen.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.4069
+        },
+        {
+          "target_fact_index": 78,
+          "target_fact": "Sonnenkalender müssen mit Schalttagen oder unterschiedlichen Monatslängen arbeiten, die nach einer festgelegten mathematischen Regel in den normalen Kalenderlauf eingefügt sind.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.0401
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 78,
+      "source_fact": "Im Gregorianischen Kalender ist dieser zusätzliche Tag der 29. Februar.",
+      "source_paragraph": 16,
+      "matches": [
+        {
+          "target_fact_index": 80,
+          "target_fact": "Im gregorianischen Kalender ist der zusätzliche Tag des Sonnenkalenders der 29. Februar.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.3168
+        },
+        {
+          "target_fact_index": 81,
+          "target_fact": "Ein Mondkalender muss die Monatslängen zwischen 29 und 30 Tagen variieren.",
+          "target_paragraph": 15,
+          "density_normalized_distance": 0.0046
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 79,
+      "source_fact": "Ein Mondkalender muss die Monatslänge zwischen 29 und 30 Tagen variieren.",
+      "source_paragraph": 16,
+      "matches": [
+        {
+          "target_fact_index": 81,
+          "target_fact": "Ein Mondkalender muss die Monatslängen zwischen 29 und 30 Tagen variieren.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.3769
+        },
+        {
+          "target_fact_index": 82,
+          "target_fact": "Die Zeit zwischen zwei gleichen Mondphasen beträgt durchschnittlich circa 29,531 Tage.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.1221
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 80,
+      "source_fact": "Die Zeit zwischen zwei gleichen Mondphasen dauert durchschnittlich etwa 29,531 Tage.",
+      "source_paragraph": 16,
+      "matches": [
+        {
+          "target_fact_index": 82,
+          "target_fact": "Die Zeit zwischen zwei gleichen Mondphasen beträgt durchschnittlich circa 29,531 Tage.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.4109
+        },
+        {
+          "target_fact_index": 81,
+          "target_fact": "Ein Mondkalender muss die Monatslängen zwischen 29 und 30 Tagen variieren.",
+          "target_paragraph": 15,
+          "density_normalized_distance": -0.0885
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 81,
+      "source_fact": "Der Einschub von einem zusätzlichen Tag, Monat oder Jahr in einem Kalendersystem wird als Embolismus benannt.",
+      "source_paragraph": 17,
+      "matches": [
+        {
+          "target_fact_index": 85,
+          "target_fact": "Der Einschub eines zusätzlichen Jahres in ein Kalendersystem wird als Embolismus bezeichnet.",
+          "target_paragraph": 16,
+          "density_normalized_distance": -0.3315
+        },
+        {
+          "target_fact_index": 83,
+          "target_fact": "Der Einschub eines zusätzlichen Tages in ein Kalendersystem wird als Embolismus bezeichnet.",
+          "target_paragraph": 16,
+          "density_normalized_distance": -0.3234
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 82,
+      "source_fact": "Das Wort Embolismus leitet sich vom altgriechischen ἐμβάλλειν für „einschaalten“ ab.",
+      "source_paragraph": 17,
+      "matches": [
+        {
+          "target_fact_index": 86,
+          "target_fact": "Embolismus bedeutet „einschalten“.",
+          "target_paragraph": 16,
+          "density_normalized_distance": -0.3406
+        },
+        {
+          "target_fact_index": 85,
+          "target_fact": "Der Einschub eines zusätzlichen Jahres in ein Kalendersystem wird als Embolismus bezeichnet.",
+          "target_paragraph": 16,
+          "density_normalized_distance": 0.0067
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 83,
+      "source_fact": "Lunar- oder Mondkalender orientieren sich an den Mondphasen.",
+      "source_paragraph": 18,
+      "matches": [
+        {
+          "target_fact_index": 87,
+          "target_fact": "Lunar- oder Mondkalender orientieren sich an den Mondphasen.",
+          "target_paragraph": 17,
+          "density_normalized_distance": -0.3113
+        },
+        {
+          "target_fact_index": 88,
+          "target_fact": "Das deutsche Wort Monat leitet sich etymologisch von Mond ab.",
+          "target_paragraph": 17,
+          "density_normalized_distance": -0.0326
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 84,
+      "source_fact": "Das deutsche Wort Monat leitet sich etymologisch vom Mond ab.",
+      "source_paragraph": 18,
+      "matches": [
+        {
+          "target_fact_index": 88,
+          "target_fact": "Das deutsche Wort Monat leitet sich etymologisch von Mond ab.",
+          "target_paragraph": 17,
+          "density_normalized_distance": -0.4122
+        },
+        {
+          "target_fact_index": 89,
+          "target_fact": "Der Monat des gregorianischen Kalenders hat außer dem Namen nichts mehr mit dem Mondzyklus zu tun.",
+          "target_paragraph": 17,
+          "density_normalized_distance": 0.0247
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 85,
+      "source_fact": "Der Monat vom Gregorianischen Kalender hat außer dem Namen nichts mehr mit einem Mondzyklus zu tun.",
+      "source_paragraph": 18,
+      "matches": [
+        {
+          "target_fact_index": 89,
+          "target_fact": "Der Monat des gregorianischen Kalenders hat außer dem Namen nichts mehr mit dem Mondzyklus zu tun.",
+          "target_paragraph": 17,
+          "density_normalized_distance": -0.3311
+        },
+        {
+          "target_fact_index": 88,
+          "target_fact": "Das deutsche Wort Monat leitet sich etymologisch von Mond ab.",
+          "target_paragraph": 17,
+          "density_normalized_distance": -0.0251
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 86,
+      "source_fact": "Der Monat vom Gregorianischen Kalender dauert mit einer durchschnittlichen Länge von 30,437 Tagen fast einen Tag länger als der durchschnittliche synodische Monat.",
+      "source_paragraph": 18,
+      "matches": [
+        {
+          "target_fact_index": 90,
+          "target_fact": "Der Monat des gregorianischen Kalenders dauert mit einer durchschnittlichen Länge von 30,437 Tagen fast einen Tag länger als der durchschnittliche synodische Monat.",
+          "target_paragraph": 17,
+          "density_normalized_distance": -0.3135
+        },
+        {
+          "target_fact_index": 89,
+          "target_fact": "Der Monat des gregorianischen Kalenders hat außer dem Namen nichts mehr mit dem Mondzyklus zu tun.",
+          "target_paragraph": 17,
+          "density_normalized_distance": -0.0186
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 87,
+      "source_fact": "Der Nachteil vom reinen Lunarkalender besteht darin, dass er nicht mit einem Sonnenjahr korrespondieren kann.",
+      "source_paragraph": 19,
+      "matches": [
+        {
+          "target_fact_index": 91,
+          "target_fact": "Der Nachteil eines reinen Lunarkalenders besteht darin, dass er nicht mit dem Sonnenjahr korrespondieren kann.",
+          "target_paragraph": 18,
+          "density_normalized_distance": -0.3561
+        },
+        {
+          "target_fact_index": 92,
+          "target_fact": "Die fehlende Korrespondenz eines reinen Lunarkalenders mit dem Sonnenjahr hat in subtropischen und tropischen Breiten oft nicht die Bedeutung, die ihr in von den Jahreszeiten abhängigen Kulturen zukommt.",
+          "target_paragraph": 18,
+          "density_normalized_distance": -0.0714
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 88,
+      "source_fact": "Die Eigenschaft, dass der Lunarkalender nicht mit dem Sonnenjahr korrespondiert, hat in subtropischen und tropischen Breiten oft nicht die Bedeutung, die ihr dort zukommt, wo die Kulturen von den Jahreszeiten abhängig sind.",
+      "source_paragraph": 19,
+      "matches": [
+        {
+          "target_fact_index": 92,
+          "target_fact": "Die fehlende Korrespondenz eines reinen Lunarkalenders mit dem Sonnenjahr hat in subtropischen und tropischen Breiten oft nicht die Bedeutung, die ihr in von den Jahreszeiten abhängigen Kulturen zukommt.",
+          "target_paragraph": 18,
+          "density_normalized_distance": -0.3412
+        },
+        {
+          "target_fact_index": 91,
+          "target_fact": "Der Nachteil eines reinen Lunarkalenders besteht darin, dass er nicht mit dem Sonnenjahr korrespondieren kann.",
+          "target_paragraph": 18,
+          "density_normalized_distance": 0.0227
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 89,
+      "source_fact": "Im islamischen Kalender, dem bekanntesten heute noch gebräuchlichen lunaren Kalender, dauert das Jahr mit 12 Monaten durchschnittlich 354,372 Tage.",
+      "source_paragraph": 19,
+      "matches": [
+        {
+          "target_fact_index": 94,
+          "target_fact": "Im islamischen Kalender dauert das Jahr mit 12 Monaten durchschnittlich 354,372 Tage.",
+          "target_paragraph": 18,
+          "density_normalized_distance": -0.3177
+        },
+        {
+          "target_fact_index": 93,
+          "target_fact": "Der islamische Kalender ist der bekannteste heute noch gebräuchliche lunare Kalender.",
+          "target_paragraph": 18,
+          "density_normalized_distance": -0.0796
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 90,
+      "source_fact": "Die islamischen Monate wandern dadurch Jahr für Jahr etwa elf Tage im Gregorianischen Kalender voraus.",
+      "source_paragraph": 19,
+      "matches": [
+        {
+          "target_fact_index": 95,
+          "target_fact": "Die islamischen Monate wandern dadurch Jahr für Jahr zirka elf Tage im gregorianischen Kalender nach vorne.",
+          "target_paragraph": 18,
+          "density_normalized_distance": -0.353
+        },
+        {
+          "target_fact_index": 94,
+          "target_fact": "Im islamischen Kalender dauert das Jahr mit 12 Monaten durchschnittlich 354,372 Tage.",
+          "target_paragraph": 18,
+          "density_normalized_distance": -0.0567
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 91,
+      "source_fact": "Das Osterdatum folgt dem lunaren Kalender.",
+      "source_paragraph": 19,
+      "matches": [
+        {
+          "target_fact_index": 96,
+          "target_fact": "Das Osterdatum folgt einem lunaren Kalender (Computus (Osterrechnung)).",
+          "target_paragraph": 18,
+          "density_normalized_distance": -0.2568
+        },
+        {
+          "target_fact_index": 95,
+          "target_fact": "Die islamischen Monate wandern dadurch Jahr für Jahr zirka elf Tage im gregorianischen Kalender nach vorne.",
+          "target_paragraph": 18,
+          "density_normalized_distance": -0.0289
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 92,
+      "source_fact": "Die meisten Kulturen orientieren sich bei ihrer Zeitmessung an den durch die Sonne bestimmten Jahreszeiten.",
+      "source_paragraph": 20,
+      "matches": [
+        {
+          "target_fact_index": 97,
+          "target_fact": "Die meisten Kulturen orientierten sich bei ihrer Zeitmessung an den durch die Sonne bestimmten Jahreszeiten.",
+          "target_paragraph": 19,
+          "density_normalized_distance": -0.3599
+        },
+        {
+          "target_fact_index": 98,
+          "target_fact": "Die durch die Sonne bestimmten Jahreszeiten bilden die Basis für Solar- oder Sonnenkalender.",
+          "target_paragraph": 19,
+          "density_normalized_distance": -0.0991
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 93,
+      "source_fact": "Die durch die Sonne bestimmten Jahreszeiten werden als Solar- oder Sonnenkalender bezeichnet.",
+      "source_paragraph": 20,
+      "matches": [
+        {
+          "target_fact_index": 98,
+          "target_fact": "Die durch die Sonne bestimmten Jahreszeiten bilden die Basis für Solar- oder Sonnenkalender.",
+          "target_paragraph": 19,
+          "density_normalized_distance": -0.2451
+        },
+        {
+          "target_fact_index": 97,
+          "target_fact": "Die meisten Kulturen orientierten sich bei ihrer Zeitmessung an den durch die Sonne bestimmten Jahreszeiten.",
+          "target_paragraph": 19,
+          "density_normalized_distance": -0.082
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 94,
+      "source_fact": "Der Grundtyp vom Solarkalender hat die meisten Varianten hervorgebracht.",
+      "source_paragraph": 20,
+      "matches": [
+        {
+          "target_fact_index": 99,
+          "target_fact": "Der Grundtyp des Solarkalenders hat die meisten Varianten hervorgebracht.",
+          "target_paragraph": 19,
+          "density_normalized_distance": -0.4737
+        },
+        {
+          "target_fact_index": 102,
+          "target_fact": "Das tropische Jahr ist die Ausgangsbasis für den allgemeinen Jahresbegriff.",
+          "target_paragraph": 19,
+          "density_normalized_distance": 0.0374
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 95,
+      "source_fact": "Das Solarjahr orientiert sich am tropischen Jahr.",
+      "source_paragraph": 20,
+      "matches": [
+        {
+          "target_fact_index": 100,
+          "target_fact": "Das Solarjahr orientiert sich am tropischen Jahr.",
+          "target_paragraph": 19,
+          "density_normalized_distance": -0.415
+        },
+        {
+          "target_fact_index": 101,
+          "target_fact": "Das tropische Jahr ist der auf den Frühlingspunkt bezogene Umlauf der Erde um die Sonne.",
+          "target_paragraph": 19,
+          "density_normalized_distance": -0.2089
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 96,
+      "source_fact": "Das tropische Jahr ist der Umlauf der Erde bezogen auf den Frühlingspunkt.",
+      "source_paragraph": 20,
+      "matches": [
+        {
+          "target_fact_index": 101,
+          "target_fact": "Das tropische Jahr ist der auf den Frühlingspunkt bezogene Umlauf der Erde um die Sonne.",
+          "target_paragraph": 19,
+          "density_normalized_distance": -0.3756
+        },
+        {
+          "target_fact_index": 102,
+          "target_fact": "Das tropische Jahr ist die Ausgangsbasis für den allgemeinen Jahresbegriff.",
+          "target_paragraph": 19,
+          "density_normalized_distance": -0.2183
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 97,
+      "source_fact": "Das tropische Jahr ist die Ausgangsbasis für den allgemeinen Jahresbegriff.",
+      "source_paragraph": 20,
+      "matches": [
+        {
+          "target_fact_index": 102,
+          "target_fact": "Das tropische Jahr ist die Ausgangsbasis für den allgemeinen Jahresbegriff.",
+          "target_paragraph": 19,
+          "density_normalized_distance": -0.4674
+        },
+        {
+          "target_fact_index": 101,
+          "target_fact": "Das tropische Jahr ist der auf den Frühlingspunkt bezogene Umlauf der Erde um die Sonne.",
+          "target_paragraph": 19,
+          "density_normalized_distance": -0.1336
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 98,
+      "source_fact": "Der heute weltweit verbreitete Gregorianische Kalender ist ein solarer Kalender.",
+      "source_paragraph": 21,
+      "matches": [
+        {
+          "target_fact_index": 103,
+          "target_fact": "Der heute weltweit verbreitete gregorianische Kalender ist ein solarer Kalender.",
+          "target_paragraph": 19,
+          "density_normalized_distance": -0.2613
+        },
+        {
+          "target_fact_index": 101,
+          "target_fact": "Das tropische Jahr ist der auf den Frühlingspunkt bezogene Umlauf der Erde um die Sonne.",
+          "target_paragraph": 19,
+          "density_normalized_distance": -0.0635
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 99,
+      "source_fact": "Der Lunisolarkalender stellt den Versuch dar, einen reinen Lunarkalender an das Sonnenjahr anzupassen.",
+      "source_paragraph": 22,
+      "matches": [
+        {
+          "target_fact_index": 104,
+          "target_fact": "Der Lunisolarkalender stellt den Versuch dar, einen reinen Lunarkalender an das Sonnenjahr anzupassen.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.3842
+        },
+        {
+          "target_fact_index": 107,
+          "target_fact": "Die Lösung zur Anpassung an das Sonnenjahr liegt in der Einfügung von Schaltmonaten.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.074
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 100,
+      "source_fact": "In einem Lunisolarkalender können keine Schalttage wie beim Sonnenkalender eingefügt werden, weil die Länge der Monate durch die Mondphasen festgelegt ist.",
+      "source_paragraph": 22,
+      "matches": [
+        {
+          "target_fact_index": 106,
+          "target_fact": "In Lunisolarkalendern können keine Schalttage wie beim Sonnenkalender eingefügt werden.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.2993
+        },
+        {
+          "target_fact_index": 105,
+          "target_fact": "Bei Lunisolarkalendern ist die Länge der Monate durch die Mondphasen festgelegt.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.1473
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 101,
+      "source_fact": "Die Lösung im Lunisolarkalender liegt im Einschalten von Schaltmonaten.",
+      "source_paragraph": 22,
+      "matches": [
+        {
+          "target_fact_index": 107,
+          "target_fact": "Die Lösung zur Anpassung an das Sonnenjahr liegt in der Einfügung von Schaltmonaten.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.3174
+        },
+        {
+          "target_fact_index": 106,
+          "target_fact": "In Lunisolarkalendern können keine Schalttage wie beim Sonnenkalender eingefügt werden.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.0535
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 102,
+      "source_fact": "Die Jahreslänge der Lunisolarkalender schwankt deshalb zwischen etwa 353 und etwa 385 Tagen.",
+      "source_paragraph": 22,
+      "matches": [
+        {
+          "target_fact_index": 108,
+          "target_fact": "Die Jahreslänge der Lunisolarkalender schwankt zwischen zirka 353 und zirka 385 Tagen.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.3512
+        },
+        {
+          "target_fact_index": 105,
+          "target_fact": "Bei Lunisolarkalendern ist die Länge der Monate durch die Mondphasen festgelegt.",
+          "target_paragraph": 20,
+          "density_normalized_distance": 0.0364
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 103,
+      "source_fact": "Der jüdische Kalender ist ein bekannter Lunisolarkalender.",
+      "source_paragraph": 22,
+      "matches": [
+        {
+          "target_fact_index": 109,
+          "target_fact": "Der jüdische Kalender ist ein bekannter Lunisolarkalender.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.3481
+        },
+        {
+          "target_fact_index": 111,
+          "target_fact": "Der keltische Kalender ist ein bekannter Lunisolarkalender.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.2305
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 104,
+      "source_fact": "Der traditionelle chinesische Kalender ist ein bekannter Lunisolarkalender.",
+      "source_paragraph": 22,
+      "matches": [
+        {
+          "target_fact_index": 110,
+          "target_fact": "Der traditionelle chinesische Kalender ist ein bekannter Lunisolarkalender.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.3529
+        },
+        {
+          "target_fact_index": 111,
+          "target_fact": "Der keltische Kalender ist ein bekannter Lunisolarkalender.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.194
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 105,
+      "source_fact": "Der keltische Kalender ist ein bekannter Lunisolarkalender.",
+      "source_paragraph": 22,
+      "matches": [
+        {
+          "target_fact_index": 111,
+          "target_fact": "Der keltische Kalender ist ein bekannter Lunisolarkalender.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.3248
+        },
+        {
+          "target_fact_index": 109,
+          "target_fact": "Der jüdische Kalender ist ein bekannter Lunisolarkalender.",
+          "target_paragraph": 20,
+          "density_normalized_distance": -0.2538
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 106,
+      "source_fact": "Es sind nur wenige Kalendersysteme bekannt.",
+      "source_paragraph": 23,
+      "matches": [
+        {
+          "target_fact_index": 112,
+          "target_fact": "Es sind nur wenige Kalendersysteme bekannt, die sich weder am Mond noch an der Sonne orientieren.",
+          "target_paragraph": 21,
+          "density_normalized_distance": -0.1857
+        },
+        {
+          "target_fact_index": 114,
+          "target_fact": "Die Maya-Kalender basierten auf einer regelmäßigen Folge von 20 Tagen.",
+          "target_paragraph": 21,
+          "density_normalized_distance": 0.0961
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 107,
+      "source_fact": "Maya-Kalender basieren auf einer regelmäßigen Folge von 20 Tagen.",
+      "source_paragraph": 23,
+      "matches": [
+        {
+          "target_fact_index": 114,
+          "target_fact": "Die Maya-Kalender basierten auf einer regelmäßigen Folge von 20 Tagen.",
+          "target_paragraph": 21,
+          "density_normalized_distance": -0.3476
+        },
+        {
+          "target_fact_index": 115,
+          "target_fact": "Die Maya-Kalender basierten auf einer 52 Jahre dauernden Kalenderrunde.",
+          "target_paragraph": 21,
+          "density_normalized_distance": -0.1756
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 108,
+      "source_fact": "Maya-Kalender basieren auf einer 52 Jahre dauernden Kalenderrunde.",
+      "source_paragraph": 23,
+      "matches": [
+        {
+          "target_fact_index": 115,
+          "target_fact": "Die Maya-Kalender basierten auf einer 52 Jahre dauernden Kalenderrunde.",
+          "target_paragraph": 21,
+          "density_normalized_distance": -0.336
+        },
+        {
+          "target_fact_index": 114,
+          "target_fact": "Die Maya-Kalender basierten auf einer regelmäßigen Folge von 20 Tagen.",
+          "target_paragraph": 21,
+          "density_normalized_distance": -0.1992
+        }
+      ]
+    }
+  ]
+}

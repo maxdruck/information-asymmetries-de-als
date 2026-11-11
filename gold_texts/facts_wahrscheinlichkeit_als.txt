@@ -1,0 +1,68 @@
+Wahrscheinlichkeit
+
+== lead_paragraph ==
+
+D Woorschiinligkäit (Probabilität) isch en Iistuefig vo Urdäil und Ussaage, vor allem Brognoose, noch em Grad vo dr Gwüsshäit, d. h. wie sicher mä cha si, ass es woor isch. In dr Mathematik het sich mit dr Woorschiinligkäitstheorii en äiges Fachgebiet entwicklet, wo Woorschiinligkäite as mathematischi Objekt beschribt, wo die formale Äigeschafte vo ene im dääglige Lääbe und in dr Filosofii au uf Ussaage und Urdäil überdräit wärde.
+
+== lead_paragraph ==
+
+Es git verschidnigi Uffassige vo Woorschiinligkäite (Woorschiinligkäitsbegriff).
+
+== S Sümmetriibrinzip – die klassischi Uffassig vom Laplace ==
+
+D Woorschiinlihkäit vom ene Eräigniss isch s Verheltnis vo de günstige Resultaat zu dr Zaal vo alle Resultaat. So isch zum Bischbil d Woorschiinligkäit, ass mä mit eme Säggserwürfel en ungraadi Zaal wirft 0,5, was ere relative Hüfigkäit vo 50 % entspricht), wil s säggs Ergäbniss git, wo alli drvoo gliich mööglig si und wo drei von ene die gnennti Äigeschaft häi.
+
+Das isch die so genannti klassischi Definizioon, wie si vom Christiaan Huygens und Jakob I. Bernoulli entwicklet und vom Laplace formuliert worde isch. Si isch d Grundlaag für die klassischi Woorschiinligkäitstheorii. D Elementareräigniss häi alli die gliichi Woorschinligkäit, ass si vorchömme. D Vorussetzig isch en ändligi Zaal vo Resultat und as d A-priori-Woorschiinligkäite bekannt si.
+
+Bischbil: 
+
+Bim ene „fääre“ Würfel (das häisst käi Ergäbnis wird dur en unsümmetrischi Masseverdäilig oder Äänligs bevorzugt) überlegt mä sich, ass jedi Zaal die gliichi Schansse het und dorum im ene Säggstel vo alle Versüech vorchunnt. D Woorschiinligkäit ass mä e „graadi Zaal“ würflet, rächnet mä eso us: Es git drei günstigi Ergäbniss (2, 4, 6), aber säggs möögligi Resultaat, dorum isch d Woorschiinligkäit für e graadi Zaal 3/6 = 0,5.
+
+Äänlig beim e Glicksrad, wo z. B. dh Hälfde blau, ei Viertel gelb und`s andere Viertel grea isch. Dh Chance auf Blau isch 1/2, auf Gelb und Grea je 1/4.
+
+== S Hüfigkäitsbrinzip – die statistischi Woorschiinligkäitsuffassig ==
+
+E Zuefallsexperimänt wird so vilmol wie mööglig widerhoolt, denn wärde die relative Hüfigkäite vo de jewiilige Elementareräigniss berächnet. D Woorschiinligkäit vom ene Eräigniss isch jetz dr Gränzwärt vo sinere relative Hüfigkäit bi (theoretisch) unändlig vile Widerhoolige. Das isch die so genannti ‚Limes-Definizioon‘ noch em von Mises. S Gsetz vo de groosse Zaale spiilt do e zentraali Rolle. D Vorussetzig isch ass mä s Experimänt so vilmol wie mä wil, cha widerhoole, und ass die äinzelne Durchgäng vonenander unabhängig si. En andere Name für das Konzept isch frekwentische Woorschiinligkäitsbegriff. Dä Woorschiinligkäitsbegriff isch zum Bischbil in dr Füsik bi dr Zerfallswoorschiinligkäit vom ene Radionuklid gmäint; d Experimänt si do die äinzelne Zerfäll vo de Atomchärn, wo vonenander unabhängig si. 
+
+Bischbil: 
+
+Mä würflet 1000-mol und bechunnt die Verdäilig: Dr Äinser fallt 100-mol (das entspricht ere relative Hüfigkäit vo 10 %), dr Zwäier git s 150-mol (15 %), dr Dreier ebefalls 150-mol (15 %), dr Vierer in 20 %, dr Fümfer in 30 % und dr Säggser in 10 % vo de Fäll. Mä bechunnt dr Verdacht, ass dä Würfel nit fäär isch. Noch 10'000 Durchgäng häi sich d Zaale bi de Wärt, wo oobe aagee si, stabilisiert, sodass mä zimlig sicher cha si, ass d Woorschiinligkäit für e Dreier öbbe 15 % isch.
+
+== Die kwantemechanischi Woorschiinligkäitsuffassig ==
+
+In dr nitrelativistische Kwantemechanik wird d Wällefunzioon vom ene Däili as sini fundamentali Beschriibig verwändet. S Integral vom Bedraagskwadraat vo dr Wällefunkzioon über eme Ruumgebiet entspricht dört dr Woorschiinligkäit, ass mä s Däili dört din aadrifft. Es handlet sich also nit um e Woorschiinligkäit, wo äifach nume statistisch isch sondern um äini, wo nit-determiniert isch.
+
+== Die subjektivistischi Woorschiinligkäitsuffassig ==
+
+Bi äimoolige Zuefallseräigniss cha mä nume schetze und nid berächne, wie woorschiinlig es isch, ass si bassiere. Zentraali Gsichtspünkt si doo Expärtewüsse, Erfaarig und Intuizioon. Doorum reedet mä von ere subjektivistische Woorschiinligkäitsuffassig.
+
+Bischbil: 
+
+Wenn öbber verschidnigi Auti ghaa het, schetzt er d Woorschiinligkäit jee noch siner Erfaarig mit Auti von ere gwüsse Marke as hooch oder niidrig ii, ass er mit eme nöije Auti vo dere Marke wider wurd zfriide si. Soonigi Iischetzige wärde au vo Gschichte, won em Bekannti verzelle, Testreport, won er glääse het, oder vom Gschwätz vom Verchöifer beiiflusst.
+
+== Die axiomatischi Definizioon vo dr Woorschiinligkäit ==
+
+D Definizioon vo dr Woorschiinligkäit noch em Kolmogorow isch hüte für d Mathematik maassgääbend. Me betrachtet e Wahrschinlechkeitsruum (\mathbb{P}, \Omega, \Sigma). Drbi isch \Omega e Mengi, \Sigma \subset 2^\Omega e Mengi vo Ungermengine vo \Omega und \mathbb{P}: \Sigma \to \mathbb{R} e reellwertegi Funktion, wo fougendi Axiom erfüut:
+
+* Für jeedes Eräignis A \in \Sigma  isch d Woorschiinligkäit vo A e reelli Zaal zwüsche 0 und 1: 0 \leq \mathbb{P}(A) \leq 1
+* S sichere Eräignis \Omega het d Woorschiinligkäit 1: \mathbb{P}(\Omega) = 1
+*Für abzählbar vieli Eregnis A_i \in \Sigma, \quad i \in \mathbb{N} wo paarwis disjunkt si (d. h. A_i \cap A_j = \emptyset \quad \forall i \neq j) isch dWahrschinlechkeit vor Vereinigung gleich dSumme vo de Wahrschlinlechkeite: \mathbb{P}\left(\bigcup_{i \in \mathbb{N}}\right) = \sum_{i \in \mathbb{N}} \mathbb{P}(A_i)
+
+== Psychologie – s Iischetze vo Woorschiinligkäite ==
+
+Es wird vilmol behauptet, ass dr Mensch e schlächts Gfüül für d Woorschiinligkäit häig, mä reedet in däm Zämmehang au vom „Woorschiinligkäitsidiot“. 
+
+Bischbil:
+
+S Geburtsdaagsparadox: Uf eme Schuttblatz si 23 Persoone (zwäimol elf Schbiiler und äi Schiidsrichter). D Woorschiinligkäit, ass es mindestens zwäi Persoone het, wo am gliiche Daag Geburtsdaag häi, isch gröösser as 50 %.
+
+== Filosofii – Verständniss vo Woorschiinligkäit ==
+
+Wäärend mä vo dr Mathematik us sich wiitgehend äinig isch, wie mä mit Woorschiinligkäite umgoot, het s nume weenig Äingkäit, wenn s drum goot, wo mä d Rächeregle vo dr mathematische Theorii dörf aawände. Eso chunnt mä zur Froog, wie dr Begriff „Woorschiinligkäit“ sött interbretiert wärde.
+
+Mä brucht „Woorschiinligkäit“ vilmol in zwäi verschiidene Zämmehäng:
+# Die aleatorischi Woorschiinligkäit (au: ontischi/objektivi/statistischi Woorschiinligkäit) beschribt die relativi Hüfigkäit vo zuekümftige Eräigniss, wo vom ene zuefellige füsikalische Brozäss bestimmt wärde. Gnauer underschäidet mä deterministischi füsikalischi Brozäss, wo im Brinzip d Informazioon gnau gnueg isch, zum sä vorussääge (Würfelwurf, Wätterbrognoose), und nitdeterministischi Brozäss, wo brinzipiell nit vorussägbar si wie dr radioaktivi Zerfall.
+# Die epistemischi Woorschiinligkäit (au: subjektivi/personelli Woorschiinligkäit) beschribt d Unsicherhäit über Ussaage, wo die kausale Zämmehäng und Hindergründ bin ene nume umvollständig bekannt si. Die Ussaage chönne sich uf vergangeni oder zuekümftigi Eräigniss bezie. Mä gitzum Bischbil Naturgsetz mänggisch epistemischi Woorschiinligkäite, oder Ussaage in dr Politik („D Sänkig vo de Stüüre chunnt mit ere 60-brozäntige Woorschiinligkäit.“), Wirtschaft oder Rächtsprächig.
+Die Aleatorischi und epistemischi Woorschiinligkäit si luggi Woorschiinligkäitsbegriff, wo mit em frequentistische und em bayessche Woorschiinligkäitsbegriff assoziiert si.
+
+Es isch en offeni Froog, öb mä die aleatorischi Woorschiinligkäit uf die epistemischi cha reduziere oder umkeert die epistemischi uf die aleatorischi: Gseet für uns d Wält zuefellig us, wil mr nit gnueg über sä wüsse, oder git es fundamental zuefelligi Brozäss, wie öbbe die objektivi Dütig vo dr Quantenmechanik aanimmt? Au wenn für bäidi Standpünkt die gliiche mathematische Regle über e Umgang mit Woorschiinligkäite gälte, het die jewiiligi Sichtwiis wichdigi Konsekwänze drfür, weli mathematische Modäll as gültig aagluegt wärde.

@@ -1,0 +1,1248 @@
+{
+  "page_id": "2838",
+  "page_title": "Kalender",
+  "language_variety": "de",
+  "decomposition_model": "gemma-4-31b-it",
+  "num_paragraphs": 35,
+  "num_facts": 200,
+  "num_fallback_paragraphs": 0,
+  "paragraphs": [
+    "Ein Kalender ist eine Übersicht über die Tage, Wochen und Monate eines Jahres. Eine veraltete Bezeichnung ist Jahrweiser.",
+    "Das Wort „Kalender“ entstammt dem lateinischen Calendarium (Schuldbuch). Dies war ein Verzeichnis der Kalendae, der jeweils ersten, auszurufenden (calare „ausrufen“) Tage der antiken Monate. An diesen wurden Darlehen ausgezahlt und Darlehensrückführungen sowie Zinsforderungen fällig.",
+    "Es gibt verschiedene Kalendersysteme, heute ist weltweit überwiegend der gregorianische Kalender in Gebrauch.",
+    "Kalender gibt es in verschiedenen – gedruckten, bebilderten, elektronischen – Formen (siehe auch Kalendarium).",
+    "Die Regeln zur Aufstellung von Kalendern ergeben sich aus astronomischen Gegebenheiten (Mondphasen, Sonnenjahr) und entsprechenden Kalenderberechnungen. Die wissenschaftliche Kalenderkunde ist ein Teilgebiet der astronomischen Chronologie. Die vorwissenschaftliche Kunst, Kalender zu erstellen, nennt man Hemerologie.",
+    "Die Kenntnis regelmäßig stattfindender Tierwanderungen war für die frühen Jägerkulturen wichtig. Der Mensch dürfte schon damals ein Bewusstsein für jahreszeitlich und astronomisch sich wiederholende Ereignisse und entsprechende Zyklen seiner Umwelt gehabt haben. Neben den Veränderungen im Zyklus von Tag und Nacht und dem Zyklus der Mondphasen gehören hierzu auch die jahreszeitlich bedingten Schwankungen. Menschen in der Altsteinzeit konnten den Jahreslauf wahrnehmen und den Nachthimmel beobachten mit Mondlauf und Bewegungen der Planeten.",
+    "Schon der Turm von Jericho aus dem 9. Jahrtausend v. Chr. deutet auf die Kenntnis der Sommersonnenwende hin und jungsteinzeitliche Bauten wie etwa Stonehenge zeugen von den Bemühungen der sesshaft gewordenen Bevölkerung, die natürliche Jahreslänge und ausgewählte zyklisch wiederkehrende Himmelsereignisse wie Sonnenwende und Tag-und-Nacht-Gleiche exakt bestimmen zu können. Gerade für die Landwirtschaft war wichtig, eine von den konkreten Wetter­bedingungen unabhängige Bestimmung der Zeitpunkte für Aussaat und Ernte vornehmen zu können. Mit der systematischen Himmelsbeobachtung verbunden waren religiöse Fruchtbarkeitskulte – getragen von der Hoffnung auf eine günstige Wiederkehr der Fruchtbarkeitsbedingungen. So wurden bestimmte landwirtschaftliche Termine an Feste gebunden, die wiederum an Himmelsereignisse geknüpft waren.",
+    "Für den Übergang von Jägerkulturen zum Ackerbau im Neolithikum (Jungsteinzeit) wird eine Veränderung kalendarischer Vorstellungen vom Mond- zum Sonnenkalender angenommen. Dieser steinzeitliche Kalender, auch neolithischer Kalender (von Alexander Thom auch megalithischer Kalender genannt) beinhaltet wohl die ältesten kalendarischen Vorstellungen der Menschheit und ist die Grundlage späterer Kalendervarianten. Analog zum Begriff der Neolithischen Revolution (Übergang zum Ackerbau) wird auch von der Neolithischen Kalender-Revolution gesprochen.",
+    "Die ältesten heute noch bekannten Kalender stammen aus den frühen Hochkulturen Ägyptens und Mesopotamiens. Hier zeigten sich schon zwei grundlegende Kalendertypen, die bis heute die meisten Kalendersysteme prägen: der an den Mondphasen orientierte Mondkalender und der astronomische Kalender, der den Lauf der Himmelskörper widerspiegelt.",
+    "Spätestens von den Babyloniern wurde der siebentägige Wochen­zyklus entwickelt, der heute fast weltweit den Ablauf des Alltags regelt. In anderen Kalendern gab es ähnliche Zyklen, zwischen fünf und zehn Tagen.",
+    "Die Anpassung von Wochen und Monatsfolgen an die feste Größe des astronomischen Jahres war nicht einfach zu lösen. Es kam zur Herausbildung verschiedener Kalendersysteme.",
+    "Frühe Kalendersysteme wurden durch Beobachtung gewonnen (astronomische Kalender). Mit dem Eintritt eines bestimmten definierten Himmelsereignisses (z. B. des Neumonds oder der Tag-und-Nacht-Gleiche im Frühling) begann ein neuer Zyklus. Sie mussten regelmäßig nachgeregelt werden.",
+    "Diese Methode hatte einen entscheidenden Nachteil: In großen Herrschaftsräumen konnte ein Ereignis an unterschiedlichen Orten eventuell zu unterschiedlichen Zeiten wahrgenommen werden, so dass auch unterschiedliche Daten gezählt wurden. Wenn dagegen der Eintritt eines Ereignisses nur an einem bestimmten Ort (z. B. der Hauptstadt oder dem Haupttempel) maßgeblich war, dann konnten weit entfernt gelegene Gebiete oft erst nach Tagen davon unterrichtet werden. Solche Probleme gab es beispielsweise im früheren jüdischen Kalender, wo der Hohepriester über die erste Sichtung der Mondsichel bei Neumond entschied. Durch die langen Informationswege konnte es passieren, dass ein religiöses Fest in abgelegenen Gebieten am „falschen“ Tag gefeiert wurde. Auch war es kurz vor Monatsende nicht möglich vorherzusagen, welches Datum z. B. in sieben Tagen sein würde, weil der Neumond nicht vorausberechnet, sondern durch tagesaktuelle Beobachtung ermittelt wurde.",
+    "Immer mehr Kulturen begannen deshalb, ihre Kalender zu berechnen. Der letzte ernsthafte Versuch, einen Beobachtungs-Kalender zu etablieren, wurde in der Französischen Revolution unternommen (Französischer Revolutionskalender).",
+    "Die Berechnung von Kalendern setzt umfangreiche astronomische und mathematische Kenntnisse voraus. Bei der Entwicklung des frühen ägyptischen astralen Sothiskalenders waren diese Kenntnisse vorhanden. Die Einführung eines ägyptischen Verwaltungskalenders auf 365-Tage-Basis folgte spätestens im dritten Jahrtausend v. Chr. Dieser konnte jedoch das Durchwandern der Jahreszeiten nicht verhindern. Die ägyptischen Könige bemängelten die Jahreszeitenverschiebung, doch erst Ptolemaios III. unternahm 238 v. Chr. einen Versuch zur Einführung eines Schalttages. Nach seinem Tod wurde neben dem neuen Schalttageskalender jedoch wieder der alte ägyptische Verwaltungskalender benutzt. Der julianische Kalender, der 45 v. Chr. von Julius Cäsar eingeführt wurde, stützte sich gleichwohl auf die Kalenderform des Ptolemaios III.",
+    "Sowohl Mond- als auch Sonnenkalender müssen mit Schalttagen oder unterschiedlichen Monatslängen arbeiten, die nach einer festgelegten mathematischen Regel in den normalen Kalenderlauf eingefügt sind. Ein Sonnenkalender benötigt normalerweise einen zusätzlichen Tag circa alle vier Jahre (im gregorianischen Kalender ist dies der 29. Februar), um die durchschnittliche Tageszahl der Länge des Sonnenjahrs anzupassen. Ein Mondkalender muss die Monatslängen zwischen 29 und 30 Tagen variieren, denn die Zeit zwischen zwei gleichen Mondphasen beträgt durchschnittlich circa 29,531 Tage.",
+    "Der Einschub eines zusätzlichen Tages, Monats oder Jahres in ein Kalendersystem wird als Embolismus ( „einschalten“) bezeichnet.",
+    "Die Kenntnis regelmäßig stattfindender Tierwanderungen war für die frühen Jägerkulturen wichtig. Der Mensch dürfte schon damals ein Bewusstsein für jahreszeitlich und astronomisch sich wiederholende Ereignisse und entsprechende Zyklen seiner Umwelt gehabt haben. Neben den Veränderungen im Zyklus von Tag und Nacht und dem Zyklus der Mondphasen gehören hierzu auch die jahreszeitlich bedingten Schwankungen. Menschen in der Altsteinzeit konnten den Jahreslauf wahrnehmen und den Nachthimmel beobachten mit Mondlauf und Bewegungen der Planeten.",
+    "Schon der Turm von Jericho aus dem 9. Jahrtausend v. Chr. deutet auf die Kenntnis der Sommersonnenwende hin und jungsteinzeitliche Bauten wie etwa Stonehenge zeugen von den Bemühungen der sesshaft gewordenen Bevölkerung, die natürliche Jahreslänge und ausgewählte zyklisch wiederkehrende Himmelsereignisse wie Sonnenwende und Tag-und-Nacht-Gleiche exakt bestimmen zu können. Gerade für die Landwirtschaft war wichtig, eine von den konkreten Wetter­bedingungen unabhängige Bestimmung der Zeitpunkte für Aussaat und Ernte vornehmen zu können. Mit der systematischen Himmelsbeobachtung verbunden waren religiöse Fruchtbarkeitskulte – getragen von der Hoffnung auf eine günstige Wiederkehr der Fruchtbarkeitsbedingungen. So wurden bestimmte landwirtschaftliche Termine an Feste gebunden, die wiederum an Himmelsereignisse geknüpft waren.",
+    "Für den Übergang von Jägerkulturen zum Ackerbau im Neolithikum (Jungsteinzeit) wird eine Veränderung kalendarischer Vorstellungen vom Mond- zum Sonnenkalender angenommen. Dieser steinzeitliche Kalender, auch neolithischer Kalender (von Alexander Thom auch megalithischer Kalender genannt) beinhaltet wohl die ältesten kalendarischen Vorstellungen der Menschheit und ist die Grundlage späterer Kalendervarianten. Analog zum Begriff der Neolithischen Revolution (Übergang zum Ackerbau) wird auch von der Neolithischen Kalender-Revolution gesprochen.",
+    "Die ältesten heute noch bekannten Kalender stammen aus den frühen Hochkulturen Ägyptens und Mesopotamiens. Hier zeigten sich schon zwei grundlegende Kalendertypen, die bis heute die meisten Kalendersysteme prägen: der an den Mondphasen orientierte Mondkalender und der astronomische Kalender, der den Lauf der Himmelskörper widerspiegelt.",
+    "Spätestens von den Babyloniern wurde der siebentägige Wochen­zyklus entwickelt, der heute fast weltweit den Ablauf des Alltags regelt. In anderen Kalendern gab es ähnliche Zyklen, zwischen fünf und zehn Tagen.",
+    "Die Anpassung von Wochen und Monatsfolgen an die feste Größe des astronomischen Jahres war nicht einfach zu lösen. Es kam zur Herausbildung verschiedener Kalendersysteme.",
+    "Frühe Kalendersysteme wurden durch Beobachtung gewonnen (astronomische Kalender). Mit dem Eintritt eines bestimmten definierten Himmelsereignisses (z. B. des Neumonds oder der Tag-und-Nacht-Gleiche im Frühling) begann ein neuer Zyklus. Sie mussten regelmäßig nachgeregelt werden.",
+    "Diese Methode hatte einen entscheidenden Nachteil: In großen Herrschaftsräumen konnte ein Ereignis an unterschiedlichen Orten eventuell zu unterschiedlichen Zeiten wahrgenommen werden, so dass auch unterschiedliche Daten gezählt wurden. Wenn dagegen der Eintritt eines Ereignisses nur an einem bestimmten Ort (z. B. der Hauptstadt oder dem Haupttempel) maßgeblich war, dann konnten weit entfernt gelegene Gebiete oft erst nach Tagen davon unterrichtet werden. Solche Probleme gab es beispielsweise im früheren jüdischen Kalender, wo der Hohepriester über die erste Sichtung der Mondsichel bei Neumond entschied. Durch die langen Informationswege konnte es passieren, dass ein religiöses Fest in abgelegenen Gebieten am „falschen“ Tag gefeiert wurde. Auch war es kurz vor Monatsende nicht möglich vorherzusagen, welches Datum z. B. in sieben Tagen sein würde, weil der Neumond nicht vorausberechnet, sondern durch tagesaktuelle Beobachtung ermittelt wurde.",
+    "Immer mehr Kulturen begannen deshalb, ihre Kalender zu berechnen. Der letzte ernsthafte Versuch, einen Beobachtungs-Kalender zu etablieren, wurde in der Französischen Revolution unternommen (Französischer Revolutionskalender).",
+    "Die Berechnung von Kalendern setzt umfangreiche astronomische und mathematische Kenntnisse voraus. Bei der Entwicklung des frühen ägyptischen astralen Sothiskalenders waren diese Kenntnisse vorhanden. Die Einführung eines ägyptischen Verwaltungskalenders auf 365-Tage-Basis folgte spätestens im dritten Jahrtausend v. Chr. Dieser konnte jedoch das Durchwandern der Jahreszeiten nicht verhindern. Die ägyptischen Könige bemängelten die Jahreszeitenverschiebung, doch erst Ptolemaios III. unternahm 238 v. Chr. einen Versuch zur Einführung eines Schalttages. Nach seinem Tod wurde neben dem neuen Schalttageskalender jedoch wieder der alte ägyptische Verwaltungskalender benutzt. Der julianische Kalender, der 45 v. Chr. von Julius Cäsar eingeführt wurde, stützte sich gleichwohl auf die Kalenderform des Ptolemaios III.",
+    "Sowohl Mond- als auch Sonnenkalender müssen mit Schalttagen oder unterschiedlichen Monatslängen arbeiten, die nach einer festgelegten mathematischen Regel in den normalen Kalenderlauf eingefügt sind. Ein Sonnenkalender benötigt normalerweise einen zusätzlichen Tag circa alle vier Jahre (im gregorianischen Kalender ist dies der 29. Februar), um die durchschnittliche Tageszahl der Länge des Sonnenjahrs anzupassen. Ein Mondkalender muss die Monatslängen zwischen 29 und 30 Tagen variieren, denn die Zeit zwischen zwei gleichen Mondphasen beträgt durchschnittlich circa 29,531 Tage.",
+    "Der Einschub eines zusätzlichen Tages, Monats oder Jahres in ein Kalendersystem wird als Embolismus ( „einschalten“) bezeichnet.",
+    "Lunar- oder Mondkalender orientieren sich an den Mondphasen. Das deutsche Wort Monat leitet sich etymologisch von Mond ab. Allerdings hat der Monat des gregorianischen Kalenders außer dem Namen nichts mehr mit dem Mondzyklus zu tun, da er mit einer durchschnittlichen Länge von 30,437 Tagen fast einen Tag länger dauert als der durchschnittliche synodische Monat.",
+    "Der Nachteil eines reinen Lunarkalenders besteht darin, dass er nicht mit dem Sonnenjahr korrespondieren kann, eine Eigenschaft, die in subtropischen und tropischen Breiten oft nicht die Bedeutung hat, die ihm in von den Jahreszeiten abhängigen Kulturen zukommt. So dauert im bekanntesten heute noch gebräuchlichen lunaren Kalender, dem islamischen Kalender, das Jahr mit 12 Monaten durchschnittlich 354,372 Tage. Die islamischen Monate „wandern“ dadurch Jahr für Jahr zirka elf Tage im gregorianischen Kalender nach vorne. Auch das Osterdatum folgt einem lunaren Kalender (Computus (Osterrechnung))",
+    "Die meisten Kulturen orientierten sich bei ihrer Zeitmessung an den durch die Sonne bestimmten Jahreszeiten (Solar- oder Sonnenkalender). Dementsprechend hat der Grundtyp des Solarkalenders die meisten Varianten hervorgebracht. Das Solarjahr orientiert sich am tropischen Jahr, dem auf den Frühlingspunkt bezogenen Umlauf der Erde um die Sonne. Dieses ist die Ausgangsbasis für den allgemeinen Jahresbegriff. Der heute weltweit verbreitete gregorianische Kalender ist ein solarer Kalender.",
+    "Der Lunisolarkalender stellt den Versuch dar, einen reinen Lunarkalender an das Sonnenjahr anzupassen. Da die Länge der Monate durch die Mondphasen festgelegt ist, können keine Schalttage wie beim Sonnenkalender eingefügt werden. Die Lösung liegt in der Einfügung von Schaltmonaten. Die Jahreslänge der Lunisolarkalender schwankt deshalb zwischen zirka 353 und zirka 385 Tagen. Bekannte Lunisolarkalender sind der jüdische, der traditionelle chinesische und der keltische Kalender.",
+    "Es sind nur wenige Kalendersysteme bekannt, die sich weder am Mond noch an der Sonne orientieren. Der astronomische ägyptische Kalender orientierte sich an dem hellsten Stern des Nachthimmels Sirius. Die Maya-Kalender basierten auf einer regelmäßigen Folge von 20 Tagen und einer 52 Jahre dauernden Kalenderrunde.",
+    "Unter Zeitrechnung versteht man die Ordnung und Strukturierung von Zeit und hilft den Menschen dabei, den Ablauf der Zeit besser zu verstehen. Die international gebräuchlichste Zeitrechnung ist der Gregorianische Kalender und ist mit der Ordnung und Strukturierung"
+  ],
+  "facts": [
+    {
+      "fact_index": 0,
+      "paragraph_index": 0,
+      "fact": "Ein Kalender ist eine Übersicht über die Tage, Wochen und Monate eines Jahres.",
+      "fallback": false
+    },
+    {
+      "fact_index": 1,
+      "paragraph_index": 0,
+      "fact": "Eine veraltete Bezeichnung für einen Kalender ist Jahrweiser.",
+      "fallback": false
+    },
+    {
+      "fact_index": 2,
+      "paragraph_index": 1,
+      "fact": "Das Wort „Kalender“ entstammt dem lateinischen Wort Calendarium.",
+      "fallback": false
+    },
+    {
+      "fact_index": 3,
+      "paragraph_index": 1,
+      "fact": "Calendarium bedeutet Schuldbuch.",
+      "fallback": false
+    },
+    {
+      "fact_index": 4,
+      "paragraph_index": 1,
+      "fact": "Das Calendarium war ein Verzeichnis der Kalendae.",
+      "fallback": false
+    },
+    {
+      "fact_index": 5,
+      "paragraph_index": 1,
+      "fact": "Die Kalendae waren die jeweils ersten Tage der antiken Monate.",
+      "fallback": false
+    },
+    {
+      "fact_index": 6,
+      "paragraph_index": 1,
+      "fact": "Das Wort Kalendae leitet sich von calare („ausrufen“) ab.",
+      "fallback": false
+    },
+    {
+      "fact_index": 7,
+      "paragraph_index": 1,
+      "fact": "An den Kalendae wurden Darlehen ausgezahlt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 8,
+      "paragraph_index": 1,
+      "fact": "An den Kalendae wurden Darlehensrückführungen fällig.",
+      "fallback": false
+    },
+    {
+      "fact_index": 9,
+      "paragraph_index": 1,
+      "fact": "An den Kalendae wurden Zinsforderungen fällig.",
+      "fallback": false
+    },
+    {
+      "fact_index": 10,
+      "paragraph_index": 2,
+      "fact": "Es gibt verschiedene Kalendersysteme.",
+      "fallback": false
+    },
+    {
+      "fact_index": 11,
+      "paragraph_index": 2,
+      "fact": "Heute ist weltweit überwiegend der gregorianische Kalender in Gebrauch.",
+      "fallback": false
+    },
+    {
+      "fact_index": 12,
+      "paragraph_index": 3,
+      "fact": "Kalender existieren in verschiedenen Formen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 13,
+      "paragraph_index": 3,
+      "fact": "Es gibt gedruckte Kalender.",
+      "fallback": false
+    },
+    {
+      "fact_index": 14,
+      "paragraph_index": 3,
+      "fact": "Es gibt bebilderte Kalender.",
+      "fallback": false
+    },
+    {
+      "fact_index": 15,
+      "paragraph_index": 3,
+      "fact": "Es gibt elektronische Kalender.",
+      "fallback": false
+    },
+    {
+      "fact_index": 16,
+      "paragraph_index": 3,
+      "fact": "Es gibt einen Bezug zum Begriff Kalendarium.",
+      "fallback": false
+    },
+    {
+      "fact_index": 17,
+      "paragraph_index": 4,
+      "fact": "Die Regeln zur Aufstellung von Kalendern ergeben sich aus astronomischen Gegebenheiten wie Mondphasen und dem Sonnenjahr.",
+      "fallback": false
+    },
+    {
+      "fact_index": 18,
+      "paragraph_index": 4,
+      "fact": "Die Regeln zur Aufstellung von Kalendern ergeben sich aus entsprechenden Kalenderberechnungen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 19,
+      "paragraph_index": 4,
+      "fact": "Die wissenschaftliche Kalenderkunde ist ein Teilgebiet der astronomischen Chronologie.",
+      "fallback": false
+    },
+    {
+      "fact_index": 20,
+      "paragraph_index": 4,
+      "fact": "Die vorwissenschaftliche Kunst, Kalender zu erstellen, wird als Hemerologie bezeichnet.",
+      "fallback": false
+    },
+    {
+      "fact_index": 21,
+      "paragraph_index": 5,
+      "fact": "Die Kenntnis regelmäßig stattfindender Tierwanderungen war für die frühen Jägerkulturen wichtig.",
+      "fallback": false
+    },
+    {
+      "fact_index": 22,
+      "paragraph_index": 5,
+      "fact": "Der Mensch dürfte schon in der frühen Zeit ein Bewusstsein für jahreszeitlich und astronomisch sich wiederholende Ereignisse und Umweltzyklen gehabt haben.",
+      "fallback": false
+    },
+    {
+      "fact_index": 23,
+      "paragraph_index": 5,
+      "fact": "Zu diesen Zyklen gehören die Veränderungen von Tag und Nacht.",
+      "fallback": false
+    },
+    {
+      "fact_index": 24,
+      "paragraph_index": 5,
+      "fact": "Zu diesen Zyklen gehören die Mondphasen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 25,
+      "paragraph_index": 5,
+      "fact": "Zu diesen Zyklen gehören jahreszeitlich bedingte Schwankungen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 26,
+      "paragraph_index": 5,
+      "fact": "Menschen in der Altsteinzeit konnten den Jahreslauf wahrnehmen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 27,
+      "paragraph_index": 5,
+      "fact": "Menschen in der Altsteinzeit konnten den Nachthimmel beobachten.",
+      "fallback": false
+    },
+    {
+      "fact_index": 28,
+      "paragraph_index": 5,
+      "fact": "Die Beobachtungen des Nachthimmels umfassten den Mondlauf.",
+      "fallback": false
+    },
+    {
+      "fact_index": 29,
+      "paragraph_index": 5,
+      "fact": "Die Beobachtungen des Nachthimmels umfassten die Bewegungen der Planeten.",
+      "fallback": false
+    },
+    {
+      "fact_index": 30,
+      "paragraph_index": 6,
+      "fact": "Der Turm von Jericho stammt aus dem 9. Jahrtausend v. Chr.",
+      "fallback": false
+    },
+    {
+      "fact_index": 31,
+      "paragraph_index": 6,
+      "fact": "Der Turm von Jericho deutet auf die Kenntnis der Sommersonnenwende hin.",
+      "fallback": false
+    },
+    {
+      "fact_index": 32,
+      "paragraph_index": 6,
+      "fact": "Jungsteinzeitliche Bauten wie Stonehenge zeugen von Bemühungen, die natürliche Jahreslänge exakt zu bestimmen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 33,
+      "paragraph_index": 6,
+      "fact": "Jungsteinzeitliche Bauten zeugen von Bemühungen, zyklisch wiederkehrende Himmelsereignisse wie Sonnenwende und Tag-und-Nacht-Gleiche exakt zu bestimmen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 34,
+      "paragraph_index": 6,
+      "fact": "Die Bevölkerung zur Zeit von Stonehenge war sesshaft geworden.",
+      "fallback": false
+    },
+    {
+      "fact_index": 35,
+      "paragraph_index": 6,
+      "fact": "Für die Landwirtschaft war eine wetterunabhängige Bestimmung der Zeitpunkte für Aussaat und Ernte wichtig.",
+      "fallback": false
+    },
+    {
+      "fact_index": 36,
+      "paragraph_index": 6,
+      "fact": "Die systematische Himmelsbeobachtung war mit religiösen Fruchtbarkeitskulten verbunden.",
+      "fallback": false
+    },
+    {
+      "fact_index": 37,
+      "paragraph_index": 6,
+      "fact": "Religiöse Fruchtbarkeitskulte wurden von der Hoffnung auf eine günstige Wiederkehr der Fruchtbarkeitsbedingungen getragen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 38,
+      "paragraph_index": 6,
+      "fact": "Bestimmte landwirtschaftliche Termine wurden an Feste gebunden.",
+      "fallback": false
+    },
+    {
+      "fact_index": 39,
+      "paragraph_index": 6,
+      "fact": "Diese Feste waren an Himmelsereignisse geknüpft.",
+      "fallback": false
+    },
+    {
+      "fact_index": 40,
+      "paragraph_index": 7,
+      "fact": "Im Neolithikum (Jungsteinzeit) fand ein Übergang von Jägerkulturen zum Ackerbau statt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 41,
+      "paragraph_index": 7,
+      "fact": "Für diesen Übergang wird eine Veränderung kalendarischer Vorstellungen vom Mond- zum Sonnenkalender angenommen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 42,
+      "paragraph_index": 7,
+      "fact": "Dieser steinzeitliche Kalender wird auch als neolithischer Kalender bezeichnet.",
+      "fallback": false
+    },
+    {
+      "fact_index": 43,
+      "paragraph_index": 7,
+      "fact": "Alexander Thom nannte diesen Kalender auch megalithischen Kalender.",
+      "fallback": false
+    },
+    {
+      "fact_index": 44,
+      "paragraph_index": 7,
+      "fact": "Der neolithische Kalender beinhaltet wohl die ältesten kalendarischen Vorstellungen der Menschheit.",
+      "fallback": false
+    },
+    {
+      "fact_index": 45,
+      "paragraph_index": 7,
+      "fact": "Der neolithische Kalender ist die Grundlage späterer Kalendervarianten.",
+      "fallback": false
+    },
+    {
+      "fact_index": 46,
+      "paragraph_index": 7,
+      "fact": "Der Begriff 'Neolithische Kalender-Revolution' wird analog zum Begriff der 'Neolithischen Revolution' verwendet.",
+      "fallback": false
+    },
+    {
+      "fact_index": 47,
+      "paragraph_index": 8,
+      "fact": "Die ältesten heute noch bekannten Kalender stammen aus den frühen Hochkulturen Ägyptens und Mesopotamiens.",
+      "fallback": false
+    },
+    {
+      "fact_index": 48,
+      "paragraph_index": 8,
+      "fact": "Es gibt zwei grundlegende Kalendertypen, die die meisten heutigen Kalendersysteme prägen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 49,
+      "paragraph_index": 8,
+      "fact": "Ein grundlegender Kalendertyp ist der an den Mondphasen orientierte Mondkalender.",
+      "fallback": false
+    },
+    {
+      "fact_index": 50,
+      "paragraph_index": 8,
+      "fact": "Ein weiterer grundlegender Kalendertyp ist der astronomische Kalender, der den Lauf der Himmelskörper widerspiegelt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 51,
+      "paragraph_index": 9,
+      "fact": "Der siebentägige Wochenzyklus wurde spätestens von den Babyloniern entwickelt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 52,
+      "paragraph_index": 9,
+      "fact": "Der siebentägige Wochenzyklus regelt heute fast weltweit den Ablauf des Alltags.",
+      "fallback": false
+    },
+    {
+      "fact_index": 53,
+      "paragraph_index": 9,
+      "fact": "In anderen Kalendern gab es ähnliche Zyklen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 54,
+      "paragraph_index": 9,
+      "fact": "Diese anderen Zyklen hatten eine Länge zwischen fünf und zehn Tagen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 55,
+      "paragraph_index": 10,
+      "fact": "Die Anpassung von Wochen- und Monatsfolgen an die feste Größe des astronomischen Jahres war nicht einfach zu lösen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 56,
+      "paragraph_index": 10,
+      "fact": "Es kam zur Herausbildung verschiedener Kalendersysteme.",
+      "fallback": false
+    },
+    {
+      "fact_index": 57,
+      "paragraph_index": 11,
+      "fact": "Frühe Kalendersysteme wurden durch Beobachtung gewonnen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 58,
+      "paragraph_index": 11,
+      "fact": "Frühe Kalendersysteme waren astronomische Kalender.",
+      "fallback": false
+    },
+    {
+      "fact_index": 59,
+      "paragraph_index": 11,
+      "fact": "Ein neuer Zyklus begann mit dem Eintritt eines bestimmten definierten Himmelsereignisses.",
+      "fallback": false
+    },
+    {
+      "fact_index": 60,
+      "paragraph_index": 11,
+      "fact": "Beispiele für solche Himmelsereignisse sind der Neumond oder die Tag-und-Nacht-Gleiche im Frühling.",
+      "fallback": false
+    },
+    {
+      "fact_index": 61,
+      "paragraph_index": 11,
+      "fact": "Frühe Kalendersysteme mussten regelmäßig nachgeregelt werden.",
+      "fallback": false
+    },
+    {
+      "fact_index": 62,
+      "paragraph_index": 12,
+      "fact": "Die beschriebene Methode hatte einen entscheidenden Nachteil.",
+      "fallback": false
+    },
+    {
+      "fact_index": 63,
+      "paragraph_index": 12,
+      "fact": "In großen Herrschaftsräumen konnten Ereignisse an unterschiedlichen Orten zu unterschiedlichen Zeiten wahrgenommen werden.",
+      "fallback": false
+    },
+    {
+      "fact_index": 64,
+      "paragraph_index": 12,
+      "fact": "Dies führte dazu, dass an verschiedenen Orten unterschiedliche Daten gezählt wurden.",
+      "fallback": false
+    },
+    {
+      "fact_index": 65,
+      "paragraph_index": 12,
+      "fact": "War nur ein bestimmter Ort (z. B. die Hauptstadt oder der Haupttempel) maßgeblich für den Eintritt eines Ereignisses, wurden weit entfernte Gebiete oft erst nach Tagen informiert.",
+      "fallback": false
+    },
+    {
+      "fact_index": 66,
+      "paragraph_index": 12,
+      "fact": "Im früheren jüdischen Kalender gab es solche Probleme.",
+      "fallback": false
+    },
+    {
+      "fact_index": 67,
+      "paragraph_index": 12,
+      "fact": "Im früheren jüdischen Kalender entschied der Hohepriester über die erste Sichtung der Mondsichel bei Neumond.",
+      "fallback": false
+    },
+    {
+      "fact_index": 68,
+      "paragraph_index": 12,
+      "fact": "Aufgrund langer Informationswege wurden religiöse Feste in abgelegenen Gebieten teilweise am falschen Tag gefeiert.",
+      "fallback": false
+    },
+    {
+      "fact_index": 69,
+      "paragraph_index": 12,
+      "fact": "Kurz vor Monatsende war es nicht möglich, das Datum für die folgenden sieben Tage vorherzusagen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 70,
+      "paragraph_index": 12,
+      "fact": "Der Neumond wurde nicht vorausberechnet, sondern durch tagesaktuelle Beobachtung ermittelt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 71,
+      "paragraph_index": 13,
+      "fact": "Immer mehr Kulturen begannen, ihre Kalender zu berechnen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 72,
+      "paragraph_index": 13,
+      "fact": "Während der Französischen Revolution wurde ein Versuch unternommen, einen Beobachtungs-Kalender zu etablieren.",
+      "fallback": false
+    },
+    {
+      "fact_index": 73,
+      "paragraph_index": 13,
+      "fact": "Dieser Versuch wird als Französischer Revolutionskalender bezeichnet.",
+      "fallback": false
+    },
+    {
+      "fact_index": 74,
+      "paragraph_index": 13,
+      "fact": "Der Französische Revolutionskalender war der letzte ernsthafte Versuch, einen Beobachtungs-Kalender zu etablieren.",
+      "fallback": false
+    },
+    {
+      "fact_index": 75,
+      "paragraph_index": 14,
+      "fact": "Die Berechnung von Kalendern setzt umfangreiche astronomische und mathematische Kenntnisse voraus.",
+      "fallback": false
+    },
+    {
+      "fact_index": 76,
+      "paragraph_index": 14,
+      "fact": "Bei der Entwicklung des frühen ägyptischen astralen Sothiskalenders waren astronomische und mathematische Kenntnisse vorhanden.",
+      "fallback": false
+    },
+    {
+      "fact_index": 77,
+      "paragraph_index": 14,
+      "fact": "Ein ägyptischer Verwaltungskalender auf 365-Tage-Basis wurde spätestens im dritten Jahrtausend v. Chr. eingeführt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 78,
+      "paragraph_index": 14,
+      "fact": "Der ägyptische Verwaltungskalender konnte das Durchwandern der Jahreszeiten nicht verhindern.",
+      "fallback": false
+    },
+    {
+      "fact_index": 79,
+      "paragraph_index": 14,
+      "fact": "Die ägyptischen Könige bemängelten die Verschiebung der Jahreszeiten.",
+      "fallback": false
+    },
+    {
+      "fact_index": 80,
+      "paragraph_index": 14,
+      "fact": "Ptolemaios III. unternahm 238 v. Chr. einen Versuch, einen Schalttag einzuführen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 81,
+      "paragraph_index": 14,
+      "fact": "Nach dem Tod von Ptolemaios III. wurde neben dem neuen Schalttageskalender wieder der alte ägyptische Verwaltungskalender benutzt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 82,
+      "paragraph_index": 14,
+      "fact": "Der julianische Kalender wurde 45 v. Chr. von Julius Cäsar eingeführt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 83,
+      "paragraph_index": 14,
+      "fact": "Der julianische Kalender stützte sich auf die Kalenderform von Ptolemaios III.",
+      "fallback": false
+    },
+    {
+      "fact_index": 84,
+      "paragraph_index": 15,
+      "fact": "Sowohl Mond- als auch Sonnenkalender müssen mit Schalttagen oder unterschiedlichen Monatslängen arbeiten.",
+      "fallback": false
+    },
+    {
+      "fact_index": 85,
+      "paragraph_index": 15,
+      "fact": "Diese Anpassungen werden nach einer festgelegten mathematischen Regel in den normalen Kalenderlauf eingefügt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 86,
+      "paragraph_index": 15,
+      "fact": "Ein Sonnenkalender benötigt normalerweise circa alle vier Jahre einen zusätzlichen Tag.",
+      "fallback": false
+    },
+    {
+      "fact_index": 87,
+      "paragraph_index": 15,
+      "fact": "Im gregorianischen Kalender ist dieser zusätzliche Tag der 29. Februar.",
+      "fallback": false
+    },
+    {
+      "fact_index": 88,
+      "paragraph_index": 15,
+      "fact": "Der zusätzliche Tag im Sonnenkalender dient dazu, die durchschnittliche Tageszahl an die Länge des Sonnenjahrs anzupassen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 89,
+      "paragraph_index": 15,
+      "fact": "Ein Mondkalender muss die Monatslängen zwischen 29 und 30 Tagen variieren.",
+      "fallback": false
+    },
+    {
+      "fact_index": 90,
+      "paragraph_index": 15,
+      "fact": "Die Zeit zwischen zwei gleichen Mondphasen beträgt durchschnittlich circa 29,531 Tage.",
+      "fallback": false
+    },
+    {
+      "fact_index": 91,
+      "paragraph_index": 16,
+      "fact": "Der Einschub eines zusätzlichen Tages, Monats oder Jahres in ein Kalendersystem wird als Embolismus bezeichnet.",
+      "fallback": false
+    },
+    {
+      "fact_index": 92,
+      "paragraph_index": 16,
+      "fact": "Ein Synonym für Embolismus in diesem Kontext ist „einschalten“.",
+      "fallback": false
+    },
+    {
+      "fact_index": 93,
+      "paragraph_index": 17,
+      "fact": "Die Kenntnis regelmäßig stattfindender Tierwanderungen war für die frühen Jägerkulturen wichtig.",
+      "fallback": false
+    },
+    {
+      "fact_index": 94,
+      "paragraph_index": 17,
+      "fact": "Der Mensch dürfte schon in der frühen Zeit ein Bewusstsein für jahreszeitlich und astronomisch sich wiederholende Ereignisse und Umweltzyklen gehabt haben.",
+      "fallback": false
+    },
+    {
+      "fact_index": 95,
+      "paragraph_index": 17,
+      "fact": "Zu diesen Zyklen gehören die Veränderungen von Tag und Nacht.",
+      "fallback": false
+    },
+    {
+      "fact_index": 96,
+      "paragraph_index": 17,
+      "fact": "Zu diesen Zyklen gehören die Mondphasen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 97,
+      "paragraph_index": 17,
+      "fact": "Zu diesen Zyklen gehören jahreszeitlich bedingte Schwankungen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 98,
+      "paragraph_index": 17,
+      "fact": "Menschen in der Altsteinzeit konnten den Jahreslauf wahrnehmen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 99,
+      "paragraph_index": 17,
+      "fact": "Menschen in der Altsteinzeit konnten den Nachthimmel beobachten.",
+      "fallback": false
+    },
+    {
+      "fact_index": 100,
+      "paragraph_index": 17,
+      "fact": "Die Beobachtungen des Nachthimmels umfassten den Mondlauf.",
+      "fallback": false
+    },
+    {
+      "fact_index": 101,
+      "paragraph_index": 17,
+      "fact": "Die Beobachtungen des Nachthimmels umfassten die Bewegungen der Planeten.",
+      "fallback": false
+    },
+    {
+      "fact_index": 102,
+      "paragraph_index": 18,
+      "fact": "Der Turm von Jericho stammt aus dem 9. Jahrtausend v. Chr.",
+      "fallback": false
+    },
+    {
+      "fact_index": 103,
+      "paragraph_index": 18,
+      "fact": "Der Turm von Jericho deutet auf die Kenntnis der Sommersonnenwende hin.",
+      "fallback": false
+    },
+    {
+      "fact_index": 104,
+      "paragraph_index": 18,
+      "fact": "Jungsteinzeitliche Bauten wie Stonehenge zeugen von Bemühungen, die natürliche Jahreslänge exakt zu bestimmen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 105,
+      "paragraph_index": 18,
+      "fact": "Jungsteinzeitliche Bauten zeugen von Bemühungen, zyklisch wiederkehrende Himmelsereignisse wie Sonnenwende und Tag-und-Nacht-Gleiche exakt zu bestimmen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 106,
+      "paragraph_index": 18,
+      "fact": "Die Bevölkerung zur Zeit von Stonehenge war sesshaft geworden.",
+      "fallback": false
+    },
+    {
+      "fact_index": 107,
+      "paragraph_index": 18,
+      "fact": "Für die Landwirtschaft war eine wetterunabhängige Bestimmung der Zeitpunkte für Aussaat und Ernte wichtig.",
+      "fallback": false
+    },
+    {
+      "fact_index": 108,
+      "paragraph_index": 18,
+      "fact": "Die systematische Himmelsbeobachtung war mit religiösen Fruchtbarkeitskulten verbunden.",
+      "fallback": false
+    },
+    {
+      "fact_index": 109,
+      "paragraph_index": 18,
+      "fact": "Religiöse Fruchtbarkeitskulte wurden von der Hoffnung auf eine günstige Wiederkehr der Fruchtbarkeitsbedingungen getragen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 110,
+      "paragraph_index": 18,
+      "fact": "Bestimmte landwirtschaftliche Termine wurden an Feste gebunden.",
+      "fallback": false
+    },
+    {
+      "fact_index": 111,
+      "paragraph_index": 18,
+      "fact": "Diese Feste waren an Himmelsereignisse geknüpft.",
+      "fallback": false
+    },
+    {
+      "fact_index": 112,
+      "paragraph_index": 19,
+      "fact": "Im Neolithikum (Jungsteinzeit) fand ein Übergang von Jägerkulturen zum Ackerbau statt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 113,
+      "paragraph_index": 19,
+      "fact": "Für diesen Übergang wird eine Veränderung kalendarischer Vorstellungen vom Mond- zum Sonnenkalender angenommen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 114,
+      "paragraph_index": 19,
+      "fact": "Dieser steinzeitliche Kalender wird auch als neolithischer Kalender bezeichnet.",
+      "fallback": false
+    },
+    {
+      "fact_index": 115,
+      "paragraph_index": 19,
+      "fact": "Alexander Thom nannte diesen Kalender auch megalithischen Kalender.",
+      "fallback": false
+    },
+    {
+      "fact_index": 116,
+      "paragraph_index": 19,
+      "fact": "Der neolithische Kalender beinhaltet wohl die ältesten kalendarischen Vorstellungen der Menschheit.",
+      "fallback": false
+    },
+    {
+      "fact_index": 117,
+      "paragraph_index": 19,
+      "fact": "Der neolithische Kalender ist die Grundlage späterer Kalendervarianten.",
+      "fallback": false
+    },
+    {
+      "fact_index": 118,
+      "paragraph_index": 19,
+      "fact": "Der Begriff 'Neolithische Kalender-Revolution' wird analog zum Begriff der 'Neolithischen Revolution' verwendet.",
+      "fallback": false
+    },
+    {
+      "fact_index": 119,
+      "paragraph_index": 20,
+      "fact": "Die ältesten heute noch bekannten Kalender stammen aus den frühen Hochkulturen Ägyptens und Mesopotamiens.",
+      "fallback": false
+    },
+    {
+      "fact_index": 120,
+      "paragraph_index": 20,
+      "fact": "Es gibt zwei grundlegende Kalendertypen, die die meisten heutigen Kalendersysteme prägen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 121,
+      "paragraph_index": 20,
+      "fact": "Ein grundlegender Kalendertyp ist der an den Mondphasen orientierte Mondkalender.",
+      "fallback": false
+    },
+    {
+      "fact_index": 122,
+      "paragraph_index": 20,
+      "fact": "Ein weiterer grundlegender Kalendertyp ist der astronomische Kalender, der den Lauf der Himmelskörper widerspiegelt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 123,
+      "paragraph_index": 21,
+      "fact": "Der siebentägige Wochenzyklus wurde spätestens von den Babyloniern entwickelt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 124,
+      "paragraph_index": 21,
+      "fact": "Der siebentägige Wochenzyklus regelt heute fast weltweit den Ablauf des Alltags.",
+      "fallback": false
+    },
+    {
+      "fact_index": 125,
+      "paragraph_index": 21,
+      "fact": "In anderen Kalendern gab es ähnliche Zyklen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 126,
+      "paragraph_index": 21,
+      "fact": "Diese anderen Zyklen hatten eine Länge zwischen fünf und zehn Tagen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 127,
+      "paragraph_index": 22,
+      "fact": "Die Anpassung von Wochen- und Monatsfolgen an die feste Größe des astronomischen Jahres war nicht einfach zu lösen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 128,
+      "paragraph_index": 22,
+      "fact": "Es kam zur Herausbildung verschiedener Kalendersysteme.",
+      "fallback": false
+    },
+    {
+      "fact_index": 129,
+      "paragraph_index": 23,
+      "fact": "Frühe Kalendersysteme wurden durch Beobachtung gewonnen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 130,
+      "paragraph_index": 23,
+      "fact": "Frühe Kalendersysteme waren astronomische Kalender.",
+      "fallback": false
+    },
+    {
+      "fact_index": 131,
+      "paragraph_index": 23,
+      "fact": "Ein neuer Zyklus begann mit dem Eintritt eines bestimmten definierten Himmelsereignisses.",
+      "fallback": false
+    },
+    {
+      "fact_index": 132,
+      "paragraph_index": 23,
+      "fact": "Beispiele für solche Himmelsereignisse sind der Neumond oder die Tag-und-Nacht-Gleiche im Frühling.",
+      "fallback": false
+    },
+    {
+      "fact_index": 133,
+      "paragraph_index": 23,
+      "fact": "Frühe Kalendersysteme mussten regelmäßig nachgeregelt werden.",
+      "fallback": false
+    },
+    {
+      "fact_index": 134,
+      "paragraph_index": 24,
+      "fact": "Die beschriebene Methode hatte einen entscheidenden Nachteil.",
+      "fallback": false
+    },
+    {
+      "fact_index": 135,
+      "paragraph_index": 24,
+      "fact": "In großen Herrschaftsräumen konnten Ereignisse an unterschiedlichen Orten zu unterschiedlichen Zeiten wahrgenommen werden.",
+      "fallback": false
+    },
+    {
+      "fact_index": 136,
+      "paragraph_index": 24,
+      "fact": "Dies führte dazu, dass an verschiedenen Orten unterschiedliche Daten gezählt wurden.",
+      "fallback": false
+    },
+    {
+      "fact_index": 137,
+      "paragraph_index": 24,
+      "fact": "War nur ein bestimmter Ort (z. B. die Hauptstadt oder der Haupttempel) maßgeblich für den Eintritt eines Ereignisses, wurden weit entfernte Gebiete oft erst nach Tagen informiert.",
+      "fallback": false
+    },
+    {
+      "fact_index": 138,
+      "paragraph_index": 24,
+      "fact": "Im früheren jüdischen Kalender gab es solche Probleme.",
+      "fallback": false
+    },
+    {
+      "fact_index": 139,
+      "paragraph_index": 24,
+      "fact": "Im früheren jüdischen Kalender entschied der Hohepriester über die erste Sichtung der Mondsichel bei Neumond.",
+      "fallback": false
+    },
+    {
+      "fact_index": 140,
+      "paragraph_index": 24,
+      "fact": "Aufgrund langer Informationswege wurden religiöse Feste in abgelegenen Gebieten teilweise am falschen Tag gefeiert.",
+      "fallback": false
+    },
+    {
+      "fact_index": 141,
+      "paragraph_index": 24,
+      "fact": "Kurz vor Monatsende war es nicht möglich, das Datum für die folgenden sieben Tage vorherzusagen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 142,
+      "paragraph_index": 24,
+      "fact": "Der Neumond wurde nicht vorausberechnet, sondern durch tagesaktuelle Beobachtung ermittelt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 143,
+      "paragraph_index": 25,
+      "fact": "Immer mehr Kulturen begannen, ihre Kalender zu berechnen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 144,
+      "paragraph_index": 25,
+      "fact": "Während der Französischen Revolution wurde ein Versuch unternommen, einen Beobachtungs-Kalender zu etablieren.",
+      "fallback": false
+    },
+    {
+      "fact_index": 145,
+      "paragraph_index": 25,
+      "fact": "Dieser Versuch wird als Französischer Revolutionskalender bezeichnet.",
+      "fallback": false
+    },
+    {
+      "fact_index": 146,
+      "paragraph_index": 25,
+      "fact": "Der Französische Revolutionskalender war der letzte ernsthafte Versuch, einen Beobachtungs-Kalender zu etablieren.",
+      "fallback": false
+    },
+    {
+      "fact_index": 147,
+      "paragraph_index": 26,
+      "fact": "Die Berechnung von Kalendern setzt umfangreiche astronomische und mathematische Kenntnisse voraus.",
+      "fallback": false
+    },
+    {
+      "fact_index": 148,
+      "paragraph_index": 26,
+      "fact": "Bei der Entwicklung des frühen ägyptischen astralen Sothiskalenders waren astronomische und mathematische Kenntnisse vorhanden.",
+      "fallback": false
+    },
+    {
+      "fact_index": 149,
+      "paragraph_index": 26,
+      "fact": "Ein ägyptischer Verwaltungskalender auf 365-Tage-Basis wurde spätestens im dritten Jahrtausend v. Chr. eingeführt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 150,
+      "paragraph_index": 26,
+      "fact": "Der ägyptische Verwaltungskalender konnte das Durchwandern der Jahreszeiten nicht verhindern.",
+      "fallback": false
+    },
+    {
+      "fact_index": 151,
+      "paragraph_index": 26,
+      "fact": "Die ägyptischen Könige bemängelten die Verschiebung der Jahreszeiten.",
+      "fallback": false
+    },
+    {
+      "fact_index": 152,
+      "paragraph_index": 26,
+      "fact": "Ptolemaios III. unternahm 238 v. Chr. einen Versuch, einen Schalttag einzuführen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 153,
+      "paragraph_index": 26,
+      "fact": "Nach dem Tod von Ptolemaios III. wurde neben dem neuen Schalttageskalender wieder der alte ägyptische Verwaltungskalender benutzt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 154,
+      "paragraph_index": 26,
+      "fact": "Der julianische Kalender wurde 45 v. Chr. von Julius Cäsar eingeführt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 155,
+      "paragraph_index": 26,
+      "fact": "Der julianische Kalender stützte sich auf die Kalenderform von Ptolemaios III.",
+      "fallback": false
+    },
+    {
+      "fact_index": 156,
+      "paragraph_index": 27,
+      "fact": "Sowohl Mond- als auch Sonnenkalender müssen mit Schalttagen oder unterschiedlichen Monatslängen arbeiten.",
+      "fallback": false
+    },
+    {
+      "fact_index": 157,
+      "paragraph_index": 27,
+      "fact": "Diese Anpassungen werden nach einer festgelegten mathematischen Regel in den normalen Kalenderlauf eingefügt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 158,
+      "paragraph_index": 27,
+      "fact": "Ein Sonnenkalender benötigt normalerweise circa alle vier Jahre einen zusätzlichen Tag.",
+      "fallback": false
+    },
+    {
+      "fact_index": 159,
+      "paragraph_index": 27,
+      "fact": "Im gregorianischen Kalender ist dieser zusätzliche Tag der 29. Februar.",
+      "fallback": false
+    },
+    {
+      "fact_index": 160,
+      "paragraph_index": 27,
+      "fact": "Der zusätzliche Tag im Sonnenkalender dient dazu, die durchschnittliche Tageszahl an die Länge des Sonnenjahrs anzupassen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 161,
+      "paragraph_index": 27,
+      "fact": "Ein Mondkalender muss die Monatslängen zwischen 29 und 30 Tagen variieren.",
+      "fallback": false
+    },
+    {
+      "fact_index": 162,
+      "paragraph_index": 27,
+      "fact": "Die Zeit zwischen zwei gleichen Mondphasen beträgt durchschnittlich circa 29,531 Tage.",
+      "fallback": false
+    },
+    {
+      "fact_index": 163,
+      "paragraph_index": 28,
+      "fact": "Der Einschub eines zusätzlichen Tages, Monats oder Jahres in ein Kalendersystem wird als Embolismus bezeichnet.",
+      "fallback": false
+    },
+    {
+      "fact_index": 164,
+      "paragraph_index": 28,
+      "fact": "Ein Synonym für Embolismus in diesem Kontext ist „einschalten“.",
+      "fallback": false
+    },
+    {
+      "fact_index": 165,
+      "paragraph_index": 29,
+      "fact": "Lunar- oder Mondkalender orientieren sich an den Mondphasen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 166,
+      "paragraph_index": 29,
+      "fact": "Das deutsche Wort Monat leitet sich etymologisch von Mond ab.",
+      "fallback": false
+    },
+    {
+      "fact_index": 167,
+      "paragraph_index": 29,
+      "fact": "Der Monat des gregorianischen Kalenders hat außer dem Namen keinen Bezug mehr zum Mondzyklus.",
+      "fallback": false
+    },
+    {
+      "fact_index": 168,
+      "paragraph_index": 29,
+      "fact": "Ein Monat des gregorianischen Kalenders hat eine durchschnittliche Länge von 30,437 Tagen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 169,
+      "paragraph_index": 29,
+      "fact": "Ein Monat des gregorianischen Kalenders dauert fast einen Tag länger als der durchschnittliche synodische Monat.",
+      "fallback": false
+    },
+    {
+      "fact_index": 170,
+      "paragraph_index": 30,
+      "fact": "Ein reiner Lunarkalender korrespondiert nicht mit dem Sonnenjahr.",
+      "fallback": false
+    },
+    {
+      "fact_index": 171,
+      "paragraph_index": 30,
+      "fact": "In subtropischen und tropischen Breiten ist die Korrespondenz mit dem Sonnenjahr oft weniger bedeutsam als in Kulturen, die von den Jahreszeiten abhängen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 172,
+      "paragraph_index": 30,
+      "fact": "Der islamische Kalender ist ein heute noch gebräuchlicher lunarer Kalender.",
+      "fallback": false
+    },
+    {
+      "fact_index": 173,
+      "paragraph_index": 30,
+      "fact": "Ein Jahr im islamischen Kalender besteht aus 12 Monaten.",
+      "fallback": false
+    },
+    {
+      "fact_index": 174,
+      "paragraph_index": 30,
+      "fact": "Ein Jahr im islamischen Kalender dauert durchschnittlich 354,372 Tage.",
+      "fallback": false
+    },
+    {
+      "fact_index": 175,
+      "paragraph_index": 30,
+      "fact": "Die islamischen Monate verschieben sich im Vergleich zum gregorianischen Kalender jährlich um zirka elf Tage nach vorne.",
+      "fallback": false
+    },
+    {
+      "fact_index": 176,
+      "paragraph_index": 30,
+      "fact": "Das Osterdatum wird auf Basis eines lunaren Kalenders bestimmt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 177,
+      "paragraph_index": 30,
+      "fact": "Die Berechnung des Osterdatums wird als Computus oder Osterrechnung bezeichnet.",
+      "fallback": false
+    },
+    {
+      "fact_index": 178,
+      "paragraph_index": 31,
+      "fact": "Die meisten Kulturen orientierten sich bei ihrer Zeitmessung an den durch die Sonne bestimmten Jahreszeiten.",
+      "fallback": false
+    },
+    {
+      "fact_index": 179,
+      "paragraph_index": 31,
+      "fact": "Ein Kalender, der sich an den Sonnenjahreszeiten orientiert, wird als Solar- oder Sonnenkalender bezeichnet.",
+      "fallback": false
+    },
+    {
+      "fact_index": 180,
+      "paragraph_index": 31,
+      "fact": "Der Grundtyp des Solarkalenders hat die meisten Varianten hervorgebracht.",
+      "fallback": false
+    },
+    {
+      "fact_index": 181,
+      "paragraph_index": 31,
+      "fact": "Das Solarjahr orientiert sich am tropischen Jahr.",
+      "fallback": false
+    },
+    {
+      "fact_index": 182,
+      "paragraph_index": 31,
+      "fact": "Das tropische Jahr ist der auf den Frühlingspunkt bezogene Umlauf der Erde um die Sonne.",
+      "fallback": false
+    },
+    {
+      "fact_index": 183,
+      "paragraph_index": 31,
+      "fact": "Das tropische Jahr ist die Ausgangsbasis für den allgemeinen Jahresbegriff.",
+      "fallback": false
+    },
+    {
+      "fact_index": 184,
+      "paragraph_index": 31,
+      "fact": "Der heute weltweit verbreitete gregorianische Kalender ist ein solarer Kalender.",
+      "fallback": false
+    },
+    {
+      "fact_index": 185,
+      "paragraph_index": 32,
+      "fact": "Der Lunisolarkalender versucht, einen reinen Lunarkalender an das Sonnenjahr anzupassen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 186,
+      "paragraph_index": 32,
+      "fact": "Die Länge der Monate im Lunisolarkalender ist durch die Mondphasen festgelegt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 187,
+      "paragraph_index": 32,
+      "fact": "Im Lunisolarkalender können keine Schalttage wie beim Sonnenkalender eingefügt werden.",
+      "fallback": false
+    },
+    {
+      "fact_index": 188,
+      "paragraph_index": 32,
+      "fact": "Die Anpassung an das Sonnenjahr erfolgt im Lunisolarkalender durch die Einfügung von Schaltmonaten.",
+      "fallback": false
+    },
+    {
+      "fact_index": 189,
+      "paragraph_index": 32,
+      "fact": "Die Jahreslänge von Lunisolarkalendern schwankt zwischen zirka 353 und zirka 385 Tagen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 190,
+      "paragraph_index": 32,
+      "fact": "Der jüdische Kalender ist ein bekannter Lunisolarkalender.",
+      "fallback": false
+    },
+    {
+      "fact_index": 191,
+      "paragraph_index": 32,
+      "fact": "Der traditionelle chinesische Kalender ist ein bekannter Lunisolarkalender.",
+      "fallback": false
+    },
+    {
+      "fact_index": 192,
+      "paragraph_index": 32,
+      "fact": "Der keltische Kalender ist ein bekannter Lunisolarkalender.",
+      "fallback": false
+    },
+    {
+      "fact_index": 193,
+      "paragraph_index": 33,
+      "fact": "Es sind nur wenige Kalendersysteme bekannt, die sich weder am Mond noch an der Sonne orientieren.",
+      "fallback": false
+    },
+    {
+      "fact_index": 194,
+      "paragraph_index": 33,
+      "fact": "Der astronomische ägyptische Kalender orientierte sich an dem hellsten Stern des Nachthimmels Sirius.",
+      "fallback": false
+    },
+    {
+      "fact_index": 195,
+      "paragraph_index": 33,
+      "fact": "Die Maya-Kalender basierten auf einer regelmäßigen Folge von 20 Tagen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 196,
+      "paragraph_index": 33,
+      "fact": "Die Maya-Kalender basierten auf einer 52 Jahre dauernden Kalenderrunde.",
+      "fallback": false
+    },
+    {
+      "fact_index": 197,
+      "paragraph_index": 34,
+      "fact": "Zeitrechnung ist die Ordnung und Strukturierung von Zeit.",
+      "fallback": false
+    },
+    {
+      "fact_index": 198,
+      "paragraph_index": 34,
+      "fact": "Zeitrechnung hilft Menschen dabei, den Ablauf der Zeit besser zu verstehen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 199,
+      "paragraph_index": 34,
+      "fact": "Der Gregorianische Kalender ist die international gebräuchlichste Zeitrechnung.",
+      "fallback": false
+    }
+  ]
+}

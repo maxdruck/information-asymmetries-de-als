@@ -1,0 +1,992 @@
+{
+  "{\"candidate_indices\": [0, 2], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo der Große war als Papst Leo I. bekannt.\"], \"source_fact_index\": 0, \"target_contexts\": [[\"Leo der Große, auch Leo I. genannt, wurde um 400 in Rom geboren.\"], [\"Leo der Große, auch Leo I. genannt, wurde um 400 in Rom geboren.\", \"Nach dem Liber Pontificalis wurde Leo der Große in der Toskana geboren.\", \"Leo der Große starb am 10. November 461.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 277,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [1, 0], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo der Große war als Papst Leo I. bekannt.\", \"Leo der Große wurde um 400 entweder in Rom oder – nach dem Liber Pontificalis – in der Toskana geboren.\"], \"source_fact_index\": 1, \"target_contexts\": [[\"Leo der Große, auch Leo I. genannt, wurde um 400 in Rom geboren.\", \"Nach dem Liber Pontificalis wurde Leo der Große in der Toskana geboren.\"], [\"Leo der Große, auch Leo I. genannt, wurde um 400 in Rom geboren.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 289,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [2, 3], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo der Große war als Papst Leo I. bekannt.\", \"Leo der Große wurde um 400 entweder in Rom oder – nach dem Liber Pontificalis – in der Toskana geboren.\", \"Leo der Große starb am 10. November 461.\"], \"source_fact_index\": 2, \"target_contexts\": [[\"Leo der Große, auch Leo I. genannt, wurde um 400 in Rom geboren.\", \"Nach dem Liber Pontificalis wurde Leo der Große in der Toskana geboren.\", \"Leo der Große starb am 10. November 461.\"], [\"Nach dem Liber Pontificalis wurde Leo der Große in der Toskana geboren.\", \"Leo der Große starb am 10. November 461.\", \"Leo der Große war vom 29. September 440 bis zu seinem Tod Bischof von Rom und damit Papst.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 365,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [3, 2], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo der Große wurde um 400 entweder in Rom oder – nach dem Liber Pontificalis – in der Toskana geboren.\", \"Leo der Große starb am 10. November 461.\", \"Leo der Große war vom 29. September 440 bis zu seinem Tode Bischof von Rom.\"], \"source_fact_index\": 3, \"target_contexts\": [[\"Nach dem Liber Pontificalis wurde Leo der Große in der Toskana geboren.\", \"Leo der Große starb am 10. November 461.\", \"Leo der Große war vom 29. September 440 bis zu seinem Tod Bischof von Rom und damit Papst.\"], [\"Leo der Große, auch Leo I. genannt, wurde um 400 in Rom geboren.\", \"Nach dem Liber Pontificalis wurde Leo der Große in der Toskana geboren.\", \"Leo der Große starb am 10. November 461.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 377,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [5, 4], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo der Große starb am 10. November 461.\", \"Leo der Große war vom 29. September 440 bis zu seinem Tode Bischof von Rom.\", \"Leo der Große verteidigte die Lehre der katholischen Kirche, insbesondere während des Konzils von Chalcedon (451).\"], \"source_fact_index\": 4, \"target_contexts\": [[\"Leo der Große war vom 29. September 440 bis zu seinem Tod Bischof von Rom und damit Papst.\", \"Leo der Große hat die Lehre der katholischen Kirche verteidigt.\", \"Leo der Große hat die Lehre der katholischen Kirche vor allem beim Konzil von Chalzedon (451) verteidigt.\"], [\"Leo der Große starb am 10. November 461.\", \"Leo der Große war vom 29. September 440 bis zu seinem Tod Bischof von Rom und damit Papst.\", \"Leo der Große hat die Lehre der katholischen Kirche verteidigt.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 397,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [6, 7], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo der Große war vom 29. September 440 bis zu seinem Tode Bischof von Rom.\", \"Leo der Große verteidigte die Lehre der katholischen Kirche, insbesondere während des Konzils von Chalcedon (451).\", \"Leo der Große bekämpfte die Monophysiten.\"], \"source_fact_index\": 5, \"target_contexts\": [[\"Leo der Große hat die Lehre der katholischen Kirche verteidigt.\", \"Leo der Große hat die Lehre der katholischen Kirche vor allem beim Konzil von Chalzedon (451) verteidigt.\", \"Leo der Große hat beim Konzil von Chalzedon gegen die Monophysiten gekämpft.\"], [\"Leo der Große hat die Lehre der katholischen Kirche vor allem beim Konzil von Chalzedon (451) verteidigt.\", \"Leo der Große hat beim Konzil von Chalzedon gegen die Monophysiten gekämpft.\", \"Leo der Große hat beim Konzil von Chalzedon gegen die Pelagianer gekämpft.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 399,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [7, 6], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo der Große verteidigte die Lehre der katholischen Kirche, insbesondere während des Konzils von Chalcedon (451).\", \"Leo der Große bekämpfte die Monophysiten.\", \"Leo der Große bekämpfte die Pelagianer.\"], \"source_fact_index\": 6, \"target_contexts\": [[\"Leo der Große hat die Lehre der katholischen Kirche vor allem beim Konzil von Chalzedon (451) verteidigt.\", \"Leo der Große hat beim Konzil von Chalzedon gegen die Monophysiten gekämpft.\", \"Leo der Große hat beim Konzil von Chalzedon gegen die Pelagianer gekämpft.\"], [\"Leo der Große hat die Lehre der katholischen Kirche verteidigt.\", \"Leo der Große hat die Lehre der katholischen Kirche vor allem beim Konzil von Chalzedon (451) verteidigt.\", \"Leo der Große hat beim Konzil von Chalzedon gegen die Monophysiten gekämpft.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 386,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [8, 88], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo der Große bekämpfte die Monophysiten.\", \"Leo der Große bekämpfte die Pelagianer.\", \"Er wurde wahrscheinlich erstmals in einem Brief des heiligen Augustinus erwähnt.\"], \"source_fact_index\": 7, \"target_contexts\": [[\"Leo der Große hat beim Konzil von Chalzedon gegen die Monophysiten gekämpft.\", \"Leo der Große hat beim Konzil von Chalzedon gegen die Pelagianer gekämpft.\", \"Er wurde wahrscheinlich zum ersten Mal in einem Brief des heiligen Augustinus genannt, in dem dieser von einem Akolyth Leo schreibt.\"], [\"Leo I. (Papa) veröffentlichte seine sämtlichen Predigten in 2 Bänden.\", \"Die sämtlichen Predigten von Papst und Kirchenlehrer Leo dem Großen wurden 1927 vom Kösel-Verlag in München veröffentlicht.\", \"Das Gesamtwerk der Migne Patrologia Latina enthält ein Inhaltsverzeichnis.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 367,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [8, 88], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo der Große bekämpfte die Pelagianer.\", \"Er wurde wahrscheinlich erstmals in einem Brief des heiligen Augustinus erwähnt.\", \"In einem Brief des heiligen Augustinus spricht Augustinus von einem Akolythen Leo.\"], \"source_fact_index\": 8, \"target_contexts\": [[\"Leo der Große hat beim Konzil von Chalzedon gegen die Monophysiten gekämpft.\", \"Leo der Große hat beim Konzil von Chalzedon gegen die Pelagianer gekämpft.\", \"Er wurde wahrscheinlich zum ersten Mal in einem Brief des heiligen Augustinus genannt, in dem dieser von einem Akolyth Leo schreibt.\"], [\"Leo I. (Papa) veröffentlichte seine sämtlichen Predigten in 2 Bänden.\", \"Die sämtlichen Predigten von Papst und Kirchenlehrer Leo dem Großen wurden 1927 vom Kösel-Verlag in München veröffentlicht.\", \"Das Gesamtwerk der Migne Patrologia Latina enthält ein Inhaltsverzeichnis.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 374,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [9, 8], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Er wurde wahrscheinlich erstmals in einem Brief des heiligen Augustinus erwähnt.\", \"In einem Brief des heiligen Augustinus spricht Augustinus von einem Akolythen Leo.\", \"Sein Wirken als Diakon unter den römischen Päpsten Coelestin I. und Sixtus III. ist gesichert.\"], \"source_fact_index\": 9, \"target_contexts\": [[\"Leo der Große hat beim Konzil von Chalzedon gegen die Pelagianer gekämpft.\", \"Er wurde wahrscheinlich zum ersten Mal in einem Brief des heiligen Augustinus genannt, in dem dieser von einem Akolyth Leo schreibt.\", \"Sein Wirken als Diakon unter den römischen Päpsten Coelestin I. und Sixtus III. ist gesichert.\"], [\"Leo der Große hat beim Konzil von Chalzedon gegen die Monophysiten gekämpft.\", \"Leo der Große hat beim Konzil von Chalzedon gegen die Pelagianer gekämpft.\", \"Er wurde wahrscheinlich zum ersten Mal in einem Brief des heiligen Augustinus genannt, in dem dieser von einem Akolyth Leo schreibt.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 403,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [10, 13], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"In einem Brief des heiligen Augustinus spricht Augustinus von einem Akolythen Leo.\", \"Sein Wirken als Diakon unter den römischen Päpsten Coelestin I. und Sixtus III. ist gesichert.\", \"In seinem Amt als Diakon war er bei der Lösung verschiedener kirchlicher und staatspolitischer Probleme behilflich.\"], \"source_fact_index\": 10, \"target_contexts\": [[\"Er wurde wahrscheinlich zum ersten Mal in einem Brief des heiligen Augustinus genannt, in dem dieser von einem Akolyth Leo schreibt.\", \"Sein Wirken als Diakon unter den römischen Päpsten Coelestin I. und Sixtus III. ist gesichert.\", \"In seinem Amt als Diakon half er, verschiedene kirchliche und staatspolitische Probleme zu lösen.\"], [\"Die Hilfe bei der Lösung kirchlicher und staatspolitischer Probleme brachte ihm einen guten Ruf im Klerus.\", \"Die Hilfe bei der Lösung kirchlicher und staatspolitischer Probleme brachte ihm einen guten Ruf bei der Bevölkerung Roms.\", \"Die Hilfe bei der Lösung kirchlicher und staatspolitischer Probleme führte bei seiner Wahl zum Bischof zu einem einstimmigen Ergebnis.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 428,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [11, 12], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Sein Wirken als Diakon unter den römischen Päpsten Coelestin I. und Sixtus III. ist gesichert.\", \"In seinem Amt als Diakon war er bei der Lösung verschiedener kirchlicher und staatspolitischer Probleme behilflich.\", \"Die Beihilfe bei der Lösung kirchlicher und staatspolitischer Probleme brachte ihm einen guten Ruf im Klerus ein.\"], \"source_fact_index\": 11, \"target_contexts\": [[\"Sein Wirken als Diakon unter den römischen Päpsten Coelestin I. und Sixtus III. ist gesichert.\", \"In seinem Amt als Diakon half er, verschiedene kirchliche und staatspolitische Probleme zu lösen.\", \"Die Hilfe bei der Lösung kirchlicher und staatspolitischer Probleme brachte ihm einen guten Ruf im Klerus.\"], [\"In seinem Amt als Diakon half er, verschiedene kirchliche und staatspolitische Probleme zu lösen.\", \"Die Hilfe bei der Lösung kirchlicher und staatspolitischer Probleme brachte ihm einen guten Ruf im Klerus.\", \"Die Hilfe bei der Lösung kirchlicher und staatspolitischer Probleme brachte ihm einen guten Ruf bei der Bevölkerung Roms.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 427,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [12, 11], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"In seinem Amt als Diakon war er bei der Lösung verschiedener kirchlicher und staatspolitischer Probleme behilflich.\", \"Die Beihilfe bei der Lösung kirchlicher und staatspolitischer Probleme brachte ihm einen guten Ruf im Klerus ein.\", \"Die Beihilfe bei der Lösung kirchlicher und staatspolitischer Probleme brachte ihm einen guten Ruf bei der Bevölkerung Roms ein.\"], \"source_fact_index\": 12, \"target_contexts\": [[\"In seinem Amt als Diakon half er, verschiedene kirchliche und staatspolitische Probleme zu lösen.\", \"Die Hilfe bei der Lösung kirchlicher und staatspolitischer Probleme brachte ihm einen guten Ruf im Klerus.\", \"Die Hilfe bei der Lösung kirchlicher und staatspolitischer Probleme brachte ihm einen guten Ruf bei der Bevölkerung Roms.\"], [\"Sein Wirken als Diakon unter den römischen Päpsten Coelestin I. und Sixtus III. ist gesichert.\", \"In seinem Amt als Diakon half er, verschiedene kirchliche und staatspolitische Probleme zu lösen.\", \"Die Hilfe bei der Lösung kirchlicher und staatspolitischer Probleme brachte ihm einen guten Ruf im Klerus.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 426,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [19, 25], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Beihilfe bei der Lösung kirchlicher und staatspolitischer Probleme brachte ihm einen guten Ruf im Klerus ein.\", \"Die Beihilfe bei der Lösung kirchlicher und staatspolitischer Probleme brachte ihm einen guten Ruf bei der Bevölkerung Roms ein.\", \"Leo I. verwendete den Titel Pontifex Maximus nicht exklusiv für sich als römischer Bischof.\"], \"source_fact_index\": 13, \"target_contexts\": [[\"Der Pontifex Maximus bedeutet oberster Brückenbauer bzw. oberster Priester.\", \"Der Caesar, der Augustus und andere Kaiser waren als oberste Priester des Jupitertempels tätig.\", \"Leo I. nutzte den Titel Pontifex Maximus nicht exklusiv für sich als römischen Bischof.\"], [\"Prosper von Aquitanien nannte Leo I. bereits zu dessen Lebzeiten summus sacerdos.\", \"Summus sacerdos bedeutet oberster Priester.\", \"Die Übertragung des Pontifex Maximus-Titels von den Kaisern auf den Papst war nicht das Werk von Leo I.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 398,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [17, 24], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Beihilfe bei der Lösung kirchlicher und staatspolitischer Probleme brachte ihm einen guten Ruf bei der Bevölkerung Roms ein.\", \"Leo I. verwendete den Titel Pontifex Maximus nicht exklusiv für sich als römischer Bischof.\", \"Caesar führte den Titel Pontifex Maximus als oberster Amtsträger des römischen Religionswesens.\"], \"source_fact_index\": 14, \"target_contexts\": [[\"In der Zeit von Leo I. stand der römische Primatsanspruch auf seinem ersten Höhepunkt.\", \"Leo I. griff den römischen Titel des Pontifex Maximus auf.\", \"Der Pontifex Maximus bedeutet oberster Brückenbauer bzw. oberster Priester.\"], [\"Prosper von Aquitanien nannte Leo I. bereits zu dessen Lebzeiten papa.\", \"Prosper von Aquitanien nannte Leo I. bereits zu dessen Lebzeiten summus sacerdos.\", \"Summus sacerdos bedeutet oberster Priester.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 372,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [17, 24], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo I. verwendete den Titel Pontifex Maximus nicht exklusiv für sich als römischer Bischof.\", \"Caesar führte den Titel Pontifex Maximus als oberster Amtsträger des römischen Religionswesens.\", \"Augustus führte den Titel Pontifex Maximus als oberster Amtsträger des römischen Religionswesens.\"], \"source_fact_index\": 15, \"target_contexts\": [[\"In der Zeit von Leo I. stand der römische Primatsanspruch auf seinem ersten Höhepunkt.\", \"Leo I. griff den römischen Titel des Pontifex Maximus auf.\", \"Der Pontifex Maximus bedeutet oberster Brückenbauer bzw. oberster Priester.\"], [\"Prosper von Aquitanien nannte Leo I. bereits zu dessen Lebzeiten papa.\", \"Prosper von Aquitanien nannte Leo I. bereits zu dessen Lebzeiten summus sacerdos.\", \"Summus sacerdos bedeutet oberster Priester.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 365,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [17, 24], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Caesar führte den Titel Pontifex Maximus als oberster Amtsträger des römischen Religionswesens.\", \"Augustus führte den Titel Pontifex Maximus als oberster Amtsträger des römischen Religionswesens.\", \"Andere Kaiser führten den Titel Pontifex Maximus als oberste Amtsträger des römischen Religionswesens.\"], \"source_fact_index\": 16, \"target_contexts\": [[\"In der Zeit von Leo I. stand der römische Primatsanspruch auf seinem ersten Höhepunkt.\", \"Leo I. griff den römischen Titel des Pontifex Maximus auf.\", \"Der Pontifex Maximus bedeutet oberster Brückenbauer bzw. oberster Priester.\"], [\"Prosper von Aquitanien nannte Leo I. bereits zu dessen Lebzeiten papa.\", \"Prosper von Aquitanien nannte Leo I. bereits zu dessen Lebzeiten summus sacerdos.\", \"Summus sacerdos bedeutet oberster Priester.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 366,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [20, 17], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Augustus führte den Titel Pontifex Maximus als oberster Amtsträger des römischen Religionswesens.\", \"Andere Kaiser führten den Titel Pontifex Maximus als oberste Amtsträger des römischen Religionswesens.\", \"Leo I. sprach von Christus als dem wahren, obersten Pontifex.\"], \"source_fact_index\": 17, \"target_contexts\": [[\"Der Caesar, der Augustus und andere Kaiser waren als oberste Priester des Jupitertempels tätig.\", \"Leo I. nutzte den Titel Pontifex Maximus nicht exklusiv für sich als römischen Bischof.\", \"Leo I. nannte Christus den wahren obersten Pontifex.\"], [\"In der Zeit von Leo I. stand der römische Primatsanspruch auf seinem ersten Höhepunkt.\", \"Leo I. griff den römischen Titel des Pontifex Maximus auf.\", \"Der Pontifex Maximus bedeutet oberster Brückenbauer bzw. oberster Priester.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 373,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [21, 19], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Andere Kaiser führten den Titel Pontifex Maximus als oberste Amtsträger des römischen Religionswesens.\", \"Leo I. sprach von Christus als dem wahren, obersten Pontifex.\", \"Leo I. benutzte den Begriff Pontifex als Synonym für Bischöfe.\"], \"source_fact_index\": 18, \"target_contexts\": [[\"Leo I. nutzte den Titel Pontifex Maximus nicht exklusiv für sich als römischen Bischof.\", \"Leo I. nannte Christus den wahren obersten Pontifex.\", \"Leo I. gebrauchte den Ausdruck Pontifex als Synonym für Bischof.\"], [\"Der Pontifex Maximus bedeutet oberster Brückenbauer bzw. oberster Priester.\", \"Der Caesar, der Augustus und andere Kaiser waren als oberste Priester des Jupitertempels tätig.\", \"Leo I. nutzte den Titel Pontifex Maximus nicht exklusiv für sich als römischen Bischof.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 372,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [22, 23], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo I. sprach von Christus als dem wahren, obersten Pontifex.\", \"Leo I. benutzte den Begriff Pontifex als Synonym für Bischöfe.\", \"Prosper von Aquitanien bezeichnete Leo I. schon zu dessen Lebzeiten als papa.\"], \"source_fact_index\": 19, \"target_contexts\": [[\"Leo I. nannte Christus den wahren obersten Pontifex.\", \"Leo I. gebrauchte den Ausdruck Pontifex als Synonym für Bischof.\", \"Prosper von Aquitanien nannte Leo I. bereits zu dessen Lebzeiten papa.\"], [\"Leo I. gebrauchte den Ausdruck Pontifex als Synonym für Bischof.\", \"Prosper von Aquitanien nannte Leo I. bereits zu dessen Lebzeiten papa.\", \"Prosper von Aquitanien nannte Leo I. bereits zu dessen Lebzeiten summus sacerdos.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 351,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [23, 22], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo I. benutzte den Begriff Pontifex als Synonym für Bischöfe.\", \"Prosper von Aquitanien bezeichnete Leo I. schon zu dessen Lebzeiten als papa.\", \"Prosper von Aquitanien bezeichnete Leo I. schon zu dessen Lebzeiten als summus sacerdos (oberster Priester).\"], \"source_fact_index\": 20, \"target_contexts\": [[\"Leo I. gebrauchte den Ausdruck Pontifex als Synonym für Bischof.\", \"Prosper von Aquitanien nannte Leo I. bereits zu dessen Lebzeiten papa.\", \"Prosper von Aquitanien nannte Leo I. bereits zu dessen Lebzeiten summus sacerdos.\"], [\"Leo I. nannte Christus den wahren obersten Pontifex.\", \"Leo I. gebrauchte den Ausdruck Pontifex als Synonym für Bischof.\", \"Prosper von Aquitanien nannte Leo I. bereits zu dessen Lebzeiten papa.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 362,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [25, 19], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Prosper von Aquitanien bezeichnete Leo I. schon zu dessen Lebzeiten als papa.\", \"Prosper von Aquitanien bezeichnete Leo I. schon zu dessen Lebzeiten als summus sacerdos (oberster Priester).\", \"Die Übertragung des Pontifex-Maximus-Titels vom Kaiser auf den Papst ist nicht das Werk von Leo I.\"], \"source_fact_index\": 21, \"target_contexts\": [[\"Prosper von Aquitanien nannte Leo I. bereits zu dessen Lebzeiten summus sacerdos.\", \"Summus sacerdos bedeutet oberster Priester.\", \"Die Übertragung des Pontifex Maximus-Titels von den Kaisern auf den Papst war nicht das Werk von Leo I.\"], [\"Der Pontifex Maximus bedeutet oberster Brückenbauer bzw. oberster Priester.\", \"Der Caesar, der Augustus und andere Kaiser waren als oberste Priester des Jupitertempels tätig.\", \"Leo I. nutzte den Titel Pontifex Maximus nicht exklusiv für sich als römischen Bischof.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 393,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [26, 27], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Prosper von Aquitanien bezeichnete Leo I. schon zu dessen Lebzeiten als summus sacerdos (oberster Priester).\", \"Die Übertragung des Pontifex-Maximus-Titels vom Kaiser auf den Papst ist nicht das Werk von Leo I.\", \"Die Lehre von Leo I. über das Petrusamt liefert wichtige Grundlagen für die Übertragung des Pontifex-Maximus-Titels vom Kaiser auf den Papst.\"], \"source_fact_index\": 22, \"target_contexts\": [[\"Summus sacerdos bedeutet oberster Priester.\", \"Die Übertragung des Pontifex Maximus-Titels von den Kaisern auf den Papst war nicht das Werk von Leo I.\", \"Die Lehre von Leo I. über das Petrusamt lieferte wichtige Grundlagen für die Übertragung des Pontifex Maximus-Titels auf den Papst.\"], [\"Die Übertragung des Pontifex Maximus-Titels von den Kaisern auf den Papst war nicht das Werk von Leo I.\", \"Die Lehre von Leo I. über das Petrusamt lieferte wichtige Grundlagen für die Übertragung des Pontifex Maximus-Titels auf den Papst.\", \"Die Praxis von Leo I. als Papst lieferte wichtige Grundlagen für die Übertragung des Pontifex Maximus-Titels auf den Papst.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 447,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [27, 26], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Übertragung des Pontifex-Maximus-Titels vom Kaiser auf den Papst ist nicht das Werk von Leo I.\", \"Die Lehre von Leo I. über das Petrusamt liefert wichtige Grundlagen für die Übertragung des Pontifex-Maximus-Titels vom Kaiser auf den Papst.\", \"Die Praxis von Leo I. als Papst liefert wichtige Grundlagen für die Übertragung des Pontifex-Maximus-Titels vom Kaiser auf den Papst.\"], \"source_fact_index\": 23, \"target_contexts\": [[\"Die Übertragung des Pontifex Maximus-Titels von den Kaisern auf den Papst war nicht das Werk von Leo I.\", \"Die Lehre von Leo I. über das Petrusamt lieferte wichtige Grundlagen für die Übertragung des Pontifex Maximus-Titels auf den Papst.\", \"Die Praxis von Leo I. als Papst lieferte wichtige Grundlagen für die Übertragung des Pontifex Maximus-Titels auf den Papst.\"], [\"Summus sacerdos bedeutet oberster Priester.\", \"Die Übertragung des Pontifex Maximus-Titels von den Kaisern auf den Papst war nicht das Werk von Leo I.\", \"Die Lehre von Leo I. über das Petrusamt lieferte wichtige Grundlagen für die Übertragung des Pontifex Maximus-Titels auf den Papst.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 452,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [28, 30], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Lehre von Leo I. über das Petrusamt liefert wichtige Grundlagen für die Übertragung des Pontifex-Maximus-Titels vom Kaiser auf den Papst.\", \"Die Praxis von Leo I. als Papst liefert wichtige Grundlagen für die Übertragung des Pontifex-Maximus-Titels vom Kaiser auf den Papst.\", \"Leo I. griff in viele kirchliche Angelegenheiten in Italien ein.\"], \"source_fact_index\": 24, \"target_contexts\": [[\"Die Lehre von Leo I. über das Petrusamt lieferte wichtige Grundlagen für die Übertragung des Pontifex Maximus-Titels auf den Papst.\", \"Die Praxis von Leo I. als Papst lieferte wichtige Grundlagen für die Übertragung des Pontifex Maximus-Titels auf den Papst.\", \"Leo I. griff in viele kirchliche Angelegenheiten in Italien ein.\"], [\"Leo I. griff in viele kirchliche Angelegenheiten in Italien ein.\", \"Leo I. griff in viele kirchliche Angelegenheiten in Gallien ein.\", \"Leo I. griff in viele kirchliche Angelegenheiten in Spanien ein.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 408,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [29, 31], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Praxis von Leo I. als Papst liefert wichtige Grundlagen für die Übertragung des Pontifex-Maximus-Titels vom Kaiser auf den Papst.\", \"Leo I. griff in viele kirchliche Angelegenheiten in Italien ein.\", \"Leo I. griff in viele kirchliche Angelegenheiten in Gallien ein.\"], \"source_fact_index\": 25, \"target_contexts\": [[\"Die Praxis von Leo I. als Papst lieferte wichtige Grundlagen für die Übertragung des Pontifex Maximus-Titels auf den Papst.\", \"Leo I. griff in viele kirchliche Angelegenheiten in Italien ein.\", \"Leo I. griff in viele kirchliche Angelegenheiten in Gallien ein.\"], [\"Leo I. griff in viele kirchliche Angelegenheiten in Gallien ein.\", \"Leo I. griff in viele kirchliche Angelegenheiten in Spanien ein.\", \"Leo I. griff in viele kirchliche Angelegenheiten in Griechenland ein.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 374,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [30, 28], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo I. griff in viele kirchliche Angelegenheiten in Italien ein.\", \"Leo I. griff in viele kirchliche Angelegenheiten in Gallien ein.\", \"Leo I. griff in viele kirchliche Angelegenheiten in Spanien ein.\"], \"source_fact_index\": 26, \"target_contexts\": [[\"Leo I. griff in viele kirchliche Angelegenheiten in Italien ein.\", \"Leo I. griff in viele kirchliche Angelegenheiten in Gallien ein.\", \"Leo I. griff in viele kirchliche Angelegenheiten in Spanien ein.\"], [\"Die Lehre von Leo I. über das Petrusamt lieferte wichtige Grundlagen für die Übertragung des Pontifex Maximus-Titels auf den Papst.\", \"Die Praxis von Leo I. als Papst lieferte wichtige Grundlagen für die Übertragung des Pontifex Maximus-Titels auf den Papst.\", \"Leo I. griff in viele kirchliche Angelegenheiten in Italien ein.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 371,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [31, 29], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo I. griff in viele kirchliche Angelegenheiten in Gallien ein.\", \"Leo I. griff in viele kirchliche Angelegenheiten in Spanien ein.\", \"Leo I. griff in viele kirchliche Angelegenheiten in Griechenland ein.\"], \"source_fact_index\": 27, \"target_contexts\": [[\"Leo I. griff in viele kirchliche Angelegenheiten in Gallien ein.\", \"Leo I. griff in viele kirchliche Angelegenheiten in Spanien ein.\", \"Leo I. griff in viele kirchliche Angelegenheiten in Griechenland ein.\"], [\"Die Praxis von Leo I. als Papst lieferte wichtige Grundlagen für die Übertragung des Pontifex Maximus-Titels auf den Papst.\", \"Leo I. griff in viele kirchliche Angelegenheiten in Italien ein.\", \"Leo I. griff in viele kirchliche Angelegenheiten in Gallien ein.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 357,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [32, 33], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo I. griff in viele kirchliche Angelegenheiten in Spanien ein.\", \"Leo I. griff in viele kirchliche Angelegenheiten in Griechenland ein.\", \"Auf dem Konzil von Chalkedon wurde Rom nur ein gewisser Vorrang vor den anderen großen Bischofssitzen im Osten eingeräumt.\"], \"source_fact_index\": 28, \"target_contexts\": [[\"Leo I. griff in viele kirchliche Angelegenheiten in Spanien ein.\", \"Leo I. griff in viele kirchliche Angelegenheiten in Griechenland ein.\", \"Auf dem Konzil von Chalkedon wurde Rom nur ein gewisser Vorrang vor den anderen großen Bischofssitzen im Osten eingeräumt.\"], [\"Leo I. griff in viele kirchliche Angelegenheiten in Griechenland ein.\", \"Auf dem Konzil von Chalkedon wurde Rom nur ein gewisser Vorrang vor den anderen großen Bischofssitzen im Osten eingeräumt.\", \"Die anderen großen Bischofssitze im Osten waren Alexandria, Antiochia und Konstantinopel.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 385,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [33, 18], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo I. griff in viele kirchliche Angelegenheiten in Griechenland ein.\", \"Auf dem Konzil von Chalkedon wurde Rom nur ein gewisser Vorrang vor den anderen großen Bischofssitzen im Osten eingeräumt.\", \"Die anderen großen Bischofssitze im Osten waren Alexandria, Antiochia, Jerusalem und Konstantinopel.\"], \"source_fact_index\": 29, \"target_contexts\": [[\"Leo I. griff in viele kirchliche Angelegenheiten in Griechenland ein.\", \"Auf dem Konzil von Chalkedon wurde Rom nur ein gewisser Vorrang vor den anderen großen Bischofssitzen im Osten eingeräumt.\", \"Die anderen großen Bischofssitze im Osten waren Alexandria, Antiochia und Konstantinopel.\"], [\"Leo I. griff den römischen Titel des Pontifex Maximus auf.\", \"Der Pontifex Maximus bedeutet oberster Brückenbauer bzw. oberster Priester.\", \"Der Caesar, der Augustus und andere Kaiser waren als oberste Priester des Jupitertempels tätig.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 385,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [34, 86], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Auf dem Konzil von Chalkedon wurde Rom nur ein gewisser Vorrang vor den anderen großen Bischofssitzen im Osten eingeräumt.\", \"Die anderen großen Bischofssitze im Osten waren Alexandria, Antiochia, Jerusalem und Konstantinopel.\", \"Leo I. leistete einen theologischen Beitrag durch sein großes Lehrschreiben, den sogenannten Tomus (ep. 28).\"], \"source_fact_index\": 30, \"target_contexts\": [[\"Auf dem Konzil von Chalkedon wurde Rom nur ein gewisser Vorrang vor den anderen großen Bischofssitzen im Osten eingeräumt.\", \"Die anderen großen Bischofssitze im Osten waren Alexandria, Antiochia und Konstantinopel.\", \"Leo I. leistete einen wichtigen theologischen Beitrag durch seine großen Lehrschreiben, den sogenannten Tomus.\"], [\"Das Amt des römischen Bischofs wurde in der Bedeutung für die Gesamtkirche aus der einzigartigen Beziehung zwischen Christus und Petrus abgeleitet.\", \"Leo nutzte das Vorbild des Petrus, um das Amt des römischen Bischofs angemessen auszuüben.\", \"Leo I. (Papa) veröffentlichte seine sämtlichen Predigten in 2 Bänden.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 417,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [36, 35], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die anderen großen Bischofssitze im Osten waren Alexandria, Antiochia, Jerusalem und Konstantinopel.\", \"Leo I. leistete einen theologischen Beitrag durch sein großes Lehrschreiben, den sogenannten Tomus (ep. 28).\", \"Leo äußerte sich vielfach zu theologischen Streitfragen als Metropolit von Arles.\"], \"source_fact_index\": 31, \"target_contexts\": [[\"Leo I. leistete einen wichtigen theologischen Beitrag durch seine großen Lehrschreiben, den sogenannten Tomus.\", \"Leo hat zu vielen theologischen Streitfragen seine Meinung gesagt.\", \"Leo hat Hilarius von Arles (401–449) als Metropolit von Arles abgesetzt.\"], [\"Die anderen großen Bischofssitze im Osten waren Alexandria, Antiochia und Konstantinopel.\", \"Leo I. leistete einen wichtigen theologischen Beitrag durch seine großen Lehrschreiben, den sogenannten Tomus.\", \"Leo hat zu vielen theologischen Streitfragen seine Meinung gesagt.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 375,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [38, 37], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo I. leistete einen theologischen Beitrag durch sein großes Lehrschreiben, den sogenannten Tomus (ep. 28).\", \"Leo äußerte sich vielfach zu theologischen Streitfragen als Metropolit von Arles.\", \"Leo erreichte von Valentinian III. die Anerkennung des Primats von Rom, als dieser die Dekretalen mit den Reichsgesetzen gleichstellte.\"], \"source_fact_index\": 32, \"target_contexts\": [[\"Leo hat Hilarius von Arles (401–449) als Metropolit von Arles abgesetzt.\", \"Leo hat erreicht, dass Valentinian III. das Primat von Rom anerkannte.\", \"Valentinian III. stellte das Dekretal mit dem Reichsgesetz gleich.\"], [\"Leo hat zu vielen theologischen Streitfragen seine Meinung gesagt.\", \"Leo hat Hilarius von Arles (401–449) als Metropolit von Arles abgesetzt.\", \"Leo hat erreicht, dass Valentinian III. das Primat von Rom anerkannte.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 384,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [39, 40], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo äußerte sich vielfach zu theologischen Streitfragen als Metropolit von Arles.\", \"Leo erreichte von Valentinian III. die Anerkennung des Primats von Rom, als dieser die Dekretalen mit den Reichsgesetzen gleichstellte.\", \"Leo verwarf im Jahr 451 den Anspruch Konstantinopels auf Gleichrangigkeit mit Rom.\"], \"source_fact_index\": 33, \"target_contexts\": [[\"Leo hat erreicht, dass Valentinian III. das Primat von Rom anerkannte.\", \"Valentinian III. stellte das Dekretal mit dem Reichsgesetz gleich.\", \"Leo verworf 451 den Anspruch des Patriarchen von Konstantinopel auf Gleichrangigkeit mit Rom.\"], [\"Valentinian III. stellte das Dekretal mit dem Reichsgesetz gleich.\", \"Leo verworf 451 den Anspruch des Patriarchen von Konstantinopel auf Gleichrangigkeit mit Rom.\", \"Leo stellte sich dem Hunnenkönig Attila vor Mantua entgegen, als Rom im Jahr 452 von den Hunnen unter Attila bedroht wurde.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 394,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [40, 42], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo erreichte von Valentinian III. die Anerkennung des Primats von Rom, als dieser die Dekretalen mit den Reichsgesetzen gleichstellte.\", \"Leo verwarf im Jahr 451 den Anspruch Konstantinopels auf Gleichrangigkeit mit Rom.\", \"Rom wurde im Jahr 452 von den Hunnen unter Attila bedroht.\"], \"source_fact_index\": 34, \"target_contexts\": [[\"Valentinian III. stellte das Dekretal mit dem Reichsgesetz gleich.\", \"Leo verworf 451 den Anspruch des Patriarchen von Konstantinopel auf Gleichrangigkeit mit Rom.\", \"Leo stellte sich dem Hunnenkönig Attila vor Mantua entgegen, als Rom im Jahr 452 von den Hunnen unter Attila bedroht wurde.\"], [\"Leo stellte sich dem Hunnenkönig Attila vor Mantua entgegen, als Rom im Jahr 452 von den Hunnen unter Attila bedroht wurde.\", \"Leo verhinderte wahrscheinlich durch die Zahlung eines hohen Geldbetrags das Vordringen der Hunnen in Richtung Rom.\", \"Attila war faktisch schon auf dem Rückzug und befand sich nicht auf dem Weg nach Rom.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 420,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [40, 41], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo verwarf im Jahr 451 den Anspruch Konstantinopels auf Gleichrangigkeit mit Rom.\", \"Rom wurde im Jahr 452 von den Hunnen unter Attila bedroht.\", \"Leo stellte sich vor Mantua dem Hunnenkönig entgegen.\"], \"source_fact_index\": 35, \"target_contexts\": [[\"Valentinian III. stellte das Dekretal mit dem Reichsgesetz gleich.\", \"Leo verworf 451 den Anspruch des Patriarchen von Konstantinopel auf Gleichrangigkeit mit Rom.\", \"Leo stellte sich dem Hunnenkönig Attila vor Mantua entgegen, als Rom im Jahr 452 von den Hunnen unter Attila bedroht wurde.\"], [\"Leo verworf 451 den Anspruch des Patriarchen von Konstantinopel auf Gleichrangigkeit mit Rom.\", \"Leo stellte sich dem Hunnenkönig Attila vor Mantua entgegen, als Rom im Jahr 452 von den Hunnen unter Attila bedroht wurde.\", \"Leo verhinderte wahrscheinlich durch die Zahlung eines hohen Geldbetrags das Vordringen der Hunnen in Richtung Rom.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 405,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [41, 42], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Rom wurde im Jahr 452 von den Hunnen unter Attila bedroht.\", \"Leo stellte sich vor Mantua dem Hunnenkönig entgegen.\", \"Leo verhinderte wahrscheinlich durch die Zahlung eines hohen Geldbetrags ein Vordringen der Hunnen in Richtung Rom, so zumindest manche Quellen.\"], \"source_fact_index\": 36, \"target_contexts\": [[\"Leo verworf 451 den Anspruch des Patriarchen von Konstantinopel auf Gleichrangigkeit mit Rom.\", \"Leo stellte sich dem Hunnenkönig Attila vor Mantua entgegen, als Rom im Jahr 452 von den Hunnen unter Attila bedroht wurde.\", \"Leo verhinderte wahrscheinlich durch die Zahlung eines hohen Geldbetrags das Vordringen der Hunnen in Richtung Rom.\"], [\"Leo stellte sich dem Hunnenkönig Attila vor Mantua entgegen, als Rom im Jahr 452 von den Hunnen unter Attila bedroht wurde.\", \"Leo verhinderte wahrscheinlich durch die Zahlung eines hohen Geldbetrags das Vordringen der Hunnen in Richtung Rom.\", \"Attila war faktisch schon auf dem Rückzug und befand sich nicht auf dem Weg nach Rom.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 423,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [42, 40], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo stellte sich vor Mantua dem Hunnenkönig entgegen.\", \"Leo verhinderte wahrscheinlich durch die Zahlung eines hohen Geldbetrags ein Vordringen der Hunnen in Richtung Rom, so zumindest manche Quellen.\", \"Attila befand sich faktisch bereits auf dem Rückzug und keineswegs auf dem Weg nach Rom.\"], \"source_fact_index\": 37, \"target_contexts\": [[\"Leo stellte sich dem Hunnenkönig Attila vor Mantua entgegen, als Rom im Jahr 452 von den Hunnen unter Attila bedroht wurde.\", \"Leo verhinderte wahrscheinlich durch die Zahlung eines hohen Geldbetrags das Vordringen der Hunnen in Richtung Rom.\", \"Attila war faktisch schon auf dem Rückzug und befand sich nicht auf dem Weg nach Rom.\"], [\"Valentinian III. stellte das Dekretal mit dem Reichsgesetz gleich.\", \"Leo verworf 451 den Anspruch des Patriarchen von Konstantinopel auf Gleichrangigkeit mit Rom.\", \"Leo stellte sich dem Hunnenkönig Attila vor Mantua entgegen, als Rom im Jahr 452 von den Hunnen unter Attila bedroht wurde.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 415,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [43, 41], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo verhinderte wahrscheinlich durch die Zahlung eines hohen Geldbetrags ein Vordringen der Hunnen in Richtung Rom, so zumindest manche Quellen.\", \"Attila befand sich faktisch bereits auf dem Rückzug und keineswegs auf dem Weg nach Rom.\", \"Manche der Berichte heben die Rolle Leos wohl eher übertrieben hervor.\"], \"source_fact_index\": 38, \"target_contexts\": [[\"Leo verhinderte wahrscheinlich durch die Zahlung eines hohen Geldbetrags das Vordringen der Hunnen in Richtung Rom.\", \"Attila war faktisch schon auf dem Rückzug und befand sich nicht auf dem Weg nach Rom.\", \"Ein Teil der Berichte übertrieb wohl die Rolle von Leo.\"], [\"Leo verworf 451 den Anspruch des Patriarchen von Konstantinopel auf Gleichrangigkeit mit Rom.\", \"Leo stellte sich dem Hunnenkönig Attila vor Mantua entgegen, als Rom im Jahr 452 von den Hunnen unter Attila bedroht wurde.\", \"Leo verhinderte wahrscheinlich durch die Zahlung eines hohen Geldbetrags das Vordringen der Hunnen in Richtung Rom.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 410,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [44, 42], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Attila befand sich faktisch bereits auf dem Rückzug und keineswegs auf dem Weg nach Rom.\", \"Manche der Berichte heben die Rolle Leos wohl eher übertrieben hervor.\", \"Die genauen Hintergründe dieser Gesandtschaft sind in der Forschung umstritten.\"], \"source_fact_index\": 39, \"target_contexts\": [[\"Attila war faktisch schon auf dem Rückzug und befand sich nicht auf dem Weg nach Rom.\", \"Ein Teil der Berichte übertrieb wohl die Rolle von Leo.\", \"Die genauen Hintergründe dieser Gesandtschaft sind in der Forschung umstritten.\"], [\"Leo stellte sich dem Hunnenkönig Attila vor Mantua entgegen, als Rom im Jahr 452 von den Hunnen unter Attila bedroht wurde.\", \"Leo verhinderte wahrscheinlich durch die Zahlung eines hohen Geldbetrags das Vordringen der Hunnen in Richtung Rom.\", \"Attila war faktisch schon auf dem Rückzug und befand sich nicht auf dem Weg nach Rom.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 386,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [45, 44], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Manche der Berichte heben die Rolle Leos wohl eher übertrieben hervor.\", \"Die genauen Hintergründe dieser Gesandtschaft sind in der Forschung umstritten.\", \"Der Gesandtschaft gehörten hochrangige kaiserliche Beamte an.\"], \"source_fact_index\": 40, \"target_contexts\": [[\"Ein Teil der Berichte übertrieb wohl die Rolle von Leo.\", \"Die genauen Hintergründe dieser Gesandtschaft sind in der Forschung umstritten.\", \"Hochrangige kaiserliche Beamte waren der Gesandtschaft angehört, darunter der Prätorianerpräfekt Trygetius und Gennadius Avienus, Konsul von 450.\"], [\"Attila war faktisch schon auf dem Rückzug und befand sich nicht auf dem Weg nach Rom.\", \"Ein Teil der Berichte übertrieb wohl die Rolle von Leo.\", \"Die genauen Hintergründe dieser Gesandtschaft sind in der Forschung umstritten.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 374,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [45, 38], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die genauen Hintergründe dieser Gesandtschaft sind in der Forschung umstritten.\", \"Der Gesandtschaft gehörten hochrangige kaiserliche Beamte an.\", \"Der Stadtpräfekt Trigetius gehörte der Gesandtschaft an.\"], \"source_fact_index\": 41, \"target_contexts\": [[\"Ein Teil der Berichte übertrieb wohl die Rolle von Leo.\", \"Die genauen Hintergründe dieser Gesandtschaft sind in der Forschung umstritten.\", \"Hochrangige kaiserliche Beamte waren der Gesandtschaft angehört, darunter der Prätorianerpräfekt Trygetius und Gennadius Avienus, Konsul von 450.\"], [\"Leo hat Hilarius von Arles (401–449) als Metropolit von Arles abgesetzt.\", \"Leo hat erreicht, dass Valentinian III. das Primat von Rom anerkannte.\", \"Valentinian III. stellte das Dekretal mit dem Reichsgesetz gleich.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 376,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [45, 38], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Gesandtschaft gehörten hochrangige kaiserliche Beamte an.\", \"Der Stadtpräfekt Trigetius gehörte der Gesandtschaft an.\", \"Gennadius Avienus, Konsul von 450, gehörte der Gesandtschaft an.\"], \"source_fact_index\": 42, \"target_contexts\": [[\"Ein Teil der Berichte übertrieb wohl die Rolle von Leo.\", \"Die genauen Hintergründe dieser Gesandtschaft sind in der Forschung umstritten.\", \"Hochrangige kaiserliche Beamte waren der Gesandtschaft angehört, darunter der Prätorianerpräfekt Trygetius und Gennadius Avienus, Konsul von 450.\"], [\"Leo hat Hilarius von Arles (401–449) als Metropolit von Arles abgesetzt.\", \"Leo hat erreicht, dass Valentinian III. das Primat von Rom anerkannte.\", \"Valentinian III. stellte das Dekretal mit dem Reichsgesetz gleich.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 381,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [46, 43], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Stadtpräfekt Trigetius gehörte der Gesandtschaft an.\", \"Gennadius Avienus, Konsul von 450, gehörte der Gesandtschaft an.\", \"Leo handelte offenbar keineswegs allein.\"], \"source_fact_index\": 43, \"target_contexts\": [[\"Die genauen Hintergründe dieser Gesandtschaft sind in der Forschung umstritten.\", \"Hochrangige kaiserliche Beamte waren der Gesandtschaft angehört, darunter der Prätorianerpräfekt Trygetius und Gennadius Avienus, Konsul von 450.\", \"Leo handelte nicht allein.\"], [\"Leo verhinderte wahrscheinlich durch die Zahlung eines hohen Geldbetrags das Vordringen der Hunnen in Richtung Rom.\", \"Attila war faktisch schon auf dem Rückzug und befand sich nicht auf dem Weg nach Rom.\", \"Ein Teil der Berichte übertrieb wohl die Rolle von Leo.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 369,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [47, 40], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Gennadius Avienus, Konsul von 450, gehörte der Gesandtschaft an.\", \"Leo handelte offenbar keineswegs allein.\", \"Leo hielt drei Jahre nach 452 den Vandalenkönig Geiserich von einem allzu gewaltsamen Vorgehen bei der Plünderung Roms ab.\"], \"source_fact_index\": 44, \"target_contexts\": [[\"Hochrangige kaiserliche Beamte waren der Gesandtschaft angehört, darunter der Prätorianerpräfekt Trygetius und Gennadius Avienus, Konsul von 450.\", \"Leo handelte nicht allein.\", \"Drei Jahre später konnte Leo die Gewalt bei der Belagerung von Rom durch die Vandale unter König Geiserich mäßigen.\"], [\"Valentinian III. stellte das Dekretal mit dem Reichsgesetz gleich.\", \"Leo verworf 451 den Anspruch des Patriarchen von Konstantinopel auf Gleichrangigkeit mit Rom.\", \"Leo stellte sich dem Hunnenkönig Attila vor Mantua entgegen, als Rom im Jahr 452 von den Hunnen unter Attila bedroht wurde.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 416,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [53], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo handelte offenbar keineswegs allein.\", \"Leo hielt drei Jahre nach 452 den Vandalenkönig Geiserich von einem allzu gewaltsamen Vorgehen bei der Plünderung Roms ab.\", \"Leo I. wurde im Jahre 1754 von Papst Benedikt XIV. zum Kirchenlehrer ernannt.\"], \"source_fact_index\": 45, \"target_contexts\": [[\"Der Brief des Kaisers ist unter dem Brief von Leo überliefert.\", \"Papst Benedikt XVI. hat den später gängigen Titel ab 2006 nicht mehr geführt.\", \"Leo I. wurde im Jahr 1754 von Papst Benedikt XIV. zum Kirchenlehrer ernannt.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 325,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [53], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo hielt drei Jahre nach 452 den Vandalenkönig Geiserich von einem allzu gewaltsamen Vorgehen bei der Plünderung Roms ab.\", \"Leo I. wurde im Jahre 1754 von Papst Benedikt XIV. zum Kirchenlehrer ernannt.\", \"Die Gebrüder Ballerini erstellten im Auftrag von Papst Benedikt XIV. eine Ausgabe der Werke Leos.\"], \"source_fact_index\": 46, \"target_contexts\": [[\"Der Brief des Kaisers ist unter dem Brief von Leo überliefert.\", \"Papst Benedikt XVI. hat den später gängigen Titel ab 2006 nicht mehr geführt.\", \"Leo I. wurde im Jahr 1754 von Papst Benedikt XIV. zum Kirchenlehrer ernannt.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 343,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [53], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo I. wurde im Jahre 1754 von Papst Benedikt XIV. zum Kirchenlehrer ernannt.\", \"Die Gebrüder Ballerini erstellten im Auftrag von Papst Benedikt XIV. eine Ausgabe der Werke Leos.\", \"Die von den Gebrüdern Ballerini erstellte Ausgabe der Werke Leos ist bis heute maßgeblich.\"], \"source_fact_index\": 47, \"target_contexts\": [[\"Der Brief des Kaisers ist unter dem Brief von Leo überliefert.\", \"Papst Benedikt XVI. hat den später gängigen Titel ab 2006 nicht mehr geführt.\", \"Leo I. wurde im Jahr 1754 von Papst Benedikt XIV. zum Kirchenlehrer ernannt.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 329,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [54, 57], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Gebrüder Ballerini erstellten im Auftrag von Papst Benedikt XIV. eine Ausgabe der Werke Leos.\", \"Die von den Gebrüdern Ballerini erstellte Ausgabe der Werke Leos ist bis heute maßgeblich.\", \"Unter Leos Schriften befinden sich 97 Predigten.\"], \"source_fact_index\": 48, \"target_contexts\": [[\"Papst Benedikt XVI. hat den später gängigen Titel ab 2006 nicht mehr geführt.\", \"Leo I. wurde im Jahr 1754 von Papst Benedikt XIV. zum Kirchenlehrer ernannt.\", \"Die Schriften von Leo enthalten 97 Predigten.\"], [\"Die Predigten von Leo behandeln wichtige dogmatische Fragen.\", \"Leo schrieb viele Briefe.\", \"Es gibt circa 146 echte Briefe von Leo.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 350,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [55, 58], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die von den Gebrüdern Ballerini erstellte Ausgabe der Werke Leos ist bis heute maßgeblich.\", \"Unter Leos Schriften befinden sich 97 Predigten.\", \"Leos Predigten thematisieren wichtige dogmatische Fragen.\"], \"source_fact_index\": 49, \"target_contexts\": [[\"Leo I. wurde im Jahr 1754 von Papst Benedikt XIV. zum Kirchenlehrer ernannt.\", \"Die Schriften von Leo enthalten 97 Predigten.\", \"Die Predigten von Leo behandeln wichtige dogmatische Fragen.\"], [\"Leo schrieb viele Briefe.\", \"Es gibt circa 146 echte Briefe von Leo.\", \"Die Briefe von Leo zeigen Fragen, über die damals diskutiert wurde.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 328,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [56, 57], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Unter Leos Schriften befinden sich 97 Predigten.\", \"Leos Predigten thematisieren wichtige dogmatische Fragen.\", \"Leo verfasste zahlreiche Briefe.\"], \"source_fact_index\": 50, \"target_contexts\": [[\"Die Schriften von Leo enthalten 97 Predigten.\", \"Die Predigten von Leo behandeln wichtige dogmatische Fragen.\", \"Leo schrieb viele Briefe.\"], [\"Die Predigten von Leo behandeln wichtige dogmatische Fragen.\", \"Leo schrieb viele Briefe.\", \"Es gibt circa 146 echte Briefe von Leo.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 290,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [57, 54], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leos Predigten thematisieren wichtige dogmatische Fragen.\", \"Leo verfasste zahlreiche Briefe.\", \"Es gibt ca. 146 echte Briefe von Leo.\"], \"source_fact_index\": 51, \"target_contexts\": [[\"Die Predigten von Leo behandeln wichtige dogmatische Fragen.\", \"Leo schrieb viele Briefe.\", \"Es gibt circa 146 echte Briefe von Leo.\"], [\"Papst Benedikt XVI. hat den später gängigen Titel ab 2006 nicht mehr geführt.\", \"Leo I. wurde im Jahr 1754 von Papst Benedikt XIV. zum Kirchenlehrer ernannt.\", \"Die Schriften von Leo enthalten 97 Predigten.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 320,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [58, 55], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo verfasste zahlreiche Briefe.\", \"Es gibt ca. 146 echte Briefe von Leo.\", \"Leos Briefe geben Aufschluss über kirchengeschichtliche Fragen der Zeit.\"], \"source_fact_index\": 52, \"target_contexts\": [[\"Leo schrieb viele Briefe.\", \"Es gibt circa 146 echte Briefe von Leo.\", \"Die Briefe von Leo zeigen Fragen, über die damals diskutiert wurde.\"], [\"Leo I. wurde im Jahr 1754 von Papst Benedikt XIV. zum Kirchenlehrer ernannt.\", \"Die Schriften von Leo enthalten 97 Predigten.\", \"Die Predigten von Leo behandeln wichtige dogmatische Fragen.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 316,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [59, 60], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Es gibt ca. 146 echte Briefe von Leo.\", \"Leos Briefe geben Aufschluss über kirchengeschichtliche Fragen der Zeit.\", \"Leos Briefe geben Aufschluss über die Vorbereitung des Konzils von Chalcedon.\"], \"source_fact_index\": 53, \"target_contexts\": [[\"Es gibt circa 146 echte Briefe von Leo.\", \"Die Briefe von Leo zeigen Fragen, über die damals diskutiert wurde.\", \"In den Briefen von Leo wurde unter anderem über das Konzil von Chalzedon diskutiert.\"], [\"Die Briefe von Leo zeigen Fragen, über die damals diskutiert wurde.\", \"In den Briefen von Leo wurde unter anderem über das Konzil von Chalzedon diskutiert.\", \"Das Konzil von Chalzedon war die größte und wichtigste Bischofsversammlung der Antike.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 346,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [59, 60], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leos Briefe geben Aufschluss über kirchengeschichtliche Fragen der Zeit.\", \"Leos Briefe geben Aufschluss über die Vorbereitung des Konzils von Chalcedon.\", \"Leos Briefe geben Aufschluss über die Durchführung des Konzils von Chalcedon.\"], \"source_fact_index\": 54, \"target_contexts\": [[\"Es gibt circa 146 echte Briefe von Leo.\", \"Die Briefe von Leo zeigen Fragen, über die damals diskutiert wurde.\", \"In den Briefen von Leo wurde unter anderem über das Konzil von Chalzedon diskutiert.\"], [\"Die Briefe von Leo zeigen Fragen, über die damals diskutiert wurde.\", \"In den Briefen von Leo wurde unter anderem über das Konzil von Chalzedon diskutiert.\", \"Das Konzil von Chalzedon war die größte und wichtigste Bischofsversammlung der Antike.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 350,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [59, 60], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leos Briefe geben Aufschluss über die Vorbereitung des Konzils von Chalcedon.\", \"Leos Briefe geben Aufschluss über die Durchführung des Konzils von Chalcedon.\", \"Leos Briefe geben Aufschluss über die Rezeption des Konzils von Chalcedon.\"], \"source_fact_index\": 55, \"target_contexts\": [[\"Es gibt circa 146 echte Briefe von Leo.\", \"Die Briefe von Leo zeigen Fragen, über die damals diskutiert wurde.\", \"In den Briefen von Leo wurde unter anderem über das Konzil von Chalzedon diskutiert.\"], [\"Die Briefe von Leo zeigen Fragen, über die damals diskutiert wurde.\", \"In den Briefen von Leo wurde unter anderem über das Konzil von Chalzedon diskutiert.\", \"Das Konzil von Chalzedon war die größte und wichtigste Bischofsversammlung der Antike.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 352,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [60, 59], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leos Briefe geben Aufschluss über die Durchführung des Konzils von Chalcedon.\", \"Leos Briefe geben Aufschluss über die Rezeption des Konzils von Chalcedon.\", \"Das Konzil von Chalcedon war die größte Bischofsversammlung der Antike.\"], \"source_fact_index\": 56, \"target_contexts\": [[\"Die Briefe von Leo zeigen Fragen, über die damals diskutiert wurde.\", \"In den Briefen von Leo wurde unter anderem über das Konzil von Chalzedon diskutiert.\", \"Das Konzil von Chalzedon war die größte und wichtigste Bischofsversammlung der Antike.\"], [\"Es gibt circa 146 echte Briefe von Leo.\", \"Die Briefe von Leo zeigen Fragen, über die damals diskutiert wurde.\", \"In den Briefen von Leo wurde unter anderem über das Konzil von Chalzedon diskutiert.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 350,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [60, 59], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leos Briefe geben Aufschluss über die Rezeption des Konzils von Chalcedon.\", \"Das Konzil von Chalcedon war die größte Bischofsversammlung der Antike.\", \"Das Konzil von Chalcedon war die wichtigste Bischofsversammlung der Antike.\"], \"source_fact_index\": 57, \"target_contexts\": [[\"Die Briefe von Leo zeigen Fragen, über die damals diskutiert wurde.\", \"In den Briefen von Leo wurde unter anderem über das Konzil von Chalzedon diskutiert.\", \"Das Konzil von Chalzedon war die größte und wichtigste Bischofsversammlung der Antike.\"], [\"Es gibt circa 146 echte Briefe von Leo.\", \"Die Briefe von Leo zeigen Fragen, über die damals diskutiert wurde.\", \"In den Briefen von Leo wurde unter anderem über das Konzil von Chalzedon diskutiert.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 350,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [61, 66], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Das Konzil von Chalcedon war die größte Bischofsversammlung der Antike.\", \"Das Konzil von Chalcedon war die wichtigste Bischofsversammlung der Antike.\", \"Leos Theologie beschäftigte sich vor allem mit der Frage nach der Person Christi und seiner Mittlerschaft.\"], \"source_fact_index\": 58, \"target_contexts\": [[\"In den Briefen von Leo wurde unter anderem über das Konzil von Chalzedon diskutiert.\", \"Das Konzil von Chalzedon war die größte und wichtigste Bischofsversammlung der Antike.\", \"Theologisch befasste sich Leo vor allem mit der Frage nach der Person des Christus und seiner Mittlerschaft.\"], [\"Nach dem Konzil hatte Leo durch seine vielen Briefe an Bischöfe und Mitglieder der Kaiserfamilie einen großen Einfluss darauf, dass der Glaube von Chalzedon rezipiert und durchgesetzt wurde.\", \"Der Glaube von Chalzedon wurde durch Leos Einfluss auch im Osten des römischen Reiches durchgesetzt.\", \"Leo wollte vor allem den Glauben durchsetzen, dass Christus Gott und Mensch war.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 395,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [62, 65], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Das Konzil von Chalcedon war die wichtigste Bischofsversammlung der Antike.\", \"Leos Theologie beschäftigte sich vor allem mit der Frage nach der Person Christi und seiner Mittlerschaft.\", \"Leos Theologie hing mit dem Konzil von Chalcedon zusammen.\"], \"source_fact_index\": 59, \"target_contexts\": [[\"Das Konzil von Chalzedon war die größte und wichtigste Bischofsversammlung der Antike.\", \"Theologisch befasste sich Leo vor allem mit der Frage nach der Person des Christus und seiner Mittlerschaft.\", \"Dies hing mit dem Konzil von Chalzedon zusammen, bei dem einige römische Legate im Auftrag von Leo anwesend waren.\"], [\"Leos „Tomus ad Flavianum“ von 449 war eine wichtige Vorarbeit für die christologische Formel des Konzils.\", \"Nach dem Konzil hatte Leo durch seine vielen Briefe an Bischöfe und Mitglieder der Kaiserfamilie einen großen Einfluss darauf, dass der Glaube von Chalzedon rezipiert und durchgesetzt wurde.\", \"Der Glaube von Chalzedon wurde durch Leos Einfluss auch im Osten des römischen Reiches durchgesetzt.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 414,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [62, 65], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leos Theologie beschäftigte sich vor allem mit der Frage nach der Person Christi und seiner Mittlerschaft.\", \"Leos Theologie hing mit dem Konzil von Chalcedon zusammen.\", \"Einige römische Legaten nahmen im Auftrag Leos am Konzil von Chalcedon teil.\"], \"source_fact_index\": 60, \"target_contexts\": [[\"Das Konzil von Chalzedon war die größte und wichtigste Bischofsversammlung der Antike.\", \"Theologisch befasste sich Leo vor allem mit der Frage nach der Person des Christus und seiner Mittlerschaft.\", \"Dies hing mit dem Konzil von Chalzedon zusammen, bei dem einige römische Legate im Auftrag von Leo anwesend waren.\"], [\"Leos „Tomus ad Flavianum“ von 449 war eine wichtige Vorarbeit für die christologische Formel des Konzils.\", \"Nach dem Konzil hatte Leo durch seine vielen Briefe an Bischöfe und Mitglieder der Kaiserfamilie einen großen Einfluss darauf, dass der Glaube von Chalzedon rezipiert und durchgesetzt wurde.\", \"Der Glaube von Chalzedon wurde durch Leos Einfluss auch im Osten des römischen Reiches durchgesetzt.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 417,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [63, 71], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leos Theologie hing mit dem Konzil von Chalcedon zusammen.\", \"Einige römische Legaten nahmen im Auftrag Leos am Konzil von Chalcedon teil.\", \"Leo hatte die christologische Formel des Konzils von Chalcedon in seinem Tomus ad Flavianum von 449 entscheidend vorbereitet.\"], \"source_fact_index\": 61, \"target_contexts\": [[\"Theologisch befasste sich Leo vor allem mit der Frage nach der Person des Christus und seiner Mittlerschaft.\", \"Dies hing mit dem Konzil von Chalzedon zusammen, bei dem einige römische Legate im Auftrag von Leo anwesend waren.\", \"Leos „Tomus ad Flavianum“ von 449 war eine wichtige Vorarbeit für die christologische Formel des Konzils.\"], [\"Leo vertiefte seine eigenen Auffassungen über die Jahre.\", \"Ein zentrales Motiv bei Leo war die Gegenwart von Christus in der Kirche.\", \"Ein zentrales Motiv bei Leo war die Verkündigung des Glaubens durch Schrift, Tradition und deren Auslegung.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 393,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [64, 65], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Einige römische Legaten nahmen im Auftrag Leos am Konzil von Chalcedon teil.\", \"Leo hatte die christologische Formel des Konzils von Chalcedon in seinem Tomus ad Flavianum von 449 entscheidend vorbereitet.\", \"Leo nahm über viele Briefe an Bischöfe und Mitglieder der Kaiserfamilie großen Einfluss auf die Durchsetzung und Rezeption des Glaubens von Chalcedon.\"], \"source_fact_index\": 62, \"target_contexts\": [[\"Dies hing mit dem Konzil von Chalzedon zusammen, bei dem einige römische Legate im Auftrag von Leo anwesend waren.\", \"Leos „Tomus ad Flavianum“ von 449 war eine wichtige Vorarbeit für die christologische Formel des Konzils.\", \"Nach dem Konzil hatte Leo durch seine vielen Briefe an Bischöfe und Mitglieder der Kaiserfamilie einen großen Einfluss darauf, dass der Glaube von Chalzedon rezipiert und durchgesetzt wurde.\"], [\"Leos „Tomus ad Flavianum“ von 449 war eine wichtige Vorarbeit für die christologische Formel des Konzils.\", \"Nach dem Konzil hatte Leo durch seine vielen Briefe an Bischöfe und Mitglieder der Kaiserfamilie einen großen Einfluss darauf, dass der Glaube von Chalzedon rezipiert und durchgesetzt wurde.\", \"Der Glaube von Chalzedon wurde durch Leos Einfluss auch im Osten des römischen Reiches durchgesetzt.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 474,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [65, 64], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo hatte die christologische Formel des Konzils von Chalcedon in seinem Tomus ad Flavianum von 449 entscheidend vorbereitet.\", \"Leo nahm über viele Briefe an Bischöfe und Mitglieder der Kaiserfamilie großen Einfluss auf die Durchsetzung und Rezeption des Glaubens von Chalcedon.\", \"Leos Einfluss auf die Durchsetzung und Rezeption des Glaubens von Chalcedon reichte auch in den Osten des römischen Reiches.\"], \"source_fact_index\": 63, \"target_contexts\": [[\"Leos „Tomus ad Flavianum“ von 449 war eine wichtige Vorarbeit für die christologische Formel des Konzils.\", \"Nach dem Konzil hatte Leo durch seine vielen Briefe an Bischöfe und Mitglieder der Kaiserfamilie einen großen Einfluss darauf, dass der Glaube von Chalzedon rezipiert und durchgesetzt wurde.\", \"Der Glaube von Chalzedon wurde durch Leos Einfluss auch im Osten des römischen Reiches durchgesetzt.\"], [\"Dies hing mit dem Konzil von Chalzedon zusammen, bei dem einige römische Legate im Auftrag von Leo anwesend waren.\", \"Leos „Tomus ad Flavianum“ von 449 war eine wichtige Vorarbeit für die christologische Formel des Konzils.\", \"Nach dem Konzil hatte Leo durch seine vielen Briefe an Bischöfe und Mitglieder der Kaiserfamilie einen großen Einfluss darauf, dass der Glaube von Chalzedon rezipiert und durchgesetzt wurde.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 482,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [66, 61], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo nahm über viele Briefe an Bischöfe und Mitglieder der Kaiserfamilie großen Einfluss auf die Durchsetzung und Rezeption des Glaubens von Chalcedon.\", \"Leos Einfluss auf die Durchsetzung und Rezeption des Glaubens von Chalcedon reichte auch in den Osten des römischen Reiches.\", \"Leos Anliegen war es, die wahre Gottheit und die wahre Menschheit des einen Christus gegen häretische Einseitigkeiten zu verteidigen.\"], \"source_fact_index\": 64, \"target_contexts\": [[\"Nach dem Konzil hatte Leo durch seine vielen Briefe an Bischöfe und Mitglieder der Kaiserfamilie einen großen Einfluss darauf, dass der Glaube von Chalzedon rezipiert und durchgesetzt wurde.\", \"Der Glaube von Chalzedon wurde durch Leos Einfluss auch im Osten des römischen Reiches durchgesetzt.\", \"Leo wollte vor allem den Glauben durchsetzen, dass Christus Gott und Mensch war.\"], [\"In den Briefen von Leo wurde unter anderem über das Konzil von Chalzedon diskutiert.\", \"Das Konzil von Chalzedon war die größte und wichtigste Bischofsversammlung der Antike.\", \"Theologisch befasste sich Leo vor allem mit der Frage nach der Person des Christus und seiner Mittlerschaft.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 433,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [61, 68], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leos Einfluss auf die Durchsetzung und Rezeption des Glaubens von Chalcedon reichte auch in den Osten des römischen Reiches.\", \"Leos Anliegen war es, die wahre Gottheit und die wahre Menschheit des einen Christus gegen häretische Einseitigkeiten zu verteidigen.\", \"Leo griff das Thema der Person Christi und seiner Mittlerschaft auch in vielen Predigten auf.\"], \"source_fact_index\": 65, \"target_contexts\": [[\"In den Briefen von Leo wurde unter anderem über das Konzil von Chalzedon diskutiert.\", \"Das Konzil von Chalzedon war die größte und wichtigste Bischofsversammlung der Antike.\", \"Theologisch befasste sich Leo vor allem mit der Frage nach der Person des Christus und seiner Mittlerschaft.\"], [\"Leo wollte vor allem den Glauben durchsetzen, dass Christus Gott und Mensch war.\", \"Diejenigen, die nur eines davon gelten lassen wollten, wurden als Häretiker verurteilt.\", \"Leo griff dieses Thema auch in vielen Predigten auf.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 385,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [69, 61], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leos Anliegen war es, die wahre Gottheit und die wahre Menschheit des einen Christus gegen häretische Einseitigkeiten zu verteidigen.\", \"Leo griff das Thema der Person Christi und seiner Mittlerschaft auch in vielen Predigten auf.\", \"Leo vertiefte seine eigenen Auffassungen über die Person Christi und seine Mittlerschaft in seinen Predigten über die Jahre.\"], \"source_fact_index\": 66, \"target_contexts\": [[\"Diejenigen, die nur eines davon gelten lassen wollten, wurden als Häretiker verurteilt.\", \"Leo griff dieses Thema auch in vielen Predigten auf.\", \"Leo vertiefte seine eigenen Auffassungen über die Jahre.\"], [\"In den Briefen von Leo wurde unter anderem über das Konzil von Chalzedon diskutiert.\", \"Das Konzil von Chalzedon war die größte und wichtigste Bischofsversammlung der Antike.\", \"Theologisch befasste sich Leo vor allem mit der Frage nach der Person des Christus und seiner Mittlerschaft.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 378,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [70, 72], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo griff das Thema der Person Christi und seiner Mittlerschaft auch in vielen Predigten auf.\", \"Leo vertiefte seine eigenen Auffassungen über die Person Christi und seine Mittlerschaft in seinen Predigten über die Jahre.\", \"Ein zentrales Motiv bei Leo war die Gegenwart Christi in der Kirche.\"], \"source_fact_index\": 67, \"target_contexts\": [[\"Leo griff dieses Thema auch in vielen Predigten auf.\", \"Leo vertiefte seine eigenen Auffassungen über die Jahre.\", \"Ein zentrales Motiv bei Leo war die Gegenwart von Christus in der Kirche.\"], [\"Ein zentrales Motiv bei Leo war die Gegenwart von Christus in der Kirche.\", \"Ein zentrales Motiv bei Leo war die Verkündigung des Glaubens durch Schrift, Tradition und deren Auslegung.\", \"Ein zentrales Motiv bei Leo war die Liturgie durch Sakramente und Feste.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 347,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [71, 61], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo vertiefte seine eigenen Auffassungen über die Person Christi und seine Mittlerschaft in seinen Predigten über die Jahre.\", \"Ein zentrales Motiv bei Leo war die Gegenwart Christi in der Kirche.\", \"Die Gegenwart Christi in der Kirche manifestierte sich bei Leo näher in der Verkündigung des Glaubens durch Schrift, Tradition und deren Auslegung.\"], \"source_fact_index\": 68, \"target_contexts\": [[\"Leo vertiefte seine eigenen Auffassungen über die Jahre.\", \"Ein zentrales Motiv bei Leo war die Gegenwart von Christus in der Kirche.\", \"Ein zentrales Motiv bei Leo war die Verkündigung des Glaubens durch Schrift, Tradition und deren Auslegung.\"], [\"In den Briefen von Leo wurde unter anderem über das Konzil von Chalzedon diskutiert.\", \"Das Konzil von Chalzedon war die größte und wichtigste Bischofsversammlung der Antike.\", \"Theologisch befasste sich Leo vor allem mit der Frage nach der Person des Christus und seiner Mittlerschaft.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 376,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [72, 61], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ein zentrales Motiv bei Leo war die Gegenwart Christi in der Kirche.\", \"Die Gegenwart Christi in der Kirche manifestierte sich bei Leo näher in der Verkündigung des Glaubens durch Schrift, Tradition und deren Auslegung.\", \"Die Gegenwart Christi in der Kirche manifestierte sich bei Leo näher in der Liturgie durch Sakramente und Feste.\"], \"source_fact_index\": 69, \"target_contexts\": [[\"Ein zentrales Motiv bei Leo war die Gegenwart von Christus in der Kirche.\", \"Ein zentrales Motiv bei Leo war die Verkündigung des Glaubens durch Schrift, Tradition und deren Auslegung.\", \"Ein zentrales Motiv bei Leo war die Liturgie durch Sakramente und Feste.\"], [\"In den Briefen von Leo wurde unter anderem über das Konzil von Chalzedon diskutiert.\", \"Das Konzil von Chalzedon war die größte und wichtigste Bischofsversammlung der Antike.\", \"Theologisch befasste sich Leo vor allem mit der Frage nach der Person des Christus und seiner Mittlerschaft.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 379,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [61, 70], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Gegenwart Christi in der Kirche manifestierte sich bei Leo näher in der Verkündigung des Glaubens durch Schrift, Tradition und deren Auslegung.\", \"Die Gegenwart Christi in der Kirche manifestierte sich bei Leo näher in der Liturgie durch Sakramente und Feste.\", \"Die Gegenwart Christi in der Kirche manifestierte sich bei Leo näher im Leben der organisierten Kirche und des einzelnen Gläubigen, insbesondere auf dem Konzil.\"], \"source_fact_index\": 70, \"target_contexts\": [[\"In den Briefen von Leo wurde unter anderem über das Konzil von Chalzedon diskutiert.\", \"Das Konzil von Chalzedon war die größte und wichtigste Bischofsversammlung der Antike.\", \"Theologisch befasste sich Leo vor allem mit der Frage nach der Person des Christus und seiner Mittlerschaft.\"], [\"Leo griff dieses Thema auch in vielen Predigten auf.\", \"Leo vertiefte seine eigenen Auffassungen über die Jahre.\", \"Ein zentrales Motiv bei Leo war die Gegenwart von Christus in der Kirche.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 379,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [73, 76], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Gegenwart Christi in der Kirche manifestierte sich bei Leo näher in der Liturgie durch Sakramente und Feste.\", \"Die Gegenwart Christi in der Kirche manifestierte sich bei Leo näher im Leben der organisierten Kirche und des einzelnen Gläubigen, insbesondere auf dem Konzil.\", \"Leo leistete einen der bedeutendsten Beiträge zur Entwicklung der Lehre vom Papsttum, Erbe und Stellvertreter Petri.\"], \"source_fact_index\": 71, \"target_contexts\": [[\"Ein zentrales Motiv bei Leo war die Verkündigung des Glaubens durch Schrift, Tradition und deren Auslegung.\", \"Ein zentrales Motiv bei Leo war die Liturgie durch Sakramente und Feste.\", \"Leo hat einen der wichtigsten Beiträge zur Entwicklung der Lehre vom Papsttum geleistet.\"], [\"Leos Beitrag zur Entwicklung der Lehre vom Papsttum wurde von einer persönlichen Petrusfremdigkeit und von der Verehrung für den Apostel im Rom des 5. Jahrhunderts getragen.\", \"Der eigene Bezug zum Petrus wurde unter anderem mit Ausdruck des römischen Rechts beschrieben.\", \"Leo sah sich selbst als Erbe und Stellvertreter des Petrus.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 405,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [83, 78], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Gegenwart Christi in der Kirche manifestierte sich bei Leo näher im Leben der organisierten Kirche und des einzelnen Gläubigen, insbesondere auf dem Konzil.\", \"Leo leistete einen der bedeutendsten Beiträge zur Entwicklung der Lehre vom Papsttum, Erbe und Stellvertreter Petri.\", \"Petrus war für Leo das Vorbild der Beziehung zu Christus.\"], \"source_fact_index\": 72, \"target_contexts\": [[\"Christus blieb die Quelle aller Gnade und aller Vollmacht.\", \"Leo sah sich Christus gegenüber verantwortlich für seine Amtsführung.\", \"Petrus war für Leo das Vorbild der Beziehung zum Christus.\"], [\"Leo sah sich selbst als Erbe und Stellvertreter des Petrus.\", \"Leo hatte die apostolische Vollmacht des Petrus.\", \"Leo war dem Vorbild des Petrus verpflichtet.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 336,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [84, 75], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo leistete einen der bedeutendsten Beiträge zur Entwicklung der Lehre vom Papsttum, Erbe und Stellvertreter Petri.\", \"Petrus war für Leo das Vorbild der Beziehung zu Christus.\", \"Das Amt des römischen Bischofs mit seiner gesamtkirchlichen Bedeutung war von der einzigartigen Beziehung zwischen Christus und Petrus getragen.\"], \"source_fact_index\": 73, \"target_contexts\": [[\"Leo sah sich Christus gegenüber verantwortlich für seine Amtsführung.\", \"Petrus war für Leo das Vorbild der Beziehung zum Christus.\", \"Das Amt des römischen Bischofs wurde in der Bedeutung für die Gesamtkirche aus der einzigartigen Beziehung zwischen Christus und Petrus abgeleitet.\"], [\"Leo hat einen der wichtigsten Beiträge zur Entwicklung der Lehre vom Papsttum geleistet.\", \"Leos Beitrag zur Entwicklung der Lehre vom Papsttum wurde von einer persönlichen Petrusfremdigkeit und von der Verehrung für den Apostel im Rom des 5. Jahrhunderts getragen.\", \"Der eigene Bezug zum Petrus wurde unter anderem mit Ausdruck des römischen Rechts beschrieben.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 390,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [84, 75], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Petrus war für Leo das Vorbild der Beziehung zu Christus.\", \"Das Amt des römischen Bischofs mit seiner gesamtkirchlichen Bedeutung war von der einzigartigen Beziehung zwischen Christus und Petrus getragen.\", \"Die Beziehung zwischen Christus und Petrus war an sich einzigartig.\"], \"source_fact_index\": 74, \"target_contexts\": [[\"Leo sah sich Christus gegenüber verantwortlich für seine Amtsführung.\", \"Petrus war für Leo das Vorbild der Beziehung zum Christus.\", \"Das Amt des römischen Bischofs wurde in der Bedeutung für die Gesamtkirche aus der einzigartigen Beziehung zwischen Christus und Petrus abgeleitet.\"], [\"Leo hat einen der wichtigsten Beiträge zur Entwicklung der Lehre vom Papsttum geleistet.\", \"Leos Beitrag zur Entwicklung der Lehre vom Papsttum wurde von einer persönlichen Petrusfremdigkeit und von der Verehrung für den Apostel im Rom des 5. Jahrhunderts getragen.\", \"Der eigene Bezug zum Petrus wurde unter anderem mit Ausdruck des römischen Rechts beschrieben.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 374,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [85, 78], \"context_size\": 3, \"direction\": \"de_to_als\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Das Amt des römischen Bischofs mit seiner gesamtkirchlichen Bedeutung war von der einzigartigen Beziehung zwischen Christus und Petrus getragen.\", \"Die Beziehung zwischen Christus und Petrus war an sich einzigartig.\", \"Leo brauchte den Beistand und das Vorbild des Petrus, um das Amt des römischen Bischofs angemessen ausüben zu können.\"], \"source_fact_index\": 75, \"target_contexts\": [[\"Petrus war für Leo das Vorbild der Beziehung zum Christus.\", \"Das Amt des römischen Bischofs wurde in der Bedeutung für die Gesamtkirche aus der einzigartigen Beziehung zwischen Christus und Petrus abgeleitet.\", \"Leo nutzte das Vorbild des Petrus, um das Amt des römischen Bischofs angemessen auszuüben.\"], [\"Leo sah sich selbst als Erbe und Stellvertreter des Petrus.\", \"Leo hatte die apostolische Vollmacht des Petrus.\", \"Leo war dem Vorbild des Petrus verpflichtet.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 364,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [1, 2], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo der Große, auch Leo I. genannt, wurde um 400 in Rom geboren.\"], \"source_fact_index\": 0, \"target_contexts\": [[\"Leo der Große war als Papst Leo I. bekannt.\", \"Leo der Große wurde um 400 entweder in Rom oder – nach dem Liber Pontificalis – in der Toskana geboren.\"], [\"Leo der Große war als Papst Leo I. bekannt.\", \"Leo der Große wurde um 400 entweder in Rom oder – nach dem Liber Pontificalis – in der Toskana geboren.\", \"Leo der Große starb am 10. November 461.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 309,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [1, 2], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo der Große, auch Leo I. genannt, wurde um 400 in Rom geboren.\", \"Nach dem Liber Pontificalis wurde Leo der Große in der Toskana geboren.\"], \"source_fact_index\": 1, \"target_contexts\": [[\"Leo der Große war als Papst Leo I. bekannt.\", \"Leo der Große wurde um 400 entweder in Rom oder – nach dem Liber Pontificalis – in der Toskana geboren.\"], [\"Leo der Große war als Papst Leo I. bekannt.\", \"Leo der Große wurde um 400 entweder in Rom oder – nach dem Liber Pontificalis – in der Toskana geboren.\", \"Leo der Große starb am 10. November 461.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 327,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [2, 3], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo der Große, auch Leo I. genannt, wurde um 400 in Rom geboren.\", \"Nach dem Liber Pontificalis wurde Leo der Große in der Toskana geboren.\", \"Leo der Große starb am 10. November 461.\"], \"source_fact_index\": 2, \"target_contexts\": [[\"Leo der Große war als Papst Leo I. bekannt.\", \"Leo der Große wurde um 400 entweder in Rom oder – nach dem Liber Pontificalis – in der Toskana geboren.\", \"Leo der Große starb am 10. November 461.\"], [\"Leo der Große wurde um 400 entweder in Rom oder – nach dem Liber Pontificalis – in der Toskana geboren.\", \"Leo der Große starb am 10. November 461.\", \"Leo der Große war vom 29. September 440 bis zu seinem Tode Bischof von Rom.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 373,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [3, 2], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Nach dem Liber Pontificalis wurde Leo der Große in der Toskana geboren.\", \"Leo der Große starb am 10. November 461.\", \"Leo der Große war vom 29. September 440 bis zu seinem Tod Bischof von Rom und damit Papst.\"], \"source_fact_index\": 3, \"target_contexts\": [[\"Leo der Große wurde um 400 entweder in Rom oder – nach dem Liber Pontificalis – in der Toskana geboren.\", \"Leo der Große starb am 10. November 461.\", \"Leo der Große war vom 29. September 440 bis zu seinem Tode Bischof von Rom.\"], [\"Leo der Große war als Papst Leo I. bekannt.\", \"Leo der Große wurde um 400 entweder in Rom oder – nach dem Liber Pontificalis – in der Toskana geboren.\", \"Leo der Große starb am 10. November 461.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 380,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [4, 6], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo der Große starb am 10. November 461.\", \"Leo der Große war vom 29. September 440 bis zu seinem Tod Bischof von Rom und damit Papst.\", \"Leo der Große hat die Lehre der katholischen Kirche verteidigt.\"], \"source_fact_index\": 4, \"target_contexts\": [[\"Leo der Große starb am 10. November 461.\", \"Leo der Große war vom 29. September 440 bis zu seinem Tode Bischof von Rom.\", \"Leo der Große verteidigte die Lehre der katholischen Kirche, insbesondere während des Konzils von Chalcedon (451).\"], [\"Leo der Große verteidigte die Lehre der katholischen Kirche, insbesondere während des Konzils von Chalcedon (451).\", \"Leo der Große bekämpfte die Monophysiten.\", \"Leo der Große bekämpfte die Pelagianer.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 377,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [4, 2], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo der Große war vom 29. September 440 bis zu seinem Tod Bischof von Rom und damit Papst.\", \"Leo der Große hat die Lehre der katholischen Kirche verteidigt.\", \"Leo der Große hat die Lehre der katholischen Kirche vor allem beim Konzil von Chalzedon (451) verteidigt.\"], \"source_fact_index\": 5, \"target_contexts\": [[\"Leo der Große starb am 10. November 461.\", \"Leo der Große war vom 29. September 440 bis zu seinem Tode Bischof von Rom.\", \"Leo der Große verteidigte die Lehre der katholischen Kirche, insbesondere während des Konzils von Chalcedon (451).\"], [\"Leo der Große war als Papst Leo I. bekannt.\", \"Leo der Große wurde um 400 entweder in Rom oder – nach dem Liber Pontificalis – in der Toskana geboren.\", \"Leo der Große starb am 10. November 461.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 394,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [5, 6], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo der Große hat die Lehre der katholischen Kirche verteidigt.\", \"Leo der Große hat die Lehre der katholischen Kirche vor allem beim Konzil von Chalzedon (451) verteidigt.\", \"Leo der Große hat beim Konzil von Chalzedon gegen die Monophysiten gekämpft.\"], \"source_fact_index\": 6, \"target_contexts\": [[\"Leo der Große war vom 29. September 440 bis zu seinem Tode Bischof von Rom.\", \"Leo der Große verteidigte die Lehre der katholischen Kirche, insbesondere während des Konzils von Chalcedon (451).\", \"Leo der Große bekämpfte die Monophysiten.\"], [\"Leo der Große verteidigte die Lehre der katholischen Kirche, insbesondere während des Konzils von Chalcedon (451).\", \"Leo der Große bekämpfte die Monophysiten.\", \"Leo der Große bekämpfte die Pelagianer.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 381,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [6, 5], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo der Große hat die Lehre der katholischen Kirche vor allem beim Konzil von Chalzedon (451) verteidigt.\", \"Leo der Große hat beim Konzil von Chalzedon gegen die Monophysiten gekämpft.\", \"Leo der Große hat beim Konzil von Chalzedon gegen die Pelagianer gekämpft.\"], \"source_fact_index\": 7, \"target_contexts\": [[\"Leo der Große verteidigte die Lehre der katholischen Kirche, insbesondere während des Konzils von Chalcedon (451).\", \"Leo der Große bekämpfte die Monophysiten.\", \"Leo der Große bekämpfte die Pelagianer.\"], [\"Leo der Große war vom 29. September 440 bis zu seinem Tode Bischof von Rom.\", \"Leo der Große verteidigte die Lehre der katholischen Kirche, insbesondere während des Konzils von Chalcedon (451).\", \"Leo der Große bekämpfte die Monophysiten.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 386,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [7, 8], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo der Große hat beim Konzil von Chalzedon gegen die Monophysiten gekämpft.\", \"Leo der Große hat beim Konzil von Chalzedon gegen die Pelagianer gekämpft.\", \"Er wurde wahrscheinlich zum ersten Mal in einem Brief des heiligen Augustinus genannt, in dem dieser von einem Akolyth Leo schreibt.\"], \"source_fact_index\": 8, \"target_contexts\": [[\"Leo der Große bekämpfte die Monophysiten.\", \"Leo der Große bekämpfte die Pelagianer.\", \"Er wurde wahrscheinlich erstmals in einem Brief des heiligen Augustinus erwähnt.\"], [\"Leo der Große bekämpfte die Pelagianer.\", \"Er wurde wahrscheinlich erstmals in einem Brief des heiligen Augustinus erwähnt.\", \"In einem Brief des heiligen Augustinus spricht Augustinus von einem Akolythen Leo.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 345,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [9, 7], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo der Große hat beim Konzil von Chalzedon gegen die Pelagianer gekämpft.\", \"Er wurde wahrscheinlich zum ersten Mal in einem Brief des heiligen Augustinus genannt, in dem dieser von einem Akolyth Leo schreibt.\", \"Sein Wirken als Diakon unter den römischen Päpsten Coelestin I. und Sixtus III. ist gesichert.\"], \"source_fact_index\": 9, \"target_contexts\": [[\"Er wurde wahrscheinlich erstmals in einem Brief des heiligen Augustinus erwähnt.\", \"In einem Brief des heiligen Augustinus spricht Augustinus von einem Akolythen Leo.\", \"Sein Wirken als Diakon unter den römischen Päpsten Coelestin I. und Sixtus III. ist gesichert.\"], [\"Leo der Große bekämpfte die Monophysiten.\", \"Leo der Große bekämpfte die Pelagianer.\", \"Er wurde wahrscheinlich erstmals in einem Brief des heiligen Augustinus erwähnt.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 372,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [10, 11], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Er wurde wahrscheinlich zum ersten Mal in einem Brief des heiligen Augustinus genannt, in dem dieser von einem Akolyth Leo schreibt.\", \"Sein Wirken als Diakon unter den römischen Päpsten Coelestin I. und Sixtus III. ist gesichert.\", \"In seinem Amt als Diakon half er, verschiedene kirchliche und staatspolitische Probleme zu lösen.\"], \"source_fact_index\": 10, \"target_contexts\": [[\"In einem Brief des heiligen Augustinus spricht Augustinus von einem Akolythen Leo.\", \"Sein Wirken als Diakon unter den römischen Päpsten Coelestin I. und Sixtus III. ist gesichert.\", \"In seinem Amt als Diakon war er bei der Lösung verschiedener kirchlicher und staatspolitischer Probleme behilflich.\"], [\"Sein Wirken als Diakon unter den römischen Päpsten Coelestin I. und Sixtus III. ist gesichert.\", \"In seinem Amt als Diakon war er bei der Lösung verschiedener kirchlicher und staatspolitischer Probleme behilflich.\", \"Die Beihilfe bei der Lösung kirchlicher und staatspolitischer Probleme brachte ihm einen guten Ruf im Klerus ein.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 434,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [11, 12], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Sein Wirken als Diakon unter den römischen Päpsten Coelestin I. und Sixtus III. ist gesichert.\", \"In seinem Amt als Diakon half er, verschiedene kirchliche und staatspolitische Probleme zu lösen.\", \"Die Hilfe bei der Lösung kirchlicher und staatspolitischer Probleme brachte ihm einen guten Ruf im Klerus.\"], \"source_fact_index\": 11, \"target_contexts\": [[\"Sein Wirken als Diakon unter den römischen Päpsten Coelestin I. und Sixtus III. ist gesichert.\", \"In seinem Amt als Diakon war er bei der Lösung verschiedener kirchlicher und staatspolitischer Probleme behilflich.\", \"Die Beihilfe bei der Lösung kirchlicher und staatspolitischer Probleme brachte ihm einen guten Ruf im Klerus ein.\"], [\"In seinem Amt als Diakon war er bei der Lösung verschiedener kirchlicher und staatspolitischer Probleme behilflich.\", \"Die Beihilfe bei der Lösung kirchlicher und staatspolitischer Probleme brachte ihm einen guten Ruf im Klerus ein.\", \"Die Beihilfe bei der Lösung kirchlicher und staatspolitischer Probleme brachte ihm einen guten Ruf bei der Bevölkerung Roms ein.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 440,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [12, 11], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"In seinem Amt als Diakon half er, verschiedene kirchliche und staatspolitische Probleme zu lösen.\", \"Die Hilfe bei der Lösung kirchlicher und staatspolitischer Probleme brachte ihm einen guten Ruf im Klerus.\", \"Die Hilfe bei der Lösung kirchlicher und staatspolitischer Probleme brachte ihm einen guten Ruf bei der Bevölkerung Roms.\"], \"source_fact_index\": 12, \"target_contexts\": [[\"In seinem Amt als Diakon war er bei der Lösung verschiedener kirchlicher und staatspolitischer Probleme behilflich.\", \"Die Beihilfe bei der Lösung kirchlicher und staatspolitischer Probleme brachte ihm einen guten Ruf im Klerus ein.\", \"Die Beihilfe bei der Lösung kirchlicher und staatspolitischer Probleme brachte ihm einen guten Ruf bei der Bevölkerung Roms ein.\"], [\"Sein Wirken als Diakon unter den römischen Päpsten Coelestin I. und Sixtus III. ist gesichert.\", \"In seinem Amt als Diakon war er bei der Lösung verschiedener kirchlicher und staatspolitischer Probleme behilflich.\", \"Die Beihilfe bei der Lösung kirchlicher und staatspolitischer Probleme brachte ihm einen guten Ruf im Klerus ein.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 436,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [11, 12], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Hilfe bei der Lösung kirchlicher und staatspolitischer Probleme brachte ihm einen guten Ruf im Klerus.\", \"Die Hilfe bei der Lösung kirchlicher und staatspolitischer Probleme brachte ihm einen guten Ruf bei der Bevölkerung Roms.\", \"Die Hilfe bei der Lösung kirchlicher und staatspolitischer Probleme führte bei seiner Wahl zum Bischof zu einem einstimmigen Ergebnis.\"], \"source_fact_index\": 13, \"target_contexts\": [[\"Sein Wirken als Diakon unter den römischen Päpsten Coelestin I. und Sixtus III. ist gesichert.\", \"In seinem Amt als Diakon war er bei der Lösung verschiedener kirchlicher und staatspolitischer Probleme behilflich.\", \"Die Beihilfe bei der Lösung kirchlicher und staatspolitischer Probleme brachte ihm einen guten Ruf im Klerus ein.\"], [\"In seinem Amt als Diakon war er bei der Lösung verschiedener kirchlicher und staatspolitischer Probleme behilflich.\", \"Die Beihilfe bei der Lösung kirchlicher und staatspolitischer Probleme brachte ihm einen guten Ruf im Klerus ein.\", \"Die Beihilfe bei der Lösung kirchlicher und staatspolitischer Probleme brachte ihm einen guten Ruf bei der Bevölkerung Roms ein.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 444,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [13, 16], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Hilfe bei der Lösung kirchlicher und staatspolitischer Probleme brachte ihm einen guten Ruf bei der Bevölkerung Roms.\", \"Die Hilfe bei der Lösung kirchlicher und staatspolitischer Probleme führte bei seiner Wahl zum Bischof zu einem einstimmigen Ergebnis.\", \"Leo I. war der wichtigste römische Bischof des 5. Jahrhunderts.\"], \"source_fact_index\": 14, \"target_contexts\": [[\"Die Beihilfe bei der Lösung kirchlicher und staatspolitischer Probleme brachte ihm einen guten Ruf im Klerus ein.\", \"Die Beihilfe bei der Lösung kirchlicher und staatspolitischer Probleme brachte ihm einen guten Ruf bei der Bevölkerung Roms ein.\", \"Leo I. verwendete den Titel Pontifex Maximus nicht exklusiv für sich als römischer Bischof.\"], [\"Caesar führte den Titel Pontifex Maximus als oberster Amtsträger des römischen Religionswesens.\", \"Augustus führte den Titel Pontifex Maximus als oberster Amtsträger des römischen Religionswesens.\", \"Andere Kaiser führten den Titel Pontifex Maximus als oberste Amtsträger des römischen Religionswesens.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 413,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [13, 20], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Hilfe bei der Lösung kirchlicher und staatspolitischer Probleme führte bei seiner Wahl zum Bischof zu einem einstimmigen Ergebnis.\", \"Leo I. war der wichtigste römische Bischof des 5. Jahrhunderts.\", \"In der Zeit von Leo I. stand der römische Primatsanspruch auf seinem ersten Höhepunkt.\"], \"source_fact_index\": 15, \"target_contexts\": [[\"Die Beihilfe bei der Lösung kirchlicher und staatspolitischer Probleme brachte ihm einen guten Ruf im Klerus ein.\", \"Die Beihilfe bei der Lösung kirchlicher und staatspolitischer Probleme brachte ihm einen guten Ruf bei der Bevölkerung Roms ein.\", \"Leo I. verwendete den Titel Pontifex Maximus nicht exklusiv für sich als römischer Bischof.\"], [\"Leo I. benutzte den Begriff Pontifex als Synonym für Bischöfe.\", \"Prosper von Aquitanien bezeichnete Leo I. schon zu dessen Lebzeiten als papa.\", \"Prosper von Aquitanien bezeichnete Leo I. schon zu dessen Lebzeiten als summus sacerdos (oberster Priester).\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 405,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [13, 16], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo I. war der wichtigste römische Bischof des 5. Jahrhunderts.\", \"In der Zeit von Leo I. stand der römische Primatsanspruch auf seinem ersten Höhepunkt.\", \"Leo I. griff den römischen Titel des Pontifex Maximus auf.\"], \"source_fact_index\": 16, \"target_contexts\": [[\"Die Beihilfe bei der Lösung kirchlicher und staatspolitischer Probleme brachte ihm einen guten Ruf im Klerus ein.\", \"Die Beihilfe bei der Lösung kirchlicher und staatspolitischer Probleme brachte ihm einen guten Ruf bei der Bevölkerung Roms ein.\", \"Leo I. verwendete den Titel Pontifex Maximus nicht exklusiv für sich als römischer Bischof.\"], [\"Caesar führte den Titel Pontifex Maximus als oberster Amtsträger des römischen Religionswesens.\", \"Augustus führte den Titel Pontifex Maximus als oberster Amtsträger des römischen Religionswesens.\", \"Andere Kaiser führten den Titel Pontifex Maximus als oberste Amtsträger des römischen Religionswesens.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 394,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [16, 15], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"In der Zeit von Leo I. stand der römische Primatsanspruch auf seinem ersten Höhepunkt.\", \"Leo I. griff den römischen Titel des Pontifex Maximus auf.\", \"Der Pontifex Maximus bedeutet oberster Brückenbauer bzw. oberster Priester.\"], \"source_fact_index\": 17, \"target_contexts\": [[\"Caesar führte den Titel Pontifex Maximus als oberster Amtsträger des römischen Religionswesens.\", \"Augustus führte den Titel Pontifex Maximus als oberster Amtsträger des römischen Religionswesens.\", \"Andere Kaiser führten den Titel Pontifex Maximus als oberste Amtsträger des römischen Religionswesens.\"], [\"Leo I. verwendete den Titel Pontifex Maximus nicht exklusiv für sich als römischer Bischof.\", \"Caesar führte den Titel Pontifex Maximus als oberster Amtsträger des römischen Religionswesens.\", \"Augustus führte den Titel Pontifex Maximus als oberster Amtsträger des römischen Religionswesens.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 383,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [29, 16], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo I. griff den römischen Titel des Pontifex Maximus auf.\", \"Der Pontifex Maximus bedeutet oberster Brückenbauer bzw. oberster Priester.\", \"Der Caesar, der Augustus und andere Kaiser waren als oberste Priester des Jupitertempels tätig.\"], \"source_fact_index\": 18, \"target_contexts\": [[\"Leo I. griff in viele kirchliche Angelegenheiten in Griechenland ein.\", \"Auf dem Konzil von Chalkedon wurde Rom nur ein gewisser Vorrang vor den anderen großen Bischofssitzen im Osten eingeräumt.\", \"Die anderen großen Bischofssitze im Osten waren Alexandria, Antiochia, Jerusalem und Konstantinopel.\"], [\"Caesar führte den Titel Pontifex Maximus als oberster Amtsträger des römischen Religionswesens.\", \"Augustus führte den Titel Pontifex Maximus als oberster Amtsträger des römischen Religionswesens.\", \"Andere Kaiser führten den Titel Pontifex Maximus als oberste Amtsträger des römischen Religionswesens.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 387,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [13, 21], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Pontifex Maximus bedeutet oberster Brückenbauer bzw. oberster Priester.\", \"Der Caesar, der Augustus und andere Kaiser waren als oberste Priester des Jupitertempels tätig.\", \"Leo I. nutzte den Titel Pontifex Maximus nicht exklusiv für sich als römischen Bischof.\"], \"source_fact_index\": 19, \"target_contexts\": [[\"Die Beihilfe bei der Lösung kirchlicher und staatspolitischer Probleme brachte ihm einen guten Ruf im Klerus ein.\", \"Die Beihilfe bei der Lösung kirchlicher und staatspolitischer Probleme brachte ihm einen guten Ruf bei der Bevölkerung Roms ein.\", \"Leo I. verwendete den Titel Pontifex Maximus nicht exklusiv für sich als römischer Bischof.\"], [\"Prosper von Aquitanien bezeichnete Leo I. schon zu dessen Lebzeiten als papa.\", \"Prosper von Aquitanien bezeichnete Leo I. schon zu dessen Lebzeiten als summus sacerdos (oberster Priester).\", \"Die Übertragung des Pontifex-Maximus-Titels vom Kaiser auf den Papst ist nicht das Werk von Leo I.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 414,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [17, 20], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Caesar, der Augustus und andere Kaiser waren als oberste Priester des Jupitertempels tätig.\", \"Leo I. nutzte den Titel Pontifex Maximus nicht exklusiv für sich als römischen Bischof.\", \"Leo I. nannte Christus den wahren obersten Pontifex.\"], \"source_fact_index\": 20, \"target_contexts\": [[\"Augustus führte den Titel Pontifex Maximus als oberster Amtsträger des römischen Religionswesens.\", \"Andere Kaiser führten den Titel Pontifex Maximus als oberste Amtsträger des römischen Religionswesens.\", \"Leo I. sprach von Christus als dem wahren, obersten Pontifex.\"], [\"Leo I. benutzte den Begriff Pontifex als Synonym für Bischöfe.\", \"Prosper von Aquitanien bezeichnete Leo I. schon zu dessen Lebzeiten als papa.\", \"Prosper von Aquitanien bezeichnete Leo I. schon zu dessen Lebzeiten als summus sacerdos (oberster Priester).\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 383,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [18, 13], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo I. nutzte den Titel Pontifex Maximus nicht exklusiv für sich als römischen Bischof.\", \"Leo I. nannte Christus den wahren obersten Pontifex.\", \"Leo I. gebrauchte den Ausdruck Pontifex als Synonym für Bischof.\"], \"source_fact_index\": 21, \"target_contexts\": [[\"Andere Kaiser führten den Titel Pontifex Maximus als oberste Amtsträger des römischen Religionswesens.\", \"Leo I. sprach von Christus als dem wahren, obersten Pontifex.\", \"Leo I. benutzte den Begriff Pontifex als Synonym für Bischöfe.\"], [\"Die Beihilfe bei der Lösung kirchlicher und staatspolitischer Probleme brachte ihm einen guten Ruf im Klerus ein.\", \"Die Beihilfe bei der Lösung kirchlicher und staatspolitischer Probleme brachte ihm einen guten Ruf bei der Bevölkerung Roms ein.\", \"Leo I. verwendete den Titel Pontifex Maximus nicht exklusiv für sich als römischer Bischof.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 386,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [19, 20], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo I. nannte Christus den wahren obersten Pontifex.\", \"Leo I. gebrauchte den Ausdruck Pontifex als Synonym für Bischof.\", \"Prosper von Aquitanien nannte Leo I. bereits zu dessen Lebzeiten papa.\"], \"source_fact_index\": 22, \"target_contexts\": [[\"Leo I. sprach von Christus als dem wahren, obersten Pontifex.\", \"Leo I. benutzte den Begriff Pontifex als Synonym für Bischöfe.\", \"Prosper von Aquitanien bezeichnete Leo I. schon zu dessen Lebzeiten als papa.\"], [\"Leo I. benutzte den Begriff Pontifex als Synonym für Bischöfe.\", \"Prosper von Aquitanien bezeichnete Leo I. schon zu dessen Lebzeiten als papa.\", \"Prosper von Aquitanien bezeichnete Leo I. schon zu dessen Lebzeiten als summus sacerdos (oberster Priester).\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 361,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [20, 19], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo I. gebrauchte den Ausdruck Pontifex als Synonym für Bischof.\", \"Prosper von Aquitanien nannte Leo I. bereits zu dessen Lebzeiten papa.\", \"Prosper von Aquitanien nannte Leo I. bereits zu dessen Lebzeiten summus sacerdos.\"], \"source_fact_index\": 23, \"target_contexts\": [[\"Leo I. benutzte den Begriff Pontifex als Synonym für Bischöfe.\", \"Prosper von Aquitanien bezeichnete Leo I. schon zu dessen Lebzeiten als papa.\", \"Prosper von Aquitanien bezeichnete Leo I. schon zu dessen Lebzeiten als summus sacerdos (oberster Priester).\"], [\"Leo I. sprach von Christus als dem wahren, obersten Pontifex.\", \"Leo I. benutzte den Begriff Pontifex als Synonym für Bischöfe.\", \"Prosper von Aquitanien bezeichnete Leo I. schon zu dessen Lebzeiten als papa.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 367,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [14, 15], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Prosper von Aquitanien nannte Leo I. bereits zu dessen Lebzeiten papa.\", \"Prosper von Aquitanien nannte Leo I. bereits zu dessen Lebzeiten summus sacerdos.\", \"Summus sacerdos bedeutet oberster Priester.\"], \"source_fact_index\": 24, \"target_contexts\": [[\"Die Beihilfe bei der Lösung kirchlicher und staatspolitischer Probleme brachte ihm einen guten Ruf bei der Bevölkerung Roms ein.\", \"Leo I. verwendete den Titel Pontifex Maximus nicht exklusiv für sich als römischer Bischof.\", \"Caesar führte den Titel Pontifex Maximus als oberster Amtsträger des römischen Religionswesens.\"], [\"Leo I. verwendete den Titel Pontifex Maximus nicht exklusiv für sich als römischer Bischof.\", \"Caesar führte den Titel Pontifex Maximus als oberster Amtsträger des römischen Religionswesens.\", \"Augustus führte den Titel Pontifex Maximus als oberster Amtsträger des römischen Religionswesens.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 384,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [21, 23], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Prosper von Aquitanien nannte Leo I. bereits zu dessen Lebzeiten summus sacerdos.\", \"Summus sacerdos bedeutet oberster Priester.\", \"Die Übertragung des Pontifex Maximus-Titels von den Kaisern auf den Papst war nicht das Werk von Leo I.\"], \"source_fact_index\": 25, \"target_contexts\": [[\"Prosper von Aquitanien bezeichnete Leo I. schon zu dessen Lebzeiten als papa.\", \"Prosper von Aquitanien bezeichnete Leo I. schon zu dessen Lebzeiten als summus sacerdos (oberster Priester).\", \"Die Übertragung des Pontifex-Maximus-Titels vom Kaiser auf den Papst ist nicht das Werk von Leo I.\"], [\"Die Übertragung des Pontifex-Maximus-Titels vom Kaiser auf den Papst ist nicht das Werk von Leo I.\", \"Die Lehre von Leo I. über das Petrusamt liefert wichtige Grundlagen für die Übertragung des Pontifex-Maximus-Titels vom Kaiser auf den Papst.\", \"Die Praxis von Leo I. als Papst liefert wichtige Grundlagen für die Übertragung des Pontifex-Maximus-Titels vom Kaiser auf den Papst.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 424,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [22, 23], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Summus sacerdos bedeutet oberster Priester.\", \"Die Übertragung des Pontifex Maximus-Titels von den Kaisern auf den Papst war nicht das Werk von Leo I.\", \"Die Lehre von Leo I. über das Petrusamt lieferte wichtige Grundlagen für die Übertragung des Pontifex Maximus-Titels auf den Papst.\"], \"source_fact_index\": 26, \"target_contexts\": [[\"Prosper von Aquitanien bezeichnete Leo I. schon zu dessen Lebzeiten als summus sacerdos (oberster Priester).\", \"Die Übertragung des Pontifex-Maximus-Titels vom Kaiser auf den Papst ist nicht das Werk von Leo I.\", \"Die Lehre von Leo I. über das Petrusamt liefert wichtige Grundlagen für die Übertragung des Pontifex-Maximus-Titels vom Kaiser auf den Papst.\"], [\"Die Übertragung des Pontifex-Maximus-Titels vom Kaiser auf den Papst ist nicht das Werk von Leo I.\", \"Die Lehre von Leo I. über das Petrusamt liefert wichtige Grundlagen für die Übertragung des Pontifex-Maximus-Titels vom Kaiser auf den Papst.\", \"Die Praxis von Leo I. als Papst liefert wichtige Grundlagen für die Übertragung des Pontifex-Maximus-Titels vom Kaiser auf den Papst.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 453,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [23, 22], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Übertragung des Pontifex Maximus-Titels von den Kaisern auf den Papst war nicht das Werk von Leo I.\", \"Die Lehre von Leo I. über das Petrusamt lieferte wichtige Grundlagen für die Übertragung des Pontifex Maximus-Titels auf den Papst.\", \"Die Praxis von Leo I. als Papst lieferte wichtige Grundlagen für die Übertragung des Pontifex Maximus-Titels auf den Papst.\"], \"source_fact_index\": 27, \"target_contexts\": [[\"Die Übertragung des Pontifex-Maximus-Titels vom Kaiser auf den Papst ist nicht das Werk von Leo I.\", \"Die Lehre von Leo I. über das Petrusamt liefert wichtige Grundlagen für die Übertragung des Pontifex-Maximus-Titels vom Kaiser auf den Papst.\", \"Die Praxis von Leo I. als Papst liefert wichtige Grundlagen für die Übertragung des Pontifex-Maximus-Titels vom Kaiser auf den Papst.\"], [\"Prosper von Aquitanien bezeichnete Leo I. schon zu dessen Lebzeiten als summus sacerdos (oberster Priester).\", \"Die Übertragung des Pontifex-Maximus-Titels vom Kaiser auf den Papst ist nicht das Werk von Leo I.\", \"Die Lehre von Leo I. über das Petrusamt liefert wichtige Grundlagen für die Übertragung des Pontifex-Maximus-Titels vom Kaiser auf den Papst.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 473,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [24, 26], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Lehre von Leo I. über das Petrusamt lieferte wichtige Grundlagen für die Übertragung des Pontifex Maximus-Titels auf den Papst.\", \"Die Praxis von Leo I. als Papst lieferte wichtige Grundlagen für die Übertragung des Pontifex Maximus-Titels auf den Papst.\", \"Leo I. griff in viele kirchliche Angelegenheiten in Italien ein.\"], \"source_fact_index\": 28, \"target_contexts\": [[\"Die Lehre von Leo I. über das Petrusamt liefert wichtige Grundlagen für die Übertragung des Pontifex-Maximus-Titels vom Kaiser auf den Papst.\", \"Die Praxis von Leo I. als Papst liefert wichtige Grundlagen für die Übertragung des Pontifex-Maximus-Titels vom Kaiser auf den Papst.\", \"Leo I. griff in viele kirchliche Angelegenheiten in Italien ein.\"], [\"Leo I. griff in viele kirchliche Angelegenheiten in Italien ein.\", \"Leo I. griff in viele kirchliche Angelegenheiten in Gallien ein.\", \"Leo I. griff in viele kirchliche Angelegenheiten in Spanien ein.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 408,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [25, 27], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Praxis von Leo I. als Papst lieferte wichtige Grundlagen für die Übertragung des Pontifex Maximus-Titels auf den Papst.\", \"Leo I. griff in viele kirchliche Angelegenheiten in Italien ein.\", \"Leo I. griff in viele kirchliche Angelegenheiten in Gallien ein.\"], \"source_fact_index\": 29, \"target_contexts\": [[\"Die Praxis von Leo I. als Papst liefert wichtige Grundlagen für die Übertragung des Pontifex-Maximus-Titels vom Kaiser auf den Papst.\", \"Leo I. griff in viele kirchliche Angelegenheiten in Italien ein.\", \"Leo I. griff in viele kirchliche Angelegenheiten in Gallien ein.\"], [\"Leo I. griff in viele kirchliche Angelegenheiten in Gallien ein.\", \"Leo I. griff in viele kirchliche Angelegenheiten in Spanien ein.\", \"Leo I. griff in viele kirchliche Angelegenheiten in Griechenland ein.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 374,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [26, 24], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo I. griff in viele kirchliche Angelegenheiten in Italien ein.\", \"Leo I. griff in viele kirchliche Angelegenheiten in Gallien ein.\", \"Leo I. griff in viele kirchliche Angelegenheiten in Spanien ein.\"], \"source_fact_index\": 30, \"target_contexts\": [[\"Leo I. griff in viele kirchliche Angelegenheiten in Italien ein.\", \"Leo I. griff in viele kirchliche Angelegenheiten in Gallien ein.\", \"Leo I. griff in viele kirchliche Angelegenheiten in Spanien ein.\"], [\"Die Lehre von Leo I. über das Petrusamt liefert wichtige Grundlagen für die Übertragung des Pontifex-Maximus-Titels vom Kaiser auf den Papst.\", \"Die Praxis von Leo I. als Papst liefert wichtige Grundlagen für die Übertragung des Pontifex-Maximus-Titels vom Kaiser auf den Papst.\", \"Leo I. griff in viele kirchliche Angelegenheiten in Italien ein.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 377,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [27, 25], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo I. griff in viele kirchliche Angelegenheiten in Gallien ein.\", \"Leo I. griff in viele kirchliche Angelegenheiten in Spanien ein.\", \"Leo I. griff in viele kirchliche Angelegenheiten in Griechenland ein.\"], \"source_fact_index\": 31, \"target_contexts\": [[\"Leo I. griff in viele kirchliche Angelegenheiten in Gallien ein.\", \"Leo I. griff in viele kirchliche Angelegenheiten in Spanien ein.\", \"Leo I. griff in viele kirchliche Angelegenheiten in Griechenland ein.\"], [\"Die Praxis von Leo I. als Papst liefert wichtige Grundlagen für die Übertragung des Pontifex-Maximus-Titels vom Kaiser auf den Papst.\", \"Leo I. griff in viele kirchliche Angelegenheiten in Italien ein.\", \"Leo I. griff in viele kirchliche Angelegenheiten in Gallien ein.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 360,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [28, 29], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo I. griff in viele kirchliche Angelegenheiten in Spanien ein.\", \"Leo I. griff in viele kirchliche Angelegenheiten in Griechenland ein.\", \"Auf dem Konzil von Chalkedon wurde Rom nur ein gewisser Vorrang vor den anderen großen Bischofssitzen im Osten eingeräumt.\"], \"source_fact_index\": 32, \"target_contexts\": [[\"Leo I. griff in viele kirchliche Angelegenheiten in Spanien ein.\", \"Leo I. griff in viele kirchliche Angelegenheiten in Griechenland ein.\", \"Auf dem Konzil von Chalkedon wurde Rom nur ein gewisser Vorrang vor den anderen großen Bischofssitzen im Osten eingeräumt.\"], [\"Leo I. griff in viele kirchliche Angelegenheiten in Griechenland ein.\", \"Auf dem Konzil von Chalkedon wurde Rom nur ein gewisser Vorrang vor den anderen großen Bischofssitzen im Osten eingeräumt.\", \"Die anderen großen Bischofssitze im Osten waren Alexandria, Antiochia, Jerusalem und Konstantinopel.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 387,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [29, 28], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo I. griff in viele kirchliche Angelegenheiten in Griechenland ein.\", \"Auf dem Konzil von Chalkedon wurde Rom nur ein gewisser Vorrang vor den anderen großen Bischofssitzen im Osten eingeräumt.\", \"Die anderen großen Bischofssitze im Osten waren Alexandria, Antiochia und Konstantinopel.\"], \"source_fact_index\": 33, \"target_contexts\": [[\"Leo I. griff in viele kirchliche Angelegenheiten in Griechenland ein.\", \"Auf dem Konzil von Chalkedon wurde Rom nur ein gewisser Vorrang vor den anderen großen Bischofssitzen im Osten eingeräumt.\", \"Die anderen großen Bischofssitze im Osten waren Alexandria, Antiochia, Jerusalem und Konstantinopel.\"], [\"Leo I. griff in viele kirchliche Angelegenheiten in Spanien ein.\", \"Leo I. griff in viele kirchliche Angelegenheiten in Griechenland ein.\", \"Auf dem Konzil von Chalkedon wurde Rom nur ein gewisser Vorrang vor den anderen großen Bischofssitzen im Osten eingeräumt.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 390,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [30, 27], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Auf dem Konzil von Chalkedon wurde Rom nur ein gewisser Vorrang vor den anderen großen Bischofssitzen im Osten eingeräumt.\", \"Die anderen großen Bischofssitze im Osten waren Alexandria, Antiochia und Konstantinopel.\", \"Leo I. leistete einen wichtigen theologischen Beitrag durch seine großen Lehrschreiben, den sogenannten Tomus.\"], \"source_fact_index\": 34, \"target_contexts\": [[\"Auf dem Konzil von Chalkedon wurde Rom nur ein gewisser Vorrang vor den anderen großen Bischofssitzen im Osten eingeräumt.\", \"Die anderen großen Bischofssitze im Osten waren Alexandria, Antiochia, Jerusalem und Konstantinopel.\", \"Leo I. leistete einen theologischen Beitrag durch sein großes Lehrschreiben, den sogenannten Tomus (ep. 28).\"], [\"Leo I. griff in viele kirchliche Angelegenheiten in Gallien ein.\", \"Leo I. griff in viele kirchliche Angelegenheiten in Spanien ein.\", \"Leo I. griff in viele kirchliche Angelegenheiten in Griechenland ein.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 394,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [31, 38], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die anderen großen Bischofssitze im Osten waren Alexandria, Antiochia und Konstantinopel.\", \"Leo I. leistete einen wichtigen theologischen Beitrag durch seine großen Lehrschreiben, den sogenannten Tomus.\", \"Leo hat zu vielen theologischen Streitfragen seine Meinung gesagt.\"], \"source_fact_index\": 35, \"target_contexts\": [[\"Die anderen großen Bischofssitze im Osten waren Alexandria, Antiochia, Jerusalem und Konstantinopel.\", \"Leo I. leistete einen theologischen Beitrag durch sein großes Lehrschreiben, den sogenannten Tomus (ep. 28).\", \"Leo äußerte sich vielfach zu theologischen Streitfragen als Metropolit von Arles.\"], [\"Leo verhinderte wahrscheinlich durch die Zahlung eines hohen Geldbetrags ein Vordringen der Hunnen in Richtung Rom, so zumindest manche Quellen.\", \"Attila befand sich faktisch bereits auf dem Rückzug und keineswegs auf dem Weg nach Rom.\", \"Manche der Berichte heben die Rolle Leos wohl eher übertrieben hervor.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 386,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [31, 34], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo I. leistete einen wichtigen theologischen Beitrag durch seine großen Lehrschreiben, den sogenannten Tomus.\", \"Leo hat zu vielen theologischen Streitfragen seine Meinung gesagt.\", \"Leo hat Hilarius von Arles (401–449) als Metropolit von Arles abgesetzt.\"], \"source_fact_index\": 36, \"target_contexts\": [[\"Die anderen großen Bischofssitze im Osten waren Alexandria, Antiochia, Jerusalem und Konstantinopel.\", \"Leo I. leistete einen theologischen Beitrag durch sein großes Lehrschreiben, den sogenannten Tomus (ep. 28).\", \"Leo äußerte sich vielfach zu theologischen Streitfragen als Metropolit von Arles.\"], [\"Leo erreichte von Valentinian III. die Anerkennung des Primats von Rom, als dieser die Dekretalen mit den Reichsgesetzen gleichstellte.\", \"Leo verwarf im Jahr 451 den Anspruch Konstantinopels auf Gleichrangigkeit mit Rom.\", \"Rom wurde im Jahr 452 von den Hunnen unter Attila bedroht.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 392,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [32, 33], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo hat zu vielen theologischen Streitfragen seine Meinung gesagt.\", \"Leo hat Hilarius von Arles (401–449) als Metropolit von Arles abgesetzt.\", \"Leo hat erreicht, dass Valentinian III. das Primat von Rom anerkannte.\"], \"source_fact_index\": 37, \"target_contexts\": [[\"Leo I. leistete einen theologischen Beitrag durch sein großes Lehrschreiben, den sogenannten Tomus (ep. 28).\", \"Leo äußerte sich vielfach zu theologischen Streitfragen als Metropolit von Arles.\", \"Leo erreichte von Valentinian III. die Anerkennung des Primats von Rom, als dieser die Dekretalen mit den Reichsgesetzen gleichstellte.\"], [\"Leo äußerte sich vielfach zu theologischen Streitfragen als Metropolit von Arles.\", \"Leo erreichte von Valentinian III. die Anerkennung des Primats von Rom, als dieser die Dekretalen mit den Reichsgesetzen gleichstellte.\", \"Leo verwarf im Jahr 451 den Anspruch Konstantinopels auf Gleichrangigkeit mit Rom.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 396,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [32, 41], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo hat Hilarius von Arles (401–449) als Metropolit von Arles abgesetzt.\", \"Leo hat erreicht, dass Valentinian III. das Primat von Rom anerkannte.\", \"Valentinian III. stellte das Dekretal mit dem Reichsgesetz gleich.\"], \"source_fact_index\": 38, \"target_contexts\": [[\"Leo I. leistete einen theologischen Beitrag durch sein großes Lehrschreiben, den sogenannten Tomus (ep. 28).\", \"Leo äußerte sich vielfach zu theologischen Streitfragen als Metropolit von Arles.\", \"Leo erreichte von Valentinian III. die Anerkennung des Primats von Rom, als dieser die Dekretalen mit den Reichsgesetzen gleichstellte.\"], [\"Die genauen Hintergründe dieser Gesandtschaft sind in der Forschung umstritten.\", \"Der Gesandtschaft gehörten hochrangige kaiserliche Beamte an.\", \"Der Stadtpräfekt Trigetius gehörte der Gesandtschaft an.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 378,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [33, 32], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo hat erreicht, dass Valentinian III. das Primat von Rom anerkannte.\", \"Valentinian III. stellte das Dekretal mit dem Reichsgesetz gleich.\", \"Leo verworf 451 den Anspruch des Patriarchen von Konstantinopel auf Gleichrangigkeit mit Rom.\"], \"source_fact_index\": 39, \"target_contexts\": [[\"Leo äußerte sich vielfach zu theologischen Streitfragen als Metropolit von Arles.\", \"Leo erreichte von Valentinian III. die Anerkennung des Primats von Rom, als dieser die Dekretalen mit den Reichsgesetzen gleichstellte.\", \"Leo verwarf im Jahr 451 den Anspruch Konstantinopels auf Gleichrangigkeit mit Rom.\"], [\"Leo I. leistete einen theologischen Beitrag durch sein großes Lehrschreiben, den sogenannten Tomus (ep. 28).\", \"Leo äußerte sich vielfach zu theologischen Streitfragen als Metropolit von Arles.\", \"Leo erreichte von Valentinian III. die Anerkennung des Primats von Rom, als dieser die Dekretalen mit den Reichsgesetzen gleichstellte.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 398,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [34, 35], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Valentinian III. stellte das Dekretal mit dem Reichsgesetz gleich.\", \"Leo verworf 451 den Anspruch des Patriarchen von Konstantinopel auf Gleichrangigkeit mit Rom.\", \"Leo stellte sich dem Hunnenkönig Attila vor Mantua entgegen, als Rom im Jahr 452 von den Hunnen unter Attila bedroht wurde.\"], \"source_fact_index\": 40, \"target_contexts\": [[\"Leo erreichte von Valentinian III. die Anerkennung des Primats von Rom, als dieser die Dekretalen mit den Reichsgesetzen gleichstellte.\", \"Leo verwarf im Jahr 451 den Anspruch Konstantinopels auf Gleichrangigkeit mit Rom.\", \"Rom wurde im Jahr 452 von den Hunnen unter Attila bedroht.\"], [\"Leo verwarf im Jahr 451 den Anspruch Konstantinopels auf Gleichrangigkeit mit Rom.\", \"Rom wurde im Jahr 452 von den Hunnen unter Attila bedroht.\", \"Leo stellte sich vor Mantua dem Hunnenkönig entgegen.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 391,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [36, 37], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo verworf 451 den Anspruch des Patriarchen von Konstantinopel auf Gleichrangigkeit mit Rom.\", \"Leo stellte sich dem Hunnenkönig Attila vor Mantua entgegen, als Rom im Jahr 452 von den Hunnen unter Attila bedroht wurde.\", \"Leo verhinderte wahrscheinlich durch die Zahlung eines hohen Geldbetrags das Vordringen der Hunnen in Richtung Rom.\"], \"source_fact_index\": 41, \"target_contexts\": [[\"Rom wurde im Jahr 452 von den Hunnen unter Attila bedroht.\", \"Leo stellte sich vor Mantua dem Hunnenkönig entgegen.\", \"Leo verhinderte wahrscheinlich durch die Zahlung eines hohen Geldbetrags ein Vordringen der Hunnen in Richtung Rom, so zumindest manche Quellen.\"], [\"Leo stellte sich vor Mantua dem Hunnenkönig entgegen.\", \"Leo verhinderte wahrscheinlich durch die Zahlung eines hohen Geldbetrags ein Vordringen der Hunnen in Richtung Rom, so zumindest manche Quellen.\", \"Attila befand sich faktisch bereits auf dem Rückzug und keineswegs auf dem Weg nach Rom.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 407,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [37, 34], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo stellte sich dem Hunnenkönig Attila vor Mantua entgegen, als Rom im Jahr 452 von den Hunnen unter Attila bedroht wurde.\", \"Leo verhinderte wahrscheinlich durch die Zahlung eines hohen Geldbetrags das Vordringen der Hunnen in Richtung Rom.\", \"Attila war faktisch schon auf dem Rückzug und befand sich nicht auf dem Weg nach Rom.\"], \"source_fact_index\": 42, \"target_contexts\": [[\"Leo stellte sich vor Mantua dem Hunnenkönig entgegen.\", \"Leo verhinderte wahrscheinlich durch die Zahlung eines hohen Geldbetrags ein Vordringen der Hunnen in Richtung Rom, so zumindest manche Quellen.\", \"Attila befand sich faktisch bereits auf dem Rückzug und keineswegs auf dem Weg nach Rom.\"], [\"Leo erreichte von Valentinian III. die Anerkennung des Primats von Rom, als dieser die Dekretalen mit den Reichsgesetzen gleichstellte.\", \"Leo verwarf im Jahr 451 den Anspruch Konstantinopels auf Gleichrangigkeit mit Rom.\", \"Rom wurde im Jahr 452 von den Hunnen unter Attila bedroht.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 412,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [38, 43], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo verhinderte wahrscheinlich durch die Zahlung eines hohen Geldbetrags das Vordringen der Hunnen in Richtung Rom.\", \"Attila war faktisch schon auf dem Rückzug und befand sich nicht auf dem Weg nach Rom.\", \"Ein Teil der Berichte übertrieb wohl die Rolle von Leo.\"], \"source_fact_index\": 43, \"target_contexts\": [[\"Leo verhinderte wahrscheinlich durch die Zahlung eines hohen Geldbetrags ein Vordringen der Hunnen in Richtung Rom, so zumindest manche Quellen.\", \"Attila befand sich faktisch bereits auf dem Rückzug und keineswegs auf dem Weg nach Rom.\", \"Manche der Berichte heben die Rolle Leos wohl eher übertrieben hervor.\"], [\"Der Stadtpräfekt Trigetius gehörte der Gesandtschaft an.\", \"Gennadius Avienus, Konsul von 450, gehörte der Gesandtschaft an.\", \"Leo handelte offenbar keineswegs allein.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 372,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [39, 41], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Attila war faktisch schon auf dem Rückzug und befand sich nicht auf dem Weg nach Rom.\", \"Ein Teil der Berichte übertrieb wohl die Rolle von Leo.\", \"Die genauen Hintergründe dieser Gesandtschaft sind in der Forschung umstritten.\"], \"source_fact_index\": 44, \"target_contexts\": [[\"Attila befand sich faktisch bereits auf dem Rückzug und keineswegs auf dem Weg nach Rom.\", \"Manche der Berichte heben die Rolle Leos wohl eher übertrieben hervor.\", \"Die genauen Hintergründe dieser Gesandtschaft sind in der Forschung umstritten.\"], [\"Die genauen Hintergründe dieser Gesandtschaft sind in der Forschung umstritten.\", \"Der Gesandtschaft gehörten hochrangige kaiserliche Beamte an.\", \"Der Stadtpräfekt Trigetius gehörte der Gesandtschaft an.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 353,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [42, 40], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ein Teil der Berichte übertrieb wohl die Rolle von Leo.\", \"Die genauen Hintergründe dieser Gesandtschaft sind in der Forschung umstritten.\", \"Hochrangige kaiserliche Beamte waren der Gesandtschaft angehört, darunter der Prätorianerpräfekt Trygetius und Gennadius Avienus, Konsul von 450.\"], \"source_fact_index\": 45, \"target_contexts\": [[\"Der Gesandtschaft gehörten hochrangige kaiserliche Beamte an.\", \"Der Stadtpräfekt Trigetius gehörte der Gesandtschaft an.\", \"Gennadius Avienus, Konsul von 450, gehörte der Gesandtschaft an.\"], [\"Manche der Berichte heben die Rolle Leos wohl eher übertrieben hervor.\", \"Die genauen Hintergründe dieser Gesandtschaft sind in der Forschung umstritten.\", \"Der Gesandtschaft gehörten hochrangige kaiserliche Beamte an.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 375,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [43, 38], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die genauen Hintergründe dieser Gesandtschaft sind in der Forschung umstritten.\", \"Hochrangige kaiserliche Beamte waren der Gesandtschaft angehört, darunter der Prätorianerpräfekt Trygetius und Gennadius Avienus, Konsul von 450.\", \"Leo handelte nicht allein.\"], \"source_fact_index\": 46, \"target_contexts\": [[\"Der Stadtpräfekt Trigetius gehörte der Gesandtschaft an.\", \"Gennadius Avienus, Konsul von 450, gehörte der Gesandtschaft an.\", \"Leo handelte offenbar keineswegs allein.\"], [\"Leo verhinderte wahrscheinlich durch die Zahlung eines hohen Geldbetrags ein Vordringen der Hunnen in Richtung Rom, so zumindest manche Quellen.\", \"Attila befand sich faktisch bereits auf dem Rückzug und keineswegs auf dem Weg nach Rom.\", \"Manche der Berichte heben die Rolle Leos wohl eher übertrieben hervor.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 379,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [44, 34], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Hochrangige kaiserliche Beamte waren der Gesandtschaft angehört, darunter der Prätorianerpräfekt Trygetius und Gennadius Avienus, Konsul von 450.\", \"Leo handelte nicht allein.\", \"Drei Jahre später konnte Leo die Gewalt bei der Belagerung von Rom durch die Vandale unter König Geiserich mäßigen.\"], \"source_fact_index\": 47, \"target_contexts\": [[\"Gennadius Avienus, Konsul von 450, gehörte der Gesandtschaft an.\", \"Leo handelte offenbar keineswegs allein.\", \"Leo hielt drei Jahre nach 452 den Vandalenkönig Geiserich von einem allzu gewaltsamen Vorgehen bei der Plünderung Roms ab.\"], [\"Leo erreichte von Valentinian III. die Anerkennung des Primats von Rom, als dieser die Dekretalen mit den Reichsgesetzen gleichstellte.\", \"Leo verwarf im Jahr 451 den Anspruch Konstantinopels auf Gleichrangigkeit mit Rom.\", \"Rom wurde im Jahr 452 von den Hunnen unter Attila bedroht.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 413,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [13, 21], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo handelte nicht allein.\", \"Drei Jahre später konnte Leo die Gewalt bei der Belagerung von Rom durch die Vandale unter König Geiserich mäßigen.\", \"Es ist nicht korrekt, wie es oft in der Literatur und vor allem im Internet heißt, dass Leo im Jahr 450 für das Papsttum den neuen zusätzlichen Titel Patriarcha Occidentis (Patriarch des Abendlandes) einführte.\"], \"source_fact_index\": 48, \"target_contexts\": [[\"Die Beihilfe bei der Lösung kirchlicher und staatspolitischer Probleme brachte ihm einen guten Ruf im Klerus ein.\", \"Die Beihilfe bei der Lösung kirchlicher und staatspolitischer Probleme brachte ihm einen guten Ruf bei der Bevölkerung Roms ein.\", \"Leo I. verwendete den Titel Pontifex Maximus nicht exklusiv für sich als römischer Bischof.\"], [\"Prosper von Aquitanien bezeichnete Leo I. schon zu dessen Lebzeiten als papa.\", \"Prosper von Aquitanien bezeichnete Leo I. schon zu dessen Lebzeiten als summus sacerdos (oberster Priester).\", \"Die Übertragung des Pontifex-Maximus-Titels vom Kaiser auf den Papst ist nicht das Werk von Leo I.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 435,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [21, 29], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Drei Jahre später konnte Leo die Gewalt bei der Belagerung von Rom durch die Vandale unter König Geiserich mäßigen.\", \"Es ist nicht korrekt, wie es oft in der Literatur und vor allem im Internet heißt, dass Leo im Jahr 450 für das Papsttum den neuen zusätzlichen Titel Patriarcha Occidentis (Patriarch des Abendlandes) einführte.\", \"Der Titel Patriarcha Occidentis findet sich bereits in einem Brief von Kaiser Theodosius II. an Leo.\"], \"source_fact_index\": 49, \"target_contexts\": [[\"Prosper von Aquitanien bezeichnete Leo I. schon zu dessen Lebzeiten als papa.\", \"Prosper von Aquitanien bezeichnete Leo I. schon zu dessen Lebzeiten als summus sacerdos (oberster Priester).\", \"Die Übertragung des Pontifex-Maximus-Titels vom Kaiser auf den Papst ist nicht das Werk von Leo I.\"], [\"Leo I. griff in viele kirchliche Angelegenheiten in Griechenland ein.\", \"Auf dem Konzil von Chalkedon wurde Rom nur ein gewisser Vorrang vor den anderen großen Bischofssitzen im Osten eingeräumt.\", \"Die anderen großen Bischofssitze im Osten waren Alexandria, Antiochia, Jerusalem und Konstantinopel.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 440,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [13, 18], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Es ist nicht korrekt, wie es oft in der Literatur und vor allem im Internet heißt, dass Leo im Jahr 450 für das Papsttum den neuen zusätzlichen Titel Patriarcha Occidentis (Patriarch des Abendlandes) einführte.\", \"Der Titel Patriarcha Occidentis findet sich bereits in einem Brief von Kaiser Theodosius II. an Leo.\", \"Leo hat den Titel Patriarcha Occidentis selbst nie gebraucht.\"], \"source_fact_index\": 50, \"target_contexts\": [[\"Die Beihilfe bei der Lösung kirchlicher und staatspolitischer Probleme brachte ihm einen guten Ruf im Klerus ein.\", \"Die Beihilfe bei der Lösung kirchlicher und staatspolitischer Probleme brachte ihm einen guten Ruf bei der Bevölkerung Roms ein.\", \"Leo I. verwendete den Titel Pontifex Maximus nicht exklusiv für sich als römischer Bischof.\"], [\"Andere Kaiser führten den Titel Pontifex Maximus als oberste Amtsträger des römischen Religionswesens.\", \"Leo I. sprach von Christus als dem wahren, obersten Pontifex.\", \"Leo I. benutzte den Begriff Pontifex als Synonym für Bischöfe.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 422,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [21, 23], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Titel Patriarcha Occidentis findet sich bereits in einem Brief von Kaiser Theodosius II. an Leo.\", \"Leo hat den Titel Patriarcha Occidentis selbst nie gebraucht.\", \"Der Brief des Kaisers ist unter dem Brief von Leo überliefert.\"], \"source_fact_index\": 51, \"target_contexts\": [[\"Prosper von Aquitanien bezeichnete Leo I. schon zu dessen Lebzeiten als papa.\", \"Prosper von Aquitanien bezeichnete Leo I. schon zu dessen Lebzeiten als summus sacerdos (oberster Priester).\", \"Die Übertragung des Pontifex-Maximus-Titels vom Kaiser auf den Papst ist nicht das Werk von Leo I.\"], [\"Die Übertragung des Pontifex-Maximus-Titels vom Kaiser auf den Papst ist nicht das Werk von Leo I.\", \"Die Lehre von Leo I. über das Petrusamt liefert wichtige Grundlagen für die Übertragung des Pontifex-Maximus-Titels vom Kaiser auf den Papst.\", \"Die Praxis von Leo I. als Papst liefert wichtige Grundlagen für die Übertragung des Pontifex-Maximus-Titels vom Kaiser auf den Papst.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 417,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [21, 16], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo hat den Titel Patriarcha Occidentis selbst nie gebraucht.\", \"Der Brief des Kaisers ist unter dem Brief von Leo überliefert.\", \"Papst Benedikt XVI. hat den später gängigen Titel ab 2006 nicht mehr geführt.\"], \"source_fact_index\": 52, \"target_contexts\": [[\"Prosper von Aquitanien bezeichnete Leo I. schon zu dessen Lebzeiten als papa.\", \"Prosper von Aquitanien bezeichnete Leo I. schon zu dessen Lebzeiten als summus sacerdos (oberster Priester).\", \"Die Übertragung des Pontifex-Maximus-Titels vom Kaiser auf den Papst ist nicht das Werk von Leo I.\"], [\"Caesar führte den Titel Pontifex Maximus als oberster Amtsträger des römischen Religionswesens.\", \"Augustus führte den Titel Pontifex Maximus als oberster Amtsträger des römischen Religionswesens.\", \"Andere Kaiser führten den Titel Pontifex Maximus als oberste Amtsträger des römischen Religionswesens.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 388,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [45, 46], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Brief des Kaisers ist unter dem Brief von Leo überliefert.\", \"Papst Benedikt XVI. hat den später gängigen Titel ab 2006 nicht mehr geführt.\", \"Leo I. wurde im Jahr 1754 von Papst Benedikt XIV. zum Kirchenlehrer ernannt.\"], \"source_fact_index\": 53, \"target_contexts\": [[\"Leo handelte offenbar keineswegs allein.\", \"Leo hielt drei Jahre nach 452 den Vandalenkönig Geiserich von einem allzu gewaltsamen Vorgehen bei der Plünderung Roms ab.\", \"Leo I. wurde im Jahre 1754 von Papst Benedikt XIV. zum Kirchenlehrer ernannt.\"], [\"Leo hielt drei Jahre nach 452 den Vandalenkönig Geiserich von einem allzu gewaltsamen Vorgehen bei der Plünderung Roms ab.\", \"Leo I. wurde im Jahre 1754 von Papst Benedikt XIV. zum Kirchenlehrer ernannt.\", \"Die Gebrüder Ballerini erstellten im Auftrag von Papst Benedikt XIV. eine Ausgabe der Werke Leos.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 420,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [48, 51], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Papst Benedikt XVI. hat den später gängigen Titel ab 2006 nicht mehr geführt.\", \"Leo I. wurde im Jahr 1754 von Papst Benedikt XIV. zum Kirchenlehrer ernannt.\", \"Die Schriften von Leo enthalten 97 Predigten.\"], \"source_fact_index\": 54, \"target_contexts\": [[\"Die Gebrüder Ballerini erstellten im Auftrag von Papst Benedikt XIV. eine Ausgabe der Werke Leos.\", \"Die von den Gebrüdern Ballerini erstellte Ausgabe der Werke Leos ist bis heute maßgeblich.\", \"Unter Leos Schriften befinden sich 97 Predigten.\"], [\"Leos Predigten thematisieren wichtige dogmatische Fragen.\", \"Leo verfasste zahlreiche Briefe.\", \"Es gibt ca. 146 echte Briefe von Leo.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 353,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [49, 52], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo I. wurde im Jahr 1754 von Papst Benedikt XIV. zum Kirchenlehrer ernannt.\", \"Die Schriften von Leo enthalten 97 Predigten.\", \"Die Predigten von Leo behandeln wichtige dogmatische Fragen.\"], \"source_fact_index\": 55, \"target_contexts\": [[\"Die von den Gebrüdern Ballerini erstellte Ausgabe der Werke Leos ist bis heute maßgeblich.\", \"Unter Leos Schriften befinden sich 97 Predigten.\", \"Leos Predigten thematisieren wichtige dogmatische Fragen.\"], [\"Leo verfasste zahlreiche Briefe.\", \"Es gibt ca. 146 echte Briefe von Leo.\", \"Leos Briefe geben Aufschluss über kirchengeschichtliche Fragen der Zeit.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 333,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [50, 51], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Schriften von Leo enthalten 97 Predigten.\", \"Die Predigten von Leo behandeln wichtige dogmatische Fragen.\", \"Leo schrieb viele Briefe.\"], \"source_fact_index\": 56, \"target_contexts\": [[\"Unter Leos Schriften befinden sich 97 Predigten.\", \"Leos Predigten thematisieren wichtige dogmatische Fragen.\", \"Leo verfasste zahlreiche Briefe.\"], [\"Leos Predigten thematisieren wichtige dogmatische Fragen.\", \"Leo verfasste zahlreiche Briefe.\", \"Es gibt ca. 146 echte Briefe von Leo.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 293,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [51, 48], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Predigten von Leo behandeln wichtige dogmatische Fragen.\", \"Leo schrieb viele Briefe.\", \"Es gibt circa 146 echte Briefe von Leo.\"], \"source_fact_index\": 57, \"target_contexts\": [[\"Leos Predigten thematisieren wichtige dogmatische Fragen.\", \"Leo verfasste zahlreiche Briefe.\", \"Es gibt ca. 146 echte Briefe von Leo.\"], [\"Die Gebrüder Ballerini erstellten im Auftrag von Papst Benedikt XIV. eine Ausgabe der Werke Leos.\", \"Die von den Gebrüdern Ballerini erstellte Ausgabe der Werke Leos ist bis heute maßgeblich.\", \"Unter Leos Schriften befinden sich 97 Predigten.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 325,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [52, 49], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo schrieb viele Briefe.\", \"Es gibt circa 146 echte Briefe von Leo.\", \"Die Briefe von Leo zeigen Fragen, über die damals diskutiert wurde.\"], \"source_fact_index\": 58, \"target_contexts\": [[\"Leo verfasste zahlreiche Briefe.\", \"Es gibt ca. 146 echte Briefe von Leo.\", \"Leos Briefe geben Aufschluss über kirchengeschichtliche Fragen der Zeit.\"], [\"Die von den Gebrüdern Ballerini erstellte Ausgabe der Werke Leos ist bis heute maßgeblich.\", \"Unter Leos Schriften befinden sich 97 Predigten.\", \"Leos Predigten thematisieren wichtige dogmatische Fragen.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 317,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [55, 54], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Es gibt circa 146 echte Briefe von Leo.\", \"Die Briefe von Leo zeigen Fragen, über die damals diskutiert wurde.\", \"In den Briefen von Leo wurde unter anderem über das Konzil von Chalzedon diskutiert.\"], \"source_fact_index\": 59, \"target_contexts\": [[\"Leos Briefe geben Aufschluss über die Vorbereitung des Konzils von Chalcedon.\", \"Leos Briefe geben Aufschluss über die Durchführung des Konzils von Chalcedon.\", \"Leos Briefe geben Aufschluss über die Rezeption des Konzils von Chalcedon.\"], [\"Leos Briefe geben Aufschluss über kirchengeschichtliche Fragen der Zeit.\", \"Leos Briefe geben Aufschluss über die Vorbereitung des Konzils von Chalcedon.\", \"Leos Briefe geben Aufschluss über die Durchführung des Konzils von Chalcedon.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 351,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [56, 57], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Die Briefe von Leo zeigen Fragen, über die damals diskutiert wurde.\", \"In den Briefen von Leo wurde unter anderem über das Konzil von Chalzedon diskutiert.\", \"Das Konzil von Chalzedon war die größte und wichtigste Bischofsversammlung der Antike.\"], \"source_fact_index\": 60, \"target_contexts\": [[\"Leos Briefe geben Aufschluss über die Durchführung des Konzils von Chalcedon.\", \"Leos Briefe geben Aufschluss über die Rezeption des Konzils von Chalcedon.\", \"Das Konzil von Chalcedon war die größte Bischofsversammlung der Antike.\"], [\"Leos Briefe geben Aufschluss über die Rezeption des Konzils von Chalcedon.\", \"Das Konzil von Chalcedon war die größte Bischofsversammlung der Antike.\", \"Das Konzil von Chalcedon war die wichtigste Bischofsversammlung der Antike.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 356,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [58, 66], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"In den Briefen von Leo wurde unter anderem über das Konzil von Chalzedon diskutiert.\", \"Das Konzil von Chalzedon war die größte und wichtigste Bischofsversammlung der Antike.\", \"Theologisch befasste sich Leo vor allem mit der Frage nach der Person des Christus und seiner Mittlerschaft.\"], \"source_fact_index\": 61, \"target_contexts\": [[\"Das Konzil von Chalcedon war die größte Bischofsversammlung der Antike.\", \"Das Konzil von Chalcedon war die wichtigste Bischofsversammlung der Antike.\", \"Leos Theologie beschäftigte sich vor allem mit der Frage nach der Person Christi und seiner Mittlerschaft.\"], [\"Leos Anliegen war es, die wahre Gottheit und die wahre Menschheit des einen Christus gegen häretische Einseitigkeiten zu verteidigen.\", \"Leo griff das Thema der Person Christi und seiner Mittlerschaft auch in vielen Predigten auf.\", \"Leo vertiefte seine eigenen Auffassungen über die Person Christi und seine Mittlerschaft in seinen Predigten über die Jahre.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 391,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [60, 59], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Das Konzil von Chalzedon war die größte und wichtigste Bischofsversammlung der Antike.\", \"Theologisch befasste sich Leo vor allem mit der Frage nach der Person des Christus und seiner Mittlerschaft.\", \"Dies hing mit dem Konzil von Chalzedon zusammen, bei dem einige römische Legate im Auftrag von Leo anwesend waren.\"], \"source_fact_index\": 62, \"target_contexts\": [[\"Leos Theologie beschäftigte sich vor allem mit der Frage nach der Person Christi und seiner Mittlerschaft.\", \"Leos Theologie hing mit dem Konzil von Chalcedon zusammen.\", \"Einige römische Legaten nahmen im Auftrag Leos am Konzil von Chalcedon teil.\"], [\"Das Konzil von Chalcedon war die wichtigste Bischofsversammlung der Antike.\", \"Leos Theologie beschäftigte sich vor allem mit der Frage nach der Person Christi und seiner Mittlerschaft.\", \"Leos Theologie hing mit dem Konzil von Chalcedon zusammen.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 377,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [61, 68], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Theologisch befasste sich Leo vor allem mit der Frage nach der Person des Christus und seiner Mittlerschaft.\", \"Dies hing mit dem Konzil von Chalzedon zusammen, bei dem einige römische Legate im Auftrag von Leo anwesend waren.\", \"Leos „Tomus ad Flavianum“ von 449 war eine wichtige Vorarbeit für die christologische Formel des Konzils.\"], \"source_fact_index\": 63, \"target_contexts\": [[\"Leos Theologie hing mit dem Konzil von Chalcedon zusammen.\", \"Einige römische Legaten nahmen im Auftrag Leos am Konzil von Chalcedon teil.\", \"Leo hatte die christologische Formel des Konzils von Chalcedon in seinem Tomus ad Flavianum von 449 entscheidend vorbereitet.\"], [\"Leo vertiefte seine eigenen Auffassungen über die Person Christi und seine Mittlerschaft in seinen Predigten über die Jahre.\", \"Ein zentrales Motiv bei Leo war die Gegenwart Christi in der Kirche.\", \"Die Gegenwart Christi in der Kirche manifestierte sich bei Leo näher in der Verkündigung des Glaubens durch Schrift, Tradition und deren Auslegung.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 411,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [62, 63], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Dies hing mit dem Konzil von Chalzedon zusammen, bei dem einige römische Legate im Auftrag von Leo anwesend waren.\", \"Leos „Tomus ad Flavianum“ von 449 war eine wichtige Vorarbeit für die christologische Formel des Konzils.\", \"Nach dem Konzil hatte Leo durch seine vielen Briefe an Bischöfe und Mitglieder der Kaiserfamilie einen großen Einfluss darauf, dass der Glaube von Chalzedon rezipiert und durchgesetzt wurde.\"], \"source_fact_index\": 64, \"target_contexts\": [[\"Einige römische Legaten nahmen im Auftrag Leos am Konzil von Chalcedon teil.\", \"Leo hatte die christologische Formel des Konzils von Chalcedon in seinem Tomus ad Flavianum von 449 entscheidend vorbereitet.\", \"Leo nahm über viele Briefe an Bischöfe und Mitglieder der Kaiserfamilie großen Einfluss auf die Durchsetzung und Rezeption des Glaubens von Chalcedon.\"], [\"Leo hatte die christologische Formel des Konzils von Chalcedon in seinem Tomus ad Flavianum von 449 entscheidend vorbereitet.\", \"Leo nahm über viele Briefe an Bischöfe und Mitglieder der Kaiserfamilie großen Einfluss auf die Durchsetzung und Rezeption des Glaubens von Chalcedon.\", \"Leos Einfluss auf die Durchsetzung und Rezeption des Glaubens von Chalcedon reichte auch in den Osten des römischen Reiches.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 473,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [63, 60], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leos „Tomus ad Flavianum“ von 449 war eine wichtige Vorarbeit für die christologische Formel des Konzils.\", \"Nach dem Konzil hatte Leo durch seine vielen Briefe an Bischöfe und Mitglieder der Kaiserfamilie einen großen Einfluss darauf, dass der Glaube von Chalzedon rezipiert und durchgesetzt wurde.\", \"Der Glaube von Chalzedon wurde durch Leos Einfluss auch im Osten des römischen Reiches durchgesetzt.\"], \"source_fact_index\": 65, \"target_contexts\": [[\"Leo hatte die christologische Formel des Konzils von Chalcedon in seinem Tomus ad Flavianum von 449 entscheidend vorbereitet.\", \"Leo nahm über viele Briefe an Bischöfe und Mitglieder der Kaiserfamilie großen Einfluss auf die Durchsetzung und Rezeption des Glaubens von Chalcedon.\", \"Leos Einfluss auf die Durchsetzung und Rezeption des Glaubens von Chalcedon reichte auch in den Osten des römischen Reiches.\"], [\"Leos Theologie beschäftigte sich vor allem mit der Frage nach der Person Christi und seiner Mittlerschaft.\", \"Leos Theologie hing mit dem Konzil von Chalcedon zusammen.\", \"Einige römische Legaten nahmen im Auftrag Leos am Konzil von Chalcedon teil.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 440,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [58, 64], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Nach dem Konzil hatte Leo durch seine vielen Briefe an Bischöfe und Mitglieder der Kaiserfamilie einen großen Einfluss darauf, dass der Glaube von Chalzedon rezipiert und durchgesetzt wurde.\", \"Der Glaube von Chalzedon wurde durch Leos Einfluss auch im Osten des römischen Reiches durchgesetzt.\", \"Leo wollte vor allem den Glauben durchsetzen, dass Christus Gott und Mensch war.\"], \"source_fact_index\": 66, \"target_contexts\": [[\"Das Konzil von Chalcedon war die größte Bischofsversammlung der Antike.\", \"Das Konzil von Chalcedon war die wichtigste Bischofsversammlung der Antike.\", \"Leos Theologie beschäftigte sich vor allem mit der Frage nach der Person Christi und seiner Mittlerschaft.\"], [\"Leo nahm über viele Briefe an Bischöfe und Mitglieder der Kaiserfamilie großen Einfluss auf die Durchsetzung und Rezeption des Glaubens von Chalcedon.\", \"Leos Einfluss auf die Durchsetzung und Rezeption des Glaubens von Chalcedon reichte auch in den Osten des römischen Reiches.\", \"Leos Anliegen war es, die wahre Gottheit und die wahre Menschheit des einen Christus gegen häretische Einseitigkeiten zu verteidigen.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 427,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [64, 60], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der Glaube von Chalzedon wurde durch Leos Einfluss auch im Osten des römischen Reiches durchgesetzt.\", \"Leo wollte vor allem den Glauben durchsetzen, dass Christus Gott und Mensch war.\", \"Diejenigen, die nur eines davon gelten lassen wollten, wurden als Häretiker verurteilt.\"], \"source_fact_index\": 67, \"target_contexts\": [[\"Leo nahm über viele Briefe an Bischöfe und Mitglieder der Kaiserfamilie großen Einfluss auf die Durchsetzung und Rezeption des Glaubens von Chalcedon.\", \"Leos Einfluss auf die Durchsetzung und Rezeption des Glaubens von Chalcedon reichte auch in den Osten des römischen Reiches.\", \"Leos Anliegen war es, die wahre Gottheit und die wahre Menschheit des einen Christus gegen häretische Einseitigkeiten zu verteidigen.\"], [\"Leos Theologie beschäftigte sich vor allem mit der Frage nach der Person Christi und seiner Mittlerschaft.\", \"Leos Theologie hing mit dem Konzil von Chalcedon zusammen.\", \"Einige römische Legaten nahmen im Auftrag Leos am Konzil von Chalcedon teil.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 406,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [65, 66], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo wollte vor allem den Glauben durchsetzen, dass Christus Gott und Mensch war.\", \"Diejenigen, die nur eines davon gelten lassen wollten, wurden als Häretiker verurteilt.\", \"Leo griff dieses Thema auch in vielen Predigten auf.\"], \"source_fact_index\": 68, \"target_contexts\": [[\"Leos Einfluss auf die Durchsetzung und Rezeption des Glaubens von Chalcedon reichte auch in den Osten des römischen Reiches.\", \"Leos Anliegen war es, die wahre Gottheit und die wahre Menschheit des einen Christus gegen häretische Einseitigkeiten zu verteidigen.\", \"Leo griff das Thema der Person Christi und seiner Mittlerschaft auch in vielen Predigten auf.\"], [\"Leos Anliegen war es, die wahre Gottheit und die wahre Menschheit des einen Christus gegen häretische Einseitigkeiten zu verteidigen.\", \"Leo griff das Thema der Person Christi und seiner Mittlerschaft auch in vielen Predigten auf.\", \"Leo vertiefte seine eigenen Auffassungen über die Person Christi und seine Mittlerschaft in seinen Predigten über die Jahre.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 400,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [66, 68], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Diejenigen, die nur eines davon gelten lassen wollten, wurden als Häretiker verurteilt.\", \"Leo griff dieses Thema auch in vielen Predigten auf.\", \"Leo vertiefte seine eigenen Auffassungen über die Jahre.\"], \"source_fact_index\": 69, \"target_contexts\": [[\"Leos Anliegen war es, die wahre Gottheit und die wahre Menschheit des einen Christus gegen häretische Einseitigkeiten zu verteidigen.\", \"Leo griff das Thema der Person Christi und seiner Mittlerschaft auch in vielen Predigten auf.\", \"Leo vertiefte seine eigenen Auffassungen über die Person Christi und seine Mittlerschaft in seinen Predigten über die Jahre.\"], [\"Leo vertiefte seine eigenen Auffassungen über die Person Christi und seine Mittlerschaft in seinen Predigten über die Jahre.\", \"Ein zentrales Motiv bei Leo war die Gegenwart Christi in der Kirche.\", \"Die Gegenwart Christi in der Kirche manifestierte sich bei Leo näher in der Verkündigung des Glaubens durch Schrift, Tradition und deren Auslegung.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 384,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [67, 69], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo griff dieses Thema auch in vielen Predigten auf.\", \"Leo vertiefte seine eigenen Auffassungen über die Jahre.\", \"Ein zentrales Motiv bei Leo war die Gegenwart von Christus in der Kirche.\"], \"source_fact_index\": 70, \"target_contexts\": [[\"Leo griff das Thema der Person Christi und seiner Mittlerschaft auch in vielen Predigten auf.\", \"Leo vertiefte seine eigenen Auffassungen über die Person Christi und seine Mittlerschaft in seinen Predigten über die Jahre.\", \"Ein zentrales Motiv bei Leo war die Gegenwart Christi in der Kirche.\"], [\"Ein zentrales Motiv bei Leo war die Gegenwart Christi in der Kirche.\", \"Die Gegenwart Christi in der Kirche manifestierte sich bei Leo näher in der Verkündigung des Glaubens durch Schrift, Tradition und deren Auslegung.\", \"Die Gegenwart Christi in der Kirche manifestierte sich bei Leo näher in der Liturgie durch Sakramente und Feste.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 358,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [68, 69], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo vertiefte seine eigenen Auffassungen über die Jahre.\", \"Ein zentrales Motiv bei Leo war die Gegenwart von Christus in der Kirche.\", \"Ein zentrales Motiv bei Leo war die Verkündigung des Glaubens durch Schrift, Tradition und deren Auslegung.\"], \"source_fact_index\": 71, \"target_contexts\": [[\"Leo vertiefte seine eigenen Auffassungen über die Person Christi und seine Mittlerschaft in seinen Predigten über die Jahre.\", \"Ein zentrales Motiv bei Leo war die Gegenwart Christi in der Kirche.\", \"Die Gegenwart Christi in der Kirche manifestierte sich bei Leo näher in der Verkündigung des Glaubens durch Schrift, Tradition und deren Auslegung.\"], [\"Ein zentrales Motiv bei Leo war die Gegenwart Christi in der Kirche.\", \"Die Gegenwart Christi in der Kirche manifestierte sich bei Leo näher in der Verkündigung des Glaubens durch Schrift, Tradition und deren Auslegung.\", \"Die Gegenwart Christi in der Kirche manifestierte sich bei Leo näher in der Liturgie durch Sakramente und Feste.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 380,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [69, 67], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ein zentrales Motiv bei Leo war die Gegenwart von Christus in der Kirche.\", \"Ein zentrales Motiv bei Leo war die Verkündigung des Glaubens durch Schrift, Tradition und deren Auslegung.\", \"Ein zentrales Motiv bei Leo war die Liturgie durch Sakramente und Feste.\"], \"source_fact_index\": 72, \"target_contexts\": [[\"Ein zentrales Motiv bei Leo war die Gegenwart Christi in der Kirche.\", \"Die Gegenwart Christi in der Kirche manifestierte sich bei Leo näher in der Verkündigung des Glaubens durch Schrift, Tradition und deren Auslegung.\", \"Die Gegenwart Christi in der Kirche manifestierte sich bei Leo näher in der Liturgie durch Sakramente und Feste.\"], [\"Leo griff das Thema der Person Christi und seiner Mittlerschaft auch in vielen Predigten auf.\", \"Leo vertiefte seine eigenen Auffassungen über die Person Christi und seine Mittlerschaft in seinen Predigten über die Jahre.\", \"Ein zentrales Motiv bei Leo war die Gegenwart Christi in der Kirche.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 375,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [71, 72], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ein zentrales Motiv bei Leo war die Verkündigung des Glaubens durch Schrift, Tradition und deren Auslegung.\", \"Ein zentrales Motiv bei Leo war die Liturgie durch Sakramente und Feste.\", \"Leo hat einen der wichtigsten Beiträge zur Entwicklung der Lehre vom Papsttum geleistet.\"], \"source_fact_index\": 73, \"target_contexts\": [[\"Die Gegenwart Christi in der Kirche manifestierte sich bei Leo näher in der Liturgie durch Sakramente und Feste.\", \"Die Gegenwart Christi in der Kirche manifestierte sich bei Leo näher im Leben der organisierten Kirche und des einzelnen Gläubigen, insbesondere auf dem Konzil.\", \"Leo leistete einen der bedeutendsten Beiträge zur Entwicklung der Lehre vom Papsttum, Erbe und Stellvertreter Petri.\"], [\"Die Gegenwart Christi in der Kirche manifestierte sich bei Leo näher im Leben der organisierten Kirche und des einzelnen Gläubigen, insbesondere auf dem Konzil.\", \"Leo leistete einen der bedeutendsten Beiträge zur Entwicklung der Lehre vom Papsttum, Erbe und Stellvertreter Petri.\", \"Petrus war für Leo das Vorbild der Beziehung zu Christus.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 407,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [75, 71], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Ein zentrales Motiv bei Leo war die Liturgie durch Sakramente und Feste.\", \"Leo hat einen der wichtigsten Beiträge zur Entwicklung der Lehre vom Papsttum geleistet.\", \"Leos Beitrag zur Entwicklung der Lehre vom Papsttum wurde von einer persönlichen Petrusfremdigkeit und von der Verehrung für den Apostel im Rom des 5. Jahrhunderts getragen.\"], \"source_fact_index\": 74, \"target_contexts\": [[\"Das Amt des römischen Bischofs mit seiner gesamtkirchlichen Bedeutung war von der einzigartigen Beziehung zwischen Christus und Petrus getragen.\", \"Die Beziehung zwischen Christus und Petrus war an sich einzigartig.\", \"Leo brauchte den Beistand und das Vorbild des Petrus, um das Amt des römischen Bischofs angemessen ausüben zu können.\"], [\"Die Gegenwart Christi in der Kirche manifestierte sich bei Leo näher in der Liturgie durch Sakramente und Feste.\", \"Die Gegenwart Christi in der Kirche manifestierte sich bei Leo näher im Leben der organisierten Kirche und des einzelnen Gläubigen, insbesondere auf dem Konzil.\", \"Leo leistete einen der bedeutendsten Beiträge zur Entwicklung der Lehre vom Papsttum, Erbe und Stellvertreter Petri.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 422,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [74, 73], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo hat einen der wichtigsten Beiträge zur Entwicklung der Lehre vom Papsttum geleistet.\", \"Leos Beitrag zur Entwicklung der Lehre vom Papsttum wurde von einer persönlichen Petrusfremdigkeit und von der Verehrung für den Apostel im Rom des 5. Jahrhunderts getragen.\", \"Der eigene Bezug zum Petrus wurde unter anderem mit Ausdruck des römischen Rechts beschrieben.\"], \"source_fact_index\": 75, \"target_contexts\": [[\"Petrus war für Leo das Vorbild der Beziehung zu Christus.\", \"Das Amt des römischen Bischofs mit seiner gesamtkirchlichen Bedeutung war von der einzigartigen Beziehung zwischen Christus und Petrus getragen.\", \"Die Beziehung zwischen Christus und Petrus war an sich einzigartig.\"], [\"Leo leistete einen der bedeutendsten Beiträge zur Entwicklung der Lehre vom Papsttum, Erbe und Stellvertreter Petri.\", \"Petrus war für Leo das Vorbild der Beziehung zu Christus.\", \"Das Amt des römischen Bischofs mit seiner gesamtkirchlichen Bedeutung war von der einzigartigen Beziehung zwischen Christus und Petrus getragen.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 389,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [75, 71], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leos Beitrag zur Entwicklung der Lehre vom Papsttum wurde von einer persönlichen Petrusfremdigkeit und von der Verehrung für den Apostel im Rom des 5. Jahrhunderts getragen.\", \"Der eigene Bezug zum Petrus wurde unter anderem mit Ausdruck des römischen Rechts beschrieben.\", \"Leo sah sich selbst als Erbe und Stellvertreter des Petrus.\"], \"source_fact_index\": 76, \"target_contexts\": [[\"Das Amt des römischen Bischofs mit seiner gesamtkirchlichen Bedeutung war von der einzigartigen Beziehung zwischen Christus und Petrus getragen.\", \"Die Beziehung zwischen Christus und Petrus war an sich einzigartig.\", \"Leo brauchte den Beistand und das Vorbild des Petrus, um das Amt des römischen Bischofs angemessen ausüben zu können.\"], [\"Die Gegenwart Christi in der Kirche manifestierte sich bei Leo näher in der Liturgie durch Sakramente und Feste.\", \"Die Gegenwart Christi in der Kirche manifestierte sich bei Leo näher im Leben der organisierten Kirche und des einzelnen Gläubigen, insbesondere auf dem Konzil.\", \"Leo leistete einen der bedeutendsten Beiträge zur Entwicklung der Lehre vom Papsttum, Erbe und Stellvertreter Petri.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 416,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [75, 72], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Der eigene Bezug zum Petrus wurde unter anderem mit Ausdruck des römischen Rechts beschrieben.\", \"Leo sah sich selbst als Erbe und Stellvertreter des Petrus.\", \"Leo hatte die apostolische Vollmacht des Petrus.\"], \"source_fact_index\": 77, \"target_contexts\": [[\"Das Amt des römischen Bischofs mit seiner gesamtkirchlichen Bedeutung war von der einzigartigen Beziehung zwischen Christus und Petrus getragen.\", \"Die Beziehung zwischen Christus und Petrus war an sich einzigartig.\", \"Leo brauchte den Beistand und das Vorbild des Petrus, um das Amt des römischen Bischofs angemessen ausüben zu können.\"], [\"Die Gegenwart Christi in der Kirche manifestierte sich bei Leo näher im Leben der organisierten Kirche und des einzelnen Gläubigen, insbesondere auf dem Konzil.\", \"Leo leistete einen der bedeutendsten Beiträge zur Entwicklung der Lehre vom Papsttum, Erbe und Stellvertreter Petri.\", \"Petrus war für Leo das Vorbild der Beziehung zu Christus.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 376,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [72, 75], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo sah sich selbst als Erbe und Stellvertreter des Petrus.\", \"Leo hatte die apostolische Vollmacht des Petrus.\", \"Leo war dem Vorbild des Petrus verpflichtet.\"], \"source_fact_index\": 78, \"target_contexts\": [[\"Die Gegenwart Christi in der Kirche manifestierte sich bei Leo näher im Leben der organisierten Kirche und des einzelnen Gläubigen, insbesondere auf dem Konzil.\", \"Leo leistete einen der bedeutendsten Beiträge zur Entwicklung der Lehre vom Papsttum, Erbe und Stellvertreter Petri.\", \"Petrus war für Leo das Vorbild der Beziehung zu Christus.\"], [\"Das Amt des römischen Bischofs mit seiner gesamtkirchlichen Bedeutung war von der einzigartigen Beziehung zwischen Christus und Petrus getragen.\", \"Die Beziehung zwischen Christus und Petrus war an sich einzigartig.\", \"Leo brauchte den Beistand und das Vorbild des Petrus, um das Amt des römischen Bischofs angemessen ausüben zu können.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 369,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [75, 72], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo hatte die apostolische Vollmacht des Petrus.\", \"Leo war dem Vorbild des Petrus verpflichtet.\", \"Leo sah den Anspruch des Petrus an das Papstamt.\"], \"source_fact_index\": 79, \"target_contexts\": [[\"Das Amt des römischen Bischofs mit seiner gesamtkirchlichen Bedeutung war von der einzigartigen Beziehung zwischen Christus und Petrus getragen.\", \"Die Beziehung zwischen Christus und Petrus war an sich einzigartig.\", \"Leo brauchte den Beistand und das Vorbild des Petrus, um das Amt des römischen Bischofs angemessen ausüben zu können.\"], [\"Die Gegenwart Christi in der Kirche manifestierte sich bei Leo näher im Leben der organisierten Kirche und des einzelnen Gläubigen, insbesondere auf dem Konzil.\", \"Leo leistete einen der bedeutendsten Beiträge zur Entwicklung der Lehre vom Papsttum, Erbe und Stellvertreter Petri.\", \"Petrus war für Leo das Vorbild der Beziehung zu Christus.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 367,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [75, 72], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo war dem Vorbild des Petrus verpflichtet.\", \"Leo sah den Anspruch des Petrus an das Papstamt.\", \"Leo vertrat die Autorität des Petrus in der Welt.\"], \"source_fact_index\": 80, \"target_contexts\": [[\"Das Amt des römischen Bischofs mit seiner gesamtkirchlichen Bedeutung war von der einzigartigen Beziehung zwischen Christus und Petrus getragen.\", \"Die Beziehung zwischen Christus und Petrus war an sich einzigartig.\", \"Leo brauchte den Beistand und das Vorbild des Petrus, um das Amt des römischen Bischofs angemessen ausüben zu können.\"], [\"Die Gegenwart Christi in der Kirche manifestierte sich bei Leo näher im Leben der organisierten Kirche und des einzelnen Gläubigen, insbesondere auf dem Konzil.\", \"Leo leistete einen der bedeutendsten Beiträge zur Entwicklung der Lehre vom Papsttum, Erbe und Stellvertreter Petri.\", \"Petrus war für Leo das Vorbild der Beziehung zu Christus.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 368,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [74, 73], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo sah den Anspruch des Petrus an das Papstamt.\", \"Leo vertrat die Autorität des Petrus in der Welt.\", \"Christus blieb die Quelle aller Gnade und aller Vollmacht.\"], \"source_fact_index\": 81, \"target_contexts\": [[\"Petrus war für Leo das Vorbild der Beziehung zu Christus.\", \"Das Amt des römischen Bischofs mit seiner gesamtkirchlichen Bedeutung war von der einzigartigen Beziehung zwischen Christus und Petrus getragen.\", \"Die Beziehung zwischen Christus und Petrus war an sich einzigartig.\"], [\"Leo leistete einen der bedeutendsten Beiträge zur Entwicklung der Lehre vom Papsttum, Erbe und Stellvertreter Petri.\", \"Petrus war für Leo das Vorbild der Beziehung zu Christus.\", \"Das Amt des römischen Bischofs mit seiner gesamtkirchlichen Bedeutung war von der einzigartigen Beziehung zwischen Christus und Petrus getragen.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 352,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [72, 75], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo vertrat die Autorität des Petrus in der Welt.\", \"Christus blieb die Quelle aller Gnade und aller Vollmacht.\", \"Leo sah sich Christus gegenüber verantwortlich für seine Amtsführung.\"], \"source_fact_index\": 82, \"target_contexts\": [[\"Die Gegenwart Christi in der Kirche manifestierte sich bei Leo näher im Leben der organisierten Kirche und des einzelnen Gläubigen, insbesondere auf dem Konzil.\", \"Leo leistete einen der bedeutendsten Beiträge zur Entwicklung der Lehre vom Papsttum, Erbe und Stellvertreter Petri.\", \"Petrus war für Leo das Vorbild der Beziehung zu Christus.\"], [\"Das Amt des römischen Bischofs mit seiner gesamtkirchlichen Bedeutung war von der einzigartigen Beziehung zwischen Christus und Petrus getragen.\", \"Die Beziehung zwischen Christus und Petrus war an sich einzigartig.\", \"Leo brauchte den Beistand und das Vorbild des Petrus, um das Amt des römischen Bischofs angemessen ausüben zu können.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 371,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [72, 74], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Christus blieb die Quelle aller Gnade und aller Vollmacht.\", \"Leo sah sich Christus gegenüber verantwortlich für seine Amtsführung.\", \"Petrus war für Leo das Vorbild der Beziehung zum Christus.\"], \"source_fact_index\": 83, \"target_contexts\": [[\"Die Gegenwart Christi in der Kirche manifestierte sich bei Leo näher im Leben der organisierten Kirche und des einzelnen Gläubigen, insbesondere auf dem Konzil.\", \"Leo leistete einen der bedeutendsten Beiträge zur Entwicklung der Lehre vom Papsttum, Erbe und Stellvertreter Petri.\", \"Petrus war für Leo das Vorbild der Beziehung zu Christus.\"], [\"Petrus war für Leo das Vorbild der Beziehung zu Christus.\", \"Das Amt des römischen Bischofs mit seiner gesamtkirchlichen Bedeutung war von der einzigartigen Beziehung zwischen Christus und Petrus getragen.\", \"Die Beziehung zwischen Christus und Petrus war an sich einzigartig.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 355,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [73, 74], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo sah sich Christus gegenüber verantwortlich für seine Amtsführung.\", \"Petrus war für Leo das Vorbild der Beziehung zum Christus.\", \"Das Amt des römischen Bischofs wurde in der Bedeutung für die Gesamtkirche aus der einzigartigen Beziehung zwischen Christus und Petrus abgeleitet.\"], \"source_fact_index\": 84, \"target_contexts\": [[\"Leo leistete einen der bedeutendsten Beiträge zur Entwicklung der Lehre vom Papsttum, Erbe und Stellvertreter Petri.\", \"Petrus war für Leo das Vorbild der Beziehung zu Christus.\", \"Das Amt des römischen Bischofs mit seiner gesamtkirchlichen Bedeutung war von der einzigartigen Beziehung zwischen Christus und Petrus getragen.\"], [\"Petrus war für Leo das Vorbild der Beziehung zu Christus.\", \"Das Amt des römischen Bischofs mit seiner gesamtkirchlichen Bedeutung war von der einzigartigen Beziehung zwischen Christus und Petrus getragen.\", \"Die Beziehung zwischen Christus und Petrus war an sich einzigartig.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 369,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [75, 72], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Petrus war für Leo das Vorbild der Beziehung zum Christus.\", \"Das Amt des römischen Bischofs wurde in der Bedeutung für die Gesamtkirche aus der einzigartigen Beziehung zwischen Christus und Petrus abgeleitet.\", \"Leo nutzte das Vorbild des Petrus, um das Amt des römischen Bischofs angemessen auszuüben.\"], \"source_fact_index\": 85, \"target_contexts\": [[\"Das Amt des römischen Bischofs mit seiner gesamtkirchlichen Bedeutung war von der einzigartigen Beziehung zwischen Christus und Petrus getragen.\", \"Die Beziehung zwischen Christus und Petrus war an sich einzigartig.\", \"Leo brauchte den Beistand und das Vorbild des Petrus, um das Amt des römischen Bischofs angemessen ausüben zu können.\"], [\"Die Gegenwart Christi in der Kirche manifestierte sich bei Leo näher im Leben der organisierten Kirche und des einzelnen Gläubigen, insbesondere auf dem Konzil.\", \"Leo leistete einen der bedeutendsten Beiträge zur Entwicklung der Lehre vom Papsttum, Erbe und Stellvertreter Petri.\", \"Petrus war für Leo das Vorbild der Beziehung zu Christus.\"]]}": {
+    "intersection_label": "yes",
+    "raw_response": "yes",
+    "total_tokens": 402,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [30, 26], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Das Amt des römischen Bischofs wurde in der Bedeutung für die Gesamtkirche aus der einzigartigen Beziehung zwischen Christus und Petrus abgeleitet.\", \"Leo nutzte das Vorbild des Petrus, um das Amt des römischen Bischofs angemessen auszuüben.\", \"Leo I. (Papa) veröffentlichte seine sämtlichen Predigten in 2 Bänden.\"], \"source_fact_index\": 86, \"target_contexts\": [[\"Auf dem Konzil von Chalkedon wurde Rom nur ein gewisser Vorrang vor den anderen großen Bischofssitzen im Osten eingeräumt.\", \"Die anderen großen Bischofssitze im Osten waren Alexandria, Antiochia, Jerusalem und Konstantinopel.\", \"Leo I. leistete einen theologischen Beitrag durch sein großes Lehrschreiben, den sogenannten Tomus (ep. 28).\"], [\"Leo I. griff in viele kirchliche Angelegenheiten in Italien ein.\", \"Leo I. griff in viele kirchliche Angelegenheiten in Gallien ein.\", \"Leo I. griff in viele kirchliche Angelegenheiten in Spanien ein.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 394,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [21, 29], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo nutzte das Vorbild des Petrus, um das Amt des römischen Bischofs angemessen auszuüben.\", \"Leo I. (Papa) veröffentlichte seine sämtlichen Predigten in 2 Bänden.\", \"Die sämtlichen Predigten von Papst und Kirchenlehrer Leo dem Großen wurden 1927 vom Kösel-Verlag in München veröffentlicht.\"], \"source_fact_index\": 87, \"target_contexts\": [[\"Prosper von Aquitanien bezeichnete Leo I. schon zu dessen Lebzeiten als papa.\", \"Prosper von Aquitanien bezeichnete Leo I. schon zu dessen Lebzeiten als summus sacerdos (oberster Priester).\", \"Die Übertragung des Pontifex-Maximus-Titels vom Kaiser auf den Papst ist nicht das Werk von Leo I.\"], [\"Leo I. griff in viele kirchliche Angelegenheiten in Griechenland ein.\", \"Auf dem Konzil von Chalkedon wurde Rom nur ein gewisser Vorrang vor den anderen großen Bischofssitzen im Osten eingeräumt.\", \"Die anderen großen Bischofssitze im Osten waren Alexandria, Antiochia, Jerusalem und Konstantinopel.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 410,
+    "verification_status": "model_verified"
+  },
+  "{\"candidate_indices\": [8, 7], \"context_size\": 3, \"direction\": \"als_to_de\", \"model\": \"gemma-4-31b-it\", \"source_context\": [\"Leo I. (Papa) veröffentlichte seine sämtlichen Predigten in 2 Bänden.\", \"Die sämtlichen Predigten von Papst und Kirchenlehrer Leo dem Großen wurden 1927 vom Kösel-Verlag in München veröffentlicht.\", \"Das Gesamtwerk der Migne Patrologia Latina enthält ein Inhaltsverzeichnis.\"], \"source_fact_index\": 88, \"target_contexts\": [[\"Leo der Große bekämpfte die Pelagianer.\", \"Er wurde wahrscheinlich erstmals in einem Brief des heiligen Augustinus erwähnt.\", \"In einem Brief des heiligen Augustinus spricht Augustinus von einem Akolythen Leo.\"], [\"Leo der Große bekämpfte die Monophysiten.\", \"Leo der Große bekämpfte die Pelagianer.\", \"Er wurde wahrscheinlich erstmals in einem Brief des heiligen Augustinus erwähnt.\"]]}": {
+    "intersection_label": "no",
+    "raw_response": "no",
+    "total_tokens": 343,
+    "verification_status": "model_verified"
+  }
+}

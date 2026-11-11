@@ -1,0 +1,1487 @@
+{
+  "pair_key": "gold__le_mans",
+  "cluster": "Gold",
+  "als_page_id": "gold_le_mans_als",
+  "de_page_id": "gold_le_mans_de",
+  "pair_title": "Le Mans",
+  "page_id": "gold_le_mans_de",
+  "page_title": "Le Mans",
+  "language_variety": "de",
+  "decomposition_model": "gemma-4-31b-it",
+  "decomposition_prompt_version": "iaa_atomic_balanced_fewshot_v2",
+  "num_paragraphs": 58,
+  "num_facts": 235,
+  "num_fallback_paragraphs": 0,
+  "paragraphs": [
+    "Le Mans ist eine Stadt mit Einwohnern (Stand ) im Nordwesten Frankreichs. Sie liegt am Zusammenfluss von Sarthe und Huisne und ist Hauptstadt des Départements Sarthe in der Region Pays de la Loire. Die Einwohner werden Manceller genannt.",
+    "Die Stadt mit der gotischen Kathedrale Saint-Julien du Mans ist vor allem durch das 24-Stunden-Rennen von Le Mans (24 Heures du Mans) bekannt.",
+    "Die Gründung der Stadt Le Mans ist zurückzuführen auf ein Oppidum der keltischen Cenomani. Die Siedlung wurde 56 v. Chr. von den Römern erobert, die sie Suindinum nannten. Im 3. Jahrhundert wurde eine Stadtmauer errichtet, die zum Teil noch heute erkennbar ist. In spätrömischer Zeit entstand das Bistum Le Mans (als erster Bischof gilt der Heilige Julianus), das später dem Erzbistum Tours unterstellt wurde. Zunächst zur Herrschaft des Syagrius gehörig, wurde Le Mans 486 von den Franken erobert. Später wurde Le Mans Zentrum der Grafschaft Maine, die vor allem im 11. und frühen 12. Jahrhundert zwischen den Herzögen der Normandie und den Grafen von Anjou immer wieder umkämpft war. 1110 konnte sich Anjou endgültig die Oberhoheit über das Land sichern, das mit dem Aufstieg der Plantagenets zu Königen von England 1154 Teil des Angevinischen Reiches wurde. Johann Ohneland verlor den Festlandbesitz nördlich der Loire allerdings wieder an die französische Krone, die damit 1204 auch Le Mans wieder unter ihre Herrschaft brachte. Im Verlauf des Hundertjährigen Krieges war Maine dann wieder zwischen Engländern und Franzosen umkämpft, worunter auch die Bevölkerung von Le Mans zu leiden hatte, die sich hinter ihre Stadtmauern zurückziehen und die mittlerweile errichteten Vororte aufgeben musste. 1443 konnten die Engländer dann endgültig aus Maine vertrieben werden. Nachdem hier zwischenzeitlich wieder ein eigenes Grafengeschlecht herrschte, wurde Maine 1480 dem Kronbesitz zugeschlagen. Nach der Reformation zählte Maine zu den hugenottischen Provinzen, sodass es hier erneut zu blutigen Auseinandersetzungen kam; erst 1589 konnte Heinrich IV. auch hier für Frieden sorgen, der sich als recht dauerhaft erweisen sollte.",
+    "Im Zeitalter des Absolutismus erlebte das örtliche Handwerk einen Aufschwung, gingen zwei Drittel der Textilproduktion der Stadt in den Export. Die Verbesserung der Verkehrswege förderte den wirtschaftlichen Aufschwung zur Zeit der Industrialisierung zusätzlich: 1844 erhielt Le Mans einen Eisenbahnanschluss an der Strecke Paris-Rennes. Von großer Bedeutung für die Stadt waren auch die Aktivitäten der Familie Bollée, die in den 1840er Jahren hier zunächst Dampfmaschinen produzierte, ab 1887 dann vor allem Automobile herstellte.",
+    "Vom 10. bis 12. Januar 1871 fand hier die Schlacht bei Le Mans zwischen der französischen Loirearmee und der zweiten Armee des Prinzen Friedrich Karl während des Deutsch-Französischen Krieges statt. Diese endete mit einem deutschen Sieg. 1893 wurde Le Mans auch an das Telefonnetz angeschlossen. Die Tradition als Automobilrennstadt begründete ein erster Grand Prix im Jahre 1911. 1936 siedelte sich die Firma Renault in Le Mans an, die bis heute größter Arbeitgeber der Stadt ist, aber auch große Versicherungsunternehmen wählten Le Mans als Standort. Zwischen 1940 und 1944 war Le Mans deutsch besetzt, die Zerstörungen durch den Krieg hielten sich hier in Grenzen. Das höhere Bildungswesen, das lange eher vernachlässigt wurde, erhielt 1960 mit der Errichtung einer Universität eine vermehrte Förderung, allerdings war diese erste Hochschule zunächst von der Universität Caen abhängig. Bedeutender wurde die 1969 gegründete Technische Hochschule.",
+    "Die École Nationale Supérieure d’Ingénieurs du Mans wurde 1995 gegründet.",
+    "Bürgermeister der Stadt ist seit dem 14. Juni 2018 Stéphane Le Foll (PS). Die Stadt ist in neun Wahlkreise gegliedert.",
+    "Die Stadt Le Mans unterhält, wegen des gemeinsamen Patrons, des Heiligen Liborius, bereits seit 836 enge Beziehungen zu Paderborn in Nordrhein-Westfalen. Die offizielle Städtepartnerschaft besteht jedoch erst seit 1967.",
+    "Insgesamt hat Le Mans sechs Partnerstädte:",
+    "Wichtigste Wirtschaftszweige sind neben der Landmaschinenindustrie, vertreten durch das Traktorenwerk, das zwischen 2003 und 2008 sukzessiv von Renault an Claas überging, vor allem die metallverarbeitende und die Elektroindustrie, sowie der Dienstleistungsbereich (Versicherungen, etwa MMA, Mutuelles du Mans Assurances).",
+    "Öffentlicher Nahverkehr: Seit dem 17. November 2007 verfügt Le Mans über eine neue, moderne Straßenbahn. Die Tramway, wie sie in Frankreich heißt, durchquert auf einer Länge von gut 15 km das Stadtgebiet von Nordwesten (Universität) nach Südosten (Sport- und Kulturzentrum Antarès). 30 Haltestellen weist diese erste Linie auf. Am 29. August 2014 wurde die zweite Straßenbahnlinie der Stadt eröffnet. Diese verbindet den Nordosten (Bellevue) mit dem Südwesten (Espal). Das Straßenbahnnetz ist dadurch um ca. 4 km auf rund 19 km gewachsen.",
+    "Eisenbahn: Le Mans ist seit 1989 TGV-Station. Die am Bahnhof Le Mans haltenden TGV-Züge fahren die Ziele Paris, Rennes, Angers und Nantes an.",
+    "Straße: Es bestehen Autobahnverbindungen nach Paris und Nantes (A 11) und in den Westen Richtung Rennes (A 81) sowie in den Südwesten Frankreichs nach Angers und Bordeaux.",
+    "Luftverkehr: Der kleine Flughafen Le Mans hat heute im Zeitalter des TGV nur noch eine untergeordnete Bedeutung.",
+    "Da die Stadt im Zweiten Weltkrieg weitgehend unzerstört blieb, hat sich auch die historische Altstadt erhalten. Am bedeutendsten sind die gallo-römische Stadtmauer, die gegen Ende des 3. Jahrhunderts gebaut wurde und bemerkenswert gut erhalten ist, sowie die Kathedrale Saint-Julien im romanisch-gotischen Baustil, die Kirche Notre-Dame de la Couture aus dem 13. und 14. Jahrhundert, das Musée de Tessé, das Maison d’Adam et Ève, das Hôtel de Clairaulnay und das Hôtel de Vaux. Reste der 572 erbauten und in der Revolution zerstörten königlichen Benediktinerabtei St-Vincent werden vom Lycée Bellevue eingenommen.",
+    "In unmittelbarer Nähe befindet sich die Strecke des 24-Stunden-Rennens von Le Mans. In ihrem Innenbereich liegt seit 1991 das Automobilmuseum des Départements Sarthe. Unter den mehr als 100 ausgestellten Fahrzeugen sind Siegerfahrzeuge des Rennens zu besichtigen, darunter ein Bentley (Sieger 1924) und ein Ferrari (Sieger 1949). In der Fußgängerzone von Le Mans haben erfolgreiche Fahrzeugpiloten ihre Hand- bzw. Fußabdrücke auf Messingplatten im Straßenbelag bzw. an einem Brunnen hinterlassen.",
+    "Weltberühmt wurde Le Mans durch seine Motorsportveranstaltungen, insbesondere durch die 24-Stunden-Rennen von Le Mans mit dem weltweit schwersten Unfall von 1955. Das Vorbild vieler Langstreckenrennen wird seit 1923 alljährlich Mitte Juni auf der 13,5 km langen Strecke Circuit des 24 Heures teilweise auf öffentlichen Landstraßen im Süden von Le Mans ausgetragen. Bereits 1906 fand in Le Mans unter Beteiligung von 32 Automobilen das erste Grand-Prix-Rennen der Welt statt.",
+    "Ferner gibt es das 24-Stunden-Rennen für Motorräder sowie diverse weitere Motorsportveranstaltungen, unter anderem den Grand Prix von Frankreich der Motorrad-Weltmeisterschaft, die auf der kürzeren Variante der Rennstrecke, dem Circuit Bugatti stattfinden.",
+    "Der Fußballclub Le Mans Union Club (M.U.C.) 72 spielte seit einigen Jahren in der zweiten Liga Frankreichs, bis er im Oktober 2013 auf Grund einer Insolvenz aufgelöst wurde.",
+    "Die Basketballmannschaft Le Mans Sarthe Basket wurde vier Mal französischer Meister, zuletzt im Jahr 2006.",
+    "Der Verein MSH 72 (Le Mans Sarthe Handball 72) gilt als Hauptverein der Stadt und der Sarthe für die Männer.",
+    "Der 1957 gegründete Verein CSC Le Mans Handball bzw. Club Sportif des Cheminots du Mans „Sportverein der Eisenbahner in Le Mans“ hat im Augenblick 13 aktive Mannschaften, sowohl im Jugend- als auch im Seniorenbereich.",
+    "In der Nähe von Le Mans bei Mayet befindet sich ein 342 Meter hoher Sendemast für UKW und Fernsehen. Er ist eines der höchsten Bauwerke in Frankreich und überragt sogar den Eiffelturm.",
+    "Am ersten Freitag im September findet in Le Mans die Zwiebelmesse (Foire aux Oignons) statt.",
+    "Odo von Cluny (878–942), zweiter Abt der Benediktinerabtei Cluny",
+    "Nicolas Denisot (1515–1559), Schriftsteller und Maler",
+    "Jacques Peletier (1517–1582), Literat, Humanist, Jurist, Mediziner und Mathematiker",
+    "François Grudé de La Croix du Maine (1552–1592), Bibliograf und Lexikograf",
+    "Jacques Pousset de Montauban (1610–1685), Jurist, Parlamentsadvokat und Schriftsteller.",
+    "Bernard Lamy (1640–1715), Philosoph und Mathematiker",
+    "Noël Aubert de Versé (1645–1714), Theologe",
+    "Mathieu-Jean-Baptiste Nioche de Tournay (1767–1844), Textdichter und Dramatiker",
+    "Michel Louis Arsène Lalande (1785–1852), General",
+    "Julien Pierre Anne Lalande (1787–1844), Admiral",
+    "Alexis-Armand Charost (1860–1930), Erzbischof von Rennes",
+    "Joseph Caillaux (1863–1944), Premierminister Frankreichs von 1911 bis 1912",
+    "Auguste Diès (1875–1958), Gräzist, Philosophiehistoriker und katholischer Priester",
+    "Maurice Fournier (1880–1911), Motorrad- und Automobilrennfahrer",
+    "Roger de La Fresnaye (1885–1925), Maler des Kubismus",
+    "Jean Belland (1895–1965), Cellist und Musikpädagoge",
+    "Marcel-Marie Dubois (1896–1967), römisch-katholischer Geistlicher, Bischof von Rodez und Erzbischof von Besançon",
+    "Jean Françaix (1912–1997), Komponist und Pianist",
+    "Gaston Bogaert (1918–2008), Architekt, Werbegrafiker und Maler",
+    "Alain Savouret (* 1942), Pianist, Dirigent und Komponist",
+    "Claire Gibault (* 1945), Dirigentin und Politikerin",
+    "Jean Rondeau (1946–1985), Automobilrennfahrer und Konstrukteur",
+    "Yves Courage (* 1948), Automobilrennfahrer und Rennstallbesitzer",
+    "Dominique Rouits (* 1949), Dirigent und Musikpädagoge",
+    "Michel Krine (* 1953), Unternehmer und Automobilrennfahrer",
+    "François Fillon (* 1954), Premierminister Frankreichs von 2007 bis 2012",
+    "Stéphane Le Foll (* 1960), Politiker",
+    "Antoine de Romanet de Beaune (* 1962), römisch-katholischer Geistlicher, Militärbischof Frankreichs",
+    "David Guion (* 1967), Fußballspieler und -trainer",
+    "Doan Bui (* 1976), Autorin und Journalistin",
+    "Bastien Brière (* 1983), Mediziner und Automobilrennfahrer",
+    "Julien Loutelier (* 1987), Jazz- und Improvisationsmusiker",
+    "Denis Bouanga (* 1994), gabunischer Fußballspieler",
+    "Berengaria von Navarra (1165/70–1230), Ehefrau des englischen Königs Richard Löwenherz, Gründerin der vor den Toren der Stadt gelegenen Zisterzienserabtei L’Épau"
+  ],
+  "facts": [
+    {
+      "fact_index": 0,
+      "paragraph_index": 0,
+      "fact": "Le Mans ist eine Stadt im Nordwesten Frankreichs.",
+      "fallback": false
+    },
+    {
+      "fact_index": 1,
+      "paragraph_index": 0,
+      "fact": "Le Mans liegt am Zusammenfluss von Sarthe und Huisne.",
+      "fallback": false
+    },
+    {
+      "fact_index": 2,
+      "paragraph_index": 0,
+      "fact": "Le Mans ist Hauptstadt des Départements Sarthe in der Region Pays de la Loire.",
+      "fallback": false
+    },
+    {
+      "fact_index": 3,
+      "paragraph_index": 0,
+      "fact": "Die Einwohner von Le Mans werden Manceller genannt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 4,
+      "paragraph_index": 1,
+      "fact": "Die Stadt Le Mans besitzt die gotische Kathedrale Saint-Julien du Mans.",
+      "fallback": false
+    },
+    {
+      "fact_index": 5,
+      "paragraph_index": 1,
+      "fact": "Die Stadt Le Mans ist vor allem durch das 24-Stunden-Rennen von Le Mans (24 Heures du Mans) bekannt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 6,
+      "paragraph_index": 2,
+      "fact": "Die Gründung der Stadt Le Mans ist zurückzuführen auf ein Oppidum der keltischen Cenomani.",
+      "fallback": false
+    },
+    {
+      "fact_index": 7,
+      "paragraph_index": 2,
+      "fact": "Die Siedlung wurde 56 v. Chr. von den Römern erobert.",
+      "fallback": false
+    },
+    {
+      "fact_index": 8,
+      "paragraph_index": 2,
+      "fact": "Die Römer nannten die Siedlung Suindinum.",
+      "fallback": false
+    },
+    {
+      "fact_index": 9,
+      "paragraph_index": 2,
+      "fact": "Im 3. Jahrhundert wurde eine Stadtmauer errichtet.",
+      "fallback": false
+    },
+    {
+      "fact_index": 10,
+      "paragraph_index": 2,
+      "fact": "Die Stadtmauer ist zum Teil noch heute erkennbar.",
+      "fallback": false
+    },
+    {
+      "fact_index": 11,
+      "paragraph_index": 2,
+      "fact": "In spätrömischer Zeit entstand das Bistum Le Mans.",
+      "fallback": false
+    },
+    {
+      "fact_index": 12,
+      "paragraph_index": 2,
+      "fact": "Der Heilige Julianus gilt als erster Bischof des Bistums Le Mans.",
+      "fallback": false
+    },
+    {
+      "fact_index": 13,
+      "paragraph_index": 2,
+      "fact": "Das Bistum Le Mans wurde später dem Erzbistum Tours unterstellt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 14,
+      "paragraph_index": 2,
+      "fact": "Le Mans gehörte zunächst zur Herrschaft des Syagrius.",
+      "fallback": false
+    },
+    {
+      "fact_index": 15,
+      "paragraph_index": 2,
+      "fact": "Le Mans wurde 486 von den Franken erobert.",
+      "fallback": false
+    },
+    {
+      "fact_index": 16,
+      "paragraph_index": 2,
+      "fact": "Le Mans wurde später Zentrum der Grafschaft Maine.",
+      "fallback": false
+    },
+    {
+      "fact_index": 17,
+      "paragraph_index": 2,
+      "fact": "Die Grafschaft Maine war vor allem im 11. und frühen 12. Jahrhundert zwischen den Herzögen der Normandie und den Grafen von Anjou immer wieder umkämpft.",
+      "fallback": false
+    },
+    {
+      "fact_index": 18,
+      "paragraph_index": 2,
+      "fact": "1110 konnte sich Anjou endgültig die Oberhoheit über das Land sichern.",
+      "fallback": false
+    },
+    {
+      "fact_index": 19,
+      "paragraph_index": 2,
+      "fact": "Das Land wurde mit dem Aufstieg der Plantagenets zu Königen von England 1154 Teil des Angevinischen Reiches.",
+      "fallback": false
+    },
+    {
+      "fact_index": 20,
+      "paragraph_index": 2,
+      "fact": "Johann Ohneland verlor den Festlandbesitz nördlich der Loire wieder an die französische Krone.",
+      "fallback": false
+    },
+    {
+      "fact_index": 21,
+      "paragraph_index": 2,
+      "fact": "Die französische Krone brachte 1204 auch Le Mans wieder unter ihre Herrschaft.",
+      "fallback": false
+    },
+    {
+      "fact_index": 22,
+      "paragraph_index": 2,
+      "fact": "Im Verlauf des Hundertjährigen Krieges war Maine wieder zwischen Engländern und Franzosen umkämpft.",
+      "fallback": false
+    },
+    {
+      "fact_index": 23,
+      "paragraph_index": 2,
+      "fact": "Die Bevölkerung von Le Mans litt unter den Kämpfen im Verlauf des Hundertjährigen Krieges.",
+      "fallback": false
+    },
+    {
+      "fact_index": 24,
+      "paragraph_index": 2,
+      "fact": "Die Bevölkerung von Le Mans musste sich hinter ihre Stadtmauern zurückziehen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 25,
+      "paragraph_index": 2,
+      "fact": "Die Bevölkerung von Le Mans musste die mittlerweile errichteten Vororte aufgeben.",
+      "fallback": false
+    },
+    {
+      "fact_index": 26,
+      "paragraph_index": 2,
+      "fact": "1443 konnten die Engländer endgültig aus Maine vertrieben werden.",
+      "fallback": false
+    },
+    {
+      "fact_index": 27,
+      "paragraph_index": 2,
+      "fact": "Zwischenzeitlich herrschte in Maine wieder ein eigenes Grafengeschlecht.",
+      "fallback": false
+    },
+    {
+      "fact_index": 28,
+      "paragraph_index": 2,
+      "fact": "Maine wurde 1480 dem Kronbesitz zugeschlagen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 29,
+      "paragraph_index": 2,
+      "fact": "Nach der Reformation zählte Maine zu den hugenottischen Provinzen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 30,
+      "paragraph_index": 2,
+      "fact": "In Maine kam es nach der Reformation erneut zu blutigen Auseinandersetzungen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 31,
+      "paragraph_index": 2,
+      "fact": "1589 konnte Heinrich IV. in Maine für Frieden sorgen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 32,
+      "paragraph_index": 2,
+      "fact": "Der durch Heinrich IV. geschaffene Frieden erwies sich als recht dauerhaft.",
+      "fallback": false
+    },
+    {
+      "fact_index": 33,
+      "paragraph_index": 3,
+      "fact": "Im Zeitalter des Absolutismus erlebte das örtliche Handwerk einen Aufschwung.",
+      "fallback": false
+    },
+    {
+      "fact_index": 34,
+      "paragraph_index": 3,
+      "fact": "Im Zeitalter des Absolutismus gingen zwei Drittel der Textilproduktion der Stadt in den Export.",
+      "fallback": false
+    },
+    {
+      "fact_index": 35,
+      "paragraph_index": 3,
+      "fact": "Die Verbesserung der Verkehrswege förderte den wirtschaftlichen Aufschwung zur Zeit der Industrialisierung zusätzlich.",
+      "fallback": false
+    },
+    {
+      "fact_index": 36,
+      "paragraph_index": 3,
+      "fact": "Le Mans erhielt 1844 einen Eisenbahnanschluss an der Strecke Paris-Rennes.",
+      "fallback": false
+    },
+    {
+      "fact_index": 37,
+      "paragraph_index": 3,
+      "fact": "Die Aktivitäten der Familie Bollée waren von großer Bedeutung für die Stadt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 38,
+      "paragraph_index": 3,
+      "fact": "Die Familie Bollée produzierte in den 1840er Jahren in Le Mans zunächst Dampfmaschinen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 39,
+      "paragraph_index": 3,
+      "fact": "Die Familie Bollée herstellte ab 1887 in Le Mans vor allem Automobile.",
+      "fallback": false
+    },
+    {
+      "fact_index": 40,
+      "paragraph_index": 4,
+      "fact": "Vom 10. bis 12. Januar 1871 fand in Le Mans die Schlacht bei Le Mans zwischen der französischen Loirearmee und der zweiten Armee des Prinzen Friedrich Karl während des Deutsch-Französischen Krieges statt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 41,
+      "paragraph_index": 4,
+      "fact": "Die Schlacht bei Le Mans endete mit einem deutschen Sieg.",
+      "fallback": false
+    },
+    {
+      "fact_index": 42,
+      "paragraph_index": 4,
+      "fact": "1893 wurde Le Mans an das Telefonnetz angeschlossen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 43,
+      "paragraph_index": 4,
+      "fact": "Ein erster Grand Prix im Jahre 1911 begründete die Tradition von Le Mans als Automobilrennstadt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 44,
+      "paragraph_index": 4,
+      "fact": "1936 siedelte sich die Firma Renault in Le Mans an.",
+      "fallback": false
+    },
+    {
+      "fact_index": 45,
+      "paragraph_index": 4,
+      "fact": "Die Firma Renault ist bis heute größter Arbeitgeber der Stadt Le Mans.",
+      "fallback": false
+    },
+    {
+      "fact_index": 46,
+      "paragraph_index": 4,
+      "fact": "Große Versicherungsunternehmen wählten Le Mans als Standort.",
+      "fallback": false
+    },
+    {
+      "fact_index": 47,
+      "paragraph_index": 4,
+      "fact": "Zwischen 1940 und 1944 war Le Mans deutsch besetzt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 48,
+      "paragraph_index": 4,
+      "fact": "Die Zerstörungen durch den Krieg hielten sich in Le Mans in Grenzen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 49,
+      "paragraph_index": 4,
+      "fact": "Das höhere Bildungswesen in Le Mans wurde lange eher vernachlässigt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 50,
+      "paragraph_index": 4,
+      "fact": "Das höhere Bildungswesen in Le Mans erhielt 1960 mit der Errichtung einer Universität eine vermehrte Förderung.",
+      "fallback": false
+    },
+    {
+      "fact_index": 51,
+      "paragraph_index": 4,
+      "fact": "Die erste Hochschule in Le Mans war zunächst von der Universität Caen abhängig.",
+      "fallback": false
+    },
+    {
+      "fact_index": 52,
+      "paragraph_index": 4,
+      "fact": "Die 1969 gegründete Technische Hochschule in Le Mans wurde bedeutender.",
+      "fallback": false
+    },
+    {
+      "fact_index": 53,
+      "paragraph_index": 5,
+      "fact": "Die École Nationale Supérieure d’Ingénieurs du Mans wurde 1995 gegründet.",
+      "fallback": false
+    },
+    {
+      "fact_index": 54,
+      "paragraph_index": 6,
+      "fact": "Stéphane Le Foll ist seit dem 14. Juni 2018 Bürgermeister der Stadt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 55,
+      "paragraph_index": 6,
+      "fact": "Stéphane Le Foll gehört der Partei PS an.",
+      "fallback": false
+    },
+    {
+      "fact_index": 56,
+      "paragraph_index": 6,
+      "fact": "Die Stadt ist in neun Wahlkreise gegliedert.",
+      "fallback": false
+    },
+    {
+      "fact_index": 57,
+      "paragraph_index": 7,
+      "fact": "Die Stadt Le Mans unterhält wegen des gemeinsamen Patrons, des Heiligen Liborius, bereits seit 836 enge Beziehungen zu Paderborn in Nordrhein-Westfalen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 58,
+      "paragraph_index": 7,
+      "fact": "Die Stadt Le Mans und Paderborn haben mit dem Heiligen Liborius einen gemeinsamen Patron.",
+      "fallback": false
+    },
+    {
+      "fact_index": 59,
+      "paragraph_index": 7,
+      "fact": "Die offizielle Städtepartnerschaft zwischen Le Mans und Paderborn besteht seit 1967.",
+      "fallback": false
+    },
+    {
+      "fact_index": 60,
+      "paragraph_index": 8,
+      "fact": "Le Mans hat insgesamt sechs Partnerstädte.",
+      "fallback": false
+    },
+    {
+      "fact_index": 61,
+      "paragraph_index": 9,
+      "fact": "Die Landmaschinenindustrie ist einer der wichtigsten Wirtschaftszweige.",
+      "fallback": false
+    },
+    {
+      "fact_index": 62,
+      "paragraph_index": 9,
+      "fact": "Das Traktorenwerk vertritt die Landmaschinenindustrie.",
+      "fallback": false
+    },
+    {
+      "fact_index": 63,
+      "paragraph_index": 9,
+      "fact": "Das Traktorenwerk ging zwischen 2003 und 2008 sukzessiv von Renault an Claas über.",
+      "fallback": false
+    },
+    {
+      "fact_index": 64,
+      "paragraph_index": 9,
+      "fact": "Die metallverarbeitende Industrie ist einer der wichtigsten Wirtschaftszweige.",
+      "fallback": false
+    },
+    {
+      "fact_index": 65,
+      "paragraph_index": 9,
+      "fact": "Die Elektroindustrie ist einer der wichtigsten Wirtschaftszweige.",
+      "fallback": false
+    },
+    {
+      "fact_index": 66,
+      "paragraph_index": 9,
+      "fact": "Der Dienstleistungsbereich ist einer der wichtigsten Wirtschaftszweige.",
+      "fallback": false
+    },
+    {
+      "fact_index": 67,
+      "paragraph_index": 9,
+      "fact": "Versicherungen gehören zum Dienstleistungsbereich.",
+      "fallback": false
+    },
+    {
+      "fact_index": 68,
+      "paragraph_index": 9,
+      "fact": "MMA (Mutuelles du Mans Assurances) ist ein Beispiel für Versicherungen im Dienstleistungsbereich.",
+      "fallback": false
+    },
+    {
+      "fact_index": 69,
+      "paragraph_index": 10,
+      "fact": "Seit dem 17. November 2007 verfügt Le Mans über eine neue, moderne Straßenbahn.",
+      "fallback": false
+    },
+    {
+      "fact_index": 70,
+      "paragraph_index": 10,
+      "fact": "Die Tramway, wie sie in Frankreich heißt, durchquert auf einer Länge von gut 15 km das Stadtgebiet von Nordwesten (Universität) nach Südosten (Sport- und Kulturzentrum Antarès).",
+      "fallback": false
+    },
+    {
+      "fact_index": 71,
+      "paragraph_index": 10,
+      "fact": "Die erste Straßenbahnlinie in Le Mans weist 30 Haltestellen auf.",
+      "fallback": false
+    },
+    {
+      "fact_index": 72,
+      "paragraph_index": 10,
+      "fact": "Am 29. August 2014 wurde die zweite Straßenbahnlinie der Stadt eröffnet.",
+      "fallback": false
+    },
+    {
+      "fact_index": 73,
+      "paragraph_index": 10,
+      "fact": "Die zweite Straßenbahnlinie verbindet den Nordosten (Bellevue) mit dem Südwesten (Espal).",
+      "fallback": false
+    },
+    {
+      "fact_index": 74,
+      "paragraph_index": 10,
+      "fact": "Das Straßenbahnnetz ist durch die zweite Linie um ca. 4 km auf rund 19 km gewachsen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 75,
+      "paragraph_index": 11,
+      "fact": "Le Mans ist seit 1989 TGV-Station.",
+      "fallback": false
+    },
+    {
+      "fact_index": 76,
+      "paragraph_index": 11,
+      "fact": "Die am Bahnhof Le Mans haltenden TGV-Züge fahren das Ziel Paris an.",
+      "fallback": false
+    },
+    {
+      "fact_index": 77,
+      "paragraph_index": 11,
+      "fact": "Die am Bahnhof Le Mans haltenden TGV-Züge fahren das Ziel Rennes an.",
+      "fallback": false
+    },
+    {
+      "fact_index": 78,
+      "paragraph_index": 11,
+      "fact": "Die am Bahnhof Le Mans haltenden TGV-Züge fahren das Ziel Angers an.",
+      "fallback": false
+    },
+    {
+      "fact_index": 79,
+      "paragraph_index": 11,
+      "fact": "Die am Bahnhof Le Mans haltenden TGV-Züge fahren das Ziel Nantes an.",
+      "fallback": false
+    },
+    {
+      "fact_index": 80,
+      "paragraph_index": 12,
+      "fact": "Es bestehen Autobahnverbindungen nach Paris.",
+      "fallback": false
+    },
+    {
+      "fact_index": 81,
+      "paragraph_index": 12,
+      "fact": "Es bestehen Autobahnverbindungen nach Nantes (A 11).",
+      "fallback": false
+    },
+    {
+      "fact_index": 82,
+      "paragraph_index": 12,
+      "fact": "Es bestehen Autobahnverbindungen in den Westen Richtung Rennes (A 81).",
+      "fallback": false
+    },
+    {
+      "fact_index": 83,
+      "paragraph_index": 12,
+      "fact": "Es bestehen Autobahnverbindungen in den Südwesten Frankreichs nach Angers.",
+      "fallback": false
+    },
+    {
+      "fact_index": 84,
+      "paragraph_index": 12,
+      "fact": "Es bestehen Autobahnverbindungen in den Südwesten Frankreichs nach Bordeaux.",
+      "fallback": false
+    },
+    {
+      "fact_index": 85,
+      "paragraph_index": 13,
+      "fact": "Der kleine Flughafen Le Mans hat heute im Zeitalter des TGV nur noch eine untergeordnete Bedeutung.",
+      "fallback": false
+    },
+    {
+      "fact_index": 86,
+      "paragraph_index": 14,
+      "fact": "Die Stadt blieb im Zweiten Weltkrieg weitgehend unzerstört.",
+      "fallback": false
+    },
+    {
+      "fact_index": 87,
+      "paragraph_index": 14,
+      "fact": "Die historische Altstadt der Stadt hat sich erhalten.",
+      "fallback": false
+    },
+    {
+      "fact_index": 88,
+      "paragraph_index": 14,
+      "fact": "Die gallo-römische Stadtmauer ist eines der bedeutendsten Bauwerke.",
+      "fallback": false
+    },
+    {
+      "fact_index": 89,
+      "paragraph_index": 14,
+      "fact": "Die gallo-römische Stadtmauer wurde gegen Ende des 3. Jahrhunderts gebaut.",
+      "fallback": false
+    },
+    {
+      "fact_index": 90,
+      "paragraph_index": 14,
+      "fact": "Die gallo-römische Stadtmauer ist bemerkenswert gut erhalten.",
+      "fallback": false
+    },
+    {
+      "fact_index": 91,
+      "paragraph_index": 14,
+      "fact": "Die Kathedrale Saint-Julien im romanisch-gotischen Baustil ist eines der bedeutendsten Bauwerke.",
+      "fallback": false
+    },
+    {
+      "fact_index": 92,
+      "paragraph_index": 14,
+      "fact": "Die Kirche Notre-Dame de la Couture aus dem 13. und 14. Jahrhundert ist eines der bedeutendsten Bauwerke.",
+      "fallback": false
+    },
+    {
+      "fact_index": 93,
+      "paragraph_index": 14,
+      "fact": "Das Musée de Tessé ist eines der bedeutendsten Bauwerke.",
+      "fallback": false
+    },
+    {
+      "fact_index": 94,
+      "paragraph_index": 14,
+      "fact": "Das Maison d’Adam et Ève ist eines der bedeutendsten Bauwerke.",
+      "fallback": false
+    },
+    {
+      "fact_index": 95,
+      "paragraph_index": 14,
+      "fact": "Das Hôtel de Clairaulnay ist eines der bedeutendsten Bauwerke.",
+      "fallback": false
+    },
+    {
+      "fact_index": 96,
+      "paragraph_index": 14,
+      "fact": "Das Hôtel de Vaux ist eines der bedeutendsten Bauwerke.",
+      "fallback": false
+    },
+    {
+      "fact_index": 97,
+      "paragraph_index": 14,
+      "fact": "Die königliche Benediktinerabtei St-Vincent wurde 572 erbaut.",
+      "fallback": false
+    },
+    {
+      "fact_index": 98,
+      "paragraph_index": 14,
+      "fact": "Die königliche Benediktinerabtei St-Vincent wurde in der Revolution zerstört.",
+      "fallback": false
+    },
+    {
+      "fact_index": 99,
+      "paragraph_index": 14,
+      "fact": "Reste der königlichen Benediktinerabtei St-Vincent werden vom Lycée Bellevue eingenommen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 100,
+      "paragraph_index": 15,
+      "fact": "In unmittelbarer Nähe befindet sich die Strecke des 24-Stunden-Rennens von Le Mans.",
+      "fallback": false
+    },
+    {
+      "fact_index": 101,
+      "paragraph_index": 15,
+      "fact": "Im Innenbereich der Strecke des 24-Stunden-Rennens von Le Mans liegt seit 1991 das Automobilmuseum des Départements Sarthe.",
+      "fallback": false
+    },
+    {
+      "fact_index": 102,
+      "paragraph_index": 15,
+      "fact": "Im Automobilmuseum des Départements Sarthe sind mehr als 100 Fahrzeuge ausgestellt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 103,
+      "paragraph_index": 15,
+      "fact": "Unter den ausgestellten Fahrzeugen im Automobilmuseum des Départements Sarthe sind Siegerfahrzeuge des Rennens zu besichtigen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 104,
+      "paragraph_index": 15,
+      "fact": "Ein Bentley, Sieger 1924, ist unter den Siegerfahrzeugen im Automobilmuseum des Départements Sarthe zu besichtigen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 105,
+      "paragraph_index": 15,
+      "fact": "Ein Ferrari, Sieger 1949, ist unter den Siegerfahrzeugen im Automobilmuseum des Départements Sarthe zu besichtigen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 106,
+      "paragraph_index": 15,
+      "fact": "Erfolgreiche Fahrzeugpiloten haben in der Fußgängerzone von Le Mans ihre Hand- bzw. Fußabdrücke auf Messingplatten im Straßenbelag bzw. an einem Brunnen hinterlassen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 107,
+      "paragraph_index": 16,
+      "fact": "Le Mans wurde weltberühmt durch seine Motorsportveranstaltungen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 108,
+      "paragraph_index": 16,
+      "fact": "Le Mans wurde insbesondere durch die 24-Stunden-Rennen von Le Mans weltberühmt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 109,
+      "paragraph_index": 16,
+      "fact": "Bei den 24-Stunden-Rennen von Le Mans ereignete sich 1955 der weltweit schwerste Unfall.",
+      "fallback": false
+    },
+    {
+      "fact_index": 110,
+      "paragraph_index": 16,
+      "fact": "Die 24-Stunden-Rennen von Le Mans sind das Vorbild vieler Langstreckenrennen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 111,
+      "paragraph_index": 16,
+      "fact": "Die 24-Stunden-Rennen von Le Mans werden seit 1923 alljährlich Mitte Juni ausgetragen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 112,
+      "paragraph_index": 16,
+      "fact": "Die 24-Stunden-Rennen von Le Mans werden auf der 13,5 km langen Strecke Circuit des 24 Heures ausgetragen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 113,
+      "paragraph_index": 16,
+      "fact": "Die Strecke Circuit des 24 Heures verläuft teilweise auf öffentlichen Landstraßen im Süden von Le Mans.",
+      "fallback": false
+    },
+    {
+      "fact_index": 114,
+      "paragraph_index": 16,
+      "fact": "1906 fand in Le Mans das erste Grand-Prix-Rennen der Welt statt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 115,
+      "paragraph_index": 16,
+      "fact": "Am ersten Grand-Prix-Rennen der Welt in Le Mans beteiligten sich 32 Automobile.",
+      "fallback": false
+    },
+    {
+      "fact_index": 116,
+      "paragraph_index": 17,
+      "fact": "Es gibt ein 24-Stunden-Rennen für Motorräder auf der Rennstrecke.",
+      "fallback": false
+    },
+    {
+      "fact_index": 117,
+      "paragraph_index": 17,
+      "fact": "Es gibt diverse weitere Motorsportveranstaltungen auf der Rennstrecke.",
+      "fallback": false
+    },
+    {
+      "fact_index": 118,
+      "paragraph_index": 17,
+      "fact": "Der Grand Prix von Frankreich der Motorrad-Weltmeisterschaft ist eine der Motorsportveranstaltungen auf der Rennstrecke.",
+      "fallback": false
+    },
+    {
+      "fact_index": 119,
+      "paragraph_index": 17,
+      "fact": "Der Grand Prix von Frankreich der Motorrad-Weltmeisterschaft findet auf der kürzeren Variante der Rennstrecke, dem Circuit Bugatti, statt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 120,
+      "paragraph_index": 18,
+      "fact": "Der Fußballclub Le Mans Union Club (M.U.C.) 72 spielte seit einigen Jahren in der zweiten Liga Frankreichs.",
+      "fallback": false
+    },
+    {
+      "fact_index": 121,
+      "paragraph_index": 18,
+      "fact": "Der Fußballclub Le Mans Union Club (M.U.C.) 72 wurde im Oktober 2013 auf Grund einer Insolvenz aufgelöst.",
+      "fallback": false
+    },
+    {
+      "fact_index": 122,
+      "paragraph_index": 19,
+      "fact": "Die Basketballmannschaft Le Mans Sarthe Basket wurde vier Mal französischer Meister.",
+      "fallback": false
+    },
+    {
+      "fact_index": 123,
+      "paragraph_index": 19,
+      "fact": "Die Basketballmannschaft Le Mans Sarthe Basket wurde zuletzt im Jahr 2006 französischer Meister.",
+      "fallback": false
+    },
+    {
+      "fact_index": 124,
+      "paragraph_index": 20,
+      "fact": "Der Verein MSH 72 (Le Mans Sarthe Handball 72) gilt als Hauptverein der Stadt Le Mans für die Männer.",
+      "fallback": false
+    },
+    {
+      "fact_index": 125,
+      "paragraph_index": 20,
+      "fact": "Der Verein MSH 72 (Le Mans Sarthe Handball 72) gilt als Hauptverein der Sarthe für die Männer.",
+      "fallback": false
+    },
+    {
+      "fact_index": 126,
+      "paragraph_index": 21,
+      "fact": "Der Verein CSC Le Mans Handball bzw. Club Sportif des Cheminots du Mans wurde 1957 gegründet.",
+      "fallback": false
+    },
+    {
+      "fact_index": 127,
+      "paragraph_index": 21,
+      "fact": "Club Sportif des Cheminots du Mans bedeutet Sportverein der Eisenbahner in Le Mans.",
+      "fallback": false
+    },
+    {
+      "fact_index": 128,
+      "paragraph_index": 21,
+      "fact": "Der Verein CSC Le Mans Handball hat im Augenblick 13 aktive Mannschaften.",
+      "fallback": false
+    },
+    {
+      "fact_index": 129,
+      "paragraph_index": 21,
+      "fact": "Die aktiven Mannschaften des Vereins CSC Le Mans Handball befinden sich sowohl im Jugend- als auch im Seniorenbereich.",
+      "fallback": false
+    },
+    {
+      "fact_index": 130,
+      "paragraph_index": 22,
+      "fact": "In der Nähe von Le Mans bei Mayet befindet sich ein 342 Meter hoher Sendemast für UKW und Fernsehen.",
+      "fallback": false
+    },
+    {
+      "fact_index": 131,
+      "paragraph_index": 22,
+      "fact": "Der Sendemast bei Mayet ist eines der höchsten Bauwerke in Frankreich.",
+      "fallback": false
+    },
+    {
+      "fact_index": 132,
+      "paragraph_index": 22,
+      "fact": "Der Sendemast bei Mayet überragt den Eiffelturm.",
+      "fallback": false
+    },
+    {
+      "fact_index": 133,
+      "paragraph_index": 23,
+      "fact": "Am ersten Freitag im September findet in Le Mans die Zwiebelmesse (Foire aux Oignons) statt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 134,
+      "paragraph_index": 24,
+      "fact": "Odo von Cluny lebte von 878 bis 942.",
+      "fallback": false
+    },
+    {
+      "fact_index": 135,
+      "paragraph_index": 24,
+      "fact": "Odo von Cluny war der zweite Abt der Benediktinerabtei Cluny.",
+      "fallback": false
+    },
+    {
+      "fact_index": 136,
+      "paragraph_index": 25,
+      "fact": "Nicolas Denisot lebte von 1515 bis 1559.",
+      "fallback": false
+    },
+    {
+      "fact_index": 137,
+      "paragraph_index": 25,
+      "fact": "Nicolas Denisot war Schriftsteller.",
+      "fallback": false
+    },
+    {
+      "fact_index": 138,
+      "paragraph_index": 25,
+      "fact": "Nicolas Denisot war Maler.",
+      "fallback": false
+    },
+    {
+      "fact_index": 139,
+      "paragraph_index": 26,
+      "fact": "Jacques Peletier lebte von 1517 bis 1582.",
+      "fallback": false
+    },
+    {
+      "fact_index": 140,
+      "paragraph_index": 26,
+      "fact": "Jacques Peletier war Literat.",
+      "fallback": false
+    },
+    {
+      "fact_index": 141,
+      "paragraph_index": 26,
+      "fact": "Jacques Peletier war Humanist.",
+      "fallback": false
+    },
+    {
+      "fact_index": 142,
+      "paragraph_index": 26,
+      "fact": "Jacques Peletier war Jurist.",
+      "fallback": false
+    },
+    {
+      "fact_index": 143,
+      "paragraph_index": 26,
+      "fact": "Jacques Peletier war Mediziner.",
+      "fallback": false
+    },
+    {
+      "fact_index": 144,
+      "paragraph_index": 26,
+      "fact": "Jacques Peletier war Mathematiker.",
+      "fallback": false
+    },
+    {
+      "fact_index": 145,
+      "paragraph_index": 27,
+      "fact": "François Grudé de La Croix du Maine lebte von 1552 bis 1592.",
+      "fallback": false
+    },
+    {
+      "fact_index": 146,
+      "paragraph_index": 27,
+      "fact": "François Grudé de La Croix du Maine war Bibliograf.",
+      "fallback": false
+    },
+    {
+      "fact_index": 147,
+      "paragraph_index": 27,
+      "fact": "François Grudé de La Croix du Maine war Lexikograf.",
+      "fallback": false
+    },
+    {
+      "fact_index": 148,
+      "paragraph_index": 28,
+      "fact": "Jacques Pousset de Montauban lebte von 1610 bis 1685.",
+      "fallback": false
+    },
+    {
+      "fact_index": 149,
+      "paragraph_index": 28,
+      "fact": "Jacques Pousset de Montauban war Jurist.",
+      "fallback": false
+    },
+    {
+      "fact_index": 150,
+      "paragraph_index": 28,
+      "fact": "Jacques Pousset de Montauban war Parlamentsadvokat.",
+      "fallback": false
+    },
+    {
+      "fact_index": 151,
+      "paragraph_index": 28,
+      "fact": "Jacques Pousset de Montauban war Schriftsteller.",
+      "fallback": false
+    },
+    {
+      "fact_index": 152,
+      "paragraph_index": 29,
+      "fact": "Bernard Lamy lebte von 1640 bis 1715.",
+      "fallback": false
+    },
+    {
+      "fact_index": 153,
+      "paragraph_index": 29,
+      "fact": "Bernard Lamy war Philosoph.",
+      "fallback": false
+    },
+    {
+      "fact_index": 154,
+      "paragraph_index": 29,
+      "fact": "Bernard Lamy war Mathematiker.",
+      "fallback": false
+    },
+    {
+      "fact_index": 155,
+      "paragraph_index": 30,
+      "fact": "Noël Aubert de Versé lebte von 1645 bis 1714.",
+      "fallback": false
+    },
+    {
+      "fact_index": 156,
+      "paragraph_index": 30,
+      "fact": "Noël Aubert de Versé war Theologe.",
+      "fallback": false
+    },
+    {
+      "fact_index": 157,
+      "paragraph_index": 31,
+      "fact": "Mathieu-Jean-Baptiste Nioche de Tournay lebte von 1767 bis 1844.",
+      "fallback": false
+    },
+    {
+      "fact_index": 158,
+      "paragraph_index": 31,
+      "fact": "Mathieu-Jean-Baptiste Nioche de Tournay war Textdichter.",
+      "fallback": false
+    },
+    {
+      "fact_index": 159,
+      "paragraph_index": 31,
+      "fact": "Mathieu-Jean-Baptiste Nioche de Tournay war Dramatiker.",
+      "fallback": false
+    },
+    {
+      "fact_index": 160,
+      "paragraph_index": 32,
+      "fact": "Michel Louis Arsène Lalande lebte von 1785 bis 1852.",
+      "fallback": false
+    },
+    {
+      "fact_index": 161,
+      "paragraph_index": 32,
+      "fact": "Michel Louis Arsène Lalande war General.",
+      "fallback": false
+    },
+    {
+      "fact_index": 162,
+      "paragraph_index": 33,
+      "fact": "Julien Pierre Anne Lalande lebte von 1787 bis 1844.",
+      "fallback": false
+    },
+    {
+      "fact_index": 163,
+      "paragraph_index": 33,
+      "fact": "Julien Pierre Anne Lalande war Admiral.",
+      "fallback": false
+    },
+    {
+      "fact_index": 164,
+      "paragraph_index": 34,
+      "fact": "Alexis-Armand Charost lebte von 1860 bis 1930.",
+      "fallback": false
+    },
+    {
+      "fact_index": 165,
+      "paragraph_index": 34,
+      "fact": "Alexis-Armand Charost war Erzbischof von Rennes.",
+      "fallback": false
+    },
+    {
+      "fact_index": 166,
+      "paragraph_index": 35,
+      "fact": "Joseph Caillaux lebte von 1863 bis 1944.",
+      "fallback": false
+    },
+    {
+      "fact_index": 167,
+      "paragraph_index": 35,
+      "fact": "Joseph Caillaux war von 1911 bis 1912 Premierminister Frankreichs.",
+      "fallback": false
+    },
+    {
+      "fact_index": 168,
+      "paragraph_index": 36,
+      "fact": "Auguste Diès lebte von 1875 bis 1958.",
+      "fallback": false
+    },
+    {
+      "fact_index": 169,
+      "paragraph_index": 36,
+      "fact": "Auguste Diès war Gräzist.",
+      "fallback": false
+    },
+    {
+      "fact_index": 170,
+      "paragraph_index": 36,
+      "fact": "Auguste Diès war Philosophiehistoriker.",
+      "fallback": false
+    },
+    {
+      "fact_index": 171,
+      "paragraph_index": 36,
+      "fact": "Auguste Diès war katholischer Priester.",
+      "fallback": false
+    },
+    {
+      "fact_index": 172,
+      "paragraph_index": 37,
+      "fact": "Maurice Fournier lebte von 1880 bis 1911.",
+      "fallback": false
+    },
+    {
+      "fact_index": 173,
+      "paragraph_index": 37,
+      "fact": "Maurice Fournier war Motorradrennfahrer.",
+      "fallback": false
+    },
+    {
+      "fact_index": 174,
+      "paragraph_index": 37,
+      "fact": "Maurice Fournier war Automobilrennfahrer.",
+      "fallback": false
+    },
+    {
+      "fact_index": 175,
+      "paragraph_index": 38,
+      "fact": "Roger de La Fresnaye lebte von 1885 bis 1925.",
+      "fallback": false
+    },
+    {
+      "fact_index": 176,
+      "paragraph_index": 38,
+      "fact": "Roger de La Fresnaye war ein Maler des Kubismus.",
+      "fallback": false
+    },
+    {
+      "fact_index": 177,
+      "paragraph_index": 39,
+      "fact": "Jean Belland lebte von 1895 bis 1965.",
+      "fallback": false
+    },
+    {
+      "fact_index": 178,
+      "paragraph_index": 39,
+      "fact": "Jean Belland war Cellist.",
+      "fallback": false
+    },
+    {
+      "fact_index": 179,
+      "paragraph_index": 39,
+      "fact": "Jean Belland war Musikpädagoge.",
+      "fallback": false
+    },
+    {
+      "fact_index": 180,
+      "paragraph_index": 40,
+      "fact": "Marcel-Marie Dubois lebte von 1896 bis 1967.",
+      "fallback": false
+    },
+    {
+      "fact_index": 181,
+      "paragraph_index": 40,
+      "fact": "Marcel-Marie Dubois war ein römisch-katholischer Geistlicher.",
+      "fallback": false
+    },
+    {
+      "fact_index": 182,
+      "paragraph_index": 40,
+      "fact": "Marcel-Marie Dubois war Bischof von Rodez.",
+      "fallback": false
+    },
+    {
+      "fact_index": 183,
+      "paragraph_index": 40,
+      "fact": "Marcel-Marie Dubois war Erzbischof von Besançon.",
+      "fallback": false
+    },
+    {
+      "fact_index": 184,
+      "paragraph_index": 41,
+      "fact": "Jean Françaix lebte von 1912 bis 1997.",
+      "fallback": false
+    },
+    {
+      "fact_index": 185,
+      "paragraph_index": 41,
+      "fact": "Jean Françaix war Komponist.",
+      "fallback": false
+    },
+    {
+      "fact_index": 186,
+      "paragraph_index": 41,
+      "fact": "Jean Françaix war Pianist.",
+      "fallback": false
+    },
+    {
+      "fact_index": 187,
+      "paragraph_index": 42,
+      "fact": "Gaston Bogaert lebte von 1918 bis 2008.",
+      "fallback": false
+    },
+    {
+      "fact_index": 188,
+      "paragraph_index": 42,
+      "fact": "Gaston Bogaert war Architekt.",
+      "fallback": false
+    },
+    {
+      "fact_index": 189,
+      "paragraph_index": 42,
+      "fact": "Gaston Bogaert war Werbegrafiker.",
+      "fallback": false
+    },
+    {
+      "fact_index": 190,
+      "paragraph_index": 42,
+      "fact": "Gaston Bogaert war Maler.",
+      "fallback": false
+    },
+    {
+      "fact_index": 191,
+      "paragraph_index": 43,
+      "fact": "Alain Savouret wurde 1942 geboren.",
+      "fallback": false
+    },
+    {
+      "fact_index": 192,
+      "paragraph_index": 43,
+      "fact": "Alain Savouret ist Pianist.",
+      "fallback": false
+    },
+    {
+      "fact_index": 193,
+      "paragraph_index": 43,
+      "fact": "Alain Savouret ist Dirigent.",
+      "fallback": false
+    },
+    {
+      "fact_index": 194,
+      "paragraph_index": 43,
+      "fact": "Alain Savouret ist Komponist.",
+      "fallback": false
+    },
+    {
+      "fact_index": 195,
+      "paragraph_index": 44,
+      "fact": "Claire Gibault wurde 1945 geboren.",
+      "fallback": false
+    },
+    {
+      "fact_index": 196,
+      "paragraph_index": 44,
+      "fact": "Claire Gibault ist Dirigentin.",
+      "fallback": false
+    },
+    {
+      "fact_index": 197,
+      "paragraph_index": 44,
+      "fact": "Claire Gibault ist Politikerin.",
+      "fallback": false
+    },
+    {
+      "fact_index": 198,
+      "paragraph_index": 45,
+      "fact": "Jean Rondeau lebte von 1946 bis 1985.",
+      "fallback": false
+    },
+    {
+      "fact_index": 199,
+      "paragraph_index": 45,
+      "fact": "Jean Rondeau war Automobilrennfahrer.",
+      "fallback": false
+    },
+    {
+      "fact_index": 200,
+      "paragraph_index": 45,
+      "fact": "Jean Rondeau war Konstrukteur.",
+      "fallback": false
+    },
+    {
+      "fact_index": 201,
+      "paragraph_index": 46,
+      "fact": "Yves Courage wurde 1948 geboren.",
+      "fallback": false
+    },
+    {
+      "fact_index": 202,
+      "paragraph_index": 46,
+      "fact": "Yves Courage ist Automobilrennfahrer.",
+      "fallback": false
+    },
+    {
+      "fact_index": 203,
+      "paragraph_index": 46,
+      "fact": "Yves Courage ist Rennstallbesitzer.",
+      "fallback": false
+    },
+    {
+      "fact_index": 204,
+      "paragraph_index": 47,
+      "fact": "Dominique Rouits wurde 1949 geboren.",
+      "fallback": false
+    },
+    {
+      "fact_index": 205,
+      "paragraph_index": 47,
+      "fact": "Dominique Rouits ist Dirigent.",
+      "fallback": false
+    },
+    {
+      "fact_index": 206,
+      "paragraph_index": 47,
+      "fact": "Dominique Rouits ist Musikpädagoge.",
+      "fallback": false
+    },
+    {
+      "fact_index": 207,
+      "paragraph_index": 48,
+      "fact": "Michel Krine wurde 1953 geboren.",
+      "fallback": false
+    },
+    {
+      "fact_index": 208,
+      "paragraph_index": 48,
+      "fact": "Michel Krine ist Unternehmer.",
+      "fallback": false
+    },
+    {
+      "fact_index": 209,
+      "paragraph_index": 48,
+      "fact": "Michel Krine ist Automobilrennfahrer.",
+      "fallback": false
+    },
+    {
+      "fact_index": 210,
+      "paragraph_index": 49,
+      "fact": "François Fillon wurde 1954 geboren.",
+      "fallback": false
+    },
+    {
+      "fact_index": 211,
+      "paragraph_index": 49,
+      "fact": "François Fillon war von 2007 bis 2012 Premierminister Frankreichs.",
+      "fallback": false
+    },
+    {
+      "fact_index": 212,
+      "paragraph_index": 50,
+      "fact": "Stéphane Le Foll wurde 1960 geboren.",
+      "fallback": false
+    },
+    {
+      "fact_index": 213,
+      "paragraph_index": 50,
+      "fact": "Stéphane Le Foll ist Politiker.",
+      "fallback": false
+    },
+    {
+      "fact_index": 214,
+      "paragraph_index": 51,
+      "fact": "Antoine de Romanet de Beaune wurde 1962 geboren.",
+      "fallback": false
+    },
+    {
+      "fact_index": 215,
+      "paragraph_index": 51,
+      "fact": "Antoine de Romanet de Beaune ist ein römisch-katholischer Geistlicher.",
+      "fallback": false
+    },
+    {
+      "fact_index": 216,
+      "paragraph_index": 51,
+      "fact": "Antoine de Romanet de Beaune ist Militärbischof Frankreichs.",
+      "fallback": false
+    },
+    {
+      "fact_index": 217,
+      "paragraph_index": 52,
+      "fact": "David Guion wurde 1967 geboren.",
+      "fallback": false
+    },
+    {
+      "fact_index": 218,
+      "paragraph_index": 52,
+      "fact": "David Guion ist Fußballspieler.",
+      "fallback": false
+    },
+    {
+      "fact_index": 219,
+      "paragraph_index": 52,
+      "fact": "David Guion ist Fußballtrainer.",
+      "fallback": false
+    },
+    {
+      "fact_index": 220,
+      "paragraph_index": 53,
+      "fact": "Doan Bui wurde 1976 geboren.",
+      "fallback": false
+    },
+    {
+      "fact_index": 221,
+      "paragraph_index": 53,
+      "fact": "Doan Bui ist Autorin.",
+      "fallback": false
+    },
+    {
+      "fact_index": 222,
+      "paragraph_index": 53,
+      "fact": "Doan Bui ist Journalistin.",
+      "fallback": false
+    },
+    {
+      "fact_index": 223,
+      "paragraph_index": 54,
+      "fact": "Bastien Brière wurde 1983 geboren.",
+      "fallback": false
+    },
+    {
+      "fact_index": 224,
+      "paragraph_index": 54,
+      "fact": "Bastien Brière ist Mediziner.",
+      "fallback": false
+    },
+    {
+      "fact_index": 225,
+      "paragraph_index": 54,
+      "fact": "Bastien Brière ist Automobilrennfahrer.",
+      "fallback": false
+    },
+    {
+      "fact_index": 226,
+      "paragraph_index": 55,
+      "fact": "Julien Loutelier wurde 1987 geboren.",
+      "fallback": false
+    },
+    {
+      "fact_index": 227,
+      "paragraph_index": 55,
+      "fact": "Julien Loutelier ist Jazzmusiker.",
+      "fallback": false
+    },
+    {
+      "fact_index": 228,
+      "paragraph_index": 55,
+      "fact": "Julien Loutelier ist Improvisationsmusiker.",
+      "fallback": false
+    },
+    {
+      "fact_index": 229,
+      "paragraph_index": 56,
+      "fact": "Denis Bouanga wurde 1994 geboren.",
+      "fallback": false
+    },
+    {
+      "fact_index": 230,
+      "paragraph_index": 56,
+      "fact": "Denis Bouanga ist ein gabunischer Fußballspieler.",
+      "fallback": false
+    },
+    {
+      "fact_index": 231,
+      "paragraph_index": 57,
+      "fact": "Berengaria von Navarra lebte von 1165/70 bis 1230.",
+      "fallback": false
+    },
+    {
+      "fact_index": 232,
+      "paragraph_index": 57,
+      "fact": "Berengaria von Navarra war die Ehefrau des englischen Königs Richard Löwenherz.",
+      "fallback": false
+    },
+    {
+      "fact_index": 233,
+      "paragraph_index": 57,
+      "fact": "Berengaria von Navarra war die Gründerin der Zisterzienserabtei L’Épau.",
+      "fallback": false
+    },
+    {
+      "fact_index": 234,
+      "paragraph_index": 57,
+      "fact": "Die Zisterzienserabtei L’Épau liegt vor den Toren der Stadt.",
+      "fallback": false
+    }
+  ]
+}

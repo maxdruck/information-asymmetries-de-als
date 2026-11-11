@@ -1,0 +1,2512 @@
+{
+  "pair_key": "gold__eichener_see",
+  "cluster": "Gold",
+  "title": "Eichener See",
+  "manual_title": "Eichener See",
+  "als_page_id": "gold_eichener_see_als",
+  "de_page_id": "gold_eichener_see_de",
+  "als_title": "Eichener See",
+  "de_title": "Eichener See",
+  "fact_source": "manual",
+  "manual_xlsx": "manual_paragraph_fact_annotation_max.xlsx",
+  "source_limit_per_direction": 50,
+  "full_manual_fact_counts": {
+    "de": 120,
+    "als": 121
+  },
+  "reported_source_fact_counts": {
+    "de_to_als": 50,
+    "als_to_de": 50
+  },
+  "embed_model": "sentence-transformers/LaBSE",
+  "xfactalign_version": "paper_style_density_normalized_distance",
+  "top_k_facts": 2,
+  "paragraph_alignment": "directed_argmax_union",
+  "fact_retrieval_metric": "D(e_i,f_j)=1-cos(e_i,f_j)-hubness(f_j)",
+  "paragraph_adjacency": [
+    {
+      "de_paragraph": 0,
+      "als_paragraph": 0,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 0,
+      "als_paragraph": 10,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 0,
+      "als_paragraph": 12,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 1,
+      "als_paragraph": 8,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 2,
+      "als_paragraph": 1,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 2,
+      "als_paragraph": 7,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 3,
+      "als_paragraph": 11,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 4,
+      "als_paragraph": 3,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 4,
+      "als_paragraph": 4,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 4,
+      "als_paragraph": 6,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 5,
+      "als_paragraph": 2,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 5,
+      "als_paragraph": 8,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 5,
+      "als_paragraph": 9,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 6,
+      "als_paragraph": 5,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 7,
+      "als_paragraph": 7,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 8,
+      "als_paragraph": 4,
+      "weight": 1
+    }
+  ],
+  "de_to_als": [
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 0,
+      "source_manual_fact_id": "DE_Eichener_See_P0_F1",
+      "source_fact": "Der Eichener See wird im Volksmund auf Alemannisch „Eiemer See“ genannt.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 0,
+          "target_manual_fact_id": "ALS_Eichener_See_P0_F1",
+          "target_fact": "Der Eiemer See heißt auf Standarddeutsch Eichener See.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.3055
+        },
+        {
+          "target_fact_index": 93,
+          "target_manual_fact_id": "ALS_Eichener_See_P10_F8",
+          "target_fact": "Der Eichener See wird in der Kurzbeschreibung des FFH-Gebiets „Dinkelberg und Röttler Wald“ ausdrücklich genannt.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.0559
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 1,
+      "source_manual_fact_id": "DE_Eichener_See_P0_F2",
+      "source_fact": "Der Eichener See liegt beim Schopfheimer Stadtteil Eichen.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 3,
+          "target_manual_fact_id": "ALS_Eichener_See_P0_F4",
+          "target_fact": "Der Eichener See liegt bei Schopfheim.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.3237
+        },
+        {
+          "target_fact_index": 4,
+          "target_manual_fact_id": "ALS_Eichener_See_P0_F5",
+          "target_fact": "Der Eichener See liegt in Baden-Württemberg.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1478
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 2,
+      "source_manual_fact_id": "DE_Eichener_See_P0_F3",
+      "source_fact": "Der Eichener See liegt im Landkreis Lörrach.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 91,
+          "target_manual_fact_id": "ALS_Eichener_See_P10_F6",
+          "target_fact": "Das FFH-Gebiet „Dinkelberg und Röttler Wald“ erstreckt sich über den Landkreis Lörrach.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.1168
+        },
+        {
+          "target_fact_index": 3,
+          "target_manual_fact_id": "ALS_Eichener_See_P0_F4",
+          "target_fact": "Der Eichener See liegt bei Schopfheim.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1026
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 3,
+      "source_manual_fact_id": "DE_Eichener_See_P0_F4",
+      "source_fact": "Der Eichener See liegt in Baden-Württemberg.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 4,
+          "target_manual_fact_id": "ALS_Eichener_See_P0_F5",
+          "target_fact": "Der Eichener See liegt in Baden-Württemberg.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.4308
+        },
+        {
+          "target_fact_index": 3,
+          "target_manual_fact_id": "ALS_Eichener_See_P0_F4",
+          "target_fact": "Der Eichener See liegt bei Schopfheim.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1408
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 4,
+      "source_manual_fact_id": "DE_Eichener_See_P0_F5",
+      "source_fact": "Der Eichener See ist ein Karstsee.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 1,
+          "target_manual_fact_id": "ALS_Eichener_See_P0_F2",
+          "target_fact": "Der Eichener See ist ein Karstsee.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.3898
+        },
+        {
+          "target_fact_index": 118,
+          "target_manual_fact_id": "ALS_Eichener_See_P12_F2",
+          "target_fact": "Das Eierspringen am Eichener See ist ein Brauch.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.1409
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 5,
+      "source_manual_fact_id": "DE_Eichener_See_P0_F6",
+      "source_fact": "Der Eichener See erscheint nur zeitweise.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 5,
+          "target_manual_fact_id": "ALS_Eichener_See_P0_F6",
+          "target_fact": "Der Eichener See ist nur alle paar Jahre sichtbar.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.2058
+        },
+        {
+          "target_fact_index": 9,
+          "target_manual_fact_id": "ALS_Eichener_See_P0_F10",
+          "target_fact": "Der Eichener See ist nur oberirdisch sichtbar, wenn es zuvor sehr lange geregnet hat.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1767
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 6,
+      "source_manual_fact_id": "DE_Eichener_See_P0_F7",
+      "source_fact": "Der Eichener See ist Teil des FFH-Gebietes Dinkelberg und Röttler Wald.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 91,
+          "target_manual_fact_id": "ALS_Eichener_See_P10_F6",
+          "target_fact": "Das FFH-Gebiet „Dinkelberg und Röttler Wald“ erstreckt sich über den Landkreis Lörrach.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.2815
+        },
+        {
+          "target_fact_index": 92,
+          "target_manual_fact_id": "ALS_Eichener_See_P10_F7",
+          "target_fact": "Das FFH-Gebiet „Dinkelberg und Röttler Wald“ erstreckt sich über den Landkreis Waldshut.",
+          "target_paragraph": 10,
+          "density_normalized_distance": -0.2786
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 7,
+      "source_manual_fact_id": "DE_Eichener_See_P0_F8",
+      "source_fact": "Der Eichener See führt nur bei hohem Grundwasserstand Wasser.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 8,
+          "target_manual_fact_id": "ALS_Eichener_See_P0_F9",
+          "target_fact": "Der Eichener See wird unterirdisch vom Grundwasser gefüllt.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1101
+        },
+        {
+          "target_fact_index": 9,
+          "target_manual_fact_id": "ALS_Eichener_See_P0_F10",
+          "target_fact": "Der Eichener See ist nur oberirdisch sichtbar, wenn es zuvor sehr lange geregnet hat.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1059
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 8,
+      "source_manual_fact_id": "DE_Eichener_See_P0_F9",
+      "source_fact": "Der Eichener See liegt in einer Mulde.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 1,
+          "target_manual_fact_id": "ALS_Eichener_See_P0_F2",
+          "target_fact": "Der Eichener See ist ein Karstsee.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1743
+        },
+        {
+          "target_fact_index": 2,
+          "target_manual_fact_id": "ALS_Eichener_See_P0_F3",
+          "target_fact": "Der Eichener See liegt auf dem Dinkelberg.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1242
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 9,
+      "source_manual_fact_id": "DE_Eichener_See_P0_F10",
+      "source_fact": "Die Mulde des Eichener Sees ist eine Muschelkalk-Karstwanne.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 1,
+          "target_manual_fact_id": "ALS_Eichener_See_P0_F2",
+          "target_fact": "Der Eichener See ist ein Karstsee.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1409
+        },
+        {
+          "target_fact_index": 118,
+          "target_manual_fact_id": "ALS_Eichener_See_P12_F2",
+          "target_fact": "Das Eierspringen am Eichener See ist ein Brauch.",
+          "target_paragraph": 12,
+          "density_normalized_distance": -0.0535
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 10,
+      "source_manual_fact_id": "DE_Eichener_See_P0_F11",
+      "source_fact": "Der Eichener See hat keinen oberirdischen Zufluss.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 7,
+          "target_manual_fact_id": "ALS_Eichener_See_P0_F8",
+          "target_fact": "Aus dem Eichener See fließt kein Bach ab.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.2321
+        },
+        {
+          "target_fact_index": 6,
+          "target_manual_fact_id": "ALS_Eichener_See_P0_F7",
+          "target_fact": "In den Eichener See fließt kein Bach.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.2188
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 11,
+      "source_manual_fact_id": "DE_Eichener_See_P0_F12",
+      "source_fact": "Der Abfluss des Eichener Sees erfolgt teilweise unterirdisch.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 8,
+          "target_manual_fact_id": "ALS_Eichener_See_P0_F9",
+          "target_fact": "Der Eichener See wird unterirdisch vom Grundwasser gefüllt.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1548
+        },
+        {
+          "target_fact_index": 7,
+          "target_manual_fact_id": "ALS_Eichener_See_P0_F8",
+          "target_fact": "Aus dem Eichener See fließt kein Bach ab.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0916
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 12,
+      "source_manual_fact_id": "DE_Eichener_See_P0_F13",
+      "source_fact": "Der Abfluss des Eichener Sees erfolgt teilweise durch Verdunstung.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 8,
+          "target_manual_fact_id": "ALS_Eichener_See_P0_F9",
+          "target_fact": "Der Eichener See wird unterirdisch vom Grundwasser gefüllt.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0668
+        },
+        {
+          "target_fact_index": 7,
+          "target_manual_fact_id": "ALS_Eichener_See_P0_F8",
+          "target_fact": "Aus dem Eichener See fließt kein Bach ab.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0558
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 13,
+      "source_manual_fact_id": "DE_Eichener_See_P1_F1",
+      "source_fact": "Der Eichener See liegt im Naturpark Südschwarzwald.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 75,
+          "target_manual_fact_id": "ALS_Eichener_See_P8_F5",
+          "target_fact": "Das Landschaftsschutzgebiet erstreckt sich nördlich ringförmig um den Eichener See.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0725
+        },
+        {
+          "target_fact_index": 77,
+          "target_manual_fact_id": "ALS_Eichener_See_P8_F7",
+          "target_fact": "Das Landschaftsschutzgebiet erstreckt sich südlich ringförmig um den Eichener See.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0669
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 14,
+      "source_manual_fact_id": "DE_Eichener_See_P1_F2",
+      "source_fact": "Der Eichener See liegt im nordöstlichen Randgebiet des Gebirgszugs Dinkelberg.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 77,
+          "target_manual_fact_id": "ALS_Eichener_See_P8_F7",
+          "target_fact": "Das Landschaftsschutzgebiet erstreckt sich südlich ringförmig um den Eichener See.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0628
+        },
+        {
+          "target_fact_index": 75,
+          "target_manual_fact_id": "ALS_Eichener_See_P8_F5",
+          "target_fact": "Das Landschaftsschutzgebiet erstreckt sich nördlich ringförmig um den Eichener See.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0574
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 15,
+      "source_manual_fact_id": "DE_Eichener_See_P1_F3",
+      "source_fact": "Der Schopfheimer Ortsteil Eichen liegt westlich des Eichener Sees.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 77,
+          "target_manual_fact_id": "ALS_Eichener_See_P8_F7",
+          "target_fact": "Das Landschaftsschutzgebiet erstreckt sich südlich ringförmig um den Eichener See.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0567
+        },
+        {
+          "target_fact_index": 76,
+          "target_manual_fact_id": "ALS_Eichener_See_P8_F6",
+          "target_fact": "Das Landschaftsschutzgebiet erstreckt sich westlich ringförmig um den Eichener See.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0567
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 16,
+      "source_manual_fact_id": "DE_Eichener_See_P1_F4",
+      "source_fact": "Die Gemeinde Hasel liegt ostnordöstlich des Eichener Sees.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 76,
+          "target_manual_fact_id": "ALS_Eichener_See_P8_F6",
+          "target_fact": "Das Landschaftsschutzgebiet erstreckt sich westlich ringförmig um den Eichener See.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0261
+        },
+        {
+          "target_fact_index": 77,
+          "target_manual_fact_id": "ALS_Eichener_See_P8_F7",
+          "target_fact": "Das Landschaftsschutzgebiet erstreckt sich südlich ringförmig um den Eichener See.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0205
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 17,
+      "source_manual_fact_id": "DE_Eichener_See_P1_F5",
+      "source_fact": "Die Kernstadt von Wehr liegt etwa südöstlich des Eichener Sees.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 76,
+          "target_manual_fact_id": "ALS_Eichener_See_P8_F6",
+          "target_fact": "Das Landschaftsschutzgebiet erstreckt sich westlich ringförmig um den Eichener See.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0219
+        },
+        {
+          "target_fact_index": 75,
+          "target_manual_fact_id": "ALS_Eichener_See_P8_F5",
+          "target_fact": "Das Landschaftsschutzgebiet erstreckt sich nördlich ringförmig um den Eichener See.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0156
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 18,
+      "source_manual_fact_id": "DE_Eichener_See_P1_F6",
+      "source_fact": "Der Eichener See befindet sich 2,5 Kilometer westlich der Erdmannshöhle.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 76,
+          "target_manual_fact_id": "ALS_Eichener_See_P8_F6",
+          "target_fact": "Das Landschaftsschutzgebiet erstreckt sich westlich ringförmig um den Eichener See.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0059
+        },
+        {
+          "target_fact_index": 74,
+          "target_manual_fact_id": "ALS_Eichener_See_P8_F4",
+          "target_fact": "Das Landschaftsschutzgebiet Eichener See hat eine Größe von 8 Hektar.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0001
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 19,
+      "source_manual_fact_id": "DE_Eichener_See_P1_F7",
+      "source_fact": "Die Erdmannshöhle wird auch Hasler Höhle genannt.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 78,
+          "target_manual_fact_id": "ALS_Eichener_See_P8_F8",
+          "target_fact": "Der Eichener See selbst gehört nicht zum Landschaftsschutzgebiet.",
+          "target_paragraph": 8,
+          "density_normalized_distance": 0.192
+        },
+        {
+          "target_fact_index": 72,
+          "target_manual_fact_id": "ALS_Eichener_See_P8_F2",
+          "target_fact": "Das Landschaftsschutzgebiet Eichener See trägt die Nummer 3.36.012.",
+          "target_paragraph": 8,
+          "density_normalized_distance": 0.219
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 20,
+      "source_manual_fact_id": "DE_Eichener_See_P1_F8",
+      "source_fact": "Der Eichener See liegt in einem flachen Tal.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 74,
+          "target_manual_fact_id": "ALS_Eichener_See_P8_F4",
+          "target_fact": "Das Landschaftsschutzgebiet Eichener See hat eine Größe von 8 Hektar.",
+          "target_paragraph": 8,
+          "density_normalized_distance": 0.0124
+        },
+        {
+          "target_fact_index": 78,
+          "target_manual_fact_id": "ALS_Eichener_See_P8_F8",
+          "target_fact": "Der Eichener See selbst gehört nicht zum Landschaftsschutzgebiet.",
+          "target_paragraph": 8,
+          "density_normalized_distance": 0.0186
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 21,
+      "source_manual_fact_id": "DE_Eichener_See_P1_F9",
+      "source_fact": "Der Eichener See liegt rund 350 Meter südlich der Bundesstraße 518.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 77,
+          "target_manual_fact_id": "ALS_Eichener_See_P8_F7",
+          "target_fact": "Das Landschaftsschutzgebiet erstreckt sich südlich ringförmig um den Eichener See.",
+          "target_paragraph": 8,
+          "density_normalized_distance": 0.0102
+        },
+        {
+          "target_fact_index": 76,
+          "target_manual_fact_id": "ALS_Eichener_See_P8_F6",
+          "target_fact": "Das Landschaftsschutzgebiet erstreckt sich westlich ringförmig um den Eichener See.",
+          "target_paragraph": 8,
+          "density_normalized_distance": 0.0153
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 22,
+      "source_manual_fact_id": "DE_Eichener_See_P2_F1",
+      "source_fact": "Der Eichener See ist geologisch eine Doline.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 18,
+          "target_manual_fact_id": "ALS_Eichener_See_P1_F9",
+          "target_fact": "Die Senke ist eine Doline.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.2026
+        },
+        {
+          "target_fact_index": 65,
+          "target_manual_fact_id": "ALS_Eichener_See_P7_F3",
+          "target_fact": "Der Eichener See befand sich im Dezember vor seinem Auftreten im Jahr 2016 auf einem historischen Tiefstand.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.1038
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 23,
+      "source_manual_fact_id": "DE_Eichener_See_P2_F2",
+      "source_fact": "Die Doline des Eichener Sees ist zeitweise mit Wasser gefüllt.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 17,
+          "target_manual_fact_id": "ALS_Eichener_See_P1_F8",
+          "target_fact": "Das aufgestaute Wasser sammelt sich schließlich in einer Senke.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.1194
+        },
+        {
+          "target_fact_index": 70,
+          "target_manual_fact_id": "ALS_Eichener_See_P7_F8",
+          "target_fact": "Der Pegel des Eichener Sees wird regelmäßig gemessen.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.1151
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 24,
+      "source_manual_fact_id": "DE_Eichener_See_P2_F3",
+      "source_fact": "Nach der Schneeschmelze tritt in der Doline des Eichener Sees besonders häufig Grundwasser zu Tage.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 14,
+          "target_manual_fact_id": "ALS_Eichener_See_P1_F5",
+          "target_fact": "Wenn es regnet, sammelt sich Wasser in den Höhlen, Löchern und Einbrüchen des Dinkelbergs.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.1231
+        },
+        {
+          "target_fact_index": 66,
+          "target_manual_fact_id": "ALS_Eichener_See_P7_F4",
+          "target_fact": "Durch die Niederschläge zu Beginn des Jahres stieg der Grundwasserspiegel schnell an.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.1064
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 25,
+      "source_manual_fact_id": "DE_Eichener_See_P2_F4",
+      "source_fact": "Nach längeren Regenphasen tritt in der Doline des Eichener Sees besonders häufig Grundwasser zu Tage.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 14,
+          "target_manual_fact_id": "ALS_Eichener_See_P1_F5",
+          "target_fact": "Wenn es regnet, sammelt sich Wasser in den Höhlen, Löchern und Einbrüchen des Dinkelbergs.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.1176
+        },
+        {
+          "target_fact_index": 66,
+          "target_manual_fact_id": "ALS_Eichener_See_P7_F4",
+          "target_fact": "Durch die Niederschläge zu Beginn des Jahres stieg der Grundwasserspiegel schnell an.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.0929
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 26,
+      "source_manual_fact_id": "DE_Eichener_See_P2_F5",
+      "source_fact": "Der Eichener See ist ein Erdfallsee.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 18,
+          "target_manual_fact_id": "ALS_Eichener_See_P1_F9",
+          "target_fact": "Die Senke ist eine Doline.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.0965
+        },
+        {
+          "target_fact_index": 70,
+          "target_manual_fact_id": "ALS_Eichener_See_P7_F8",
+          "target_fact": "Der Pegel des Eichener Sees wird regelmäßig gemessen.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.0291
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 27,
+      "source_manual_fact_id": "DE_Eichener_See_P2_F6",
+      "source_fact": "Der Flurabstand kann am Eichener See in trockenen Phasen bis zu 40 Meter betragen.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 67,
+          "target_manual_fact_id": "ALS_Eichener_See_P7_F5",
+          "target_fact": "Der Grundwasserspiegel stieg innerhalb weniger Tage von 6 Metern im Dezember auf 37 Meter im Januar.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.0167
+        },
+        {
+          "target_fact_index": 15,
+          "target_manual_fact_id": "ALS_Eichener_See_P1_F6",
+          "target_fact": "Wenn es über längere Zeit regnet und die Schneeschmelze dazukommt, kann nicht alles Wasser ablaufen.",
+          "target_paragraph": 1,
+          "density_normalized_distance": 0.0321
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 28,
+      "source_manual_fact_id": "DE_Eichener_See_P2_F7",
+      "source_fact": "Der Flurabstand ist der Höhenunterschied zwischen dem Grundwasserspiegel und der Erdoberfläche.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 68,
+          "target_manual_fact_id": "ALS_Eichener_See_P7_F6",
+          "target_fact": "Der Wasserspiegel lag nach diesem Anstieg noch zwei Meter unter der Oberfläche.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.1343
+        },
+        {
+          "target_fact_index": 18,
+          "target_manual_fact_id": "ALS_Eichener_See_P1_F9",
+          "target_fact": "Die Senke ist eine Doline.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.1068
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 29,
+      "source_manual_fact_id": "DE_Eichener_See_P2_F8",
+      "source_fact": "Der tiefste Punkt der das Grundwasser stauenden Wanne liegt etwa 48 Meter unter der Erdoberfläche.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 68,
+          "target_manual_fact_id": "ALS_Eichener_See_P7_F6",
+          "target_fact": "Der Wasserspiegel lag nach diesem Anstieg noch zwei Meter unter der Oberfläche.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.1408
+        },
+        {
+          "target_fact_index": 67,
+          "target_manual_fact_id": "ALS_Eichener_See_P7_F5",
+          "target_fact": "Der Grundwasserspiegel stieg innerhalb weniger Tage von 6 Metern im Dezember auf 37 Meter im Januar.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.1084
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 30,
+      "source_manual_fact_id": "DE_Eichener_See_P2_F9",
+      "source_fact": "Die Hohlräume des Dinkelbergs sind der Hintergrund der starken Wasserschwankungen des Eichener Sees.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 13,
+          "target_manual_fact_id": "ALS_Eichener_See_P1_F4",
+          "target_fact": "Im Dinkelberg gibt es überall Einbrüche.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.0773
+        },
+        {
+          "target_fact_index": 14,
+          "target_manual_fact_id": "ALS_Eichener_See_P1_F5",
+          "target_fact": "Wenn es regnet, sammelt sich Wasser in den Höhlen, Löchern und Einbrüchen des Dinkelbergs.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.0749
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 31,
+      "source_manual_fact_id": "DE_Eichener_See_P2_F10",
+      "source_fact": "Der Dinkelberg besteht vorwiegend aus Muschelkalk.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 11,
+          "target_manual_fact_id": "ALS_Eichener_See_P1_F2",
+          "target_fact": "Im Dinkelberg gibt es überall Höhlen.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.1368
+        },
+        {
+          "target_fact_index": 13,
+          "target_manual_fact_id": "ALS_Eichener_See_P1_F4",
+          "target_fact": "Im Dinkelberg gibt es überall Einbrüche.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.1196
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 32,
+      "source_manual_fact_id": "DE_Eichener_See_P2_F11",
+      "source_fact": "Die Hohlräume des Dinkelbergs können sich aufgrund eines Grundwasserstaus sehr schnell mit Wasser füllen.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 66,
+          "target_manual_fact_id": "ALS_Eichener_See_P7_F4",
+          "target_fact": "Durch die Niederschläge zu Beginn des Jahres stieg der Grundwasserspiegel schnell an.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.1661
+        },
+        {
+          "target_fact_index": 16,
+          "target_manual_fact_id": "ALS_Eichener_See_P1_F7",
+          "target_fact": "Wenn nicht alles Wasser ablaufen kann, staut es sich langsam in den Hohlräumen des Dinkelbergs auf.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.111
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 33,
+      "source_manual_fact_id": "DE_Eichener_See_P2_F12",
+      "source_fact": "Die Hohlräume des Dinkelbergs leeren sich nur langsam wieder.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 16,
+          "target_manual_fact_id": "ALS_Eichener_See_P1_F7",
+          "target_fact": "Wenn nicht alles Wasser ablaufen kann, staut es sich langsam in den Hohlräumen des Dinkelbergs auf.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.1196
+        },
+        {
+          "target_fact_index": 12,
+          "target_manual_fact_id": "ALS_Eichener_See_P1_F3",
+          "target_fact": "Im Dinkelberg gibt es überall Löcher.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.0947
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 34,
+      "source_manual_fact_id": "DE_Eichener_See_P3_F1",
+      "source_fact": "Der Seegrund des Eichener Sees ist von einer krautreichen Wiesengesellschaft bewachsen.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 102,
+          "target_manual_fact_id": "ALS_Eichener_See_P11_F1",
+          "target_fact": "Im Eichener See lebt eine urzeitliche Krebsart.",
+          "target_paragraph": 11,
+          "density_normalized_distance": 0.0304
+        },
+        {
+          "target_fact_index": 110,
+          "target_manual_fact_id": "ALS_Eichener_See_P11_F9",
+          "target_fact": "Die Eier von Tanymastix lacunae sind sehr robust.",
+          "target_paragraph": 11,
+          "density_normalized_distance": 0.0544
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 35,
+      "source_manual_fact_id": "DE_Eichener_See_P3_F2",
+      "source_fact": "Die Wiesengesellschaft des Eichener Sees darf bei Trockenheit nicht beweidet werden.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 111,
+          "target_manual_fact_id": "ALS_Eichener_See_P11_F10",
+          "target_fact": "Die Eier von Tanymastix lacunae können mehrere Jahre im trockenen Boden überleben.",
+          "target_paragraph": 11,
+          "density_normalized_distance": 0.0037
+        },
+        {
+          "target_fact_index": 112,
+          "target_manual_fact_id": "ALS_Eichener_See_P11_F11",
+          "target_fact": "Die Eier von Tanymastix lacunae können im trockenen Boden überleben, bis der Eichener See wieder erscheint.",
+          "target_paragraph": 11,
+          "density_normalized_distance": 0.0294
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 36,
+      "source_manual_fact_id": "DE_Eichener_See_P3_F3",
+      "source_fact": "Die Wiesengesellschaft des Eichener Sees darf bei Trockenheit nicht gedüngt werden.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 111,
+          "target_manual_fact_id": "ALS_Eichener_See_P11_F10",
+          "target_fact": "Die Eier von Tanymastix lacunae können mehrere Jahre im trockenen Boden überleben.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.0036
+        },
+        {
+          "target_fact_index": 112,
+          "target_manual_fact_id": "ALS_Eichener_See_P11_F11",
+          "target_fact": "Die Eier von Tanymastix lacunae können im trockenen Boden überleben, bis der Eichener See wieder erscheint.",
+          "target_paragraph": 11,
+          "density_normalized_distance": 0.0186
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 37,
+      "source_manual_fact_id": "DE_Eichener_See_P3_F4",
+      "source_fact": "Im Eichener See lebt Tanymastix lacunae.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 106,
+          "target_manual_fact_id": "ALS_Eichener_See_P11_F5",
+          "target_fact": "Tanymastix lacunae gehört zu den Kiemenfußkrebsen.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.3672
+        },
+        {
+          "target_fact_index": 105,
+          "target_manual_fact_id": "ALS_Eichener_See_P11_F4",
+          "target_fact": "Die wissenschaftliche Bezeichnung der im Eichener See lebenden Krebsart lautet Tanymastix lacunae.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.3067
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 38,
+      "source_manual_fact_id": "DE_Eichener_See_P3_F5",
+      "source_fact": "Tanymastix lacunae ist ein Blattfußkrebs.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 106,
+          "target_manual_fact_id": "ALS_Eichener_See_P11_F5",
+          "target_fact": "Tanymastix lacunae gehört zu den Kiemenfußkrebsen.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.5167
+        },
+        {
+          "target_fact_index": 110,
+          "target_manual_fact_id": "ALS_Eichener_See_P11_F9",
+          "target_fact": "Die Eier von Tanymastix lacunae sind sehr robust.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.3029
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 39,
+      "source_manual_fact_id": "DE_Eichener_See_P3_F6",
+      "source_fact": "Tanymastix lacunae gehört zur Ordnung der Kiemenfüßer.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 106,
+          "target_manual_fact_id": "ALS_Eichener_See_P11_F5",
+          "target_fact": "Tanymastix lacunae gehört zu den Kiemenfußkrebsen.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.5081
+        },
+        {
+          "target_fact_index": 110,
+          "target_manual_fact_id": "ALS_Eichener_See_P11_F9",
+          "target_fact": "Die Eier von Tanymastix lacunae sind sehr robust.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.2425
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 40,
+      "source_manual_fact_id": "DE_Eichener_See_P3_F7",
+      "source_fact": "Die wissenschaftliche Bezeichnung der Ordnung der Kiemenfüßer lautet Anostraca.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 105,
+          "target_manual_fact_id": "ALS_Eichener_See_P11_F4",
+          "target_fact": "Die wissenschaftliche Bezeichnung der im Eichener See lebenden Krebsart lautet Tanymastix lacunae.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.1105
+        },
+        {
+          "target_fact_index": 106,
+          "target_manual_fact_id": "ALS_Eichener_See_P11_F5",
+          "target_fact": "Tanymastix lacunae gehört zu den Kiemenfußkrebsen.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.0475
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 41,
+      "source_manual_fact_id": "DE_Eichener_See_P3_F8",
+      "source_fact": "Das Austrocknen des Seegrundes ist für den Lebenszyklus von Tanymastix lacunae unabdingbar.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 111,
+          "target_manual_fact_id": "ALS_Eichener_See_P11_F10",
+          "target_fact": "Die Eier von Tanymastix lacunae können mehrere Jahre im trockenen Boden überleben.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.2392
+        },
+        {
+          "target_fact_index": 106,
+          "target_manual_fact_id": "ALS_Eichener_See_P11_F5",
+          "target_fact": "Tanymastix lacunae gehört zu den Kiemenfußkrebsen.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.2344
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 42,
+      "source_manual_fact_id": "DE_Eichener_See_P3_F9",
+      "source_fact": "Der Eichener See ist der einzige gesicherte Fundort von Tanymastix lacunae in Deutschland.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 106,
+          "target_manual_fact_id": "ALS_Eichener_See_P11_F5",
+          "target_fact": "Tanymastix lacunae gehört zu den Kiemenfußkrebsen.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.2855
+        },
+        {
+          "target_fact_index": 105,
+          "target_manual_fact_id": "ALS_Eichener_See_P11_F4",
+          "target_fact": "Die wissenschaftliche Bezeichnung der im Eichener See lebenden Krebsart lautet Tanymastix lacunae.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.2541
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 43,
+      "source_manual_fact_id": "DE_Eichener_See_P3_F10",
+      "source_fact": "In Europa sind lediglich sieben weitere sichere Fundorte von Tanymastix lacunae bekannt.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 110,
+          "target_manual_fact_id": "ALS_Eichener_See_P11_F9",
+          "target_fact": "Die Eier von Tanymastix lacunae sind sehr robust.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.1847
+        },
+        {
+          "target_fact_index": 106,
+          "target_manual_fact_id": "ALS_Eichener_See_P11_F5",
+          "target_fact": "Tanymastix lacunae gehört zu den Kiemenfußkrebsen.",
+          "target_paragraph": 11,
+          "density_normalized_distance": -0.1705
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 44,
+      "source_manual_fact_id": "DE_Eichener_See_P4_F1",
+      "source_fact": "Der Eichener See wurde im Jahr 1771 erstmals urkundlich erwähnt.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 57,
+          "target_manual_fact_id": "ALS_Eichener_See_P6_F1",
+          "target_fact": "Das erste datierte Auftreten des Eichener Sees war im Jahr 1772.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.1879
+        },
+        {
+          "target_fact_index": 58,
+          "target_manual_fact_id": "ALS_Eichener_See_P6_F2",
+          "target_fact": "Gustav Albiez stellte das Auftreten des Eichener Sees in seiner Dissertation aus dem Jahr 1931 zusammen.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.0671
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 45,
+      "source_manual_fact_id": "DE_Eichener_See_P4_F2",
+      "source_fact": "Im Jahr 1771 kenterte ein Boot auf dem Eichener See.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 36,
+          "target_manual_fact_id": "ALS_Eichener_See_P3_F4",
+          "target_fact": "Das Boot sank im Eichener See.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.1487
+        },
+        {
+          "target_fact_index": 34,
+          "target_manual_fact_id": "ALS_Eichener_See_P3_F2",
+          "target_fact": "An einem schönen Sonntagmorgen im Mai wollten junge Mädchen und Burschen mit einem Boot auf dem Eichener See fahren.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.0982
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 46,
+      "source_manual_fact_id": "DE_Eichener_See_P4_F3",
+      "source_fact": "Im Jahr 1771 ertranken fünf Menschen im Eichener See.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 37,
+          "target_manual_fact_id": "ALS_Eichener_See_P3_F5",
+          "target_fact": "Vier der jungen Menschen ertranken im Eichener See.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.1779
+        },
+        {
+          "target_fact_index": 35,
+          "target_manual_fact_id": "ALS_Eichener_See_P3_F3",
+          "target_fact": "Anscheinend stiegen zu viele Personen in das Boot.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.0652
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 47,
+      "source_manual_fact_id": "DE_Eichener_See_P4_F4",
+      "source_fact": "Im Jahr 1876 kamen Menschen im Eichener See um.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 42,
+          "target_manual_fact_id": "ALS_Eichener_See_P4_F3",
+          "target_fact": "Manche Menschen bauten auf dem trockenen Boden des Eichener Sees Roggen an.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.0997
+        },
+        {
+          "target_fact_index": 35,
+          "target_manual_fact_id": "ALS_Eichener_See_P3_F3",
+          "target_fact": "Anscheinend stiegen zu viele Personen in das Boot.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.0992
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 48,
+      "source_manual_fact_id": "DE_Eichener_See_P4_F5",
+      "source_fact": "Im Jahr 1910 kamen Menschen im Eichener See um.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 35,
+          "target_manual_fact_id": "ALS_Eichener_See_P3_F3",
+          "target_fact": "Anscheinend stiegen zu viele Personen in das Boot.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.1371
+        },
+        {
+          "target_fact_index": 43,
+          "target_manual_fact_id": "ALS_Eichener_See_P4_F4",
+          "target_fact": "Manche Menschen bauten auf dem trockenen Boden des Eichener Sees Dinkel an.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.0816
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 49,
+      "source_manual_fact_id": "DE_Eichener_See_P5_F1",
+      "source_fact": "Die erste wissenschaftliche Beschreibung des Eichener Sees ist wahrscheinlich der Artikel „Von einem merkwürdigen See in der oberen Markgrafschaft Baden“.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 73,
+          "target_manual_fact_id": "ALS_Eichener_See_P8_F3",
+          "target_fact": "Der Verordnungstext zum Landschaftsschutzgebiet Eichener See wurde am 8. Mai 1942 im „Alemanne“ abgedruckt.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.1354
+        },
+        {
+          "target_fact_index": 23,
+          "target_manual_fact_id": "ALS_Eichener_See_P2_F1",
+          "target_fact": "Ein erster Bericht über den Eichener See stammt aus dem Jahr 1784.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.121
+        }
+      ]
+    }
+  ],
+  "als_to_de": [
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 0,
+      "source_manual_fact_id": "ALS_Eichener_See_P0_F1",
+      "source_fact": "Der Eiemer See heißt auf Standarddeutsch Eichener See.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 0,
+          "target_manual_fact_id": "DE_Eichener_See_P0_F1",
+          "target_fact": "Der Eichener See wird im Volksmund auf Alemannisch „Eiemer See“ genannt.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.2812
+        },
+        {
+          "target_fact_index": 3,
+          "target_manual_fact_id": "DE_Eichener_See_P0_F4",
+          "target_fact": "Der Eichener See liegt in Baden-Württemberg.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0692
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 1,
+      "source_manual_fact_id": "ALS_Eichener_See_P0_F2",
+      "source_fact": "Der Eichener See ist ein Karstsee.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 4,
+          "target_manual_fact_id": "DE_Eichener_See_P0_F5",
+          "target_fact": "Der Eichener See ist ein Karstsee.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.3369
+        },
+        {
+          "target_fact_index": 8,
+          "target_manual_fact_id": "DE_Eichener_See_P0_F9",
+          "target_fact": "Der Eichener See liegt in einer Mulde.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1657
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 2,
+      "source_manual_fact_id": "ALS_Eichener_See_P0_F3",
+      "source_fact": "Der Eichener See liegt auf dem Dinkelberg.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 3,
+          "target_manual_fact_id": "DE_Eichener_See_P0_F4",
+          "target_fact": "Der Eichener See liegt in Baden-Württemberg.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1284
+        },
+        {
+          "target_fact_index": 1,
+          "target_manual_fact_id": "DE_Eichener_See_P0_F2",
+          "target_fact": "Der Eichener See liegt beim Schopfheimer Stadtteil Eichen.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1091
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 3,
+      "source_manual_fact_id": "ALS_Eichener_See_P0_F4",
+      "source_fact": "Der Eichener See liegt bei Schopfheim.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 1,
+          "target_manual_fact_id": "DE_Eichener_See_P0_F2",
+          "target_fact": "Der Eichener See liegt beim Schopfheimer Stadtteil Eichen.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.2595
+        },
+        {
+          "target_fact_index": 3,
+          "target_manual_fact_id": "DE_Eichener_See_P0_F4",
+          "target_fact": "Der Eichener See liegt in Baden-Württemberg.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1127
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 4,
+      "source_manual_fact_id": "ALS_Eichener_See_P0_F5",
+      "source_fact": "Der Eichener See liegt in Baden-Württemberg.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 3,
+          "target_manual_fact_id": "DE_Eichener_See_P0_F4",
+          "target_fact": "Der Eichener See liegt in Baden-Württemberg.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.3974
+        },
+        {
+          "target_fact_index": 1,
+          "target_manual_fact_id": "DE_Eichener_See_P0_F2",
+          "target_fact": "Der Eichener See liegt beim Schopfheimer Stadtteil Eichen.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0783
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 5,
+      "source_manual_fact_id": "ALS_Eichener_See_P0_F6",
+      "source_fact": "Der Eichener See ist nur alle paar Jahre sichtbar.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 5,
+          "target_manual_fact_id": "DE_Eichener_See_P0_F6",
+          "target_fact": "Der Eichener See erscheint nur zeitweise.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.2777
+        },
+        {
+          "target_fact_index": 7,
+          "target_manual_fact_id": "DE_Eichener_See_P0_F8",
+          "target_fact": "Der Eichener See führt nur bei hohem Grundwasserstand Wasser.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0477
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 6,
+      "source_manual_fact_id": "ALS_Eichener_See_P0_F7",
+      "source_fact": "In den Eichener See fließt kein Bach.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 10,
+          "target_manual_fact_id": "DE_Eichener_See_P0_F11",
+          "target_fact": "Der Eichener See hat keinen oberirdischen Zufluss.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1923
+        },
+        {
+          "target_fact_index": 8,
+          "target_manual_fact_id": "DE_Eichener_See_P0_F9",
+          "target_fact": "Der Eichener See liegt in einer Mulde.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0724
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 7,
+      "source_manual_fact_id": "ALS_Eichener_See_P0_F8",
+      "source_fact": "Aus dem Eichener See fließt kein Bach ab.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 10,
+          "target_manual_fact_id": "DE_Eichener_See_P0_F11",
+          "target_fact": "Der Eichener See hat keinen oberirdischen Zufluss.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1949
+        },
+        {
+          "target_fact_index": 12,
+          "target_manual_fact_id": "DE_Eichener_See_P0_F13",
+          "target_fact": "Der Abfluss des Eichener Sees erfolgt teilweise durch Verdunstung.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.094
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 8,
+      "source_manual_fact_id": "ALS_Eichener_See_P0_F9",
+      "source_fact": "Der Eichener See wird unterirdisch vom Grundwasser gefüllt.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 11,
+          "target_manual_fact_id": "DE_Eichener_See_P0_F12",
+          "target_fact": "Der Abfluss des Eichener Sees erfolgt teilweise unterirdisch.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1841
+        },
+        {
+          "target_fact_index": 7,
+          "target_manual_fact_id": "DE_Eichener_See_P0_F8",
+          "target_fact": "Der Eichener See führt nur bei hohem Grundwasserstand Wasser.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1562
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 9,
+      "source_manual_fact_id": "ALS_Eichener_See_P0_F10",
+      "source_fact": "Der Eichener See ist nur oberirdisch sichtbar, wenn es zuvor sehr lange geregnet hat.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 5,
+          "target_manual_fact_id": "DE_Eichener_See_P0_F6",
+          "target_fact": "Der Eichener See erscheint nur zeitweise.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1908
+        },
+        {
+          "target_fact_index": 7,
+          "target_manual_fact_id": "DE_Eichener_See_P0_F8",
+          "target_fact": "Der Eichener See führt nur bei hohem Grundwasserstand Wasser.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0882
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 10,
+      "source_manual_fact_id": "ALS_Eichener_See_P1_F1",
+      "source_fact": "Der Dinkelberg ist ein Karstgebiet.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 31,
+          "target_manual_fact_id": "DE_Eichener_See_P2_F10",
+          "target_fact": "Der Dinkelberg besteht vorwiegend aus Muschelkalk.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.2037
+        },
+        {
+          "target_fact_index": 28,
+          "target_manual_fact_id": "DE_Eichener_See_P2_F7",
+          "target_fact": "Der Flurabstand ist der Höhenunterschied zwischen dem Grundwasserspiegel und der Erdoberfläche.",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.0324
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 11,
+      "source_manual_fact_id": "ALS_Eichener_See_P1_F2",
+      "source_fact": "Im Dinkelberg gibt es überall Höhlen.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 31,
+          "target_manual_fact_id": "DE_Eichener_See_P2_F10",
+          "target_fact": "Der Dinkelberg besteht vorwiegend aus Muschelkalk.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1411
+        },
+        {
+          "target_fact_index": 32,
+          "target_manual_fact_id": "DE_Eichener_See_P2_F11",
+          "target_fact": "Die Hohlräume des Dinkelbergs können sich aufgrund eines Grundwasserstaus sehr schnell mit Wasser füllen.",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.0186
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 12,
+      "source_manual_fact_id": "ALS_Eichener_See_P1_F3",
+      "source_fact": "Im Dinkelberg gibt es überall Löcher.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 31,
+          "target_manual_fact_id": "DE_Eichener_See_P2_F10",
+          "target_fact": "Der Dinkelberg besteht vorwiegend aus Muschelkalk.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0817
+        },
+        {
+          "target_fact_index": 33,
+          "target_manual_fact_id": "DE_Eichener_See_P2_F12",
+          "target_fact": "Die Hohlräume des Dinkelbergs leeren sich nur langsam wieder.",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.0198
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 13,
+      "source_manual_fact_id": "ALS_Eichener_See_P1_F4",
+      "source_fact": "Im Dinkelberg gibt es überall Einbrüche.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 31,
+          "target_manual_fact_id": "DE_Eichener_See_P2_F10",
+          "target_fact": "Der Dinkelberg besteht vorwiegend aus Muschelkalk.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0657
+        },
+        {
+          "target_fact_index": 33,
+          "target_manual_fact_id": "DE_Eichener_See_P2_F12",
+          "target_fact": "Die Hohlräume des Dinkelbergs leeren sich nur langsam wieder.",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.0796
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 14,
+      "source_manual_fact_id": "ALS_Eichener_See_P1_F5",
+      "source_fact": "Wenn es regnet, sammelt sich Wasser in den Höhlen, Löchern und Einbrüchen des Dinkelbergs.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 32,
+          "target_manual_fact_id": "DE_Eichener_See_P2_F11",
+          "target_fact": "Die Hohlräume des Dinkelbergs können sich aufgrund eines Grundwasserstaus sehr schnell mit Wasser füllen.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0412
+        },
+        {
+          "target_fact_index": 24,
+          "target_manual_fact_id": "DE_Eichener_See_P2_F3",
+          "target_fact": "Nach der Schneeschmelze tritt in der Doline des Eichener Sees besonders häufig Grundwasser zu Tage.",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.0046
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 15,
+      "source_manual_fact_id": "ALS_Eichener_See_P1_F6",
+      "source_fact": "Wenn es über längere Zeit regnet und die Schneeschmelze dazukommt, kann nicht alles Wasser ablaufen.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 28,
+          "target_manual_fact_id": "DE_Eichener_See_P2_F7",
+          "target_fact": "Der Flurabstand ist der Höhenunterschied zwischen dem Grundwasserspiegel und der Erdoberfläche.",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.0372
+        },
+        {
+          "target_fact_index": 32,
+          "target_manual_fact_id": "DE_Eichener_See_P2_F11",
+          "target_fact": "Die Hohlräume des Dinkelbergs können sich aufgrund eines Grundwasserstaus sehr schnell mit Wasser füllen.",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.0591
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 16,
+      "source_manual_fact_id": "ALS_Eichener_See_P1_F7",
+      "source_fact": "Wenn nicht alles Wasser ablaufen kann, staut es sich langsam in den Hohlräumen des Dinkelbergs auf.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 32,
+          "target_manual_fact_id": "DE_Eichener_See_P2_F11",
+          "target_fact": "Die Hohlräume des Dinkelbergs können sich aufgrund eines Grundwasserstaus sehr schnell mit Wasser füllen.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0937
+        },
+        {
+          "target_fact_index": 33,
+          "target_manual_fact_id": "DE_Eichener_See_P2_F12",
+          "target_fact": "Die Hohlräume des Dinkelbergs leeren sich nur langsam wieder.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0574
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 17,
+      "source_manual_fact_id": "ALS_Eichener_See_P1_F8",
+      "source_fact": "Das aufgestaute Wasser sammelt sich schließlich in einer Senke.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 29,
+          "target_manual_fact_id": "DE_Eichener_See_P2_F8",
+          "target_fact": "Der tiefste Punkt der das Grundwasser stauenden Wanne liegt etwa 48 Meter unter der Erdoberfläche.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0178
+        },
+        {
+          "target_fact_index": 28,
+          "target_manual_fact_id": "DE_Eichener_See_P2_F7",
+          "target_fact": "Der Flurabstand ist der Höhenunterschied zwischen dem Grundwasserspiegel und der Erdoberfläche.",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.0296
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 18,
+      "source_manual_fact_id": "ALS_Eichener_See_P1_F9",
+      "source_fact": "Die Senke ist eine Doline.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 28,
+          "target_manual_fact_id": "DE_Eichener_See_P2_F7",
+          "target_fact": "Der Flurabstand ist der Höhenunterschied zwischen dem Grundwasserspiegel und der Erdoberfläche.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.04
+        },
+        {
+          "target_fact_index": 31,
+          "target_manual_fact_id": "DE_Eichener_See_P2_F10",
+          "target_fact": "Der Dinkelberg besteht vorwiegend aus Muschelkalk.",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.0816
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 19,
+      "source_manual_fact_id": "ALS_Eichener_See_P1_F10",
+      "source_fact": "Man kann beobachten, wie das Wasser aus dem Boden heraussprudelt.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 28,
+          "target_manual_fact_id": "DE_Eichener_See_P2_F7",
+          "target_fact": "Der Flurabstand ist der Höhenunterschied zwischen dem Grundwasserspiegel und der Erdoberfläche.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0825
+        },
+        {
+          "target_fact_index": 29,
+          "target_manual_fact_id": "DE_Eichener_See_P2_F8",
+          "target_fact": "Der tiefste Punkt der das Grundwasser stauenden Wanne liegt etwa 48 Meter unter der Erdoberfläche.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0585
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 20,
+      "source_manual_fact_id": "ALS_Eichener_See_P1_F11",
+      "source_fact": "Farbversuche haben nachgewiesen, dass das Wasser des Sees beim Ablaufen unter anderem in der Hasler Höhle in Hasel zum Vorschein kommt.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 28,
+          "target_manual_fact_id": "DE_Eichener_See_P2_F7",
+          "target_fact": "Der Flurabstand ist der Höhenunterschied zwischen dem Grundwasserspiegel und der Erdoberfläche.",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.0252
+        },
+        {
+          "target_fact_index": 29,
+          "target_manual_fact_id": "DE_Eichener_See_P2_F8",
+          "target_fact": "Der tiefste Punkt der das Grundwasser stauenden Wanne liegt etwa 48 Meter unter der Erdoberfläche.",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.0728
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 21,
+      "source_manual_fact_id": "ALS_Eichener_See_P1_F12",
+      "source_fact": "Es gibt eine unterirdische Verbindung zwischen dem See und der Hasler Höhle.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 28,
+          "target_manual_fact_id": "DE_Eichener_See_P2_F7",
+          "target_fact": "Der Flurabstand ist der Höhenunterschied zwischen dem Grundwasserspiegel und der Erdoberfläche.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.153
+        },
+        {
+          "target_fact_index": 29,
+          "target_manual_fact_id": "DE_Eichener_See_P2_F8",
+          "target_fact": "Der tiefste Punkt der das Grundwasser stauenden Wanne liegt etwa 48 Meter unter der Erdoberfläche.",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.0062
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 22,
+      "source_manual_fact_id": "ALS_Eichener_See_P1_F13",
+      "source_fact": "Die Hasler Höhle ist etwa 2 Kilometer vom See entfernt.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 29,
+          "target_manual_fact_id": "DE_Eichener_See_P2_F8",
+          "target_fact": "Der tiefste Punkt der das Grundwasser stauenden Wanne liegt etwa 48 Meter unter der Erdoberfläche.",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.029
+        },
+        {
+          "target_fact_index": 28,
+          "target_manual_fact_id": "DE_Eichener_See_P2_F7",
+          "target_fact": "Der Flurabstand ist der Höhenunterschied zwischen dem Grundwasserspiegel und der Erdoberfläche.",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.0312
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 23,
+      "source_manual_fact_id": "ALS_Eichener_See_P2_F1",
+      "source_fact": "Ein erster Bericht über den Eichener See stammt aus dem Jahr 1784.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 51,
+          "target_manual_fact_id": "DE_Eichener_See_P5_F3",
+          "target_fact": "Der Artikel „Von einem merkwürdigen See in der oberen Markgrafschaft Baden“ erschien im Jahr 1782.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.2185
+        },
+        {
+          "target_fact_index": 49,
+          "target_manual_fact_id": "DE_Eichener_See_P5_F1",
+          "target_fact": "Die erste wissenschaftliche Beschreibung des Eichener Sees ist wahrscheinlich der Artikel „Von einem merkwürdigen See in der oberen Markgrafschaft Baden“.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.141
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 24,
+      "source_manual_fact_id": "ALS_Eichener_See_P2_F2",
+      "source_fact": "Die nachgelassenen Schriften Heinrich Sanders wurden im Jahr 1784 veröffentlicht.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 51,
+          "target_manual_fact_id": "DE_Eichener_See_P5_F3",
+          "target_fact": "Der Artikel „Von einem merkwürdigen See in der oberen Markgrafschaft Baden“ erschien im Jahr 1782.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.131
+        },
+        {
+          "target_fact_index": 50,
+          "target_manual_fact_id": "DE_Eichener_See_P5_F2",
+          "target_fact": "Heinrich Sander verfasste den Artikel „Von einem merkwürdigen See in der oberen Markgrafschaft Baden“.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.1188
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 25,
+      "source_manual_fact_id": "ALS_Eichener_See_P2_F3",
+      "source_fact": "Heinrich Sander war Professor am Gymnasium illustre in Karlsruhe.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 50,
+          "target_manual_fact_id": "DE_Eichener_See_P5_F2",
+          "target_fact": "Heinrich Sander verfasste den Artikel „Von einem merkwürdigen See in der oberen Markgrafschaft Baden“.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.1004
+        },
+        {
+          "target_fact_index": 52,
+          "target_manual_fact_id": "DE_Eichener_See_P5_F4",
+          "target_fact": "Der Artikel „Von einem merkwürdigen See in der oberen Markgrafschaft Baden“ erschien in der Zeitschrift „Der Naturforscher“.",
+          "target_paragraph": 5,
+          "density_normalized_distance": 0.0563
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 26,
+      "source_manual_fact_id": "ALS_Eichener_See_P2_F4",
+      "source_fact": "Heinrich Sander war unter anderem Lehrer von Johann Peter Hebel.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 50,
+          "target_manual_fact_id": "DE_Eichener_See_P5_F2",
+          "target_fact": "Heinrich Sander verfasste den Artikel „Von einem merkwürdigen See in der oberen Markgrafschaft Baden“.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.1416
+        },
+        {
+          "target_fact_index": 52,
+          "target_manual_fact_id": "DE_Eichener_See_P5_F4",
+          "target_fact": "Der Artikel „Von einem merkwürdigen See in der oberen Markgrafschaft Baden“ erschien in der Zeitschrift „Der Naturforscher“.",
+          "target_paragraph": 5,
+          "density_normalized_distance": 0.056
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 27,
+      "source_manual_fact_id": "ALS_Eichener_See_P2_F5",
+      "source_fact": "Heinrich Sander schrieb, dass die Größe des Eichener Sees „ungleich und verschieden“ gewesen sei.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 50,
+          "target_manual_fact_id": "DE_Eichener_See_P5_F2",
+          "target_fact": "Heinrich Sander verfasste den Artikel „Von einem merkwürdigen See in der oberen Markgrafschaft Baden“.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.2849
+        },
+        {
+          "target_fact_index": 51,
+          "target_manual_fact_id": "DE_Eichener_See_P5_F3",
+          "target_fact": "Der Artikel „Von einem merkwürdigen See in der oberen Markgrafschaft Baden“ erschien im Jahr 1782.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.1101
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 28,
+      "source_manual_fact_id": "ALS_Eichener_See_P2_F6",
+      "source_fact": "Nach Heinrich Sander wurde die Breite des Eichener Sees auf einen Büchsenschuss geschätzt.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 50,
+          "target_manual_fact_id": "DE_Eichener_See_P5_F2",
+          "target_fact": "Heinrich Sander verfasste den Artikel „Von einem merkwürdigen See in der oberen Markgrafschaft Baden“.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.1848
+        },
+        {
+          "target_fact_index": 60,
+          "target_manual_fact_id": "DE_Eichener_See_P5_F12",
+          "target_fact": "Das den Eichener See umschließende Landschaftsschutzgebiet wurde mit einer Verordnung vom 26. April 1942 ausgewiesen.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.0757
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 29,
+      "source_manual_fact_id": "ALS_Eichener_See_P2_F7",
+      "source_fact": "Nach Heinrich Sander wurde die Länge des Eichener Sees auf zwei Büchsenschüsse geschätzt.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 50,
+          "target_manual_fact_id": "DE_Eichener_See_P5_F2",
+          "target_fact": "Heinrich Sander verfasste den Artikel „Von einem merkwürdigen See in der oberen Markgrafschaft Baden“.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.1834
+        },
+        {
+          "target_fact_index": 49,
+          "target_manual_fact_id": "DE_Eichener_See_P5_F1",
+          "target_fact": "Die erste wissenschaftliche Beschreibung des Eichener Sees ist wahrscheinlich der Artikel „Von einem merkwürdigen See in der oberen Markgrafschaft Baden“.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.048
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 30,
+      "source_manual_fact_id": "ALS_Eichener_See_P2_F8",
+      "source_fact": "Zu Heinrich Sanders Zeit wurde erzählt, dass alle Pflanzen zugrunde gingen, wenn der Eichener See erschien.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 50,
+          "target_manual_fact_id": "DE_Eichener_See_P5_F2",
+          "target_fact": "Heinrich Sander verfasste den Artikel „Von einem merkwürdigen See in der oberen Markgrafschaft Baden“.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.1108
+        },
+        {
+          "target_fact_index": 52,
+          "target_manual_fact_id": "DE_Eichener_See_P5_F4",
+          "target_fact": "Der Artikel „Von einem merkwürdigen See in der oberen Markgrafschaft Baden“ erschien in der Zeitschrift „Der Naturforscher“.",
+          "target_paragraph": 5,
+          "density_normalized_distance": 0.0066
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 31,
+      "source_manual_fact_id": "ALS_Eichener_See_P2_F9",
+      "source_fact": "Einige Birnbäume überlebten das Erscheinen des Eichener Sees.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 60,
+          "target_manual_fact_id": "DE_Eichener_See_P5_F12",
+          "target_fact": "Das den Eichener See umschließende Landschaftsschutzgebiet wurde mit einer Verordnung vom 26. April 1942 ausgewiesen.",
+          "target_paragraph": 5,
+          "density_normalized_distance": 0.0434
+        },
+        {
+          "target_fact_index": 51,
+          "target_manual_fact_id": "DE_Eichener_See_P5_F3",
+          "target_fact": "Der Artikel „Von einem merkwürdigen See in der oberen Markgrafschaft Baden“ erschien im Jahr 1782.",
+          "target_paragraph": 5,
+          "density_normalized_distance": 0.0556
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 32,
+      "source_manual_fact_id": "ALS_Eichener_See_P2_F10",
+      "source_fact": "Die überlebenden Birnbäume erlitten keinen Schaden.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 53,
+          "target_manual_fact_id": "DE_Eichener_See_P5_F5",
+          "target_fact": "Der Eichener See und seine Uferbereiche stehen seit 1939 unter besonderem Schutz.",
+          "target_paragraph": 5,
+          "density_normalized_distance": 0.1483
+        },
+        {
+          "target_fact_index": 60,
+          "target_manual_fact_id": "DE_Eichener_See_P5_F12",
+          "target_fact": "Das den Eichener See umschließende Landschaftsschutzgebiet wurde mit einer Verordnung vom 26. April 1942 ausgewiesen.",
+          "target_paragraph": 5,
+          "density_normalized_distance": 0.1751
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 33,
+      "source_manual_fact_id": "ALS_Eichener_See_P3_F1",
+      "source_fact": "Heinrich Sander schrieb auch über ein Unglück im Eichener See.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 46,
+          "target_manual_fact_id": "DE_Eichener_See_P4_F3",
+          "target_fact": "Im Jahr 1771 ertranken fünf Menschen im Eichener See.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.0444
+        },
+        {
+          "target_fact_index": 45,
+          "target_manual_fact_id": "DE_Eichener_See_P4_F2",
+          "target_fact": "Im Jahr 1771 kenterte ein Boot auf dem Eichener See.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.0299
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 34,
+      "source_manual_fact_id": "ALS_Eichener_See_P3_F2",
+      "source_fact": "An einem schönen Sonntagmorgen im Mai wollten junge Mädchen und Burschen mit einem Boot auf dem Eichener See fahren.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 47,
+          "target_manual_fact_id": "DE_Eichener_See_P4_F4",
+          "target_fact": "Im Jahr 1876 kamen Menschen im Eichener See um.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.0066
+        },
+        {
+          "target_fact_index": 48,
+          "target_manual_fact_id": "DE_Eichener_See_P4_F5",
+          "target_fact": "Im Jahr 1910 kamen Menschen im Eichener See um.",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.001
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 35,
+      "source_manual_fact_id": "ALS_Eichener_See_P3_F3",
+      "source_fact": "Anscheinend stiegen zu viele Personen in das Boot.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 48,
+          "target_manual_fact_id": "DE_Eichener_See_P4_F5",
+          "target_fact": "Im Jahr 1910 kamen Menschen im Eichener See um.",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.0176
+        },
+        {
+          "target_fact_index": 47,
+          "target_manual_fact_id": "DE_Eichener_See_P4_F4",
+          "target_fact": "Im Jahr 1876 kamen Menschen im Eichener See um.",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.0599
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 36,
+      "source_manual_fact_id": "ALS_Eichener_See_P3_F4",
+      "source_fact": "Das Boot sank im Eichener See.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 45,
+          "target_manual_fact_id": "DE_Eichener_See_P4_F2",
+          "target_fact": "Im Jahr 1771 kenterte ein Boot auf dem Eichener See.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.1581
+        },
+        {
+          "target_fact_index": 47,
+          "target_manual_fact_id": "DE_Eichener_See_P4_F4",
+          "target_fact": "Im Jahr 1876 kamen Menschen im Eichener See um.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.1045
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 37,
+      "source_manual_fact_id": "ALS_Eichener_See_P3_F5",
+      "source_fact": "Vier der jungen Menschen ertranken im Eichener See.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 46,
+          "target_manual_fact_id": "DE_Eichener_See_P4_F3",
+          "target_fact": "Im Jahr 1771 ertranken fünf Menschen im Eichener See.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.2219
+        },
+        {
+          "target_fact_index": 47,
+          "target_manual_fact_id": "DE_Eichener_See_P4_F4",
+          "target_fact": "Im Jahr 1876 kamen Menschen im Eichener See um.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.1013
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 38,
+      "source_manual_fact_id": "ALS_Eichener_See_P3_F6",
+      "source_fact": "Nach Heinrich Sanders Bericht wurden die Ertrunkenen mit Stangen aus dem Eichener See gezogen.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 48,
+          "target_manual_fact_id": "DE_Eichener_See_P4_F5",
+          "target_fact": "Im Jahr 1910 kamen Menschen im Eichener See um.",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.0591
+        },
+        {
+          "target_fact_index": 46,
+          "target_manual_fact_id": "DE_Eichener_See_P4_F3",
+          "target_fact": "Im Jahr 1771 ertranken fünf Menschen im Eichener See.",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.0625
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 39,
+      "source_manual_fact_id": "ALS_Eichener_See_P3_F7",
+      "source_fact": "Nach Heinrich Sanders Bericht hätte man die Ertrunkenen wiederbeleben können, wenn die Polizei schnell gerufen worden wäre.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 48,
+          "target_manual_fact_id": "DE_Eichener_See_P4_F5",
+          "target_fact": "Im Jahr 1910 kamen Menschen im Eichener See um.",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.1748
+        },
+        {
+          "target_fact_index": 46,
+          "target_manual_fact_id": "DE_Eichener_See_P4_F3",
+          "target_fact": "Im Jahr 1771 ertranken fünf Menschen im Eichener See.",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.1901
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 40,
+      "source_manual_fact_id": "ALS_Eichener_See_P4_F1",
+      "source_fact": "Der trockene Boden des Eichener Sees wurde nach dem Verschwinden des Wassers als Wiese gemäht.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 115,
+          "target_manual_fact_id": "DE_Eichener_See_P8_F43",
+          "target_fact": "Nach dem Wegschwemmen der Felder und Matten des Eichener Bauern blieb nur noch nackter Fels übrig.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.1662
+        },
+        {
+          "target_fact_index": 113,
+          "target_manual_fact_id": "DE_Eichener_See_P8_F41",
+          "target_fact": "Die Felder des Eichener Bauern wurden weggeschwemmt.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0988
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 41,
+      "source_manual_fact_id": "ALS_Eichener_See_P4_F2",
+      "source_fact": "Das auf dem trockenen Boden des Eichener Sees gewonnene Futter soll gut gewesen sein.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 84,
+          "target_manual_fact_id": "DE_Eichener_See_P8_F12",
+          "target_fact": "Das Versprechen des Eichener Bauern galt unter der Bedingung, dass die Seewichte seine Felder stets ausreichend bewässerten.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.101
+        },
+        {
+          "target_fact_index": 89,
+          "target_manual_fact_id": "DE_Eichener_See_P8_F17",
+          "target_fact": "Die jüngste Tochter des Eichener Bauern hatte dem Vertrag ihres Vaters wohl leichtfertig zugestimmt.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0722
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 42,
+      "source_manual_fact_id": "ALS_Eichener_See_P4_F3",
+      "source_fact": "Manche Menschen bauten auf dem trockenen Boden des Eichener Sees Roggen an.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 47,
+          "target_manual_fact_id": "DE_Eichener_See_P4_F4",
+          "target_fact": "Im Jahr 1876 kamen Menschen im Eichener See um.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.0671
+        },
+        {
+          "target_fact_index": 85,
+          "target_manual_fact_id": "DE_Eichener_See_P8_F13",
+          "target_fact": "Die Seewichte hielten sich der Sage nach an die Abmachung mit dem Eichener Bauern.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0623
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 43,
+      "source_manual_fact_id": "ALS_Eichener_See_P4_F4",
+      "source_fact": "Manche Menschen bauten auf dem trockenen Boden des Eichener Sees Dinkel an.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 48,
+          "target_manual_fact_id": "DE_Eichener_See_P4_F5",
+          "target_fact": "Im Jahr 1910 kamen Menschen im Eichener See um.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.0689
+        },
+        {
+          "target_fact_index": 85,
+          "target_manual_fact_id": "DE_Eichener_See_P8_F13",
+          "target_fact": "Die Seewichte hielten sich der Sage nach an die Abmachung mit dem Eichener Bauern.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0668
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 44,
+      "source_manual_fact_id": "ALS_Eichener_See_P4_F5",
+      "source_fact": "Manche Menschen bauten auf dem trockenen Boden des Eichener Sees Hafer an.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 47,
+          "target_manual_fact_id": "DE_Eichener_See_P4_F4",
+          "target_fact": "Im Jahr 1876 kamen Menschen im Eichener See um.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.0649
+        },
+        {
+          "target_fact_index": 48,
+          "target_manual_fact_id": "DE_Eichener_See_P4_F5",
+          "target_fact": "Im Jahr 1910 kamen Menschen im Eichener See um.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.062
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 45,
+      "source_manual_fact_id": "ALS_Eichener_See_P4_F6",
+      "source_fact": "Manche Menschen bauten auf dem trockenen Boden des Eichener Sees Gerste an.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 47,
+          "target_manual_fact_id": "DE_Eichener_See_P4_F4",
+          "target_fact": "Im Jahr 1876 kamen Menschen im Eichener See um.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.0645
+        },
+        {
+          "target_fact_index": 79,
+          "target_manual_fact_id": "DE_Eichener_See_P8_F7",
+          "target_fact": "Die Männlein sollen den unterirdischen Palast eingerichtet haben.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0606
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 46,
+      "source_manual_fact_id": "ALS_Eichener_See_P4_F7",
+      "source_fact": "Manche Menschen bauten auf dem trockenen Boden des Eichener Sees Kartoffeln an.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 89,
+          "target_manual_fact_id": "DE_Eichener_See_P8_F17",
+          "target_fact": "Die jüngste Tochter des Eichener Bauern hatte dem Vertrag ihres Vaters wohl leichtfertig zugestimmt.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0759
+        },
+        {
+          "target_fact_index": 85,
+          "target_manual_fact_id": "DE_Eichener_See_P8_F13",
+          "target_fact": "Die Seewichte hielten sich der Sage nach an die Abmachung mit dem Eichener Bauern.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0633
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 47,
+      "source_manual_fact_id": "ALS_Eichener_See_P4_F8",
+      "source_fact": "Der Anbau auf dem trockenen Boden des Eichener Sees brachte eine gute Ernte.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 89,
+          "target_manual_fact_id": "DE_Eichener_See_P8_F17",
+          "target_fact": "Die jüngste Tochter des Eichener Bauern hatte dem Vertrag ihres Vaters wohl leichtfertig zugestimmt.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.1066
+        },
+        {
+          "target_fact_index": 84,
+          "target_manual_fact_id": "DE_Eichener_See_P8_F12",
+          "target_fact": "Das Versprechen des Eichener Bauern galt unter der Bedingung, dass die Seewichte seine Felder stets ausreichend bewässerten.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0741
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 48,
+      "source_manual_fact_id": "ALS_Eichener_See_P4_F9",
+      "source_fact": "Wenn das Wasser des Eichener Sees zurückkehrte, wurde der Anbau überschwemmt.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 104,
+          "target_manual_fact_id": "DE_Eichener_See_P8_F32",
+          "target_fact": "Das Mädchen war nach der Abmachung der Lohn der Seewichte.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0903
+        },
+        {
+          "target_fact_index": 113,
+          "target_manual_fact_id": "DE_Eichener_See_P8_F41",
+          "target_fact": "Die Felder des Eichener Bauern wurden weggeschwemmt.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0697
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 49,
+      "source_manual_fact_id": "ALS_Eichener_See_P5_F1",
+      "source_fact": "Wenn der Eichener See vollständig gefüllt ist, ist er ungefähr 3,20 Meter tief.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 63,
+          "target_manual_fact_id": "DE_Eichener_See_P6_F3",
+          "target_fact": "In besonders niederschlagsreichen Jahren kann der Eichener See innerhalb von ein bis fünf Wochen eine Breite von 135 Metern erreichen.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.0193
+        },
+        {
+          "target_fact_index": 65,
+          "target_manual_fact_id": "DE_Eichener_See_P6_F5",
+          "target_fact": "Bis das gesamte am Eichener See zu Tage getretene Wasser wieder verschwindet, können acht bis 160 Tage vergehen.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.0163
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3677 @@
+{
+  "pair_key": "gold__leo_der_grosse",
+  "cluster": "Gold",
+  "title": "Leo der Große",
+  "als_page_id": "gold_leo_der_grosse_als",
+  "de_page_id": "gold_leo_der_grosse_de",
+  "als_title": "Leo der Große",
+  "de_title": "Leo der Große",
+  "embed_model": "sentence-transformers/LaBSE",
+  "xfactalign_version": "paper_style_density_normalized_distance",
+  "top_k_facts": 2,
+  "paragraph_alignment": "directed_argmax_union",
+  "fact_retrieval_metric": "D(e_i,f_j)=1-cos(e_i,f_j)-hubness(f_j)",
+  "paragraph_adjacency": [
+    {
+      "de_paragraph": 0,
+      "als_paragraph": 0,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 1,
+      "als_paragraph": 1,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 2,
+      "als_paragraph": 2,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 2,
+      "als_paragraph": 4,
+      "weight": 1
+    },
+    {
+      "de_paragraph": 3,
+      "als_paragraph": 3,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 4,
+      "als_paragraph": 5,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 5,
+      "als_paragraph": 6,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 6,
+      "als_paragraph": 7,
+      "weight": 2
+    },
+    {
+      "de_paragraph": 7,
+      "als_paragraph": 8,
+      "weight": 2
+    }
+  ],
+  "de_to_als": [
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 0,
+      "source_fact": "Leo der Große war als Papst Leo I. bekannt.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 0,
+          "target_fact": "Leo I. wird auch als Leo der Große bezeichnet.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.2368
+        },
+        {
+          "target_fact_index": 1,
+          "target_fact": "Leo I. wurde um 400 geboren.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1231
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 1,
+      "source_fact": "Leo der Große wurde um 400 geboren.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 1,
+          "target_fact": "Leo I. wurde um 400 geboren.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.3322
+        },
+        {
+          "target_fact_index": 3,
+          "target_fact": "Leo I. starb am 10. November 461.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0829
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 2,
+      "source_fact": "Der Geburtsort von Leo dem Großen war entweder Rom oder – laut dem Liber Pontificalis – die Toskana.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 2,
+          "target_fact": "Der Geburtsort von Leo I. wird alternativ als Rom oder (laut Liber Pontificalis) in der Toskana angegeben.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.2934
+        },
+        {
+          "target_fact_index": 4,
+          "target_fact": "Leo I. war vom 29. September 440 bis zu seinem Tod Bischof von Rom und damit Papst.",
+          "target_paragraph": 0,
+          "density_normalized_distance": 0.0005
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 3,
+      "source_fact": "Leo der Große starb am 10. November 461.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 3,
+          "target_fact": "Leo I. starb am 10. November 461.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.4251
+        },
+        {
+          "target_fact_index": 1,
+          "target_fact": "Leo I. wurde um 400 geboren.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0423
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 4,
+      "source_fact": "Leo der Große war vom 29. September 440 bis zu seinem Tod Bischof von Rom.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 4,
+          "target_fact": "Leo I. war vom 29. September 440 bis zu seinem Tod Bischof von Rom und damit Papst.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.3184
+        },
+        {
+          "target_fact_index": 3,
+          "target_fact": "Leo I. starb am 10. November 461.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0652
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 5,
+      "source_fact": "Leo der Große verteidigte die Lehre der katholischen Kirche.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 5,
+          "target_fact": "Leo I. verteidigte die Lehre der katholischen Kirche.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.2651
+        },
+        {
+          "target_fact_index": 8,
+          "target_fact": "Leo I. kämpfte gegen die Pelagianer.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0469
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 6,
+      "source_fact": "Leo der Große bekämpfte die Monophysiten und Pelagianer.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 8,
+          "target_fact": "Leo I. kämpfte gegen die Pelagianer.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.245
+        },
+        {
+          "target_fact_index": 7,
+          "target_fact": "Leo I. kämpfte gegen die Monophysiten.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.2302
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 7,
+      "source_fact": "Die Bekämpfung der Monophysiten und Pelagianer geschah insbesondere während des Konzils von Chalcedon im Jahr 451.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 6,
+          "target_fact": "Leo I. war beim Konzil von Chalzedon im Jahr 451 aktiv.",
+          "target_paragraph": 0,
+          "density_normalized_distance": 0.0125
+        },
+        {
+          "target_fact_index": 3,
+          "target_fact": "Leo I. starb am 10. November 461.",
+          "target_paragraph": 0,
+          "density_normalized_distance": 0.034
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 8,
+      "source_fact": "Er wurde wahrscheinlich erstmals in einem Brief des heiligen Augustinus erwähnt.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 9,
+          "target_fact": "Die erste Erwähnung der Person erfolgt wahrscheinlich in einem Brief des heiligen Augustinus.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.3837
+        },
+        {
+          "target_fact_index": 10,
+          "target_fact": "In diesem Brief schreibt Augustinus über einen Akolythen namens Leo.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.0592
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 9,
+      "source_fact": "In diesem Brief wird ein Akolyt namens Leo erwähnt.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 10,
+          "target_fact": "In diesem Brief schreibt Augustinus über einen Akolythen namens Leo.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.2951
+        },
+        {
+          "target_fact_index": 9,
+          "target_fact": "Die erste Erwähnung der Person erfolgt wahrscheinlich in einem Brief des heiligen Augustinus.",
+          "target_paragraph": 1,
+          "density_normalized_distance": 0.0165
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 10,
+      "source_fact": "Er wirkte als Diakon unter dem römischen Papst Coelestin I.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 11,
+          "target_fact": "Leo wirkte als Diakon unter den römischen Päpsten Coelestin I. und Sixtus III.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.2034
+        },
+        {
+          "target_fact_index": 13,
+          "target_fact": "Durch sein Wirken erlangte er einen guten Ruf im Klerus.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.0234
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 11,
+      "source_fact": "Er wirkte als Diakon unter dem römischen Papst Sixtus III.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 11,
+          "target_fact": "Leo wirkte als Diakon unter den römischen Päpsten Coelestin I. und Sixtus III.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.153
+        },
+        {
+          "target_fact_index": 15,
+          "target_fact": "Bei seiner Wahl zum Bischof gab es ein einstimmiges Ergebnis.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.0043
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 12,
+      "source_fact": "In seinem Amt als Diakon half er bei der Lösung verschiedener kirchlicher Probleme.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 12,
+          "target_fact": "In seiner Funktion als Diakon half er bei der Lösung verschiedener kirchlicher und staatspolitischer Probleme.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.3354
+        },
+        {
+          "target_fact_index": 15,
+          "target_fact": "Bei seiner Wahl zum Bischof gab es ein einstimmiges Ergebnis.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.0646
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 13,
+      "source_fact": "In seinem Amt als Diakon half er bei der Lösung verschiedener staatspolitischer Probleme.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 12,
+          "target_fact": "In seiner Funktion als Diakon half er bei der Lösung verschiedener kirchlicher und staatspolitischer Probleme.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.333
+        },
+        {
+          "target_fact_index": 15,
+          "target_fact": "Bei seiner Wahl zum Bischof gab es ein einstimmiges Ergebnis.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.0364
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 14,
+      "source_fact": "Durch sein Wirken erlangte er einen guten Ruf im Klerus.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 13,
+          "target_fact": "Durch sein Wirken erlangte er einen guten Ruf im Klerus.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.6022
+        },
+        {
+          "target_fact_index": 14,
+          "target_fact": "Durch sein Wirken erlangte er einen guten Ruf bei der Bevölkerung Roms.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.3333
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 15,
+      "source_fact": "Durch sein Wirken erlangte er einen guten Ruf bei der Bevölkerung Roms.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 14,
+          "target_fact": "Durch sein Wirken erlangte er einen guten Ruf bei der Bevölkerung Roms.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.5433
+        },
+        {
+          "target_fact_index": 13,
+          "target_fact": "Durch sein Wirken erlangte er einen guten Ruf im Klerus.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.3922
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 16,
+      "source_fact": "Leo I. war der bedeutendste römische Bischof des 5. Jahrhunderts.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 16,
+          "target_fact": "Dr Leo I. isch dr wichtigscht remisch Bischof vum 5. Johrhundert gsii.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.2227
+        },
+        {
+          "target_fact_index": 22,
+          "target_fact": "D Iberdragig vum Pontifex Maximus-Titel vum Chaise uf dr Papscht isch nit direkt s Wärch vum Leo I.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0619
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 17,
+      "source_fact": "In der Zeit von Leo I. stand der römische Primatsanspruch auf seinem ersten Höhepunkt.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 17,
+          "target_fact": "In dr Zyt vum Leo I. isch dr remisch Primatsaaspruch uf sym erschte Hegschtpunkt gstande.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.294
+        },
+        {
+          "target_fact_index": 22,
+          "target_fact": "D Iberdragig vum Pontifex Maximus-Titel vum Chaise uf dr Papscht isch nit direkt s Wärch vum Leo I.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0677
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 18,
+      "source_fact": "Leo I. griff den römischen Titel des Pontifex auf.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 22,
+          "target_fact": "D Iberdragig vum Pontifex Maximus-Titel vum Chaise uf dr Papscht isch nit direkt s Wärch vum Leo I.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1711
+        },
+        {
+          "target_fact_index": 18,
+          "target_fact": "Dr Leo I. het dr remisch Title vum Pontifex Maximus (oberschte Prieschter) ufgrife.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1613
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 19,
+      "source_fact": "Prosper von Aquitanien bezeichnete Leo bereits zu dessen Lebzeiten als „papa“.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 21,
+          "target_fact": "Dr Prosper vu Aquitanie het dr Leo I. scho zue däm syne Läbdig „papa“ un „summus sacerdos“ gnännt.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1073
+        },
+        {
+          "target_fact_index": 42,
+          "target_fact": "In der Literatur und im Internet wird oft behauptet, dass Leo um 450 den Titel Patriarcha Occidentis (Patriarch des Abendlandes) für das Papsttum einführte.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.0126
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 20,
+      "source_fact": "Prosper von Aquitanien bezeichnete Leo bereits zu dessen Lebzeiten als „summus sacerdos“ (oberster Priester).",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 21,
+          "target_fact": "Dr Prosper vu Aquitanie het dr Leo I. scho zue däm syne Läbdig „papa“ un „summus sacerdos“ gnännt.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1394
+        },
+        {
+          "target_fact_index": 19,
+          "target_fact": "Dr Title Pontifex Maximus isch ursprünglech vum Caesar, em Auguschtus un andere Chaise as oberschti Prieschter vum Jupitertämpel gfiert worde.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0503
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 21,
+      "source_fact": "Die Übertragung des Pontifex-Maximus-Titels vom Kaiser auf den Papst ist nicht das Werk von Leo I.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 22,
+          "target_fact": "D Iberdragig vum Pontifex Maximus-Titel vum Chaise uf dr Papscht isch nit direkt s Wärch vum Leo I.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.2791
+        },
+        {
+          "target_fact_index": 19,
+          "target_fact": "Dr Title Pontifex Maximus isch ursprünglech vum Caesar, em Auguschtus un andere Chaise as oberschti Prieschter vum Jupitertämpel gfiert worde.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.105
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 22,
+      "source_fact": "Leos Lehre über das Petrusamt lieferte wichtige Grundlagen für die Übertragung des Pontifex-Maximus-Titels auf den Papst.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 23,
+          "target_fact": "D Lehr vum Leo I. iber s Petrusamt un sy Praxis as Papscht hän Grundlage fir d Iberdragig vum Pontifex Maximus-Titel gliferet.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1667
+        },
+        {
+          "target_fact_index": 22,
+          "target_fact": "D Iberdragig vum Pontifex Maximus-Titel vum Chaise uf dr Papscht isch nit direkt s Wärch vum Leo I.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1288
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 23,
+      "source_fact": "Leos Praxis als Papst lieferte wichtige Grundlagen für die Übertragung des Pontifex-Maximus-Titels auf den Papst.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 23,
+          "target_fact": "D Lehr vum Leo I. iber s Petrusamt un sy Praxis as Papscht hän Grundlage fir d Iberdragig vum Pontifex Maximus-Titel gliferet.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1793
+        },
+        {
+          "target_fact_index": 22,
+          "target_fact": "D Iberdragig vum Pontifex Maximus-Titel vum Chaise uf dr Papscht isch nit direkt s Wärch vum Leo I.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1343
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 24,
+      "source_fact": "Leo I. griff in kirchliche Angelegenheiten in Italien ein.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 24,
+          "target_fact": "Dr Leo I. het in chilchligi Aaglägehaite z Italie, Gallie, Spanie un Griecheland yygrife.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0506
+        },
+        {
+          "target_fact_index": 17,
+          "target_fact": "In dr Zyt vum Leo I. isch dr remisch Primatsaaspruch uf sym erschte Hegschtpunkt gstande.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0235
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 25,
+      "source_fact": "Leo I. griff in kirchliche Angelegenheiten in Gallien ein.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 24,
+          "target_fact": "Dr Leo I. het in chilchligi Aaglägehaite z Italie, Gallie, Spanie un Griecheland yygrife.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0634
+        },
+        {
+          "target_fact_index": 17,
+          "target_fact": "In dr Zyt vum Leo I. isch dr remisch Primatsaaspruch uf sym erschte Hegschtpunkt gstande.",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.0022
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 26,
+      "source_fact": "Leo I. griff in kirchliche Angelegenheiten in Spanien ein.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 24,
+          "target_fact": "Dr Leo I. het in chilchligi Aaglägehaite z Italie, Gallie, Spanie un Griecheland yygrife.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0556
+        },
+        {
+          "target_fact_index": 17,
+          "target_fact": "In dr Zyt vum Leo I. isch dr remisch Primatsaaspruch uf sym erschte Hegschtpunkt gstande.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0185
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 27,
+      "source_fact": "Leo I. griff in kirchliche Angelegenheiten in Griechenland ein.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 24,
+          "target_fact": "Dr Leo I. het in chilchligi Aaglägehaite z Italie, Gallie, Spanie un Griecheland yygrife.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0611
+        },
+        {
+          "target_fact_index": 17,
+          "target_fact": "In dr Zyt vum Leo I. isch dr remisch Primatsaaspruch uf sym erschte Hegschtpunkt gstande.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0299
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 28,
+      "source_fact": "Auf dem Konzil von Chalkedon wurde Rom ein gewisser Vorrang vor den anderen großen Bischofssitzen im Osten eingeräumt.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 25,
+          "target_fact": "Uf em Konzil vu Chalkedon isch Rom ne gwisse Vorrang vor de Bischofssitz Alexandria, Antiochia un Konstantinopel yygruumt worde.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1364
+        },
+        {
+          "target_fact_index": 19,
+          "target_fact": "Dr Title Pontifex Maximus isch ursprünglech vum Caesar, em Auguschtus un andere Chaise as oberschti Prieschter vum Jupitertämpel gfiert worde.",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.0157
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 29,
+      "source_fact": "Die anderen großen Bischofssitze im Osten waren Alexandria, Antiochia, Jerusalem und Konstantinopel.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 25,
+          "target_fact": "Uf em Konzil vu Chalkedon isch Rom ne gwisse Vorrang vor de Bischofssitz Alexandria, Antiochia un Konstantinopel yygruumt worde.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1985
+        },
+        {
+          "target_fact_index": 43,
+          "target_fact": "Diese Behauptung ist nicht korrekt.",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.0314
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 30,
+      "source_fact": "Leo I. verfasste ein großes Lehrschreiben, den sogenannten Tomus (ep. 28).",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 26,
+          "target_fact": "Dr Leo I. het mit syne Lehrschryybe, em sognännte Tomus (ep. 28), en wichtige theologisch Bydrag gleischtet.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.2185
+        },
+        {
+          "target_fact_index": 18,
+          "target_fact": "Dr Leo I. het dr remisch Title vum Pontifex Maximus (oberschte Prieschter) ufgrife.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0111
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 31,
+      "source_fact": "Der Tomus war Leos wichtiger theologischer Beitrag.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 26,
+          "target_fact": "Dr Leo I. het mit syne Lehrschryybe, em sognännte Tomus (ep. 28), en wichtige theologisch Bydrag gleischtet.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0899
+        },
+        {
+          "target_fact_index": 16,
+          "target_fact": "Dr Leo I. isch dr wichtigscht remisch Bischof vum 5. Johrhundert gsii.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0115
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 32,
+      "source_fact": "Leo äußerte sich vielfach zu theologischen Streitfragen.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 27,
+          "target_fact": "Dr Leo hat zu vielen theologischen Streitfragen seine Meinung geäußert.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.2205
+        },
+        {
+          "target_fact_index": 28,
+          "target_fact": "Dr Leo kämpfte gegen konkurrierende Lehren im Christentum, wie den Monophysitismus und den Pelagianismus, mittels Verbannungen und Amtsenthebungen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": 0.0083
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 33,
+      "source_fact": "Leo bekämpfte konkurrierende Lehren innerhalb des Christentums, wie den Monophysitismus und den Pelagianismus, durch Exkommunikation und Amtsenthebungen.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 28,
+          "target_fact": "Dr Leo kämpfte gegen konkurrierende Lehren im Christentum, wie den Monophysitismus und den Pelagianismus, mittels Verbannungen und Amtsenthebungen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.3058
+        },
+        {
+          "target_fact_index": 32,
+          "target_fact": "Dr Leo wies 451 den Anspruch des Patriarchen von Konstantinopel auf Gleichrangigkeit mit Rom zurück.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.0169
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 34,
+      "source_fact": "Leo setzte Hilarius von Arles (401–449), der auf vermeintliche Privilegien pochte, als Metropolit von Arles ab.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 29,
+          "target_fact": "Dr Leo setzte Hilarius von Arles (401–449) als Metropoliten von Arles ab.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.327
+        },
+        {
+          "target_fact_index": 33,
+          "target_fact": "Rom wurde im Jahr 452 von den Hunnen unter Attila bedroht.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.0207
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 35,
+      "source_fact": "Valentinian III. erkannte den Primat von Rom an, als er die Dekretalen mit den Reichsgesetzen gleichstellte.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 31,
+          "target_fact": "Valentinian III. stellte die Dekretale mit dem Reichsgesetz gleich.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.3326
+        },
+        {
+          "target_fact_index": 30,
+          "target_fact": "Dr Leo erreichte, dass Valentinian III. das Primat von Rom anerkannte.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.1587
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 36,
+      "source_fact": "Leo verwarf im Jahr 451 den Anspruch Konstantinopels auf Gleichrangigkeit mit Rom.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 32,
+          "target_fact": "Dr Leo wies 451 den Anspruch des Patriarchen von Konstantinopel auf Gleichrangigkeit mit Rom zurück.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.2726
+        },
+        {
+          "target_fact_index": 33,
+          "target_fact": "Rom wurde im Jahr 452 von den Hunnen unter Attila bedroht.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.142
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 37,
+      "source_fact": "Im Jahr 452 wurde Rom von den Hunnen unter Attila bedroht.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 33,
+          "target_fact": "Rom wurde im Jahr 452 von den Hunnen unter Attila bedroht.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.5332
+        },
+        {
+          "target_fact_index": 36,
+          "target_fact": "Attila befand sich faktisch bereits auf dem Rückzug und war nicht auf dem Weg nach Rom.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.0848
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 38,
+      "source_fact": "Leo stellte sich dem Hunnenkönig Attila vor Mantua entgegen.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 34,
+          "target_fact": "Dr Leo begegnete dem Hunnenkönig Attila vor Mantua.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.3218
+        },
+        {
+          "target_fact_index": 33,
+          "target_fact": "Rom wurde im Jahr 452 von den Hunnen unter Attila bedroht.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.0565
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 39,
+      "source_fact": "Einige Quellen berichten, dass Leo ein Vordringen der Hunnen in Richtung Rom wahrscheinlich durch die Zahlung eines hohen Geldbetrags verhinderte.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 35,
+          "target_fact": "Dr Leo verhinderte wahrscheinlich durch die Zahlung eines hohen Geldbetrags das Vordringen der Hunnen Richtung Rom.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.3272
+        },
+        {
+          "target_fact_index": 37,
+          "target_fact": "Ein Teil der Berichte übertreibt vermutlich die Rolle von Leo bei der Begegnung mit Attila.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.0365
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 40,
+      "source_fact": "Attila befand sich faktisch bereits auf dem Rückzug und war nicht auf dem Weg nach Rom.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 36,
+          "target_fact": "Attila befand sich faktisch bereits auf dem Rückzug und war nicht auf dem Weg nach Rom.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.5732
+        },
+        {
+          "target_fact_index": 33,
+          "target_fact": "Rom wurde im Jahr 452 von den Hunnen unter Attila bedroht.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.0693
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 41,
+      "source_fact": "Einige Berichte überheben die Rolle Leos im Zusammenhang mit Attila vermutlich.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 37,
+          "target_fact": "Ein Teil der Berichte übertreibt vermutlich die Rolle von Leo bei der Begegnung mit Attila.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.3855
+        },
+        {
+          "target_fact_index": 36,
+          "target_fact": "Attila befand sich faktisch bereits auf dem Rückzug und war nicht auf dem Weg nach Rom.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.0548
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 42,
+      "source_fact": "Die genauen Hintergründe der Gesandtschaft zu Attila sind in der Forschung umstritten.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 38,
+          "target_fact": "Die genauen Hintergründe dieser Gesandtschaft sind in der Forschung umstritten.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.4248
+        },
+        {
+          "target_fact_index": 36,
+          "target_fact": "Attila befand sich faktisch bereits auf dem Rückzug und war nicht auf dem Weg nach Rom.",
+          "target_paragraph": 3,
+          "density_normalized_distance": 0.0007
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 43,
+      "source_fact": "Der Stadtpräfekt Trigetius und der Konsul von 450, Gennadius Avienus, gehörten der Gesandtschaft zu Attila an.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 40,
+          "target_fact": "Zu den Begleitern gehörten der Prätorianerpräfekt Trygetius und der Konsul von 450, Gennadius Avienus.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.4435
+        },
+        {
+          "target_fact_index": 33,
+          "target_fact": "Rom wurde im Jahr 452 von den Hunnen unter Attila bedroht.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.0831
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 44,
+      "source_fact": "Leo handelte bei der Gesandtschaft zu Attila offenbar nicht allein.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 36,
+          "target_fact": "Attila befand sich faktisch bereits auf dem Rückzug und war nicht auf dem Weg nach Rom.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.1427
+        },
+        {
+          "target_fact_index": 37,
+          "target_fact": "Ein Teil der Berichte übertreibt vermutlich die Rolle von Leo bei der Begegnung mit Attila.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.1379
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 45,
+      "source_fact": "Drei Jahre nach der Bedrohung durch die Hunnen hielt Leo den Vandalenkönig Geiserich von einem allzu gewaltsamen Vorgehen bei der Plünderung Roms ab.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 41,
+          "target_fact": "Drei Jahre nach der Begegnung mit Attila konnte Dr Leo die Gewalt bei der Belagerung Roms durch die Vandalen unter König Geiserich mäßigen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.2491
+        },
+        {
+          "target_fact_index": 33,
+          "target_fact": "Rom wurde im Jahr 452 von den Hunnen unter Attila bedroht.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.0391
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 46,
+      "source_fact": "Leo I. wurde im Jahre 1754 zum Kirchenlehrer ernannt.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 49,
+          "target_fact": "Die Ernennung erfolgte im Jahr 1754",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.2335
+        },
+        {
+          "target_fact_index": 48,
+          "target_fact": "Leo I. wurde zum Chilchelehrer ernannt",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.1189
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 47,
+      "source_fact": "Papst Benedikt XIV. ernannte Leo I. zum Kirchenlehrer.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 50,
+          "target_fact": "Die Ernennung erfolgte durch Papst Benedikt XIV.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.1757
+        },
+        {
+          "target_fact_index": 48,
+          "target_fact": "Leo I. wurde zum Chilchelehrer ernannt",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.0749
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 48,
+      "source_fact": "Die Gebrüder Ballerini erstellten eine Ausgabe der Werke Leos.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 49,
+          "target_fact": "Die Ernennung erfolgte im Jahr 1754",
+          "target_paragraph": 5,
+          "density_normalized_distance": 0.1686
+        },
+        {
+          "target_fact_index": 48,
+          "target_fact": "Leo I. wurde zum Chilchelehrer ernannt",
+          "target_paragraph": 5,
+          "density_normalized_distance": 0.2211
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 49,
+      "source_fact": "Die Gebrüder Ballerini erstellten diese Ausgabe im Auftrag von Papst Benedikt XIV.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 50,
+          "target_fact": "Die Ernennung erfolgte durch Papst Benedikt XIV.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.1245
+        },
+        {
+          "target_fact_index": 49,
+          "target_fact": "Die Ernennung erfolgte im Jahr 1754",
+          "target_paragraph": 5,
+          "density_normalized_distance": 0.0457
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 50,
+      "source_fact": "Die von den Gebrüdern Ballerini erstellte Ausgabe der Werke Leos ist bis heute maßgeblich.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 49,
+          "target_fact": "Die Ernennung erfolgte im Jahr 1754",
+          "target_paragraph": 5,
+          "density_normalized_distance": 0.1864
+        },
+        {
+          "target_fact_index": 50,
+          "target_fact": "Die Ernennung erfolgte durch Papst Benedikt XIV.",
+          "target_paragraph": 5,
+          "density_normalized_distance": 0.2261
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 51,
+      "source_fact": "Unter Leos Schriften befinden sich 97 Predigten.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 51,
+          "target_fact": "Die Schriften von Leo enthalten 97 Predigten.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.3957
+        },
+        {
+          "target_fact_index": 54,
+          "target_fact": "Es gibt circa 146 echte Briefe von Leo.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.1326
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 52,
+      "source_fact": "Leos Predigten thematisieren wichtige dogmatische Fragen.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 52,
+          "target_fact": "Diese Predigten behandeln wichtige dogmatische Fragen.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.3154
+        },
+        {
+          "target_fact_index": 55,
+          "target_fact": "Die Briefe zeigen Fragen auf, die zu dieser Zeit diskutiert wurden.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.1371
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 53,
+      "source_fact": "Leo schrieb zahlreiche Briefe.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 53,
+          "target_fact": "Leo hat viele Briefe geschrieben.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.3742
+        },
+        {
+          "target_fact_index": 54,
+          "target_fact": "Es gibt circa 146 echte Briefe von Leo.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.1255
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 54,
+      "source_fact": "Es gibt ca. 146 echte Briefe von Leo.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 54,
+          "target_fact": "Es gibt circa 146 echte Briefe von Leo.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.47
+        },
+        {
+          "target_fact_index": 51,
+          "target_fact": "Die Schriften von Leo enthalten 97 Predigten.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.1178
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 55,
+      "source_fact": "Leos Briefe geben Aufschluss über kirchengeschichtliche Fragen seiner Zeit.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 55,
+          "target_fact": "Die Briefe zeigen Fragen auf, die zu dieser Zeit diskutiert wurden.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.2229
+        },
+        {
+          "target_fact_index": 51,
+          "target_fact": "Die Schriften von Leo enthalten 97 Predigten.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.075
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 56,
+      "source_fact": "Leos Briefe geben Aufschluss über die Vorbereitung des Konzils von Chalcedon.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 56,
+          "target_fact": "Ein Thema der Diskussionen war das Konzil von Chalzedon.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.0696
+        },
+        {
+          "target_fact_index": 57,
+          "target_fact": "Das Konzil von Chalzedon war die größte Bischofsversammlung der Antike.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.0306
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 57,
+      "source_fact": "Leos Briefe geben Aufschluss über die Durchführung des Konzils von Chalcedon.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 56,
+          "target_fact": "Ein Thema der Diskussionen war das Konzil von Chalzedon.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.0881
+        },
+        {
+          "target_fact_index": 57,
+          "target_fact": "Das Konzil von Chalzedon war die größte Bischofsversammlung der Antike.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.0349
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 58,
+      "source_fact": "Leos Briefe geben Aufschluss über die Rezeption des Konzils von Chalcedon.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 56,
+          "target_fact": "Ein Thema der Diskussionen war das Konzil von Chalzedon.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.0967
+        },
+        {
+          "target_fact_index": 57,
+          "target_fact": "Das Konzil von Chalzedon war die größte Bischofsversammlung der Antike.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.0489
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 59,
+      "source_fact": "Das Konzil von Chalcedon war die größte Bischofsversammlung der Antike.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 57,
+          "target_fact": "Das Konzil von Chalzedon war die größte Bischofsversammlung der Antike.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.3925
+        },
+        {
+          "target_fact_index": 58,
+          "target_fact": "Das Konzil von Chalzedon war die wichtigste Bischofsversammlung der Antike.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.3539
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 60,
+      "source_fact": "Das Konzil von Chalcedon war die wichtigste Bischofsversammlung der Antike.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 58,
+          "target_fact": "Das Konzil von Chalzedon war die wichtigste Bischofsversammlung der Antike.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.377
+        },
+        {
+          "target_fact_index": 57,
+          "target_fact": "Das Konzil von Chalzedon war die größte Bischofsversammlung der Antike.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.3752
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 61,
+      "source_fact": "Leos Theologie beschäftigte sich vor allem mit der Person Christi und seiner Mittlerschaft.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 59,
+          "target_fact": "Leo befasste sich theologisch vor allem mit der Person Christi und seiner Mittlerschaft.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.3361
+        },
+        {
+          "target_fact_index": 67,
+          "target_fact": "Ein zentrales Motiv Leos war die Gegenwart Christi in der Kirche.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.1613
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 62,
+      "source_fact": "Leos Theologie stand im Zusammenhang mit dem Konzil von Chalcedon.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 60,
+          "target_fact": "Leo war über römische Legaten am Konzil von Chalzedon beteiligt.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.1701
+        },
+        {
+          "target_fact_index": 63,
+          "target_fact": "Der Glaube von Chalzedon wurde durch Leos Einfluss auch im Osten des Römischen Reiches durchgesetzt.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.1125
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 63,
+      "source_fact": "Einige römische Legaten nahmen im Auftrag Leos am Konzil von Chalcedon teil.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 60,
+          "target_fact": "Leo war über römische Legaten am Konzil von Chalzedon beteiligt.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.2398
+        },
+        {
+          "target_fact_index": 63,
+          "target_fact": "Der Glaube von Chalzedon wurde durch Leos Einfluss auch im Osten des Römischen Reiches durchgesetzt.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.0999
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 64,
+      "source_fact": "Leo bereitete die christologische Formel des Konzils von Chalcedon in seinem Tomus ad Flavianum von 449 entscheidend vor.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 61,
+          "target_fact": "Leos Schrift „Tomus ad Flavianum“ aus dem Jahr 449 diente als wichtige Vorarbeit für die christologischen Formeln des Konzils von Chalzedon.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.2618
+        },
+        {
+          "target_fact_index": 60,
+          "target_fact": "Leo war über römische Legaten am Konzil von Chalzedon beteiligt.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.0552
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 65,
+      "source_fact": "Leo nahm über zahlreiche Briefe an Bischöfe und Mitglieder der Kaiserfamilie Einfluss auf die Durchsetzung und Rezeption des Glaubens von Chalcedon.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 62,
+          "target_fact": "Leo übte durch zahlreiche Briefe an Bischöfe und Mitglieder der Kaiserfamilie großen Einfluss auf die Rezeption und Durchsetzung des Glaubens von Chalzedon aus.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.3836
+        },
+        {
+          "target_fact_index": 60,
+          "target_fact": "Leo war über römische Legaten am Konzil von Chalzedon beteiligt.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.0863
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 66,
+      "source_fact": "Dieser Einfluss erstreckte sich auch auf den Osten des römischen Reiches.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 63,
+          "target_fact": "Der Glaube von Chalzedon wurde durch Leos Einfluss auch im Osten des Römischen Reiches durchgesetzt.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.1423
+        },
+        {
+          "target_fact_index": 65,
+          "target_fact": "Personen, die nur eine dieser Naturen (Gott oder Mensch) anerkennen wollten, wurden als Häretiker verurteilt.",
+          "target_paragraph": 7,
+          "density_normalized_distance": 0.0819
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 67,
+      "source_fact": "Leos Anliegen war die Verteidigung der wahren Gottheit und der wahren Menschheit des einen Christus gegen häretische Einseitigkeiten.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 64,
+          "target_fact": "Leo vertrat den Glauben, dass Christus sowohl Gott als auch Mensch war.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.1161
+        },
+        {
+          "target_fact_index": 67,
+          "target_fact": "Ein zentrales Motiv Leos war die Gegenwart Christi in der Kirche.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.0862
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 68,
+      "source_fact": "Leo griff das Thema der Person Christi in vielen Predigten auf.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 66,
+          "target_fact": "Leo griff das Thema der Natur Christi in vielen Predigten auf und vertiefte seine Auffassungen über die Jahre.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.2661
+        },
+        {
+          "target_fact_index": 59,
+          "target_fact": "Leo befasste sich theologisch vor allem mit der Person Christi und seiner Mittlerschaft.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.1534
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 69,
+      "source_fact": "Leo vertiefte seine Auffassungen zu diesem Thema über die Jahre hinweg.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 66,
+          "target_fact": "Leo griff das Thema der Natur Christi in vielen Predigten auf und vertiefte seine Auffassungen über die Jahre.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.1784
+        },
+        {
+          "target_fact_index": 59,
+          "target_fact": "Leo befasste sich theologisch vor allem mit der Person Christi und seiner Mittlerschaft.",
+          "target_paragraph": 7,
+          "density_normalized_distance": 0.0081
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 70,
+      "source_fact": "Ein zentrales Motiv für Leo war die Gegenwart Christi in der Kirche.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 67,
+          "target_fact": "Ein zentrales Motiv Leos war die Gegenwart Christi in der Kirche.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.4037
+        },
+        {
+          "target_fact_index": 59,
+          "target_fact": "Leo befasste sich theologisch vor allem mit der Person Christi und seiner Mittlerschaft.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.1258
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 71,
+      "source_fact": "Die Gegenwart Christi manifestiert sich für Leo in der Verkündigung des Glaubens, bestehend aus Schrift, Tradition und deren Auslegung.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 68,
+          "target_fact": "Weitere zentrale Motive Leos waren die Verkündigung des Glaubens (Schrift, Tradition und deren Auslegung) sowie die Liturgie (Sakramente und Feste).",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.1347
+        },
+        {
+          "target_fact_index": 67,
+          "target_fact": "Ein zentrales Motiv Leos war die Gegenwart Christi in der Kirche.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.1047
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 72,
+      "source_fact": "Die Gegenwart Christi manifestiert sich für Leo in der Liturgie, insbesondere in Sakramenten und Festen.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 59,
+          "target_fact": "Leo befasste sich theologisch vor allem mit der Person Christi und seiner Mittlerschaft.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.1552
+        },
+        {
+          "target_fact_index": 68,
+          "target_fact": "Weitere zentrale Motive Leos waren die Verkündigung des Glaubens (Schrift, Tradition und deren Auslegung) sowie die Liturgie (Sakramente und Feste).",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.1348
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 73,
+      "source_fact": "Die Gegenwart Christi manifestiert sich für Leo im Leben der organisierten Kirche und des einzelnen Gläubigen.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 67,
+          "target_fact": "Ein zentrales Motiv Leos war die Gegenwart Christi in der Kirche.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.1387
+        },
+        {
+          "target_fact_index": 59,
+          "target_fact": "Leo befasste sich theologisch vor allem mit der Person Christi und seiner Mittlerschaft.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.1056
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 74,
+      "source_fact": "Die Gegenwart Christi manifestiert sich für Leo insbesondere auf dem Konzil.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 67,
+          "target_fact": "Ein zentrales Motiv Leos war die Gegenwart Christi in der Kirche.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.2132
+        },
+        {
+          "target_fact_index": 59,
+          "target_fact": "Leo befasste sich theologisch vor allem mit der Person Christi und seiner Mittlerschaft.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.1209
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 75,
+      "source_fact": "Leo leistete einen der bedeutendsten Beiträge zur Entwicklung der Lehre vom Papsttum.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 69,
+          "target_fact": "Dr Leo het en wichtige Bydreg zur Entwicklig vu dr Lehr vum Papschtdum glaischtet.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.151
+        },
+        {
+          "target_fact_index": 70,
+          "target_fact": "Sini Entwicklig vu dr Lehr isch prägt vu ere persenlige Petrusfremmigkait.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0276
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 76,
+      "source_fact": "Leos Beitrag war geprägt von persönlicher Petrusfrömmigkeit.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 70,
+          "target_fact": "Sini Entwicklig vu dr Lehr isch prägt vu ere persenlige Petrusfremmigkait.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.275
+        },
+        {
+          "target_fact_index": 72,
+          "target_fact": "Dr Bezug zum Petrus isch unter anderem mit Uusdruck vum remische Rächt bschribe wore.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.1223
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 77,
+      "source_fact": "Leos Beitrag war geprägt von der Verehrung für den Apostel im Rom des 5. Jahrhunderts.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 71,
+          "target_fact": "Sini Entwicklig vu dr Lehr isch prägt vu dr Verherig fir dr Aposchtel im Rom vum 5. Johrhundert.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.2636
+        },
+        {
+          "target_fact_index": 70,
+          "target_fact": "Sini Entwicklig vu dr Lehr isch prägt vu ere persenlige Petrusfremmigkait.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0555
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 78,
+      "source_fact": "Leo beleuchtete seine Beziehung zu Petrus unter anderem mit Begriffen des römischen Rechts.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 72,
+          "target_fact": "Dr Bezug zum Petrus isch unter anderem mit Uusdruck vum remische Rächt bschribe wore.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.1205
+        },
+        {
+          "target_fact_index": 75,
+          "target_fact": "Dr Leo het si sälber vum Vorbild vum Petrus verpflichtet gsää.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0395
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 79,
+      "source_fact": "Leo betrachtete und bezeichnete sich als (unwürdiger) Erbe Petri.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 73,
+          "target_fact": "Dr Leo het si sälber as Erb un Stellverdrätter vum Petrus gsääne.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0504
+        },
+        {
+          "target_fact_index": 75,
+          "target_fact": "Dr Leo het si sälber vum Vorbild vum Petrus verpflichtet gsää.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0421
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 80,
+      "source_fact": "Leo betrachtete und bezeichnete sich als Stellvertreter Petri.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 73,
+          "target_fact": "Dr Leo het si sälber as Erb un Stellverdrätter vum Petrus gsääne.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.1361
+        },
+        {
+          "target_fact_index": 75,
+          "target_fact": "Dr Leo het si sälber vum Vorbild vum Petrus verpflichtet gsää.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0842
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 81,
+      "source_fact": "Leo glaubte, die apostolische Vollmacht Petri innezuhaben.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 74,
+          "target_fact": "Dr Leo het d Glarub, dass er d aposchtolisch Vollmacht vum Petrus ghaa het.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.2224
+        },
+        {
+          "target_fact_index": 75,
+          "target_fact": "Dr Leo het si sälber vum Vorbild vum Petrus verpflichtet gsää.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.1215
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 82,
+      "source_fact": "Leo fühlte sich auf das Vorbild Petri verpflichtet.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 75,
+          "target_fact": "Dr Leo het si sälber vum Vorbild vum Petrus verpflichtet gsää.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.2605
+        },
+        {
+          "target_fact_index": 80,
+          "target_fact": "Dr Petrus isch fir dr Leo s Vorbild vu dr Beziehig zum Chrischtus gsii.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.1234
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 83,
+      "source_fact": "Leo vertrat die Autorität des Apostels Petrus und machte ihn dadurch gegenwärtig.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 77,
+          "target_fact": "Dr Leo het d Autoritet vum Petrus in dr Wält verdrätte.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.1345
+        },
+        {
+          "target_fact_index": 74,
+          "target_fact": "Dr Leo het d Glarub, dass er d aposchtolisch Vollmacht vum Petrus ghaa het.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.1234
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 84,
+      "source_fact": "Christus blieb für Leo die Quelle aller Gnade und aller Vollmacht.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 78,
+          "target_fact": "Chrischtus isch für dr Leo d Quälle vu allere Gnad un allere Vollmacht blibe.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.3008
+        },
+        {
+          "target_fact_index": 80,
+          "target_fact": "Dr Petrus isch fir dr Leo s Vorbild vu dr Beziehig zum Chrischtus gsii.",
+          "target_paragraph": 8,
+          "density_normalized_distance": 0.007
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 85,
+      "source_fact": "Leo fühlte sich Christus gegenüber für seine Amtsführung verantwortlich.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 78,
+          "target_fact": "Chrischtus isch für dr Leo d Quälle vu allere Gnad un allere Vollmacht blibe.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.1604
+        },
+        {
+          "target_fact_index": 79,
+          "target_fact": "Dr Leo het si ihm (Chrischtus) gegeniber verantwortli gsää fir sy Amtsfierig.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.1577
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 86,
+      "source_fact": "Petrus war für Leo das Vorbild der Beziehung zu Christus.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 80,
+          "target_fact": "Dr Petrus isch fir dr Leo s Vorbild vu dr Beziehig zum Chrischtus gsii.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.24
+        },
+        {
+          "target_fact_index": 75,
+          "target_fact": "Dr Leo het si sälber vum Vorbild vum Petrus verpflichtet gsää.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.1557
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 87,
+      "source_fact": "Das Amt des römischen Bischofs mit seiner gesamtkirchlichen Bedeutung wurde von der einzigartigen Beziehung zwischen Christus und Petrus getragen.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 81,
+          "target_fact": "S Amt vum remische Bischof isch in dr Bedytig fir di Gsamtchilche us dr Beziehig zwisch em Chrischtus un em Petrus drait gsii.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.2178
+        },
+        {
+          "target_fact_index": 72,
+          "target_fact": "Dr Bezug zum Petrus isch unter anderem mit Uusdruck vum remische Rächt bschribe wore.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0527
+        }
+      ]
+    },
+    {
+      "source_language": "de",
+      "target_language": "als",
+      "source_fact_index": 88,
+      "source_fact": "Leo benötigte den Beistand und das Vorbild Petri, um das Amt des römischen Bischofs angemessen ausüben zu können.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 82,
+          "target_fact": "Dr Leo het s Vorbild vum Petrus bruucht, um s Amt vum remische Bischof aagmäße uusiebe.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.117
+        },
+        {
+          "target_fact_index": 75,
+          "target_fact": "Dr Leo het si sälber vum Vorbild vum Petrus verpflichtet gsää.",
+          "target_paragraph": 8,
+          "density_normalized_distance": -0.0977
+        }
+      ]
+    }
+  ],
+  "als_to_de": [
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 0,
+      "source_fact": "Leo I. wird auch als Leo der Große bezeichnet.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 0,
+          "target_fact": "Leo der Große war als Papst Leo I. bekannt.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1603
+        },
+        {
+          "target_fact_index": 1,
+          "target_fact": "Leo der Große wurde um 400 geboren.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1005
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 1,
+      "source_fact": "Leo I. wurde um 400 geboren.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 1,
+          "target_fact": "Leo der Große wurde um 400 geboren.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.3446
+        },
+        {
+          "target_fact_index": 3,
+          "target_fact": "Leo der Große starb am 10. November 461.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0978
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 2,
+      "source_fact": "Der Geburtsort von Leo I. wird alternativ als Rom oder (laut Liber Pontificalis) in der Toskana angegeben.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 2,
+          "target_fact": "Der Geburtsort von Leo dem Großen war entweder Rom oder – laut dem Liber Pontificalis – die Toskana.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.2768
+        },
+        {
+          "target_fact_index": 1,
+          "target_fact": "Leo der Große wurde um 400 geboren.",
+          "target_paragraph": 0,
+          "density_normalized_distance": 0.0357
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 3,
+      "source_fact": "Leo I. starb am 10. November 461.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 3,
+          "target_fact": "Leo der Große starb am 10. November 461.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.354
+        },
+        {
+          "target_fact_index": 1,
+          "target_fact": "Leo der Große wurde um 400 geboren.",
+          "target_paragraph": 0,
+          "density_normalized_distance": 0.0314
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 4,
+      "source_fact": "Leo I. war vom 29. September 440 bis zu seinem Tod Bischof von Rom und damit Papst.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 4,
+          "target_fact": "Leo der Große war vom 29. September 440 bis zu seinem Tod Bischof von Rom.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.3066
+        },
+        {
+          "target_fact_index": 3,
+          "target_fact": "Leo der Große starb am 10. November 461.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0788
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 5,
+      "source_fact": "Leo I. verteidigte die Lehre der katholischen Kirche.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 5,
+          "target_fact": "Leo der Große verteidigte die Lehre der katholischen Kirche.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.23
+        },
+        {
+          "target_fact_index": 0,
+          "target_fact": "Leo der Große war als Papst Leo I. bekannt.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0204
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 6,
+      "source_fact": "Leo I. war beim Konzil von Chalzedon im Jahr 451 aktiv.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 7,
+          "target_fact": "Die Bekämpfung der Monophysiten und Pelagianer geschah insbesondere während des Konzils von Chalcedon im Jahr 451.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.0866
+        },
+        {
+          "target_fact_index": 1,
+          "target_fact": "Leo der Große wurde um 400 geboren.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.041
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 7,
+      "source_fact": "Leo I. kämpfte gegen die Monophysiten.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 6,
+          "target_fact": "Leo der Große bekämpfte die Monophysiten und Pelagianer.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1983
+        },
+        {
+          "target_fact_index": 3,
+          "target_fact": "Leo der Große starb am 10. November 461.",
+          "target_paragraph": 0,
+          "density_normalized_distance": 0.0264
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 8,
+      "source_fact": "Leo I. kämpfte gegen die Pelagianer.",
+      "source_paragraph": 0,
+      "matches": [
+        {
+          "target_fact_index": 6,
+          "target_fact": "Leo der Große bekämpfte die Monophysiten und Pelagianer.",
+          "target_paragraph": 0,
+          "density_normalized_distance": -0.1669
+        },
+        {
+          "target_fact_index": 1,
+          "target_fact": "Leo der Große wurde um 400 geboren.",
+          "target_paragraph": 0,
+          "density_normalized_distance": 0.0174
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 9,
+      "source_fact": "Die erste Erwähnung der Person erfolgt wahrscheinlich in einem Brief des heiligen Augustinus.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 8,
+          "target_fact": "Er wurde wahrscheinlich erstmals in einem Brief des heiligen Augustinus erwähnt.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.3802
+        },
+        {
+          "target_fact_index": 9,
+          "target_fact": "In diesem Brief wird ein Akolyt namens Leo erwähnt.",
+          "target_paragraph": 1,
+          "density_normalized_distance": 0.0357
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 10,
+      "source_fact": "In diesem Brief schreibt Augustinus über einen Akolythen namens Leo.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 9,
+          "target_fact": "In diesem Brief wird ein Akolyt namens Leo erwähnt.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.3033
+        },
+        {
+          "target_fact_index": 8,
+          "target_fact": "Er wurde wahrscheinlich erstmals in einem Brief des heiligen Augustinus erwähnt.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.0831
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 11,
+      "source_fact": "Leo wirkte als Diakon unter den römischen Päpsten Coelestin I. und Sixtus III.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 10,
+          "target_fact": "Er wirkte als Diakon unter dem römischen Papst Coelestin I.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.2486
+        },
+        {
+          "target_fact_index": 11,
+          "target_fact": "Er wirkte als Diakon unter dem römischen Papst Sixtus III.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.2398
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 12,
+      "source_fact": "In seiner Funktion als Diakon half er bei der Lösung verschiedener kirchlicher und staatspolitischer Probleme.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 13,
+          "target_fact": "In seinem Amt als Diakon half er bei der Lösung verschiedener staatspolitischer Probleme.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.3838
+        },
+        {
+          "target_fact_index": 12,
+          "target_fact": "In seinem Amt als Diakon half er bei der Lösung verschiedener kirchlicher Probleme.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.3442
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 13,
+      "source_fact": "Durch sein Wirken erlangte er einen guten Ruf im Klerus.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 14,
+          "target_fact": "Durch sein Wirken erlangte er einen guten Ruf im Klerus.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.5587
+        },
+        {
+          "target_fact_index": 15,
+          "target_fact": "Durch sein Wirken erlangte er einen guten Ruf bei der Bevölkerung Roms.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.2905
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 14,
+      "source_fact": "Durch sein Wirken erlangte er einen guten Ruf bei der Bevölkerung Roms.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 15,
+          "target_fact": "Durch sein Wirken erlangte er einen guten Ruf bei der Bevölkerung Roms.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.5005
+        },
+        {
+          "target_fact_index": 14,
+          "target_fact": "Durch sein Wirken erlangte er einen guten Ruf im Klerus.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.3488
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 15,
+      "source_fact": "Bei seiner Wahl zum Bischof gab es ein einstimmiges Ergebnis.",
+      "source_paragraph": 1,
+      "matches": [
+        {
+          "target_fact_index": 14,
+          "target_fact": "Durch sein Wirken erlangte er einen guten Ruf im Klerus.",
+          "target_paragraph": 1,
+          "density_normalized_distance": -0.0328
+        },
+        {
+          "target_fact_index": 15,
+          "target_fact": "Durch sein Wirken erlangte er einen guten Ruf bei der Bevölkerung Roms.",
+          "target_paragraph": 1,
+          "density_normalized_distance": 0.0756
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 16,
+      "source_fact": "Dr Leo I. isch dr wichtigscht remisch Bischof vum 5. Johrhundert gsii.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 16,
+          "target_fact": "Leo I. war der bedeutendste römische Bischof des 5. Jahrhunderts.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1237
+        },
+        {
+          "target_fact_index": 17,
+          "target_fact": "In der Zeit von Leo I. stand der römische Primatsanspruch auf seinem ersten Höhepunkt.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0121
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 17,
+      "source_fact": "In dr Zyt vum Leo I. isch dr remisch Primatsaaspruch uf sym erschte Hegschtpunkt gstande.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 17,
+          "target_fact": "In der Zeit von Leo I. stand der römische Primatsanspruch auf seinem ersten Höhepunkt.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1951
+        },
+        {
+          "target_fact_index": 18,
+          "target_fact": "Leo I. griff den römischen Titel des Pontifex auf.",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.0324
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 18,
+      "source_fact": "Dr Leo I. het dr remisch Title vum Pontifex Maximus (oberschte Prieschter) ufgrife.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 18,
+          "target_fact": "Leo I. griff den römischen Titel des Pontifex auf.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1305
+        },
+        {
+          "target_fact_index": 21,
+          "target_fact": "Die Übertragung des Pontifex-Maximus-Titels vom Kaiser auf den Papst ist nicht das Werk von Leo I.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0688
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 19,
+      "source_fact": "Dr Title Pontifex Maximus isch ursprünglech vum Caesar, em Auguschtus un andere Chaise as oberschti Prieschter vum Jupitertämpel gfiert worde.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 21,
+          "target_fact": "Die Übertragung des Pontifex-Maximus-Titels vom Kaiser auf den Papst ist nicht das Werk von Leo I.",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.0035
+        },
+        {
+          "target_fact_index": 20,
+          "target_fact": "Prosper von Aquitanien bezeichnete Leo bereits zu dessen Lebzeiten als „summus sacerdos“ (oberster Priester).",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.0543
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 20,
+      "source_fact": "Dr Leo I. het dr Chrischtus as dr wohr oberscht Pontifex bezeichnet bzw. dr Uusdruck as Synonym fir Bischof bruucht.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 20,
+          "target_fact": "Prosper von Aquitanien bezeichnete Leo bereits zu dessen Lebzeiten als „summus sacerdos“ (oberster Priester).",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0187
+        },
+        {
+          "target_fact_index": 23,
+          "target_fact": "Leos Praxis als Papst lieferte wichtige Grundlagen für die Übertragung des Pontifex-Maximus-Titels auf den Papst.",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.0241
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 21,
+      "source_fact": "Dr Prosper vu Aquitanie het dr Leo I. scho zue däm syne Läbdig „papa“ un „summus sacerdos“ gnännt.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 20,
+          "target_fact": "Prosper von Aquitanien bezeichnete Leo bereits zu dessen Lebzeiten als „summus sacerdos“ (oberster Priester).",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1436
+        },
+        {
+          "target_fact_index": 19,
+          "target_fact": "Prosper von Aquitanien bezeichnete Leo bereits zu dessen Lebzeiten als „papa“.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.127
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 22,
+      "source_fact": "D Iberdragig vum Pontifex Maximus-Titel vum Chaise uf dr Papscht isch nit direkt s Wärch vum Leo I.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 21,
+          "target_fact": "Die Übertragung des Pontifex-Maximus-Titels vom Kaiser auf den Papst ist nicht das Werk von Leo I.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1993
+        },
+        {
+          "target_fact_index": 23,
+          "target_fact": "Leos Praxis als Papst lieferte wichtige Grundlagen für die Übertragung des Pontifex-Maximus-Titels auf den Papst.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.039
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 23,
+      "source_fact": "D Lehr vum Leo I. iber s Petrusamt un sy Praxis as Papscht hän Grundlage fir d Iberdragig vum Pontifex Maximus-Titel gliferet.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 23,
+          "target_fact": "Leos Praxis als Papst lieferte wichtige Grundlagen für die Übertragung des Pontifex-Maximus-Titels auf den Papst.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1495
+        },
+        {
+          "target_fact_index": 22,
+          "target_fact": "Leos Lehre über das Petrusamt lieferte wichtige Grundlagen für die Übertragung des Pontifex-Maximus-Titels auf den Papst.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.122
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 24,
+      "source_fact": "Dr Leo I. het in chilchligi Aaglägehaite z Italie, Gallie, Spanie un Griecheland yygrife.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 25,
+          "target_fact": "Leo I. griff in kirchliche Angelegenheiten in Gallien ein.",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.001
+        },
+        {
+          "target_fact_index": 26,
+          "target_fact": "Leo I. griff in kirchliche Angelegenheiten in Spanien ein.",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.0186
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 25,
+      "source_fact": "Uf em Konzil vu Chalkedon isch Rom ne gwisse Vorrang vor de Bischofssitz Alexandria, Antiochia un Konstantinopel yygruumt worde.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 29,
+          "target_fact": "Die anderen großen Bischofssitze im Osten waren Alexandria, Antiochia, Jerusalem und Konstantinopel.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1382
+        },
+        {
+          "target_fact_index": 28,
+          "target_fact": "Auf dem Konzil von Chalkedon wurde Rom ein gewisser Vorrang vor den anderen großen Bischofssitzen im Osten eingeräumt.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0484
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 26,
+      "source_fact": "Dr Leo I. het mit syne Lehrschryybe, em sognännte Tomus (ep. 28), en wichtige theologisch Bydrag gleischtet.",
+      "source_paragraph": 2,
+      "matches": [
+        {
+          "target_fact_index": 30,
+          "target_fact": "Leo I. verfasste ein großes Lehrschreiben, den sogenannten Tomus (ep. 28).",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.1992
+        },
+        {
+          "target_fact_index": 31,
+          "target_fact": "Der Tomus war Leos wichtiger theologischer Beitrag.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0377
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 27,
+      "source_fact": "Dr Leo hat zu vielen theologischen Streitfragen seine Meinung geäußert.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 32,
+          "target_fact": "Leo äußerte sich vielfach zu theologischen Streitfragen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.1997
+        },
+        {
+          "target_fact_index": 42,
+          "target_fact": "Die genauen Hintergründe der Gesandtschaft zu Attila sind in der Forschung umstritten.",
+          "target_paragraph": 3,
+          "density_normalized_distance": 0.0213
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 28,
+      "source_fact": "Dr Leo kämpfte gegen konkurrierende Lehren im Christentum, wie den Monophysitismus und den Pelagianismus, mittels Verbannungen und Amtsenthebungen.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 33,
+          "target_fact": "Leo bekämpfte konkurrierende Lehren innerhalb des Christentums, wie den Monophysitismus und den Pelagianismus, durch Exkommunikation und Amtsenthebungen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.3249
+        },
+        {
+          "target_fact_index": 36,
+          "target_fact": "Leo verwarf im Jahr 451 den Anspruch Konstantinopels auf Gleichrangigkeit mit Rom.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.0622
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 29,
+      "source_fact": "Dr Leo setzte Hilarius von Arles (401–449) als Metropoliten von Arles ab.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 34,
+          "target_fact": "Leo setzte Hilarius von Arles (401–449), der auf vermeintliche Privilegien pochte, als Metropolit von Arles ab.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.3147
+        },
+        {
+          "target_fact_index": 37,
+          "target_fact": "Im Jahr 452 wurde Rom von den Hunnen unter Attila bedroht.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.0213
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 30,
+      "source_fact": "Dr Leo erreichte, dass Valentinian III. das Primat von Rom anerkannte.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 35,
+          "target_fact": "Valentinian III. erkannte den Primat von Rom an, als er die Dekretalen mit den Reichsgesetzen gleichstellte.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.2443
+        },
+        {
+          "target_fact_index": 36,
+          "target_fact": "Leo verwarf im Jahr 451 den Anspruch Konstantinopels auf Gleichrangigkeit mit Rom.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.0224
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 31,
+      "source_fact": "Valentinian III. stellte die Dekretale mit dem Reichsgesetz gleich.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 35,
+          "target_fact": "Valentinian III. erkannte den Primat von Rom an, als er die Dekretalen mit den Reichsgesetzen gleichstellte.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.2878
+        },
+        {
+          "target_fact_index": 43,
+          "target_fact": "Der Stadtpräfekt Trigetius und der Konsul von 450, Gennadius Avienus, gehörten der Gesandtschaft zu Attila an.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.0334
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 32,
+      "source_fact": "Dr Leo wies 451 den Anspruch des Patriarchen von Konstantinopel auf Gleichrangigkeit mit Rom zurück.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 36,
+          "target_fact": "Leo verwarf im Jahr 451 den Anspruch Konstantinopels auf Gleichrangigkeit mit Rom.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.2955
+        },
+        {
+          "target_fact_index": 35,
+          "target_fact": "Valentinian III. erkannte den Primat von Rom an, als er die Dekretalen mit den Reichsgesetzen gleichstellte.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.07
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 33,
+      "source_fact": "Rom wurde im Jahr 452 von den Hunnen unter Attila bedroht.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 37,
+          "target_fact": "Im Jahr 452 wurde Rom von den Hunnen unter Attila bedroht.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.5094
+        },
+        {
+          "target_fact_index": 40,
+          "target_fact": "Attila befand sich faktisch bereits auf dem Rückzug und war nicht auf dem Weg nach Rom.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.0724
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 34,
+      "source_fact": "Dr Leo begegnete dem Hunnenkönig Attila vor Mantua.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 38,
+          "target_fact": "Leo stellte sich dem Hunnenkönig Attila vor Mantua entgegen.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.3551
+        },
+        {
+          "target_fact_index": 37,
+          "target_fact": "Im Jahr 452 wurde Rom von den Hunnen unter Attila bedroht.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.0205
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 35,
+      "source_fact": "Dr Leo verhinderte wahrscheinlich durch die Zahlung eines hohen Geldbetrags das Vordringen der Hunnen Richtung Rom.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 39,
+          "target_fact": "Einige Quellen berichten, dass Leo ein Vordringen der Hunnen in Richtung Rom wahrscheinlich durch die Zahlung eines hohen Geldbetrags verhinderte.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.3149
+        },
+        {
+          "target_fact_index": 45,
+          "target_fact": "Drei Jahre nach der Bedrohung durch die Hunnen hielt Leo den Vandalenkönig Geiserich von einem allzu gewaltsamen Vorgehen bei der Plünderung Roms ab.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.0849
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 36,
+      "source_fact": "Attila befand sich faktisch bereits auf dem Rückzug und war nicht auf dem Weg nach Rom.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 40,
+          "target_fact": "Attila befand sich faktisch bereits auf dem Rückzug und war nicht auf dem Weg nach Rom.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.5461
+        },
+        {
+          "target_fact_index": 42,
+          "target_fact": "Die genauen Hintergründe der Gesandtschaft zu Attila sind in der Forschung umstritten.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.039
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 37,
+      "source_fact": "Ein Teil der Berichte übertreibt vermutlich die Rolle von Leo bei der Begegnung mit Attila.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 41,
+          "target_fact": "Einige Berichte überheben die Rolle Leos im Zusammenhang mit Attila vermutlich.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.3246
+        },
+        {
+          "target_fact_index": 42,
+          "target_fact": "Die genauen Hintergründe der Gesandtschaft zu Attila sind in der Forschung umstritten.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.0841
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 38,
+      "source_fact": "Die genauen Hintergründe dieser Gesandtschaft sind in der Forschung umstritten.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 42,
+          "target_fact": "Die genauen Hintergründe der Gesandtschaft zu Attila sind in der Forschung umstritten.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.4387
+        },
+        {
+          "target_fact_index": 37,
+          "target_fact": "Im Jahr 452 wurde Rom von den Hunnen unter Attila bedroht.",
+          "target_paragraph": 3,
+          "density_normalized_distance": 0.1882
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 39,
+      "source_fact": "Dr Leo handelte nicht allein, da ihm hochrangige kaiserliche Beamte beigestellt waren.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 44,
+          "target_fact": "Leo handelte bei der Gesandtschaft zu Attila offenbar nicht allein.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.0053
+        },
+        {
+          "target_fact_index": 39,
+          "target_fact": "Einige Quellen berichten, dass Leo ein Vordringen der Hunnen in Richtung Rom wahrscheinlich durch die Zahlung eines hohen Geldbetrags verhinderte.",
+          "target_paragraph": 3,
+          "density_normalized_distance": 0.0832
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 40,
+      "source_fact": "Zu den Begleitern gehörten der Prätorianerpräfekt Trygetius und der Konsul von 450, Gennadius Avienus.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 43,
+          "target_fact": "Der Stadtpräfekt Trigetius und der Konsul von 450, Gennadius Avienus, gehörten der Gesandtschaft zu Attila an.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.4209
+        },
+        {
+          "target_fact_index": 37,
+          "target_fact": "Im Jahr 452 wurde Rom von den Hunnen unter Attila bedroht.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.0094
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 41,
+      "source_fact": "Drei Jahre nach der Begegnung mit Attila konnte Dr Leo die Gewalt bei der Belagerung Roms durch die Vandalen unter König Geiserich mäßigen.",
+      "source_paragraph": 3,
+      "matches": [
+        {
+          "target_fact_index": 45,
+          "target_fact": "Drei Jahre nach der Bedrohung durch die Hunnen hielt Leo den Vandalenkönig Geiserich von einem allzu gewaltsamen Vorgehen bei der Plünderung Roms ab.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.2418
+        },
+        {
+          "target_fact_index": 37,
+          "target_fact": "Im Jahr 452 wurde Rom von den Hunnen unter Attila bedroht.",
+          "target_paragraph": 3,
+          "density_normalized_distance": -0.075
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 42,
+      "source_fact": "In der Literatur und im Internet wird oft behauptet, dass Leo um 450 den Titel Patriarcha Occidentis (Patriarch des Abendlandes) für das Papsttum einführte.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 19,
+          "target_fact": "Prosper von Aquitanien bezeichnete Leo bereits zu dessen Lebzeiten als „papa“.",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.0117
+        },
+        {
+          "target_fact_index": 20,
+          "target_fact": "Prosper von Aquitanien bezeichnete Leo bereits zu dessen Lebzeiten als „summus sacerdos“ (oberster Priester).",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.0336
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 43,
+      "source_fact": "Diese Behauptung ist nicht korrekt.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 29,
+          "target_fact": "Die anderen großen Bischofssitze im Osten waren Alexandria, Antiochia, Jerusalem und Konstantinopel.",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.1447
+        },
+        {
+          "target_fact_index": 21,
+          "target_fact": "Die Übertragung des Pontifex-Maximus-Titels vom Kaiser auf den Papst ist nicht das Werk von Leo I.",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.1758
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 44,
+      "source_fact": "Der Titel Patriarcha Occidentis findet sich bereits in einem Brief von Kaiser Theodosius II. an Leo.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 21,
+          "target_fact": "Die Übertragung des Pontifex-Maximus-Titels vom Kaiser auf den Papst ist nicht das Werk von Leo I.",
+          "target_paragraph": 2,
+          "density_normalized_distance": -0.0443
+        },
+        {
+          "target_fact_index": 29,
+          "target_fact": "Die anderen großen Bischofssitze im Osten waren Alexandria, Antiochia, Jerusalem und Konstantinopel.",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.0098
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 45,
+      "source_fact": "Leo selbst hat diesen Titel nie verwendet.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 19,
+          "target_fact": "Prosper von Aquitanien bezeichnete Leo bereits zu dessen Lebzeiten als „papa“.",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.0757
+        },
+        {
+          "target_fact_index": 20,
+          "target_fact": "Prosper von Aquitanien bezeichnete Leo bereits zu dessen Lebzeiten als „summus sacerdos“ (oberster Priester).",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.1198
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 46,
+      "source_fact": "Der Brief des Kaisers ist zusammen mit dem Brief von Leo überliefert worden.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 21,
+          "target_fact": "Die Übertragung des Pontifex-Maximus-Titels vom Kaiser auf den Papst ist nicht das Werk von Leo I.",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.0005
+        },
+        {
+          "target_fact_index": 23,
+          "target_fact": "Leos Praxis als Papst lieferte wichtige Grundlagen für die Übertragung des Pontifex-Maximus-Titels auf den Papst.",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.0709
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 47,
+      "source_fact": "Papst Benedikt XVI. hat den Titel ab 2006 nicht mehr geführt.",
+      "source_paragraph": 4,
+      "matches": [
+        {
+          "target_fact_index": 21,
+          "target_fact": "Die Übertragung des Pontifex-Maximus-Titels vom Kaiser auf den Papst ist nicht das Werk von Leo I.",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.0066
+        },
+        {
+          "target_fact_index": 29,
+          "target_fact": "Die anderen großen Bischofssitze im Osten waren Alexandria, Antiochia, Jerusalem und Konstantinopel.",
+          "target_paragraph": 2,
+          "density_normalized_distance": 0.06
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 48,
+      "source_fact": "Leo I. wurde zum Chilchelehrer ernannt",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 46,
+          "target_fact": "Leo I. wurde im Jahre 1754 zum Kirchenlehrer ernannt.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.0579
+        },
+        {
+          "target_fact_index": 47,
+          "target_fact": "Papst Benedikt XIV. ernannte Leo I. zum Kirchenlehrer.",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.0065
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 49,
+      "source_fact": "Die Ernennung erfolgte im Jahr 1754",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 46,
+          "target_fact": "Leo I. wurde im Jahre 1754 zum Kirchenlehrer ernannt.",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.0317
+        },
+        {
+          "target_fact_index": 49,
+          "target_fact": "Die Gebrüder Ballerini erstellten diese Ausgabe im Auftrag von Papst Benedikt XIV.",
+          "target_paragraph": 4,
+          "density_normalized_distance": 0.0667
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 50,
+      "source_fact": "Die Ernennung erfolgte durch Papst Benedikt XIV.",
+      "source_paragraph": 5,
+      "matches": [
+        {
+          "target_fact_index": 49,
+          "target_fact": "Die Gebrüder Ballerini erstellten diese Ausgabe im Auftrag von Papst Benedikt XIV.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.2353
+        },
+        {
+          "target_fact_index": 47,
+          "target_fact": "Papst Benedikt XIV. ernannte Leo I. zum Kirchenlehrer.",
+          "target_paragraph": 4,
+          "density_normalized_distance": -0.0219
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 51,
+      "source_fact": "Die Schriften von Leo enthalten 97 Predigten.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 51,
+          "target_fact": "Unter Leos Schriften befinden sich 97 Predigten.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.4539
+        },
+        {
+          "target_fact_index": 54,
+          "target_fact": "Es gibt ca. 146 echte Briefe von Leo.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.1496
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 52,
+      "source_fact": "Diese Predigten behandeln wichtige dogmatische Fragen.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 52,
+          "target_fact": "Leos Predigten thematisieren wichtige dogmatische Fragen.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.2202
+        },
+        {
+          "target_fact_index": 51,
+          "target_fact": "Unter Leos Schriften befinden sich 97 Predigten.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.0198
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 53,
+      "source_fact": "Leo hat viele Briefe geschrieben.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 53,
+          "target_fact": "Leo schrieb zahlreiche Briefe.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.3451
+        },
+        {
+          "target_fact_index": 54,
+          "target_fact": "Es gibt ca. 146 echte Briefe von Leo.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.1285
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 54,
+      "source_fact": "Es gibt circa 146 echte Briefe von Leo.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 54,
+          "target_fact": "Es gibt ca. 146 echte Briefe von Leo.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.4637
+        },
+        {
+          "target_fact_index": 51,
+          "target_fact": "Unter Leos Schriften befinden sich 97 Predigten.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.1527
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 55,
+      "source_fact": "Die Briefe zeigen Fragen auf, die zu dieser Zeit diskutiert wurden.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 55,
+          "target_fact": "Leos Briefe geben Aufschluss über kirchengeschichtliche Fragen seiner Zeit.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.059
+        },
+        {
+          "target_fact_index": 52,
+          "target_fact": "Leos Predigten thematisieren wichtige dogmatische Fragen.",
+          "target_paragraph": 5,
+          "density_normalized_distance": 0.0353
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 56,
+      "source_fact": "Ein Thema der Diskussionen war das Konzil von Chalzedon.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 60,
+          "target_fact": "Das Konzil von Chalcedon war die wichtigste Bischofsversammlung der Antike.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.1167
+        },
+        {
+          "target_fact_index": 59,
+          "target_fact": "Das Konzil von Chalcedon war die größte Bischofsversammlung der Antike.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.1058
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 57,
+      "source_fact": "Das Konzil von Chalzedon war die größte Bischofsversammlung der Antike.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 59,
+          "target_fact": "Das Konzil von Chalcedon war die größte Bischofsversammlung der Antike.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.4295
+        },
+        {
+          "target_fact_index": 60,
+          "target_fact": "Das Konzil von Chalcedon war die wichtigste Bischofsversammlung der Antike.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.3972
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 58,
+      "source_fact": "Das Konzil von Chalzedon war die wichtigste Bischofsversammlung der Antike.",
+      "source_paragraph": 6,
+      "matches": [
+        {
+          "target_fact_index": 60,
+          "target_fact": "Das Konzil von Chalcedon war die wichtigste Bischofsversammlung der Antike.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.4139
+        },
+        {
+          "target_fact_index": 59,
+          "target_fact": "Das Konzil von Chalcedon war die größte Bischofsversammlung der Antike.",
+          "target_paragraph": 5,
+          "density_normalized_distance": -0.4059
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 59,
+      "source_fact": "Leo befasste sich theologisch vor allem mit der Person Christi und seiner Mittlerschaft.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 61,
+          "target_fact": "Leos Theologie beschäftigte sich vor allem mit der Person Christi und seiner Mittlerschaft.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.2819
+        },
+        {
+          "target_fact_index": 72,
+          "target_fact": "Die Gegenwart Christi manifestiert sich für Leo in der Liturgie, insbesondere in Sakramenten und Festen.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.1647
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 60,
+      "source_fact": "Leo war über römische Legaten am Konzil von Chalzedon beteiligt.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 63,
+          "target_fact": "Einige römische Legaten nahmen im Auftrag Leos am Konzil von Chalcedon teil.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.2141
+        },
+        {
+          "target_fact_index": 62,
+          "target_fact": "Leos Theologie stand im Zusammenhang mit dem Konzil von Chalcedon.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.0847
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 61,
+      "source_fact": "Leos Schrift „Tomus ad Flavianum“ aus dem Jahr 449 diente als wichtige Vorarbeit für die christologischen Formeln des Konzils von Chalzedon.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 64,
+          "target_fact": "Leo bereitete die christologische Formel des Konzils von Chalcedon in seinem Tomus ad Flavianum von 449 entscheidend vor.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.2519
+        },
+        {
+          "target_fact_index": 65,
+          "target_fact": "Leo nahm über zahlreiche Briefe an Bischöfe und Mitglieder der Kaiserfamilie Einfluss auf die Durchsetzung und Rezeption des Glaubens von Chalcedon.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.0337
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 62,
+      "source_fact": "Leo übte durch zahlreiche Briefe an Bischöfe und Mitglieder der Kaiserfamilie großen Einfluss auf die Rezeption und Durchsetzung des Glaubens von Chalzedon aus.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 65,
+          "target_fact": "Leo nahm über zahlreiche Briefe an Bischöfe und Mitglieder der Kaiserfamilie Einfluss auf die Durchsetzung und Rezeption des Glaubens von Chalcedon.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.3404
+        },
+        {
+          "target_fact_index": 63,
+          "target_fact": "Einige römische Legaten nahmen im Auftrag Leos am Konzil von Chalcedon teil.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.0439
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 63,
+      "source_fact": "Der Glaube von Chalzedon wurde durch Leos Einfluss auch im Osten des Römischen Reiches durchgesetzt.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 66,
+          "target_fact": "Dieser Einfluss erstreckte sich auch auf den Osten des römischen Reiches.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.1929
+        },
+        {
+          "target_fact_index": 63,
+          "target_fact": "Einige römische Legaten nahmen im Auftrag Leos am Konzil von Chalcedon teil.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.0385
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 64,
+      "source_fact": "Leo vertrat den Glauben, dass Christus sowohl Gott als auch Mensch war.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 67,
+          "target_fact": "Leos Anliegen war die Verteidigung der wahren Gottheit und der wahren Menschheit des einen Christus gegen häretische Einseitigkeiten.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.1029
+        },
+        {
+          "target_fact_index": 73,
+          "target_fact": "Die Gegenwart Christi manifestiert sich für Leo im Leben der organisierten Kirche und des einzelnen Gläubigen.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.0836
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 65,
+      "source_fact": "Personen, die nur eine dieser Naturen (Gott oder Mensch) anerkennen wollten, wurden als Häretiker verurteilt.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 67,
+          "target_fact": "Leos Anliegen war die Verteidigung der wahren Gottheit und der wahren Menschheit des einen Christus gegen häretische Einseitigkeiten.",
+          "target_paragraph": 6,
+          "density_normalized_distance": 0.1186
+        },
+        {
+          "target_fact_index": 66,
+          "target_fact": "Dieser Einfluss erstreckte sich auch auf den Osten des römischen Reiches.",
+          "target_paragraph": 6,
+          "density_normalized_distance": 0.1512
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 66,
+      "source_fact": "Leo griff das Thema der Natur Christi in vielen Predigten auf und vertiefte seine Auffassungen über die Jahre.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 68,
+          "target_fact": "Leo griff das Thema der Person Christi in vielen Predigten auf.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.1739
+        },
+        {
+          "target_fact_index": 69,
+          "target_fact": "Leo vertiefte seine Auffassungen zu diesem Thema über die Jahre hinweg.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.145
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 67,
+      "source_fact": "Ein zentrales Motiv Leos war die Gegenwart Christi in der Kirche.",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 70,
+          "target_fact": "Ein zentrales Motiv für Leo war die Gegenwart Christi in der Kirche.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.3023
+        },
+        {
+          "target_fact_index": 74,
+          "target_fact": "Die Gegenwart Christi manifestiert sich für Leo insbesondere auf dem Konzil.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.195
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 68,
+      "source_fact": "Weitere zentrale Motive Leos waren die Verkündigung des Glaubens (Schrift, Tradition und deren Auslegung) sowie die Liturgie (Sakramente und Feste).",
+      "source_paragraph": 7,
+      "matches": [
+        {
+          "target_fact_index": 71,
+          "target_fact": "Die Gegenwart Christi manifestiert sich für Leo in der Verkündigung des Glaubens, bestehend aus Schrift, Tradition und deren Auslegung.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.1201
+        },
+        {
+          "target_fact_index": 72,
+          "target_fact": "Die Gegenwart Christi manifestiert sich für Leo in der Liturgie, insbesondere in Sakramenten und Festen.",
+          "target_paragraph": 6,
+          "density_normalized_distance": -0.119
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 69,
+      "source_fact": "Dr Leo het en wichtige Bydreg zur Entwicklig vu dr Lehr vum Papschtdum glaischtet.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 75,
+          "target_fact": "Leo leistete einen der bedeutendsten Beiträge zur Entwicklung der Lehre vom Papsttum.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.0582
+        },
+        {
+          "target_fact_index": 82,
+          "target_fact": "Leo fühlte sich auf das Vorbild Petri verpflichtet.",
+          "target_paragraph": 7,
+          "density_normalized_distance": 0.0544
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 70,
+      "source_fact": "Sini Entwicklig vu dr Lehr isch prägt vu ere persenlige Petrusfremmigkait.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 76,
+          "target_fact": "Leos Beitrag war geprägt von persönlicher Petrusfrömmigkeit.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.0227
+        },
+        {
+          "target_fact_index": 82,
+          "target_fact": "Leo fühlte sich auf das Vorbild Petri verpflichtet.",
+          "target_paragraph": 7,
+          "density_normalized_distance": 0.1544
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 71,
+      "source_fact": "Sini Entwicklig vu dr Lehr isch prägt vu dr Verherig fir dr Aposchtel im Rom vum 5. Johrhundert.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 77,
+          "target_fact": "Leos Beitrag war geprägt von der Verehrung für den Apostel im Rom des 5. Jahrhunderts.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.028
+        },
+        {
+          "target_fact_index": 82,
+          "target_fact": "Leo fühlte sich auf das Vorbild Petri verpflichtet.",
+          "target_paragraph": 7,
+          "density_normalized_distance": 0.2587
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 72,
+      "source_fact": "Dr Bezug zum Petrus isch unter anderem mit Uusdruck vum remische Rächt bschribe wore.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 76,
+          "target_fact": "Leos Beitrag war geprägt von persönlicher Petrusfrömmigkeit.",
+          "target_paragraph": 7,
+          "density_normalized_distance": 0.0362
+        },
+        {
+          "target_fact_index": 87,
+          "target_fact": "Das Amt des römischen Bischofs mit seiner gesamtkirchlichen Bedeutung wurde von der einzigartigen Beziehung zwischen Christus und Petrus getragen.",
+          "target_paragraph": 7,
+          "density_normalized_distance": 0.0832
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 73,
+      "source_fact": "Dr Leo het si sälber as Erb un Stellverdrätter vum Petrus gsääne.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 80,
+          "target_fact": "Leo betrachtete und bezeichnete sich als Stellvertreter Petri.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.1366
+        },
+        {
+          "target_fact_index": 83,
+          "target_fact": "Leo vertrat die Autorität des Apostels Petrus und machte ihn dadurch gegenwärtig.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.0675
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 74,
+      "source_fact": "Dr Leo het d Glarub, dass er d aposchtolisch Vollmacht vum Petrus ghaa het.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 81,
+          "target_fact": "Leo glaubte, die apostolische Vollmacht Petri innezuhaben.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.2123
+        },
+        {
+          "target_fact_index": 83,
+          "target_fact": "Leo vertrat die Autorität des Apostels Petrus und machte ihn dadurch gegenwärtig.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.1209
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 75,
+      "source_fact": "Dr Leo het si sälber vum Vorbild vum Petrus verpflichtet gsää.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 82,
+          "target_fact": "Leo fühlte sich auf das Vorbild Petri verpflichtet.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.2629
+        },
+        {
+          "target_fact_index": 81,
+          "target_fact": "Leo glaubte, die apostolische Vollmacht Petri innezuhaben.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.0734
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 76,
+      "source_fact": "Dr Leo het dr Aaspruch vum Petrus an s Papschtamt gsää.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 82,
+          "target_fact": "Leo fühlte sich auf das Vorbild Petri verpflichtet.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.1013
+        },
+        {
+          "target_fact_index": 81,
+          "target_fact": "Leo glaubte, die apostolische Vollmacht Petri innezuhaben.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.0719
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 77,
+      "source_fact": "Dr Leo het d Autoritet vum Petrus in dr Wält verdrätte.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 83,
+          "target_fact": "Leo vertrat die Autorität des Apostels Petrus und machte ihn dadurch gegenwärtig.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.1342
+        },
+        {
+          "target_fact_index": 81,
+          "target_fact": "Leo glaubte, die apostolische Vollmacht Petri innezuhaben.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.1111
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 78,
+      "source_fact": "Chrischtus isch für dr Leo d Quälle vu allere Gnad un allere Vollmacht blibe.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 84,
+          "target_fact": "Christus blieb für Leo die Quelle aller Gnade und aller Vollmacht.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.1739
+        },
+        {
+          "target_fact_index": 85,
+          "target_fact": "Leo fühlte sich Christus gegenüber für seine Amtsführung verantwortlich.",
+          "target_paragraph": 7,
+          "density_normalized_distance": 0.0272
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 79,
+      "source_fact": "Dr Leo het si ihm (Chrischtus) gegeniber verantwortli gsää fir sy Amtsfierig.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 85,
+          "target_fact": "Leo fühlte sich Christus gegenüber für seine Amtsführung verantwortlich.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.0671
+        },
+        {
+          "target_fact_index": 83,
+          "target_fact": "Leo vertrat die Autorität des Apostels Petrus und machte ihn dadurch gegenwärtig.",
+          "target_paragraph": 7,
+          "density_normalized_distance": 0.0275
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 80,
+      "source_fact": "Dr Petrus isch fir dr Leo s Vorbild vu dr Beziehig zum Chrischtus gsii.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 86,
+          "target_fact": "Petrus war für Leo das Vorbild der Beziehung zu Christus.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.1183
+        },
+        {
+          "target_fact_index": 82,
+          "target_fact": "Leo fühlte sich auf das Vorbild Petri verpflichtet.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.1044
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 81,
+      "source_fact": "S Amt vum remische Bischof isch in dr Bedytig fir di Gsamtchilche us dr Beziehig zwisch em Chrischtus un em Petrus drait gsii.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 87,
+          "target_fact": "Das Amt des römischen Bischofs mit seiner gesamtkirchlichen Bedeutung wurde von der einzigartigen Beziehung zwischen Christus und Petrus getragen.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.0996
+        },
+        {
+          "target_fact_index": 88,
+          "target_fact": "Leo benötigte den Beistand und das Vorbild Petri, um das Amt des römischen Bischofs angemessen ausüben zu können.",
+          "target_paragraph": 7,
+          "density_normalized_distance": 0.1495
+        }
+      ]
+    },
+    {
+      "source_language": "als",
+      "target_language": "de",
+      "source_fact_index": 82,
+      "source_fact": "Dr Leo het s Vorbild vum Petrus bruucht, um s Amt vum remische Bischof aagmäße uusiebe.",
+      "source_paragraph": 8,
+      "matches": [
+        {
+          "target_fact_index": 82,
+          "target_fact": "Leo fühlte sich auf das Vorbild Petri verpflichtet.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.1294
+        },
+        {
+          "target_fact_index": 83,
+          "target_fact": "Leo vertrat die Autorität des Apostels Petrus und machte ihn dadurch gegenwärtig.",
+          "target_paragraph": 7,
+          "density_normalized_distance": -0.1223
+        }
+      ]
+    }
+  ]
+}
